@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "7708036394039397654",
+    "url": "https://www.tiktok.com/@fruitdeguerre/video/7708036394039397654",
+    "compte": "fruitdeguerre",
+    "description": "Kaïs contre Ilyes… qui gagne ? 👀 Partie 3 ? #fruitstory #histoireia #boxe #lycee #partie2",
+    "vues": 840500,
+    "likes": 151200,
+    "commentaires": 2164,
+    "partages": 924,
+    "date": "20261114",
+    "duree": 68.6,
+    "musique": "son original - Fruit de Guerre",
+    "taux_likes": 17.99,
+    "taux_commentaires": 0.257
+  },
+  "langue": "fr",
+  "texte_complet": "Ton petit frère est parti en chialant. Et toi, tu fais quoi, la victime ? Tu voulais savoir ce que c'était ? Regarde bien. Portes tes mains et bats-toi ! Derrière toi, tu me cherchais où ? Tout le lycée à la vidéo, Ilyes. Même ton coach l'a vu. Il a touché à Lychee. Je regrette rien. Cousin, j'ai besoin de toi. C'est grave. T'as perdu. Ferme-la. Je passe demain.",
+  "accroche_3s": "Ton petit frère est parti en chialant. Et toi, tu fais quoi, la",
+  "fin_5s": "T 'as perdu. Ferme -la. Je passe demain.",
+  "mots_par_seconde": 1.12,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 22,
+  "duree_moyenne_plan": 3.12,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 3.6,
+      "texte": "Ton petit frère est parti en chialant. Et toi, tu fais quoi, la victime ?"
+    },
+    {
+      "debut": 4.44,
+      "fin": 6.76,
+      "texte": "Tu voulais savoir ce que c'était ? Regarde bien."
+    },
+    {
+      "debut": 29.14,
+      "fin": 30.62,
+      "texte": "Portes tes mains et bats-toi !"
+    },
+    {
+      "debut": 39.01,
+      "fin": 41.09,
+      "texte": "Derrière toi, tu me cherchais où ?"
+    },
+    {
+      "debut": 47.15,
+      "fin": 50.61,
+      "texte": "Tout le lycée à la vidéo, Ilyes. Même ton coach l'a vu."
+    },
+    {
+      "debut": 51.83,
+      "fin": 54.31,
+      "texte": "Il a touché à Lychee. Je regrette rien."
+    },
+    {
+      "debut": 57.82,
+      "fin": 62.06,
+      "texte": "Cousin, j'ai besoin de toi. C'est grave."
+    },
+    {
+      "debut": 63.88,
+      "fin": 66.22,
+      "texte": "T'as perdu. Ferme-la. Je passe demain."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 2.02,
+      "duree": 2.02
+    },
+    {
+      "n": 2,
+      "debut": 2.02,
+      "fin": 3.65,
+      "duree": 1.63
+    },
+    {
+      "n": 3,
+      "debut": 3.65,
+      "fin": 9.02,
+      "duree": 5.37
+    },
+    {
+      "n": 4,
+      "debut": 9.02,
+      "fin": 10.08,
+      "duree": 1.07
+    },
+    {
+      "n": 5,
+      "debut": 10.08,
+      "fin": 12.05,
+      "duree": 1.97
+    },
+    {
+      "n": 6,
+      "debut": 12.05,
+      "fin": 13.05,
+      "duree": 1.0
+    },
+    {
+      "n": 7,
+      "debut": 13.05,
+      "fin": 14.58,
+      "duree": 1.53
+    },
+    {
+      "n": 8,
+      "debut": 14.58,
+      "fin": 17.75,
+      "duree": 3.17
+    },
+    {
+      "n": 9,
+      "debut": 17.75,
+      "fin": 20.62,
+      "duree": 2.87
+    },
+    {
+      "n": 10,
+      "debut": 20.62,
+      "fin": 22.45,
+      "duree": 1.83
+    },
+    {
+      "n": 11,
+      "debut": 22.45,
+      "fin": 25.32,
+      "duree": 2.87
+    },
+    {
+      "n": 12,
+      "debut": 25.32,
+      "fin": 26.62,
+      "duree": 1.3
+    },
+    {
+      "n": 13,
+      "debut": 26.62,
+      "fin": 28.82,
+      "duree": 2.2
+    },
+    {
+      "n": 14,
+      "debut": 28.82,
+      "fin": 30.2,
+      "duree": 1.38
+    },
+    {
+      "n": 15,
+      "debut": 30.2,
+      "fin": 31.38,
+      "duree": 1.18
+    },
+    {
+      "n": 16,
+      "debut": 31.38,
+      "fin": 34.18,
+      "duree": 2.8
+    },
+    {
+      "n": 17,
+      "debut": 34.18,
+      "fin": 35.52,
+      "duree": 1.33
+    },
+    {
+      "n": 18,
+      "debut": 35.52,
+      "fin": 37.77,
+      "duree": 2.25
+    },
+    {
+      "n": 19,
+      "debut": 37.77,
+      "fin": 40.88,
+      "duree": 3.12
+    },
+    {
+      "n": 20,
+      "debut": 40.88,
+      "fin": 55.42,
+      "duree": 14.53
+    },
+    {
+      "n": 21,
+      "debut": 55.42,
+      "fin": 56.52,
+      "duree": 1.1
+    },
+    {
+      "n": 22,
+      "debut": 56.52,
+      "fin": 68.64,
+      "duree": 12.12
+    }
+  ]
+}

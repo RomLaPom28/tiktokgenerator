@@ -1,0 +1,587 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.75,
+      "fin": 4.53,
+      "texte": "Si elle la change vraiment, on le saura."
+    },
+    {
+      "debut": 7.73,
+      "fin": 12.49,
+      "texte": "Oh mon petit ange, viens voir Tata, on va passer une journée magique."
+    },
+    {
+      "debut": 15.27,
+      "fin": 16.93,
+      "texte": "Regardez, tout est déjà prévu."
+    },
+    {
+      "debut": 17.43,
+      "fin": 20.07,
+      "texte": "Trois changements, tout est noté, tout est contrôlé."
+    },
+    {
+      "debut": 20.41,
+      "fin": 22.13,
+      "texte": "Vous pouvez partir l'esprit tranquille."
+    },
+    {
+      "debut": 22.51,
+      "fin": 23.41,
+      "texte": "Merci, c'est parfait."
+    },
+    {
+      "debut": 26.18,
+      "fin": 28.1,
+      "texte": "Ça va masquer l'odeur."
+    },
+    {
+      "debut": 28.24,
+      "fin": 29.62,
+      "texte": "De toute façon, il dira rien."
+    },
+    {
+      "debut": 31.72,
+      "fin": 33.48,
+      "texte": "Il a été adorable, comme d'habitude."
+    },
+    {
+      "debut": 33.68,
+      "fin": 34.74,
+      "texte": "Regardez les trois coches."
+    },
+    {
+      "debut": 35.18,
+      "fin": 36.18,
+      "texte": "Merci, à demain."
+    },
+    {
+      "debut": 40.06,
+      "fin": 42.22,
+      "texte": "Pourquoi tu sens si fort la lavande ?"
+    },
+    {
+      "debut": 43.12,
+      "fin": 49.42,
+      "texte": "Qu'est-ce qu'elle t'a fait ?"
+    },
+    {
+      "debut": 49.42,
+      "fin": 50.92,
+      "texte": "Elle a jamais été changée."
+    },
+    {
+      "debut": 51.26,
+      "fin": 52.3,
+      "texte": "Elle m'a menti en face."
+    },
+    {
+      "debut": 55.56,
+      "fin": 56.32,
+      "texte": "Je saurais tout."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.75,
+      "fin": 1.33,
+      "mot": "Si"
+    },
+    {
+      "debut": 1.33,
+      "fin": 1.49,
+      "mot": "elle"
+    },
+    {
+      "debut": 1.49,
+      "fin": 1.69,
+      "mot": "la"
+    },
+    {
+      "debut": 1.69,
+      "fin": 1.89,
+      "mot": "change"
+    },
+    {
+      "debut": 1.89,
+      "fin": 2.47,
+      "mot": "vraiment,"
+    },
+    {
+      "debut": 3.59,
+      "fin": 3.73,
+      "mot": "on"
+    },
+    {
+      "debut": 3.73,
+      "fin": 3.95,
+      "mot": "le"
+    },
+    {
+      "debut": 3.95,
+      "fin": 4.53,
+      "mot": "saura."
+    },
+    {
+      "debut": 7.73,
+      "fin": 7.91,
+      "mot": "Oh"
+    },
+    {
+      "debut": 7.91,
+      "fin": 8.09,
+      "mot": "mon"
+    },
+    {
+      "debut": 8.09,
+      "fin": 8.49,
+      "mot": "petit"
+    },
+    {
+      "debut": 8.49,
+      "fin": 8.81,
+      "mot": "ange,"
+    },
+    {
+      "debut": 9.03,
+      "fin": 9.19,
+      "mot": "viens"
+    },
+    {
+      "debut": 9.19,
+      "fin": 9.45,
+      "mot": "voir"
+    },
+    {
+      "debut": 9.45,
+      "fin": 9.87,
+      "mot": "Tata,"
+    },
+    {
+      "debut": 10.43,
+      "fin": 10.59,
+      "mot": "on"
+    },
+    {
+      "debut": 10.59,
+      "fin": 10.75,
+      "mot": "va"
+    },
+    {
+      "debut": 10.75,
+      "fin": 11.03,
+      "mot": "passer"
+    },
+    {
+      "debut": 11.03,
+      "fin": 11.27,
+      "mot": "une"
+    },
+    {
+      "debut": 11.27,
+      "fin": 11.53,
+      "mot": "journée"
+    },
+    {
+      "debut": 11.53,
+      "fin": 12.49,
+      "mot": "magique."
+    },
+    {
+      "debut": 15.27,
+      "fin": 15.79,
+      "mot": "Regardez,"
+    },
+    {
+      "debut": 15.81,
+      "fin": 15.97,
+      "mot": "tout"
+    },
+    {
+      "debut": 15.97,
+      "fin": 16.17,
+      "mot": "est"
+    },
+    {
+      "debut": 16.17,
+      "fin": 16.43,
+      "mot": "déjà"
+    },
+    {
+      "debut": 16.43,
+      "fin": 16.93,
+      "mot": "prévu."
+    },
+    {
+      "debut": 17.43,
+      "fin": 17.69,
+      "mot": "Trois"
+    },
+    {
+      "debut": 17.69,
+      "fin": 18.19,
+      "mot": "changements,"
+    },
+    {
+      "debut": 18.41,
+      "fin": 18.57,
+      "mot": "tout"
+    },
+    {
+      "debut": 18.57,
+      "fin": 18.79,
+      "mot": "est"
+    },
+    {
+      "debut": 18.79,
+      "fin": 19.15,
+      "mot": "noté,"
+    },
+    {
+      "debut": 19.27,
+      "fin": 19.43,
+      "mot": "tout"
+    },
+    {
+      "debut": 19.43,
+      "fin": 19.79,
+      "mot": "est"
+    },
+    {
+      "debut": 19.79,
+      "fin": 20.07,
+      "mot": "contrôlé."
+    },
+    {
+      "debut": 20.41,
+      "fin": 20.55,
+      "mot": "Vous"
+    },
+    {
+      "debut": 20.55,
+      "fin": 20.83,
+      "mot": "pouvez"
+    },
+    {
+      "debut": 20.83,
+      "fin": 21.19,
+      "mot": "partir"
+    },
+    {
+      "debut": 21.19,
+      "fin": 21.37,
+      "mot": "l"
+    },
+    {
+      "debut": 21.37,
+      "fin": 21.59,
+      "mot": "'esprit"
+    },
+    {
+      "debut": 21.59,
+      "fin": 22.13,
+      "mot": "tranquille."
+    },
+    {
+      "debut": 22.51,
+      "fin": 22.77,
+      "mot": "Merci,"
+    },
+    {
+      "debut": 22.81,
+      "fin": 22.95,
+      "mot": "c"
+    },
+    {
+      "debut": 22.95,
+      "fin": 23.09,
+      "mot": "'est"
+    },
+    {
+      "debut": 23.09,
+      "fin": 23.41,
+      "mot": "parfait."
+    },
+    {
+      "debut": 26.18,
+      "fin": 26.34,
+      "mot": "Ça"
+    },
+    {
+      "debut": 26.34,
+      "fin": 26.54,
+      "mot": "va"
+    },
+    {
+      "debut": 26.54,
+      "fin": 26.9,
+      "mot": "masquer"
+    },
+    {
+      "debut": 26.9,
+      "fin": 27.04,
+      "mot": "l"
+    },
+    {
+      "debut": 27.04,
+      "fin": 28.1,
+      "mot": "'odeur."
+    },
+    {
+      "debut": 28.24,
+      "fin": 28.46,
+      "mot": "De"
+    },
+    {
+      "debut": 28.46,
+      "fin": 28.62,
+      "mot": "toute"
+    },
+    {
+      "debut": 28.62,
+      "fin": 28.88,
+      "mot": "façon,"
+    },
+    {
+      "debut": 28.88,
+      "fin": 29.02,
+      "mot": "il"
+    },
+    {
+      "debut": 29.02,
+      "fin": 29.28,
+      "mot": "dira"
+    },
+    {
+      "debut": 29.28,
+      "fin": 29.62,
+      "mot": "rien."
+    },
+    {
+      "debut": 31.72,
+      "fin": 31.86,
+      "mot": "Il"
+    },
+    {
+      "debut": 31.86,
+      "fin": 32.0,
+      "mot": "a"
+    },
+    {
+      "debut": 32.0,
+      "fin": 32.22,
+      "mot": "été"
+    },
+    {
+      "debut": 32.22,
+      "fin": 32.66,
+      "mot": "adorable,"
+    },
+    {
+      "debut": 32.84,
+      "fin": 32.94,
+      "mot": "comme"
+    },
+    {
+      "debut": 32.94,
+      "fin": 33.1,
+      "mot": "d"
+    },
+    {
+      "debut": 33.1,
+      "fin": 33.48,
+      "mot": "'habitude."
+    },
+    {
+      "debut": 33.68,
+      "fin": 34.06,
+      "mot": "Regardez"
+    },
+    {
+      "debut": 34.06,
+      "fin": 34.24,
+      "mot": "les"
+    },
+    {
+      "debut": 34.24,
+      "fin": 34.38,
+      "mot": "trois"
+    },
+    {
+      "debut": 34.38,
+      "fin": 34.74,
+      "mot": "coches."
+    },
+    {
+      "debut": 35.18,
+      "fin": 35.5,
+      "mot": "Merci,"
+    },
+    {
+      "debut": 35.76,
+      "fin": 35.88,
+      "mot": "à"
+    },
+    {
+      "debut": 35.88,
+      "fin": 36.18,
+      "mot": "demain."
+    },
+    {
+      "debut": 40.06,
+      "fin": 40.28,
+      "mot": "Pourquoi"
+    },
+    {
+      "debut": 40.28,
+      "fin": 40.56,
+      "mot": "tu"
+    },
+    {
+      "debut": 40.56,
+      "fin": 40.68,
+      "mot": "sens"
+    },
+    {
+      "debut": 40.68,
+      "fin": 40.96,
+      "mot": "si"
+    },
+    {
+      "debut": 40.96,
+      "fin": 41.1,
+      "mot": "fort"
+    },
+    {
+      "debut": 41.1,
+      "fin": 41.28,
+      "mot": "la"
+    },
+    {
+      "debut": 41.28,
+      "fin": 41.64,
+      "mot": "lavande"
+    },
+    {
+      "debut": 41.64,
+      "fin": 42.22,
+      "mot": "?"
+    },
+    {
+      "debut": 43.12,
+      "fin": 43.5,
+      "mot": "Qu"
+    },
+    {
+      "debut": 43.5,
+      "fin": 43.6,
+      "mot": "'est"
+    },
+    {
+      "debut": 43.6,
+      "fin": 43.64,
+      "mot": "-ce"
+    },
+    {
+      "debut": 43.64,
+      "fin": 43.72,
+      "mot": "qu"
+    },
+    {
+      "debut": 43.72,
+      "fin": 43.8,
+      "mot": "'elle"
+    },
+    {
+      "debut": 43.8,
+      "fin": 43.94,
+      "mot": "t"
+    },
+    {
+      "debut": 43.94,
+      "fin": 44.04,
+      "mot": "'a"
+    },
+    {
+      "debut": 44.04,
+      "fin": 44.28,
+      "mot": "fait"
+    },
+    {
+      "debut": 48.72,
+      "fin": 49.42,
+      "mot": "?"
+    },
+    {
+      "debut": 49.42,
+      "fin": 49.52,
+      "mot": "Elle"
+    },
+    {
+      "debut": 49.52,
+      "fin": 49.7,
+      "mot": "a"
+    },
+    {
+      "debut": 49.7,
+      "fin": 49.96,
+      "mot": "jamais"
+    },
+    {
+      "debut": 49.96,
+      "fin": 50.3,
+      "mot": "été"
+    },
+    {
+      "debut": 50.3,
+      "fin": 50.92,
+      "mot": "changée."
+    },
+    {
+      "debut": 51.26,
+      "fin": 51.34,
+      "mot": "Elle"
+    },
+    {
+      "debut": 51.34,
+      "fin": 51.42,
+      "mot": "m"
+    },
+    {
+      "debut": 51.42,
+      "fin": 51.54,
+      "mot": "'a"
+    },
+    {
+      "debut": 51.54,
+      "fin": 51.86,
+      "mot": "menti"
+    },
+    {
+      "debut": 51.86,
+      "fin": 52.06,
+      "mot": "en"
+    },
+    {
+      "debut": 52.06,
+      "fin": 52.3,
+      "mot": "face."
+    },
+    {
+      "debut": 55.56,
+      "fin": 55.76,
+      "mot": "Je"
+    },
+    {
+      "debut": 55.76,
+      "fin": 56.14,
+      "mot": "saurais"
+    },
+    {
+      "debut": 56.14,
+      "fin": 56.32,
+      "mot": "tout."
+    }
+  ]
+}

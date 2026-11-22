@@ -1,0 +1,8 @@
+{
+  "page_telephone": "https://claude.ai/artifact/7VbeoUJzidQUWtzFscQjpJ",
+  "collections": {
+    "episodes": "un document par épisode (id epNNN) = contenu de pack.json + final, couverture, rapport (ids d'assets)",
+    "clips": "un document par clip envoyé du téléphone (id epNNN-NN) : episode, n, asset",
+    "demandes": "demandes faites depuis le téléphone : type episode (idee) ou monter (episode), statut en_attente/fait"
+  }
+}

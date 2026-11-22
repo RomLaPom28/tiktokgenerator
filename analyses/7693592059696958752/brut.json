@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "id": "7693592059696958752",
+    "url": "https://www.tiktok.com/@sans_pepin/video/7693592059696958752",
+    "compte": "sans_pepin",
+    "description": "L’amour n’a pas de prix💕| Partie 1 #fruits #histoire #amour #fortune #part1 ",
+    "vues": 1100000,
+    "likes": 67200,
+    "commentaires": 80,
+    "partages": 595,
+    "date": "20261006",
+    "duree": 67.6,
+    "musique": "original sound",
+    "taux_likes": 6.11,
+    "taux_commentaires": 0.007
+  },
+  "langue": "fr",
+  "texte_complet": "Donc, 480 millions ? C'est la troisième fois que tu me demandes. Je regardais tes yeux. Mes yeux sont 20 cm plus bas. Et t'es venu comment ? En Bugatti-Tourbillon, pourquoi ? Comme ça. J'adore les hommes simples. Alors ? Elle a passé une heure en rendez-vous avec mon front. Ça aurait pu être pire, elle aurait pu commander l'Omar. J'en ai marre de chercher celle qui me regardera dans les yeux. J'ai une idée ! Cache ta fortune ! Quoi ? 37 euros ? Je voulais mettre 12. Pourquoi t'as pas mis 12 ? J'ai eu pitié. Un café noir, s'il vous plaît. Petit ou grand ? Le moins cher. Petit, du coup. Merde ! Quoi ? J'ai oublié mon portefeuille. Tu me paieras demain. Comment tu peux être sûr que je vais te rembourser ? C'est deux euros, pas une audit. Voilà tes deux euros ! À ce rythme-là, dans six mois, je rachète Amazon. Sinon, tu fais quoi après ton service ? Tu me proposes un rendez-vous avec 30 euros restants ? 35 euros. Respecte-moi. T'es nouveau dans ce quartier ? Oui, j'ai déménagé pour les études. À mon époque, la fac coûtait un peu plus cher que ça. Bon, t'es bizarre. Merci. Mais j'ai passé une bonne soirée. Comment je vais pouvoir lui annoncer que je suis l'homme le plus riche de la ville maintenant ?",
+  "accroche_3s": "Donc, 480 millions ? C 'est la troisième fois que",
+  "fin_5s": "Comment je vais pouvoir lui annoncer que je suis l 'homme le plus riche de la ville maintenant ?",
+  "mots_par_seconde": 3.71,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 9,
+  "duree_moyenne_plan": 7.51,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 2.12,
+      "texte": "Donc, 480 millions ?"
+    },
+    {
+      "debut": 2.12,
+      "fin": 3.7,
+      "texte": "C'est la troisième fois que tu me demandes."
+    },
+    {
+      "debut": 3.84,
+      "fin": 4.6,
+      "texte": "Je regardais tes yeux."
+    },
+    {
+      "debut": 4.76,
+      "fin": 6.0,
+      "texte": "Mes yeux sont 20 cm plus bas."
+    },
+    {
+      "debut": 6.36,
+      "fin": 7.36,
+      "texte": "Et t'es venu comment ?"
+    },
+    {
+      "debut": 7.36,
+      "fin": 8.88,
+      "texte": "En Bugatti-Tourbillon, pourquoi ?"
+    },
+    {
+      "debut": 8.88,
+      "fin": 10.56,
+      "texte": "Comme ça. J'adore les hommes simples."
+    },
+    {
+      "debut": 11.8,
+      "fin": 12.6,
+      "texte": "Alors ?"
+    },
+    {
+      "debut": 12.6,
+      "fin": 14.54,
+      "texte": "Elle a passé une heure en rendez-vous avec mon front."
+    },
+    {
+      "debut": 15.14,
+      "fin": 16.9,
+      "texte": "Ça aurait pu être pire, elle aurait pu commander l'Omar."
+    },
+    {
+      "debut": 17.48,
+      "fin": 19.98,
+      "texte": "J'en ai marre de chercher celle qui me regardera dans les yeux."
+    },
+    {
+      "debut": 20.42,
+      "fin": 22.12,
+      "texte": "J'ai une idée ! Cache ta fortune !"
+    },
+    {
+      "debut": 22.94,
+      "fin": 24.5,
+      "texte": "Quoi ? 37 euros ?"
+    },
+    {
+      "debut": 24.5,
+      "fin": 25.38,
+      "texte": "Je voulais mettre 12."
+    },
+    {
+      "debut": 25.74,
+      "fin": 27.1,
+      "texte": "Pourquoi t'as pas mis 12 ?"
+    },
+    {
+      "debut": 27.1,
+      "fin": 27.84,
+      "texte": "J'ai eu pitié."
+    },
+    {
+      "debut": 28.52,
+      "fin": 30.18,
+      "texte": "Un café noir, s'il vous plaît."
+    },
+    {
+      "debut": 30.42,
+      "fin": 31.48,
+      "texte": "Petit ou grand ?"
+    },
+    {
+      "debut": 31.48,
+      "fin": 32.14,
+      "texte": "Le moins cher."
+    },
+    {
+      "debut": 32.5,
+      "fin": 33.18,
+      "texte": "Petit, du coup."
+    },
+    {
+      "debut": 34.3,
+      "fin": 35.0,
+      "texte": "Merde !"
+    },
+    {
+      "debut": 35.0,
+      "fin": 35.62,
+      "texte": "Quoi ?"
+    },
+    {
+      "debut": 35.62,
+      "fin": 37.16,
+      "texte": "J'ai oublié mon portefeuille."
+    },
+    {
+      "debut": 37.76,
+      "fin": 38.58,
+      "texte": "Tu me paieras demain."
+    },
+    {
+      "debut": 39.3,
+      "fin": 41.22,
+      "texte": "Comment tu peux être sûr que je vais te rembourser ?"
+    },
+    {
+      "debut": 41.22,
+      "fin": 42.4,
+      "texte": "C'est deux euros, pas une audit."
+    },
+    {
+      "debut": 43.02,
+      "fin": 44.72,
+      "texte": "Voilà tes deux euros !"
+    },
+    {
+      "debut": 44.72,
+      "fin": 46.82,
+      "texte": "À ce rythme-là, dans six mois, je rachète Amazon."
+    },
+    {
+      "debut": 47.12,
+      "fin": 48.96,
+      "texte": "Sinon, tu fais quoi après ton service ?"
+    },
+    {
+      "debut": 48.96,
+      "fin": 51.0,
+      "texte": "Tu me proposes un rendez-vous avec 30 euros restants ?"
+    },
+    {
+      "debut": 51.0,
+      "fin": 52.46,
+      "texte": "35 euros. Respecte-moi."
+    },
+    {
+      "debut": 52.7,
+      "fin": 54.22,
+      "texte": "T'es nouveau dans ce quartier ?"
+    },
+    {
+      "debut": 54.22,
+      "fin": 55.62,
+      "texte": "Oui, j'ai déménagé pour les études."
+    },
+    {
+      "debut": 55.86,
+      "fin": 57.62,
+      "texte": "À mon époque, la fac coûtait un peu plus cher que ça."
+    },
+    {
+      "debut": 58.48,
+      "fin": 59.46,
+      "texte": "Bon, t'es bizarre."
+    },
+    {
+      "debut": 59.82,
+      "fin": 60.08,
+      "texte": "Merci."
+    },
+    {
+      "debut": 60.84,
+      "fin": 62.34,
+      "texte": "Mais j'ai passé une bonne soirée."
+    },
+    {
+      "debut": 64.3,
+      "fin": 67.52,
+      "texte": "Comment je vais pouvoir lui annoncer que je suis l'homme le plus riche de la ville maintenant ?"
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 5.83,
+      "duree": 5.83
+    },
+    {
+      "n": 2,
+      "debut": 5.83,
+      "fin": 11.23,
+      "duree": 5.4
+    },
+    {
+      "n": 3,
+      "debut": 11.23,
+      "fin": 17.13,
+      "duree": 5.9
+    },
+    {
+      "n": 4,
+      "debut": 17.13,
+      "fin": 22.47,
+      "duree": 5.33
+    },
+    {
+      "n": 5,
+      "debut": 22.47,
+      "fin": 33.57,
+      "duree": 11.1
+    },
+    {
+      "n": 6,
+      "debut": 33.57,
+      "fin": 52.47,
+      "duree": 18.9
+    },
+    {
+      "n": 7,
+      "debut": 52.47,
+      "fin": 58.17,
+      "duree": 5.7
+    },
+    {
+      "n": 8,
+      "debut": 58.17,
+      "fin": 64.23,
+      "duree": 6.07
+    },
+    {
+      "n": 9,
+      "debut": 64.23,
+      "fin": 67.57,
+      "duree": 3.33
+    }
+  ]
+}

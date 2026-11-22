@@ -1,0 +1,18 @@
+{
+  "nombre": 2,
+  "duree_moyenne": 33.3,
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 37.47,
+      "duree": 37.47
+    },
+    {
+      "n": 2,
+      "debut": 37.47,
+      "fin": 66.6,
+      "duree": 29.13
+    }
+  ]
+}

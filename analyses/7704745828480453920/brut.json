@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "id": "7704745828480453920",
+    "url": "https://www.tiktok.com/@sans_pepin/video/7704745828480453920",
+    "compte": "sans_pepin",
+    "description": "Partie 1 | Il s’est fait trahir pour un trésor ! #fruitstory #histoire #ia #tresor #part1 ",
+    "vues": 744500,
+    "likes": 58500,
+    "commentaires": 963,
+    "partages": 582,
+    "date": "20261105",
+    "duree": 60.1,
+    "musique": "original sound",
+    "taux_likes": 7.86,
+    "taux_commentaires": 0.129
+  },
+  "langue": "fr",
+  "texte_complet": "Ma chérie, j'ai trouvé le trésor ! Regarde-moi ça, il est rempli d'or ! Gabrielle, mon dieu, tu es vivant ! Remonte le coffre en premier, on ne peut pas risquer de perdre tout ça ! D'accord, envoie-moi la corde ! Avec tout cet argent, on va enfin pouvoir se payer la maison de nos rêves ! Oui mon chéri, on l'aura bien mérité. Ça y est, le coffre est en sécurité ! Attrape la corde, je te remonte ! Vas-y, j'ai beaucoup trop froid dans l'eau, je suis à bout de force ! Tu pensais vraiment que j'allais partager tout cet or avec toi ? Attends mon cœur, qu'est-ce que tu me racontes ? Merci pour le trésor mon amour, maintenant je vais vivre la vie dont on rêvait sans toi. Reviens ! Non non non, je ne peux pas mourir ici, je dois récupérer le trésor ! Non, reste loin de moi ! C'est quoi ce bruit ? Oh non !",
+  "accroche_3s": "Ma chérie, j 'ai trouvé le trésor ! Regarde -moi ça, il est rempli",
+  "fin_5s": "!",
+  "mots_par_seconde": 2.93,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 12,
+  "duree_moyenne_plan": 5.01,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 3.64,
+      "texte": "Ma chérie, j'ai trouvé le trésor ! Regarde-moi ça, il est rempli d'or !"
+    },
+    {
+      "debut": 3.64,
+      "fin": 5.48,
+      "texte": "Gabrielle, mon dieu, tu es vivant !"
+    },
+    {
+      "debut": 6.0,
+      "fin": 8.58,
+      "texte": "Remonte le coffre en premier, on ne peut pas risquer de perdre tout ça !"
+    },
+    {
+      "debut": 8.58,
+      "fin": 11.74,
+      "texte": "D'accord, envoie-moi la corde !"
+    },
+    {
+      "debut": 11.74,
+      "fin": 15.12,
+      "texte": "Avec tout cet argent, on va enfin pouvoir se payer la maison de nos rêves !"
+    },
+    {
+      "debut": 15.12,
+      "fin": 17.76,
+      "texte": "Oui mon chéri, on l'aura bien mérité."
+    },
+    {
+      "debut": 18.14,
+      "fin": 21.74,
+      "texte": "Ça y est, le coffre est en sécurité ! Attrape la corde, je te remonte !"
+    },
+    {
+      "debut": 21.74,
+      "fin": 24.72,
+      "texte": "Vas-y, j'ai beaucoup trop froid dans l'eau, je suis à bout de force !"
+    },
+    {
+      "debut": 25.66,
+      "fin": 28.86,
+      "texte": "Tu pensais vraiment que j'allais partager tout cet or avec toi ?"
+    },
+    {
+      "debut": 28.86,
+      "fin": 32.16,
+      "texte": "Attends mon cœur, qu'est-ce que tu me racontes ?"
+    },
+    {
+      "debut": 32.16,
+      "fin": 36.92,
+      "texte": "Merci pour le trésor mon amour, maintenant je vais vivre la vie dont on rêvait sans toi."
+    },
+    {
+      "debut": 44.5,
+      "fin": 45.3,
+      "texte": "Reviens !"
+    },
+    {
+      "debut": 45.3,
+      "fin": 48.72,
+      "texte": "Non non non, je ne peux pas mourir ici, je dois récupérer le trésor !"
+    },
+    {
+      "debut": 49.36,
+      "fin": 50.72,
+      "texte": "Non, reste loin de moi !"
+    },
+    {
+      "debut": 51.54,
+      "fin": 52.72,
+      "texte": "C'est quoi ce bruit ?"
+    },
+    {
+      "debut": 53.84,
+      "fin": 57.14,
+      "texte": "Oh non !"
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 5.75,
+      "duree": 5.75
+    },
+    {
+      "n": 2,
+      "debut": 5.75,
+      "fin": 11.35,
+      "duree": 5.6
+    },
+    {
+      "n": 3,
+      "debut": 11.35,
+      "fin": 17.93,
+      "duree": 6.58
+    },
+    {
+      "n": 4,
+      "debut": 17.93,
+      "fin": 25.42,
+      "duree": 7.48
+    },
+    {
+      "n": 5,
+      "debut": 25.42,
+      "fin": 28.78,
+      "duree": 3.37
+    },
+    {
+      "n": 6,
+      "debut": 28.78,
+      "fin": 31.88,
+      "duree": 3.1
+    },
+    {
+      "n": 7,
+      "debut": 31.88,
+      "fin": 36.98,
+      "duree": 5.1
+    },
+    {
+      "n": 8,
+      "debut": 36.98,
+      "fin": 39.05,
+      "duree": 2.07
+    },
+    {
+      "n": 9,
+      "debut": 39.05,
+      "fin": 41.02,
+      "duree": 1.97
+    },
+    {
+      "n": 10,
+      "debut": 41.02,
+      "fin": 44.33,
+      "duree": 3.32
+    },
+    {
+      "n": 11,
+      "debut": 44.33,
+      "fin": 48.37,
+      "duree": 4.03
+    },
+    {
+      "n": 12,
+      "debut": 48.37,
+      "fin": 60.12,
+      "duree": 11.75
+    }
+  ]
+}

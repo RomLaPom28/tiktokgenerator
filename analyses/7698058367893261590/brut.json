@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "id": "7698058367893261590",
+    "url": "https://www.tiktok.com/@les.storytv/video/7698058367893261590",
+    "compte": "les.storytv",
+    "description": "Il a été rejeté 47 fois parce qu’il pique 🌵 Puis elle lui a pris la main… Mais chaque épine qui tombe lui coûte quelque chose. Il ne lui en reste plus que 7. À ton avis, que va faire Aloès ? Dis-le moi en commentaire 👇 Histoire d’amour animée : un cactus sans épines peut-il survivre ? Partie 2 si on atteint 10 000 likes. #pourtoi #storytime#IA #cactus #fruitstory",
+    "vues": 101000,
+    "likes": 424,
+    "commentaires": 10,
+    "partages": 5,
+    "date": "20261018",
+    "duree": 70.0,
+    "musique": "BLUE WATER CANDY",
+    "taux_likes": 0.42,
+    "taux_commentaires": 0.01
+  },
+  "langue": "fr",
+  "texte_complet": "Tu piques trop, c'est fini, je ne peux pas. C'est la 47ème fois que j'entends ça. Je coupe mes épines chaque soir. Et chaque matin, elles ont repoussé. Elle dit qu'elle adore les cactus. Je te préviens, je pique vraiment beaucoup. Donne-moi ta main. Ça ne te fait pas mal ? Moi, je guéris ce qui pique. Personne ne m'avait jamais serré dans ses bras. Alors, je ne te lâche plus. Mes épines, elles tombent. Regarde, je suis presque lisse. Tu as l'air si pâle. Je me sens juste un peu léger. Tes épines gardaient ton eau. Sans elles, tu t'assèches. Combien il m'en reste, docteur ? Il m'en reste, docteur. Une par jour. Le docteur dit que tout va bien, juste de la fatigue. Alors, rentrons. Sept épines pour lui, sept feuilles pour moi.",
+  "accroche_3s": "Tu piques trop, c 'est fini,",
+  "fin_5s": "Sept épines pour lui, sept feuilles pour moi.",
+  "mots_par_seconde": 2.07,
+  "premier_mot_a": 1.49,
+  "nombre_plans": 7,
+  "duree_moyenne_plan": 10.0,
+  "phrases": [
+    {
+      "debut": 1.49,
+      "fin": 4.23,
+      "texte": "Tu piques trop, c'est fini, je ne peux pas."
+    },
+    {
+      "debut": 7.52,
+      "fin": 9.6,
+      "texte": "C'est la 47ème fois que j'entends ça."
+    },
+    {
+      "debut": 10.78,
+      "fin": 12.26,
+      "texte": "Je coupe mes épines chaque soir."
+    },
+    {
+      "debut": 12.98,
+      "fin": 14.66,
+      "texte": "Et chaque matin, elles ont repoussé."
+    },
+    {
+      "debut": 17.64,
+      "fin": 19.34,
+      "texte": "Elle dit qu'elle adore les cactus."
+    },
+    {
+      "debut": 20.58,
+      "fin": 22.74,
+      "texte": "Je te préviens, je pique vraiment beaucoup."
+    },
+    {
+      "debut": 23.66,
+      "fin": 24.42,
+      "texte": "Donne-moi ta main."
+    },
+    {
+      "debut": 25.0,
+      "fin": 26.26,
+      "texte": "Ça ne te fait pas mal ?"
+    },
+    {
+      "debut": 27.46,
+      "fin": 29.02,
+      "texte": "Moi, je guéris ce qui pique."
+    },
+    {
+      "debut": 30.76,
+      "fin": 32.9,
+      "texte": "Personne ne m'avait jamais serré dans ses bras."
+    },
+    {
+      "debut": 33.5,
+      "fin": 34.82,
+      "texte": "Alors, je ne te lâche plus."
+    },
+    {
+      "debut": 35.86,
+      "fin": 37.86,
+      "texte": "Mes épines, elles tombent."
+    },
+    {
+      "debut": 40.76,
+      "fin": 42.5,
+      "texte": "Regarde, je suis presque lisse."
+    },
+    {
+      "debut": 43.34,
+      "fin": 44.78,
+      "texte": "Tu as l'air si pâle."
+    },
+    {
+      "debut": 45.58,
+      "fin": 47.22,
+      "texte": "Je me sens juste un peu léger."
+    },
+    {
+      "debut": 50.49,
+      "fin": 51.95,
+      "texte": "Tes épines gardaient ton eau."
+    },
+    {
+      "debut": 52.37,
+      "fin": 53.55,
+      "texte": "Sans elles, tu t'assèches."
+    },
+    {
+      "debut": 53.71,
+      "fin": 55.29,
+      "texte": "Combien il m'en reste, docteur ?"
+    },
+    {
+      "debut": 56.55,
+      "fin": 57.91,
+      "texte": "Il m'en reste, docteur."
+    },
+    {
+      "debut": 58.19,
+      "fin": 58.95,
+      "texte": "Une par jour."
+    },
+    {
+      "debut": 60.85,
+      "fin": 63.13,
+      "texte": "Le docteur dit que tout va bien, juste de la fatigue."
+    },
+    {
+      "debut": 63.53,
+      "fin": 64.27,
+      "texte": "Alors, rentrons."
+    },
+    {
+      "debut": 67.27,
+      "fin": 69.63,
+      "texte": "Sept épines pour lui, sept feuilles pour moi."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 10.0,
+      "duree": 10.0
+    },
+    {
+      "n": 2,
+      "debut": 10.0,
+      "fin": 20.0,
+      "duree": 10.0
+    },
+    {
+      "n": 3,
+      "debut": 20.0,
+      "fin": 30.0,
+      "duree": 10.0
+    },
+    {
+      "n": 4,
+      "debut": 30.0,
+      "fin": 40.0,
+      "duree": 10.0
+    },
+    {
+      "n": 5,
+      "debut": 40.0,
+      "fin": 50.0,
+      "duree": 10.0
+    },
+    {
+      "n": 6,
+      "debut": 50.0,
+      "fin": 60.0,
+      "duree": 10.0
+    },
+    {
+      "n": 7,
+      "debut": 60.0,
+      "fin": 70.0,
+      "duree": 10.0
+    }
+  ]
+}

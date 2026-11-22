@@ -1,0 +1,932 @@
+{
+  "numero": 1,
+  "titre": "Le prodige de 34 ans",
+  "format": "vidéo unique à chute",
+  "accroche_type": "aveu",
+  "cliff_type": "twist final",
+  "centre": "theo",
+  "texte_accroche": "34 ans, il rejoue en U19",
+  "question_milieu": {
+    "plan": 7,
+    "texte": "Il mérite sa place ou pas ? 🤔"
+  },
+  "vote_question": "Il avait le droit de tricher ?",
+  "fils_avances": [],
+  "revele": [],
+  "reprend": "",
+  "moteur": {
+    "desir": "Théo veut se venger du coach qui a brisé sa carrière et enfin signer pro",
+    "injustice": "en 2010, Bernard l'a viré pour placer son neveu ; aujourd'hui il humilie les vieux et pistonne son fils nul",
+    "antagoniste": "Bernard, coach tyran qui humilie en public, pistonne son fils et essaie de truquer une radio",
+    "enjeu_chiffre": "contrat pro à 1 000 000 € ; 34 ans contre 19",
+    "force_cachee": "Théo humilie Mathis d'un petit pont et marque en lucarne sans regarder",
+    "payoff": "Bernard est remplacé et finit lui-même sur le banc, devant tout le monde",
+    "callback": "Les vieux, ça finit sur le banc.",
+    "kicker": "la recruteuse est la femme de Théo : 15 ans de plan"
+  },
+  "hooks_alternatifs": [
+    "Ce coach a brisé ma carrière. Aujourd'hui je joue dans son équipe… à 34 ans.",
+    "Faux âge, faux appareil, vraie vengeance.",
+    "Il m'a viré il y a 15 ans. Il me reconnaît pas."
+  ],
+  "resume": "Viré en 2010 par Bernard qui a pistonné son neveu, Théo revient 15 ans plus tard en se faisant passer pour un jeune de 19 ans. Bernard et son fils Mathis l'humilient ; Théo les ridiculise balle au pied, une recruteuse propose 1 M€. Bernard veut truquer la radio, inutile : Théo a vraiment 34 ans. Humilié devant l'équipe, Théo révèle qui il est ; la recruteuse le signe pour l'équipe première, balance le faux âge de Bernard, et Bernard finit sur le banc. Kicker : la recruteuse est sa femme.",
+  "fin": "Théo renvoie à Bernard sa propre phrase « Les vieux, ça finit sur le banc », puis Laura l'appelle « mon chéri » et Théo demande à la caméra si 15 ans d'attente valaient le coup.",
+  "recettes_utilisees": [
+    "Aveu-prémisse à 0 s",
+    "Sous-estimé à force cachée",
+    "Témoin choqué après la réplique-choc",
+    "Gros chiffre lisible à l'écran",
+    "Moteur d'histoire : injustice → payoff par callback"
+  ],
+  "titre_couverture": "Viré à 19 ans, il revient à 34 😈",
+  "legende": "Le coach l'a viré il y a 15 ans… il est revenu dans son équipe en se faisant passer pour un U19 😳 Il avait le droit de tricher ?",
+  "hashtags": [
+    "#foot",
+    "#histoire",
+    "#vengeance",
+    "#animaux",
+    "#ia",
+    "#drama"
+  ],
+  "commentaire_epingle": "Il avait le droit de tricher ? 😈 Oui, le coach l'a mérité / ⚖️ Non, la triche reste la triche",
+  "plans": [
+    {
+      "n": 1,
+      "role": "accroche",
+      "duree": 6,
+      "lieu": "salle_bain",
+      "lumiere": "nuit_lampe",
+      "cadrage": "TGP",
+      "angle": "face",
+      "camera": "crash_zoom",
+      "persos": [
+        {
+          "id": "theo",
+          "jeu": "face au miroir, pinceau de teinture noire à la main, regarde droit dans l'objectif, regard froid et déterminé"
+        }
+      ],
+      "detail_image": "poils blancs aux tempes, flacons de teinture et crème antirides sur le lavabo",
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Théo se tourne d'un coup vers la caméra, pinceau en l'air",
+          "camera": "crash_zoom",
+          "son": "whoosh"
+        },
+        {
+          "t": "2-4",
+          "action": "il clipse son faux appareil dentaire d'un geste sec",
+          "son": "clic métallique"
+        },
+        {
+          "t": "4-6",
+          "action": "il serre son bandeau rouge sur son front, mâchoire serrée",
+          "son": "note grave"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.1-2.2",
+          "parle": "theo",
+          "fonction": "aveu",
+          "emotion": "froid, à voix basse",
+          "texte": "J'ai 34 ans. Demain, je joue en U19."
+        },
+        {
+          "t": "2.5-4.0",
+          "parle": "theo",
+          "fonction": "aveu",
+          "emotion": "sec",
+          "texte": "Faux âge. Faux appareil."
+        },
+        {
+          "t": "4.2-5.9",
+          "parle": "theo",
+          "fonction": "promesse",
+          "emotion": "glacial, regard caméra",
+          "texte": "Vraie vengeance."
+        }
+      ],
+      "texte_ecran": "34 ANS EN U19 😳"
+    },
+    {
+      "n": 2,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "vestiaire",
+      "lumiere": "neon",
+      "cadrage": "PR",
+      "angle": "plongee",
+      "camera": "fixe",
+      "persos": [
+        {
+          "id": "bernard",
+          "jeu": "au centre du vestiaire, sifflet à la bouche, pointe du doigt un vieux joueur assis au fond, rictus méprisant"
+        },
+        {
+          "id": "theo",
+          "tenue": "base",
+          "jeu": "assis au premier plan, tête basse, mâchoire serrée"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Bernard pointe le vieux joueur et le chasse vers le banc d'un geste",
+          "son": "coup de sifflet"
+        },
+        {
+          "t": "3-6",
+          "action": "Théo lève lentement les yeux vers la caméra",
+          "camera": "crash_zoom"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.6",
+          "parle": "bernard",
+          "fonction": "attaque",
+          "emotion": "hurlé, méprisant",
+          "texte": "Les vieux, ça finit sur le banc."
+        },
+        {
+          "t": "2.9-4.2",
+          "parle": "theo",
+          "fonction": "reaction",
+          "emotion": "chuchoté à la caméra",
+          "texte": "Il m'a dit pareil…"
+        },
+        {
+          "t": "4.3-5.8",
+          "parle": "theo",
+          "fonction": "revelation",
+          "emotion": "chuchoté, rancunier",
+          "texte": "il y a quinze ans."
+        }
+      ],
+      "texte_ecran": "IL Y A 15 ANS…"
+    },
+    {
+      "n": 3,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "vestiaire",
+      "lumiere": "neon",
+      "cadrage": "GP",
+      "angle": "contre_plongee",
+      "camera": "epaule",
+      "persos": [
+        {
+          "id": "mathis",
+          "jeu": "balance les crampons de Théo par terre d'un revers, torse bombé, sourire arrogant"
+        },
+        {
+          "id": "theo",
+          "tenue": "base",
+          "jeu": "face à lui, impassible, sourcil levé"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Mathis envoie valser les crampons de Théo",
+          "camera": "secousse",
+          "son": "crampons qui claquent au sol"
+        },
+        {
+          "t": "2-4",
+          "action": "Théo ne bouge pas d'un poil, sourcil levé"
+        },
+        {
+          "t": "4-6",
+          "action": "Théo esquisse un sourire en coin",
+          "camera": "crash_zoom"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.1-1.8",
+          "parle": "mathis",
+          "fonction": "attaque",
+          "emotion": "arrogant",
+          "texte": "Bouge, le nouveau. C'est ma place."
+        },
+        {
+          "t": "2.0-3.2",
+          "parle": "theo",
+          "fonction": "riposte",
+          "emotion": "calme",
+          "texte": "Ta place ?"
+        },
+        {
+          "t": "3.4-4.8",
+          "parle": "mathis",
+          "fonction": "attaque",
+          "emotion": "fier",
+          "texte": "Mon père, c'est le coach."
+        },
+        {
+          "t": "5.0-5.9",
+          "parle": "theo",
+          "fonction": "riposte",
+          "emotion": "sec, sourire en coin",
+          "texte": "Ça se voit."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "stade",
+      "lumiere": "jour",
+      "cadrage": "PE",
+      "angle": "face",
+      "camera": "suivi_course",
+      "persos": [
+        {
+          "id": "theo",
+          "tenue": "match",
+          "jeu": "balle au pied, regard de tueur, face à Mathis qui le provoque"
+        },
+        {
+          "id": "mathis",
+          "jeu": "devant lui, bras écartés, ricane"
+        }
+      ],
+      "fin": {
+        "cadrage": "PA",
+        "persos": [
+          {
+            "id": "mathis",
+            "jeu": "assis par terre, casquette de travers, bouche ouverte"
+          },
+          {
+            "id": "bernard",
+            "jeu": "au bord du terrain, sifflet qui tombe de la bouche, regard noir de jalousie"
+          }
+        ],
+        "detail_image": "au fond, le ballon dans la lucarne, des joueurs animaux bouche bée"
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Mathis provoque Théo en sautillant devant lui"
+        },
+        {
+          "t": "3-5",
+          "action": "Théo lui met un petit pont éclair, Mathis tombe assis par terre",
+          "camera": "ralenti",
+          "son": "whoosh puis chute"
+        },
+        {
+          "t": "5-7",
+          "action": "Théo frappe en lucarne sans regarder",
+          "camera": "whip_pan",
+          "son": "filet qui claque"
+        },
+        {
+          "t": "7-10",
+          "action": "Bernard serre les poings, le sifflet tombe de sa bouche",
+          "camera": "crash_zoom"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "parle": "mathis",
+          "fonction": "attaque",
+          "emotion": "moqueur",
+          "texte": "Vas-y, montre, papy !"
+        },
+        {
+          "t": "2.0-3.0",
+          "parle": "theo",
+          "fonction": "riposte",
+          "emotion": "calme",
+          "texte": "Avec plaisir."
+        },
+        {
+          "t": "3.6-4.6",
+          "parle": "mathis",
+          "fonction": "reaction",
+          "emotion": "hurle, aigu",
+          "texte": "QUOI ?!"
+        },
+        {
+          "t": "5.0-6.4",
+          "parle": "theo",
+          "fonction": "attaque",
+          "emotion": "sec, sans le regarder",
+          "texte": "Assieds-toi, petit."
+        },
+        {
+          "t": "7.2-9.6",
+          "parle": "bernard",
+          "fonction": "menace",
+          "emotion": "rage contenue",
+          "texte": "Toi. Test osseux. Demain."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "stade",
+      "lumiere": "jour",
+      "cadrage": "GP",
+      "angle": "profil",
+      "camera": "whip_pan",
+      "persos": [
+        {
+          "id": "laura",
+          "jeu": "arrive au bord du terrain, remonte ses lunettes roses sur la tête, brandit un dossier"
+        },
+        {
+          "id": "bernard",
+          "jeu": "face à elle, courbé, sourire servile"
+        }
+      ],
+      "texte_decor": "sur le dossier, en grosses lettres dorées : « CONTRAT PRO · 1 000 000 € »",
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Laura brandit le dossier sous le nez de Bernard",
+          "son": "papier qui claque"
+        },
+        {
+          "t": "3-6",
+          "action": "Laura tourne la tête vers Mathis assis par terre, puis revient vers Bernard",
+          "camera": "whip_pan",
+          "son": "whoosh"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.4",
+          "parle": "laura",
+          "fonction": "revelation",
+          "emotion": "posée, tranchante",
+          "texte": "Je recrute. Un million. Pour le 9."
+        },
+        {
+          "t": "2.6-4.0",
+          "parle": "bernard",
+          "fonction": "attaque",
+          "emotion": "suppliant",
+          "texte": "Prenez mon fils !"
+        },
+        {
+          "t": "4.2-5.8",
+          "parle": "laura",
+          "fonction": "riposte",
+          "emotion": "sourire en coin",
+          "texte": "Votre fils ? Il est assis."
+        }
+      ],
+      "texte_ecran": "1 000 000 € 💰"
+    },
+    {
+      "n": 6,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "infirmerie",
+      "lumiere": "matin",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "fixe",
+      "persos": [
+        {
+          "id": "bernard",
+          "jeu": "penché sur le bureau, menaçant, doigt pointé vers la médecin"
+        },
+        {
+          "id": "isabelle",
+          "jeu": "derrière le bureau, ailes croisées, sourcil levé au-dessus de ses lunettes"
+        }
+      ],
+      "texte_decor": "sur le négatoscope, sous la radio du genou, une étiquette en grosses lettres : « ÂGE OSSEUX : 34 ANS »",
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {
+            "id": "bernard",
+            "jeu": "devant la radio lumineuse, sourire diabolique énorme, se lisse la moustache"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Bernard abat sa patte sur le bureau",
+          "camera": "secousse",
+          "son": "impact sourd"
+        },
+        {
+          "t": "3-6",
+          "action": "Isabelle fait pivoter sa tête à 180 degrés, outrée",
+          "son": "grincement cartoon"
+        },
+        {
+          "t": "6-8",
+          "action": "elle allume le négatoscope, la radio s'éclaire",
+          "camera": "whip_pan",
+          "son": "néon qui s'allume"
+        },
+        {
+          "t": "8-10",
+          "action": "Bernard se retourne vers la radio et sourit comme un diable",
+          "camera": "crash_zoom"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.4",
+          "parle": "bernard",
+          "fonction": "menace",
+          "emotion": "rauque",
+          "texte": "Sa radio. Je veux qu'il ait quarante ans."
+        },
+        {
+          "t": "2.6-4.2",
+          "parle": "isabelle",
+          "fonction": "riposte",
+          "emotion": "pince-sans-rire",
+          "texte": "Les os, ça ne ment pas."
+        },
+        {
+          "t": "4.4-6.0",
+          "parle": "bernard",
+          "fonction": "menace",
+          "emotion": "menaçant",
+          "texte": "Tu veux garder ton poste ?"
+        },
+        {
+          "t": "6.2-7.0",
+          "parle": "isabelle",
+          "fonction": "reaction",
+          "emotion": "choquée",
+          "texte": "…Pardon ?"
+        },
+        {
+          "t": "7.4-9.6",
+          "parle": "isabelle",
+          "fonction": "revelation",
+          "emotion": "froide",
+          "texte": "Pas besoin. Il a vraiment 34 ans."
+        }
+      ],
+      "texte_ecran": "34 ANS CONFIRMÉ 🦴"
+    },
+    {
+      "n": 7,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "vestiaire",
+      "lumiere": "neon",
+      "cadrage": "PA",
+      "angle": "contre_plongee",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "bernard",
+          "jeu": "brandit la radio au-dessus de sa tête devant toute l'équipe, triomphant"
+        },
+        {
+          "id": "mathis",
+          "jeu": "à côté de son père, pointe Théo du doigt en riant"
+        },
+        {
+          "id": "theo",
+          "tenue": "base",
+          "jeu": "seul sur le banc, tête basse"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Bernard brandit la radio devant toute l'équipe",
+          "son": "murmures de l'équipe"
+        },
+        {
+          "t": "3-6",
+          "action": "Bernard pointe le banc du doigt, Théo reste immobile",
+          "camera": "crash_zoom"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.2",
+          "parle": "bernard",
+          "fonction": "attaque",
+          "emotion": "hurlé, triomphant",
+          "texte": "Trente-quatre ans ! Un tricheur !"
+        },
+        {
+          "t": "2.4-3.4",
+          "parle": "mathis",
+          "fonction": "attaque",
+          "emotion": "moqueur",
+          "texte": "Papy, dehors !"
+        },
+        {
+          "t": "3.6-5.8",
+          "parle": "bernard",
+          "fonction": "attaque",
+          "emotion": "jubilant",
+          "texte": "Les vieux, ça finit sur le banc."
+        }
+      ],
+      "texte_ecran": "Il mérite sa place ou pas ? 🤔"
+    },
+    {
+      "n": 8,
+      "role": "retournement",
+      "duree": 6,
+      "lieu": "vestiaire",
+      "lumiere": "neon",
+      "cadrage": "TGP",
+      "angle": "face",
+      "camera": "crash_zoom",
+      "persos": [
+        {
+          "id": "theo",
+          "tenue": "base",
+          "jeu": "retire son bandeau rouge, révèle une longue cicatrice sur le front, regard glacial"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Théo se lève lentement et retire son bandeau",
+          "son": "silence total"
+        },
+        {
+          "t": "2-4",
+          "action": "la cicatrice apparaît, toute l'équipe recule",
+          "camera": "crash_zoom",
+          "son": "note grave"
+        },
+        {
+          "t": "4-6",
+          "action": "Théo s'avance vers Bernard"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-1.4",
+          "parle": "theo",
+          "fonction": "riposte",
+          "emotion": "calme, glacial",
+          "texte": "Tu me reconnais pas ?"
+        },
+        {
+          "t": "1.6-2.6",
+          "parle": "bernard",
+          "fonction": "reaction",
+          "emotion": "hors champ, inquiet",
+          "texte": "Quoi ?",
+          "hors_champ": true
+        },
+        {
+          "t": "2.8-5.8",
+          "parle": "theo",
+          "fonction": "revelation",
+          "emotion": "froid, détache chaque mot",
+          "texte": "Théo Garnier. 2010. Tu m'as viré pour ton neveu."
+        }
+      ],
+      "texte_ecran": "IL L'A BRISÉ IL Y A 15 ANS"
+    },
+    {
+      "n": 9,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "vestiaire",
+      "lumiere": "neon",
+      "cadrage": "GP",
+      "angle": "debullee",
+      "camera": "zoom_dramatique",
+      "persos": [
+        {
+          "id": "bernard",
+          "jeu": "blême, la radio qui tremble dans sa patte, moustache qui frémit"
+        },
+        {
+          "id": "mathis",
+          "jeu": "derrière lui, regarde son père, oreilles baissées"
+        }
+      ],
+      "fin": {
+        "cadrage": "PR",
+        "angle": "face",
+        "persos": [
+          {
+            "id": "laura",
+            "jeu": "dans l'embrasure de la porte, lunettes roses sur la tête, dossier tendu vers Théo"
+          },
+          {
+            "id": "theo",
+            "tenue": "base",
+            "jeu": "signe le contrat d'un geste calme"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Bernard recule, la radio tremble dans sa patte",
+          "camera": "zoom_dramatique",
+          "son": "tic-tac"
+        },
+        {
+          "t": "3-6",
+          "action": "la porte s'ouvre, Laura entre en tapotant son dossier",
+          "camera": "whip_pan",
+          "son": "porte qui claque"
+        },
+        {
+          "t": "6-8",
+          "action": "Laura tend le stylo à Théo"
+        },
+        {
+          "t": "8-10",
+          "action": "Théo signe, Bernard s'effondre contre un casier",
+          "camera": "secousse",
+          "son": "casier qui tremble"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-1.6",
+          "parle": "bernard",
+          "fonction": "reaction",
+          "emotion": "bégaie",
+          "texte": "Garnier… le petit génie ?"
+        },
+        {
+          "t": "1.8-3.4",
+          "parle": "mathis",
+          "fonction": "reaction",
+          "emotion": "perdu",
+          "texte": "Papa, c'est qui ?"
+        },
+        {
+          "t": "3.6-5.6",
+          "parle": "laura",
+          "fonction": "revelation",
+          "emotion": "posée",
+          "texte": "Le meilleur joueur que j'aie vu."
+        },
+        {
+          "t": "5.8-7.6",
+          "parle": "laura",
+          "fonction": "revelation",
+          "emotion": "tranchante",
+          "texte": "Le contrat, c'est pas pour les U19."
+        },
+        {
+          "t": "7.8-9.6",
+          "parle": "laura",
+          "fonction": "revelation",
+          "emotion": "sourire en coin",
+          "texte": "C'est pour l'équipe première."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "vestiaire",
+      "lumiere": "neon",
+      "cadrage": "PR",
+      "angle": "profil",
+      "camera": "whip_pan",
+      "persos": [
+        {
+          "id": "bernard",
+          "jeu": "pointe Théo en hurlant, veine sur le front"
+        },
+        {
+          "id": "laura",
+          "jeu": "face à lui, impassible, remonte ses lunettes"
+        },
+        {
+          "id": "mathis",
+          "jeu": "entre eux, tête qui fait des allers-retours"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Bernard pointe Théo en hurlant"
+        },
+        {
+          "t": "2-4",
+          "action": "Laura se tourne lentement vers Bernard",
+          "camera": "whip_pan",
+          "son": "whoosh"
+        },
+        {
+          "t": "4-6",
+          "action": "Mathis se tourne vers son père, choqué",
+          "camera": "crash_zoom"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.1-1.9",
+          "parle": "bernard",
+          "fonction": "attaque",
+          "emotion": "hurlé",
+          "texte": "Il a triché sur son âge !"
+        },
+        {
+          "t": "2.0-4.2",
+          "parle": "laura",
+          "fonction": "riposte",
+          "emotion": "calme, tranchante",
+          "texte": "Et vous, sur le vôtre à la fédé ?"
+        },
+        {
+          "t": "4.3-5.0",
+          "parle": "mathis",
+          "fonction": "reaction",
+          "emotion": "aigu",
+          "texte": "QUOI ?!"
+        },
+        {
+          "t": "5.2-5.9",
+          "parle": "bernard",
+          "fonction": "reaction",
+          "emotion": "étranglé",
+          "texte": "Je…"
+        }
+      ],
+      "texte_ecran": "LE COACH AUSSI 💀"
+    },
+    {
+      "n": 11,
+      "role": "climax",
+      "duree": 6,
+      "lieu": "stade",
+      "lumiere": "jour",
+      "cadrage": "PA",
+      "angle": "face",
+      "camera": "travelling_lateral",
+      "persos": [
+        {
+          "id": "theo",
+          "tenue": "match",
+          "jeu": "pointe calmement le banc de touche"
+        },
+        {
+          "id": "bernard",
+          "jeu": "s'assoit sur le banc de touche, épaules basses, sifflet qui pend"
+        },
+        {
+          "id": "mathis",
+          "jeu": "en retrait, se cache le visage sous sa casquette"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Théo tend le bras vers le banc de touche",
+          "son": "foule qui murmure"
+        },
+        {
+          "t": "3-6",
+          "action": "Bernard s'assoit sur le banc, tête basse",
+          "camera": "travelling_lateral",
+          "son": "grincement du banc"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "parle": "laura",
+          "fonction": "revelation",
+          "emotion": "hors champ, froide",
+          "texte": "Le club vous remplace, Bernard.",
+          "hors_champ": true
+        },
+        {
+          "t": "2.0-4.6",
+          "parle": "theo",
+          "fonction": "riposte",
+          "emotion": "calme, savoure",
+          "texte": "Les vieux, ça finit sur le banc."
+        },
+        {
+          "t": "4.8-5.8",
+          "parle": "mathis",
+          "fonction": "reaction",
+          "emotion": "admiratif malgré lui",
+          "texte": "Ouuuh…"
+        }
+      ],
+      "texte_ecran": "SUR LE BANC 🪑"
+    },
+    {
+      "n": 12,
+      "role": "cliff",
+      "duree": 10,
+      "lieu": "stade",
+      "lumiere": "jour",
+      "cadrage": "GP",
+      "angle": "face",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "laura",
+          "jeu": "prend le bras de Théo, sourire complice"
+        },
+        {
+          "id": "theo",
+          "tenue": "match",
+          "jeu": "à côté d'elle, sourire en coin"
+        },
+        {
+          "id": "bernard",
+          "jeu": "au fond sur le banc, mâchoire au sol"
+        }
+      ],
+      "fin": {
+        "cadrage": "TGP",
+        "persos": [
+          {
+            "id": "theo",
+            "tenue": "match",
+            "jeu": "seul face à l'objectif, sourcil levé, clin d'œil, sourire en coin"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Laura prend le bras de Théo et lui fait un bisou sur la joue",
+          "son": "smack"
+        },
+        {
+          "t": "3-5",
+          "action": "Bernard se lève d'un bond sur le banc",
+          "camera": "whip_pan",
+          "son": "whoosh"
+        },
+        {
+          "t": "5-7",
+          "action": "Théo se tourne vers la caméra",
+          "camera": "travelling_avant"
+        },
+        {
+          "t": "7-10",
+          "action": "Théo fait un clin d'œil lent à la caméra",
+          "camera": "crash_zoom",
+          "son": "ding"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "parle": "laura",
+          "fonction": "revelation",
+          "emotion": "tendre",
+          "texte": "On rentre, mon chéri ?"
+        },
+        {
+          "t": "2.0-3.0",
+          "parle": "bernard",
+          "fonction": "reaction",
+          "emotion": "hurle, aigu",
+          "texte": "Chéri ?!"
+        },
+        {
+          "t": "3.2-5.4",
+          "parle": "theo",
+          "fonction": "aveu",
+          "emotion": "calme",
+          "texte": "Ma femme. Quinze ans qu'on prépare ça."
+        },
+        {
+          "t": "5.6-6.6",
+          "parle": "mathis",
+          "fonction": "reaction",
+          "emotion": "hors champ, admiratif",
+          "texte": "Ah ouais…",
+          "hors_champ": true
+        },
+        {
+          "t": "6.8-9.4",
+          "parle": "theo",
+          "fonction": "aveu",
+          "emotion": "à la caméra, malicieux",
+          "texte": "Quinze ans d'attente. Ça valait le coup ?"
+        }
+      ],
+      "texte_ecran": "15 ANS DE PLAN 😈"
+    }
+  ]
+}

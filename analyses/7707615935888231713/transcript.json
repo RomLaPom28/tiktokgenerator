@@ -1,0 +1,4497 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 3.28,
+      "texte": "Dans ma ville, tous les 7 ans, on laisse un enfant dans la forêt pour le monstre."
+    },
+    {
+      "debut": 3.38,
+      "fin": 4.98,
+      "texte": "Comme ça, il reste loin de chez nous."
+    },
+    {
+      "debut": 5.36,
+      "fin": 7.1,
+      "texte": "J'avais 5 ans, et il devait me manger."
+    },
+    {
+      "debut": 7.26,
+      "fin": 8.78,
+      "texte": "Sauf qu'à la place, il m'a élevé."
+    },
+    {
+      "debut": 9.0,
+      "fin": 11.0,
+      "texte": "Ce jour-là, ma mère m'a emmené derrière les arbres."
+    },
+    {
+      "debut": 11.16,
+      "fin": 13.56,
+      "texte": "Elle a lâché ma main, et elle m'a dit de compter jusqu'à 100."
+    },
+    {
+      "debut": 13.86,
+      "fin": 14.84,
+      "texte": "Je suis arrivé à 12."
+    },
+    {
+      "debut": 15.08,
+      "fin": 17.38,
+      "texte": "Sa gueule était si grande que j'aurais pu tenir debout dedans."
+    },
+    {
+      "debut": 17.66,
+      "fin": 18.4,
+      "texte": "Il m'a reniflé."
+    },
+    {
+      "debut": 18.5,
+      "fin": 19.88,
+      "texte": "Puis il m'a porté jusqu'à sa grotte."
+    },
+    {
+      "debut": 20.1,
+      "fin": 21.8,
+      "texte": "Et il a grogné le seul mot qu'il connaît."
+    },
+    {
+      "debut": 21.94,
+      "fin": 22.32,
+      "texte": "À moi."
+    },
+    {
+      "debut": 22.7,
+      "fin": 23.8,
+      "texte": "C'était il y a 7 ans."
+    },
+    {
+      "debut": 23.96,
+      "fin": 26.06,
+      "texte": "C'est la chose la plus terrifiante que j'ai jamais vue."
+    },
+    {
+      "debut": 26.06,
+      "fin": 28.28,
+      "texte": "Et pourtant, chaque soir, il me borde."
+    },
+    {
+      "debut": 28.52,
+      "fin": 31.34,
+      "texte": "Il fait griller un cerf entier, noir dehors et cru dedans."
+    },
+    {
+      "debut": 31.62,
+      "fin": 33.44,
+      "texte": "Puis il me regarde avaler chaque bouchée."
+    },
+    {
+      "debut": 33.74,
+      "fin": 36.16,
+      "texte": "Et chaque nuit, quand il croit que je dors, il me renifle."
+    },
+    {
+      "debut": 36.24,
+      "fin": 37.52,
+      "texte": "Comme pour vérifier si je suis prêt."
+    },
+    {
+      "debut": 37.82,
+      "fin": 39.5,
+      "texte": "Quand d'autres créatures approchent de la grotte,"
+    },
+    {
+      "debut": 39.7,
+      "fin": 40.92,
+      "texte": "il se lève, il grogne."
+    },
+    {
+      "debut": 41.2,
+      "fin": 41.5,
+      "texte": "À moi !"
+    },
+    {
+      "debut": 41.5,
+      "fin": 42.14,
+      "texte": "Et elle recule."
+    },
+    {
+      "debut": 42.44,
+      "fin": 43.64,
+      "texte": "Mais je sais ce que ça veut dire."
+    },
+    {
+      "debut": 43.84,
+      "fin": 45.9,
+      "texte": "À moi, quand un monstre parle de nourriture."
+    },
+    {
+      "debut": 46.04,
+      "fin": 46.94,
+      "texte": "Il ne me protège pas."
+    },
+    {
+      "debut": 47.14,
+      "fin": 48.3,
+      "texte": "Il protège son dîner."
+    },
+    {
+      "debut": 48.46,
+      "fin": 51.44,
+      "texte": "Parce que devant la grotte, il y a 9 paires de petites chaussures."
+    },
+    {
+      "debut": 51.66,
+      "fin": 52.96,
+      "texte": "Une pour chaque enfant avant moi."
+    },
+    {
+      "debut": 53.28,
+      "fin": 54.34,
+      "texte": "C'est tout ce qu'il reste d'eux."
+    },
+    {
+      "debut": 54.34,
+      "fin": 56.74,
+      "texte": "Et chaque mois, il me plaque contre un grand arbre."
+    },
+    {
+      "debut": 56.86,
+      "fin": 58.92,
+      "texte": "Puis il griffe un trait juste au-dessus de ma tête."
+    },
+    {
+      "debut": 59.3,
+      "fin": 61.32,
+      "texte": "Sur cet arbre, il y a 9 colonnes de trait."
+    },
+    {
+      "debut": 61.62,
+      "fin": 63.32,
+      "texte": "Et elles s'arrêtent toutes à la même hauteur."
+    },
+    {
+      "debut": 63.66,
+      "fin": 65.46,
+      "texte": "C'est la taille qu'on atteint avant qu'il nous mange."
+    },
+    {
+      "debut": 65.9,
+      "fin": 68.58,
+      "texte": "Juste derrière, gravé dans la roche avec une écriture d'enfant,"
+    },
+    {
+      "debut": 68.7,
+      "fin": 69.32,
+      "texte": "il y a 3 mots."
+    },
+    {
+      "debut": 69.92,
+      "fin": 70.62,
+      "texte": "Ne grandis pas."
+    },
+    {
+      "debut": 70.96,
+      "fin": 72.06,
+      "texte": "Alors j'ai arrêté de manger."
+    },
+    {
+      "debut": 72.28,
+      "fin": 73.66,
+      "texte": "Mais il a grogné toute la nuit."
+    },
+    {
+      "debut": 73.82,
+      "fin": 74.82,
+      "texte": "Jusqu'à ce que j'avale tout."
+    },
+    {
+      "debut": 75.16,
+      "fin": 76.96,
+      "texte": "Ensuite, je me suis voûté contre l'arbre."
+    },
+    {
+      "debut": 77.12,
+      "fin": 78.92,
+      "texte": "Mais une énorme main m'a redressé le dos."
+    },
+    {
+      "debut": 79.28,
+      "fin": 81.3,
+      "texte": "Le mois dernier, il ne me manquait plus qu'un doigt."
+    },
+    {
+      "debut": 81.46,
+      "fin": 82.28,
+      "texte": "Donc je me suis enfui."
+    },
+    {
+      "debut": 82.28,
+      "fin": 84.96,
+      "texte": "La 2ème nuit, quelque chose m'a attrapé la cheville."
+    },
+    {
+      "debut": 85.2,
+      "fin": 87.14,
+      "texte": "Et là, très loin derrière moi, je l'ai entendu."
+    },
+    {
+      "debut": 87.52,
+      "fin": 87.88,
+      "texte": "À moi."
+    },
+    {
+      "debut": 88.3,
+      "fin": 89.26,
+      "texte": "Et la chose m'a lâché."
+    },
+    {
+      "debut": 89.54,
+      "fin": 91.1,
+      "texte": "J'ai fini par atteindre la porte de la ville."
+    },
+    {
+      "debut": 91.34,
+      "fin": 92.08,
+      "texte": "Un homme m'a demandé."
+    },
+    {
+      "debut": 92.42,
+      "fin": 93.52,
+      "texte": "Tu es le fils de qui ?"
+    },
+    {
+      "debut": 93.52,
+      "fin": 96.16,
+      "texte": "Derrière lui, avec 7 ans de plus, il y avait ma mère."
+    },
+    {
+      "debut": 96.52,
+      "fin": 97.46,
+      "texte": "Je l'ai montré du doigt."
+    },
+    {
+      "debut": 97.58,
+      "fin": 98.62,
+      "texte": "Et j'ai dit d'elle."
+    },
+    {
+      "debut": 98.82,
+      "fin": 100.14,
+      "texte": "Elle m'a regardé droit dans les yeux."
+    },
+    {
+      "debut": 100.36,
+      "fin": 101.92,
+      "texte": "Elle a dit, je n'ai pas de fils."
+    },
+    {
+      "debut": 102.22,
+      "fin": 103.3,
+      "texte": "Et elle a refermé la porte."
+    },
+    {
+      "debut": 103.76,
+      "fin": 106.38,
+      "texte": "Parce que si j'étais vivant, c'est que le monstre n'avait pas mangé."
+    },
+    {
+      "debut": 106.6,
+      "fin": 108.62,
+      "texte": "Alors au matin, les hommes m'ont ramené dans la forêt."
+    },
+    {
+      "debut": 108.82,
+      "fin": 109.58,
+      "texte": "Et ils m'ont laissé là."
+    },
+    {
+      "debut": 109.58,
+      "fin": 110.9,
+      "texte": "Il est sorti de l'ombre."
+    },
+    {
+      "debut": 111.04,
+      "fin": 111.94,
+      "texte": "Il n'était pas en colère."
+    },
+    {
+      "debut": 112.2,
+      "fin": 113.44,
+      "texte": "Il m'a juste ramené à la maison."
+    },
+    {
+      "debut": 113.66,
+      "fin": 115.68,
+      "texte": "Cette nuit-là, il a griffé le trait sur l'arbre."
+    },
+    {
+      "debut": 115.9,
+      "fin": 117.2,
+      "texte": "Et cette fois, j'y étais."
+    },
+    {
+      "debut": 117.3,
+      "fin": 118.46,
+      "texte": "Il l'a regardé très longtemps."
+    },
+    {
+      "debut": 118.7,
+      "fin": 120.74,
+      "texte": "Puis il a fait un bruit que je n'avais jamais entendu."
+    },
+    {
+      "debut": 121.34,
+      "fin": 122.78,
+      "texte": "Ensuite, il m'a lavé dans la rivière."
+    },
+    {
+      "debut": 122.96,
+      "fin": 124.36,
+      "texte": "Et il m'a frotté avec des feuilles."
+    },
+    {
+      "debut": 124.52,
+      "fin": 125.4,
+      "texte": "Je savais ce que c'était."
+    },
+    {
+      "debut": 125.8,
+      "fin": 126.9,
+      "texte": "C'est ce qu'on fait à la viande."
+    },
+    {
+      "debut": 127.16,
+      "fin": 128.3,
+      "texte": "Puis il a ouvert la gueule."
+    },
+    {
+      "debut": 128.46,
+      "fin": 130.28,
+      "texte": "Ses dents se sont refermées tout autour de moi."
+    },
+    {
+      "debut": 130.52,
+      "fin": 131.38,
+      "texte": "Et tout est devenu noir."
+    },
+    {
+      "debut": 131.84,
+      "fin": 133.36,
+      "texte": "J'ai pensé aux 9 paires de chaussures."
+    },
+    {
+      "debut": 133.56,
+      "fin": 135.24,
+      "texte": "J'ai fermé les yeux et j'ai attendu."
+    },
+    {
+      "debut": 135.24,
+      "fin": 136.36,
+      "texte": "Et attendu."
+    },
+    {
+      "debut": 136.64,
+      "fin": 137.5,
+      "texte": "Mais il n'a jamais mordu."
+    },
+    {
+      "debut": 137.78,
+      "fin": 138.88,
+      "texte": "Il a marché toute la nuit."
+    },
+    {
+      "debut": 139.12,
+      "fin": 141.66,
+      "texte": "Et au lever du soleil, il m'a posé au sommet d'une montagne."
+    },
+    {
+      "debut": 141.86,
+      "fin": 144.78,
+      "texte": "Et là, 9 personnes ont couru vers lui pour le serrer dans leurs bras."
+    },
+    {
+      "debut": 145.08,
+      "fin": 146.24,
+      "texte": "Il n'avait mangé aucun de nous."
+    },
+    {
+      "debut": 146.46,
+      "fin": 149.2,
+      "texte": "Il gardait nos chaussures, comme ta mère garde tes chaussons de bébé."
+    },
+    {
+      "debut": 149.44,
+      "fin": 151.6,
+      "texte": "Chaque nuit, il vérifiait juste si je respirais encore."
+    },
+    {
+      "debut": 151.86,
+      "fin": 154.86,
+      "texte": "Et le trait sur l'arbre, ce n'était pas la taille qu'on atteint avant d'être mangé."
+    },
+    {
+      "debut": 155.08,
+      "fin": 156.78,
+      "texte": "C'était la taille qu'il faut pour vivre tout seul."
+    },
+    {
+      "debut": 157.0,
+      "fin": 158.52,
+      "texte": "Il nous a élevés pour qu'on puisse partir."
+    },
+    {
+      "debut": 158.86,
+      "fin": 161.02,
+      "texte": "Puis il a fait demi-tour, en refaisant ce bruit."
+    },
+    {
+      "debut": 161.18,
+      "fin": 162.64,
+      "texte": "Parce qu'il y a toujours un autre enfant."
+    },
+    {
+      "debut": 162.64,
+      "fin": 164.22,
+      "texte": "Une vieille dame m'a pris la main."
+    },
+    {
+      "debut": 164.42,
+      "fin": 166.56,
+      "texte": "Et elle m'a demandé, tu es le fils de qui ?"
+    },
+    {
+      "debut": 166.56,
+      "fin": 167.76,
+      "texte": "J'ai répondu, de lui."
+    },
+    {
+      "debut": 168.58,
+      "fin": 170.26,
+      "texte": "Je l'ai dit bien trop loin pour qu'il m'entende."
+    },
+    {
+      "debut": 170.56,
+      "fin": 171.78,
+      "texte": "Pourtant, il s'est arrêté."
+    },
+    {
+      "debut": 171.9,
+      "fin": 174.56,
+      "texte": "Et de son horrible voix, il a dit, à moi."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.0,
+      "fin": 0.2,
+      "mot": "Dans"
+    },
+    {
+      "debut": 0.2,
+      "fin": 0.38,
+      "mot": "ma"
+    },
+    {
+      "debut": 0.38,
+      "fin": 0.6,
+      "mot": "ville,"
+    },
+    {
+      "debut": 0.78,
+      "fin": 0.84,
+      "mot": "tous"
+    },
+    {
+      "debut": 0.84,
+      "fin": 1.0,
+      "mot": "les"
+    },
+    {
+      "debut": 1.0,
+      "fin": 1.12,
+      "mot": "7"
+    },
+    {
+      "debut": 1.12,
+      "fin": 1.3,
+      "mot": "ans,"
+    },
+    {
+      "debut": 1.5,
+      "fin": 1.6,
+      "mot": "on"
+    },
+    {
+      "debut": 1.6,
+      "fin": 1.74,
+      "mot": "laisse"
+    },
+    {
+      "debut": 1.74,
+      "fin": 1.92,
+      "mot": "un"
+    },
+    {
+      "debut": 1.92,
+      "fin": 2.14,
+      "mot": "enfant"
+    },
+    {
+      "debut": 2.14,
+      "fin": 2.28,
+      "mot": "dans"
+    },
+    {
+      "debut": 2.28,
+      "fin": 2.44,
+      "mot": "la"
+    },
+    {
+      "debut": 2.44,
+      "fin": 2.6,
+      "mot": "forêt"
+    },
+    {
+      "debut": 2.6,
+      "fin": 2.76,
+      "mot": "pour"
+    },
+    {
+      "debut": 2.76,
+      "fin": 2.94,
+      "mot": "le"
+    },
+    {
+      "debut": 2.94,
+      "fin": 3.28,
+      "mot": "monstre."
+    },
+    {
+      "debut": 3.38,
+      "fin": 3.54,
+      "mot": "Comme"
+    },
+    {
+      "debut": 3.54,
+      "fin": 3.82,
+      "mot": "ça,"
+    },
+    {
+      "debut": 3.84,
+      "fin": 3.98,
+      "mot": "il"
+    },
+    {
+      "debut": 3.98,
+      "fin": 4.24,
+      "mot": "reste"
+    },
+    {
+      "debut": 4.24,
+      "fin": 4.54,
+      "mot": "loin"
+    },
+    {
+      "debut": 4.54,
+      "fin": 4.7,
+      "mot": "de"
+    },
+    {
+      "debut": 4.7,
+      "fin": 4.78,
+      "mot": "chez"
+    },
+    {
+      "debut": 4.78,
+      "fin": 4.98,
+      "mot": "nous."
+    },
+    {
+      "debut": 5.36,
+      "fin": 5.42,
+      "mot": "J"
+    },
+    {
+      "debut": 5.42,
+      "fin": 5.58,
+      "mot": "'avais"
+    },
+    {
+      "debut": 5.58,
+      "fin": 5.82,
+      "mot": "5"
+    },
+    {
+      "debut": 5.82,
+      "fin": 6.06,
+      "mot": "ans,"
+    },
+    {
+      "debut": 6.14,
+      "fin": 6.28,
+      "mot": "et"
+    },
+    {
+      "debut": 6.28,
+      "fin": 6.36,
+      "mot": "il"
+    },
+    {
+      "debut": 6.36,
+      "fin": 6.54,
+      "mot": "devait"
+    },
+    {
+      "debut": 6.54,
+      "fin": 6.72,
+      "mot": "me"
+    },
+    {
+      "debut": 6.72,
+      "fin": 7.1,
+      "mot": "manger."
+    },
+    {
+      "debut": 7.26,
+      "fin": 7.42,
+      "mot": "Sauf"
+    },
+    {
+      "debut": 7.42,
+      "fin": 7.54,
+      "mot": "qu"
+    },
+    {
+      "debut": 7.54,
+      "fin": 7.6,
+      "mot": "'à"
+    },
+    {
+      "debut": 7.6,
+      "fin": 7.76,
+      "mot": "la"
+    },
+    {
+      "debut": 7.76,
+      "fin": 7.96,
+      "mot": "place,"
+    },
+    {
+      "debut": 8.12,
+      "fin": 8.26,
+      "mot": "il"
+    },
+    {
+      "debut": 8.26,
+      "fin": 8.32,
+      "mot": "m"
+    },
+    {
+      "debut": 8.32,
+      "fin": 8.46,
+      "mot": "'a"
+    },
+    {
+      "debut": 8.46,
+      "fin": 8.78,
+      "mot": "élevé."
+    },
+    {
+      "debut": 9.0,
+      "fin": 9.14,
+      "mot": "Ce"
+    },
+    {
+      "debut": 9.14,
+      "fin": 9.28,
+      "mot": "jour"
+    },
+    {
+      "debut": 9.28,
+      "fin": 9.54,
+      "mot": "-là,"
+    },
+    {
+      "debut": 9.66,
+      "fin": 9.76,
+      "mot": "ma"
+    },
+    {
+      "debut": 9.76,
+      "fin": 9.88,
+      "mot": "mère"
+    },
+    {
+      "debut": 9.88,
+      "fin": 9.98,
+      "mot": "m"
+    },
+    {
+      "debut": 9.98,
+      "fin": 10.06,
+      "mot": "'a"
+    },
+    {
+      "debut": 10.06,
+      "fin": 10.26,
+      "mot": "emmené"
+    },
+    {
+      "debut": 10.26,
+      "fin": 10.56,
+      "mot": "derrière"
+    },
+    {
+      "debut": 10.56,
+      "fin": 10.82,
+      "mot": "les"
+    },
+    {
+      "debut": 10.82,
+      "fin": 11.0,
+      "mot": "arbres."
+    },
+    {
+      "debut": 11.16,
+      "fin": 11.28,
+      "mot": "Elle"
+    },
+    {
+      "debut": 11.28,
+      "fin": 11.42,
+      "mot": "a"
+    },
+    {
+      "debut": 11.42,
+      "fin": 11.72,
+      "mot": "lâché"
+    },
+    {
+      "debut": 11.72,
+      "fin": 11.9,
+      "mot": "ma"
+    },
+    {
+      "debut": 11.9,
+      "fin": 12.0,
+      "mot": "main,"
+    },
+    {
+      "debut": 12.18,
+      "fin": 12.28,
+      "mot": "et"
+    },
+    {
+      "debut": 12.28,
+      "fin": 12.4,
+      "mot": "elle"
+    },
+    {
+      "debut": 12.4,
+      "fin": 12.44,
+      "mot": "m"
+    },
+    {
+      "debut": 12.44,
+      "fin": 12.5,
+      "mot": "'a"
+    },
+    {
+      "debut": 12.5,
+      "fin": 12.6,
+      "mot": "dit"
+    },
+    {
+      "debut": 12.6,
+      "fin": 12.76,
+      "mot": "de"
+    },
+    {
+      "debut": 12.76,
+      "fin": 13.04,
+      "mot": "compter"
+    },
+    {
+      "debut": 13.04,
+      "fin": 13.32,
+      "mot": "jusqu"
+    },
+    {
+      "debut": 13.32,
+      "fin": 13.46,
+      "mot": "'à"
+    },
+    {
+      "debut": 13.46,
+      "fin": 13.56,
+      "mot": "100."
+    },
+    {
+      "debut": 13.86,
+      "fin": 14.06,
+      "mot": "Je"
+    },
+    {
+      "debut": 14.06,
+      "fin": 14.26,
+      "mot": "suis"
+    },
+    {
+      "debut": 14.26,
+      "fin": 14.46,
+      "mot": "arrivé"
+    },
+    {
+      "debut": 14.46,
+      "fin": 14.6,
+      "mot": "à"
+    },
+    {
+      "debut": 14.6,
+      "fin": 14.84,
+      "mot": "12."
+    },
+    {
+      "debut": 15.08,
+      "fin": 15.28,
+      "mot": "Sa"
+    },
+    {
+      "debut": 15.28,
+      "fin": 15.44,
+      "mot": "gueule"
+    },
+    {
+      "debut": 15.44,
+      "fin": 15.6,
+      "mot": "était"
+    },
+    {
+      "debut": 15.6,
+      "fin": 15.88,
+      "mot": "si"
+    },
+    {
+      "debut": 15.88,
+      "fin": 16.06,
+      "mot": "grande"
+    },
+    {
+      "debut": 16.06,
+      "fin": 16.2,
+      "mot": "que"
+    },
+    {
+      "debut": 16.2,
+      "fin": 16.34,
+      "mot": "j"
+    },
+    {
+      "debut": 16.34,
+      "fin": 16.44,
+      "mot": "'aurais"
+    },
+    {
+      "debut": 16.44,
+      "fin": 16.6,
+      "mot": "pu"
+    },
+    {
+      "debut": 16.6,
+      "fin": 16.86,
+      "mot": "tenir"
+    },
+    {
+      "debut": 16.86,
+      "fin": 17.18,
+      "mot": "debout"
+    },
+    {
+      "debut": 17.18,
+      "fin": 17.38,
+      "mot": "dedans."
+    },
+    {
+      "debut": 17.66,
+      "fin": 17.74,
+      "mot": "Il"
+    },
+    {
+      "debut": 17.74,
+      "fin": 17.84,
+      "mot": "m"
+    },
+    {
+      "debut": 17.84,
+      "fin": 17.96,
+      "mot": "'a"
+    },
+    {
+      "debut": 17.96,
+      "fin": 18.4,
+      "mot": "reniflé."
+    },
+    {
+      "debut": 18.5,
+      "fin": 18.7,
+      "mot": "Puis"
+    },
+    {
+      "debut": 18.7,
+      "fin": 18.84,
+      "mot": "il"
+    },
+    {
+      "debut": 18.84,
+      "fin": 18.9,
+      "mot": "m"
+    },
+    {
+      "debut": 18.9,
+      "fin": 19.06,
+      "mot": "'a"
+    },
+    {
+      "debut": 19.06,
+      "fin": 19.24,
+      "mot": "porté"
+    },
+    {
+      "debut": 19.24,
+      "fin": 19.46,
+      "mot": "jusqu"
+    },
+    {
+      "debut": 19.46,
+      "fin": 19.56,
+      "mot": "'à"
+    },
+    {
+      "debut": 19.56,
+      "fin": 19.7,
+      "mot": "sa"
+    },
+    {
+      "debut": 19.7,
+      "fin": 19.88,
+      "mot": "grotte."
+    },
+    {
+      "debut": 20.1,
+      "fin": 20.22,
+      "mot": "Et"
+    },
+    {
+      "debut": 20.22,
+      "fin": 20.34,
+      "mot": "il"
+    },
+    {
+      "debut": 20.34,
+      "fin": 20.5,
+      "mot": "a"
+    },
+    {
+      "debut": 20.5,
+      "fin": 20.74,
+      "mot": "grogné"
+    },
+    {
+      "debut": 20.74,
+      "fin": 20.92,
+      "mot": "le"
+    },
+    {
+      "debut": 20.92,
+      "fin": 21.08,
+      "mot": "seul"
+    },
+    {
+      "debut": 21.08,
+      "fin": 21.22,
+      "mot": "mot"
+    },
+    {
+      "debut": 21.22,
+      "fin": 21.32,
+      "mot": "qu"
+    },
+    {
+      "debut": 21.32,
+      "fin": 21.4,
+      "mot": "'il"
+    },
+    {
+      "debut": 21.4,
+      "fin": 21.8,
+      "mot": "connaît."
+    },
+    {
+      "debut": 21.94,
+      "fin": 22.14,
+      "mot": "À"
+    },
+    {
+      "debut": 22.14,
+      "fin": 22.32,
+      "mot": "moi."
+    },
+    {
+      "debut": 22.7,
+      "fin": 22.84,
+      "mot": "C"
+    },
+    {
+      "debut": 22.84,
+      "fin": 23.0,
+      "mot": "'était"
+    },
+    {
+      "debut": 23.0,
+      "fin": 23.24,
+      "mot": "il"
+    },
+    {
+      "debut": 23.24,
+      "fin": 23.3,
+      "mot": "y"
+    },
+    {
+      "debut": 23.3,
+      "fin": 23.4,
+      "mot": "a"
+    },
+    {
+      "debut": 23.4,
+      "fin": 23.6,
+      "mot": "7"
+    },
+    {
+      "debut": 23.6,
+      "fin": 23.8,
+      "mot": "ans."
+    },
+    {
+      "debut": 23.96,
+      "fin": 24.08,
+      "mot": "C"
+    },
+    {
+      "debut": 24.08,
+      "fin": 24.16,
+      "mot": "'est"
+    },
+    {
+      "debut": 24.16,
+      "fin": 24.22,
+      "mot": "la"
+    },
+    {
+      "debut": 24.22,
+      "fin": 24.4,
+      "mot": "chose"
+    },
+    {
+      "debut": 24.4,
+      "fin": 24.64,
+      "mot": "la"
+    },
+    {
+      "debut": 24.64,
+      "fin": 24.82,
+      "mot": "plus"
+    },
+    {
+      "debut": 24.82,
+      "fin": 25.3,
+      "mot": "terrifiante"
+    },
+    {
+      "debut": 25.3,
+      "fin": 25.44,
+      "mot": "que"
+    },
+    {
+      "debut": 25.44,
+      "fin": 25.62,
+      "mot": "j"
+    },
+    {
+      "debut": 25.62,
+      "fin": 25.62,
+      "mot": "'ai"
+    },
+    {
+      "debut": 25.62,
+      "fin": 25.9,
+      "mot": "jamais"
+    },
+    {
+      "debut": 25.9,
+      "fin": 26.06,
+      "mot": "vue."
+    },
+    {
+      "debut": 26.06,
+      "fin": 26.4,
+      "mot": "Et"
+    },
+    {
+      "debut": 26.4,
+      "fin": 26.72,
+      "mot": "pourtant,"
+    },
+    {
+      "debut": 27.08,
+      "fin": 27.18,
+      "mot": "chaque"
+    },
+    {
+      "debut": 27.18,
+      "fin": 27.5,
+      "mot": "soir,"
+    },
+    {
+      "debut": 27.68,
+      "fin": 27.78,
+      "mot": "il"
+    },
+    {
+      "debut": 27.78,
+      "fin": 27.92,
+      "mot": "me"
+    },
+    {
+      "debut": 27.92,
+      "fin": 28.28,
+      "mot": "borde."
+    },
+    {
+      "debut": 28.52,
+      "fin": 28.58,
+      "mot": "Il"
+    },
+    {
+      "debut": 28.58,
+      "fin": 28.78,
+      "mot": "fait"
+    },
+    {
+      "debut": 28.78,
+      "fin": 29.14,
+      "mot": "griller"
+    },
+    {
+      "debut": 29.14,
+      "fin": 29.36,
+      "mot": "un"
+    },
+    {
+      "debut": 29.36,
+      "fin": 29.58,
+      "mot": "cerf"
+    },
+    {
+      "debut": 29.58,
+      "fin": 30.0,
+      "mot": "entier,"
+    },
+    {
+      "debut": 30.2,
+      "fin": 30.4,
+      "mot": "noir"
+    },
+    {
+      "debut": 30.4,
+      "fin": 30.76,
+      "mot": "dehors"
+    },
+    {
+      "debut": 30.76,
+      "fin": 31.0,
+      "mot": "et"
+    },
+    {
+      "debut": 31.0,
+      "fin": 31.14,
+      "mot": "cru"
+    },
+    {
+      "debut": 31.14,
+      "fin": 31.34,
+      "mot": "dedans."
+    },
+    {
+      "debut": 31.62,
+      "fin": 31.8,
+      "mot": "Puis"
+    },
+    {
+      "debut": 31.8,
+      "fin": 32.04,
+      "mot": "il"
+    },
+    {
+      "debut": 32.04,
+      "fin": 32.22,
+      "mot": "me"
+    },
+    {
+      "debut": 32.22,
+      "fin": 32.44,
+      "mot": "regarde"
+    },
+    {
+      "debut": 32.44,
+      "fin": 32.84,
+      "mot": "avaler"
+    },
+    {
+      "debut": 32.84,
+      "fin": 33.1,
+      "mot": "chaque"
+    },
+    {
+      "debut": 33.1,
+      "fin": 33.44,
+      "mot": "bouchée."
+    },
+    {
+      "debut": 33.74,
+      "fin": 33.94,
+      "mot": "Et"
+    },
+    {
+      "debut": 33.94,
+      "fin": 34.08,
+      "mot": "chaque"
+    },
+    {
+      "debut": 34.08,
+      "fin": 34.28,
+      "mot": "nuit,"
+    },
+    {
+      "debut": 34.34,
+      "fin": 34.5,
+      "mot": "quand"
+    },
+    {
+      "debut": 34.5,
+      "fin": 34.7,
+      "mot": "il"
+    },
+    {
+      "debut": 34.7,
+      "fin": 34.8,
+      "mot": "croit"
+    },
+    {
+      "debut": 34.8,
+      "fin": 34.96,
+      "mot": "que"
+    },
+    {
+      "debut": 34.96,
+      "fin": 35.1,
+      "mot": "je"
+    },
+    {
+      "debut": 35.1,
+      "fin": 35.26,
+      "mot": "dors,"
+    },
+    {
+      "debut": 35.48,
+      "fin": 35.6,
+      "mot": "il"
+    },
+    {
+      "debut": 35.6,
+      "fin": 35.78,
+      "mot": "me"
+    },
+    {
+      "debut": 35.78,
+      "fin": 36.16,
+      "mot": "renifle."
+    },
+    {
+      "debut": 36.24,
+      "fin": 36.36,
+      "mot": "Comme"
+    },
+    {
+      "debut": 36.36,
+      "fin": 36.56,
+      "mot": "pour"
+    },
+    {
+      "debut": 36.56,
+      "fin": 36.94,
+      "mot": "vérifier"
+    },
+    {
+      "debut": 36.94,
+      "fin": 37.06,
+      "mot": "si"
+    },
+    {
+      "debut": 37.06,
+      "fin": 37.22,
+      "mot": "je"
+    },
+    {
+      "debut": 37.22,
+      "fin": 37.36,
+      "mot": "suis"
+    },
+    {
+      "debut": 37.36,
+      "fin": 37.52,
+      "mot": "prêt."
+    },
+    {
+      "debut": 37.82,
+      "fin": 37.98,
+      "mot": "Quand"
+    },
+    {
+      "debut": 37.98,
+      "fin": 38.18,
+      "mot": "d"
+    },
+    {
+      "debut": 38.18,
+      "fin": 38.32,
+      "mot": "'autres"
+    },
+    {
+      "debut": 38.32,
+      "fin": 38.74,
+      "mot": "créatures"
+    },
+    {
+      "debut": 38.74,
+      "fin": 39.08,
+      "mot": "approchent"
+    },
+    {
+      "debut": 39.08,
+      "fin": 39.24,
+      "mot": "de"
+    },
+    {
+      "debut": 39.24,
+      "fin": 39.38,
+      "mot": "la"
+    },
+    {
+      "debut": 39.38,
+      "fin": 39.5,
+      "mot": "grotte,"
+    },
+    {
+      "debut": 39.7,
+      "fin": 39.82,
+      "mot": "il"
+    },
+    {
+      "debut": 39.82,
+      "fin": 40.02,
+      "mot": "se"
+    },
+    {
+      "debut": 40.02,
+      "fin": 40.28,
+      "mot": "lève,"
+    },
+    {
+      "debut": 40.44,
+      "fin": 40.62,
+      "mot": "il"
+    },
+    {
+      "debut": 40.62,
+      "fin": 40.92,
+      "mot": "grogne."
+    },
+    {
+      "debut": 41.2,
+      "fin": 41.2,
+      "mot": "À"
+    },
+    {
+      "debut": 41.2,
+      "fin": 41.36,
+      "mot": "moi"
+    },
+    {
+      "debut": 41.36,
+      "fin": 41.5,
+      "mot": "!"
+    },
+    {
+      "debut": 41.5,
+      "fin": 41.62,
+      "mot": "Et"
+    },
+    {
+      "debut": 41.62,
+      "fin": 41.82,
+      "mot": "elle"
+    },
+    {
+      "debut": 41.82,
+      "fin": 42.14,
+      "mot": "recule."
+    },
+    {
+      "debut": 42.44,
+      "fin": 42.6,
+      "mot": "Mais"
+    },
+    {
+      "debut": 42.6,
+      "fin": 42.84,
+      "mot": "je"
+    },
+    {
+      "debut": 42.84,
+      "fin": 42.92,
+      "mot": "sais"
+    },
+    {
+      "debut": 42.92,
+      "fin": 43.1,
+      "mot": "ce"
+    },
+    {
+      "debut": 43.1,
+      "fin": 43.14,
+      "mot": "que"
+    },
+    {
+      "debut": 43.14,
+      "fin": 43.28,
+      "mot": "ça"
+    },
+    {
+      "debut": 43.28,
+      "fin": 43.4,
+      "mot": "veut"
+    },
+    {
+      "debut": 43.4,
+      "fin": 43.64,
+      "mot": "dire."
+    },
+    {
+      "debut": 43.84,
+      "fin": 43.98,
+      "mot": "À"
+    },
+    {
+      "debut": 43.98,
+      "fin": 44.24,
+      "mot": "moi,"
+    },
+    {
+      "debut": 44.32,
+      "fin": 44.48,
+      "mot": "quand"
+    },
+    {
+      "debut": 44.48,
+      "fin": 44.68,
+      "mot": "un"
+    },
+    {
+      "debut": 44.68,
+      "fin": 44.94,
+      "mot": "monstre"
+    },
+    {
+      "debut": 44.94,
+      "fin": 45.16,
+      "mot": "parle"
+    },
+    {
+      "debut": 45.16,
+      "fin": 45.34,
+      "mot": "de"
+    },
+    {
+      "debut": 45.34,
+      "fin": 45.9,
+      "mot": "nourriture."
+    },
+    {
+      "debut": 46.04,
+      "fin": 46.16,
+      "mot": "Il"
+    },
+    {
+      "debut": 46.16,
+      "fin": 46.32,
+      "mot": "ne"
+    },
+    {
+      "debut": 46.32,
+      "fin": 46.54,
+      "mot": "me"
+    },
+    {
+      "debut": 46.54,
+      "fin": 46.72,
+      "mot": "protège"
+    },
+    {
+      "debut": 46.72,
+      "fin": 46.94,
+      "mot": "pas."
+    },
+    {
+      "debut": 47.14,
+      "fin": 47.38,
+      "mot": "Il"
+    },
+    {
+      "debut": 47.38,
+      "fin": 47.74,
+      "mot": "protège"
+    },
+    {
+      "debut": 47.74,
+      "fin": 47.94,
+      "mot": "son"
+    },
+    {
+      "debut": 47.94,
+      "fin": 48.3,
+      "mot": "dîner."
+    },
+    {
+      "debut": 48.46,
+      "fin": 48.66,
+      "mot": "Parce"
+    },
+    {
+      "debut": 48.66,
+      "fin": 48.82,
+      "mot": "que"
+    },
+    {
+      "debut": 48.82,
+      "fin": 48.98,
+      "mot": "devant"
+    },
+    {
+      "debut": 48.98,
+      "fin": 49.2,
+      "mot": "la"
+    },
+    {
+      "debut": 49.2,
+      "fin": 49.44,
+      "mot": "grotte,"
+    },
+    {
+      "debut": 49.72,
+      "fin": 49.8,
+      "mot": "il"
+    },
+    {
+      "debut": 49.8,
+      "fin": 49.86,
+      "mot": "y"
+    },
+    {
+      "debut": 49.86,
+      "fin": 49.98,
+      "mot": "a"
+    },
+    {
+      "debut": 49.98,
+      "fin": 50.22,
+      "mot": "9"
+    },
+    {
+      "debut": 50.22,
+      "fin": 50.4,
+      "mot": "paires"
+    },
+    {
+      "debut": 50.4,
+      "fin": 50.64,
+      "mot": "de"
+    },
+    {
+      "debut": 50.64,
+      "fin": 50.88,
+      "mot": "petites"
+    },
+    {
+      "debut": 50.88,
+      "fin": 51.44,
+      "mot": "chaussures."
+    },
+    {
+      "debut": 51.66,
+      "fin": 51.82,
+      "mot": "Une"
+    },
+    {
+      "debut": 51.82,
+      "fin": 52.1,
+      "mot": "pour"
+    },
+    {
+      "debut": 52.1,
+      "fin": 52.28,
+      "mot": "chaque"
+    },
+    {
+      "debut": 52.28,
+      "fin": 52.54,
+      "mot": "enfant"
+    },
+    {
+      "debut": 52.54,
+      "fin": 52.76,
+      "mot": "avant"
+    },
+    {
+      "debut": 52.76,
+      "fin": 52.96,
+      "mot": "moi."
+    },
+    {
+      "debut": 53.28,
+      "fin": 53.38,
+      "mot": "C"
+    },
+    {
+      "debut": 53.38,
+      "fin": 53.42,
+      "mot": "'est"
+    },
+    {
+      "debut": 53.42,
+      "fin": 53.6,
+      "mot": "tout"
+    },
+    {
+      "debut": 53.6,
+      "fin": 53.7,
+      "mot": "ce"
+    },
+    {
+      "debut": 53.7,
+      "fin": 53.76,
+      "mot": "qu"
+    },
+    {
+      "debut": 53.76,
+      "fin": 53.84,
+      "mot": "'il"
+    },
+    {
+      "debut": 53.84,
+      "fin": 54.06,
+      "mot": "reste"
+    },
+    {
+      "debut": 54.06,
+      "fin": 54.2,
+      "mot": "d"
+    },
+    {
+      "debut": 54.2,
+      "fin": 54.34,
+      "mot": "'eux."
+    },
+    {
+      "debut": 54.34,
+      "fin": 54.52,
+      "mot": "Et"
+    },
+    {
+      "debut": 54.52,
+      "fin": 54.82,
+      "mot": "chaque"
+    },
+    {
+      "debut": 54.82,
+      "fin": 55.02,
+      "mot": "mois,"
+    },
+    {
+      "debut": 55.14,
+      "fin": 55.28,
+      "mot": "il"
+    },
+    {
+      "debut": 55.28,
+      "fin": 55.52,
+      "mot": "me"
+    },
+    {
+      "debut": 55.52,
+      "fin": 55.66,
+      "mot": "plaque"
+    },
+    {
+      "debut": 55.66,
+      "fin": 55.92,
+      "mot": "contre"
+    },
+    {
+      "debut": 55.92,
+      "fin": 56.06,
+      "mot": "un"
+    },
+    {
+      "debut": 56.06,
+      "fin": 56.34,
+      "mot": "grand"
+    },
+    {
+      "debut": 56.34,
+      "fin": 56.74,
+      "mot": "arbre."
+    },
+    {
+      "debut": 56.86,
+      "fin": 56.98,
+      "mot": "Puis"
+    },
+    {
+      "debut": 56.98,
+      "fin": 57.18,
+      "mot": "il"
+    },
+    {
+      "debut": 57.18,
+      "fin": 57.38,
+      "mot": "griffe"
+    },
+    {
+      "debut": 57.38,
+      "fin": 57.78,
+      "mot": "un"
+    },
+    {
+      "debut": 57.78,
+      "fin": 57.78,
+      "mot": "trait"
+    },
+    {
+      "debut": 57.78,
+      "fin": 58.14,
+      "mot": "juste"
+    },
+    {
+      "debut": 58.14,
+      "fin": 58.32,
+      "mot": "au"
+    },
+    {
+      "debut": 58.32,
+      "fin": 58.42,
+      "mot": "-dessus"
+    },
+    {
+      "debut": 58.42,
+      "fin": 58.58,
+      "mot": "de"
+    },
+    {
+      "debut": 58.58,
+      "fin": 58.68,
+      "mot": "ma"
+    },
+    {
+      "debut": 58.68,
+      "fin": 58.92,
+      "mot": "tête."
+    },
+    {
+      "debut": 59.3,
+      "fin": 59.44,
+      "mot": "Sur"
+    },
+    {
+      "debut": 59.44,
+      "fin": 59.62,
+      "mot": "cet"
+    },
+    {
+      "debut": 59.62,
+      "fin": 59.92,
+      "mot": "arbre,"
+    },
+    {
+      "debut": 60.12,
+      "fin": 60.18,
+      "mot": "il"
+    },
+    {
+      "debut": 60.18,
+      "fin": 60.28,
+      "mot": "y"
+    },
+    {
+      "debut": 60.28,
+      "fin": 60.38,
+      "mot": "a"
+    },
+    {
+      "debut": 60.38,
+      "fin": 60.64,
+      "mot": "9"
+    },
+    {
+      "debut": 60.64,
+      "fin": 60.92,
+      "mot": "colonnes"
+    },
+    {
+      "debut": 60.92,
+      "fin": 61.18,
+      "mot": "de"
+    },
+    {
+      "debut": 61.18,
+      "fin": 61.32,
+      "mot": "trait."
+    },
+    {
+      "debut": 61.62,
+      "fin": 61.74,
+      "mot": "Et"
+    },
+    {
+      "debut": 61.74,
+      "fin": 61.84,
+      "mot": "elles"
+    },
+    {
+      "debut": 61.84,
+      "fin": 62.02,
+      "mot": "s"
+    },
+    {
+      "debut": 62.02,
+      "fin": 62.24,
+      "mot": "'arrêtent"
+    },
+    {
+      "debut": 62.24,
+      "fin": 62.5,
+      "mot": "toutes"
+    },
+    {
+      "debut": 62.5,
+      "fin": 62.72,
+      "mot": "à"
+    },
+    {
+      "debut": 62.72,
+      "fin": 62.84,
+      "mot": "la"
+    },
+    {
+      "debut": 62.84,
+      "fin": 62.96,
+      "mot": "même"
+    },
+    {
+      "debut": 62.96,
+      "fin": 63.32,
+      "mot": "hauteur."
+    },
+    {
+      "debut": 63.66,
+      "fin": 63.74,
+      "mot": "C"
+    },
+    {
+      "debut": 63.74,
+      "fin": 63.8,
+      "mot": "'est"
+    },
+    {
+      "debut": 63.8,
+      "fin": 63.96,
+      "mot": "la"
+    },
+    {
+      "debut": 63.96,
+      "fin": 64.06,
+      "mot": "taille"
+    },
+    {
+      "debut": 64.06,
+      "fin": 64.2,
+      "mot": "qu"
+    },
+    {
+      "debut": 64.2,
+      "fin": 64.34,
+      "mot": "'on"
+    },
+    {
+      "debut": 64.34,
+      "fin": 64.62,
+      "mot": "atteint"
+    },
+    {
+      "debut": 64.62,
+      "fin": 64.88,
+      "mot": "avant"
+    },
+    {
+      "debut": 64.88,
+      "fin": 65.04,
+      "mot": "qu"
+    },
+    {
+      "debut": 65.04,
+      "fin": 65.08,
+      "mot": "'il"
+    },
+    {
+      "debut": 65.08,
+      "fin": 65.24,
+      "mot": "nous"
+    },
+    {
+      "debut": 65.24,
+      "fin": 65.46,
+      "mot": "mange."
+    },
+    {
+      "debut": 65.9,
+      "fin": 66.22,
+      "mot": "Juste"
+    },
+    {
+      "debut": 66.22,
+      "fin": 66.48,
+      "mot": "derrière,"
+    },
+    {
+      "debut": 66.9,
+      "fin": 67.06,
+      "mot": "gravé"
+    },
+    {
+      "debut": 67.06,
+      "fin": 67.18,
+      "mot": "dans"
+    },
+    {
+      "debut": 67.18,
+      "fin": 67.32,
+      "mot": "la"
+    },
+    {
+      "debut": 67.32,
+      "fin": 67.48,
+      "mot": "roche"
+    },
+    {
+      "debut": 67.48,
+      "fin": 67.68,
+      "mot": "avec"
+    },
+    {
+      "debut": 67.68,
+      "fin": 67.84,
+      "mot": "une"
+    },
+    {
+      "debut": 67.84,
+      "fin": 68.14,
+      "mot": "écriture"
+    },
+    {
+      "debut": 68.14,
+      "fin": 68.3,
+      "mot": "d"
+    },
+    {
+      "debut": 68.3,
+      "fin": 68.58,
+      "mot": "'enfant,"
+    },
+    {
+      "debut": 68.7,
+      "fin": 68.78,
+      "mot": "il"
+    },
+    {
+      "debut": 68.78,
+      "fin": 68.86,
+      "mot": "y"
+    },
+    {
+      "debut": 68.86,
+      "fin": 68.96,
+      "mot": "a"
+    },
+    {
+      "debut": 68.96,
+      "fin": 69.18,
+      "mot": "3"
+    },
+    {
+      "debut": 69.18,
+      "fin": 69.32,
+      "mot": "mots."
+    },
+    {
+      "debut": 69.92,
+      "fin": 69.94,
+      "mot": "Ne"
+    },
+    {
+      "debut": 69.94,
+      "fin": 70.34,
+      "mot": "grandis"
+    },
+    {
+      "debut": 70.34,
+      "fin": 70.62,
+      "mot": "pas."
+    },
+    {
+      "debut": 70.96,
+      "fin": 71.18,
+      "mot": "Alors"
+    },
+    {
+      "debut": 71.18,
+      "fin": 71.32,
+      "mot": "j"
+    },
+    {
+      "debut": 71.32,
+      "fin": 71.46,
+      "mot": "'ai"
+    },
+    {
+      "debut": 71.46,
+      "fin": 71.72,
+      "mot": "arrêté"
+    },
+    {
+      "debut": 71.72,
+      "fin": 71.84,
+      "mot": "de"
+    },
+    {
+      "debut": 71.84,
+      "fin": 72.06,
+      "mot": "manger."
+    },
+    {
+      "debut": 72.28,
+      "fin": 72.4,
+      "mot": "Mais"
+    },
+    {
+      "debut": 72.4,
+      "fin": 72.62,
+      "mot": "il"
+    },
+    {
+      "debut": 72.62,
+      "fin": 72.76,
+      "mot": "a"
+    },
+    {
+      "debut": 72.76,
+      "fin": 73.1,
+      "mot": "grogné"
+    },
+    {
+      "debut": 73.1,
+      "fin": 73.32,
+      "mot": "toute"
+    },
+    {
+      "debut": 73.32,
+      "fin": 73.5,
+      "mot": "la"
+    },
+    {
+      "debut": 73.5,
+      "fin": 73.66,
+      "mot": "nuit."
+    },
+    {
+      "debut": 73.82,
+      "fin": 74.06,
+      "mot": "Jusqu"
+    },
+    {
+      "debut": 74.06,
+      "fin": 74.18,
+      "mot": "'à"
+    },
+    {
+      "debut": 74.18,
+      "fin": 74.22,
+      "mot": "ce"
+    },
+    {
+      "debut": 74.22,
+      "fin": 74.28,
+      "mot": "que"
+    },
+    {
+      "debut": 74.28,
+      "fin": 74.4,
+      "mot": "j"
+    },
+    {
+      "debut": 74.4,
+      "fin": 74.6,
+      "mot": "'avale"
+    },
+    {
+      "debut": 74.6,
+      "fin": 74.82,
+      "mot": "tout."
+    },
+    {
+      "debut": 75.16,
+      "fin": 75.48,
+      "mot": "Ensuite,"
+    },
+    {
+      "debut": 75.6,
+      "fin": 75.74,
+      "mot": "je"
+    },
+    {
+      "debut": 75.74,
+      "fin": 75.88,
+      "mot": "me"
+    },
+    {
+      "debut": 75.88,
+      "fin": 76.02,
+      "mot": "suis"
+    },
+    {
+      "debut": 76.02,
+      "fin": 76.34,
+      "mot": "voûté"
+    },
+    {
+      "debut": 76.34,
+      "fin": 76.58,
+      "mot": "contre"
+    },
+    {
+      "debut": 76.58,
+      "fin": 76.74,
+      "mot": "l"
+    },
+    {
+      "debut": 76.74,
+      "fin": 76.96,
+      "mot": "'arbre."
+    },
+    {
+      "debut": 77.12,
+      "fin": 77.26,
+      "mot": "Mais"
+    },
+    {
+      "debut": 77.26,
+      "fin": 77.48,
+      "mot": "une"
+    },
+    {
+      "debut": 77.48,
+      "fin": 78.02,
+      "mot": "énorme"
+    },
+    {
+      "debut": 78.02,
+      "fin": 78.12,
+      "mot": "main"
+    },
+    {
+      "debut": 78.12,
+      "fin": 78.22,
+      "mot": "m"
+    },
+    {
+      "debut": 78.22,
+      "fin": 78.3,
+      "mot": "'a"
+    },
+    {
+      "debut": 78.3,
+      "fin": 78.7,
+      "mot": "redressé"
+    },
+    {
+      "debut": 78.7,
+      "fin": 78.84,
+      "mot": "le"
+    },
+    {
+      "debut": 78.84,
+      "fin": 78.92,
+      "mot": "dos."
+    },
+    {
+      "debut": 79.28,
+      "fin": 79.42,
+      "mot": "Le"
+    },
+    {
+      "debut": 79.42,
+      "fin": 79.54,
+      "mot": "mois"
+    },
+    {
+      "debut": 79.54,
+      "fin": 79.88,
+      "mot": "dernier,"
+    },
+    {
+      "debut": 80.06,
+      "fin": 80.16,
+      "mot": "il"
+    },
+    {
+      "debut": 80.16,
+      "fin": 80.28,
+      "mot": "ne"
+    },
+    {
+      "debut": 80.28,
+      "fin": 80.38,
+      "mot": "me"
+    },
+    {
+      "debut": 80.38,
+      "fin": 80.64,
+      "mot": "manquait"
+    },
+    {
+      "debut": 80.64,
+      "fin": 80.8,
+      "mot": "plus"
+    },
+    {
+      "debut": 80.8,
+      "fin": 80.92,
+      "mot": "qu"
+    },
+    {
+      "debut": 80.92,
+      "fin": 81.02,
+      "mot": "'un"
+    },
+    {
+      "debut": 81.02,
+      "fin": 81.3,
+      "mot": "doigt."
+    },
+    {
+      "debut": 81.46,
+      "fin": 81.6,
+      "mot": "Donc"
+    },
+    {
+      "debut": 81.6,
+      "fin": 81.76,
+      "mot": "je"
+    },
+    {
+      "debut": 81.76,
+      "fin": 81.88,
+      "mot": "me"
+    },
+    {
+      "debut": 81.88,
+      "fin": 81.98,
+      "mot": "suis"
+    },
+    {
+      "debut": 81.98,
+      "fin": 82.28,
+      "mot": "enfui."
+    },
+    {
+      "debut": 82.28,
+      "fin": 82.66,
+      "mot": "La"
+    },
+    {
+      "debut": 82.66,
+      "fin": 83.02,
+      "mot": "2ème"
+    },
+    {
+      "debut": 83.02,
+      "fin": 83.28,
+      "mot": "nuit,"
+    },
+    {
+      "debut": 83.6,
+      "fin": 83.72,
+      "mot": "quelque"
+    },
+    {
+      "debut": 83.72,
+      "fin": 83.88,
+      "mot": "chose"
+    },
+    {
+      "debut": 83.88,
+      "fin": 83.98,
+      "mot": "m"
+    },
+    {
+      "debut": 83.98,
+      "fin": 84.16,
+      "mot": "'a"
+    },
+    {
+      "debut": 84.16,
+      "fin": 84.4,
+      "mot": "attrapé"
+    },
+    {
+      "debut": 84.4,
+      "fin": 84.56,
+      "mot": "la"
+    },
+    {
+      "debut": 84.56,
+      "fin": 84.96,
+      "mot": "cheville."
+    },
+    {
+      "debut": 85.2,
+      "fin": 85.3,
+      "mot": "Et"
+    },
+    {
+      "debut": 85.3,
+      "fin": 85.58,
+      "mot": "là,"
+    },
+    {
+      "debut": 85.64,
+      "fin": 85.8,
+      "mot": "très"
+    },
+    {
+      "debut": 85.8,
+      "fin": 85.92,
+      "mot": "loin"
+    },
+    {
+      "debut": 85.92,
+      "fin": 86.18,
+      "mot": "derrière"
+    },
+    {
+      "debut": 86.18,
+      "fin": 86.4,
+      "mot": "moi,"
+    },
+    {
+      "debut": 86.56,
+      "fin": 86.66,
+      "mot": "je"
+    },
+    {
+      "debut": 86.66,
+      "fin": 86.72,
+      "mot": "l"
+    },
+    {
+      "debut": 86.72,
+      "fin": 86.86,
+      "mot": "'ai"
+    },
+    {
+      "debut": 86.86,
+      "fin": 87.14,
+      "mot": "entendu."
+    },
+    {
+      "debut": 87.52,
+      "fin": 87.74,
+      "mot": "À"
+    },
+    {
+      "debut": 87.74,
+      "fin": 87.88,
+      "mot": "moi."
+    },
+    {
+      "debut": 88.3,
+      "fin": 88.4,
+      "mot": "Et"
+    },
+    {
+      "debut": 88.4,
+      "fin": 88.58,
+      "mot": "la"
+    },
+    {
+      "debut": 88.58,
+      "fin": 88.74,
+      "mot": "chose"
+    },
+    {
+      "debut": 88.74,
+      "fin": 88.86,
+      "mot": "m"
+    },
+    {
+      "debut": 88.86,
+      "fin": 88.94,
+      "mot": "'a"
+    },
+    {
+      "debut": 88.94,
+      "fin": 89.26,
+      "mot": "lâché."
+    },
+    {
+      "debut": 89.54,
+      "fin": 89.62,
+      "mot": "J"
+    },
+    {
+      "debut": 89.62,
+      "fin": 89.72,
+      "mot": "'ai"
+    },
+    {
+      "debut": 89.72,
+      "fin": 89.88,
+      "mot": "fini"
+    },
+    {
+      "debut": 89.88,
+      "fin": 90.08,
+      "mot": "par"
+    },
+    {
+      "debut": 90.08,
+      "fin": 90.32,
+      "mot": "atteindre"
+    },
+    {
+      "debut": 90.32,
+      "fin": 90.52,
+      "mot": "la"
+    },
+    {
+      "debut": 90.52,
+      "fin": 90.68,
+      "mot": "porte"
+    },
+    {
+      "debut": 90.68,
+      "fin": 90.86,
+      "mot": "de"
+    },
+    {
+      "debut": 90.86,
+      "fin": 90.96,
+      "mot": "la"
+    },
+    {
+      "debut": 90.96,
+      "fin": 91.1,
+      "mot": "ville."
+    },
+    {
+      "debut": 91.34,
+      "fin": 91.46,
+      "mot": "Un"
+    },
+    {
+      "debut": 91.46,
+      "fin": 91.58,
+      "mot": "homme"
+    },
+    {
+      "debut": 91.58,
+      "fin": 91.68,
+      "mot": "m"
+    },
+    {
+      "debut": 91.68,
+      "fin": 91.78,
+      "mot": "'a"
+    },
+    {
+      "debut": 91.78,
+      "fin": 92.08,
+      "mot": "demandé."
+    },
+    {
+      "debut": 92.42,
+      "fin": 92.48,
+      "mot": "Tu"
+    },
+    {
+      "debut": 92.48,
+      "fin": 92.56,
+      "mot": "es"
+    },
+    {
+      "debut": 92.56,
+      "fin": 92.76,
+      "mot": "le"
+    },
+    {
+      "debut": 92.76,
+      "fin": 92.84,
+      "mot": "fils"
+    },
+    {
+      "debut": 92.84,
+      "fin": 93.02,
+      "mot": "de"
+    },
+    {
+      "debut": 93.02,
+      "fin": 93.18,
+      "mot": "qui"
+    },
+    {
+      "debut": 93.18,
+      "fin": 93.52,
+      "mot": "?"
+    },
+    {
+      "debut": 93.52,
+      "fin": 93.8,
+      "mot": "Derrière"
+    },
+    {
+      "debut": 93.8,
+      "fin": 94.1,
+      "mot": "lui,"
+    },
+    {
+      "debut": 94.34,
+      "fin": 94.5,
+      "mot": "avec"
+    },
+    {
+      "debut": 94.5,
+      "fin": 94.66,
+      "mot": "7"
+    },
+    {
+      "debut": 94.66,
+      "fin": 94.8,
+      "mot": "ans"
+    },
+    {
+      "debut": 94.8,
+      "fin": 94.98,
+      "mot": "de"
+    },
+    {
+      "debut": 94.98,
+      "fin": 95.18,
+      "mot": "plus,"
+    },
+    {
+      "debut": 95.46,
+      "fin": 95.6,
+      "mot": "il"
+    },
+    {
+      "debut": 95.6,
+      "fin": 95.68,
+      "mot": "y"
+    },
+    {
+      "debut": 95.68,
+      "fin": 95.76,
+      "mot": "avait"
+    },
+    {
+      "debut": 95.76,
+      "fin": 95.94,
+      "mot": "ma"
+    },
+    {
+      "debut": 95.94,
+      "fin": 96.16,
+      "mot": "mère."
+    },
+    {
+      "debut": 96.52,
+      "fin": 96.62,
+      "mot": "Je"
+    },
+    {
+      "debut": 96.62,
+      "fin": 96.7,
+      "mot": "l"
+    },
+    {
+      "debut": 96.7,
+      "fin": 96.82,
+      "mot": "'ai"
+    },
+    {
+      "debut": 96.82,
+      "fin": 97.06,
+      "mot": "montré"
+    },
+    {
+      "debut": 97.06,
+      "fin": 97.24,
+      "mot": "du"
+    },
+    {
+      "debut": 97.24,
+      "fin": 97.46,
+      "mot": "doigt."
+    },
+    {
+      "debut": 97.58,
+      "fin": 97.64,
+      "mot": "Et"
+    },
+    {
+      "debut": 97.64,
+      "fin": 97.76,
+      "mot": "j"
+    },
+    {
+      "debut": 97.76,
+      "fin": 97.8,
+      "mot": "'ai"
+    },
+    {
+      "debut": 97.8,
+      "fin": 98.02,
+      "mot": "dit"
+    },
+    {
+      "debut": 98.02,
+      "fin": 98.4,
+      "mot": "d"
+    },
+    {
+      "debut": 98.4,
+      "fin": 98.62,
+      "mot": "'elle."
+    },
+    {
+      "debut": 98.82,
+      "fin": 98.96,
+      "mot": "Elle"
+    },
+    {
+      "debut": 98.96,
+      "fin": 99.08,
+      "mot": "m"
+    },
+    {
+      "debut": 99.08,
+      "fin": 99.22,
+      "mot": "'a"
+    },
+    {
+      "debut": 99.22,
+      "fin": 99.5,
+      "mot": "regardé"
+    },
+    {
+      "debut": 99.5,
+      "fin": 99.7,
+      "mot": "droit"
+    },
+    {
+      "debut": 99.7,
+      "fin": 99.88,
+      "mot": "dans"
+    },
+    {
+      "debut": 99.88,
+      "fin": 100.02,
+      "mot": "les"
+    },
+    {
+      "debut": 100.02,
+      "fin": 100.14,
+      "mot": "yeux."
+    },
+    {
+      "debut": 100.36,
+      "fin": 100.48,
+      "mot": "Elle"
+    },
+    {
+      "debut": 100.48,
+      "fin": 100.62,
+      "mot": "a"
+    },
+    {
+      "debut": 100.62,
+      "fin": 100.8,
+      "mot": "dit,"
+    },
+    {
+      "debut": 101.1,
+      "fin": 101.22,
+      "mot": "je"
+    },
+    {
+      "debut": 101.22,
+      "fin": 101.36,
+      "mot": "n"
+    },
+    {
+      "debut": 101.36,
+      "fin": 101.36,
+      "mot": "'ai"
+    },
+    {
+      "debut": 101.36,
+      "fin": 101.56,
+      "mot": "pas"
+    },
+    {
+      "debut": 101.56,
+      "fin": 101.72,
+      "mot": "de"
+    },
+    {
+      "debut": 101.72,
+      "fin": 101.92,
+      "mot": "fils."
+    },
+    {
+      "debut": 102.22,
+      "fin": 102.36,
+      "mot": "Et"
+    },
+    {
+      "debut": 102.36,
+      "fin": 102.48,
+      "mot": "elle"
+    },
+    {
+      "debut": 102.48,
+      "fin": 102.66,
+      "mot": "a"
+    },
+    {
+      "debut": 102.66,
+      "fin": 102.92,
+      "mot": "refermé"
+    },
+    {
+      "debut": 102.92,
+      "fin": 103.1,
+      "mot": "la"
+    },
+    {
+      "debut": 103.1,
+      "fin": 103.3,
+      "mot": "porte."
+    },
+    {
+      "debut": 103.76,
+      "fin": 103.92,
+      "mot": "Parce"
+    },
+    {
+      "debut": 103.92,
+      "fin": 104.02,
+      "mot": "que"
+    },
+    {
+      "debut": 104.02,
+      "fin": 104.14,
+      "mot": "si"
+    },
+    {
+      "debut": 104.14,
+      "fin": 104.28,
+      "mot": "j"
+    },
+    {
+      "debut": 104.28,
+      "fin": 104.44,
+      "mot": "'étais"
+    },
+    {
+      "debut": 104.44,
+      "fin": 104.8,
+      "mot": "vivant,"
+    },
+    {
+      "debut": 104.92,
+      "fin": 105.02,
+      "mot": "c"
+    },
+    {
+      "debut": 105.02,
+      "fin": 105.02,
+      "mot": "'est"
+    },
+    {
+      "debut": 105.02,
+      "fin": 105.14,
+      "mot": "que"
+    },
+    {
+      "debut": 105.14,
+      "fin": 105.32,
+      "mot": "le"
+    },
+    {
+      "debut": 105.32,
+      "fin": 105.54,
+      "mot": "monstre"
+    },
+    {
+      "debut": 105.54,
+      "fin": 105.68,
+      "mot": "n"
+    },
+    {
+      "debut": 105.68,
+      "fin": 105.76,
+      "mot": "'avait"
+    },
+    {
+      "debut": 105.76,
+      "fin": 105.96,
+      "mot": "pas"
+    },
+    {
+      "debut": 105.96,
+      "fin": 106.38,
+      "mot": "mangé."
+    },
+    {
+      "debut": 106.6,
+      "fin": 106.78,
+      "mot": "Alors"
+    },
+    {
+      "debut": 106.78,
+      "fin": 106.98,
+      "mot": "au"
+    },
+    {
+      "debut": 106.98,
+      "fin": 107.18,
+      "mot": "matin,"
+    },
+    {
+      "debut": 107.38,
+      "fin": 107.5,
+      "mot": "les"
+    },
+    {
+      "debut": 107.5,
+      "fin": 107.64,
+      "mot": "hommes"
+    },
+    {
+      "debut": 107.64,
+      "fin": 107.72,
+      "mot": "m"
+    },
+    {
+      "debut": 107.72,
+      "fin": 107.82,
+      "mot": "'ont"
+    },
+    {
+      "debut": 107.82,
+      "fin": 108.1,
+      "mot": "ramené"
+    },
+    {
+      "debut": 108.1,
+      "fin": 108.24,
+      "mot": "dans"
+    },
+    {
+      "debut": 108.24,
+      "fin": 108.42,
+      "mot": "la"
+    },
+    {
+      "debut": 108.42,
+      "fin": 108.62,
+      "mot": "forêt."
+    },
+    {
+      "debut": 108.82,
+      "fin": 108.9,
+      "mot": "Et"
+    },
+    {
+      "debut": 108.9,
+      "fin": 109.04,
+      "mot": "ils"
+    },
+    {
+      "debut": 109.04,
+      "fin": 109.06,
+      "mot": "m"
+    },
+    {
+      "debut": 109.06,
+      "fin": 109.12,
+      "mot": "'ont"
+    },
+    {
+      "debut": 109.12,
+      "fin": 109.38,
+      "mot": "laissé"
+    },
+    {
+      "debut": 109.38,
+      "fin": 109.58,
+      "mot": "là."
+    },
+    {
+      "debut": 109.58,
+      "fin": 109.86,
+      "mot": "Il"
+    },
+    {
+      "debut": 109.86,
+      "fin": 110.0,
+      "mot": "est"
+    },
+    {
+      "debut": 110.0,
+      "fin": 110.34,
+      "mot": "sorti"
+    },
+    {
+      "debut": 110.34,
+      "fin": 110.44,
+      "mot": "de"
+    },
+    {
+      "debut": 110.44,
+      "fin": 110.52,
+      "mot": "l"
+    },
+    {
+      "debut": 110.52,
+      "fin": 110.9,
+      "mot": "'ombre."
+    },
+    {
+      "debut": 111.04,
+      "fin": 111.08,
+      "mot": "Il"
+    },
+    {
+      "debut": 111.08,
+      "fin": 111.2,
+      "mot": "n"
+    },
+    {
+      "debut": 111.2,
+      "fin": 111.34,
+      "mot": "'était"
+    },
+    {
+      "debut": 111.34,
+      "fin": 111.56,
+      "mot": "pas"
+    },
+    {
+      "debut": 111.56,
+      "fin": 111.7,
+      "mot": "en"
+    },
+    {
+      "debut": 111.7,
+      "fin": 111.94,
+      "mot": "colère."
+    },
+    {
+      "debut": 112.2,
+      "fin": 112.26,
+      "mot": "Il"
+    },
+    {
+      "debut": 112.26,
+      "fin": 112.34,
+      "mot": "m"
+    },
+    {
+      "debut": 112.34,
+      "fin": 112.42,
+      "mot": "'a"
+    },
+    {
+      "debut": 112.42,
+      "fin": 112.7,
+      "mot": "juste"
+    },
+    {
+      "debut": 112.7,
+      "fin": 112.92,
+      "mot": "ramené"
+    },
+    {
+      "debut": 112.92,
+      "fin": 113.04,
+      "mot": "à"
+    },
+    {
+      "debut": 113.04,
+      "fin": 113.12,
+      "mot": "la"
+    },
+    {
+      "debut": 113.12,
+      "fin": 113.44,
+      "mot": "maison."
+    },
+    {
+      "debut": 113.66,
+      "fin": 113.78,
+      "mot": "Cette"
+    },
+    {
+      "debut": 113.78,
+      "fin": 113.94,
+      "mot": "nuit"
+    },
+    {
+      "debut": 113.94,
+      "fin": 114.24,
+      "mot": "-là,"
+    },
+    {
+      "debut": 114.3,
+      "fin": 114.38,
+      "mot": "il"
+    },
+    {
+      "debut": 114.38,
+      "fin": 114.56,
+      "mot": "a"
+    },
+    {
+      "debut": 114.56,
+      "fin": 114.86,
+      "mot": "griffé"
+    },
+    {
+      "debut": 114.86,
+      "fin": 115.08,
+      "mot": "le"
+    },
+    {
+      "debut": 115.08,
+      "fin": 115.16,
+      "mot": "trait"
+    },
+    {
+      "debut": 115.16,
+      "fin": 115.38,
+      "mot": "sur"
+    },
+    {
+      "debut": 115.38,
+      "fin": 115.48,
+      "mot": "l"
+    },
+    {
+      "debut": 115.48,
+      "fin": 115.68,
+      "mot": "'arbre."
+    },
+    {
+      "debut": 115.9,
+      "fin": 116.0,
+      "mot": "Et"
+    },
+    {
+      "debut": 116.0,
+      "fin": 116.16,
+      "mot": "cette"
+    },
+    {
+      "debut": 116.16,
+      "fin": 116.36,
+      "mot": "fois,"
+    },
+    {
+      "debut": 116.62,
+      "fin": 116.72,
+      "mot": "j"
+    },
+    {
+      "debut": 116.72,
+      "fin": 116.86,
+      "mot": "'y"
+    },
+    {
+      "debut": 116.86,
+      "fin": 117.2,
+      "mot": "étais."
+    },
+    {
+      "debut": 117.3,
+      "fin": 117.38,
+      "mot": "Il"
+    },
+    {
+      "debut": 117.38,
+      "fin": 117.48,
+      "mot": "l"
+    },
+    {
+      "debut": 117.48,
+      "fin": 117.66,
+      "mot": "'a"
+    },
+    {
+      "debut": 117.66,
+      "fin": 117.94,
+      "mot": "regardé"
+    },
+    {
+      "debut": 117.94,
+      "fin": 118.18,
+      "mot": "très"
+    },
+    {
+      "debut": 118.18,
+      "fin": 118.46,
+      "mot": "longtemps."
+    },
+    {
+      "debut": 118.7,
+      "fin": 118.92,
+      "mot": "Puis"
+    },
+    {
+      "debut": 118.92,
+      "fin": 119.14,
+      "mot": "il"
+    },
+    {
+      "debut": 119.14,
+      "fin": 119.24,
+      "mot": "a"
+    },
+    {
+      "debut": 119.24,
+      "fin": 119.32,
+      "mot": "fait"
+    },
+    {
+      "debut": 119.32,
+      "fin": 119.54,
+      "mot": "un"
+    },
+    {
+      "debut": 119.54,
+      "fin": 119.68,
+      "mot": "bruit"
+    },
+    {
+      "debut": 119.68,
+      "fin": 119.84,
+      "mot": "que"
+    },
+    {
+      "debut": 119.84,
+      "fin": 119.92,
+      "mot": "je"
+    },
+    {
+      "debut": 119.92,
+      "fin": 120.0,
+      "mot": "n"
+    },
+    {
+      "debut": 120.0,
+      "fin": 120.16,
+      "mot": "'avais"
+    },
+    {
+      "debut": 120.16,
+      "fin": 120.48,
+      "mot": "jamais"
+    },
+    {
+      "debut": 120.48,
+      "fin": 120.74,
+      "mot": "entendu."
+    },
+    {
+      "debut": 121.34,
+      "fin": 121.66,
+      "mot": "Ensuite,"
+    },
+    {
+      "debut": 121.84,
+      "fin": 121.94,
+      "mot": "il"
+    },
+    {
+      "debut": 121.94,
+      "fin": 122.0,
+      "mot": "m"
+    },
+    {
+      "debut": 122.0,
+      "fin": 122.06,
+      "mot": "'a"
+    },
+    {
+      "debut": 122.06,
+      "fin": 122.18,
+      "mot": "lavé"
+    },
+    {
+      "debut": 122.18,
+      "fin": 122.32,
+      "mot": "dans"
+    },
+    {
+      "debut": 122.32,
+      "fin": 122.48,
+      "mot": "la"
+    },
+    {
+      "debut": 122.48,
+      "fin": 122.78,
+      "mot": "rivière."
+    },
+    {
+      "debut": 122.96,
+      "fin": 123.1,
+      "mot": "Et"
+    },
+    {
+      "debut": 123.1,
+      "fin": 123.18,
+      "mot": "il"
+    },
+    {
+      "debut": 123.18,
+      "fin": 123.24,
+      "mot": "m"
+    },
+    {
+      "debut": 123.24,
+      "fin": 123.34,
+      "mot": "'a"
+    },
+    {
+      "debut": 123.34,
+      "fin": 123.66,
+      "mot": "frotté"
+    },
+    {
+      "debut": 123.66,
+      "fin": 123.78,
+      "mot": "avec"
+    },
+    {
+      "debut": 123.78,
+      "fin": 123.98,
+      "mot": "des"
+    },
+    {
+      "debut": 123.98,
+      "fin": 124.36,
+      "mot": "feuilles."
+    },
+    {
+      "debut": 124.52,
+      "fin": 124.68,
+      "mot": "Je"
+    },
+    {
+      "debut": 124.68,
+      "fin": 124.92,
+      "mot": "savais"
+    },
+    {
+      "debut": 124.92,
+      "fin": 125.08,
+      "mot": "ce"
+    },
+    {
+      "debut": 125.08,
+      "fin": 125.14,
+      "mot": "que"
+    },
+    {
+      "debut": 125.14,
+      "fin": 125.28,
+      "mot": "c"
+    },
+    {
+      "debut": 125.28,
+      "fin": 125.4,
+      "mot": "'était."
+    },
+    {
+      "debut": 125.8,
+      "fin": 125.86,
+      "mot": "C"
+    },
+    {
+      "debut": 125.86,
+      "fin": 125.9,
+      "mot": "'est"
+    },
+    {
+      "debut": 125.9,
+      "fin": 126.04,
+      "mot": "ce"
+    },
+    {
+      "debut": 126.04,
+      "fin": 126.28,
+      "mot": "qu"
+    },
+    {
+      "debut": 126.28,
+      "fin": 126.28,
+      "mot": "'on"
+    },
+    {
+      "debut": 126.28,
+      "fin": 126.38,
+      "mot": "fait"
+    },
+    {
+      "debut": 126.38,
+      "fin": 126.54,
+      "mot": "à"
+    },
+    {
+      "debut": 126.54,
+      "fin": 126.66,
+      "mot": "la"
+    },
+    {
+      "debut": 126.66,
+      "fin": 126.9,
+      "mot": "viande."
+    },
+    {
+      "debut": 127.16,
+      "fin": 127.4,
+      "mot": "Puis"
+    },
+    {
+      "debut": 127.4,
+      "fin": 127.58,
+      "mot": "il"
+    },
+    {
+      "debut": 127.58,
+      "fin": 127.72,
+      "mot": "a"
+    },
+    {
+      "debut": 127.72,
+      "fin": 127.88,
+      "mot": "ouvert"
+    },
+    {
+      "debut": 127.88,
+      "fin": 128.04,
+      "mot": "la"
+    },
+    {
+      "debut": 128.04,
+      "fin": 128.3,
+      "mot": "gueule."
+    },
+    {
+      "debut": 128.46,
+      "fin": 128.58,
+      "mot": "Ses"
+    },
+    {
+      "debut": 128.58,
+      "fin": 128.76,
+      "mot": "dents"
+    },
+    {
+      "debut": 128.76,
+      "fin": 128.92,
+      "mot": "se"
+    },
+    {
+      "debut": 128.92,
+      "fin": 129.06,
+      "mot": "sont"
+    },
+    {
+      "debut": 129.06,
+      "fin": 129.54,
+      "mot": "refermées"
+    },
+    {
+      "debut": 129.54,
+      "fin": 129.76,
+      "mot": "tout"
+    },
+    {
+      "debut": 129.76,
+      "fin": 130.0,
+      "mot": "autour"
+    },
+    {
+      "debut": 130.0,
+      "fin": 130.18,
+      "mot": "de"
+    },
+    {
+      "debut": 130.18,
+      "fin": 130.28,
+      "mot": "moi."
+    },
+    {
+      "debut": 130.52,
+      "fin": 130.64,
+      "mot": "Et"
+    },
+    {
+      "debut": 130.64,
+      "fin": 130.78,
+      "mot": "tout"
+    },
+    {
+      "debut": 130.78,
+      "fin": 130.94,
+      "mot": "est"
+    },
+    {
+      "debut": 130.94,
+      "fin": 131.22,
+      "mot": "devenu"
+    },
+    {
+      "debut": 131.22,
+      "fin": 131.38,
+      "mot": "noir."
+    },
+    {
+      "debut": 131.84,
+      "fin": 131.9,
+      "mot": "J"
+    },
+    {
+      "debut": 131.9,
+      "fin": 132.06,
+      "mot": "'ai"
+    },
+    {
+      "debut": 132.06,
+      "fin": 132.24,
+      "mot": "pensé"
+    },
+    {
+      "debut": 132.24,
+      "fin": 132.38,
+      "mot": "aux"
+    },
+    {
+      "debut": 132.38,
+      "fin": 132.58,
+      "mot": "9"
+    },
+    {
+      "debut": 132.58,
+      "fin": 132.74,
+      "mot": "paires"
+    },
+    {
+      "debut": 132.74,
+      "fin": 132.94,
+      "mot": "de"
+    },
+    {
+      "debut": 132.94,
+      "fin": 133.36,
+      "mot": "chaussures."
+    },
+    {
+      "debut": 133.56,
+      "fin": 133.64,
+      "mot": "J"
+    },
+    {
+      "debut": 133.64,
+      "fin": 133.78,
+      "mot": "'ai"
+    },
+    {
+      "debut": 133.78,
+      "fin": 133.94,
+      "mot": "fermé"
+    },
+    {
+      "debut": 133.94,
+      "fin": 134.14,
+      "mot": "les"
+    },
+    {
+      "debut": 134.14,
+      "fin": 134.3,
+      "mot": "yeux"
+    },
+    {
+      "debut": 134.3,
+      "fin": 134.56,
+      "mot": "et"
+    },
+    {
+      "debut": 134.56,
+      "fin": 134.68,
+      "mot": "j"
+    },
+    {
+      "debut": 134.68,
+      "fin": 134.8,
+      "mot": "'ai"
+    },
+    {
+      "debut": 134.8,
+      "fin": 135.24,
+      "mot": "attendu."
+    },
+    {
+      "debut": 135.24,
+      "fin": 135.62,
+      "mot": "Et"
+    },
+    {
+      "debut": 135.62,
+      "fin": 136.36,
+      "mot": "attendu."
+    },
+    {
+      "debut": 136.64,
+      "fin": 136.72,
+      "mot": "Mais"
+    },
+    {
+      "debut": 136.72,
+      "fin": 136.84,
+      "mot": "il"
+    },
+    {
+      "debut": 136.84,
+      "fin": 136.9,
+      "mot": "n"
+    },
+    {
+      "debut": 136.9,
+      "fin": 136.96,
+      "mot": "'a"
+    },
+    {
+      "debut": 136.96,
+      "fin": 137.26,
+      "mot": "jamais"
+    },
+    {
+      "debut": 137.26,
+      "fin": 137.5,
+      "mot": "mordu."
+    },
+    {
+      "debut": 137.78,
+      "fin": 137.86,
+      "mot": "Il"
+    },
+    {
+      "debut": 137.86,
+      "fin": 138.04,
+      "mot": "a"
+    },
+    {
+      "debut": 138.04,
+      "fin": 138.34,
+      "mot": "marché"
+    },
+    {
+      "debut": 138.34,
+      "fin": 138.58,
+      "mot": "toute"
+    },
+    {
+      "debut": 138.58,
+      "fin": 138.76,
+      "mot": "la"
+    },
+    {
+      "debut": 138.76,
+      "fin": 138.88,
+      "mot": "nuit."
+    },
+    {
+      "debut": 139.12,
+      "fin": 139.2,
+      "mot": "Et"
+    },
+    {
+      "debut": 139.2,
+      "fin": 139.28,
+      "mot": "au"
+    },
+    {
+      "debut": 139.28,
+      "fin": 139.42,
+      "mot": "lever"
+    },
+    {
+      "debut": 139.42,
+      "fin": 139.62,
+      "mot": "du"
+    },
+    {
+      "debut": 139.62,
+      "fin": 139.94,
+      "mot": "soleil,"
+    },
+    {
+      "debut": 139.98,
+      "fin": 140.1,
+      "mot": "il"
+    },
+    {
+      "debut": 140.1,
+      "fin": 140.18,
+      "mot": "m"
+    },
+    {
+      "debut": 140.18,
+      "fin": 140.32,
+      "mot": "'a"
+    },
+    {
+      "debut": 140.32,
+      "fin": 140.6,
+      "mot": "posé"
+    },
+    {
+      "debut": 140.6,
+      "fin": 140.86,
+      "mot": "au"
+    },
+    {
+      "debut": 140.86,
+      "fin": 141.06,
+      "mot": "sommet"
+    },
+    {
+      "debut": 141.06,
+      "fin": 141.14,
+      "mot": "d"
+    },
+    {
+      "debut": 141.14,
+      "fin": 141.2,
+      "mot": "'une"
+    },
+    {
+      "debut": 141.2,
+      "fin": 141.66,
+      "mot": "montagne."
+    },
+    {
+      "debut": 141.86,
+      "fin": 142.0,
+      "mot": "Et"
+    },
+    {
+      "debut": 142.0,
+      "fin": 142.42,
+      "mot": "là,"
+    },
+    {
+      "debut": 142.5,
+      "fin": 142.62,
+      "mot": "9"
+    },
+    {
+      "debut": 142.62,
+      "fin": 143.0,
+      "mot": "personnes"
+    },
+    {
+      "debut": 143.0,
+      "fin": 143.22,
+      "mot": "ont"
+    },
+    {
+      "debut": 143.22,
+      "fin": 143.46,
+      "mot": "couru"
+    },
+    {
+      "debut": 143.46,
+      "fin": 143.6,
+      "mot": "vers"
+    },
+    {
+      "debut": 143.6,
+      "fin": 143.72,
+      "mot": "lui"
+    },
+    {
+      "debut": 143.72,
+      "fin": 143.88,
+      "mot": "pour"
+    },
+    {
+      "debut": 143.88,
+      "fin": 144.12,
+      "mot": "le"
+    },
+    {
+      "debut": 144.12,
+      "fin": 144.28,
+      "mot": "serrer"
+    },
+    {
+      "debut": 144.28,
+      "fin": 144.42,
+      "mot": "dans"
+    },
+    {
+      "debut": 144.42,
+      "fin": 144.56,
+      "mot": "leurs"
+    },
+    {
+      "debut": 144.56,
+      "fin": 144.78,
+      "mot": "bras."
+    },
+    {
+      "debut": 145.08,
+      "fin": 145.16,
+      "mot": "Il"
+    },
+    {
+      "debut": 145.16,
+      "fin": 145.28,
+      "mot": "n"
+    },
+    {
+      "debut": 145.28,
+      "fin": 145.4,
+      "mot": "'avait"
+    },
+    {
+      "debut": 145.4,
+      "fin": 145.7,
+      "mot": "mangé"
+    },
+    {
+      "debut": 145.7,
+      "fin": 145.98,
+      "mot": "aucun"
+    },
+    {
+      "debut": 145.98,
+      "fin": 146.14,
+      "mot": "de"
+    },
+    {
+      "debut": 146.14,
+      "fin": 146.24,
+      "mot": "nous."
+    },
+    {
+      "debut": 146.46,
+      "fin": 146.6,
+      "mot": "Il"
+    },
+    {
+      "debut": 146.6,
+      "fin": 146.84,
+      "mot": "gardait"
+    },
+    {
+      "debut": 146.84,
+      "fin": 147.0,
+      "mot": "nos"
+    },
+    {
+      "debut": 147.0,
+      "fin": 147.42,
+      "mot": "chaussures,"
+    },
+    {
+      "debut": 147.46,
+      "fin": 147.58,
+      "mot": "comme"
+    },
+    {
+      "debut": 147.58,
+      "fin": 147.78,
+      "mot": "ta"
+    },
+    {
+      "debut": 147.78,
+      "fin": 147.96,
+      "mot": "mère"
+    },
+    {
+      "debut": 147.96,
+      "fin": 148.24,
+      "mot": "garde"
+    },
+    {
+      "debut": 148.24,
+      "fin": 148.4,
+      "mot": "tes"
+    },
+    {
+      "debut": 148.4,
+      "fin": 148.7,
+      "mot": "chaussons"
+    },
+    {
+      "debut": 148.7,
+      "fin": 148.88,
+      "mot": "de"
+    },
+    {
+      "debut": 148.88,
+      "fin": 149.2,
+      "mot": "bébé."
+    },
+    {
+      "debut": 149.44,
+      "fin": 149.68,
+      "mot": "Chaque"
+    },
+    {
+      "debut": 149.68,
+      "fin": 149.8,
+      "mot": "nuit,"
+    },
+    {
+      "debut": 149.8,
+      "fin": 149.96,
+      "mot": "il"
+    },
+    {
+      "debut": 149.96,
+      "fin": 150.38,
+      "mot": "vérifiait"
+    },
+    {
+      "debut": 150.38,
+      "fin": 150.64,
+      "mot": "juste"
+    },
+    {
+      "debut": 150.64,
+      "fin": 150.82,
+      "mot": "si"
+    },
+    {
+      "debut": 150.82,
+      "fin": 151.04,
+      "mot": "je"
+    },
+    {
+      "debut": 151.04,
+      "fin": 151.32,
+      "mot": "respirais"
+    },
+    {
+      "debut": 151.32,
+      "fin": 151.6,
+      "mot": "encore."
+    },
+    {
+      "debut": 151.86,
+      "fin": 151.98,
+      "mot": "Et"
+    },
+    {
+      "debut": 151.98,
+      "fin": 152.14,
+      "mot": "le"
+    },
+    {
+      "debut": 152.14,
+      "fin": 152.22,
+      "mot": "trait"
+    },
+    {
+      "debut": 152.22,
+      "fin": 152.4,
+      "mot": "sur"
+    },
+    {
+      "debut": 152.4,
+      "fin": 152.5,
+      "mot": "l"
+    },
+    {
+      "debut": 152.5,
+      "fin": 152.68,
+      "mot": "'arbre,"
+    },
+    {
+      "debut": 152.84,
+      "fin": 152.92,
+      "mot": "ce"
+    },
+    {
+      "debut": 152.92,
+      "fin": 153.02,
+      "mot": "n"
+    },
+    {
+      "debut": 153.02,
+      "fin": 153.12,
+      "mot": "'était"
+    },
+    {
+      "debut": 153.12,
+      "fin": 153.3,
+      "mot": "pas"
+    },
+    {
+      "debut": 153.3,
+      "fin": 153.46,
+      "mot": "la"
+    },
+    {
+      "debut": 153.46,
+      "fin": 153.58,
+      "mot": "taille"
+    },
+    {
+      "debut": 153.58,
+      "fin": 153.7,
+      "mot": "qu"
+    },
+    {
+      "debut": 153.7,
+      "fin": 153.84,
+      "mot": "'on"
+    },
+    {
+      "debut": 153.84,
+      "fin": 154.02,
+      "mot": "atteint"
+    },
+    {
+      "debut": 154.02,
+      "fin": 154.24,
+      "mot": "avant"
+    },
+    {
+      "debut": 154.24,
+      "fin": 154.38,
+      "mot": "d"
+    },
+    {
+      "debut": 154.38,
+      "fin": 154.56,
+      "mot": "'être"
+    },
+    {
+      "debut": 154.56,
+      "fin": 154.86,
+      "mot": "mangé."
+    },
+    {
+      "debut": 155.08,
+      "fin": 155.22,
+      "mot": "C"
+    },
+    {
+      "debut": 155.22,
+      "fin": 155.32,
+      "mot": "'était"
+    },
+    {
+      "debut": 155.32,
+      "fin": 155.46,
+      "mot": "la"
+    },
+    {
+      "debut": 155.46,
+      "fin": 155.64,
+      "mot": "taille"
+    },
+    {
+      "debut": 155.64,
+      "fin": 155.74,
+      "mot": "qu"
+    },
+    {
+      "debut": 155.74,
+      "fin": 155.88,
+      "mot": "'il"
+    },
+    {
+      "debut": 155.88,
+      "fin": 156.0,
+      "mot": "faut"
+    },
+    {
+      "debut": 156.0,
+      "fin": 156.22,
+      "mot": "pour"
+    },
+    {
+      "debut": 156.22,
+      "fin": 156.42,
+      "mot": "vivre"
+    },
+    {
+      "debut": 156.42,
+      "fin": 156.68,
+      "mot": "tout"
+    },
+    {
+      "debut": 156.68,
+      "fin": 156.78,
+      "mot": "seul."
+    },
+    {
+      "debut": 157.0,
+      "fin": 157.14,
+      "mot": "Il"
+    },
+    {
+      "debut": 157.14,
+      "fin": 157.28,
+      "mot": "nous"
+    },
+    {
+      "debut": 157.28,
+      "fin": 157.44,
+      "mot": "a"
+    },
+    {
+      "debut": 157.44,
+      "fin": 157.68,
+      "mot": "élevés"
+    },
+    {
+      "debut": 157.68,
+      "fin": 157.82,
+      "mot": "pour"
+    },
+    {
+      "debut": 157.82,
+      "fin": 157.94,
+      "mot": "qu"
+    },
+    {
+      "debut": 157.94,
+      "fin": 157.96,
+      "mot": "'on"
+    },
+    {
+      "debut": 157.96,
+      "fin": 158.16,
+      "mot": "puisse"
+    },
+    {
+      "debut": 158.16,
+      "fin": 158.52,
+      "mot": "partir."
+    },
+    {
+      "debut": 158.86,
+      "fin": 159.06,
+      "mot": "Puis"
+    },
+    {
+      "debut": 159.06,
+      "fin": 159.26,
+      "mot": "il"
+    },
+    {
+      "debut": 159.26,
+      "fin": 159.34,
+      "mot": "a"
+    },
+    {
+      "debut": 159.34,
+      "fin": 159.48,
+      "mot": "fait"
+    },
+    {
+      "debut": 159.48,
+      "fin": 159.74,
+      "mot": "demi"
+    },
+    {
+      "debut": 159.74,
+      "fin": 159.94,
+      "mot": "-tour,"
+    },
+    {
+      "debut": 160.16,
+      "fin": 160.28,
+      "mot": "en"
+    },
+    {
+      "debut": 160.28,
+      "fin": 160.6,
+      "mot": "refaisant"
+    },
+    {
+      "debut": 160.6,
+      "fin": 160.76,
+      "mot": "ce"
+    },
+    {
+      "debut": 160.76,
+      "fin": 161.02,
+      "mot": "bruit."
+    },
+    {
+      "debut": 161.18,
+      "fin": 161.36,
+      "mot": "Parce"
+    },
+    {
+      "debut": 161.36,
+      "fin": 161.48,
+      "mot": "qu"
+    },
+    {
+      "debut": 161.48,
+      "fin": 161.52,
+      "mot": "'il"
+    },
+    {
+      "debut": 161.52,
+      "fin": 161.58,
+      "mot": "y"
+    },
+    {
+      "debut": 161.58,
+      "fin": 161.68,
+      "mot": "a"
+    },
+    {
+      "debut": 161.68,
+      "fin": 162.04,
+      "mot": "toujours"
+    },
+    {
+      "debut": 162.04,
+      "fin": 162.22,
+      "mot": "un"
+    },
+    {
+      "debut": 162.22,
+      "fin": 162.38,
+      "mot": "autre"
+    },
+    {
+      "debut": 162.38,
+      "fin": 162.64,
+      "mot": "enfant."
+    },
+    {
+      "debut": 162.64,
+      "fin": 163.2,
+      "mot": "Une"
+    },
+    {
+      "debut": 163.2,
+      "fin": 163.44,
+      "mot": "vieille"
+    },
+    {
+      "debut": 163.44,
+      "fin": 163.6,
+      "mot": "dame"
+    },
+    {
+      "debut": 163.6,
+      "fin": 163.68,
+      "mot": "m"
+    },
+    {
+      "debut": 163.68,
+      "fin": 163.82,
+      "mot": "'a"
+    },
+    {
+      "debut": 163.82,
+      "fin": 163.92,
+      "mot": "pris"
+    },
+    {
+      "debut": 163.92,
+      "fin": 164.08,
+      "mot": "la"
+    },
+    {
+      "debut": 164.08,
+      "fin": 164.22,
+      "mot": "main."
+    },
+    {
+      "debut": 164.42,
+      "fin": 164.5,
+      "mot": "Et"
+    },
+    {
+      "debut": 164.5,
+      "fin": 164.58,
+      "mot": "elle"
+    },
+    {
+      "debut": 164.58,
+      "fin": 164.64,
+      "mot": "m"
+    },
+    {
+      "debut": 164.64,
+      "fin": 164.82,
+      "mot": "'a"
+    },
+    {
+      "debut": 164.82,
+      "fin": 165.06,
+      "mot": "demandé,"
+    },
+    {
+      "debut": 165.44,
+      "fin": 165.48,
+      "mot": "tu"
+    },
+    {
+      "debut": 165.48,
+      "fin": 165.6,
+      "mot": "es"
+    },
+    {
+      "debut": 165.6,
+      "fin": 165.78,
+      "mot": "le"
+    },
+    {
+      "debut": 165.78,
+      "fin": 165.88,
+      "mot": "fils"
+    },
+    {
+      "debut": 165.88,
+      "fin": 166.08,
+      "mot": "de"
+    },
+    {
+      "debut": 166.08,
+      "fin": 166.24,
+      "mot": "qui"
+    },
+    {
+      "debut": 166.24,
+      "fin": 166.56,
+      "mot": "?"
+    },
+    {
+      "debut": 166.56,
+      "fin": 166.64,
+      "mot": "J"
+    },
+    {
+      "debut": 166.64,
+      "fin": 166.76,
+      "mot": "'ai"
+    },
+    {
+      "debut": 166.76,
+      "fin": 167.28,
+      "mot": "répondu,"
+    },
+    {
+      "debut": 167.38,
+      "fin": 167.54,
+      "mot": "de"
+    },
+    {
+      "debut": 167.54,
+      "fin": 167.76,
+      "mot": "lui."
+    },
+    {
+      "debut": 168.58,
+      "fin": 168.68,
+      "mot": "Je"
+    },
+    {
+      "debut": 168.68,
+      "fin": 168.78,
+      "mot": "l"
+    },
+    {
+      "debut": 168.78,
+      "fin": 168.88,
+      "mot": "'ai"
+    },
+    {
+      "debut": 168.88,
+      "fin": 168.96,
+      "mot": "dit"
+    },
+    {
+      "debut": 168.96,
+      "fin": 169.22,
+      "mot": "bien"
+    },
+    {
+      "debut": 169.22,
+      "fin": 169.42,
+      "mot": "trop"
+    },
+    {
+      "debut": 169.42,
+      "fin": 169.54,
+      "mot": "loin"
+    },
+    {
+      "debut": 169.54,
+      "fin": 169.7,
+      "mot": "pour"
+    },
+    {
+      "debut": 169.7,
+      "fin": 169.8,
+      "mot": "qu"
+    },
+    {
+      "debut": 169.8,
+      "fin": 169.88,
+      "mot": "'il"
+    },
+    {
+      "debut": 169.88,
+      "fin": 169.98,
+      "mot": "m"
+    },
+    {
+      "debut": 169.98,
+      "fin": 170.26,
+      "mot": "'entende."
+    },
+    {
+      "debut": 170.56,
+      "fin": 170.86,
+      "mot": "Pourtant,"
+    },
+    {
+      "debut": 171.0,
+      "fin": 171.08,
+      "mot": "il"
+    },
+    {
+      "debut": 171.08,
+      "fin": 171.18,
+      "mot": "s"
+    },
+    {
+      "debut": 171.18,
+      "fin": 171.34,
+      "mot": "'est"
+    },
+    {
+      "debut": 171.34,
+      "fin": 171.78,
+      "mot": "arrêté."
+    },
+    {
+      "debut": 171.9,
+      "fin": 172.02,
+      "mot": "Et"
+    },
+    {
+      "debut": 172.02,
+      "fin": 172.14,
+      "mot": "de"
+    },
+    {
+      "debut": 172.14,
+      "fin": 172.26,
+      "mot": "son"
+    },
+    {
+      "debut": 172.26,
+      "fin": 172.66,
+      "mot": "horrible"
+    },
+    {
+      "debut": 172.66,
+      "fin": 172.9,
+      "mot": "voix,"
+    },
+    {
+      "debut": 173.0,
+      "fin": 173.1,
+      "mot": "il"
+    },
+    {
+      "debut": 173.1,
+      "fin": 173.26,
+      "mot": "a"
+    },
+    {
+      "debut": 173.26,
+      "fin": 173.48,
+      "mot": "dit,"
+    },
+    {
+      "debut": 174.22,
+      "fin": 174.38,
+      "mot": "à"
+    },
+    {
+      "debut": 174.38,
+      "fin": 174.56,
+      "mot": "moi."
+    }
+  ]
+}

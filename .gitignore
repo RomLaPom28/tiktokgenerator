@@ -1,0 +1,15 @@
+# Vidéos / audio : trop lourds pour GitHub, restent sur le PC
+*.mp4
+*.mov
+*.webm
+*.wav
+*.m4a
+*.mp3
+sources/videos/
+
+# Python
+__pycache__/
+*.pyc
+
+# Claude local
+.claude/settings.local.json

@@ -1,0 +1,1637 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 2.18,
+      "texte": "À partir de maintenant, ça sera moi la préférée."
+    },
+    {
+      "debut": 5.01,
+      "fin": 6.69,
+      "texte": "Ah ! Au secours !"
+    },
+    {
+      "debut": 11.55,
+      "fin": 13.43,
+      "texte": "Comment c'est possible ? Fiston !"
+    },
+    {
+      "debut": 14.45,
+      "fin": 16.49,
+      "texte": "Tu m'entends ? Où es-tu ? Je suis là !"
+    },
+    {
+      "debut": 16.49,
+      "fin": 21.49,
+      "texte": "Non, s'il te plaît, le requin, je veux pas finir en salade de fruits !"
+    },
+    {
+      "debut": 21.49,
+      "fin": 24.87,
+      "texte": "C'est moi qui l'ai poussé. Je ne pensais pas que ça irait si loin."
+    },
+    {
+      "debut": 25.23,
+      "fin": 25.87,
+      "texte": "Quoi ?"
+    },
+    {
+      "debut": 25.87,
+      "fin": 28.19,
+      "texte": "On ne dit rien pour l'instant. C'est notre secret."
+    },
+    {
+      "debut": 28.73,
+      "fin": 32.09,
+      "texte": "Papa, j'ai peur. Je sais pas comment m'en sortir."
+    },
+    {
+      "debut": 32.39,
+      "fin": 34.75,
+      "texte": "Faites demi-tour ! Mon fils est en danger !"
+    },
+    {
+      "debut": 34.75,
+      "fin": 36.37,
+      "texte": "Je prépare une équipe de sauvetage, monsieur."
+    },
+    {
+      "debut": 36.37,
+      "fin": 39.37,
+      "texte": "Merci les dauphins ! Vous me sauvez la vie !"
+    },
+    {
+      "debut": 40.03,
+      "fin": 42.73,
+      "texte": "Il va s'en sortir, je le sens. Tout va bien se terminer."
+    },
+    {
+      "debut": 43.05,
+      "fin": 44.93,
+      "texte": "Je l'espère. Où es-tu, Fiston ?"
+    },
+    {
+      "debut": 44.93,
+      "fin": 46.99,
+      "texte": "C'est quoi cet endroit ? Où suis-je ?"
+    },
+    {
+      "debut": 46.99,
+      "fin": 48.87,
+      "texte": "Il y a quelqu'un !"
+    },
+    {
+      "debut": 48.87,
+      "fin": 51.51,
+      "texte": "Si je veux survivre, je vais devoir me débrouiller."
+    },
+    {
+      "debut": 52.55,
+      "fin": 54.55,
+      "texte": "De la nourriture ! Merci la nature !"
+    },
+    {
+      "debut": 55.83,
+      "fin": 56.75,
+      "texte": "Allez, s'il te plaît."
+    },
+    {
+      "debut": 57.69,
+      "fin": 59.49,
+      "texte": "Allez ! J'ai réussi !"
+    },
+    {
+      "debut": 60.41,
+      "fin": 61.99,
+      "texte": "Papa, tu me manques tellement."
+    },
+    {
+      "debut": 62.93,
+      "fin": 64.81,
+      "texte": "S'il vous plaît, je suis là !"
+    },
+    {
+      "debut": 66.51,
+      "fin": 70.13,
+      "texte": "On le tient ! On le ramène ! Accroche-toi, on t'a !"
+    },
+    {
+      "debut": 70.13,
+      "fin": 72.35,
+      "texte": "Tout va bien. Tu es en sécurité, maintenant."
+    },
+    {
+      "debut": 73.71,
+      "fin": 75.67,
+      "texte": "Mon fils, c'est toi ! Je n'y crois pas !"
+    },
+    {
+      "debut": 75.67,
+      "fin": 76.51,
+      "texte": "Papa !"
+    },
+    {
+      "debut": 77.13,
+      "fin": 80.15,
+      "texte": "Papa, c'est elle ! C'est elle qui m'a poussé par-dessus bord !"
+    },
+    {
+      "debut": 80.15,
+      "fin": 81.65,
+      "texte": "Vous êtes des monstres, toutes les deux."
+    },
+    {
+      "debut": 82.15,
+      "fin": 83.25,
+      "texte": "Sortez de notre vie !"
+    },
+    {
+      "debut": 83.25,
+      "fin": 84.85,
+      "texte": "Non, attends ! Il y a un malentendu !"
+    },
+    {
+      "debut": 84.85,
+      "fin": 88.07,
+      "texte": "On a tout perdu, maintenant. Qu'est-ce qu'on va devenir ?"
+    },
+    {
+      "debut": 88.07,
+      "fin": 89.61,
+      "texte": "Tout va bien, maintenant, mon fils."
+    },
+    {
+      "debut": 90.03,
+      "fin": 91.61,
+      "texte": "Je savais que je te retrouverais, papa."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.0,
+      "fin": 0.38,
+      "mot": "À"
+    },
+    {
+      "debut": 0.38,
+      "fin": 0.58,
+      "mot": "partir"
+    },
+    {
+      "debut": 0.58,
+      "fin": 0.8,
+      "mot": "de"
+    },
+    {
+      "debut": 0.8,
+      "fin": 1.0,
+      "mot": "maintenant,"
+    },
+    {
+      "debut": 1.14,
+      "fin": 1.16,
+      "mot": "ça"
+    },
+    {
+      "debut": 1.16,
+      "fin": 1.3,
+      "mot": "sera"
+    },
+    {
+      "debut": 1.3,
+      "fin": 1.48,
+      "mot": "moi"
+    },
+    {
+      "debut": 1.48,
+      "fin": 1.7,
+      "mot": "la"
+    },
+    {
+      "debut": 1.7,
+      "fin": 2.18,
+      "mot": "préférée."
+    },
+    {
+      "debut": 5.01,
+      "fin": 5.07,
+      "mot": "Ah"
+    },
+    {
+      "debut": 5.07,
+      "fin": 5.19,
+      "mot": "!"
+    },
+    {
+      "debut": 5.19,
+      "fin": 5.41,
+      "mot": "Au"
+    },
+    {
+      "debut": 5.41,
+      "fin": 6.15,
+      "mot": "secours"
+    },
+    {
+      "debut": 6.15,
+      "fin": 6.69,
+      "mot": "!"
+    },
+    {
+      "debut": 11.55,
+      "fin": 11.83,
+      "mot": "Comment"
+    },
+    {
+      "debut": 11.83,
+      "fin": 12.01,
+      "mot": "c"
+    },
+    {
+      "debut": 12.01,
+      "fin": 12.07,
+      "mot": "'est"
+    },
+    {
+      "debut": 12.07,
+      "fin": 12.41,
+      "mot": "possible"
+    },
+    {
+      "debut": 12.41,
+      "fin": 12.61,
+      "mot": "?"
+    },
+    {
+      "debut": 12.61,
+      "fin": 13.21,
+      "mot": "Fiston"
+    },
+    {
+      "debut": 13.21,
+      "fin": 13.43,
+      "mot": "!"
+    },
+    {
+      "debut": 14.45,
+      "fin": 14.63,
+      "mot": "Tu"
+    },
+    {
+      "debut": 14.63,
+      "fin": 14.79,
+      "mot": "m"
+    },
+    {
+      "debut": 14.79,
+      "fin": 15.01,
+      "mot": "'entends"
+    },
+    {
+      "debut": 15.01,
+      "fin": 15.09,
+      "mot": "?"
+    },
+    {
+      "debut": 15.09,
+      "fin": 15.21,
+      "mot": "Où"
+    },
+    {
+      "debut": 15.21,
+      "fin": 15.43,
+      "mot": "es"
+    },
+    {
+      "debut": 15.43,
+      "fin": 15.53,
+      "mot": "-tu"
+    },
+    {
+      "debut": 15.53,
+      "fin": 15.55,
+      "mot": "?"
+    },
+    {
+      "debut": 15.55,
+      "fin": 15.69,
+      "mot": "Je"
+    },
+    {
+      "debut": 15.69,
+      "fin": 15.91,
+      "mot": "suis"
+    },
+    {
+      "debut": 15.91,
+      "fin": 16.27,
+      "mot": "là"
+    },
+    {
+      "debut": 16.27,
+      "fin": 16.49,
+      "mot": "!"
+    },
+    {
+      "debut": 16.49,
+      "fin": 16.75,
+      "mot": "Non,"
+    },
+    {
+      "debut": 16.75,
+      "fin": 16.87,
+      "mot": "s"
+    },
+    {
+      "debut": 16.87,
+      "fin": 16.97,
+      "mot": "'il"
+    },
+    {
+      "debut": 16.97,
+      "fin": 17.11,
+      "mot": "te"
+    },
+    {
+      "debut": 17.11,
+      "fin": 17.17,
+      "mot": "plaît,"
+    },
+    {
+      "debut": 17.23,
+      "fin": 17.39,
+      "mot": "le"
+    },
+    {
+      "debut": 17.39,
+      "fin": 17.67,
+      "mot": "requin,"
+    },
+    {
+      "debut": 17.67,
+      "fin": 17.79,
+      "mot": "je"
+    },
+    {
+      "debut": 17.79,
+      "fin": 18.01,
+      "mot": "veux"
+    },
+    {
+      "debut": 18.01,
+      "fin": 18.17,
+      "mot": "pas"
+    },
+    {
+      "debut": 18.17,
+      "fin": 18.43,
+      "mot": "finir"
+    },
+    {
+      "debut": 18.43,
+      "fin": 18.65,
+      "mot": "en"
+    },
+    {
+      "debut": 18.65,
+      "fin": 18.87,
+      "mot": "salade"
+    },
+    {
+      "debut": 18.87,
+      "fin": 19.21,
+      "mot": "de"
+    },
+    {
+      "debut": 19.21,
+      "fin": 19.51,
+      "mot": "fruits"
+    },
+    {
+      "debut": 19.51,
+      "fin": 21.49,
+      "mot": "!"
+    },
+    {
+      "debut": 21.49,
+      "fin": 21.77,
+      "mot": "C"
+    },
+    {
+      "debut": 21.77,
+      "fin": 21.87,
+      "mot": "'est"
+    },
+    {
+      "debut": 21.87,
+      "fin": 22.13,
+      "mot": "moi"
+    },
+    {
+      "debut": 22.13,
+      "fin": 22.35,
+      "mot": "qui"
+    },
+    {
+      "debut": 22.35,
+      "fin": 22.39,
+      "mot": "l"
+    },
+    {
+      "debut": 22.39,
+      "fin": 22.57,
+      "mot": "'ai"
+    },
+    {
+      "debut": 22.57,
+      "fin": 22.95,
+      "mot": "poussé."
+    },
+    {
+      "debut": 23.11,
+      "fin": 23.31,
+      "mot": "Je"
+    },
+    {
+      "debut": 23.31,
+      "fin": 23.51,
+      "mot": "ne"
+    },
+    {
+      "debut": 23.51,
+      "fin": 23.71,
+      "mot": "pensais"
+    },
+    {
+      "debut": 23.71,
+      "fin": 23.91,
+      "mot": "pas"
+    },
+    {
+      "debut": 23.91,
+      "fin": 24.01,
+      "mot": "que"
+    },
+    {
+      "debut": 24.01,
+      "fin": 24.15,
+      "mot": "ça"
+    },
+    {
+      "debut": 24.15,
+      "fin": 24.43,
+      "mot": "irait"
+    },
+    {
+      "debut": 24.43,
+      "fin": 24.67,
+      "mot": "si"
+    },
+    {
+      "debut": 24.67,
+      "fin": 24.87,
+      "mot": "loin."
+    },
+    {
+      "debut": 25.23,
+      "fin": 25.67,
+      "mot": "Quoi"
+    },
+    {
+      "debut": 25.67,
+      "fin": 25.87,
+      "mot": "?"
+    },
+    {
+      "debut": 25.87,
+      "fin": 26.11,
+      "mot": "On"
+    },
+    {
+      "debut": 26.11,
+      "fin": 26.25,
+      "mot": "ne"
+    },
+    {
+      "debut": 26.25,
+      "fin": 26.35,
+      "mot": "dit"
+    },
+    {
+      "debut": 26.35,
+      "fin": 26.65,
+      "mot": "rien"
+    },
+    {
+      "debut": 26.65,
+      "fin": 26.87,
+      "mot": "pour"
+    },
+    {
+      "debut": 26.87,
+      "fin": 26.99,
+      "mot": "l"
+    },
+    {
+      "debut": 26.99,
+      "fin": 27.23,
+      "mot": "'instant."
+    },
+    {
+      "debut": 27.33,
+      "fin": 27.41,
+      "mot": "C"
+    },
+    {
+      "debut": 27.41,
+      "fin": 27.53,
+      "mot": "'est"
+    },
+    {
+      "debut": 27.53,
+      "fin": 27.79,
+      "mot": "notre"
+    },
+    {
+      "debut": 27.79,
+      "fin": 28.19,
+      "mot": "secret."
+    },
+    {
+      "debut": 28.73,
+      "fin": 29.17,
+      "mot": "Papa,"
+    },
+    {
+      "debut": 29.85,
+      "fin": 29.97,
+      "mot": "j"
+    },
+    {
+      "debut": 29.97,
+      "fin": 30.19,
+      "mot": "'ai"
+    },
+    {
+      "debut": 30.19,
+      "fin": 30.49,
+      "mot": "peur."
+    },
+    {
+      "debut": 30.49,
+      "fin": 30.71,
+      "mot": "Je"
+    },
+    {
+      "debut": 30.71,
+      "fin": 30.95,
+      "mot": "sais"
+    },
+    {
+      "debut": 30.95,
+      "fin": 31.15,
+      "mot": "pas"
+    },
+    {
+      "debut": 31.15,
+      "fin": 31.41,
+      "mot": "comment"
+    },
+    {
+      "debut": 31.41,
+      "fin": 31.51,
+      "mot": "m"
+    },
+    {
+      "debut": 31.51,
+      "fin": 31.67,
+      "mot": "'en"
+    },
+    {
+      "debut": 31.67,
+      "fin": 32.09,
+      "mot": "sortir."
+    },
+    {
+      "debut": 32.39,
+      "fin": 32.73,
+      "mot": "Faites"
+    },
+    {
+      "debut": 32.73,
+      "fin": 32.93,
+      "mot": "demi"
+    },
+    {
+      "debut": 32.93,
+      "fin": 33.15,
+      "mot": "-tour"
+    },
+    {
+      "debut": 33.15,
+      "fin": 33.25,
+      "mot": "!"
+    },
+    {
+      "debut": 33.25,
+      "fin": 33.49,
+      "mot": "Mon"
+    },
+    {
+      "debut": 33.49,
+      "fin": 33.67,
+      "mot": "fils"
+    },
+    {
+      "debut": 33.67,
+      "fin": 33.85,
+      "mot": "est"
+    },
+    {
+      "debut": 33.85,
+      "fin": 34.01,
+      "mot": "en"
+    },
+    {
+      "debut": 34.01,
+      "fin": 34.31,
+      "mot": "danger"
+    },
+    {
+      "debut": 34.31,
+      "fin": 34.75,
+      "mot": "!"
+    },
+    {
+      "debut": 34.75,
+      "fin": 34.97,
+      "mot": "Je"
+    },
+    {
+      "debut": 34.97,
+      "fin": 35.25,
+      "mot": "prépare"
+    },
+    {
+      "debut": 35.25,
+      "fin": 35.41,
+      "mot": "une"
+    },
+    {
+      "debut": 35.41,
+      "fin": 35.59,
+      "mot": "équipe"
+    },
+    {
+      "debut": 35.59,
+      "fin": 35.81,
+      "mot": "de"
+    },
+    {
+      "debut": 35.81,
+      "fin": 36.15,
+      "mot": "sauvetage,"
+    },
+    {
+      "debut": 36.25,
+      "fin": 36.37,
+      "mot": "monsieur."
+    },
+    {
+      "debut": 36.37,
+      "fin": 36.89,
+      "mot": "Merci"
+    },
+    {
+      "debut": 36.89,
+      "fin": 37.13,
+      "mot": "les"
+    },
+    {
+      "debut": 37.13,
+      "fin": 37.45,
+      "mot": "dauphins"
+    },
+    {
+      "debut": 37.45,
+      "fin": 37.57,
+      "mot": "!"
+    },
+    {
+      "debut": 37.57,
+      "fin": 37.69,
+      "mot": "Vous"
+    },
+    {
+      "debut": 37.69,
+      "fin": 37.91,
+      "mot": "me"
+    },
+    {
+      "debut": 37.91,
+      "fin": 38.13,
+      "mot": "sauvez"
+    },
+    {
+      "debut": 38.13,
+      "fin": 38.45,
+      "mot": "la"
+    },
+    {
+      "debut": 38.45,
+      "fin": 38.85,
+      "mot": "vie"
+    },
+    {
+      "debut": 38.85,
+      "fin": 39.37,
+      "mot": "!"
+    },
+    {
+      "debut": 40.03,
+      "fin": 40.23,
+      "mot": "Il"
+    },
+    {
+      "debut": 40.23,
+      "fin": 40.41,
+      "mot": "va"
+    },
+    {
+      "debut": 40.41,
+      "fin": 40.49,
+      "mot": "s"
+    },
+    {
+      "debut": 40.49,
+      "fin": 40.63,
+      "mot": "'en"
+    },
+    {
+      "debut": 40.63,
+      "fin": 40.87,
+      "mot": "sortir,"
+    },
+    {
+      "debut": 40.99,
+      "fin": 41.07,
+      "mot": "je"
+    },
+    {
+      "debut": 41.07,
+      "fin": 41.23,
+      "mot": "le"
+    },
+    {
+      "debut": 41.23,
+      "fin": 41.31,
+      "mot": "sens."
+    },
+    {
+      "debut": 41.37,
+      "fin": 41.51,
+      "mot": "Tout"
+    },
+    {
+      "debut": 41.51,
+      "fin": 41.67,
+      "mot": "va"
+    },
+    {
+      "debut": 41.67,
+      "fin": 41.83,
+      "mot": "bien"
+    },
+    {
+      "debut": 41.83,
+      "fin": 41.97,
+      "mot": "se"
+    },
+    {
+      "debut": 41.97,
+      "fin": 42.73,
+      "mot": "terminer."
+    },
+    {
+      "debut": 43.05,
+      "fin": 43.21,
+      "mot": "Je"
+    },
+    {
+      "debut": 43.21,
+      "fin": 43.39,
+      "mot": "l"
+    },
+    {
+      "debut": 43.39,
+      "fin": 43.69,
+      "mot": "'espère."
+    },
+    {
+      "debut": 43.71,
+      "fin": 43.89,
+      "mot": "Où"
+    },
+    {
+      "debut": 43.89,
+      "fin": 44.13,
+      "mot": "es"
+    },
+    {
+      "debut": 44.13,
+      "fin": 44.23,
+      "mot": "-tu,"
+    },
+    {
+      "debut": 44.41,
+      "fin": 44.67,
+      "mot": "Fiston"
+    },
+    {
+      "debut": 44.67,
+      "fin": 44.93,
+      "mot": "?"
+    },
+    {
+      "debut": 44.93,
+      "fin": 45.09,
+      "mot": "C"
+    },
+    {
+      "debut": 45.09,
+      "fin": 45.19,
+      "mot": "'est"
+    },
+    {
+      "debut": 45.19,
+      "fin": 45.31,
+      "mot": "quoi"
+    },
+    {
+      "debut": 45.31,
+      "fin": 45.49,
+      "mot": "cet"
+    },
+    {
+      "debut": 45.49,
+      "fin": 45.77,
+      "mot": "endroit"
+    },
+    {
+      "debut": 45.77,
+      "fin": 45.79,
+      "mot": "?"
+    },
+    {
+      "debut": 45.79,
+      "fin": 45.99,
+      "mot": "Où"
+    },
+    {
+      "debut": 45.99,
+      "fin": 46.15,
+      "mot": "suis"
+    },
+    {
+      "debut": 46.15,
+      "fin": 46.43,
+      "mot": "-je"
+    },
+    {
+      "debut": 46.43,
+      "fin": 46.99,
+      "mot": "?"
+    },
+    {
+      "debut": 46.99,
+      "fin": 47.19,
+      "mot": "Il"
+    },
+    {
+      "debut": 47.19,
+      "fin": 47.19,
+      "mot": "y"
+    },
+    {
+      "debut": 47.19,
+      "fin": 47.29,
+      "mot": "a"
+    },
+    {
+      "debut": 47.29,
+      "fin": 47.57,
+      "mot": "quelqu"
+    },
+    {
+      "debut": 47.57,
+      "fin": 47.75,
+      "mot": "'un"
+    },
+    {
+      "debut": 47.75,
+      "fin": 48.87,
+      "mot": "!"
+    },
+    {
+      "debut": 48.87,
+      "fin": 49.15,
+      "mot": "Si"
+    },
+    {
+      "debut": 49.15,
+      "fin": 49.29,
+      "mot": "je"
+    },
+    {
+      "debut": 49.29,
+      "fin": 49.45,
+      "mot": "veux"
+    },
+    {
+      "debut": 49.45,
+      "fin": 50.03,
+      "mot": "survivre,"
+    },
+    {
+      "debut": 50.09,
+      "fin": 50.19,
+      "mot": "je"
+    },
+    {
+      "debut": 50.19,
+      "fin": 50.35,
+      "mot": "vais"
+    },
+    {
+      "debut": 50.35,
+      "fin": 50.63,
+      "mot": "devoir"
+    },
+    {
+      "debut": 50.63,
+      "fin": 50.87,
+      "mot": "me"
+    },
+    {
+      "debut": 50.87,
+      "fin": 51.51,
+      "mot": "débrouiller."
+    },
+    {
+      "debut": 52.55,
+      "fin": 52.73,
+      "mot": "De"
+    },
+    {
+      "debut": 52.73,
+      "fin": 52.89,
+      "mot": "la"
+    },
+    {
+      "debut": 52.89,
+      "fin": 53.41,
+      "mot": "nourriture"
+    },
+    {
+      "debut": 53.41,
+      "fin": 53.45,
+      "mot": "!"
+    },
+    {
+      "debut": 53.45,
+      "fin": 53.73,
+      "mot": "Merci"
+    },
+    {
+      "debut": 53.73,
+      "fin": 53.93,
+      "mot": "la"
+    },
+    {
+      "debut": 53.93,
+      "fin": 54.35,
+      "mot": "nature"
+    },
+    {
+      "debut": 54.35,
+      "fin": 54.55,
+      "mot": "!"
+    },
+    {
+      "debut": 55.83,
+      "fin": 56.15,
+      "mot": "Allez,"
+    },
+    {
+      "debut": 56.19,
+      "fin": 56.33,
+      "mot": "s"
+    },
+    {
+      "debut": 56.33,
+      "fin": 56.51,
+      "mot": "'il"
+    },
+    {
+      "debut": 56.51,
+      "fin": 56.51,
+      "mot": "te"
+    },
+    {
+      "debut": 56.51,
+      "fin": 56.75,
+      "mot": "plaît."
+    },
+    {
+      "debut": 57.69,
+      "fin": 58.09,
+      "mot": "Allez"
+    },
+    {
+      "debut": 58.09,
+      "fin": 58.49,
+      "mot": "!"
+    },
+    {
+      "debut": 58.49,
+      "fin": 58.69,
+      "mot": "J"
+    },
+    {
+      "debut": 58.69,
+      "fin": 58.81,
+      "mot": "'ai"
+    },
+    {
+      "debut": 58.81,
+      "fin": 59.29,
+      "mot": "réussi"
+    },
+    {
+      "debut": 59.29,
+      "fin": 59.49,
+      "mot": "!"
+    },
+    {
+      "debut": 60.41,
+      "fin": 60.81,
+      "mot": "Papa,"
+    },
+    {
+      "debut": 60.87,
+      "fin": 61.07,
+      "mot": "tu"
+    },
+    {
+      "debut": 61.07,
+      "fin": 61.27,
+      "mot": "me"
+    },
+    {
+      "debut": 61.27,
+      "fin": 61.53,
+      "mot": "manques"
+    },
+    {
+      "debut": 61.53,
+      "fin": 61.99,
+      "mot": "tellement."
+    },
+    {
+      "debut": 62.93,
+      "fin": 63.07,
+      "mot": "S"
+    },
+    {
+      "debut": 63.07,
+      "fin": 63.19,
+      "mot": "'il"
+    },
+    {
+      "debut": 63.19,
+      "fin": 63.43,
+      "mot": "vous"
+    },
+    {
+      "debut": 63.43,
+      "fin": 63.59,
+      "mot": "plaît,"
+    },
+    {
+      "debut": 63.59,
+      "fin": 63.79,
+      "mot": "je"
+    },
+    {
+      "debut": 63.79,
+      "fin": 63.97,
+      "mot": "suis"
+    },
+    {
+      "debut": 63.97,
+      "fin": 64.35,
+      "mot": "là"
+    },
+    {
+      "debut": 64.35,
+      "fin": 64.81,
+      "mot": "!"
+    },
+    {
+      "debut": 66.51,
+      "fin": 66.79,
+      "mot": "On"
+    },
+    {
+      "debut": 66.79,
+      "fin": 66.99,
+      "mot": "le"
+    },
+    {
+      "debut": 66.99,
+      "fin": 67.15,
+      "mot": "tient"
+    },
+    {
+      "debut": 67.15,
+      "fin": 67.31,
+      "mot": "!"
+    },
+    {
+      "debut": 67.31,
+      "fin": 67.35,
+      "mot": "On"
+    },
+    {
+      "debut": 67.35,
+      "fin": 67.53,
+      "mot": "le"
+    },
+    {
+      "debut": 67.53,
+      "fin": 67.81,
+      "mot": "ramène"
+    },
+    {
+      "debut": 67.81,
+      "fin": 68.17,
+      "mot": "!"
+    },
+    {
+      "debut": 68.17,
+      "fin": 68.47,
+      "mot": "Accroche"
+    },
+    {
+      "debut": 68.47,
+      "fin": 68.57,
+      "mot": "-toi,"
+    },
+    {
+      "debut": 68.71,
+      "fin": 68.79,
+      "mot": "on"
+    },
+    {
+      "debut": 68.79,
+      "fin": 68.83,
+      "mot": "t"
+    },
+    {
+      "debut": 68.83,
+      "fin": 68.95,
+      "mot": "'a"
+    },
+    {
+      "debut": 68.95,
+      "fin": 70.13,
+      "mot": "!"
+    },
+    {
+      "debut": 70.13,
+      "fin": 70.41,
+      "mot": "Tout"
+    },
+    {
+      "debut": 70.41,
+      "fin": 70.59,
+      "mot": "va"
+    },
+    {
+      "debut": 70.59,
+      "fin": 70.77,
+      "mot": "bien."
+    },
+    {
+      "debut": 70.87,
+      "fin": 70.95,
+      "mot": "Tu"
+    },
+    {
+      "debut": 70.95,
+      "fin": 71.05,
+      "mot": "es"
+    },
+    {
+      "debut": 71.05,
+      "fin": 71.25,
+      "mot": "en"
+    },
+    {
+      "debut": 71.25,
+      "fin": 71.63,
+      "mot": "sécurité,"
+    },
+    {
+      "debut": 71.85,
+      "fin": 72.35,
+      "mot": "maintenant."
+    },
+    {
+      "debut": 73.71,
+      "fin": 73.97,
+      "mot": "Mon"
+    },
+    {
+      "debut": 73.97,
+      "fin": 74.17,
+      "mot": "fils,"
+    },
+    {
+      "debut": 74.27,
+      "fin": 74.35,
+      "mot": "c"
+    },
+    {
+      "debut": 74.35,
+      "fin": 74.45,
+      "mot": "'est"
+    },
+    {
+      "debut": 74.45,
+      "fin": 74.61,
+      "mot": "toi"
+    },
+    {
+      "debut": 74.61,
+      "fin": 74.63,
+      "mot": "!"
+    },
+    {
+      "debut": 74.63,
+      "fin": 74.75,
+      "mot": "Je"
+    },
+    {
+      "debut": 74.75,
+      "fin": 74.87,
+      "mot": "n"
+    },
+    {
+      "debut": 74.87,
+      "fin": 75.01,
+      "mot": "'y"
+    },
+    {
+      "debut": 75.01,
+      "fin": 75.19,
+      "mot": "crois"
+    },
+    {
+      "debut": 75.19,
+      "fin": 75.45,
+      "mot": "pas"
+    },
+    {
+      "debut": 75.45,
+      "fin": 75.67,
+      "mot": "!"
+    },
+    {
+      "debut": 75.67,
+      "fin": 76.23,
+      "mot": "Papa"
+    },
+    {
+      "debut": 76.23,
+      "fin": 76.51,
+      "mot": "!"
+    },
+    {
+      "debut": 77.13,
+      "fin": 77.49,
+      "mot": "Papa,"
+    },
+    {
+      "debut": 77.59,
+      "fin": 77.73,
+      "mot": "c"
+    },
+    {
+      "debut": 77.73,
+      "fin": 77.83,
+      "mot": "'est"
+    },
+    {
+      "debut": 77.83,
+      "fin": 78.09,
+      "mot": "elle"
+    },
+    {
+      "debut": 78.09,
+      "fin": 78.39,
+      "mot": "!"
+    },
+    {
+      "debut": 78.39,
+      "fin": 78.65,
+      "mot": "C"
+    },
+    {
+      "debut": 78.65,
+      "fin": 78.65,
+      "mot": "'est"
+    },
+    {
+      "debut": 78.65,
+      "fin": 78.81,
+      "mot": "elle"
+    },
+    {
+      "debut": 78.81,
+      "fin": 78.93,
+      "mot": "qui"
+    },
+    {
+      "debut": 78.93,
+      "fin": 79.03,
+      "mot": "m"
+    },
+    {
+      "debut": 79.03,
+      "fin": 79.13,
+      "mot": "'a"
+    },
+    {
+      "debut": 79.13,
+      "fin": 79.41,
+      "mot": "poussé"
+    },
+    {
+      "debut": 79.41,
+      "fin": 79.63,
+      "mot": "par"
+    },
+    {
+      "debut": 79.63,
+      "fin": 79.89,
+      "mot": "-dessus"
+    },
+    {
+      "debut": 79.89,
+      "fin": 80.09,
+      "mot": "bord"
+    },
+    {
+      "debut": 80.09,
+      "fin": 80.15,
+      "mot": "!"
+    },
+    {
+      "debut": 80.15,
+      "fin": 80.33,
+      "mot": "Vous"
+    },
+    {
+      "debut": 80.33,
+      "fin": 80.55,
+      "mot": "êtes"
+    },
+    {
+      "debut": 80.55,
+      "fin": 80.73,
+      "mot": "des"
+    },
+    {
+      "debut": 80.73,
+      "fin": 81.13,
+      "mot": "monstres,"
+    },
+    {
+      "debut": 81.27,
+      "fin": 81.29,
+      "mot": "toutes"
+    },
+    {
+      "debut": 81.29,
+      "fin": 81.47,
+      "mot": "les"
+    },
+    {
+      "debut": 81.47,
+      "fin": 81.65,
+      "mot": "deux."
+    },
+    {
+      "debut": 82.15,
+      "fin": 82.51,
+      "mot": "Sortez"
+    },
+    {
+      "debut": 82.51,
+      "fin": 82.61,
+      "mot": "de"
+    },
+    {
+      "debut": 82.61,
+      "fin": 82.79,
+      "mot": "notre"
+    },
+    {
+      "debut": 82.79,
+      "fin": 83.03,
+      "mot": "vie"
+    },
+    {
+      "debut": 83.03,
+      "fin": 83.25,
+      "mot": "!"
+    },
+    {
+      "debut": 83.25,
+      "fin": 83.47,
+      "mot": "Non,"
+    },
+    {
+      "debut": 83.55,
+      "fin": 83.75,
+      "mot": "attends"
+    },
+    {
+      "debut": 83.75,
+      "fin": 83.77,
+      "mot": "!"
+    },
+    {
+      "debut": 83.77,
+      "fin": 83.91,
+      "mot": "Il"
+    },
+    {
+      "debut": 83.91,
+      "fin": 83.91,
+      "mot": "y"
+    },
+    {
+      "debut": 83.91,
+      "fin": 83.97,
+      "mot": "a"
+    },
+    {
+      "debut": 83.97,
+      "fin": 84.05,
+      "mot": "un"
+    },
+    {
+      "debut": 84.05,
+      "fin": 84.65,
+      "mot": "malentendu"
+    },
+    {
+      "debut": 84.65,
+      "fin": 84.85,
+      "mot": "!"
+    },
+    {
+      "debut": 84.85,
+      "fin": 84.99,
+      "mot": "On"
+    },
+    {
+      "debut": 84.99,
+      "fin": 85.17,
+      "mot": "a"
+    },
+    {
+      "debut": 85.17,
+      "fin": 85.33,
+      "mot": "tout"
+    },
+    {
+      "debut": 85.33,
+      "fin": 85.69,
+      "mot": "perdu,"
+    },
+    {
+      "debut": 85.99,
+      "fin": 86.13,
+      "mot": "maintenant."
+    },
+    {
+      "debut": 86.19,
+      "fin": 86.33,
+      "mot": "Qu"
+    },
+    {
+      "debut": 86.33,
+      "fin": 86.39,
+      "mot": "'est"
+    },
+    {
+      "debut": 86.39,
+      "fin": 86.39,
+      "mot": "-ce"
+    },
+    {
+      "debut": 86.39,
+      "fin": 86.47,
+      "mot": "qu"
+    },
+    {
+      "debut": 86.47,
+      "fin": 86.49,
+      "mot": "'on"
+    },
+    {
+      "debut": 86.49,
+      "fin": 86.67,
+      "mot": "va"
+    },
+    {
+      "debut": 86.67,
+      "fin": 87.07,
+      "mot": "devenir"
+    },
+    {
+      "debut": 87.07,
+      "fin": 88.07,
+      "mot": "?"
+    },
+    {
+      "debut": 88.07,
+      "fin": 88.29,
+      "mot": "Tout"
+    },
+    {
+      "debut": 88.29,
+      "fin": 88.53,
+      "mot": "va"
+    },
+    {
+      "debut": 88.53,
+      "fin": 88.69,
+      "mot": "bien,"
+    },
+    {
+      "debut": 88.95,
+      "fin": 89.07,
+      "mot": "maintenant,"
+    },
+    {
+      "debut": 89.15,
+      "fin": 89.29,
+      "mot": "mon"
+    },
+    {
+      "debut": 89.29,
+      "fin": 89.61,
+      "mot": "fils."
+    },
+    {
+      "debut": 90.03,
+      "fin": 90.27,
+      "mot": "Je"
+    },
+    {
+      "debut": 90.27,
+      "fin": 90.49,
+      "mot": "savais"
+    },
+    {
+      "debut": 90.49,
+      "fin": 90.61,
+      "mot": "que"
+    },
+    {
+      "debut": 90.61,
+      "fin": 90.73,
+      "mot": "je"
+    },
+    {
+      "debut": 90.73,
+      "fin": 90.87,
+      "mot": "te"
+    },
+    {
+      "debut": 90.87,
+      "fin": 91.29,
+      "mot": "retrouverais,"
+    },
+    {
+      "debut": 91.41,
+      "fin": 91.61,
+      "mot": "papa."
+    }
+  ]
+}

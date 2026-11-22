@@ -1,0 +1,213 @@
+{
+  "_lisez_moi": "Bibliothèque de concepts PROUVÉS (formats qui ont déjà fait des millions de vues). Une nouvelle série ou une vidéo unique part TOUJOURS d'un de ces concepts : on garde la mécanique, on change l'univers. Complété par /analyser (collection tendances). Modifiable depuis la page. Principe : on reprend des histoires HUMAINES ; les animaux sont le casting et vivent comme des humains.",
+  "archetypes": {
+    "foot": [
+      "le crack arrogant",
+      "le capitaine vétéran fatigué",
+      "le coach colérique",
+      "l'agent véreux",
+      "le président radin",
+      "le jeune du centre de formation",
+      "le gardien superstitieux",
+      "le supporter ultra",
+      "l'arbitre dépassé",
+      "le kiné qui sait tout",
+      "la présidente ambitieuse",
+      "le journaliste qui cherche le scoop",
+      "la mère du joueur qui gère sa carrière"
+    ],
+    "general": [
+      "la victime naïve",
+      "le manipulateur",
+      "le complice lâche",
+      "le témoin commère",
+      "la belle-mère toxique",
+      "l'escroc qui revient",
+      "le bon copain drôle"
+    ]
+  },
+  "concepts": [
+    {
+      "exemples": [
+        "télé-réalité de joueurs fictifs enfermés dans un centre d'entraînement",
+        "émission de recrutement : le coach choisit qui reste"
+      ],
+      "id": "parodie_tele",
+      "mecanique": "Le public connaît déjà les règles de l'émission (couples, éliminations, confessionnaux) → compris en 1 s. Le casting absurde crée le contraste. Votes du public intégrés à l'histoire.",
+      "nom": "Parodie d'émission télé avec un casting non humain",
+      "preuve": "Fruit Love Island (Ai Cinema, mars 2026) : environ 10 M de vues par épisode, plus de 3 M d'abonnés en une saison ; copié en légumes, nuggets, objets.",
+      "risques": "Ne pas copier le nom ni le logo d'une vraie émission : nom inventé, décor inventé.",
+      "structure": "Accroche = l'élimination ou la trahison du jour. Confessionnal face caméra entre deux scènes. Fin = annonce coupée (« et la personne qui quitte… »)."
+    },
+    {
+      "exemples": [
+        "la femme du capitaine et l'agent du club",
+        "le président qui vend le club en cachette"
+      ],
+      "id": "soap_famille",
+      "mecanique": "Le spectateur en sait plus que la victime. Secrets révélés un par un. Rapports de force qui s'inversent.",
+      "nom": "Soap de quartier / famille (tromperie, héritage, trahison)",
+      "preuve": "Fruit dramas et animal dramas IA 2026 : les clips les plus vus sont les tromperies et les triangles amoureux ; base de La Ferme.",
+      "risques": "Insultes dégradantes et sous-entendus sexuels = cause n°1 des retraits.",
+      "structure": "Aveu ou menace en 1re réplique, retournement à 25 s et 50 s, coupure au moment de la révélation."
+    },
+    {
+      "exemples": [
+        "mi-temps d'un match perdu",
+        "réunion de crise après une défaite humiliante"
+      ],
+      "id": "vestiaire",
+      "mecanique": "Un lieu, une pression (on perd 3-0), chacun a une excuse. Beaucoup de dialogue, peu d'action : idéal pour Grok.",
+      "nom": "Huis clos de vestiaire / bureau (engueulade de groupe)",
+      "preuve": "Format « mi-temps dans le vestiaire » et « réunion qui dégénère » : très commenté parce que chacun choisit un camp.",
+      "risques": "Pas de violence montrée : la bouteille vole, on coupe.",
+      "structure": "Le coach entre et explose → chaque joueur se défend → quelqu'un balance un secret → la porte s'ouvre sur celui qu'on n'attendait pas."
+    },
+    {
+      "exemples": [
+        "le ramasseur de balles qui remplace le titulaire",
+        "le gardien du dimanche viré qui revient en finale"
+      ],
+      "id": "outsider_revanche",
+      "mecanique": "Injustice forte dès le début → le spectateur veut voir la revanche. Chaque épisode = une petite victoire + une nouvelle humiliation.",
+      "nom": "Outsider et revanche (le moqué qui devient le meilleur)",
+      "preuve": "Mini-séries IA de type ReelShort / GoodShort : le joueur rejeté, le fils qui venge son père, des centaines de millions de vues cumulées. Analyse 22/11/2026 : « humilié → transformation » Kiwi/Fraise 22,9 M (suites 8,2 / 2,7 / 5,7 M) ; « sous-estimé à force cachée » (chaussures de 100 kg 5,0 M, nouveau qui bloque le caïd d'un doigt 2,9 M) : 0,21 % de commentaires en moyenne, le double du lot.",
+      "risques": "Rester crédible et éviter le harcèlement réaliste : le méchant est ridicule plus que cruel.",
+      "structure": "Humiliation publique en accroche, révélation d'un talent ou d'un secret au milieu, fin = le méchant découvre qui il est. Variante prouvée : le héros a une raison de ne pas riposter (promesse, handicap imposé jusqu'à une date) ; fin coupée sur « je vais te montrer »."
+    },
+    {
+      "exemples": [
+        "le tireur de penalty maudit contre le gardien légendaire",
+        "deux académies rivales en finale"
+      ],
+      "id": "choc_epique",
+      "mecanique": "Personnages archétypes surpuissants, pouvoirs spéciaux, enjeu énorme, musique épique. On reste pour voir qui gagne.",
+      "nom": "Affrontement épique façon animé (shonen)",
+      "preuve": "Vidéos IA « anime » de la Coupe du monde 2026 : l'une des plus grosses tendances virales de l'été ; séries « Gods of Football Partie N ».",
+      "risques": "Jamais de vrais joueurs (droit à l'image, désinformation) : archétypes inventés uniquement.",
+      "structure": "Face-à-face + menace, montée de puissance, coup spécial, résultat coupé."
+    },
+    {
+      "exemples": [
+        "le kiné filme ce qui se passe dans le bureau du président",
+        "un supporter filme le bus de l'équipe"
+      ],
+      "id": "pov_temoin",
+      "mecanique": "Le spectateur est dans la scène, image « téléphone », réactions en direct, sensation de scoop.",
+      "nom": "POV / témoin qui filme",
+      "preuve": "Format POV omniprésent sur TikTok ; la commère qui filme tout.",
+      "risques": "Pas d'imitation de vraie vidéo d'actualité : bien montrer que c'est une fiction animée.",
+      "structure": "« Je filme parce que personne va me croire », scène vue à travers l'écran, le témoin se fait repérer."
+    },
+    {
+      "exemples": [
+        "et si un gardien gardait les yeux fermés ?",
+        "et si le ballon pesait 10 kg ?"
+      ],
+      "id": "et_si",
+      "mecanique": "Une question que tout le monde s'est posée, réponse en étapes visuelles, chute inattendue.",
+      "nom": "Et si… ? (explication absurde et visuelle)",
+      "preuve": "Courts « what if » en 3D (style Zack D. Films) : des dizaines de millions de vues par vidéo, très partagés.",
+      "risques": "Pas de cascades dangereuses imitables présentées comme réelles.",
+      "structure": "Question en 1re seconde, 3 à 5 étapes qui escaladent, chute + question ouverte."
+    },
+    {
+      "exemples": [
+        "commission de discipline après une bagarre",
+        "le joueur accusé d'avoir vendu le match"
+      ],
+      "id": "proces_tribunal",
+      "mecanique": "Chaque témoin change l'avis du spectateur ; vote binaire naturel.",
+      "nom": "Procès / tribunal / conseil de discipline",
+      "preuve": "Formats « tribunal » et « juge » : les commentaires votent coupable ou innocent.",
+      "risques": "Ne jamais accuser une vraie personne ni un vrai club.",
+      "structure": "Accusation choc, témoins qui se contredisent, preuve surprise, verdict coupé."
+    },
+    {
+      "exemples": [
+        "le jeune reçoit une offre à 50 millions, son agent cache une clause",
+        "le club gagne une fortune, le président disparaît"
+      ],
+      "id": "mercato_argent",
+      "mecanique": "Un chiffre énorme dès la 1re seconde, tout le monde veut sa part, les vrais visages se révèlent.",
+      "nom": "Argent et contrat (mercato, héritage, ticket gagnant)",
+      "preuve": "Les histoires d'argent soudain (loto, héritage, contrat géant) sont parmi les accroches les plus efficaces des dramas IA.",
+      "risques": "Pas de promotion de paris sportifs ni de sites de jeux.",
+      "structure": "Le chiffre, la tentation, la trahison, la signature interrompue."
+    },
+    {
+      "exemples": [
+        "l'arbitre qui consulte la VAR pour tout",
+        "le coach qui fait une causerie trop longue"
+      ],
+      "id": "video_unique_chute",
+      "mecanique": "Situation reconnaissable, escalade absurde, chute qui donne envie de revoir le début.",
+      "nom": "Vidéo unique avec chute (sketch qui boucle)",
+      "preuve": "Sketchs IA courts à chute : forts taux de revisionnage car la fin renvoie au début.",
+      "risques": "Aucun.",
+      "structure": "Situation en 1 s, 3 escalades, chute + dernière image qui rejoue la 1re."
+    },
+    {
+      "exemples": [
+        "Le taureau : « Elle croit que je suis un plouc fauché. En vrai j'ai 15 millions. Ce soir je saurai si elle m'aime. »",
+        "Le cochon : « Tout le monde me prend pour un lâche. Personne sait que j'étais champion de boxe. »"
+      ],
+      "id": "secret_au_miroir",
+      "mecanique": "Le héros dit son secret humain face caméra ou au miroir dès 0 s (fortune cachée, faux physique, double vie, faux nom) : le spectateur en sait plus que tous les autres personnages. Les animaux jouent des humains : le secret ne dépend jamais de leur biologie.",
+      "nom": "Le secret avoué au spectateur en 1re seconde",
+      "preuve": "Analyse 22/11/2026 : 13 vidéos sur 13 au-dessus de 1 M (médiane 2,5 M). « Ils ne sauront jamais que je suis en réalité une framboise » : 13,7 M, meilleure vidéo du lot ; sa compilation « Le film » 7 M.",
+      "risques": "Le secret doit se comprendre sans contexte ; pas de sous-entendu sexuel explicite (tromperie suggérée, pas montrée).",
+      "structure": "0 s aveu (« ils croient que…, en vrai… ») → 5-15 s le secret est menacé → humiliations/soupçons → retournement : quelqu'un d'autre ment aussi → fin « j'ai tout entendu »."
+    },
+    {
+      "exemples": [
+        "Le taureau millionnaire se fait passer pour ruiné devant sa fiancée et sa belle-mère",
+        "La poule commère se fait passer pour fauchée pour tester sa nouvelle bande de copines"
+      ],
+      "id": "test_amour",
+      "mecanique": "Le héros se déguise pour savoir qui l'aime vraiment ; la belle-famille ou le patron humilie, le partenaire défend (ou trahit : double retournement). Le public attend la révélation.",
+      "nom": "Test d'amour déguisé (faux pauvre, faux moche, faux gros)",
+      "preuve": "Analyse 22/11/2026 : 12 vidéos, 9 au-dessus de 1 M (médiane 1,6 M, 0,11 % de commentaires) chez 5 comptes différents : masque horrible 2,6 M, milliardaire déguisé 2,0 M, mannequin qui se fait passer pour 150 kg 3,2 M, faux crâne chauve 1,9 M.",
+      "risques": "Moqueries sur le physique : rester sur l'absurde (« boule de billard ») sans insultes dégradantes, cf. conformite.json.",
+      "structure": "Aveu du test à 0 s → humiliations en public (témoins) → le partenaire choisit → coupure sur « Vous voulez voir mon vrai visage ? » → partie 2 commence par la révélation et la honte des méchants."
+    },
+    {
+      "exemples": [
+        "Le cochon s'endort partout : concours de sieste à 1 M€",
+        "Le taureau inscrit au championnat du bras de fer du village contre un bodybuilder arrogant"
+      ],
+      "id": "concours_absurde",
+      "mecanique": "Un défaut ridicule (dormir partout, rester accroché, avoir soif) devient un talent dans un concours à 1 M€. Rival bodybuilder arrogant, présentateur, banderole avec le chiffre.",
+      "nom": "Concours absurde à gros prix (le défaut devient un don)",
+      "preuve": "Analyse 22/11/2026 : 6 vidéos, médiane 1,6 M : championnat du monde d'accroche 1 M€ 3,1 M puis 2,8 M ; défi du sommeil 1 M€ 1,2 M ; apnée 2 M€ 1 M.",
+      "risques": "S'épuise vite : 2-3 épisodes maximum par concours.",
+      "structure": "0 s le défaut en image (situation dangereuse ou drôle) → découverte du concours → rival qui se moque → victoire sans effort → fin : « tu dois encore affronter le champion invaincu »."
+    }
+  ],
+  "regles_generiques": [
+    "Univers 100 % inventé : clubs, joueurs, ligues, stades, sponsors et maillots fictifs. Jamais un vrai nom, un vrai logo, un vrai maillot reconnaissable, une vraie compétition.",
+    "Les personnages sont des ARCHÉTYPES que tout le monde reconnaît (le crack arrogant, le coach colérique), pas des copies de vraies personnes.",
+    "Le concept tient en une phrase et se comprend sans avoir vu les épisodes précédents.",
+    "Un personnage visuellement très distinct par rôle (couleur dominante, accessoire signature), sinon le spectateur les confond en 1 s.",
+    "PRÉNOMS : prénoms français COURANTS qu'on entend partout en France, adaptés à l'ÂGE du personnage. Par défaut, prénoms français classiques et populaires : 15-35 ans → Lucas, Hugo, Théo, Léo, Jules, Nathan, Tom, Maxime, Louis, Arthur, Enzo, Mathis, Kevin, Dylan, Quentin ; Chloé, Manon, Léa, Emma, Camille, Jade, Louise, Clara, Lola, Inès, Sarah, Océane, Laura, Marine, Julie. 40-60 ans → Sandrine, Nathalie, Valérie, Isabelle, Céline, Christophe, Stéphane, Thierry, Laurent, Frédéric, Olivier. 60 ans et plus → Gérard, Bernard, Michel, Monique, Josiane, Martine. Varier les origines comme dans la vraie vie : AU MAXIMUM un prénom d'origine maghrébine ou étrangère par casting, et seulement si l'histoire s'y prête (jamais tout le casting). Jamais de jeu de mots sur l'animal (Taurito, Poulina). Jamais le nom d'une vraie célébrité. Deux personnages d'un même casting ne commencent jamais par la même lettre.",
+    "HISTOIRES HUMAINES : on reprend des drames humains (test d'amour, faux pauvre, belle-famille, revanche, caïd humilié) ; les animaux sont seulement le casting et vivent comme des humains. Leur espèce sert au look et au caractère, jamais au ressort d'intrigue."
+  ],
+  "situations": {
+    "foot": [
+      "mi-temps dans le vestiaire",
+      "penalty décisif",
+      "signature de contrat",
+      "dernier jour du mercato",
+      "derby",
+      "séance de tirs au but",
+      "visionnage de la VAR",
+      "conférence de presse",
+      "soirée d'anniversaire du capitaine",
+      "bus de l'équipe",
+      "entraînement à huis clos",
+      "banc de touche",
+      "infirmerie",
+      "remise de trophée"
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "id": "7696553790274686241",
+    "url": "https://www.tiktok.com/@sans_pepin/video/7696553790274686241",
+    "compte": "sans_pepin",
+    "description": "Partie 1 | Il court avec des chaussures de 100kg pendant 10 ans ! #fruitstory #fruits #ia #100kg #histoire ",
+    "vues": 5000000,
+    "likes": 617400,
+    "commentaires": 8955,
+    "partages": 4724,
+    "date": "20261014",
+    "duree": 89.3,
+    "musique": "som original",
+    "taux_likes": 12.35,
+    "taux_commentaires": 0.179
+  },
+  "langue": "fr",
+  "texte_complet": "À partir d'aujourd'hui, tu vas devoir courir avec ça. Mais papa, c'est quoi ces chaussures ? Ce sont des chaussures de renforcement, elles pèsent 100 kilos. Et tu n'as pas le droit de les enlever avant tes 18 ans. Papa, j'y arrive pas, c'est beaucoup trop lourd ! Arrête de pleurnicher, Léo ! Ton corps doit apprendre à supporter le poids ! Mais papa, j'arrive même pas à mettre un pied devant l'autre ! Bonjour, je voudrais inscrire mon fils dans le groupe des 8 ans. Ha ha ha ! Vous vous moquez de moi ? Regardez la paire de savates qu'il a au pied ! Non, ce n'est pas une blague. Il court à bec et il a interdiction de les enlever. Hé, Citron ! Tu feras gaffe, t'es déjà dans le rétro ! C'est facile à dire ! Toi, tu cours pas avec 100 kilos au pied ! Tu ferais mieux d'abandonner maintenant, c'est vraiment pas un sport fait pour toi ! Papa, s'il te plaît, tout le monde se fout de moi. Laisse-moi les enlever. Non, Léo, pas avant tes 18 ans. Mais pourquoi ? Un jour, tu comprendras, je te le promets. Mais pour le moment, il est encore trop tôt. 10 ans que je cours avec ces chaussures, et j'ai toujours pas abandonné. Oui, le championnat approche et tu es presque prêt. Ouais, j'ai tellement hâte de les enlever. Samedi, c'est les championnats nationaux, et il y aura des recruteurs dans les tribunes. Parfait, ça leur fera une occasion de me voir gagner. Et toi, tu comptes me ramener la médaille ? Léo, je vais être franc, t'es pas sélectionné pour samedi. Quoi ? Mais pourquoi ? Tes chronos sont trop boués, tu ne peux pas représenter le club avec des temps aussi hauts. Désolé. Il m'a viré, papa ! Même pas sélectionné ! 10 ans avec ces putains de chaussures, tout ça pour rien ! Regarde-moi, Léo, tu te souviens de ma promesse ? Oui, tu m'avais dit d'attendre mes 18 ans. Eh bien, on y est. Enlève ces chaussures et viens avec moi. On retourne voir ton coach.",
+  "accroche_3s": "À partir d 'aujourd 'hui, tu vas devoir courir avec ça. Mais papa,",
+  "fin_5s": "on y est. Enlève ces chaussures et viens avec moi. On retourne voir ton coach.",
+  "mots_par_seconde": 4.24,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 8,
+  "duree_moyenne_plan": 11.16,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 2.56,
+      "texte": "À partir d'aujourd'hui, tu vas devoir courir avec ça."
+    },
+    {
+      "debut": 2.66,
+      "fin": 4.3,
+      "texte": "Mais papa, c'est quoi ces chaussures ?"
+    },
+    {
+      "debut": 4.3,
+      "fin": 6.46,
+      "texte": "Ce sont des chaussures de renforcement, elles pèsent 100 kilos."
+    },
+    {
+      "debut": 6.92,
+      "fin": 8.84,
+      "texte": "Et tu n'as pas le droit de les enlever avant tes 18 ans."
+    },
+    {
+      "debut": 10.18,
+      "fin": 12.42,
+      "texte": "Papa, j'y arrive pas, c'est beaucoup trop lourd !"
+    },
+    {
+      "debut": 12.42,
+      "fin": 15.76,
+      "texte": "Arrête de pleurnicher, Léo ! Ton corps doit apprendre à supporter le poids !"
+    },
+    {
+      "debut": 15.76,
+      "fin": 18.66,
+      "texte": "Mais papa, j'arrive même pas à mettre un pied devant l'autre !"
+    },
+    {
+      "debut": 18.66,
+      "fin": 21.64,
+      "texte": "Bonjour, je voudrais inscrire mon fils dans le groupe des 8 ans."
+    },
+    {
+      "debut": 22.08,
+      "fin": 25.44,
+      "texte": "Ha ha ha ! Vous vous moquez de moi ? Regardez la paire de savates qu'il a au pied !"
+    },
+    {
+      "debut": 26.38,
+      "fin": 29.32,
+      "texte": "Non, ce n'est pas une blague. Il court à bec et il a interdiction de les enlever."
+    },
+    {
+      "debut": 29.32,
+      "fin": 32.52,
+      "texte": "Hé, Citron ! Tu feras gaffe, t'es déjà dans le rétro !"
+    },
+    {
+      "debut": 32.52,
+      "fin": 35.8,
+      "texte": "C'est facile à dire ! Toi, tu cours pas avec 100 kilos au pied !"
+    },
+    {
+      "debut": 35.8,
+      "fin": 39.04,
+      "texte": "Tu ferais mieux d'abandonner maintenant, c'est vraiment pas un sport fait pour toi !"
+    },
+    {
+      "debut": 39.04,
+      "fin": 42.36,
+      "texte": "Papa, s'il te plaît, tout le monde se fout de moi. Laisse-moi les enlever."
+    },
+    {
+      "debut": 42.56,
+      "fin": 44.08,
+      "texte": "Non, Léo, pas avant tes 18 ans."
+    },
+    {
+      "debut": 44.26,
+      "fin": 45.16,
+      "texte": "Mais pourquoi ?"
+    },
+    {
+      "debut": 45.16,
+      "fin": 48.18,
+      "texte": "Un jour, tu comprendras, je te le promets. Mais pour le moment, il est encore trop tôt."
+    },
+    {
+      "debut": 49.08,
+      "fin": 52.32,
+      "texte": "10 ans que je cours avec ces chaussures, et j'ai toujours pas abandonné."
+    },
+    {
+      "debut": 52.66,
+      "fin": 54.84,
+      "texte": "Oui, le championnat approche et tu es presque prêt."
+    },
+    {
+      "debut": 55.08,
+      "fin": 56.52,
+      "texte": "Ouais, j'ai tellement hâte de les enlever."
+    },
+    {
+      "debut": 57.38,
+      "fin": 60.84,
+      "texte": "Samedi, c'est les championnats nationaux, et il y aura des recruteurs dans les tribunes."
+    },
+    {
+      "debut": 61.14,
+      "fin": 62.98,
+      "texte": "Parfait, ça leur fera une occasion de me voir gagner."
+    },
+    {
+      "debut": 63.12,
+      "fin": 65.16,
+      "texte": "Et toi, tu comptes me ramener la médaille ?"
+    },
+    {
+      "debut": 65.16,
+      "fin": 68.02,
+      "texte": "Léo, je vais être franc, t'es pas sélectionné pour samedi."
+    },
+    {
+      "debut": 68.4,
+      "fin": 69.88,
+      "texte": "Quoi ? Mais pourquoi ?"
+    },
+    {
+      "debut": 69.88,
+      "fin": 74.1,
+      "texte": "Tes chronos sont trop boués, tu ne peux pas représenter le club avec des temps aussi hauts. Désolé."
+    },
+    {
+      "debut": 74.82,
+      "fin": 76.96,
+      "texte": "Il m'a viré, papa ! Même pas sélectionné !"
+    },
+    {
+      "debut": 76.96,
+      "fin": 79.16,
+      "texte": "10 ans avec ces putains de chaussures, tout ça pour rien !"
+    },
+    {
+      "debut": 79.16,
+      "fin": 81.14,
+      "texte": "Regarde-moi, Léo, tu te souviens de ma promesse ?"
+    },
+    {
+      "debut": 81.14,
+      "fin": 83.28,
+      "texte": "Oui, tu m'avais dit d'attendre mes 18 ans."
+    },
+    {
+      "debut": 83.84,
+      "fin": 87.22,
+      "texte": "Eh bien, on y est. Enlève ces chaussures et viens avec moi."
+    },
+    {
+      "debut": 87.66,
+      "fin": 88.64,
+      "texte": "On retourne voir ton coach."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 9.13,
+      "duree": 9.13
+    },
+    {
+      "n": 2,
+      "debut": 9.13,
+      "fin": 45.22,
+      "duree": 36.08
+    },
+    {
+      "n": 3,
+      "debut": 45.22,
+      "fin": 60.92,
+      "duree": 15.7
+    },
+    {
+      "n": 4,
+      "debut": 60.92,
+      "fin": 64.98,
+      "duree": 4.07
+    },
+    {
+      "n": 5,
+      "debut": 64.98,
+      "fin": 74.55,
+      "duree": 9.57
+    },
+    {
+      "n": 6,
+      "debut": 74.55,
+      "fin": 78.83,
+      "duree": 4.28
+    },
+    {
+      "n": 7,
+      "debut": 78.83,
+      "fin": 80.6,
+      "duree": 1.77
+    },
+    {
+      "n": 8,
+      "debut": 80.6,
+      "fin": 89.3,
+      "duree": 8.7
+    }
+  ]
+}

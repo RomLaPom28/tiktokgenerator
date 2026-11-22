@@ -1,0 +1,1722 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 3.28,
+      "texte": "Tout le monde croit que je pèse 150 kilos, même mon ex."
+    },
+    {
+      "debut": 3.7,
+      "fin": 5.6,
+      "texte": "Ce soir, je passe en direct à la télé."
+    },
+    {
+      "debut": 6.04,
+      "fin": 8.02,
+      "texte": "Et toute la France va découvrir la vraie Jade."
+    },
+    {
+      "debut": 8.58,
+      "fin": 11.26,
+      "texte": "Ce soir, la mannequin la plus demandée de France est avec nous, Jade."
+    },
+    {
+      "debut": 11.58,
+      "fin": 13.86,
+      "texte": "Merci, je suis tellement heureuse d'être enfin sur ce plateau."
+    },
+    {
+      "debut": 14.26,
+      "fin": 16.12,
+      "texte": "On dit que vous vous mariez très bientôt, c'est vrai ?"
+    },
+    {
+      "debut": 16.12,
+      "fin": 18.36,
+      "texte": "Oui, avec un homme qui m'a aimée avant tout ça."
+    },
+    {
+      "debut": 18.68,
+      "fin": 20.98,
+      "texte": "Yanis, regarde la télé, c'est pas ta Jade la mannequin là ?"
+    },
+    {
+      "debut": 20.98,
+      "fin": 23.4,
+      "texte": "Impossible maman, elle faisait 150 kilos, je te jure."
+    },
+    {
+      "debut": 23.6,
+      "fin": 26.2,
+      "texte": "Une femme en or, et toi imbécile tu la laissais partir ?"
+    },
+    {
+      "debut": 26.2,
+      "fin": 28.36,
+      "texte": "Je vais la récupérer, ce mariage il aura pas lieu."
+    },
+    {
+      "debut": 28.36,
+      "fin": 31.56,
+      "texte": "Roule plus vite Yanis, le mariage commence dans 10 minutes !"
+    },
+    {
+      "debut": 31.56,
+      "fin": 34.6,
+      "texte": "T'inquiète maman, elle va jamais dire oui à son petit serveur."
+    },
+    {
+      "debut": 34.92,
+      "fin": 37.46,
+      "texte": "Jade, cette villa, la piscine, tous ses invités, c'est à toi ?"
+    },
+    {
+      "debut": 37.46,
+      "fin": 40.04,
+      "texte": "Non Malik, à partir d'aujourd'hui tout ça c'est à nous deux."
+    },
+    {
+      "debut": 40.22,
+      "fin": 41.98,
+      "texte": "Moi je t'aurais épousé dans mon petit café tu sais."
+    },
+    {
+      "debut": 42.34,
+      "fin": 44.4,
+      "texte": "Je sais, c'est pour ça que c'est toi que j'épouse."
+    },
+    {
+      "debut": 44.74,
+      "fin": 47.14,
+      "texte": "Je t'ai aimé avec 150 kilos, je t'aimerais toute ma vie Jade."
+    },
+    {
+      "debut": 47.34,
+      "fin": 49.32,
+      "texte": "Et moi je t'ai choisi parce que t'as jamais regardé mon argent."
+    },
+    {
+      "debut": 49.62,
+      "fin": 53.1,
+      "texte": "Jade, arrête tout ! Ce mariage il peut pas avoir lieu, je t'aime encore !"
+    },
+    {
+      "debut": 53.1,
+      "fin": 55.58,
+      "texte": "Jade je t'en supplie donne-moi une deuxième chance, je t'aime vraiment !"
+    },
+    {
+      "debut": 55.58,
+      "fin": 57.92,
+      "texte": "Tu m'aimais pas quand je faisais 150 kilos Yanis."
+    },
+    {
+      "debut": 58.06,
+      "fin": 60.58,
+      "texte": "J'étais bête d'accord mais regarde je suis venu jusqu'ici pour toi !"
+    },
+    {
+      "debut": 60.58,
+      "fin": 63.02,
+      "texte": "Trop tard, cette fois le test c'est toi qui l'as raté."
+    },
+    {
+      "debut": 63.36,
+      "fin": 65.86,
+      "texte": "Imbécile, c'était une femme en or et tu l'as laissé partir."
+    },
+    {
+      "debut": 66.16,
+      "fin": 68.84,
+      "texte": "Je sais maman, mais crois moi cette histoire elle est pas finie."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.0,
+      "fin": 0.4,
+      "mot": "Tout"
+    },
+    {
+      "debut": 0.4,
+      "fin": 0.46,
+      "mot": "le"
+    },
+    {
+      "debut": 0.46,
+      "fin": 0.62,
+      "mot": "monde"
+    },
+    {
+      "debut": 0.62,
+      "fin": 0.78,
+      "mot": "croit"
+    },
+    {
+      "debut": 0.78,
+      "fin": 0.92,
+      "mot": "que"
+    },
+    {
+      "debut": 0.92,
+      "fin": 1.0,
+      "mot": "je"
+    },
+    {
+      "debut": 1.0,
+      "fin": 1.18,
+      "mot": "pèse"
+    },
+    {
+      "debut": 1.18,
+      "fin": 1.64,
+      "mot": "150"
+    },
+    {
+      "debut": 1.64,
+      "fin": 1.98,
+      "mot": "kilos,"
+    },
+    {
+      "debut": 2.62,
+      "fin": 2.8,
+      "mot": "même"
+    },
+    {
+      "debut": 2.8,
+      "fin": 2.96,
+      "mot": "mon"
+    },
+    {
+      "debut": 2.96,
+      "fin": 3.28,
+      "mot": "ex."
+    },
+    {
+      "debut": 3.7,
+      "fin": 3.9,
+      "mot": "Ce"
+    },
+    {
+      "debut": 3.9,
+      "fin": 4.14,
+      "mot": "soir,"
+    },
+    {
+      "debut": 4.48,
+      "fin": 4.56,
+      "mot": "je"
+    },
+    {
+      "debut": 4.56,
+      "fin": 4.74,
+      "mot": "passe"
+    },
+    {
+      "debut": 4.74,
+      "fin": 4.98,
+      "mot": "en"
+    },
+    {
+      "debut": 4.98,
+      "fin": 5.14,
+      "mot": "direct"
+    },
+    {
+      "debut": 5.14,
+      "fin": 5.26,
+      "mot": "à"
+    },
+    {
+      "debut": 5.26,
+      "fin": 5.4,
+      "mot": "la"
+    },
+    {
+      "debut": 5.4,
+      "fin": 5.6,
+      "mot": "télé."
+    },
+    {
+      "debut": 6.04,
+      "fin": 6.22,
+      "mot": "Et"
+    },
+    {
+      "debut": 6.22,
+      "fin": 6.36,
+      "mot": "toute"
+    },
+    {
+      "debut": 6.36,
+      "fin": 6.56,
+      "mot": "la"
+    },
+    {
+      "debut": 6.56,
+      "fin": 6.7,
+      "mot": "France"
+    },
+    {
+      "debut": 6.7,
+      "fin": 6.9,
+      "mot": "va"
+    },
+    {
+      "debut": 6.9,
+      "fin": 7.28,
+      "mot": "découvrir"
+    },
+    {
+      "debut": 7.28,
+      "fin": 7.56,
+      "mot": "la"
+    },
+    {
+      "debut": 7.56,
+      "fin": 7.9,
+      "mot": "vraie"
+    },
+    {
+      "debut": 7.9,
+      "fin": 8.02,
+      "mot": "Jade."
+    },
+    {
+      "debut": 8.58,
+      "fin": 8.78,
+      "mot": "Ce"
+    },
+    {
+      "debut": 8.78,
+      "fin": 8.98,
+      "mot": "soir,"
+    },
+    {
+      "debut": 9.06,
+      "fin": 9.16,
+      "mot": "la"
+    },
+    {
+      "debut": 9.16,
+      "fin": 9.44,
+      "mot": "mannequin"
+    },
+    {
+      "debut": 9.44,
+      "fin": 9.62,
+      "mot": "la"
+    },
+    {
+      "debut": 9.62,
+      "fin": 9.76,
+      "mot": "plus"
+    },
+    {
+      "debut": 9.76,
+      "fin": 10.04,
+      "mot": "demandée"
+    },
+    {
+      "debut": 10.04,
+      "fin": 10.24,
+      "mot": "de"
+    },
+    {
+      "debut": 10.24,
+      "fin": 10.36,
+      "mot": "France"
+    },
+    {
+      "debut": 10.36,
+      "fin": 10.52,
+      "mot": "est"
+    },
+    {
+      "debut": 10.52,
+      "fin": 10.72,
+      "mot": "avec"
+    },
+    {
+      "debut": 10.72,
+      "fin": 10.9,
+      "mot": "nous,"
+    },
+    {
+      "debut": 11.1,
+      "fin": 11.26,
+      "mot": "Jade."
+    },
+    {
+      "debut": 11.58,
+      "fin": 11.94,
+      "mot": "Merci,"
+    },
+    {
+      "debut": 12.06,
+      "fin": 12.22,
+      "mot": "je"
+    },
+    {
+      "debut": 12.22,
+      "fin": 12.4,
+      "mot": "suis"
+    },
+    {
+      "debut": 12.4,
+      "fin": 12.68,
+      "mot": "tellement"
+    },
+    {
+      "debut": 12.68,
+      "fin": 12.92,
+      "mot": "heureuse"
+    },
+    {
+      "debut": 12.92,
+      "fin": 13.04,
+      "mot": "d"
+    },
+    {
+      "debut": 13.04,
+      "fin": 13.18,
+      "mot": "'être"
+    },
+    {
+      "debut": 13.18,
+      "fin": 13.34,
+      "mot": "enfin"
+    },
+    {
+      "debut": 13.34,
+      "fin": 13.54,
+      "mot": "sur"
+    },
+    {
+      "debut": 13.54,
+      "fin": 13.68,
+      "mot": "ce"
+    },
+    {
+      "debut": 13.68,
+      "fin": 13.86,
+      "mot": "plateau."
+    },
+    {
+      "debut": 14.26,
+      "fin": 14.38,
+      "mot": "On"
+    },
+    {
+      "debut": 14.38,
+      "fin": 14.46,
+      "mot": "dit"
+    },
+    {
+      "debut": 14.46,
+      "fin": 14.62,
+      "mot": "que"
+    },
+    {
+      "debut": 14.62,
+      "fin": 14.74,
+      "mot": "vous"
+    },
+    {
+      "debut": 14.74,
+      "fin": 14.88,
+      "mot": "vous"
+    },
+    {
+      "debut": 14.88,
+      "fin": 15.06,
+      "mot": "mariez"
+    },
+    {
+      "debut": 15.06,
+      "fin": 15.32,
+      "mot": "très"
+    },
+    {
+      "debut": 15.32,
+      "fin": 15.54,
+      "mot": "bientôt,"
+    },
+    {
+      "debut": 15.64,
+      "fin": 15.7,
+      "mot": "c"
+    },
+    {
+      "debut": 15.7,
+      "fin": 15.76,
+      "mot": "'est"
+    },
+    {
+      "debut": 15.76,
+      "fin": 15.94,
+      "mot": "vrai"
+    },
+    {
+      "debut": 15.94,
+      "fin": 16.12,
+      "mot": "?"
+    },
+    {
+      "debut": 16.12,
+      "fin": 16.46,
+      "mot": "Oui,"
+    },
+    {
+      "debut": 16.88,
+      "fin": 17.06,
+      "mot": "avec"
+    },
+    {
+      "debut": 17.06,
+      "fin": 17.2,
+      "mot": "un"
+    },
+    {
+      "debut": 17.2,
+      "fin": 17.32,
+      "mot": "homme"
+    },
+    {
+      "debut": 17.32,
+      "fin": 17.48,
+      "mot": "qui"
+    },
+    {
+      "debut": 17.48,
+      "fin": 17.56,
+      "mot": "m"
+    },
+    {
+      "debut": 17.56,
+      "fin": 17.66,
+      "mot": "'a"
+    },
+    {
+      "debut": 17.66,
+      "fin": 17.82,
+      "mot": "aimée"
+    },
+    {
+      "debut": 17.82,
+      "fin": 18.0,
+      "mot": "avant"
+    },
+    {
+      "debut": 18.0,
+      "fin": 18.2,
+      "mot": "tout"
+    },
+    {
+      "debut": 18.2,
+      "fin": 18.36,
+      "mot": "ça."
+    },
+    {
+      "debut": 18.68,
+      "fin": 18.96,
+      "mot": "Yanis,"
+    },
+    {
+      "debut": 18.98,
+      "fin": 19.2,
+      "mot": "regarde"
+    },
+    {
+      "debut": 19.2,
+      "fin": 19.36,
+      "mot": "la"
+    },
+    {
+      "debut": 19.36,
+      "fin": 19.52,
+      "mot": "télé,"
+    },
+    {
+      "debut": 19.6,
+      "fin": 19.72,
+      "mot": "c"
+    },
+    {
+      "debut": 19.72,
+      "fin": 19.76,
+      "mot": "'est"
+    },
+    {
+      "debut": 19.76,
+      "fin": 19.9,
+      "mot": "pas"
+    },
+    {
+      "debut": 19.9,
+      "fin": 20.0,
+      "mot": "ta"
+    },
+    {
+      "debut": 20.0,
+      "fin": 20.16,
+      "mot": "Jade"
+    },
+    {
+      "debut": 20.16,
+      "fin": 20.34,
+      "mot": "la"
+    },
+    {
+      "debut": 20.34,
+      "fin": 20.6,
+      "mot": "mannequin"
+    },
+    {
+      "debut": 20.6,
+      "fin": 20.82,
+      "mot": "là"
+    },
+    {
+      "debut": 20.82,
+      "fin": 20.98,
+      "mot": "?"
+    },
+    {
+      "debut": 20.98,
+      "fin": 21.52,
+      "mot": "Impossible"
+    },
+    {
+      "debut": 21.52,
+      "fin": 21.82,
+      "mot": "maman,"
+    },
+    {
+      "debut": 21.84,
+      "fin": 21.98,
+      "mot": "elle"
+    },
+    {
+      "debut": 21.98,
+      "fin": 22.14,
+      "mot": "faisait"
+    },
+    {
+      "debut": 22.14,
+      "fin": 22.6,
+      "mot": "150"
+    },
+    {
+      "debut": 22.6,
+      "fin": 22.84,
+      "mot": "kilos,"
+    },
+    {
+      "debut": 22.9,
+      "fin": 23.02,
+      "mot": "je"
+    },
+    {
+      "debut": 23.02,
+      "fin": 23.18,
+      "mot": "te"
+    },
+    {
+      "debut": 23.18,
+      "fin": 23.4,
+      "mot": "jure."
+    },
+    {
+      "debut": 23.6,
+      "fin": 23.78,
+      "mot": "Une"
+    },
+    {
+      "debut": 23.78,
+      "fin": 24.0,
+      "mot": "femme"
+    },
+    {
+      "debut": 24.0,
+      "fin": 24.26,
+      "mot": "en"
+    },
+    {
+      "debut": 24.26,
+      "fin": 24.4,
+      "mot": "or,"
+    },
+    {
+      "debut": 24.54,
+      "fin": 24.74,
+      "mot": "et"
+    },
+    {
+      "debut": 24.74,
+      "fin": 24.86,
+      "mot": "toi"
+    },
+    {
+      "debut": 24.86,
+      "fin": 25.2,
+      "mot": "imbécile"
+    },
+    {
+      "debut": 25.2,
+      "fin": 25.34,
+      "mot": "tu"
+    },
+    {
+      "debut": 25.34,
+      "fin": 25.46,
+      "mot": "la"
+    },
+    {
+      "debut": 25.46,
+      "fin": 25.66,
+      "mot": "laissais"
+    },
+    {
+      "debut": 25.66,
+      "fin": 26.02,
+      "mot": "partir"
+    },
+    {
+      "debut": 26.02,
+      "fin": 26.2,
+      "mot": "?"
+    },
+    {
+      "debut": 26.2,
+      "fin": 26.34,
+      "mot": "Je"
+    },
+    {
+      "debut": 26.34,
+      "fin": 26.46,
+      "mot": "vais"
+    },
+    {
+      "debut": 26.46,
+      "fin": 26.62,
+      "mot": "la"
+    },
+    {
+      "debut": 26.62,
+      "fin": 27.1,
+      "mot": "récupérer,"
+    },
+    {
+      "debut": 27.28,
+      "fin": 27.42,
+      "mot": "ce"
+    },
+    {
+      "debut": 27.42,
+      "fin": 27.74,
+      "mot": "mariage"
+    },
+    {
+      "debut": 27.74,
+      "fin": 27.84,
+      "mot": "il"
+    },
+    {
+      "debut": 27.84,
+      "fin": 28.0,
+      "mot": "aura"
+    },
+    {
+      "debut": 28.0,
+      "fin": 28.18,
+      "mot": "pas"
+    },
+    {
+      "debut": 28.18,
+      "fin": 28.36,
+      "mot": "lieu."
+    },
+    {
+      "debut": 28.36,
+      "fin": 28.88,
+      "mot": "Roule"
+    },
+    {
+      "debut": 28.88,
+      "fin": 29.14,
+      "mot": "plus"
+    },
+    {
+      "debut": 29.14,
+      "fin": 29.3,
+      "mot": "vite"
+    },
+    {
+      "debut": 29.3,
+      "fin": 29.74,
+      "mot": "Yanis,"
+    },
+    {
+      "debut": 29.98,
+      "fin": 30.12,
+      "mot": "le"
+    },
+    {
+      "debut": 30.12,
+      "fin": 30.42,
+      "mot": "mariage"
+    },
+    {
+      "debut": 30.42,
+      "fin": 30.64,
+      "mot": "commence"
+    },
+    {
+      "debut": 30.64,
+      "fin": 30.8,
+      "mot": "dans"
+    },
+    {
+      "debut": 30.8,
+      "fin": 30.96,
+      "mot": "10"
+    },
+    {
+      "debut": 30.96,
+      "fin": 31.32,
+      "mot": "minutes"
+    },
+    {
+      "debut": 31.32,
+      "fin": 31.56,
+      "mot": "!"
+    },
+    {
+      "debut": 31.56,
+      "fin": 31.58,
+      "mot": "T"
+    },
+    {
+      "debut": 31.58,
+      "fin": 31.9,
+      "mot": "'inquiète"
+    },
+    {
+      "debut": 31.9,
+      "fin": 32.5,
+      "mot": "maman,"
+    },
+    {
+      "debut": 32.64,
+      "fin": 32.76,
+      "mot": "elle"
+    },
+    {
+      "debut": 32.76,
+      "fin": 32.9,
+      "mot": "va"
+    },
+    {
+      "debut": 32.9,
+      "fin": 33.16,
+      "mot": "jamais"
+    },
+    {
+      "debut": 33.16,
+      "fin": 33.36,
+      "mot": "dire"
+    },
+    {
+      "debut": 33.36,
+      "fin": 33.48,
+      "mot": "oui"
+    },
+    {
+      "debut": 33.48,
+      "fin": 33.64,
+      "mot": "à"
+    },
+    {
+      "debut": 33.64,
+      "fin": 33.7,
+      "mot": "son"
+    },
+    {
+      "debut": 33.7,
+      "fin": 33.92,
+      "mot": "petit"
+    },
+    {
+      "debut": 33.92,
+      "fin": 34.6,
+      "mot": "serveur."
+    },
+    {
+      "debut": 34.92,
+      "fin": 35.0,
+      "mot": "Jade,"
+    },
+    {
+      "debut": 35.32,
+      "fin": 35.44,
+      "mot": "cette"
+    },
+    {
+      "debut": 35.44,
+      "fin": 35.7,
+      "mot": "villa,"
+    },
+    {
+      "debut": 35.76,
+      "fin": 35.92,
+      "mot": "la"
+    },
+    {
+      "debut": 35.92,
+      "fin": 36.18,
+      "mot": "piscine,"
+    },
+    {
+      "debut": 36.26,
+      "fin": 36.34,
+      "mot": "tous"
+    },
+    {
+      "debut": 36.34,
+      "fin": 36.52,
+      "mot": "ses"
+    },
+    {
+      "debut": 36.52,
+      "fin": 36.74,
+      "mot": "invités,"
+    },
+    {
+      "debut": 36.86,
+      "fin": 36.92,
+      "mot": "c"
+    },
+    {
+      "debut": 36.92,
+      "fin": 36.98,
+      "mot": "'est"
+    },
+    {
+      "debut": 36.98,
+      "fin": 37.08,
+      "mot": "à"
+    },
+    {
+      "debut": 37.08,
+      "fin": 37.18,
+      "mot": "toi"
+    },
+    {
+      "debut": 37.18,
+      "fin": 37.46,
+      "mot": "?"
+    },
+    {
+      "debut": 37.46,
+      "fin": 37.7,
+      "mot": "Non"
+    },
+    {
+      "debut": 37.7,
+      "fin": 38.12,
+      "mot": "Malik,"
+    },
+    {
+      "debut": 38.3,
+      "fin": 38.4,
+      "mot": "à"
+    },
+    {
+      "debut": 38.4,
+      "fin": 38.6,
+      "mot": "partir"
+    },
+    {
+      "debut": 38.6,
+      "fin": 38.74,
+      "mot": "d"
+    },
+    {
+      "debut": 38.74,
+      "fin": 38.96,
+      "mot": "'aujourd"
+    },
+    {
+      "debut": 38.96,
+      "fin": 39.02,
+      "mot": "'hui"
+    },
+    {
+      "debut": 39.02,
+      "fin": 39.2,
+      "mot": "tout"
+    },
+    {
+      "debut": 39.2,
+      "fin": 39.38,
+      "mot": "ça"
+    },
+    {
+      "debut": 39.38,
+      "fin": 39.48,
+      "mot": "c"
+    },
+    {
+      "debut": 39.48,
+      "fin": 39.52,
+      "mot": "'est"
+    },
+    {
+      "debut": 39.52,
+      "fin": 39.62,
+      "mot": "à"
+    },
+    {
+      "debut": 39.62,
+      "fin": 39.76,
+      "mot": "nous"
+    },
+    {
+      "debut": 39.76,
+      "fin": 40.04,
+      "mot": "deux."
+    },
+    {
+      "debut": 40.22,
+      "fin": 40.34,
+      "mot": "Moi"
+    },
+    {
+      "debut": 40.34,
+      "fin": 40.46,
+      "mot": "je"
+    },
+    {
+      "debut": 40.46,
+      "fin": 40.58,
+      "mot": "t"
+    },
+    {
+      "debut": 40.58,
+      "fin": 40.66,
+      "mot": "'aurais"
+    },
+    {
+      "debut": 40.66,
+      "fin": 40.94,
+      "mot": "épousé"
+    },
+    {
+      "debut": 40.94,
+      "fin": 41.1,
+      "mot": "dans"
+    },
+    {
+      "debut": 41.1,
+      "fin": 41.2,
+      "mot": "mon"
+    },
+    {
+      "debut": 41.2,
+      "fin": 41.42,
+      "mot": "petit"
+    },
+    {
+      "debut": 41.42,
+      "fin": 41.6,
+      "mot": "café"
+    },
+    {
+      "debut": 41.6,
+      "fin": 41.86,
+      "mot": "tu"
+    },
+    {
+      "debut": 41.86,
+      "fin": 41.98,
+      "mot": "sais."
+    },
+    {
+      "debut": 42.34,
+      "fin": 42.6,
+      "mot": "Je"
+    },
+    {
+      "debut": 42.6,
+      "fin": 42.78,
+      "mot": "sais,"
+    },
+    {
+      "debut": 42.96,
+      "fin": 43.12,
+      "mot": "c"
+    },
+    {
+      "debut": 43.12,
+      "fin": 43.12,
+      "mot": "'est"
+    },
+    {
+      "debut": 43.12,
+      "fin": 43.32,
+      "mot": "pour"
+    },
+    {
+      "debut": 43.32,
+      "fin": 43.46,
+      "mot": "ça"
+    },
+    {
+      "debut": 43.46,
+      "fin": 43.56,
+      "mot": "que"
+    },
+    {
+      "debut": 43.56,
+      "fin": 43.74,
+      "mot": "c"
+    },
+    {
+      "debut": 43.74,
+      "fin": 43.74,
+      "mot": "'est"
+    },
+    {
+      "debut": 43.74,
+      "fin": 43.86,
+      "mot": "toi"
+    },
+    {
+      "debut": 43.86,
+      "fin": 43.94,
+      "mot": "que"
+    },
+    {
+      "debut": 43.94,
+      "fin": 44.06,
+      "mot": "j"
+    },
+    {
+      "debut": 44.06,
+      "fin": 44.4,
+      "mot": "'épouse."
+    },
+    {
+      "debut": 44.74,
+      "fin": 44.86,
+      "mot": "Je"
+    },
+    {
+      "debut": 44.86,
+      "fin": 44.92,
+      "mot": "t"
+    },
+    {
+      "debut": 44.92,
+      "fin": 45.02,
+      "mot": "'ai"
+    },
+    {
+      "debut": 45.02,
+      "fin": 45.12,
+      "mot": "aimé"
+    },
+    {
+      "debut": 45.12,
+      "fin": 45.32,
+      "mot": "avec"
+    },
+    {
+      "debut": 45.32,
+      "fin": 45.7,
+      "mot": "150"
+    },
+    {
+      "debut": 45.7,
+      "fin": 45.96,
+      "mot": "kilos,"
+    },
+    {
+      "debut": 46.18,
+      "fin": 46.28,
+      "mot": "je"
+    },
+    {
+      "debut": 46.28,
+      "fin": 46.34,
+      "mot": "t"
+    },
+    {
+      "debut": 46.34,
+      "fin": 46.54,
+      "mot": "'aimerais"
+    },
+    {
+      "debut": 46.54,
+      "fin": 46.68,
+      "mot": "toute"
+    },
+    {
+      "debut": 46.68,
+      "fin": 46.84,
+      "mot": "ma"
+    },
+    {
+      "debut": 46.84,
+      "fin": 46.92,
+      "mot": "vie"
+    },
+    {
+      "debut": 46.92,
+      "fin": 47.14,
+      "mot": "Jade."
+    },
+    {
+      "debut": 47.34,
+      "fin": 47.46,
+      "mot": "Et"
+    },
+    {
+      "debut": 47.46,
+      "fin": 47.56,
+      "mot": "moi"
+    },
+    {
+      "debut": 47.56,
+      "fin": 47.64,
+      "mot": "je"
+    },
+    {
+      "debut": 47.64,
+      "fin": 47.68,
+      "mot": "t"
+    },
+    {
+      "debut": 47.68,
+      "fin": 47.8,
+      "mot": "'ai"
+    },
+    {
+      "debut": 47.8,
+      "fin": 47.98,
+      "mot": "choisi"
+    },
+    {
+      "debut": 47.98,
+      "fin": 48.16,
+      "mot": "parce"
+    },
+    {
+      "debut": 48.16,
+      "fin": 48.24,
+      "mot": "que"
+    },
+    {
+      "debut": 48.24,
+      "fin": 48.34,
+      "mot": "t"
+    },
+    {
+      "debut": 48.34,
+      "fin": 48.36,
+      "mot": "'as"
+    },
+    {
+      "debut": 48.36,
+      "fin": 48.58,
+      "mot": "jamais"
+    },
+    {
+      "debut": 48.58,
+      "fin": 48.92,
+      "mot": "regardé"
+    },
+    {
+      "debut": 48.92,
+      "fin": 49.06,
+      "mot": "mon"
+    },
+    {
+      "debut": 49.06,
+      "fin": 49.32,
+      "mot": "argent."
+    },
+    {
+      "debut": 49.62,
+      "fin": 49.94,
+      "mot": "Jade,"
+    },
+    {
+      "debut": 50.14,
+      "fin": 50.38,
+      "mot": "arrête"
+    },
+    {
+      "debut": 50.38,
+      "fin": 50.62,
+      "mot": "tout"
+    },
+    {
+      "debut": 50.62,
+      "fin": 50.86,
+      "mot": "!"
+    },
+    {
+      "debut": 50.86,
+      "fin": 51.0,
+      "mot": "Ce"
+    },
+    {
+      "debut": 51.0,
+      "fin": 51.36,
+      "mot": "mariage"
+    },
+    {
+      "debut": 51.36,
+      "fin": 51.44,
+      "mot": "il"
+    },
+    {
+      "debut": 51.44,
+      "fin": 51.64,
+      "mot": "peut"
+    },
+    {
+      "debut": 51.64,
+      "fin": 51.74,
+      "mot": "pas"
+    },
+    {
+      "debut": 51.74,
+      "fin": 51.94,
+      "mot": "avoir"
+    },
+    {
+      "debut": 51.94,
+      "fin": 52.08,
+      "mot": "lieu,"
+    },
+    {
+      "debut": 52.16,
+      "fin": 52.26,
+      "mot": "je"
+    },
+    {
+      "debut": 52.26,
+      "fin": 52.3,
+      "mot": "t"
+    },
+    {
+      "debut": 52.3,
+      "fin": 52.4,
+      "mot": "'aime"
+    },
+    {
+      "debut": 52.4,
+      "fin": 52.78,
+      "mot": "encore"
+    },
+    {
+      "debut": 52.78,
+      "fin": 53.1,
+      "mot": "!"
+    },
+    {
+      "debut": 53.1,
+      "fin": 53.34,
+      "mot": "Jade"
+    },
+    {
+      "debut": 53.34,
+      "fin": 53.44,
+      "mot": "je"
+    },
+    {
+      "debut": 53.44,
+      "fin": 53.5,
+      "mot": "t"
+    },
+    {
+      "debut": 53.5,
+      "fin": 53.64,
+      "mot": "'en"
+    },
+    {
+      "debut": 53.64,
+      "fin": 53.84,
+      "mot": "supplie"
+    },
+    {
+      "debut": 53.84,
+      "fin": 54.0,
+      "mot": "donne"
+    },
+    {
+      "debut": 54.0,
+      "fin": 54.16,
+      "mot": "-moi"
+    },
+    {
+      "debut": 54.16,
+      "fin": 54.3,
+      "mot": "une"
+    },
+    {
+      "debut": 54.3,
+      "fin": 54.5,
+      "mot": "deuxième"
+    },
+    {
+      "debut": 54.5,
+      "fin": 54.72,
+      "mot": "chance,"
+    },
+    {
+      "debut": 54.76,
+      "fin": 54.94,
+      "mot": "je"
+    },
+    {
+      "debut": 54.94,
+      "fin": 54.98,
+      "mot": "t"
+    },
+    {
+      "debut": 54.98,
+      "fin": 55.08,
+      "mot": "'aime"
+    },
+    {
+      "debut": 55.08,
+      "fin": 55.46,
+      "mot": "vraiment"
+    },
+    {
+      "debut": 55.46,
+      "fin": 55.58,
+      "mot": "!"
+    },
+    {
+      "debut": 55.58,
+      "fin": 55.76,
+      "mot": "Tu"
+    },
+    {
+      "debut": 55.76,
+      "fin": 55.84,
+      "mot": "m"
+    },
+    {
+      "debut": 55.84,
+      "fin": 56.04,
+      "mot": "'aimais"
+    },
+    {
+      "debut": 56.04,
+      "fin": 56.2,
+      "mot": "pas"
+    },
+    {
+      "debut": 56.2,
+      "fin": 56.32,
+      "mot": "quand"
+    },
+    {
+      "debut": 56.32,
+      "fin": 56.48,
+      "mot": "je"
+    },
+    {
+      "debut": 56.48,
+      "fin": 56.74,
+      "mot": "faisais"
+    },
+    {
+      "debut": 56.74,
+      "fin": 57.06,
+      "mot": "150"
+    },
+    {
+      "debut": 57.06,
+      "fin": 57.38,
+      "mot": "kilos"
+    },
+    {
+      "debut": 57.38,
+      "fin": 57.92,
+      "mot": "Yanis."
+    },
+    {
+      "debut": 58.06,
+      "fin": 58.14,
+      "mot": "J"
+    },
+    {
+      "debut": 58.14,
+      "fin": 58.32,
+      "mot": "'étais"
+    },
+    {
+      "debut": 58.32,
+      "fin": 58.48,
+      "mot": "bête"
+    },
+    {
+      "debut": 58.48,
+      "fin": 58.66,
+      "mot": "d"
+    },
+    {
+      "debut": 58.66,
+      "fin": 58.78,
+      "mot": "'accord"
+    },
+    {
+      "debut": 58.78,
+      "fin": 58.94,
+      "mot": "mais"
+    },
+    {
+      "debut": 58.94,
+      "fin": 59.16,
+      "mot": "regarde"
+    },
+    {
+      "debut": 59.16,
+      "fin": 59.26,
+      "mot": "je"
+    },
+    {
+      "debut": 59.26,
+      "fin": 59.38,
+      "mot": "suis"
+    },
+    {
+      "debut": 59.38,
+      "fin": 59.56,
+      "mot": "venu"
+    },
+    {
+      "debut": 59.56,
+      "fin": 59.68,
+      "mot": "jusqu"
+    },
+    {
+      "debut": 59.68,
+      "fin": 59.86,
+      "mot": "'ici"
+    },
+    {
+      "debut": 59.86,
+      "fin": 60.0,
+      "mot": "pour"
+    },
+    {
+      "debut": 60.0,
+      "fin": 60.3,
+      "mot": "toi"
+    },
+    {
+      "debut": 60.3,
+      "fin": 60.58,
+      "mot": "!"
+    },
+    {
+      "debut": 60.58,
+      "fin": 60.7,
+      "mot": "Trop"
+    },
+    {
+      "debut": 60.7,
+      "fin": 61.08,
+      "mot": "tard,"
+    },
+    {
+      "debut": 61.38,
+      "fin": 61.42,
+      "mot": "cette"
+    },
+    {
+      "debut": 61.42,
+      "fin": 61.56,
+      "mot": "fois"
+    },
+    {
+      "debut": 61.56,
+      "fin": 61.74,
+      "mot": "le"
+    },
+    {
+      "debut": 61.74,
+      "fin": 61.96,
+      "mot": "test"
+    },
+    {
+      "debut": 61.96,
+      "fin": 62.08,
+      "mot": "c"
+    },
+    {
+      "debut": 62.08,
+      "fin": 62.18,
+      "mot": "'est"
+    },
+    {
+      "debut": 62.18,
+      "fin": 62.28,
+      "mot": "toi"
+    },
+    {
+      "debut": 62.28,
+      "fin": 62.44,
+      "mot": "qui"
+    },
+    {
+      "debut": 62.44,
+      "fin": 62.48,
+      "mot": "l"
+    },
+    {
+      "debut": 62.48,
+      "fin": 62.6,
+      "mot": "'as"
+    },
+    {
+      "debut": 62.6,
+      "fin": 63.02,
+      "mot": "raté."
+    },
+    {
+      "debut": 63.36,
+      "fin": 63.68,
+      "mot": "Imbécile,"
+    },
+    {
+      "debut": 63.84,
+      "fin": 63.84,
+      "mot": "c"
+    },
+    {
+      "debut": 63.84,
+      "fin": 63.98,
+      "mot": "'était"
+    },
+    {
+      "debut": 63.98,
+      "fin": 64.14,
+      "mot": "une"
+    },
+    {
+      "debut": 64.14,
+      "fin": 64.34,
+      "mot": "femme"
+    },
+    {
+      "debut": 64.34,
+      "fin": 64.64,
+      "mot": "en"
+    },
+    {
+      "debut": 64.64,
+      "fin": 64.78,
+      "mot": "or"
+    },
+    {
+      "debut": 64.78,
+      "fin": 64.98,
+      "mot": "et"
+    },
+    {
+      "debut": 64.98,
+      "fin": 65.08,
+      "mot": "tu"
+    },
+    {
+      "debut": 65.08,
+      "fin": 65.12,
+      "mot": "l"
+    },
+    {
+      "debut": 65.12,
+      "fin": 65.22,
+      "mot": "'as"
+    },
+    {
+      "debut": 65.22,
+      "fin": 65.5,
+      "mot": "laissé"
+    },
+    {
+      "debut": 65.5,
+      "fin": 65.86,
+      "mot": "partir."
+    },
+    {
+      "debut": 66.16,
+      "fin": 66.28,
+      "mot": "Je"
+    },
+    {
+      "debut": 66.28,
+      "fin": 66.48,
+      "mot": "sais"
+    },
+    {
+      "debut": 66.48,
+      "fin": 66.88,
+      "mot": "maman,"
+    },
+    {
+      "debut": 67.16,
+      "fin": 67.26,
+      "mot": "mais"
+    },
+    {
+      "debut": 67.26,
+      "fin": 67.4,
+      "mot": "crois"
+    },
+    {
+      "debut": 67.4,
+      "fin": 67.6,
+      "mot": "moi"
+    },
+    {
+      "debut": 67.6,
+      "fin": 67.78,
+      "mot": "cette"
+    },
+    {
+      "debut": 67.78,
+      "fin": 68.14,
+      "mot": "histoire"
+    },
+    {
+      "debut": 68.14,
+      "fin": 68.24,
+      "mot": "elle"
+    },
+    {
+      "debut": 68.24,
+      "fin": 68.36,
+      "mot": "est"
+    },
+    {
+      "debut": 68.36,
+      "fin": 68.54,
+      "mot": "pas"
+    },
+    {
+      "debut": 68.54,
+      "fin": 68.84,
+      "mot": "finie."
+    }
+  ]
+}

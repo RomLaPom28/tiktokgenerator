@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "id": "7633384322225016087",
+    "url": "https://www.tiktok.com/@7vizory7/video/7633384322225016087",
+    "compte": "7vizory7",
+    "description": "C’est une framboise ! #fruitstory #histoiretriste #ia #fr ",
+    "vues": 13700000,
+    "likes": 744100,
+    "commentaires": 4003,
+    "partages": 10300,
+    "date": "20260427",
+    "duree": 62.3,
+    "musique": "son original",
+    "taux_likes": 5.43,
+    "taux_commentaires": 0.029
+  },
+  "langue": "fr",
+  "texte_complet": "Ils ne sauront jamais que je suis en réalité une framboise. Moi je suis une orange, toi t'es une fraise, alors comment on peut avoir un bébé framboise ? Tu m'as trompé ! Non ! Je te jure que je ne t'ai pas trompé. Crois-moi, s'il te plaît. Voici les tests de paternité, monsieur. Votre jus correspond, vous êtes bien le père. Quoi, mais c'est impossible ! Comment ? Fais pas semblant d'être innocente. Je vais pas croire un vieux bout de papier. Comment je pourrais te prouver mon innocence ? Alors une orange, une fraise, un bébé framboise, les calculs sont pas bons ! Allez viens, on rentre. Regardez-moi ça, cette femme a forcément mélangé son jus avec un autre. J'en peux plus ! Appelle tes parents tout de suite, je veux leur parler ! Ce bébé peut pas être de moi, elle m'a trompé, je la quitte. S'il te plaît, lâche-la pas comme ça, on va s'arranger. Très bien, vous me léguez l'entreprise familiale et 50% de votre salaire à vie. On fera tout ce que tu veux pour notre fille, pars pas. Quelle bande de naïfs. C'était plus facile que je le pensais. Bientôt tout leur bien sera à moi. J'ai tout entendu. C'est terminé, tu vas devoir aller donner des explications à mes parents maintenant.",
+  "accroche_3s": "Ils ne sauront jamais que je suis en réalité une framboise.",
+  "fin_5s": "tout entendu. C 'est terminé, tu vas devoir aller donner des explications à mes parents maintenant.",
+  "mots_par_seconde": 3.81,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 8,
+  "duree_moyenne_plan": 7.78,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 3.4,
+      "texte": "Ils ne sauront jamais que je suis en réalité une framboise."
+    },
+    {
+      "debut": 3.66,
+      "fin": 7.12,
+      "texte": "Moi je suis une orange, toi t'es une fraise, alors comment on peut avoir un bébé framboise ?"
+    },
+    {
+      "debut": 7.12,
+      "fin": 8.0,
+      "texte": "Tu m'as trompé !"
+    },
+    {
+      "debut": 8.0,
+      "fin": 8.54,
+      "texte": "Non !"
+    },
+    {
+      "debut": 8.54,
+      "fin": 10.48,
+      "texte": "Je te jure que je ne t'ai pas trompé."
+    },
+    {
+      "debut": 11.7,
+      "fin": 13.1,
+      "texte": "Crois-moi, s'il te plaît."
+    },
+    {
+      "debut": 13.3,
+      "fin": 14.8,
+      "texte": "Voici les tests de paternité, monsieur."
+    },
+    {
+      "debut": 15.04,
+      "fin": 16.78,
+      "texte": "Votre jus correspond, vous êtes bien le père."
+    },
+    {
+      "debut": 17.14,
+      "fin": 18.3,
+      "texte": "Quoi, mais c'est impossible !"
+    },
+    {
+      "debut": 18.3,
+      "fin": 18.82,
+      "texte": "Comment ?"
+    },
+    {
+      "debut": 18.82,
+      "fin": 20.4,
+      "texte": "Fais pas semblant d'être innocente."
+    },
+    {
+      "debut": 20.82,
+      "fin": 22.28,
+      "texte": "Je vais pas croire un vieux bout de papier."
+    },
+    {
+      "debut": 22.72,
+      "fin": 24.48,
+      "texte": "Comment je pourrais te prouver mon innocence ?"
+    },
+    {
+      "debut": 24.48,
+      "fin": 28.78,
+      "texte": "Alors une orange, une fraise, un bébé framboise, les calculs sont pas bons !"
+    },
+    {
+      "debut": 28.78,
+      "fin": 30.2,
+      "texte": "Allez viens, on rentre."
+    },
+    {
+      "debut": 30.58,
+      "fin": 33.76,
+      "texte": "Regardez-moi ça, cette femme a forcément mélangé son jus avec un autre."
+    },
+    {
+      "debut": 36.14,
+      "fin": 37.78,
+      "texte": "J'en peux plus !"
+    },
+    {
+      "debut": 37.78,
+      "fin": 40.92,
+      "texte": "Appelle tes parents tout de suite, je veux leur parler !"
+    },
+    {
+      "debut": 40.92,
+      "fin": 43.66,
+      "texte": "Ce bébé peut pas être de moi, elle m'a trompé, je la quitte."
+    },
+    {
+      "debut": 43.86,
+      "fin": 46.02,
+      "texte": "S'il te plaît, lâche-la pas comme ça, on va s'arranger."
+    },
+    {
+      "debut": 46.2,
+      "fin": 49.18,
+      "texte": "Très bien, vous me léguez l'entreprise familiale et 50% de votre salaire à vie."
+    },
+    {
+      "debut": 49.28,
+      "fin": 51.52,
+      "texte": "On fera tout ce que tu veux pour notre fille, pars pas."
+    },
+    {
+      "debut": 51.66,
+      "fin": 53.1,
+      "texte": "Quelle bande de naïfs."
+    },
+    {
+      "debut": 53.28,
+      "fin": 55.3,
+      "texte": "C'était plus facile que je le pensais."
+    },
+    {
+      "debut": 55.46,
+      "fin": 56.92,
+      "texte": "Bientôt tout leur bien sera à moi."
+    },
+    {
+      "debut": 57.08,
+      "fin": 57.78,
+      "texte": "J'ai tout entendu."
+    },
+    {
+      "debut": 58.3,
+      "fin": 61.22,
+      "texte": "C'est terminé, tu vas devoir aller donner des explications à mes parents maintenant."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 3.46,
+      "duree": 3.46
+    },
+    {
+      "n": 2,
+      "debut": 3.46,
+      "fin": 8.46,
+      "duree": 5.0
+    },
+    {
+      "n": 3,
+      "debut": 8.46,
+      "fin": 13.17,
+      "duree": 4.71
+    },
+    {
+      "n": 4,
+      "debut": 13.17,
+      "fin": 18.75,
+      "duree": 5.58
+    },
+    {
+      "n": 5,
+      "debut": 18.75,
+      "fin": 30.12,
+      "duree": 11.38
+    },
+    {
+      "n": 6,
+      "debut": 30.12,
+      "fin": 46.08,
+      "duree": 15.96
+    },
+    {
+      "n": 7,
+      "debut": 46.08,
+      "fin": 57.0,
+      "duree": 10.92
+    },
+    {
+      "n": 8,
+      "debut": 57.0,
+      "fin": 62.25,
+      "duree": 5.25
+    }
+  ]
+}

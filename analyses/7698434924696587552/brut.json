@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "id": "7698434924696587552",
+    "url": "https://www.tiktok.com/@clip.drama.ia/video/7698434924696587552",
+    "compte": "clip.drama.ia",
+    "description": "son fils tombe dans la sauce partie 1#videoia #histoire #fruitdrama ",
+    "vues": 101100,
+    "likes": 2743,
+    "commentaires": 51,
+    "partages": 27,
+    "date": "20261019",
+    "duree": 63.4,
+    "musique": "son original",
+    "taux_likes": 2.71,
+    "taux_commentaires": 0.05
+  },
+  "langue": "fr",
+  "texte_complet": "Maman, regarde, regarde, je suis un acrobat, je saute super haut ! Pas maintenant, Petit Fraise, descends de là tout de suite, je suis très en retard sur les commandes. Crie de surpouille Petit Crie et tout ! C'est incroyable, je n'ai jamais fait une confiture aussi parfaite. Fais goûter ! Waouh ! Mon amour, on tient une mine d'or ! On va doubler le prix aujourd'hui ! Ah ah ah ah ! Au fait, t'as vu Petit Fraise ? Il est trop calme d'un coup, ça m'inquiète. Il doit jouer dehors ! Dépêche-toi de fermer ses pots, les clients vont bientôt arriver ! C'est la meilleure confiture de tout Paris ! Donnez-moi 4 pots immédiatement ! Bien sûr monsieur, c'est une nouvelle recette secrète de famille, unique au monde ! L'école vient d'appeler, Petit Fraise n'y est jamais arrivé ce matin ! Où est-il ? Arrête de paniquer pour rien ! Regarde tout cet argent, on va ouvrir une grande usine ! Je n'ai pas faim, j'ai un très mauvais pressentiment, on devrait appeler la police. Mange ta tartine chérie, il a dû s'endormir chez son oncle, c'est tout. Chérie, je crois que je viens de trouver notre ingrédient secret ! Quoi ? De quoi tu parles ? Pourquoi tu pleures d'un coup ? On peut toujours faire un autre enfant, tu sais à quoi aime jouer le fils des voisins ?",
+  "accroche_3s": "Maman, regarde, regarde, je suis un acrobat, je saute super haut ! Pas maintenant, Petit Fraise,",
+  "fin_5s": "tu sais à quoi aime jouer le fils des voisins ?",
+  "mots_par_seconde": 3.99,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 4,
+  "duree_moyenne_plan": 15.85,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 2.3,
+      "texte": "Maman, regarde, regarde, je suis un acrobat, je saute super haut !"
+    },
+    {
+      "debut": 2.3,
+      "fin": 5.14,
+      "texte": "Pas maintenant, Petit Fraise, descends de là tout de suite, je suis très en retard sur les commandes."
+    },
+    {
+      "debut": 8.39,
+      "fin": 10.31,
+      "texte": "Crie de surpouille Petit Crie et tout !"
+    },
+    {
+      "debut": 10.31,
+      "fin": 12.97,
+      "texte": "C'est incroyable, je n'ai jamais fait une confiture aussi parfaite."
+    },
+    {
+      "debut": 13.21,
+      "fin": 13.97,
+      "texte": "Fais goûter !"
+    },
+    {
+      "debut": 13.97,
+      "fin": 17.47,
+      "texte": "Waouh ! Mon amour, on tient une mine d'or ! On va doubler le prix aujourd'hui !"
+    },
+    {
+      "debut": 17.47,
+      "fin": 18.17,
+      "texte": "Ah ah ah ah !"
+    },
+    {
+      "debut": 18.17,
+      "fin": 21.45,
+      "texte": "Au fait, t'as vu Petit Fraise ? Il est trop calme d'un coup, ça m'inquiète."
+    },
+    {
+      "debut": 21.51,
+      "fin": 25.05,
+      "texte": "Il doit jouer dehors ! Dépêche-toi de fermer ses pots, les clients vont bientôt arriver !"
+    },
+    {
+      "debut": 25.05,
+      "fin": 28.63,
+      "texte": "C'est la meilleure confiture de tout Paris ! Donnez-moi 4 pots immédiatement !"
+    },
+    {
+      "debut": 28.63,
+      "fin": 32.81,
+      "texte": "Bien sûr monsieur, c'est une nouvelle recette secrète de famille, unique au monde !"
+    },
+    {
+      "debut": 32.81,
+      "fin": 36.33,
+      "texte": "L'école vient d'appeler, Petit Fraise n'y est jamais arrivé ce matin ! Où est-il ?"
+    },
+    {
+      "debut": 36.33,
+      "fin": 40.63,
+      "texte": "Arrête de paniquer pour rien ! Regarde tout cet argent, on va ouvrir une grande usine !"
+    },
+    {
+      "debut": 41.57,
+      "fin": 45.45,
+      "texte": "Je n'ai pas faim, j'ai un très mauvais pressentiment, on devrait appeler la police."
+    },
+    {
+      "debut": 45.75,
+      "fin": 48.85,
+      "texte": "Mange ta tartine chérie, il a dû s'endormir chez son oncle, c'est tout."
+    },
+    {
+      "debut": 49.39,
+      "fin": 53.53,
+      "texte": "Chérie, je crois que je viens de trouver notre ingrédient secret !"
+    },
+    {
+      "debut": 53.53,
+      "fin": 57.03,
+      "texte": "Quoi ? De quoi tu parles ? Pourquoi tu pleures d'un coup ?"
+    },
+    {
+      "debut": 57.03,
+      "fin": 60.93,
+      "texte": "On peut toujours faire un autre enfant, tu sais à quoi aime jouer le fils des voisins ?"
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 48.93,
+      "duree": 48.93
+    },
+    {
+      "n": 2,
+      "debut": 48.93,
+      "fin": 56.3,
+      "duree": 7.37
+    },
+    {
+      "n": 3,
+      "debut": 56.3,
+      "fin": 61.17,
+      "duree": 4.87
+    },
+    {
+      "n": 4,
+      "debut": 61.17,
+      "fin": 63.39,
+      "duree": 2.22
+    }
+  ]
+}

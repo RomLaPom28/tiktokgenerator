@@ -1,0 +1,1082 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 4.98,
+      "texte": "Tu voulais être la plus belle pour ton mariage, Mélanie. Regarde-toi maintenant. Bon mariage, grosse baleine."
+    },
+    {
+      "debut": 5.22,
+      "fin": 7.9,
+      "texte": "Cléa, qu'as-tu fait ? Mon mariage commence dans cinq minutes."
+    },
+    {
+      "debut": 8.28,
+      "fin": 11.58,
+      "texte": "Ce voile me va beaucoup mieux, ma belle. Je vais te remplacer pour faire la mariée."
+    },
+    {
+      "debut": 11.86,
+      "fin": 15.94,
+      "texte": "Cléa, tu peux pas me faire ça, c'est mon mariage. C'est le plus beau jour de ma vie."
+    },
+    {
+      "debut": 16.44,
+      "fin": 20.3,
+      "texte": "Reste bien là, Mélanie. Le marié m'attend et c'est moi qui vais dire oui."
+    },
+    {
+      "debut": 21.0,
+      "fin": 25.02,
+      "texte": "Cléa, pourquoi tu m'as fait ça ? J'arrive plus à respirer, crois que je vais y passer."
+    },
+    {
+      "debut": 30.04,
+      "fin": 34.86,
+      "texte": "C'est quoi cette odeur infecte ? Qui a laissé ce morceau de fromage moisi ici ?"
+    },
+    {
+      "debut": 34.86,
+      "fin": 38.26,
+      "texte": "Attends, mais ça pourrait me sauver. Si je mange ça, je pourrais peut-être me vider au toilette."
+    },
+    {
+      "debut": 38.34,
+      "fin": 48.86,
+      "texte": "Ça pourrait aussi me tuer. C'est tout ? Je n'ai même pas dégonflé. Mais comment je vais faire ?"
+    },
+    {
+      "debut": 48.86,
+      "fin": 52.36,
+      "texte": "Je vous déclare mari et femme. Vous pouvez maintenant embrasser la mariée."
+    },
+    {
+      "debut": 52.84,
+      "fin": 55.24,
+      "texte": "Tu es enfin à moi, mon amour. Tu es la plus belle, Cléa."
+    },
+    {
+      "debut": 55.28,
+      "fin": 57.38,
+      "texte": "Où est Mélanie ? Pourquoi tu portes son voile ?"
+    },
+    {
+      "debut": 57.38,
+      "fin": 59.5,
+      "texte": "Elle est partie. De toute façon, elle ne t'aime pas."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.0,
+      "fin": 0.46,
+      "mot": "Tu"
+    },
+    {
+      "debut": 0.46,
+      "fin": 0.64,
+      "mot": "voulais"
+    },
+    {
+      "debut": 0.64,
+      "fin": 0.9,
+      "mot": "être"
+    },
+    {
+      "debut": 0.9,
+      "fin": 1.12,
+      "mot": "la"
+    },
+    {
+      "debut": 1.12,
+      "fin": 1.26,
+      "mot": "plus"
+    },
+    {
+      "debut": 1.26,
+      "fin": 1.36,
+      "mot": "belle"
+    },
+    {
+      "debut": 1.36,
+      "fin": 1.6,
+      "mot": "pour"
+    },
+    {
+      "debut": 1.6,
+      "fin": 1.72,
+      "mot": "ton"
+    },
+    {
+      "debut": 1.72,
+      "fin": 2.06,
+      "mot": "mariage,"
+    },
+    {
+      "debut": 2.12,
+      "fin": 2.42,
+      "mot": "Mélanie."
+    },
+    {
+      "debut": 2.9,
+      "fin": 3.18,
+      "mot": "Regarde"
+    },
+    {
+      "debut": 3.18,
+      "fin": 3.4,
+      "mot": "-toi"
+    },
+    {
+      "debut": 3.4,
+      "fin": 3.78,
+      "mot": "maintenant."
+    },
+    {
+      "debut": 3.96,
+      "fin": 3.96,
+      "mot": "Bon"
+    },
+    {
+      "debut": 3.96,
+      "fin": 4.38,
+      "mot": "mariage,"
+    },
+    {
+      "debut": 4.5,
+      "fin": 4.62,
+      "mot": "grosse"
+    },
+    {
+      "debut": 4.62,
+      "fin": 4.98,
+      "mot": "baleine."
+    },
+    {
+      "debut": 5.22,
+      "fin": 5.48,
+      "mot": "Cléa,"
+    },
+    {
+      "debut": 5.54,
+      "fin": 5.64,
+      "mot": "qu"
+    },
+    {
+      "debut": 5.64,
+      "fin": 5.76,
+      "mot": "'as"
+    },
+    {
+      "debut": 5.76,
+      "fin": 5.96,
+      "mot": "-tu"
+    },
+    {
+      "debut": 5.96,
+      "fin": 6.14,
+      "mot": "fait"
+    },
+    {
+      "debut": 6.14,
+      "fin": 6.34,
+      "mot": "?"
+    },
+    {
+      "debut": 6.34,
+      "fin": 6.52,
+      "mot": "Mon"
+    },
+    {
+      "debut": 6.52,
+      "fin": 6.9,
+      "mot": "mariage"
+    },
+    {
+      "debut": 6.9,
+      "fin": 7.14,
+      "mot": "commence"
+    },
+    {
+      "debut": 7.14,
+      "fin": 7.4,
+      "mot": "dans"
+    },
+    {
+      "debut": 7.4,
+      "fin": 7.56,
+      "mot": "cinq"
+    },
+    {
+      "debut": 7.56,
+      "fin": 7.9,
+      "mot": "minutes."
+    },
+    {
+      "debut": 8.28,
+      "fin": 8.48,
+      "mot": "Ce"
+    },
+    {
+      "debut": 8.48,
+      "fin": 8.68,
+      "mot": "voile"
+    },
+    {
+      "debut": 8.68,
+      "fin": 8.82,
+      "mot": "me"
+    },
+    {
+      "debut": 8.82,
+      "fin": 8.92,
+      "mot": "va"
+    },
+    {
+      "debut": 8.92,
+      "fin": 9.22,
+      "mot": "beaucoup"
+    },
+    {
+      "debut": 9.22,
+      "fin": 9.36,
+      "mot": "mieux,"
+    },
+    {
+      "debut": 9.44,
+      "fin": 9.58,
+      "mot": "ma"
+    },
+    {
+      "debut": 9.58,
+      "fin": 9.74,
+      "mot": "belle."
+    },
+    {
+      "debut": 9.96,
+      "fin": 10.14,
+      "mot": "Je"
+    },
+    {
+      "debut": 10.14,
+      "fin": 10.24,
+      "mot": "vais"
+    },
+    {
+      "debut": 10.24,
+      "fin": 10.4,
+      "mot": "te"
+    },
+    {
+      "debut": 10.4,
+      "fin": 10.76,
+      "mot": "remplacer"
+    },
+    {
+      "debut": 10.76,
+      "fin": 10.94,
+      "mot": "pour"
+    },
+    {
+      "debut": 10.94,
+      "fin": 11.12,
+      "mot": "faire"
+    },
+    {
+      "debut": 11.12,
+      "fin": 11.34,
+      "mot": "la"
+    },
+    {
+      "debut": 11.34,
+      "fin": 11.58,
+      "mot": "mariée."
+    },
+    {
+      "debut": 11.86,
+      "fin": 12.2,
+      "mot": "Cléa,"
+    },
+    {
+      "debut": 12.2,
+      "fin": 12.32,
+      "mot": "tu"
+    },
+    {
+      "debut": 12.32,
+      "fin": 12.56,
+      "mot": "peux"
+    },
+    {
+      "debut": 12.56,
+      "fin": 12.66,
+      "mot": "pas"
+    },
+    {
+      "debut": 12.66,
+      "fin": 12.8,
+      "mot": "me"
+    },
+    {
+      "debut": 12.8,
+      "fin": 13.02,
+      "mot": "faire"
+    },
+    {
+      "debut": 13.02,
+      "fin": 13.2,
+      "mot": "ça,"
+    },
+    {
+      "debut": 13.24,
+      "fin": 13.4,
+      "mot": "c"
+    },
+    {
+      "debut": 13.4,
+      "fin": 13.42,
+      "mot": "'est"
+    },
+    {
+      "debut": 13.42,
+      "fin": 13.58,
+      "mot": "mon"
+    },
+    {
+      "debut": 13.58,
+      "fin": 14.26,
+      "mot": "mariage."
+    },
+    {
+      "debut": 14.4,
+      "fin": 14.54,
+      "mot": "C"
+    },
+    {
+      "debut": 14.54,
+      "fin": 14.62,
+      "mot": "'est"
+    },
+    {
+      "debut": 14.62,
+      "fin": 14.74,
+      "mot": "le"
+    },
+    {
+      "debut": 14.74,
+      "fin": 14.96,
+      "mot": "plus"
+    },
+    {
+      "debut": 14.96,
+      "fin": 15.16,
+      "mot": "beau"
+    },
+    {
+      "debut": 15.16,
+      "fin": 15.36,
+      "mot": "jour"
+    },
+    {
+      "debut": 15.36,
+      "fin": 15.58,
+      "mot": "de"
+    },
+    {
+      "debut": 15.58,
+      "fin": 15.78,
+      "mot": "ma"
+    },
+    {
+      "debut": 15.78,
+      "fin": 15.94,
+      "mot": "vie."
+    },
+    {
+      "debut": 16.44,
+      "fin": 16.72,
+      "mot": "Reste"
+    },
+    {
+      "debut": 16.72,
+      "fin": 16.94,
+      "mot": "bien"
+    },
+    {
+      "debut": 16.94,
+      "fin": 17.06,
+      "mot": "là,"
+    },
+    {
+      "debut": 17.08,
+      "fin": 17.42,
+      "mot": "Mélanie."
+    },
+    {
+      "debut": 18.12,
+      "fin": 18.38,
+      "mot": "Le"
+    },
+    {
+      "debut": 18.38,
+      "fin": 18.62,
+      "mot": "marié"
+    },
+    {
+      "debut": 18.62,
+      "fin": 18.76,
+      "mot": "m"
+    },
+    {
+      "debut": 18.76,
+      "fin": 18.9,
+      "mot": "'attend"
+    },
+    {
+      "debut": 18.9,
+      "fin": 19.06,
+      "mot": "et"
+    },
+    {
+      "debut": 19.06,
+      "fin": 19.22,
+      "mot": "c"
+    },
+    {
+      "debut": 19.22,
+      "fin": 19.22,
+      "mot": "'est"
+    },
+    {
+      "debut": 19.22,
+      "fin": 19.44,
+      "mot": "moi"
+    },
+    {
+      "debut": 19.44,
+      "fin": 19.58,
+      "mot": "qui"
+    },
+    {
+      "debut": 19.58,
+      "fin": 19.7,
+      "mot": "vais"
+    },
+    {
+      "debut": 19.7,
+      "fin": 19.96,
+      "mot": "dire"
+    },
+    {
+      "debut": 19.96,
+      "fin": 20.3,
+      "mot": "oui."
+    },
+    {
+      "debut": 21.0,
+      "fin": 21.4,
+      "mot": "Cléa,"
+    },
+    {
+      "debut": 21.4,
+      "fin": 21.78,
+      "mot": "pourquoi"
+    },
+    {
+      "debut": 21.78,
+      "fin": 21.96,
+      "mot": "tu"
+    },
+    {
+      "debut": 21.96,
+      "fin": 22.1,
+      "mot": "m"
+    },
+    {
+      "debut": 22.1,
+      "fin": 22.12,
+      "mot": "'as"
+    },
+    {
+      "debut": 22.12,
+      "fin": 22.34,
+      "mot": "fait"
+    },
+    {
+      "debut": 22.34,
+      "fin": 22.6,
+      "mot": "ça"
+    },
+    {
+      "debut": 22.6,
+      "fin": 22.96,
+      "mot": "?"
+    },
+    {
+      "debut": 22.96,
+      "fin": 23.14,
+      "mot": "J"
+    },
+    {
+      "debut": 23.14,
+      "fin": 23.36,
+      "mot": "'arrive"
+    },
+    {
+      "debut": 23.36,
+      "fin": 23.46,
+      "mot": "plus"
+    },
+    {
+      "debut": 23.46,
+      "fin": 23.68,
+      "mot": "à"
+    },
+    {
+      "debut": 23.68,
+      "fin": 24.12,
+      "mot": "respirer,"
+    },
+    {
+      "debut": 24.2,
+      "fin": 24.28,
+      "mot": "crois"
+    },
+    {
+      "debut": 24.28,
+      "fin": 24.4,
+      "mot": "que"
+    },
+    {
+      "debut": 24.4,
+      "fin": 24.52,
+      "mot": "je"
+    },
+    {
+      "debut": 24.52,
+      "fin": 24.6,
+      "mot": "vais"
+    },
+    {
+      "debut": 24.6,
+      "fin": 24.76,
+      "mot": "y"
+    },
+    {
+      "debut": 24.76,
+      "fin": 25.02,
+      "mot": "passer."
+    },
+    {
+      "debut": 30.04,
+      "fin": 30.4,
+      "mot": "C"
+    },
+    {
+      "debut": 30.4,
+      "fin": 30.76,
+      "mot": "'est"
+    },
+    {
+      "debut": 30.76,
+      "fin": 30.88,
+      "mot": "quoi"
+    },
+    {
+      "debut": 30.88,
+      "fin": 31.08,
+      "mot": "cette"
+    },
+    {
+      "debut": 31.08,
+      "fin": 31.44,
+      "mot": "odeur"
+    },
+    {
+      "debut": 31.44,
+      "fin": 32.06,
+      "mot": "infecte"
+    },
+    {
+      "debut": 32.06,
+      "fin": 32.08,
+      "mot": "?"
+    },
+    {
+      "debut": 32.08,
+      "fin": 32.28,
+      "mot": "Qui"
+    },
+    {
+      "debut": 32.28,
+      "fin": 32.38,
+      "mot": "a"
+    },
+    {
+      "debut": 32.38,
+      "fin": 32.6,
+      "mot": "laissé"
+    },
+    {
+      "debut": 32.6,
+      "fin": 32.78,
+      "mot": "ce"
+    },
+    {
+      "debut": 32.78,
+      "fin": 33.1,
+      "mot": "morceau"
+    },
+    {
+      "debut": 33.1,
+      "fin": 33.18,
+      "mot": "de"
+    },
+    {
+      "debut": 33.18,
+      "fin": 33.48,
+      "mot": "fromage"
+    },
+    {
+      "debut": 33.48,
+      "fin": 33.88,
+      "mot": "moisi"
+    },
+    {
+      "debut": 33.88,
+      "fin": 34.22,
+      "mot": "ici"
+    },
+    {
+      "debut": 34.22,
+      "fin": 34.86,
+      "mot": "?"
+    },
+    {
+      "debut": 34.86,
+      "fin": 35.08,
+      "mot": "Attends,"
+    },
+    {
+      "debut": 35.18,
+      "fin": 35.26,
+      "mot": "mais"
+    },
+    {
+      "debut": 35.26,
+      "fin": 35.44,
+      "mot": "ça"
+    },
+    {
+      "debut": 35.44,
+      "fin": 35.62,
+      "mot": "pourrait"
+    },
+    {
+      "debut": 35.62,
+      "fin": 35.78,
+      "mot": "me"
+    },
+    {
+      "debut": 35.78,
+      "fin": 36.12,
+      "mot": "sauver."
+    },
+    {
+      "debut": 36.28,
+      "fin": 36.42,
+      "mot": "Si"
+    },
+    {
+      "debut": 36.42,
+      "fin": 36.56,
+      "mot": "je"
+    },
+    {
+      "debut": 36.56,
+      "fin": 36.7,
+      "mot": "mange"
+    },
+    {
+      "debut": 36.7,
+      "fin": 36.9,
+      "mot": "ça,"
+    },
+    {
+      "debut": 37.0,
+      "fin": 37.08,
+      "mot": "je"
+    },
+    {
+      "debut": 37.08,
+      "fin": 37.26,
+      "mot": "pourrais"
+    },
+    {
+      "debut": 37.26,
+      "fin": 37.42,
+      "mot": "peut"
+    },
+    {
+      "debut": 37.42,
+      "fin": 37.56,
+      "mot": "-être"
+    },
+    {
+      "debut": 37.56,
+      "fin": 37.78,
+      "mot": "me"
+    },
+    {
+      "debut": 37.78,
+      "fin": 37.92,
+      "mot": "vider"
+    },
+    {
+      "debut": 37.92,
+      "fin": 38.02,
+      "mot": "au"
+    },
+    {
+      "debut": 38.02,
+      "fin": 38.26,
+      "mot": "toilette."
+    },
+    {
+      "debut": 38.34,
+      "fin": 38.48,
+      "mot": "Ça"
+    },
+    {
+      "debut": 38.48,
+      "fin": 38.7,
+      "mot": "pourrait"
+    },
+    {
+      "debut": 38.7,
+      "fin": 38.98,
+      "mot": "aussi"
+    },
+    {
+      "debut": 38.98,
+      "fin": 39.22,
+      "mot": "me"
+    },
+    {
+      "debut": 39.22,
+      "fin": 39.58,
+      "mot": "tuer."
+    },
+    {
+      "debut": 44.8,
+      "fin": 44.94,
+      "mot": "C"
+    },
+    {
+      "debut": 44.94,
+      "fin": 44.98,
+      "mot": "'est"
+    },
+    {
+      "debut": 44.98,
+      "fin": 45.18,
+      "mot": "tout"
+    },
+    {
+      "debut": 45.18,
+      "fin": 45.6,
+      "mot": "?"
+    },
+    {
+      "debut": 45.6,
+      "fin": 45.8,
+      "mot": "Je"
+    },
+    {
+      "debut": 45.8,
+      "fin": 45.86,
+      "mot": "n"
+    },
+    {
+      "debut": 45.86,
+      "fin": 45.92,
+      "mot": "'ai"
+    },
+    {
+      "debut": 45.92,
+      "fin": 46.14,
+      "mot": "même"
+    },
+    {
+      "debut": 46.14,
+      "fin": 46.28,
+      "mot": "pas"
+    },
+    {
+      "debut": 46.28,
+      "fin": 46.9,
+      "mot": "dégonflé."
+    },
+    {
+      "debut": 47.24,
+      "fin": 47.46,
+      "mot": "Mais"
+    },
+    {
+      "debut": 47.46,
+      "fin": 47.66,
+      "mot": "comment"
+    },
+    {
+      "debut": 47.66,
+      "fin": 47.8,
+      "mot": "je"
+    },
+    {
+      "debut": 47.8,
+      "fin": 47.92,
+      "mot": "vais"
+    },
+    {
+      "debut": 47.92,
+      "fin": 48.24,
+      "mot": "faire"
+    },
+    {
+      "debut": 48.24,
+      "fin": 48.86,
+      "mot": "?"
+    },
+    {
+      "debut": 48.86,
+      "fin": 49.0,
+      "mot": "Je"
+    },
+    {
+      "debut": 49.0,
+      "fin": 49.18,
+      "mot": "vous"
+    },
+    {
+      "debut": 49.18,
+      "fin": 49.48,
+      "mot": "déclare"
+    },
+    {
+      "debut": 49.48,
+      "fin": 49.72,
+      "mot": "mari"
+    },
+    {
+      "debut": 49.72,
+      "fin": 49.94,
+      "mot": "et"
+    },
+    {
+      "debut": 49.94,
+      "fin": 50.12,
+      "mot": "femme."
+    },
+    {
+      "debut": 50.4,
+      "fin": 50.5,
+      "mot": "Vous"
+    },
+    {
+      "debut": 50.5,
+      "fin": 50.7,
+      "mot": "pouvez"
+    },
+    {
+      "debut": 50.7,
+      "fin": 51.12,
+      "mot": "maintenant"
+    },
+    {
+      "debut": 51.12,
+      "fin": 51.5,
+      "mot": "embrasser"
+    },
+    {
+      "debut": 51.5,
+      "fin": 51.74,
+      "mot": "la"
+    },
+    {
+      "debut": 51.74,
+      "fin": 52.36,
+      "mot": "mariée."
+    },
+    {
+      "debut": 52.84,
+      "fin": 52.9,
+      "mot": "Tu"
+    },
+    {
+      "debut": 52.9,
+      "fin": 53.06,
+      "mot": "es"
+    },
+    {
+      "debut": 53.06,
+      "fin": 53.44,
+      "mot": "enfin"
+    },
+    {
+      "debut": 53.44,
+      "fin": 53.56,
+      "mot": "à"
+    },
+    {
+      "debut": 53.56,
+      "fin": 53.66,
+      "mot": "moi,"
+    },
+    {
+      "debut": 53.74,
+      "fin": 53.92,
+      "mot": "mon"
+    },
+    {
+      "debut": 53.92,
+      "fin": 54.14,
+      "mot": "amour."
+    },
+    {
+      "debut": 54.22,
+      "fin": 54.3,
+      "mot": "Tu"
+    },
+    {
+      "debut": 54.3,
+      "fin": 54.44,
+      "mot": "es"
+    },
+    {
+      "debut": 54.44,
+      "fin": 54.6,
+      "mot": "la"
+    },
+    {
+      "debut": 54.6,
+      "fin": 54.72,
+      "mot": "plus"
+    },
+    {
+      "debut": 54.72,
+      "fin": 54.94,
+      "mot": "belle,"
+    },
+    {
+      "debut": 55.0,
+      "fin": 55.24,
+      "mot": "Cléa."
+    },
+    {
+      "debut": 55.28,
+      "fin": 55.38,
+      "mot": "Où"
+    },
+    {
+      "debut": 55.38,
+      "fin": 55.5,
+      "mot": "est"
+    },
+    {
+      "debut": 55.5,
+      "fin": 55.76,
+      "mot": "Mélanie"
+    },
+    {
+      "debut": 55.76,
+      "fin": 55.84,
+      "mot": "?"
+    },
+    {
+      "debut": 55.84,
+      "fin": 56.02,
+      "mot": "Pourquoi"
+    },
+    {
+      "debut": 56.02,
+      "fin": 56.2,
+      "mot": "tu"
+    },
+    {
+      "debut": 56.2,
+      "fin": 56.38,
+      "mot": "portes"
+    },
+    {
+      "debut": 56.38,
+      "fin": 56.56,
+      "mot": "son"
+    },
+    {
+      "debut": 56.56,
+      "fin": 56.8,
+      "mot": "voile"
+    },
+    {
+      "debut": 56.8,
+      "fin": 57.38,
+      "mot": "?"
+    },
+    {
+      "debut": 57.38,
+      "fin": 57.6,
+      "mot": "Elle"
+    },
+    {
+      "debut": 57.6,
+      "fin": 57.82,
+      "mot": "est"
+    },
+    {
+      "debut": 57.82,
+      "fin": 58.12,
+      "mot": "partie."
+    },
+    {
+      "debut": 58.2,
+      "fin": 58.32,
+      "mot": "De"
+    },
+    {
+      "debut": 58.32,
+      "fin": 58.44,
+      "mot": "toute"
+    },
+    {
+      "debut": 58.44,
+      "fin": 58.72,
+      "mot": "façon,"
+    },
+    {
+      "debut": 58.76,
+      "fin": 58.88,
+      "mot": "elle"
+    },
+    {
+      "debut": 58.88,
+      "fin": 59.06,
+      "mot": "ne"
+    },
+    {
+      "debut": 59.06,
+      "fin": 59.14,
+      "mot": "t"
+    },
+    {
+      "debut": 59.14,
+      "fin": 59.32,
+      "mot": "'aime"
+    },
+    {
+      "debut": 59.32,
+      "fin": 59.5,
+      "mot": "pas."
+    }
+  ]
+}

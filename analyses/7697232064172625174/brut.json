@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "7697232064172625174",
+    "url": "https://www.tiktok.com/@les.storytv/video/7697232064172625174",
+    "compte": "les.storytv",
+    "description": "PARTIE 2 - Kiwi hérite de % et va se venger ou laisser une seconde chance... #fruitstory #iastory #boîte #fruitia #dram",
+    "vues": 505700,
+    "likes": 26100,
+    "commentaires": 143,
+    "partages": 218,
+    "date": "20261016",
+    "duree": 60.0,
+    "musique": "BLUE WATER CANDY",
+    "taux_likes": 5.16,
+    "taux_commentaires": 0.028
+  },
+  "langue": "fr",
+  "texte_complet": "Monsieur votre pourcentage fait exploser mon scanner alors laisse-moi passer toute la boîte est à vous toute la boîte est à vous Qui est ce monsieur avec deux millions de pourcents ? C'est qui oui mon petit ami hein ton petit ami et tu m'as rien dit mon amour j'ai pensé à toi elle a jeté ça dans la glace quand tu appelais toi tais-toi neuf appels et t'as pensé à moi Je reprends mes dix pourcents non attends s'il te plaît 420 ça passe pas ici ma belle mangue tu m'avais dit viens je te montre la vie la vie à 90% c'est pas pareil désolé ma belle qui oui donne moi une seconde chance prouve moi demain que tu m'aimais avant mes pourcentages comment tu verras",
+  "accroche_3s": "Monsieur votre",
+  "fin_5s": "mes pourcentages comment tu verras",
+  "mots_par_seconde": 2.32,
+  "premier_mot_a": 2.13,
+  "nombre_plans": 7,
+  "duree_moyenne_plan": 8.57,
+  "phrases": [
+    {
+      "debut": 2.13,
+      "fin": 10.31,
+      "texte": "Monsieur votre pourcentage fait exploser mon scanner alors laisse-moi passer toute la boîte est à vous toute la boîte est à vous"
+    },
+    {
+      "debut": 10.31,
+      "fin": 14.41,
+      "texte": "Qui est ce monsieur avec deux millions de pourcents ?"
+    },
+    {
+      "debut": 14.41,
+      "fin": 18.39,
+      "texte": "C'est qui oui mon petit ami hein ton petit ami et tu m'as rien dit"
+    },
+    {
+      "debut": 20.28,
+      "fin": 22.44,
+      "texte": "mon amour j'ai pensé à toi"
+    },
+    {
+      "debut": 22.44,
+      "fin": 24.7,
+      "texte": "elle a jeté ça dans la glace quand tu appelais"
+    },
+    {
+      "debut": 25.7,
+      "fin": 29.36,
+      "texte": "toi tais-toi neuf appels et t'as pensé à moi"
+    },
+    {
+      "debut": 30.74,
+      "fin": 32.62,
+      "texte": "Je reprends mes dix pourcents"
+    },
+    {
+      "debut": 32.62,
+      "fin": 34.78,
+      "texte": "non attends s'il te plaît"
+    },
+    {
+      "debut": 35.96,
+      "fin": 37.96,
+      "texte": "420 ça passe pas ici ma belle"
+    },
+    {
+      "debut": 40.32,
+      "fin": 46.14,
+      "texte": "mangue tu m'avais dit viens je te montre la vie la vie à 90% c'est pas pareil"
+    },
+    {
+      "debut": 47.3,
+      "fin": 53.26,
+      "texte": "désolé ma belle qui oui donne moi une seconde chance"
+    },
+    {
+      "debut": 53.26,
+      "fin": 55.66,
+      "texte": "prouve moi demain que tu m'aimais avant mes pourcentages"
+    },
+    {
+      "debut": 56.6,
+      "fin": 57.12,
+      "texte": "comment"
+    },
+    {
+      "debut": 57.76,
+      "fin": 58.8,
+      "texte": "tu verras"
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 10.0,
+      "duree": 10.0
+    },
+    {
+      "n": 2,
+      "debut": 10.0,
+      "fin": 20.0,
+      "duree": 10.0
+    },
+    {
+      "n": 3,
+      "debut": 20.0,
+      "fin": 30.0,
+      "duree": 10.0
+    },
+    {
+      "n": 4,
+      "debut": 30.0,
+      "fin": 40.0,
+      "duree": 10.0
+    },
+    {
+      "n": 5,
+      "debut": 40.0,
+      "fin": 50.0,
+      "duree": 10.0
+    },
+    {
+      "n": 6,
+      "debut": 50.0,
+      "fin": 59.17,
+      "duree": 9.17
+    },
+    {
+      "n": 7,
+      "debut": 59.17,
+      "fin": 60.0,
+      "duree": 0.83
+    }
+  ]
+}

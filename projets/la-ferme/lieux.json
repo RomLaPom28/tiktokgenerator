@@ -1,0 +1,95 @@
+{
+  "_lisez_moi": "desc = copiée mot pour mot dans les prompts image, son = ambiance dans les prompts Grok. Un lieu = toujours le même décor d'un épisode à l'autre. Ajoute des lieux librement.",
+  "lieux": [
+    {
+      "desc": "cuisine de pavillon français années 2000, carrelage beige, plan de travail en bois, frigo couvert de magnets, fenêtre sur un jardin",
+      "id": "cuisine_pavillon",
+      "nom": "Cuisine de Gérard et Vanessa",
+      "son": "frigo qui ronronne, horloge"
+    },
+    {
+      "desc": "salon avec grand canapé en cuir noir, télé écran plat, photos de mariage encadrées au mur, tapis à poils longs",
+      "id": "salon_pavillon",
+      "nom": "Salon du pavillon",
+      "son": "télé en fond très bas"
+    },
+    {
+      "desc": "chambre avec lit king size, tête de lit capitonnée dorée, lampes de chevet, rideaux épais",
+      "id": "chambre_couple",
+      "nom": "Chambre du couple",
+      "son": "silence, réveil qui fait tic-tac"
+    },
+    {
+      "desc": "bar-tabac de village, comptoir en zinc, écran des résultats du loto, présentoir de cigarettes, néons, tabourets hauts",
+      "id": "bar_tabac",
+      "nom": "Bar-tabac Le Balto",
+      "son": "machine à café, brouhaha léger, télé PMU"
+    },
+    {
+      "desc": "petit bureau en bois installé dans une grange, bottes de foin, vieux coffre-fort, calendrier de tracteurs au mur, lumière qui passe entre les planches",
+      "id": "grange_bureau",
+      "nom": "Bureau de Kevin dans la grange",
+      "son": "grange calme, poules au loin"
+    },
+    {
+      "desc": "jardin de vieille dame avec nains de jardin, haie taillée, clôture qui donne sur la maison voisine",
+      "id": "jardin_josiane",
+      "nom": "Jardin de Josiane",
+      "son": "oiseaux, tondeuse au loin"
+    },
+    {
+      "desc": "cuisine rustique sombre, toile cirée à fleurs, vieux téléphone fixe à fil, crucifix au mur, rideaux en dentelle",
+      "id": "cuisine_huguette",
+      "nom": "Cuisine d'Huguette",
+      "son": "horloge comtoise, bouilloire"
+    },
+    {
+      "desc": "parking de supermarché de périphérie, chariots, voitures, enseigne lumineuse au loin",
+      "id": "parking_super",
+      "nom": "Parking du supermarché",
+      "son": "voitures, chariots qui roulent, vent"
+    },
+    {
+      "desc": "intérieur d'une vieille berline tunée, sièges en cuir usé, désodorisant sapin qui pend au rétroviseur",
+      "id": "voiture_gerard",
+      "nom": "Voiture de Gérard",
+      "son": "moteur au ralenti, clignotant"
+    },
+    {
+      "desc": "salle des fêtes municipale décorée de guirlandes et ballons, tables rondes avec nappes blanches, piste de danse, boule à facettes",
+      "id": "salle_fetes",
+      "nom": "Salle des fêtes",
+      "son": "brouhaha de fête, verres qui trinquent"
+    },
+    {
+      "desc": "bureau d'avocat avec bibliothèque de livres de droit, grand bureau en chêne, deux fauteuils face au bureau, dossiers empilés",
+      "id": "cabinet_avocat",
+      "nom": "Cabinet d'avocat",
+      "son": "silence feutré, stylo qui gratte"
+    },
+    {
+      "desc": "champ de ferme la nuit, clair de lune, brume au sol, silhouette de la grange au loin",
+      "id": "champ_nuit",
+      "nom": "Champ la nuit",
+      "son": "grillons, chouette, vent"
+    },
+    {
+      "desc": "bureau de gendarmerie de village, néons blafards, vieux ordinateur, affiches au mur, chaise en plastique",
+      "id": "commissariat",
+      "nom": "Gendarmerie",
+      "son": "néon qui grésille, téléphone au loin"
+    },
+    {
+      "desc": "chambre d'hôpital, lit médicalisé, moniteur cardiaque, perfusion, fenêtre sur un parking",
+      "id": "hopital",
+      "nom": "Chambre d'hôpital",
+      "son": "bip du moniteur cardiaque"
+    },
+    {
+      "desc": "église de village en pierre, bancs en bois, vitraux colorés, bouquets de fleurs blanches à l'autel",
+      "id": "eglise",
+      "nom": "Église du village",
+      "son": "écho, orgue lointain"
+    }
+  ]
+}

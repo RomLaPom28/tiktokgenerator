@@ -1,0 +1,351 @@
+{
+  "id": "ep001",
+  "numero": 1,
+  "titre": "Le faux joueur de district",
+  "resume": "Hugo, star à 80 millions, se fait passer pour un joueur de district pour tester Chloé. Sa mère Sandrine l'humilie et veut le payer pour qu'il parte, Chloé le défend. Au match du dimanche, Enzo reconnaît le tir de Y10 et Sandrine retourne sa veste. Hugo croit avoir trouvé l'amour vrai… mais Chloé savait depuis le début.",
+  "projet": "faux-joueur-district",
+  "projet_titre": "Le faux joueur de district",
+  "type": "unique",
+  "portraits": [
+    {
+      "id": "hugo",
+      "nom": "Hugo",
+      "ref": "refs/hugo.png",
+      "prompt": "Fiche de référence personnage : Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche, vieux survêtement bleu délavé brodé « AS Pré-Fleuri », baskets usées. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (star discrète, fier mais patient, encaisse les humiliations sans broncher), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "chloe",
+      "nom": "Chloé",
+      "ref": "refs/chloe.png",
+      "prompt": "Fiche de référence personnage : Chloé, jeune gazelle de 23 ans au pelage caramel clair, grands yeux noisette en amande, longues cornes fines et recourbées, petit collier doré avec une lettre C, pull crème oversize et jean droit. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (douce en apparence, très maligne, toujours un coup d'avance), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "sandrine",
+      "nom": "Sandrine",
+      "ref": "refs/sandrine.png",
+      "prompt": "Fiche de référence personnage : Sandrine, paonne de 52 ans aux plumes bleu-vert éclatantes, queue en éventail derrière elle, lunettes de soleil dorées sur la tête, rouge à lèvres prune, tailleur blanc cassé, gros bijoux dorés, sac de luxe doré sans logo. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (mère snob, juge tout le monde à son compte en banque, retourne sa veste en une seconde), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "enzo",
+      "nom": "Enzo",
+      "ref": "refs/enzo.png",
+      "prompt": "Fiche de référence personnage : Enzo, jeune coq de 19 ans au plumage roux flamboyant, crête rouge gominée vers l'arrière, fine moustache naissante, chaîne argentée autour du cou, survêtement noir brillant à bandes blanches, sans logo. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (petit frère chambreur, fan absolu de Y10, filme tout pour ses stories), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    }
+  ],
+  "ouverture": "Tu vas générer les images d'une vidéo. Toutes les images : format vertical 9:16, même style, mêmes personnages avec EXACTEMENT les mêmes visages, couleurs et accessoires d'une image à l'autre. Aucun sous-titre ni bulle ; le seul texte autorisé est celui que je décris dans le décor (tableau d'affichage, banderole, maillot), écrit sans faute.\n\nSTYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux.\n\nPERSONNAGES DE CET ÉPISODE (looks fixes) :\n- Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche. Tenues : vieux survêtement bleu délavé brodé « AS Pré-Fleuri », baskets usées / maillot vert délavé de l'AS Pré-Fleuri numéro 10, short noir, chaussettes basses.\n- Chloé, jeune gazelle de 23 ans au pelage caramel clair, grands yeux noisette en amande, longues cornes fines et recourbées, petit collier doré avec une lettre C. Tenues : pull crème oversize et jean droit / doudoune blanche courte sur le pull crème.\n- Sandrine, paonne de 52 ans aux plumes bleu-vert éclatantes, queue en éventail derrière elle, lunettes de soleil dorées sur la tête, rouge à lèvres prune. Tenues : tailleur blanc cassé, gros bijoux dorés, sac de luxe doré sans logo / long manteau beige, foulard en soie, grosses lunettes de soleil dorées sur le bec.\n- Enzo, jeune coq de 19 ans au plumage roux flamboyant, crête rouge gominée vers l'arrière, fine moustache naissante, chaîne argentée autour du cou. Tenue : survêtement noir brillant à bandes blanches, sans logo.\n\nSi je joins des images de référence, ce sont ces personnages : respecte-les à la lettre.\nJe vais t'envoyer \"Image 1 : …\", \"Image 2 : …\". Pour chaque message, génère uniquement l'image demandée, sans commentaire. Réponds juste OK à ce message.",
+  "refs": [
+    "refs/hugo.png",
+    "refs/sandrine.png",
+    "refs/chloe.png",
+    "refs/enzo.png"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "duree": 6,
+      "role": "accroche",
+      "titre": "Vieille voiture de Hugo · TGP",
+      "dialogues": [
+        {
+          "t": "0.2-2.2",
+          "qui": "Hugo",
+          "texte": "Ils croient que je joue en district."
+        },
+        {
+          "t": "3.8-5.6",
+          "qui": "Hugo",
+          "texte": "Je vaux 80 millions."
+        }
+      ],
+      "replique": "Ils croient que je joue en district. Je vaux 80 millions.",
+      "parle": "hugo",
+      "texte_ecran": "80 MILLIONS",
+      "image": "Image 1 : très gros plan sur le visage, les yeux remplissent le cadre, caméra à hauteur des yeux. Décor : intérieur d'une vieille petite citadine grise cabossée, sièges en tissu usés, sapin désodorisant qui pend au rétroviseur, tableau de bord fissuré, une grande villa éclairée visible par le pare-brise. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche, vieux survêtement bleu délavé brodé « AS Pré-Fleuri », baskets usées : penché vers l'objectif, sourire en coin, un sourcil levé, yeux qui brillent de malice, mains sur le volant usé. Par le pare-brise, la grande villa illuminée au loin. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Hugo se penche d'un coup vers la caméra. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : whoosh.\n[0.2-2.2s] HUGO (voix d'homme de 24 ans, calme et posée, léger accent de banlieue parisienne, complice, à voix basse) dit en français : « Ils croient que je joue en district. »\n[2-4s] Il jette un regard méfiant vers la villa par le pare-brise.\n[3.8-5.6s] HUGO (voix d'homme de 24 ans, calme et posée, léger accent de banlieue parisienne, fier, chuchoté) dit en français : « Je vaux 80 millions. »\n[4-6s] Il se retourne vers nous et fait un clin d'œil. Bruitage : petit ding.\nAmbiance sonore : moteur au ralenti, clignotant, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 2,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Vieille voiture de Hugo · PR",
+      "dialogues": [
+        {
+          "t": "0.3-3.2",
+          "qui": "Hugo",
+          "texte": "Ce soir je saurai si Chloé m'aime moi."
+        },
+        {
+          "t": "3.6-5.2",
+          "qui": "Hugo",
+          "texte": "Pas mon argent."
+        }
+      ],
+      "replique": "Ce soir je saurai si Chloé m'aime moi. Pas mon argent.",
+      "parle": "hugo",
+      "texte_ecran": "",
+      "image": "Image 2 : plan rapproché, de la tête à la poitrine, personnage de profil. Décor : intérieur d'une vieille petite citadine grise cabossée, sièges en tissu usés, sapin désodorisant qui pend au rétroviseur, tableau de bord fissuré, une grande villa éclairée visible par le pare-brise. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche, vieux survêtement bleu délavé brodé « AS Pré-Fleuri », baskets usées : regarde la villa, mâchoire serrée, se passe la langue sur les crocs. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Hugo fixe la villa, le regard dur.\n[0.3-3.2s] HUGO (voix d'homme de 24 ans, calme et posée, léger accent de banlieue parisienne, déterminé) dit en français : « Ce soir je saurai si Chloé m'aime moi. »\n[3-6s] Il arrache la clé du contact et ouvre la portière d'un coup d'épaule. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : portière qui grince.\n[3.6-5.2s] HUGO (voix d'homme de 24 ans, calme et posée, léger accent de banlieue parisienne, sec) dit en français : « Pas mon argent. »\nAmbiance sonore : moteur au ralenti, clignotant, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 3,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Salon de la villa de Sandrine · PE",
+      "dialogues": [
+        {
+          "t": "0.3-2.8",
+          "qui": "Sandrine",
+          "texte": "Donc toi, tu joues au foot le dimanche ?"
+        },
+        {
+          "t": "3.2-4.6",
+          "qui": "Hugo",
+          "texte": "Juste le dimanche, oui."
+        },
+        {
+          "t": "5.0-6.4",
+          "qui": "Enzo",
+          "texte": "Un joueur du dimanche !"
+        },
+        {
+          "t": "7.2-9.4",
+          "qui": "Sandrine",
+          "texte": "Chez nous, on vise plus haut."
+        }
+      ],
+      "replique": "Donc toi, tu joues au foot le dimanche ? Juste le dimanche, oui. Un joueur du dimanche ! Chez nous, on vise plus haut.",
+      "parle": "sandrine",
+      "texte_ecran": "",
+      "image": "Image 3 : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en plongée, au-dessus, qui écrase le personnage. Décor : salon de villa clinquante, sol en marbre blanc, canapé doré, lustre en cristal, grande table dressée avec nappe blanche et chandeliers, baies vitrées sur une piscine éclairée. Lumière : nuit, une seule lampe chaude, fortes ombres. Sandrine, paonne de 52 ans aux plumes bleu-vert éclatantes, queue en éventail derrière elle, lunettes de soleil dorées sur la tête, rouge à lèvres prune, tailleur blanc cassé, gros bijoux dorés, sac de luxe doré sans logo : en bout de table, queue déployée en éventail, baisse ses lunettes pour le toiser, sourire pincé. Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche, vieux survêtement bleu délavé brodé « AS Pré-Fleuri », baskets usées : assis droit, mains sur les genoux, sourire poli. Chloé, jeune gazelle de 23 ans au pelage caramel clair, grands yeux noisette en amande, longues cornes fines et recourbées, petit collier doré avec une lettre C, pull crème oversize et jean droit : assise à côté d'Hugo, enroule son collier autour de son doigt, gênée. Enzo, jeune coq de 19 ans au plumage roux flamboyant, crête rouge gominée vers l'arrière, fine moustache naissante, chaîne argentée autour du cou, survêtement noir brillant à bandes blanches, sans logo : affalé, ricane en filmant avec son téléphone. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 3 FIN (dernière image du plan, quelques secondes plus tard) : plan rapproché, de la tête à la poitrine, caméra en plongée, au-dessus, qui écrase le personnage. Décor : salon de villa clinquante, sol en marbre blanc, canapé doré, lustre en cristal, grande table dressée avec nappe blanche et chandeliers, baies vitrées sur une piscine éclairée. Lumière : nuit, une seule lampe chaude, fortes ombres. Enzo, jeune coq de 19 ans au plumage roux flamboyant, crête rouge gominée vers l'arrière, fine moustache naissante, chaîne argentée autour du cou, survêtement noir brillant à bandes blanches, sans logo : plié de rire, téléphone braqué sur Hugo, crête dressée. Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche, vieux survêtement bleu délavé brodé « AS Pré-Fleuri », baskets usées : au second plan, sourire figé, se passe la langue sur les crocs. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Sandrine fait tinter son verre et toise Hugo. Bruitage : tintement de cristal.\n[0.3-2.8s] SANDRINE (voix de femme de 52 ans, aiguë et hautaine, articule chaque mot, méprisante, faussement polie) dit en français : « Donc toi, tu joues au foot le dimanche ? »\n[3-5s] Hugo répond calmement, sourire poli. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant.\n[3.2-4.6s] HUGO (voix d'homme de 24 ans, calme et posée, léger accent de banlieue parisienne, calme) dit en français : « Juste le dimanche, oui. »\n[5-7s] Enzo explose de rire et manque de tomber de sa chaise. Caméra : secousse cartoon de la caméra à l'impact.\n[5.0-6.4s] ENZO (voix d'ado de 19 ans, rapide et moqueuse, monte dans les aigus quand il s'emballe, hilare) dit en français : « Un joueur du dimanche ! »\n[7-10s] Sandrine déploie sa queue en éventail, triomphante, Enzo filme Hugo de près.\n[7.2-9.4s] SANDRINE (voix de femme de 52 ans, aiguë et hautaine, articule chaque mot, glaciale) dit en français : « Chez nous, on vise plus haut. »\nAmbiance sonore : couverts qui tintent, horloge, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 4,
+      "duree": 6,
+      "role": "temoin",
+      "titre": "Salon de la villa de Sandrine · GP",
+      "dialogues": [
+        {
+          "t": "0.2-2.4",
+          "qui": "Enzo",
+          "texte": "Mon idole, c'est Y10. Un vrai joueur."
+        },
+        {
+          "t": "4.0-5.2",
+          "qui": "Enzo",
+          "texte": "Pas toi, frère."
+        }
+      ],
+      "replique": "Mon idole, c'est Y10. Un vrai joueur. Pas toi, frère.",
+      "parle": "enzo",
+      "texte_ecran": "SON IDOLE… C'EST LUI 😭",
+      "image": "Image 4 : gros plan sur le visage et le haut des épaules, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : salon de villa clinquante, sol en marbre blanc, canapé doré, lustre en cristal, grande table dressée avec nappe blanche et chandeliers, baies vitrées sur une piscine éclairée. Lumière : nuit, une seule lampe chaude, fortes ombres. Enzo, jeune coq de 19 ans au plumage roux flamboyant, crête rouge gominée vers l'arrière, fine moustache naissante, chaîne argentée autour du cou, survêtement noir brillant à bandes blanches, sans logo : secoue son téléphone sous le nez d'Hugo, torse gonflé, crête dressée. Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche, vieux survêtement bleu délavé brodé « AS Pré-Fleuri », baskets usées : de dos en amorce, immobile. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur l'écran du téléphone, le fond d'écran d'un guépard en maillot doré avec « Y10 · 80 M€ ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Enzo colle l'écran du téléphone au visage d'Hugo. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : whoosh.\n[0.2-2.4s] ENZO (voix d'ado de 19 ans, rapide et moqueuse, monte dans les aigus quand il s'emballe, moqueur) dit en français : « Mon idole, c'est Y10. Un vrai joueur. »\n[2-4s] Hugo regarde l'écran, son propre visage, et retient un sourire.\n[4-6s] Enzo range le téléphone, gonfle le torse, fier.\n[4.0-5.2s] ENZO (voix d'ado de 19 ans, rapide et moqueuse, monte dans les aigus quand il s'emballe, méprisant) dit en français : « Pas toi, frère. »\nAmbiance sonore : couverts qui tintent, horloge, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 5,
+      "duree": 10,
+      "role": "retournement",
+      "titre": "Salon de la villa de Sandrine · PT",
+      "dialogues": [
+        {
+          "t": "0.3-3.0",
+          "qui": "Sandrine",
+          "texte": "Cinq mille euros. Tu quittes ma fille."
+        },
+        {
+          "t": "5.2-6.6",
+          "qui": "Chloé",
+          "texte": "Maman, ça suffit !"
+        },
+        {
+          "t": "7.4-9.4",
+          "qui": "Chloé",
+          "texte": "Je l'aime, même en district."
+        }
+      ],
+      "replique": "Cinq mille euros. Tu quittes ma fille. Maman, ça suffit ! Je l'aime, même en district.",
+      "parle": "sandrine",
+      "texte_ecran": "",
+      "image": "Image 5 : plan taille, caméra à hauteur des yeux. Décor : salon de villa clinquante, sol en marbre blanc, canapé doré, lustre en cristal, grande table dressée avec nappe blanche et chandeliers, baies vitrées sur une piscine éclairée. Lumière : nuit, une seule lampe chaude, fortes ombres. Sandrine, paonne de 52 ans aux plumes bleu-vert éclatantes, queue en éventail derrière elle, lunettes de soleil dorées sur la tête, rouge à lèvres prune, tailleur blanc cassé, gros bijoux dorés, sac de luxe doré sans logo : se lève, pose une enveloppe épaisse sur la table, menton relevé. Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche, vieux survêtement bleu délavé brodé « AS Pré-Fleuri », baskets usées : assis, regarde l'enveloppe, impassible. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur l'enveloppe, écrit au feutre doré : « 5 000 € ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 5 FIN (dernière image du plan, quelques secondes plus tard) : gros plan sur le visage et le haut des épaules, caméra à hauteur des yeux. Décor : salon de villa clinquante, sol en marbre blanc, canapé doré, lustre en cristal, grande table dressée avec nappe blanche et chandeliers, baies vitrées sur une piscine éclairée. Lumière : nuit, une seule lampe chaude, fortes ombres. Chloé, jeune gazelle de 23 ans au pelage caramel clair, grands yeux noisette en amande, longues cornes fines et recourbées, petit collier doré avec une lettre C, pull crème oversize et jean droit : debout, repousse l'enveloppe vers sa mère, regard furieux, oreilles plaquées. Sandrine, paonne de 52 ans aux plumes bleu-vert éclatantes, queue en éventail derrière elle, lunettes de soleil dorées sur la tête, rouge à lèvres prune, tailleur blanc cassé, gros bijoux dorés, sac de luxe doré sans logo : bec grand ouvert, choquée, lunettes qui glissent. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur l'enveloppe, écrit au feutre doré : « 5 000 € ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Sandrine fait glisser l'enveloppe jusqu'à l'assiette d'Hugo. Bruitage : glissement de papier.\n[0.3-3.0s] SANDRINE (voix de femme de 52 ans, aiguë et hautaine, articule chaque mot, froide, détachée) dit en français : « Cinq mille euros. Tu quittes ma fille. »\n[3-5s] Silence, Hugo fixe l'enveloppe. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : tic-tac d'horloge.\n[5-7s] Chloé se lève d'un bond et frappe la table. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : impact sourd, couverts qui sautent.\n[5.2-6.6s] CHLOÉ (voix douce de jeune femme de 23 ans, posée, avec une pointe de malice, furieuse) dit en français : « Maman, ça suffit ! »\n[7-10s] Chloé renvoie l'enveloppe vers sa mère, Sandrine reste bec ouvert.\n[7.4-9.4s] CHLOÉ (voix douce de jeune femme de 23 ans, posée, avec une pointe de malice, ferme, menton relevé) dit en français : « Je l'aime, même en district. »\nAmbiance sonore : couverts qui tintent, horloge, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 6,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Salon de la villa de Sandrine · AMORCE",
+      "dialogues": [
+        {
+          "t": "3.2-5.4",
+          "qui": "Hugo",
+          "texte": "Elle a refusé cinq mille balles…"
+        }
+      ],
+      "replique": "Elle a refusé cinq mille balles…",
+      "parle": "hugo",
+      "texte_ecran": "",
+      "image": "Image 6 : plan par-dessus l'épaule d'un personnage flou au premier plan, vers celui qui parle, caméra à hauteur des yeux. Décor : salon de villa clinquante, sol en marbre blanc, canapé doré, lustre en cristal, grande table dressée avec nappe blanche et chandeliers, baies vitrées sur une piscine éclairée. Lumière : nuit, une seule lampe chaude, fortes ombres. Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche, vieux survêtement bleu délavé brodé « AS Pré-Fleuri », baskets usées : regarde Chloé, ému, se passe la langue sur les crocs pour ne pas sourire. Chloé, jeune gazelle de 23 ans au pelage caramel clair, grands yeux noisette en amande, longues cornes fines et recourbées, petit collier doré avec une lettre C, pull crème oversize et jean droit : de dos en amorce, lui serre la main. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Chloé serre fort la main d'Hugo.\n[3-6s] Hugo regarde la caméra, bouleversé, sourire qui craque. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : petit battement de cœur.\n[3.2-5.4s] HUGO (voix d'homme de 24 ans, calme et posée, léger accent de banlieue parisienne, chuchoté à la caméra, ému) dit en français : « Elle a refusé cinq mille balles… »\nAmbiance sonore : couverts qui tintent, horloge, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 7,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Terrain de l'AS Pré-Fleuri · PA",
+      "dialogues": [
+        {
+          "t": "0.2-2.8",
+          "qui": "Enzo",
+          "texte": "Venez voir, il va tout rater !"
+        },
+        {
+          "t": "3.4-5.2",
+          "qui": "Sandrine",
+          "texte": "Quelle perte de temps."
+        }
+      ],
+      "replique": "Venez voir, il va tout rater ! Quelle perte de temps.",
+      "parle": "enzo",
+      "texte_ecran": "Elle l'aime vraiment, tu crois ? 🤔",
+      "image": "Image 7 : plan américain, de la tête aux genoux, caméra à hauteur des yeux. Décor : petit terrain de foot synthétique de district usé, grillage vert, tribune en bois de trois rangs, panneau « AS Pré-Fleuri » peint à la main, une vingtaine de spectateurs en doudoune. Lumière : lumière naturelle de jour, ombres nettes. Enzo, jeune coq de 19 ans au plumage roux flamboyant, crête rouge gominée vers l'arrière, fine moustache naissante, chaîne argentée autour du cou, survêtement noir brillant à bandes blanches, sans logo : au bord du grillage, filme en riant, fait de grands signes aux spectateurs. Sandrine, paonne de 52 ans aux plumes bleu-vert éclatantes, queue en éventail derrière elle, lunettes de soleil dorées sur la tête, rouge à lèvres prune, long manteau beige, foulard en soie, grosses lunettes de soleil dorées sur le bec : derrière lui dans la tribune en bois, lunettes de soleil sur le bec, bras croisés. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : panneau peint à la main « AS PRÉ-FLEURI ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Enzo tourne son téléphone vers le terrain en ricanant. Bruitage : sifflet du coup d'envoi.\n[0.2-2.8s] ENZO (voix d'ado de 19 ans, rapide et moqueuse, monte dans les aigus quand il s'emballe, surexcité, moqueur) dit en français : « Venez voir, il va tout rater ! »\n[3-6s] Sandrine soupire et regarde sa montre. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant.\n[3.4-5.2s] SANDRINE (voix de femme de 52 ans, aiguë et hautaine, articule chaque mot, blasée) dit en français : « Quelle perte de temps. »\nAmbiance sonore : cris lointains de joueurs, coup de sifflet, vent, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 8,
+      "duree": 10,
+      "role": "retournement",
+      "titre": "Terrain de l'AS Pré-Fleuri · PE",
+      "dialogues": [
+        {
+          "t": "7.6-8.6",
+          "qui": "Enzo",
+          "texte": "QUOI ?!"
+        }
+      ],
+      "replique": "QUOI ?!",
+      "parle": "enzo",
+      "texte_ecran": "",
+      "image": "Image 8 : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : petit terrain de foot synthétique de district usé, grillage vert, tribune en bois de trois rangs, panneau « AS Pré-Fleuri » peint à la main, une vingtaine de spectateurs en doudoune. Lumière : lumière naturelle de jour, ombres nettes. Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche, maillot vert délavé de l'AS Pré-Fleuri numéro 10, short noir, chaussettes basses : court balle au pied, regard de tueur, trois défenseurs animaux à ses trousses. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : petit tableau d'affichage en bois : « AS PRÉ-FLEURI 0 – 0 ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 8 FIN (dernière image du plan, quelques secondes plus tard) : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : petit terrain de foot synthétique de district usé, grillage vert, tribune en bois de trois rangs, panneau « AS Pré-Fleuri » peint à la main, une vingtaine de spectateurs en doudoune. Lumière : lumière naturelle de jour, ombres nettes. Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche, maillot vert délavé de l'AS Pré-Fleuri numéro 10, short noir, chaussettes basses : de dos, bras écartés, immobile, le ballon au fond des filets en pleine lucarne. La tribune entière debout, bouche bée. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : petit tableau d'affichage en bois : « AS PRÉ-FLEURI 0 – 0 ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Hugo dribble deux défenseurs d'un crochet éclair. Caméra : caméra qui court au ras du sol avec le personnage. Bruitage : crampons sur le synthétique.\n[3-5s] Il arme une frappe du gauche de 35 mètres. Caméra : ralenti dramatique d'une seconde puis reprise à vitesse normale. Bruitage : souffle ralenti.\n[5-7s] Le ballon file en pleine lucarne. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : filet qui claque.\n[7-10s] Silence total, toute la tribune se lève bouche bée.\n[7.6-8.6s] ENZO (hors champ) (voix d'ado de 19 ans, rapide et moqueuse, monte dans les aigus quand il s'emballe, hurle, voix qui part dans les aigus) dit en français : « QUOI ?! »\nAmbiance sonore : cris lointains de joueurs, coup de sifflet, vent, un corbeau croasse dans le silence, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 9,
+      "duree": 6,
+      "role": "temoin",
+      "titre": "Terrain de l'AS Pré-Fleuri · TGP",
+      "dialogues": [
+        {
+          "t": "0.3-2.2",
+          "qui": "Enzo",
+          "texte": "Attends… ce tir du gauche…"
+        },
+        {
+          "t": "4.0-5.8",
+          "qui": "Enzo",
+          "texte": "C'EST Y10 !"
+        }
+      ],
+      "replique": "Attends… ce tir du gauche… C'EST Y10 !",
+      "parle": "enzo",
+      "texte_ecran": "C'ÉTAIT Y10 😳",
+      "image": "Image 9 : très gros plan sur le visage, les yeux remplissent le cadre, cadre légèrement penché pour le malaise. Décor : petit terrain de foot synthétique de district usé, grillage vert, tribune en bois de trois rangs, panneau « AS Pré-Fleuri » peint à la main, une vingtaine de spectateurs en doudoune. Lumière : lumière naturelle de jour, ombres nettes. Enzo, jeune coq de 19 ans au plumage roux flamboyant, crête rouge gominée vers l'arrière, fine moustache naissante, chaîne argentée autour du cou, survêtement noir brillant à bandes blanches, sans logo : yeux exorbités, crête dressée à la verticale, regarde son fond d'écran puis le terrain. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Enzo regarde son fond d'écran. Bruitage : ding.\n[0.3-2.2s] ENZO (voix d'ado de 19 ans, rapide et moqueuse, monte dans les aigus quand il s'emballe, bégaie, sous le choc) dit en français : « Attends… ce tir du gauche… »\n[2-4s] Il relève la tête vers le terrain, puis l'écran, puis le terrain. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant.\n[4-6s] Son téléphone lui glisse des mains. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : téléphone qui tombe.\n[4.0-5.8s] ENZO (voix d'ado de 19 ans, rapide et moqueuse, monte dans les aigus quand il s'emballe, hurle) dit en français : « C'EST Y10 ! »\nAmbiance sonore : cris lointains de joueurs, coup de sifflet, vent, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 10,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Terrain de l'AS Pré-Fleuri · PA",
+      "dialogues": [
+        {
+          "t": "0.3-2.4",
+          "qui": "Sandrine",
+          "texte": "Mon gendre adoré !"
+        },
+        {
+          "t": "3.0-5.4",
+          "qui": "Sandrine",
+          "texte": "Tu restes dîner ce soir, hein ?"
+        }
+      ],
+      "replique": "Mon gendre adoré ! Tu restes dîner ce soir, hein ?",
+      "parle": "sandrine",
+      "texte_ecran": "",
+      "image": "Image 10 : plan américain, de la tête aux genoux, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : petit terrain de foot synthétique de district usé, grillage vert, tribune en bois de trois rangs, panneau « AS Pré-Fleuri » peint à la main, une vingtaine de spectateurs en doudoune. Lumière : lumière naturelle de jour, ombres nettes. Sandrine, paonne de 52 ans aux plumes bleu-vert éclatantes, queue en éventail derrière elle, lunettes de soleil dorées sur la tête, rouge à lèvres prune, long manteau beige, foulard en soie, grosses lunettes de soleil dorées sur le bec : bondit dans la tribune, agite les deux ailes, queue déployée, sourire énorme. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Sandrine arrache ses lunettes et sautille dans la tribune. Bruitage : cris de la foule.\n[0.3-2.4s] SANDRINE (voix de femme de 52 ans, aiguë et hautaine, articule chaque mot, hystérique, mielleuse) dit en français : « Mon gendre adoré ! »\n[3-6s] Elle envoie des bisous vers le terrain des deux ailes.\n[3.0-5.4s] SANDRINE (voix de femme de 52 ans, aiguë et hautaine, articule chaque mot, suppliante) dit en français : « Tu restes dîner ce soir, hein ? »\nAmbiance sonore : cris lointains de joueurs, coup de sifflet, vent, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 11,
+      "duree": 6,
+      "role": "climax",
+      "titre": "Parking du stade la nuit · PR",
+      "dialogues": [
+        {
+          "t": "0.3-2.8",
+          "qui": "Hugo",
+          "texte": "Tu m'as choisi sans l'argent."
+        },
+        {
+          "t": "3.2-4.6",
+          "qui": "Chloé",
+          "texte": "Toujours, mon cœur."
+        }
+      ],
+      "replique": "Tu m'as choisi sans l'argent. Toujours, mon cœur.",
+      "parle": "hugo",
+      "texte_ecran": "",
+      "image": "Image 11 : plan rapproché, de la tête à la poitrine, caméra à hauteur des yeux. Décor : parking en gravier derrière le petit stade, de nuit, un seul lampadaire orange, la vieille citadine grise cabossée garée seule, projecteurs du terrain éteints au loin. Lumière : nuit bleutée au clair de lune. Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche, maillot vert délavé de l'AS Pré-Fleuri numéro 10, short noir, chaussettes basses : adossé à la vieille voiture, sourire tendre. Chloé, jeune gazelle de 23 ans au pelage caramel clair, grands yeux noisette en amande, longues cornes fines et recourbées, petit collier doré avec une lettre C, doudoune blanche courte sur le pull crème : face à lui, les yeux brillants. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Hugo ouvre les bras vers Chloé.\n[0.3-2.8s] HUGO (voix d'homme de 24 ans, calme et posée, léger accent de banlieue parisienne, sincère, doux) dit en français : « Tu m'as choisi sans l'argent. »\n[3-6s] Chloé se jette dans ses bras. Bruitage : grillons.\n[3.2-4.6s] CHLOÉ (voix douce de jeune femme de 23 ans, posée, avec une pointe de malice, douce) dit en français : « Toujours, mon cœur. »\nAmbiance sonore : grillons, bourdonnement du lampadaire, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 12,
+      "duree": 10,
+      "role": "cliff",
+      "titre": "Parking du stade la nuit · GP",
+      "dialogues": [
+        {
+          "t": "3.4-5.4",
+          "qui": "Chloé",
+          "texte": "Quatre-vingts millions…"
+        },
+        {
+          "t": "6.2-8.6",
+          "qui": "Chloé",
+          "texte": "Et il croit que je sais rien."
+        }
+      ],
+      "replique": "Quatre-vingts millions… Et il croit que je sais rien.",
+      "parle": "chloe",
+      "texte_ecran": "ELLE SAVAIT 😈",
+      "image": "Image 12 : gros plan sur le visage et le haut des épaules, caméra à hauteur des yeux. Décor : parking en gravier derrière le petit stade, de nuit, un seul lampadaire orange, la vieille citadine grise cabossée garée seule, projecteurs du terrain éteints au loin. Lumière : nuit bleutée au clair de lune. Chloé, jeune gazelle de 23 ans au pelage caramel clair, grands yeux noisette en amande, longues cornes fines et recourbées, petit collier doré avec une lettre C, doudoune blanche courte sur le pull crème : menton posé sur l'épaule d'Hugo, yeux fermés, sourire tendre. Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche, maillot vert délavé de l'AS Pré-Fleuri numéro 10, short noir, chaussettes basses : de dos, la serre dans ses bras. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 12 FIN (dernière image du plan, quelques secondes plus tard) : très gros plan sur le visage, les yeux remplissent le cadre, caméra à hauteur des yeux. Décor : parking en gravier derrière le petit stade, de nuit, un seul lampadaire orange, la vieille citadine grise cabossée garée seule, projecteurs du terrain éteints au loin. Lumière : nuit bleutée au clair de lune. Chloé, jeune gazelle de 23 ans au pelage caramel clair, grands yeux noisette en amande, longues cornes fines et recourbées, petit collier doré avec une lettre C, doudoune blanche courte sur le pull crème : yeux grands ouverts tournés vers l'objectif, sourire en coin diabolique, penche la tête, enroule son collier autour du doigt. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Chloé enlace Hugo, yeux fermés, l'air amoureuse.\n[3-6s] Elle ouvre lentement les yeux vers la caméra. Caméra : lent travelling avant vers le visage. Bruitage : note grave.\n[3.4-5.4s] CHLOÉ (voix douce de jeune femme de 23 ans, posée, avec une pointe de malice, chuchoté, complice avec le spectateur) dit en français : « Quatre-vingts millions… »\n[6-8s] Sourire en coin diabolique. Caméra : zoom éclair sur le visage au moment de la réplique-choc.\n[6.2-8.6s] CHLOÉ (voix douce de jeune femme de 23 ans, posée, avec une pointe de malice, chuchoté, malicieux) dit en français : « Et il croit que je sais rien. »\n[8-10s] Elle fait un clin d'œil lent à la caméra. Bruitage : ding.\nAmbiance sonore : grillons, bourdonnement du lampadaire, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    }
+  ],
+  "titre_couverture": "Il vaut 80 M€, elle le savait ?",
+  "publication": "Il s'est fait passer pour un joueur de district pour tester sa copine… La belle-mère n'a rien vu venir 😳 Et Chloé, elle l'aime vraiment ?\n\n#foot #histoire #testdamour #animaux #ia #drama",
+  "commentaire": "Chloé l'aime vraiment ? ❤️ Oui, elle l'a défendu / 💰 Non, elle visait les millions",
+  "texte_accroche": "Il vaut 80 millions en secret",
+  "hooks_alternatifs": [
+    "Ma belle-mère m'a proposé 5 000 € pour partir. Je vaux 80 millions.",
+    "Son petit frère a mon visage en fond d'écran. Il me reconnaît pas.",
+    "J'ai joué en district pour tester ma copine. Elle a fait pire."
+  ],
+  "question_milieu": {
+    "plan": 7,
+    "texte": "Elle l'aime vraiment, tu crois ? 🤔"
+  },
+  "duree_totale": 88
+}

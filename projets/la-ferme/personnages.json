@@ -1,0 +1,159 @@
+{
+  "_lisez_moi": "ADN = description copiée MOT POUR MOT dans chaque prompt image où le personnage apparaît. Ne jamais la paraphraser ailleurs. voix = copiée mot pour mot dans chaque prompt Grok. Modifie librement, la cohérence suit automatiquement.",
+  "personnages": [
+    {
+      "adn": "Gérard, taureau noir massif aux grandes cornes claires, petite cicatrice blanche sur le museau, anneau doré au nez",
+      "animal": "taureau",
+      "caractere": "naïf, gentil, colérique quand il comprend, très fier",
+      "id": "gerard",
+      "nom": "Gérard",
+      "objectif": "rendre Vanessa heureuse avec ses 15 millions",
+      "ref": "refs/gerard.png",
+      "replique_fetiche": "Oh, c'est pas possible ça !",
+      "secret": "a gagné 15 millions au loto",
+      "tenues": {
+        "base": "marcel blanc, chaîne en or épaisse",
+        "chic": "costume bleu marine trop petit, chemise blanche, chaîne en or",
+        "nuit": "peignoir bordeaux ouvert sur le marcel"
+      },
+      "tics": [
+        "souffle bruyamment par les naseaux quand il s'énerve",
+        "tapote son torse quand il est fier",
+        "gratte le sol avec un sabot"
+      ],
+      "voix": "voix grave d'homme de 45 ans, accent populaire du sud de la France"
+    },
+    {
+      "adn": "Vanessa, vache blanche tachée de noir, longs faux cils, rouge à lèvres rouge, ongles longs rouges, boucles d'oreilles créoles dorées",
+      "animal": "vache",
+      "caractere": "manipulatrice, menteuse parfaite, ambitieuse, jamais prise au dépourvu… sauf rarement",
+      "id": "vanessa",
+      "nom": "Vanessa",
+      "objectif": "divorcer et prendre l'argent de Gérard",
+      "ref": "refs/vanessa.png",
+      "replique_fetiche": "Mon chéri…",
+      "secret": "trompe Gérard avec Kevin depuis 3 ans",
+      "tenues": {
+        "base": "robe moulante léopard, sac de marque au bras",
+        "chic": "robe rouge de soirée, talons",
+        "nuit": "long pyjama en satin noir boutonné jusqu'au cou"
+      },
+      "tics": [
+        "lève les yeux au ciel",
+        "examine ses ongles en parlant",
+        "sourire en coin"
+      ],
+      "voix": "voix de femme de 38 ans, sûre d'elle, sèche et méprisante"
+    },
+    {
+      "adn": "Kevin, coq roux flamboyant à crête rouge vif, lunettes de soleil miroir, gourmette en or au poignet",
+      "animal": "coq",
+      "caractere": "patron de la ferme, beau parleur, lâche dès que ça chauffe",
+      "id": "kevin",
+      "nom": "Kevin",
+      "objectif": "garder Vanessa ET mettre la main sur l'argent",
+      "ref": "refs/kevin.png",
+      "replique_fetiche": "Détends-toi, mon frère.",
+      "secret": "est criblé de dettes",
+      "tenues": {
+        "base": "chemise blanche ouverte sur le poitrail, pantalon beige",
+        "chic": "costume blanc, chemise ouverte",
+        "nuit": "pyjama léopard et robe de chambre"
+      },
+      "tics": [
+        "remonte ses lunettes sur sa crête",
+        "bombe le torse",
+        "rire aigu quand il a peur"
+      ],
+      "voix": "voix d'homme de 30 ans, frimeur, rapide, un peu nasillarde"
+    },
+    {
+      "adn": "Bernard, cochon rose rondouillard, casquette noire à l'envers, petite moustache",
+      "animal": "cochon",
+      "caractere": "meilleur pote de Gérard, lâche, drôle, transpire quand il ment",
+      "id": "bernard",
+      "nom": "Bernard",
+      "objectif": "ne pas se mêler des histoires",
+      "ref": "refs/bernard.png",
+      "replique_fetiche": "Moi j'ai rien vu, rien entendu !",
+      "secret": "sait depuis 6 mois que Vanessa trompe Gérard",
+      "tenues": {
+        "base": "survêtement gris taché",
+        "chic": "chemise hawaïenne trop grande",
+        "nuit": "pyjama à rayures"
+      },
+      "tics": [
+        "transpire à grosses gouttes",
+        "s'essuie le front avec sa casquette",
+        "mange tout le temps"
+      ],
+      "voix": "voix d'homme de 40 ans, nerveuse, essoufflée, qui part dans les aigus quand il panique"
+    },
+    {
+      "adn": "Josiane, poule brune âgée aux plumes ébouriffées, bigoudis roses sur la tête, smartphone toujours à la main",
+      "animal": "poule",
+      "caractere": "commère du village, voit tout, filme tout, adore le drame",
+      "id": "josiane",
+      "nom": "Josiane",
+      "objectif": "être au centre de l'histoire",
+      "ref": "refs/josiane.png",
+      "replique_fetiche": "Oh punaise, ça je le poste !",
+      "secret": "a filmé Vanessa et Kevin",
+      "tenues": {
+        "base": "robe de chambre fleurie et chaussons",
+        "chic": "tailleur violet et collier de perles",
+        "nuit": "chemise de nuit et masque de nuit sur le front"
+      },
+      "tics": [
+        "filme tout avec son téléphone",
+        "plaque une aile sur son bec",
+        "caquette quand elle est choquée"
+      ],
+      "voix": "voix de femme de 60 ans, aiguë, excitée, qui chuchote fort"
+    },
+    {
+      "adn": "Huguette, vieille chèvre grise à barbichette blanche, lunettes en pendentif sur une chaîne",
+      "animal": "chèvre",
+      "caractere": "mère de Vanessa, belle-mère toxique, cerveau de l'arnaque",
+      "id": "huguette",
+      "nom": "Huguette",
+      "objectif": "récupérer l'argent pour elle",
+      "ref": "refs/huguette.png",
+      "replique_fetiche": "Je l'ai toujours dit, moi…",
+      "secret": "manipule Vanessa autant que Gérard",
+      "tenues": {
+        "base": "gilet beige boutonné et jupe plissée",
+        "chic": "manteau de fourrure synthétique et chapeau",
+        "nuit": "robe de chambre matelassée"
+      },
+      "tics": [
+        "ajuste ses lunettes avant de lâcher une horreur",
+        "mâchonne quelque chose",
+        "tapote sa canne"
+      ],
+      "voix": "voix de vieille dame de 75 ans, venimeuse, lente"
+    },
+    {
+      "adn": "Steeve, renard roux élancé au sourire carnassier, dent en or bien visible",
+      "animal": "renard",
+      "caractere": "escroc, réapparaît toujours quand il y a de l'argent",
+      "id": "steeve",
+      "nom": "Steeve",
+      "objectif": "arnaquer tout le monde",
+      "ref": "refs/steeve.png",
+      "replique_fetiche": "Je suis là pour aider, moi.",
+      "secret": "est le fils caché d'Huguette",
+      "tenues": {
+        "base": "costume gris brillant trop serré, chemise noire",
+        "chic": "smoking violet",
+        "nuit": "survêtement de marque"
+      },
+      "tics": [
+        "fait tourner une pièce entre ses doigts",
+        "sourire en coin qui montre la dent en or"
+      ],
+      "voix": "voix d'homme de 35 ans, mielleuse, très calme"
+    }
+  ],
+  "style": "Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin."
+}

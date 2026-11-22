@@ -1,0 +1,967 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 3.64,
+      "texte": "Ma chérie, j'ai trouvé le trésor ! Regarde-moi ça, il est rempli d'or !"
+    },
+    {
+      "debut": 3.64,
+      "fin": 5.48,
+      "texte": "Gabrielle, mon dieu, tu es vivant !"
+    },
+    {
+      "debut": 6.0,
+      "fin": 8.58,
+      "texte": "Remonte le coffre en premier, on ne peut pas risquer de perdre tout ça !"
+    },
+    {
+      "debut": 8.58,
+      "fin": 11.74,
+      "texte": "D'accord, envoie-moi la corde !"
+    },
+    {
+      "debut": 11.74,
+      "fin": 15.12,
+      "texte": "Avec tout cet argent, on va enfin pouvoir se payer la maison de nos rêves !"
+    },
+    {
+      "debut": 15.12,
+      "fin": 17.76,
+      "texte": "Oui mon chéri, on l'aura bien mérité."
+    },
+    {
+      "debut": 18.14,
+      "fin": 21.74,
+      "texte": "Ça y est, le coffre est en sécurité ! Attrape la corde, je te remonte !"
+    },
+    {
+      "debut": 21.74,
+      "fin": 24.72,
+      "texte": "Vas-y, j'ai beaucoup trop froid dans l'eau, je suis à bout de force !"
+    },
+    {
+      "debut": 25.66,
+      "fin": 28.86,
+      "texte": "Tu pensais vraiment que j'allais partager tout cet or avec toi ?"
+    },
+    {
+      "debut": 28.86,
+      "fin": 32.16,
+      "texte": "Attends mon cœur, qu'est-ce que tu me racontes ?"
+    },
+    {
+      "debut": 32.16,
+      "fin": 36.92,
+      "texte": "Merci pour le trésor mon amour, maintenant je vais vivre la vie dont on rêvait sans toi."
+    },
+    {
+      "debut": 44.5,
+      "fin": 45.3,
+      "texte": "Reviens !"
+    },
+    {
+      "debut": 45.3,
+      "fin": 48.72,
+      "texte": "Non non non, je ne peux pas mourir ici, je dois récupérer le trésor !"
+    },
+    {
+      "debut": 49.36,
+      "fin": 50.72,
+      "texte": "Non, reste loin de moi !"
+    },
+    {
+      "debut": 51.54,
+      "fin": 52.72,
+      "texte": "C'est quoi ce bruit ?"
+    },
+    {
+      "debut": 53.84,
+      "fin": 57.14,
+      "texte": "Oh non !"
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.0,
+      "fin": 0.44,
+      "mot": "Ma"
+    },
+    {
+      "debut": 0.44,
+      "fin": 0.74,
+      "mot": "chérie,"
+    },
+    {
+      "debut": 0.98,
+      "fin": 1.06,
+      "mot": "j"
+    },
+    {
+      "debut": 1.06,
+      "fin": 1.16,
+      "mot": "'ai"
+    },
+    {
+      "debut": 1.16,
+      "fin": 1.3,
+      "mot": "trouvé"
+    },
+    {
+      "debut": 1.3,
+      "fin": 1.44,
+      "mot": "le"
+    },
+    {
+      "debut": 1.44,
+      "fin": 1.86,
+      "mot": "trésor"
+    },
+    {
+      "debut": 1.86,
+      "fin": 2.16,
+      "mot": "!"
+    },
+    {
+      "debut": 2.16,
+      "fin": 2.3,
+      "mot": "Regarde"
+    },
+    {
+      "debut": 2.3,
+      "fin": 2.48,
+      "mot": "-moi"
+    },
+    {
+      "debut": 2.48,
+      "fin": 2.68,
+      "mot": "ça,"
+    },
+    {
+      "debut": 2.72,
+      "fin": 2.86,
+      "mot": "il"
+    },
+    {
+      "debut": 2.86,
+      "fin": 2.98,
+      "mot": "est"
+    },
+    {
+      "debut": 2.98,
+      "fin": 3.22,
+      "mot": "rempli"
+    },
+    {
+      "debut": 3.22,
+      "fin": 3.42,
+      "mot": "d"
+    },
+    {
+      "debut": 3.42,
+      "fin": 3.44,
+      "mot": "'or"
+    },
+    {
+      "debut": 3.44,
+      "fin": 3.64,
+      "mot": "!"
+    },
+    {
+      "debut": 3.64,
+      "fin": 4.08,
+      "mot": "Gabrielle,"
+    },
+    {
+      "debut": 4.18,
+      "fin": 4.3,
+      "mot": "mon"
+    },
+    {
+      "debut": 4.3,
+      "fin": 4.52,
+      "mot": "dieu,"
+    },
+    {
+      "debut": 4.52,
+      "fin": 4.6,
+      "mot": "tu"
+    },
+    {
+      "debut": 4.6,
+      "fin": 4.76,
+      "mot": "es"
+    },
+    {
+      "debut": 4.76,
+      "fin": 5.2,
+      "mot": "vivant"
+    },
+    {
+      "debut": 5.2,
+      "fin": 5.48,
+      "mot": "!"
+    },
+    {
+      "debut": 6.0,
+      "fin": 6.28,
+      "mot": "Remonte"
+    },
+    {
+      "debut": 6.28,
+      "fin": 6.48,
+      "mot": "le"
+    },
+    {
+      "debut": 6.48,
+      "fin": 6.64,
+      "mot": "coffre"
+    },
+    {
+      "debut": 6.64,
+      "fin": 6.8,
+      "mot": "en"
+    },
+    {
+      "debut": 6.8,
+      "fin": 7.02,
+      "mot": "premier,"
+    },
+    {
+      "debut": 7.2,
+      "fin": 7.32,
+      "mot": "on"
+    },
+    {
+      "debut": 7.32,
+      "fin": 7.48,
+      "mot": "ne"
+    },
+    {
+      "debut": 7.48,
+      "fin": 7.48,
+      "mot": "peut"
+    },
+    {
+      "debut": 7.48,
+      "fin": 7.6,
+      "mot": "pas"
+    },
+    {
+      "debut": 7.6,
+      "fin": 7.82,
+      "mot": "risquer"
+    },
+    {
+      "debut": 7.82,
+      "fin": 7.94,
+      "mot": "de"
+    },
+    {
+      "debut": 7.94,
+      "fin": 8.06,
+      "mot": "perdre"
+    },
+    {
+      "debut": 8.06,
+      "fin": 8.28,
+      "mot": "tout"
+    },
+    {
+      "debut": 8.28,
+      "fin": 8.44,
+      "mot": "ça"
+    },
+    {
+      "debut": 8.44,
+      "fin": 8.58,
+      "mot": "!"
+    },
+    {
+      "debut": 8.58,
+      "fin": 8.8,
+      "mot": "D"
+    },
+    {
+      "debut": 8.8,
+      "fin": 8.94,
+      "mot": "'accord,"
+    },
+    {
+      "debut": 9.02,
+      "fin": 9.18,
+      "mot": "envoie"
+    },
+    {
+      "debut": 9.18,
+      "fin": 9.3,
+      "mot": "-moi"
+    },
+    {
+      "debut": 9.3,
+      "fin": 9.48,
+      "mot": "la"
+    },
+    {
+      "debut": 9.48,
+      "fin": 10.9,
+      "mot": "corde"
+    },
+    {
+      "debut": 10.9,
+      "fin": 11.74,
+      "mot": "!"
+    },
+    {
+      "debut": 11.74,
+      "fin": 11.96,
+      "mot": "Avec"
+    },
+    {
+      "debut": 11.96,
+      "fin": 12.16,
+      "mot": "tout"
+    },
+    {
+      "debut": 12.16,
+      "fin": 12.36,
+      "mot": "cet"
+    },
+    {
+      "debut": 12.36,
+      "fin": 12.66,
+      "mot": "argent,"
+    },
+    {
+      "debut": 12.8,
+      "fin": 12.9,
+      "mot": "on"
+    },
+    {
+      "debut": 12.9,
+      "fin": 13.06,
+      "mot": "va"
+    },
+    {
+      "debut": 13.06,
+      "fin": 13.32,
+      "mot": "enfin"
+    },
+    {
+      "debut": 13.32,
+      "fin": 13.58,
+      "mot": "pouvoir"
+    },
+    {
+      "debut": 13.58,
+      "fin": 13.8,
+      "mot": "se"
+    },
+    {
+      "debut": 13.8,
+      "fin": 13.92,
+      "mot": "payer"
+    },
+    {
+      "debut": 13.92,
+      "fin": 14.08,
+      "mot": "la"
+    },
+    {
+      "debut": 14.08,
+      "fin": 14.3,
+      "mot": "maison"
+    },
+    {
+      "debut": 14.3,
+      "fin": 14.46,
+      "mot": "de"
+    },
+    {
+      "debut": 14.46,
+      "fin": 14.56,
+      "mot": "nos"
+    },
+    {
+      "debut": 14.56,
+      "fin": 14.9,
+      "mot": "rêves"
+    },
+    {
+      "debut": 14.9,
+      "fin": 15.12,
+      "mot": "!"
+    },
+    {
+      "debut": 15.12,
+      "fin": 15.34,
+      "mot": "Oui"
+    },
+    {
+      "debut": 15.34,
+      "fin": 15.54,
+      "mot": "mon"
+    },
+    {
+      "debut": 15.54,
+      "fin": 15.92,
+      "mot": "chéri,"
+    },
+    {
+      "debut": 16.3,
+      "fin": 16.46,
+      "mot": "on"
+    },
+    {
+      "debut": 16.46,
+      "fin": 16.56,
+      "mot": "l"
+    },
+    {
+      "debut": 16.56,
+      "fin": 16.76,
+      "mot": "'aura"
+    },
+    {
+      "debut": 16.76,
+      "fin": 16.96,
+      "mot": "bien"
+    },
+    {
+      "debut": 16.96,
+      "fin": 17.76,
+      "mot": "mérité."
+    },
+    {
+      "debut": 18.14,
+      "fin": 18.34,
+      "mot": "Ça"
+    },
+    {
+      "debut": 18.34,
+      "fin": 18.44,
+      "mot": "y"
+    },
+    {
+      "debut": 18.44,
+      "fin": 18.72,
+      "mot": "est,"
+    },
+    {
+      "debut": 18.86,
+      "fin": 19.02,
+      "mot": "le"
+    },
+    {
+      "debut": 19.02,
+      "fin": 19.26,
+      "mot": "coffre"
+    },
+    {
+      "debut": 19.26,
+      "fin": 19.36,
+      "mot": "est"
+    },
+    {
+      "debut": 19.36,
+      "fin": 19.52,
+      "mot": "en"
+    },
+    {
+      "debut": 19.52,
+      "fin": 19.98,
+      "mot": "sécurité"
+    },
+    {
+      "debut": 19.98,
+      "fin": 20.32,
+      "mot": "!"
+    },
+    {
+      "debut": 20.32,
+      "fin": 20.6,
+      "mot": "Attrape"
+    },
+    {
+      "debut": 20.6,
+      "fin": 20.84,
+      "mot": "la"
+    },
+    {
+      "debut": 20.84,
+      "fin": 20.98,
+      "mot": "corde,"
+    },
+    {
+      "debut": 21.0,
+      "fin": 21.12,
+      "mot": "je"
+    },
+    {
+      "debut": 21.12,
+      "fin": 21.3,
+      "mot": "te"
+    },
+    {
+      "debut": 21.3,
+      "fin": 21.58,
+      "mot": "remonte"
+    },
+    {
+      "debut": 21.58,
+      "fin": 21.74,
+      "mot": "!"
+    },
+    {
+      "debut": 21.74,
+      "fin": 22.04,
+      "mot": "Vas"
+    },
+    {
+      "debut": 22.04,
+      "fin": 22.04,
+      "mot": "-y,"
+    },
+    {
+      "debut": 22.06,
+      "fin": 22.18,
+      "mot": "j"
+    },
+    {
+      "debut": 22.18,
+      "fin": 22.24,
+      "mot": "'ai"
+    },
+    {
+      "debut": 22.24,
+      "fin": 22.48,
+      "mot": "beaucoup"
+    },
+    {
+      "debut": 22.48,
+      "fin": 22.72,
+      "mot": "trop"
+    },
+    {
+      "debut": 22.72,
+      "fin": 22.86,
+      "mot": "froid"
+    },
+    {
+      "debut": 22.86,
+      "fin": 23.02,
+      "mot": "dans"
+    },
+    {
+      "debut": 23.02,
+      "fin": 23.12,
+      "mot": "l"
+    },
+    {
+      "debut": 23.12,
+      "fin": 23.22,
+      "mot": "'eau,"
+    },
+    {
+      "debut": 23.28,
+      "fin": 23.44,
+      "mot": "je"
+    },
+    {
+      "debut": 23.44,
+      "fin": 23.66,
+      "mot": "suis"
+    },
+    {
+      "debut": 23.66,
+      "fin": 23.78,
+      "mot": "à"
+    },
+    {
+      "debut": 23.78,
+      "fin": 23.86,
+      "mot": "bout"
+    },
+    {
+      "debut": 23.86,
+      "fin": 24.08,
+      "mot": "de"
+    },
+    {
+      "debut": 24.08,
+      "fin": 24.3,
+      "mot": "force"
+    },
+    {
+      "debut": 24.3,
+      "fin": 24.72,
+      "mot": "!"
+    },
+    {
+      "debut": 25.66,
+      "fin": 25.9,
+      "mot": "Tu"
+    },
+    {
+      "debut": 25.9,
+      "fin": 26.24,
+      "mot": "pensais"
+    },
+    {
+      "debut": 26.24,
+      "fin": 26.64,
+      "mot": "vraiment"
+    },
+    {
+      "debut": 26.64,
+      "fin": 26.76,
+      "mot": "que"
+    },
+    {
+      "debut": 26.76,
+      "fin": 26.86,
+      "mot": "j"
+    },
+    {
+      "debut": 26.86,
+      "fin": 27.02,
+      "mot": "'allais"
+    },
+    {
+      "debut": 27.02,
+      "fin": 27.48,
+      "mot": "partager"
+    },
+    {
+      "debut": 27.48,
+      "fin": 27.74,
+      "mot": "tout"
+    },
+    {
+      "debut": 27.74,
+      "fin": 27.92,
+      "mot": "cet"
+    },
+    {
+      "debut": 27.92,
+      "fin": 28.1,
+      "mot": "or"
+    },
+    {
+      "debut": 28.1,
+      "fin": 28.38,
+      "mot": "avec"
+    },
+    {
+      "debut": 28.38,
+      "fin": 28.6,
+      "mot": "toi"
+    },
+    {
+      "debut": 28.6,
+      "fin": 28.86,
+      "mot": "?"
+    },
+    {
+      "debut": 28.86,
+      "fin": 29.14,
+      "mot": "Attends"
+    },
+    {
+      "debut": 29.14,
+      "fin": 29.3,
+      "mot": "mon"
+    },
+    {
+      "debut": 29.3,
+      "fin": 29.74,
+      "mot": "cœur,"
+    },
+    {
+      "debut": 30.22,
+      "fin": 30.28,
+      "mot": "qu"
+    },
+    {
+      "debut": 30.28,
+      "fin": 30.38,
+      "mot": "'est"
+    },
+    {
+      "debut": 30.38,
+      "fin": 30.38,
+      "mot": "-ce"
+    },
+    {
+      "debut": 30.38,
+      "fin": 30.48,
+      "mot": "que"
+    },
+    {
+      "debut": 30.48,
+      "fin": 30.6,
+      "mot": "tu"
+    },
+    {
+      "debut": 30.6,
+      "fin": 30.74,
+      "mot": "me"
+    },
+    {
+      "debut": 30.74,
+      "fin": 31.68,
+      "mot": "racontes"
+    },
+    {
+      "debut": 31.68,
+      "fin": 32.16,
+      "mot": "?"
+    },
+    {
+      "debut": 32.16,
+      "fin": 32.32,
+      "mot": "Merci"
+    },
+    {
+      "debut": 32.32,
+      "fin": 32.52,
+      "mot": "pour"
+    },
+    {
+      "debut": 32.52,
+      "fin": 32.72,
+      "mot": "le"
+    },
+    {
+      "debut": 32.72,
+      "fin": 33.1,
+      "mot": "trésor"
+    },
+    {
+      "debut": 33.1,
+      "fin": 33.3,
+      "mot": "mon"
+    },
+    {
+      "debut": 33.3,
+      "fin": 33.94,
+      "mot": "amour,"
+    },
+    {
+      "debut": 34.28,
+      "fin": 34.52,
+      "mot": "maintenant"
+    },
+    {
+      "debut": 34.52,
+      "fin": 34.68,
+      "mot": "je"
+    },
+    {
+      "debut": 34.68,
+      "fin": 34.82,
+      "mot": "vais"
+    },
+    {
+      "debut": 34.82,
+      "fin": 35.1,
+      "mot": "vivre"
+    },
+    {
+      "debut": 35.1,
+      "fin": 35.32,
+      "mot": "la"
+    },
+    {
+      "debut": 35.32,
+      "fin": 35.5,
+      "mot": "vie"
+    },
+    {
+      "debut": 35.5,
+      "fin": 35.7,
+      "mot": "dont"
+    },
+    {
+      "debut": 35.7,
+      "fin": 35.88,
+      "mot": "on"
+    },
+    {
+      "debut": 35.88,
+      "fin": 36.14,
+      "mot": "rêvait"
+    },
+    {
+      "debut": 36.14,
+      "fin": 36.3,
+      "mot": "sans"
+    },
+    {
+      "debut": 36.3,
+      "fin": 36.92,
+      "mot": "toi."
+    },
+    {
+      "debut": 44.5,
+      "fin": 44.9,
+      "mot": "Reviens"
+    },
+    {
+      "debut": 44.9,
+      "fin": 45.3,
+      "mot": "!"
+    },
+    {
+      "debut": 45.3,
+      "fin": 45.46,
+      "mot": "Non"
+    },
+    {
+      "debut": 45.46,
+      "fin": 45.66,
+      "mot": "non"
+    },
+    {
+      "debut": 45.66,
+      "fin": 45.76,
+      "mot": "non,"
+    },
+    {
+      "debut": 45.82,
+      "fin": 45.84,
+      "mot": "je"
+    },
+    {
+      "debut": 45.84,
+      "fin": 46.04,
+      "mot": "ne"
+    },
+    {
+      "debut": 46.04,
+      "fin": 46.04,
+      "mot": "peux"
+    },
+    {
+      "debut": 46.04,
+      "fin": 46.16,
+      "mot": "pas"
+    },
+    {
+      "debut": 46.16,
+      "fin": 46.4,
+      "mot": "mourir"
+    },
+    {
+      "debut": 46.4,
+      "fin": 46.74,
+      "mot": "ici,"
+    },
+    {
+      "debut": 46.94,
+      "fin": 47.06,
+      "mot": "je"
+    },
+    {
+      "debut": 47.06,
+      "fin": 47.22,
+      "mot": "dois"
+    },
+    {
+      "debut": 47.22,
+      "fin": 47.68,
+      "mot": "récupérer"
+    },
+    {
+      "debut": 47.68,
+      "fin": 47.84,
+      "mot": "le"
+    },
+    {
+      "debut": 47.84,
+      "fin": 48.38,
+      "mot": "trésor"
+    },
+    {
+      "debut": 48.38,
+      "fin": 48.72,
+      "mot": "!"
+    },
+    {
+      "debut": 49.36,
+      "fin": 49.52,
+      "mot": "Non,"
+    },
+    {
+      "debut": 49.58,
+      "fin": 49.86,
+      "mot": "reste"
+    },
+    {
+      "debut": 49.86,
+      "fin": 50.06,
+      "mot": "loin"
+    },
+    {
+      "debut": 50.06,
+      "fin": 50.26,
+      "mot": "de"
+    },
+    {
+      "debut": 50.26,
+      "fin": 50.5,
+      "mot": "moi"
+    },
+    {
+      "debut": 50.5,
+      "fin": 50.72,
+      "mot": "!"
+    },
+    {
+      "debut": 51.54,
+      "fin": 51.68,
+      "mot": "C"
+    },
+    {
+      "debut": 51.68,
+      "fin": 51.74,
+      "mot": "'est"
+    },
+    {
+      "debut": 51.74,
+      "fin": 51.86,
+      "mot": "quoi"
+    },
+    {
+      "debut": 51.86,
+      "fin": 52.02,
+      "mot": "ce"
+    },
+    {
+      "debut": 52.02,
+      "fin": 52.34,
+      "mot": "bruit"
+    },
+    {
+      "debut": 52.34,
+      "fin": 52.72,
+      "mot": "?"
+    },
+    {
+      "debut": 53.84,
+      "fin": 54.2,
+      "mot": "Oh"
+    },
+    {
+      "debut": 54.2,
+      "fin": 54.32,
+      "mot": "non"
+    },
+    {
+      "debut": 55.98,
+      "fin": 57.14,
+      "mot": "!"
+    }
+  ]
+}

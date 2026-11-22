@@ -1,0 +1,354 @@
+{
+  "meta": {
+    "id": "7698439705938890006",
+    "url": "https://www.tiktok.com/@les.storytv/video/7698439705938890006",
+    "compte": "les.storytv",
+    "description": "Tout le monde se moquait de lui à cause de sa raquette en ciment… 🥺🎾 Mais personne ne connaissait le secret de son père… 😳🔥 #pourtoi #IA #fruitstory #iastory #fruitia",
+    "vues": 65100,
+    "likes": 527,
+    "commentaires": 6,
+    "partages": 9,
+    "date": "20261019",
+    "duree": 70.0,
+    "musique": "BLUE WATER CANDY",
+    "taux_likes": 0.81,
+    "taux_commentaires": 0.009
+  },
+  "langue": "fr",
+  "texte_complet": "Écoute-moi bien fiston, cette raquette tu la gardes tout le temps. Mais papa elle est beaucoup trop lourde. Tu l'enlèveras seulement le jour du grand tournoi. Je te le promets papa. C'est quoi ce truc là ? Enlève-moi ce ciment tout de suite ! Je peux pas coach, j'ai promis à mon père. Tu vas jamais pouvoir jouer avec ça. On verra bien. Hé le boulet ! T'as mis du béton dans ton sac ou quoi ? Rigole bien, un jour vous allez comprendre. Le seul truc qu'on va comprendre c'est que t'es nul. On verra. Papa, tout le monde se moque de moi. Je gagne même pas un seul échange. Pourquoi je dois garder ce ciment ? Fais-moi confiance fiston. Le jour du tournoi tu comprendras tout. Tu vas perdre en deux minutes boulet. Papa m'a dit que c'était le moment. Attends, il a quoi dans les mains ? Prends ça petit poire ! Prends ça petit poire, trop facile. Attends, c'était quoi ça ? Quinze zéros. C'est pas possible, il est cent fois plus rapide ! Il s'est entraîné avec du ciment coach. Alors c'est qui le boulet maintenant ?",
+  "accroche_3s": "Écoute -moi bien fiston,",
+  "fin_5s": "avec du ciment coach. Alors c 'est qui le boulet maintenant ?",
+  "mots_par_seconde": 2.97,
+  "premier_mot_a": 1.84,
+  "nombre_plans": 30,
+  "duree_moyenne_plan": 2.33,
+  "phrases": [
+    {
+      "debut": 1.84,
+      "fin": 4.6,
+      "texte": "Écoute-moi bien fiston, cette raquette tu la gardes tout le temps."
+    },
+    {
+      "debut": 4.8,
+      "fin": 6.38,
+      "texte": "Mais papa elle est beaucoup trop lourde."
+    },
+    {
+      "debut": 6.6,
+      "fin": 8.54,
+      "texte": "Tu l'enlèveras seulement le jour du grand tournoi."
+    },
+    {
+      "debut": 8.7,
+      "fin": 9.62,
+      "texte": "Je te le promets papa."
+    },
+    {
+      "debut": 12.22,
+      "fin": 13.28,
+      "texte": "C'est quoi ce truc là ?"
+    },
+    {
+      "debut": 13.78,
+      "fin": 15.3,
+      "texte": "Enlève-moi ce ciment tout de suite !"
+    },
+    {
+      "debut": 15.3,
+      "fin": 17.04,
+      "texte": "Je peux pas coach, j'ai promis à mon père."
+    },
+    {
+      "debut": 17.18,
+      "fin": 18.8,
+      "texte": "Tu vas jamais pouvoir jouer avec ça."
+    },
+    {
+      "debut": 19.06,
+      "fin": 19.76,
+      "texte": "On verra bien."
+    },
+    {
+      "debut": 21.2,
+      "fin": 22.38,
+      "texte": "Hé le boulet !"
+    },
+    {
+      "debut": 22.38,
+      "fin": 25.18,
+      "texte": "T'as mis du béton dans ton sac ou quoi ?"
+    },
+    {
+      "debut": 25.18,
+      "fin": 26.48,
+      "texte": "Rigole bien, un jour vous allez comprendre."
+    },
+    {
+      "debut": 26.56,
+      "fin": 28.34,
+      "texte": "Le seul truc qu'on va comprendre c'est que t'es nul."
+    },
+    {
+      "debut": 28.86,
+      "fin": 29.52,
+      "texte": "On verra."
+    },
+    {
+      "debut": 30.46,
+      "fin": 32.22,
+      "texte": "Papa, tout le monde se moque de moi."
+    },
+    {
+      "debut": 32.22,
+      "fin": 34.14,
+      "texte": "Je gagne même pas un seul échange."
+    },
+    {
+      "debut": 34.52,
+      "fin": 36.72,
+      "texte": "Pourquoi je dois garder ce ciment ?"
+    },
+    {
+      "debut": 36.72,
+      "fin": 38.0,
+      "texte": "Fais-moi confiance fiston."
+    },
+    {
+      "debut": 38.28,
+      "fin": 40.02,
+      "texte": "Le jour du tournoi tu comprendras tout."
+    },
+    {
+      "debut": 41.16,
+      "fin": 42.58,
+      "texte": "Tu vas perdre en deux minutes boulet."
+    },
+    {
+      "debut": 43.66,
+      "fin": 44.88,
+      "texte": "Papa m'a dit que c'était le moment."
+    },
+    {
+      "debut": 48.2,
+      "fin": 49.8,
+      "texte": "Attends, il a quoi dans les mains ?"
+    },
+    {
+      "debut": 50.86,
+      "fin": 52.78,
+      "texte": "Prends ça petit poire !"
+    },
+    {
+      "debut": 54.58,
+      "fin": 56.38,
+      "texte": "Prends ça petit poire, trop facile."
+    },
+    {
+      "debut": 57.0,
+      "fin": 58.88,
+      "texte": "Attends, c'était quoi ça ?"
+    },
+    {
+      "debut": 58.88,
+      "fin": 59.82,
+      "texte": "Quinze zéros."
+    },
+    {
+      "debut": 61.99,
+      "fin": 64.23,
+      "texte": "C'est pas possible, il est cent fois plus rapide !"
+    },
+    {
+      "debut": 64.23,
+      "fin": 66.33,
+      "texte": "Il s'est entraîné avec du ciment coach."
+    },
+    {
+      "debut": 67.37,
+      "fin": 69.03,
+      "texte": "Alors c'est qui le boulet maintenant ?"
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 0.33,
+      "duree": 0.33
+    },
+    {
+      "n": 2,
+      "debut": 0.33,
+      "fin": 10.0,
+      "duree": 9.67
+    },
+    {
+      "n": 3,
+      "debut": 10.0,
+      "fin": 13.0,
+      "duree": 3.0
+    },
+    {
+      "n": 4,
+      "debut": 13.0,
+      "fin": 15.13,
+      "duree": 2.13
+    },
+    {
+      "n": 5,
+      "debut": 15.13,
+      "fin": 17.13,
+      "duree": 2.0
+    },
+    {
+      "n": 6,
+      "debut": 17.13,
+      "fin": 18.47,
+      "duree": 1.33
+    },
+    {
+      "n": 7,
+      "debut": 18.47,
+      "fin": 19.23,
+      "duree": 0.77
+    },
+    {
+      "n": 8,
+      "debut": 19.23,
+      "fin": 20.0,
+      "duree": 0.77
+    },
+    {
+      "n": 9,
+      "debut": 20.0,
+      "fin": 21.97,
+      "duree": 1.97
+    },
+    {
+      "n": 10,
+      "debut": 21.97,
+      "fin": 23.1,
+      "duree": 1.13
+    },
+    {
+      "n": 11,
+      "debut": 23.1,
+      "fin": 24.13,
+      "duree": 1.03
+    },
+    {
+      "n": 12,
+      "debut": 24.13,
+      "fin": 25.1,
+      "duree": 0.97
+    },
+    {
+      "n": 13,
+      "debut": 25.1,
+      "fin": 26.43,
+      "duree": 1.33
+    },
+    {
+      "n": 14,
+      "debut": 26.43,
+      "fin": 28.0,
+      "duree": 1.57
+    },
+    {
+      "n": 15,
+      "debut": 28.0,
+      "fin": 30.0,
+      "duree": 2.0
+    },
+    {
+      "n": 16,
+      "debut": 30.0,
+      "fin": 40.0,
+      "duree": 10.0
+    },
+    {
+      "n": 17,
+      "debut": 40.0,
+      "fin": 40.57,
+      "duree": 0.57
+    },
+    {
+      "n": 18,
+      "debut": 40.57,
+      "fin": 42.47,
+      "duree": 1.9
+    },
+    {
+      "n": 19,
+      "debut": 42.47,
+      "fin": 43.13,
+      "duree": 0.67
+    },
+    {
+      "n": 20,
+      "debut": 43.13,
+      "fin": 47.97,
+      "duree": 4.83
+    },
+    {
+      "n": 21,
+      "debut": 47.97,
+      "fin": 50.0,
+      "duree": 2.03
+    },
+    {
+      "n": 22,
+      "debut": 50.0,
+      "fin": 50.6,
+      "duree": 0.6
+    },
+    {
+      "n": 23,
+      "debut": 50.6,
+      "fin": 52.13,
+      "duree": 1.53
+    },
+    {
+      "n": 24,
+      "debut": 52.13,
+      "fin": 56.13,
+      "duree": 4.0
+    },
+    {
+      "n": 25,
+      "debut": 56.13,
+      "fin": 57.97,
+      "duree": 1.83
+    },
+    {
+      "n": 26,
+      "debut": 57.97,
+      "fin": 59.97,
+      "duree": 2.0
+    },
+    {
+      "n": 27,
+      "debut": 59.97,
+      "fin": 63.93,
+      "duree": 3.97
+    },
+    {
+      "n": 28,
+      "debut": 63.93,
+      "fin": 66.4,
+      "duree": 2.47
+    },
+    {
+      "n": 29,
+      "debut": 66.4,
+      "fin": 69.8,
+      "duree": 3.4
+    },
+    {
+      "n": 30,
+      "debut": 69.8,
+      "fin": 70.03,
+      "duree": 0.23
+    }
+  ]
+}

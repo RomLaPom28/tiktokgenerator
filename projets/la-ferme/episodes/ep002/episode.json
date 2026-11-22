@@ -1,0 +1,286 @@
+{
+  "accroche_type": "insulte choc",
+  "centre": "vanessa",
+  "cliff_type": "téléphone qui sonne",
+  "commentaire_epingle": "Gérard ouvre la vidéo ? 📱 Oui, il regarde tout / 🙈 Non, il croit Vanessa",
+  "fils_avances": [
+    "liaison",
+    "video",
+    "divorce"
+  ],
+  "fin": "Dans le salon, le téléphone de Gérard vibre : Josiane lui envoie la vidéo avec un message d'avertissement. Il ne l'a pas encore ouverte.",
+  "format": "confrontation en huis clos",
+  "hashtags": [
+    "#laferme",
+    "#drama",
+    "#animaux",
+    "#histoire",
+    "#partie2"
+  ],
+  "legende": "Vanessa a effacé la vidéo… mais Josiane a toujours une copie 😏 Gérard va-t-il ouvrir le message ?",
+  "numero": 2,
+  "plans": [
+    {
+      "angle": "contre_plongee",
+      "cadrage": "GP",
+      "camera": "choc",
+      "emotion": "furieuse, cinglante",
+      "lieu": "bar_tabac",
+      "lumiere": "neon",
+      "mouvement": "Vanessa avance d'un pas en pointant son ongle, ses boucles d'oreilles se balancent, elle tape du sabot",
+      "n": 1,
+      "parle": "vanessa",
+      "persos": [
+        {
+          "id": "vanessa",
+          "jeu": "pointe un ongle rouge vers l'objectif, sourcils froncés, narines dilatées, bouche tordue de colère"
+        }
+      ],
+      "replique": "Espèce de gros menteur, rends ce téléphone tout de suite !",
+      "role": "accroche"
+    },
+    {
+      "angle": "face",
+      "cadrage": "PR",
+      "camera": "epaule",
+      "emotion": "paniqué, suppliant",
+      "lieu": "bar_tabac",
+      "lumiere": "neon",
+      "mouvement": "Bernard s'essuie le front avec sa casquette, recule contre le comptoir et lance des regards affolés à Gérard",
+      "n": 2,
+      "parle": "bernard",
+      "persos": [
+        {
+          "id": "bernard",
+          "jeu": "transpire à grosses gouttes, serre le téléphone contre lui, regard qui fuit, sourire crispé"
+        }
+      ],
+      "replique": "Gérard, je te jure, c'est pas ce que tu crois !",
+      "role": "developpement"
+    },
+    {
+      "angle": "plongee",
+      "cadrage": "INSERT",
+      "camera": "travelling_avant",
+      "detail_image": "l'écran du téléphone éclaire ses ongles d'une lumière bleue",
+      "lieu": "bar_tabac",
+      "lumiere": "neon",
+      "mouvement": "le pouce aux ongles rouges appuie sur l'écran, l'écran clignote puis devient noir",
+      "n": 3,
+      "persos": [
+        {
+          "id": "vanessa",
+          "jeu": "on ne voit que sa main aux longs ongles rouges qui tient le smartphone arraché à Bernard et appuie sur supprimer"
+        }
+      ],
+      "role": "retournement",
+      "son": "petit bip de suppression"
+    },
+    {
+      "angle": "face",
+      "cadrage": "PA",
+      "camera": "panoramique",
+      "emotion": "outrée, aiguë",
+      "lieu": "bar_tabac",
+      "lumiere": "neon",
+      "mouvement": "Josiane caquette de rage en sautillant sur place, Vanessa lui tend le téléphone en souriant",
+      "n": 4,
+      "parle": "josiane",
+      "persos": [
+        {
+          "id": "josiane",
+          "jeu": "plumes hérissées, les deux ailes sur la tête, bec grand ouvert d'indignation"
+        },
+        {
+          "id": "vanessa",
+          "jeu": "au second plan, rend le téléphone avec un sourire innocent"
+        }
+      ],
+      "replique": "Elle l'a effacée ! Elle a effacé ma vidéo, cette sale vipère !",
+      "role": "developpement"
+    },
+    {
+      "angle": "profil",
+      "cadrage": "PR",
+      "camera": "fixe",
+      "emotion": "froid, contenu",
+      "lieu": "voiture_gerard",
+      "lumiere": "fin_journee",
+      "mouvement": "Gérard démarre brusquement, le désodorisant sapin se balance, Vanessa est secouée sur son siège",
+      "n": 5,
+      "parle": "gerard",
+      "persos": [
+        {
+          "id": "gerard",
+          "jeu": "au volant, mâchoire serrée, regard fixé sur la route, les sabots crispés sur le volant"
+        },
+        {
+          "id": "vanessa",
+          "jeu": "sur le siège passager, bras croisés, regarde par la fenêtre"
+        }
+      ],
+      "replique": "Tu montes. On rentre. Et tu vas tout m'expliquer.",
+      "role": "developpement",
+      "son": "moteur qui rugit"
+    },
+    {
+      "angle": "face",
+      "cadrage": "TGP",
+      "camera": "travelling_avant",
+      "emotion": "fausse victime, voix brisée",
+      "lieu": "voiture_gerard",
+      "lumiere": "fin_journee",
+      "mouvement": "une larme coule lentement sur la joue de Vanessa, elle baisse les yeux puis les relève vers Gérard",
+      "n": 6,
+      "parle": "vanessa",
+      "persos": [
+        {
+          "id": "vanessa",
+          "jeu": "yeux brillants de fausses larmes, lèvre inférieure qui tremble, regard de victime"
+        }
+      ],
+      "replique": "Bernard me drague depuis des mois… j'osais pas te le dire.",
+      "role": "retournement"
+    },
+    {
+      "angle": "face",
+      "cadrage": "AMORCE",
+      "camera": "epaule",
+      "emotion": "abasourdi",
+      "lieu": "voiture_gerard",
+      "lumiere": "fin_journee",
+      "mouvement": "Gérard tourne la tête d'un coup, souffle bruyamment par les naseaux, la voiture fait une petite embardée",
+      "n": 7,
+      "parle": "gerard",
+      "persos": [
+        {
+          "id": "vanessa",
+          "jeu": "de dos au premier plan, floue"
+        },
+        {
+          "id": "gerard",
+          "jeu": "tourne la tête vers elle, yeux écarquillés, naseaux qui soufflent, complètement perdu"
+        }
+      ],
+      "replique": "Bernard ? Mon Bernard ? Oh, c'est pas possible ça !",
+      "role": "developpement"
+    },
+    {
+      "angle": "debullee",
+      "cadrage": "PT",
+      "camera": "orbite",
+      "emotion": "venimeuse, lente",
+      "lieu": "cuisine_huguette",
+      "lumiere": "nuit_lampe",
+      "mouvement": "Huguette pose son biscuit, ajuste ses lunettes et sourit, Kevin hoche la tête nerveusement",
+      "n": 8,
+      "parle": "huguette",
+      "persos": [
+        {
+          "id": "huguette",
+          "jeu": "assise à la table, mâchonne un biscuit, regard calculateur derrière ses lunettes"
+        },
+        {
+          "id": "kevin",
+          "jeu": "debout à côté d'elle, lunettes sur la crête, se ronge un ongle nerveusement"
+        }
+      ],
+      "replique": "Ce soir, elle lui fait signer les papiers. Après, la maison est à nous.",
+      "role": "developpement"
+    },
+    {
+      "angle": "contre_plongee",
+      "cadrage": "GP",
+      "camera": "fixe",
+      "emotion": "soupçonneux, lent",
+      "lieu": "voiture_gerard",
+      "lumiere": "fin_journee",
+      "mouvement": "Gérard ralentit, plisse les yeux dans le rétroviseur puis tourne lentement la tête vers Vanessa",
+      "n": 9,
+      "parle": "gerard",
+      "persos": [
+        {
+          "id": "gerard",
+          "jeu": "regard dans le rétroviseur, sourcils froncés, le doute qui revient"
+        }
+      ],
+      "replique": "Et pourquoi la Josiane dit que t'étais avec Kevin ?",
+      "role": "retournement"
+    },
+    {
+      "angle": "face",
+      "cadrage": "TGP",
+      "camera": "travelling_avant",
+      "emotion": "faussement amusée",
+      "lieu": "voiture_gerard",
+      "lumiere": "fin_journee",
+      "mouvement": "Vanessa se fige, puis éclate d'un petit rire forcé et caresse la joue de Gérard",
+      "n": 10,
+      "parle": "vanessa",
+      "persos": [
+        {
+          "id": "vanessa",
+          "jeu": "figée une demi-seconde, puis grand sourire forcé, regard qui ne cligne pas"
+        }
+      ],
+      "replique": "Kevin ? Il m'aide pour ta surprise d'anniversaire, idiot.",
+      "role": "developpement"
+    },
+    {
+      "angle": "face",
+      "cadrage": "PR",
+      "camera": "epaule",
+      "emotion": "chuchoté, triomphante",
+      "lieu": "jardin_josiane",
+      "lumiere": "nuit_lune",
+      "mouvement": "Josiane tape frénétiquement sur son téléphone, puis appuie sur envoyer avec un grand geste d'aile",
+      "n": 11,
+      "parle": "josiane",
+      "persos": [
+        {
+          "id": "josiane",
+          "jeu": "sourire diabolique éclairé par l'écran de son téléphone, elle tape un message à toute vitesse",
+          "tenue": "nuit"
+        }
+      ],
+      "replique": "Heureusement que j'ai toujours une copie dans le cloud, ma belle…",
+      "role": "retournement"
+    },
+    {
+      "angle": "face",
+      "cadrage": "PA",
+      "camera": "travelling_arriere",
+      "emotion": "lit à voix basse, inquiet",
+      "lieu": "salon_pavillon",
+      "lumiere": "nuit_lampe",
+      "mouvement": "le téléphone vibre dans la main de Gérard, il lit le message, son pouce s'approche de la vidéo",
+      "n": 12,
+      "parle": "gerard",
+      "persos": [
+        {
+          "id": "gerard",
+          "jeu": "debout au milieu du salon, sort son téléphone qui vibre, l'écran éclaire son visage inquiet"
+        }
+      ],
+      "replique": "Une vidéo de Josiane… « Regarde avant qu'elle t'arnaque. »",
+      "role": "cliff",
+      "son": "vibration de téléphone"
+    }
+  ],
+  "question_milieu": {
+    "plan": 7,
+    "texte": "Tu la crois, toi ? 👀"
+  },
+  "recettes_utilisees": [
+    "accroche insulte choc",
+    "la coupable retourne l'accusation",
+    "le spectateur en sait plus que la victime",
+    "objet qui relance le drame en dernière seconde"
+  ],
+  "reprend": "Vanessa vient d'entrer dans le bar et voit Bernard serrer le téléphone : elle attaque la première.",
+  "resume": "Vanessa efface la vidéo de Josiane et retourne la situation dans la voiture : c'est Bernard qui la draguerait. Gérard la croit presque, mais Josiane avait une copie.",
+  "revele": [],
+  "texte_accroche": "Elle efface la preuve devant lui",
+  "titre": "La vidéo effacée",
+  "titre_couverture": "Elle efface la preuve devant lui"
+}

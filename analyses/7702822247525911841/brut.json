@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "id": "7702822247525911841",
+    "url": "https://www.tiktok.com/@cine_fruit1/video/7702822247525911841",
+    "compte": "cine_fruit1",
+    "description": "Il est milliardaire mais il se fait passer pour un pauvre 💰😏 Elle aurait dû payer ? #fruitia #ia #argent #histoire #animation",
+    "vues": 2000000,
+    "likes": 171900,
+    "commentaires": 2165,
+    "partages": 1629,
+    "date": "20261031",
+    "duree": 50.6,
+    "musique": "original sound - Han Soe",
+    "taux_likes": 8.6,
+    "taux_commentaires": 0.108
+  },
+  "langue": "fr",
+  "texte_complet": "« Monsieur Damien, pourquoi vous vous peignez en blanc ? » J'en ai marre. Les femmes viennent me voir seulement pour mon argent. Comme ça, personne ne me reconnaîtra. Je veux une femme qui m'aime pour ce que je suis, pas pour mes millions. Et comment vous allez savoir si elle est sincère ? Facile. Je l'invite dans un petit resto, et au moment de payer, je dis que j'ai que la moitié. Et si elle se fâche, alors je saurai comment elle traite un homme sans argent. J'ai trouvé quatre candidates. La première, c'est Isabelle. Elle est libre ce soir. Parfait. Réserve un petit resto simple. Surtout pas un des miens. C'est ça, le resto ? Je pensais que tu m'emmènerais dans un endroit chic. Tu fais quoi dans la vie ? Je travaille dans une entreprise. Je gagne pas beaucoup, mais je m'en sors. Isabelle, j'ai que la moitié. Tu peux payer le reste ? Quoi ? C'est toi qui m'a invitée ! Je sors pas avec un homme qui peut même pas payer un dîner. Si seulement elle savait que je peux acheter tout ce restaurant. Au suivant.",
+  "accroche_3s": "« Monsieur Damien, pourquoi vous vous peignez en blanc ? » J 'en ai",
+  "fin_5s": "dîner. Si seulement elle savait que je peux acheter tout ce restaurant. Au suivant.",
+  "mots_par_seconde": 4.01,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 19,
+  "duree_moyenne_plan": 2.66,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 2.64,
+      "texte": "« Monsieur Damien, pourquoi vous vous peignez en blanc ? »"
+    },
+    {
+      "debut": 2.64,
+      "fin": 3.36,
+      "texte": "J'en ai marre."
+    },
+    {
+      "debut": 3.48,
+      "fin": 5.48,
+      "texte": "Les femmes viennent me voir seulement pour mon argent."
+    },
+    {
+      "debut": 5.76,
+      "fin": 7.42,
+      "texte": "Comme ça, personne ne me reconnaîtra."
+    },
+    {
+      "debut": 7.7,
+      "fin": 9.52,
+      "texte": "Je veux une femme qui m'aime pour ce que je suis,"
+    },
+    {
+      "debut": 9.74,
+      "fin": 10.46,
+      "texte": "pas pour mes millions."
+    },
+    {
+      "debut": 10.9,
+      "fin": 13.64,
+      "texte": "Et comment vous allez savoir si elle est sincère ?"
+    },
+    {
+      "debut": 13.64,
+      "fin": 14.16,
+      "texte": "Facile."
+    },
+    {
+      "debut": 14.36,
+      "fin": 15.54,
+      "texte": "Je l'invite dans un petit resto,"
+    },
+    {
+      "debut": 15.84,
+      "fin": 18.34,
+      "texte": "et au moment de payer, je dis que j'ai que la moitié."
+    },
+    {
+      "debut": 18.56,
+      "fin": 20.52,
+      "texte": "Et si elle se fâche,"
+    },
+    {
+      "debut": 20.7,
+      "fin": 23.72,
+      "texte": "alors je saurai comment elle traite un homme sans argent."
+    },
+    {
+      "debut": 23.82,
+      "fin": 24.9,
+      "texte": "J'ai trouvé quatre candidates."
+    },
+    {
+      "debut": 25.06,
+      "fin": 26.2,
+      "texte": "La première, c'est Isabelle."
+    },
+    {
+      "debut": 26.32,
+      "fin": 27.16,
+      "texte": "Elle est libre ce soir."
+    },
+    {
+      "debut": 27.58,
+      "fin": 27.98,
+      "texte": "Parfait."
+    },
+    {
+      "debut": 28.1,
+      "fin": 29.26,
+      "texte": "Réserve un petit resto simple."
+    },
+    {
+      "debut": 29.26,
+      "fin": 30.38,
+      "texte": "Surtout pas un des miens."
+    },
+    {
+      "debut": 30.44,
+      "fin": 31.48,
+      "texte": "C'est ça, le resto ?"
+    },
+    {
+      "debut": 31.48,
+      "fin": 33.22,
+      "texte": "Je pensais que tu m'emmènerais dans un endroit chic."
+    },
+    {
+      "debut": 33.42,
+      "fin": 34.56,
+      "texte": "Tu fais quoi dans la vie ?"
+    },
+    {
+      "debut": 34.56,
+      "fin": 35.72,
+      "texte": "Je travaille dans une entreprise."
+    },
+    {
+      "debut": 35.96,
+      "fin": 37.58,
+      "texte": "Je gagne pas beaucoup, mais je m'en sors."
+    },
+    {
+      "debut": 37.92,
+      "fin": 39.18,
+      "texte": "Isabelle, j'ai que la moitié."
+    },
+    {
+      "debut": 39.38,
+      "fin": 40.38,
+      "texte": "Tu peux payer le reste ?"
+    },
+    {
+      "debut": 40.38,
+      "fin": 42.68,
+      "texte": "Quoi ? C'est toi qui m'a invitée !"
+    },
+    {
+      "debut": 42.68,
+      "fin": 45.94,
+      "texte": "Je sors pas avec un homme qui peut même pas payer un dîner."
+    },
+    {
+      "debut": 46.34,
+      "fin": 48.62,
+      "texte": "Si seulement elle savait que je peux acheter tout ce restaurant."
+    },
+    {
+      "debut": 48.98,
+      "fin": 49.5,
+      "texte": "Au suivant."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 2.57,
+      "duree": 2.57
+    },
+    {
+      "n": 2,
+      "debut": 2.57,
+      "fin": 3.33,
+      "duree": 0.77
+    },
+    {
+      "n": 3,
+      "debut": 3.33,
+      "fin": 5.7,
+      "duree": 2.37
+    },
+    {
+      "n": 4,
+      "debut": 5.7,
+      "fin": 10.77,
+      "duree": 5.07
+    },
+    {
+      "n": 5,
+      "debut": 10.77,
+      "fin": 13.57,
+      "duree": 2.8
+    },
+    {
+      "n": 6,
+      "debut": 13.57,
+      "fin": 18.53,
+      "duree": 4.97
+    },
+    {
+      "n": 7,
+      "debut": 18.53,
+      "fin": 20.5,
+      "duree": 1.97
+    },
+    {
+      "n": 8,
+      "debut": 20.5,
+      "fin": 23.77,
+      "duree": 3.27
+    },
+    {
+      "n": 9,
+      "debut": 23.77,
+      "fin": 27.4,
+      "duree": 3.63
+    },
+    {
+      "n": 10,
+      "debut": 27.4,
+      "fin": 30.33,
+      "duree": 2.93
+    },
+    {
+      "n": 11,
+      "debut": 30.33,
+      "fin": 33.27,
+      "duree": 2.93
+    },
+    {
+      "n": 12,
+      "debut": 33.27,
+      "fin": 34.53,
+      "duree": 1.27
+    },
+    {
+      "n": 13,
+      "debut": 34.53,
+      "fin": 37.7,
+      "duree": 3.17
+    },
+    {
+      "n": 14,
+      "debut": 37.7,
+      "fin": 39.27,
+      "duree": 1.57
+    },
+    {
+      "n": 15,
+      "debut": 39.27,
+      "fin": 40.3,
+      "duree": 1.03
+    },
+    {
+      "n": 16,
+      "debut": 40.3,
+      "fin": 42.6,
+      "duree": 2.3
+    },
+    {
+      "n": 17,
+      "debut": 42.6,
+      "fin": 46.13,
+      "duree": 3.53
+    },
+    {
+      "n": 18,
+      "debut": 46.13,
+      "fin": 48.73,
+      "duree": 2.6
+    },
+    {
+      "n": 19,
+      "debut": 48.73,
+      "fin": 50.59,
+      "duree": 1.86
+    }
+  ]
+}

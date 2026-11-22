@@ -1,0 +1,1067 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 1.2,
+      "fin": 6.5,
+      "texte": "Bienvenue le nouveau, ici l'entrée c'est 50 balles, touche pas, tu payes pas, pas de sac."
+    },
+    {
+      "debut": 7.36,
+      "fin": 8.02,
+      "texte": "Enlève ton pied."
+    },
+    {
+      "debut": 8.48,
+      "fin": 13.18,
+      "texte": "Ilyes non, pas ici, pas devant tout le monde, c'est quoi ça ? Des bandages ? T'as bobo le nouveau ?"
+    },
+    {
+      "debut": 14.88,
+      "fin": 18.14,
+      "texte": "Demain 50 balles, sinon c'est ton petit frère qui paye."
+    },
+    {
+      "debut": 18.62,
+      "fin": 20.36,
+      "texte": "Touche-le une fois, tu verras."
+    },
+    {
+      "debut": 20.62,
+      "fin": 23.12,
+      "texte": "Tu t'es battu ? Dis-moi que tu t'es pas battu."
+    },
+    {
+      "debut": 23.36,
+      "fin": 25.48,
+      "texte": "Non maman, j'ai promis je touche personne."
+    },
+    {
+      "debut": 26.36,
+      "fin": 28.5,
+      "texte": "Champion de France et tu te laisses humilier ?"
+    },
+    {
+      "debut": 28.5,
+      "fin": 30.88,
+      "texte": "Je sais maman, t'inquiète pas."
+    },
+    {
+      "debut": 32.83,
+      "fin": 35.07,
+      "texte": "Samedi, c'est la sélection pour l'équipe de France."
+    },
+    {
+      "debut": 36.57,
+      "fin": 39.23,
+      "texte": "Et lui, je le laisse faire jusqu'à samedi ?"
+    },
+    {
+      "debut": 40.57,
+      "fin": 43.73,
+      "texte": "Une seule bagarre et ta licence saute, tout s'arrête."
+    },
+    {
+      "debut": 51.05,
+      "fin": 53.67,
+      "texte": "Ton grand frère a pas payé, alors aujourd'hui c'est toi."
+    },
+    {
+      "debut": 54.13,
+      "fin": 56.27,
+      "texte": "Laisse-moi s'il te plaît, laisse-moi tranquille."
+    },
+    {
+      "debut": 56.99,
+      "fin": 59.67,
+      "texte": "Ah le grand frère, t'as ramené mes 50 balles ?"
+    },
+    {
+      "debut": 59.67,
+      "fin": 62.01,
+      "texte": "Rentre à la maison petit, je m'en occupe."
+    },
+    {
+      "debut": 64.95,
+      "fin": 67.87,
+      "texte": "Quoi ? Tu te prends pour Rocky toi ? Vas-y essaie."
+    },
+    {
+      "debut": 68.79,
+      "fin": 70.45,
+      "texte": "Tu m'as demandé ce que c'était hier."
+    },
+    {
+      "debut": 71.67,
+      "fin": 72.25,
+      "texte": "Je vais te montrer."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 1.2,
+      "fin": 1.56,
+      "mot": "Bienvenue"
+    },
+    {
+      "debut": 1.56,
+      "fin": 1.78,
+      "mot": "le"
+    },
+    {
+      "debut": 1.78,
+      "fin": 2.02,
+      "mot": "nouveau,"
+    },
+    {
+      "debut": 2.48,
+      "fin": 2.64,
+      "mot": "ici"
+    },
+    {
+      "debut": 2.64,
+      "fin": 2.84,
+      "mot": "l"
+    },
+    {
+      "debut": 2.84,
+      "fin": 3.0,
+      "mot": "'entrée"
+    },
+    {
+      "debut": 3.0,
+      "fin": 3.14,
+      "mot": "c"
+    },
+    {
+      "debut": 3.14,
+      "fin": 3.18,
+      "mot": "'est"
+    },
+    {
+      "debut": 3.18,
+      "fin": 3.46,
+      "mot": "50"
+    },
+    {
+      "debut": 3.46,
+      "fin": 4.66,
+      "mot": "balles,"
+    },
+    {
+      "debut": 4.84,
+      "fin": 5.0,
+      "mot": "touche"
+    },
+    {
+      "debut": 5.0,
+      "fin": 5.26,
+      "mot": "pas,"
+    },
+    {
+      "debut": 5.38,
+      "fin": 5.48,
+      "mot": "tu"
+    },
+    {
+      "debut": 5.48,
+      "fin": 5.72,
+      "mot": "payes"
+    },
+    {
+      "debut": 5.72,
+      "fin": 5.96,
+      "mot": "pas,"
+    },
+    {
+      "debut": 6.02,
+      "fin": 6.1,
+      "mot": "pas"
+    },
+    {
+      "debut": 6.1,
+      "fin": 6.22,
+      "mot": "de"
+    },
+    {
+      "debut": 6.22,
+      "fin": 6.5,
+      "mot": "sac."
+    },
+    {
+      "debut": 7.36,
+      "fin": 7.52,
+      "mot": "Enlève"
+    },
+    {
+      "debut": 7.52,
+      "fin": 7.66,
+      "mot": "ton"
+    },
+    {
+      "debut": 7.66,
+      "fin": 8.02,
+      "mot": "pied."
+    },
+    {
+      "debut": 8.48,
+      "fin": 8.74,
+      "mot": "Ilyes"
+    },
+    {
+      "debut": 8.74,
+      "fin": 8.94,
+      "mot": "non,"
+    },
+    {
+      "debut": 9.08,
+      "fin": 9.24,
+      "mot": "pas"
+    },
+    {
+      "debut": 9.24,
+      "fin": 9.54,
+      "mot": "ici,"
+    },
+    {
+      "debut": 9.62,
+      "fin": 9.76,
+      "mot": "pas"
+    },
+    {
+      "debut": 9.76,
+      "fin": 9.92,
+      "mot": "devant"
+    },
+    {
+      "debut": 9.92,
+      "fin": 10.06,
+      "mot": "tout"
+    },
+    {
+      "debut": 10.06,
+      "fin": 10.14,
+      "mot": "le"
+    },
+    {
+      "debut": 10.14,
+      "fin": 10.36,
+      "mot": "monde,"
+    },
+    {
+      "debut": 10.64,
+      "fin": 10.8,
+      "mot": "c"
+    },
+    {
+      "debut": 10.8,
+      "fin": 10.8,
+      "mot": "'est"
+    },
+    {
+      "debut": 10.8,
+      "fin": 10.98,
+      "mot": "quoi"
+    },
+    {
+      "debut": 10.98,
+      "fin": 11.26,
+      "mot": "ça"
+    },
+    {
+      "debut": 11.26,
+      "fin": 11.34,
+      "mot": "?"
+    },
+    {
+      "debut": 11.34,
+      "fin": 11.48,
+      "mot": "Des"
+    },
+    {
+      "debut": 11.48,
+      "fin": 11.86,
+      "mot": "bandages"
+    },
+    {
+      "debut": 11.86,
+      "fin": 12.0,
+      "mot": "?"
+    },
+    {
+      "debut": 12.0,
+      "fin": 12.1,
+      "mot": "T"
+    },
+    {
+      "debut": 12.1,
+      "fin": 12.18,
+      "mot": "'as"
+    },
+    {
+      "debut": 12.18,
+      "fin": 12.4,
+      "mot": "bobo"
+    },
+    {
+      "debut": 12.4,
+      "fin": 12.54,
+      "mot": "le"
+    },
+    {
+      "debut": 12.54,
+      "fin": 12.78,
+      "mot": "nouveau"
+    },
+    {
+      "debut": 12.78,
+      "fin": 13.18,
+      "mot": "?"
+    },
+    {
+      "debut": 14.88,
+      "fin": 15.2,
+      "mot": "Demain"
+    },
+    {
+      "debut": 15.2,
+      "fin": 15.54,
+      "mot": "50"
+    },
+    {
+      "debut": 15.54,
+      "fin": 16.06,
+      "mot": "balles,"
+    },
+    {
+      "debut": 16.18,
+      "fin": 16.36,
+      "mot": "sinon"
+    },
+    {
+      "debut": 16.36,
+      "fin": 16.56,
+      "mot": "c"
+    },
+    {
+      "debut": 16.56,
+      "fin": 16.56,
+      "mot": "'est"
+    },
+    {
+      "debut": 16.56,
+      "fin": 16.64,
+      "mot": "ton"
+    },
+    {
+      "debut": 16.64,
+      "fin": 16.86,
+      "mot": "petit"
+    },
+    {
+      "debut": 16.86,
+      "fin": 17.02,
+      "mot": "frère"
+    },
+    {
+      "debut": 17.02,
+      "fin": 17.26,
+      "mot": "qui"
+    },
+    {
+      "debut": 17.26,
+      "fin": 18.14,
+      "mot": "paye."
+    },
+    {
+      "debut": 18.62,
+      "fin": 18.88,
+      "mot": "Touche"
+    },
+    {
+      "debut": 18.88,
+      "fin": 19.0,
+      "mot": "-le"
+    },
+    {
+      "debut": 19.0,
+      "fin": 19.26,
+      "mot": "une"
+    },
+    {
+      "debut": 19.26,
+      "fin": 19.54,
+      "mot": "fois,"
+    },
+    {
+      "debut": 19.76,
+      "fin": 19.94,
+      "mot": "tu"
+    },
+    {
+      "debut": 19.94,
+      "fin": 20.36,
+      "mot": "verras."
+    },
+    {
+      "debut": 20.62,
+      "fin": 20.74,
+      "mot": "Tu"
+    },
+    {
+      "debut": 20.74,
+      "fin": 20.86,
+      "mot": "t"
+    },
+    {
+      "debut": 20.86,
+      "fin": 20.96,
+      "mot": "'es"
+    },
+    {
+      "debut": 20.96,
+      "fin": 21.48,
+      "mot": "battu"
+    },
+    {
+      "debut": 21.48,
+      "fin": 21.86,
+      "mot": "?"
+    },
+    {
+      "debut": 21.86,
+      "fin": 22.02,
+      "mot": "Dis"
+    },
+    {
+      "debut": 22.02,
+      "fin": 22.16,
+      "mot": "-moi"
+    },
+    {
+      "debut": 22.16,
+      "fin": 22.28,
+      "mot": "que"
+    },
+    {
+      "debut": 22.28,
+      "fin": 22.38,
+      "mot": "tu"
+    },
+    {
+      "debut": 22.38,
+      "fin": 22.44,
+      "mot": "t"
+    },
+    {
+      "debut": 22.44,
+      "fin": 22.5,
+      "mot": "'es"
+    },
+    {
+      "debut": 22.5,
+      "fin": 22.62,
+      "mot": "pas"
+    },
+    {
+      "debut": 22.62,
+      "fin": 23.12,
+      "mot": "battu."
+    },
+    {
+      "debut": 23.36,
+      "fin": 23.54,
+      "mot": "Non"
+    },
+    {
+      "debut": 23.54,
+      "fin": 23.86,
+      "mot": "maman,"
+    },
+    {
+      "debut": 24.22,
+      "fin": 24.3,
+      "mot": "j"
+    },
+    {
+      "debut": 24.3,
+      "fin": 24.46,
+      "mot": "'ai"
+    },
+    {
+      "debut": 24.46,
+      "fin": 24.6,
+      "mot": "promis"
+    },
+    {
+      "debut": 24.6,
+      "fin": 24.74,
+      "mot": "je"
+    },
+    {
+      "debut": 24.74,
+      "fin": 24.9,
+      "mot": "touche"
+    },
+    {
+      "debut": 24.9,
+      "fin": 25.48,
+      "mot": "personne."
+    },
+    {
+      "debut": 26.36,
+      "fin": 26.64,
+      "mot": "Champion"
+    },
+    {
+      "debut": 26.64,
+      "fin": 26.88,
+      "mot": "de"
+    },
+    {
+      "debut": 26.88,
+      "fin": 27.04,
+      "mot": "France"
+    },
+    {
+      "debut": 27.04,
+      "fin": 27.2,
+      "mot": "et"
+    },
+    {
+      "debut": 27.2,
+      "fin": 27.3,
+      "mot": "tu"
+    },
+    {
+      "debut": 27.3,
+      "fin": 27.44,
+      "mot": "te"
+    },
+    {
+      "debut": 27.44,
+      "fin": 27.6,
+      "mot": "laisses"
+    },
+    {
+      "debut": 27.6,
+      "fin": 28.04,
+      "mot": "humilier"
+    },
+    {
+      "debut": 28.04,
+      "fin": 28.5,
+      "mot": "?"
+    },
+    {
+      "debut": 28.5,
+      "fin": 28.7,
+      "mot": "Je"
+    },
+    {
+      "debut": 28.7,
+      "fin": 28.92,
+      "mot": "sais"
+    },
+    {
+      "debut": 28.92,
+      "fin": 29.5,
+      "mot": "maman,"
+    },
+    {
+      "debut": 29.76,
+      "fin": 29.82,
+      "mot": "t"
+    },
+    {
+      "debut": 29.82,
+      "fin": 30.1,
+      "mot": "'inquiète"
+    },
+    {
+      "debut": 30.1,
+      "fin": 30.88,
+      "mot": "pas."
+    },
+    {
+      "debut": 32.83,
+      "fin": 33.23,
+      "mot": "Samedi,"
+    },
+    {
+      "debut": 33.43,
+      "fin": 33.53,
+      "mot": "c"
+    },
+    {
+      "debut": 33.53,
+      "fin": 33.55,
+      "mot": "'est"
+    },
+    {
+      "debut": 33.55,
+      "fin": 33.69,
+      "mot": "la"
+    },
+    {
+      "debut": 33.69,
+      "fin": 34.07,
+      "mot": "sélection"
+    },
+    {
+      "debut": 34.07,
+      "fin": 34.27,
+      "mot": "pour"
+    },
+    {
+      "debut": 34.27,
+      "fin": 34.33,
+      "mot": "l"
+    },
+    {
+      "debut": 34.33,
+      "fin": 34.51,
+      "mot": "'équipe"
+    },
+    {
+      "debut": 34.51,
+      "fin": 34.75,
+      "mot": "de"
+    },
+    {
+      "debut": 34.75,
+      "fin": 35.07,
+      "mot": "France."
+    },
+    {
+      "debut": 36.57,
+      "fin": 36.73,
+      "mot": "Et"
+    },
+    {
+      "debut": 36.73,
+      "fin": 37.03,
+      "mot": "lui,"
+    },
+    {
+      "debut": 37.11,
+      "fin": 37.29,
+      "mot": "je"
+    },
+    {
+      "debut": 37.29,
+      "fin": 37.37,
+      "mot": "le"
+    },
+    {
+      "debut": 37.37,
+      "fin": 37.57,
+      "mot": "laisse"
+    },
+    {
+      "debut": 37.57,
+      "fin": 37.73,
+      "mot": "faire"
+    },
+    {
+      "debut": 37.73,
+      "fin": 37.95,
+      "mot": "jusqu"
+    },
+    {
+      "debut": 37.95,
+      "fin": 38.09,
+      "mot": "'à"
+    },
+    {
+      "debut": 38.09,
+      "fin": 38.37,
+      "mot": "samedi"
+    },
+    {
+      "debut": 38.37,
+      "fin": 39.23,
+      "mot": "?"
+    },
+    {
+      "debut": 40.57,
+      "fin": 40.81,
+      "mot": "Une"
+    },
+    {
+      "debut": 40.81,
+      "fin": 40.99,
+      "mot": "seule"
+    },
+    {
+      "debut": 40.99,
+      "fin": 41.49,
+      "mot": "bagarre"
+    },
+    {
+      "debut": 41.49,
+      "fin": 41.83,
+      "mot": "et"
+    },
+    {
+      "debut": 41.83,
+      "fin": 41.99,
+      "mot": "ta"
+    },
+    {
+      "debut": 41.99,
+      "fin": 42.25,
+      "mot": "licence"
+    },
+    {
+      "debut": 42.25,
+      "fin": 42.63,
+      "mot": "saute,"
+    },
+    {
+      "debut": 42.99,
+      "fin": 43.15,
+      "mot": "tout"
+    },
+    {
+      "debut": 43.15,
+      "fin": 43.39,
+      "mot": "s"
+    },
+    {
+      "debut": 43.39,
+      "fin": 43.73,
+      "mot": "'arrête."
+    },
+    {
+      "debut": 51.05,
+      "fin": 51.21,
+      "mot": "Ton"
+    },
+    {
+      "debut": 51.21,
+      "fin": 51.49,
+      "mot": "grand"
+    },
+    {
+      "debut": 51.49,
+      "fin": 51.63,
+      "mot": "frère"
+    },
+    {
+      "debut": 51.63,
+      "fin": 51.77,
+      "mot": "a"
+    },
+    {
+      "debut": 51.77,
+      "fin": 51.93,
+      "mot": "pas"
+    },
+    {
+      "debut": 51.93,
+      "fin": 52.45,
+      "mot": "payé,"
+    },
+    {
+      "debut": 52.63,
+      "fin": 52.81,
+      "mot": "alors"
+    },
+    {
+      "debut": 52.81,
+      "fin": 53.15,
+      "mot": "aujourd"
+    },
+    {
+      "debut": 53.15,
+      "fin": 53.23,
+      "mot": "'hui"
+    },
+    {
+      "debut": 53.23,
+      "fin": 53.35,
+      "mot": "c"
+    },
+    {
+      "debut": 53.35,
+      "fin": 53.39,
+      "mot": "'est"
+    },
+    {
+      "debut": 53.39,
+      "fin": 53.67,
+      "mot": "toi."
+    },
+    {
+      "debut": 54.13,
+      "fin": 54.41,
+      "mot": "Laisse"
+    },
+    {
+      "debut": 54.41,
+      "fin": 54.61,
+      "mot": "-moi"
+    },
+    {
+      "debut": 54.61,
+      "fin": 54.81,
+      "mot": "s"
+    },
+    {
+      "debut": 54.81,
+      "fin": 54.87,
+      "mot": "'il"
+    },
+    {
+      "debut": 54.87,
+      "fin": 55.07,
+      "mot": "te"
+    },
+    {
+      "debut": 55.07,
+      "fin": 55.19,
+      "mot": "plaît,"
+    },
+    {
+      "debut": 55.23,
+      "fin": 55.43,
+      "mot": "laisse"
+    },
+    {
+      "debut": 55.43,
+      "fin": 55.61,
+      "mot": "-moi"
+    },
+    {
+      "debut": 55.61,
+      "fin": 56.27,
+      "mot": "tranquille."
+    },
+    {
+      "debut": 56.99,
+      "fin": 57.13,
+      "mot": "Ah"
+    },
+    {
+      "debut": 57.13,
+      "fin": 57.25,
+      "mot": "le"
+    },
+    {
+      "debut": 57.25,
+      "fin": 57.51,
+      "mot": "grand"
+    },
+    {
+      "debut": 57.51,
+      "fin": 57.83,
+      "mot": "frère,"
+    },
+    {
+      "debut": 57.97,
+      "fin": 58.03,
+      "mot": "t"
+    },
+    {
+      "debut": 58.03,
+      "fin": 58.11,
+      "mot": "'as"
+    },
+    {
+      "debut": 58.11,
+      "fin": 58.37,
+      "mot": "ramené"
+    },
+    {
+      "debut": 58.37,
+      "fin": 58.51,
+      "mot": "mes"
+    },
+    {
+      "debut": 58.51,
+      "fin": 58.77,
+      "mot": "50"
+    },
+    {
+      "debut": 58.77,
+      "fin": 59.19,
+      "mot": "balles"
+    },
+    {
+      "debut": 59.19,
+      "fin": 59.67,
+      "mot": "?"
+    },
+    {
+      "debut": 59.67,
+      "fin": 59.91,
+      "mot": "Rentre"
+    },
+    {
+      "debut": 59.91,
+      "fin": 60.03,
+      "mot": "à"
+    },
+    {
+      "debut": 60.03,
+      "fin": 60.13,
+      "mot": "la"
+    },
+    {
+      "debut": 60.13,
+      "fin": 60.35,
+      "mot": "maison"
+    },
+    {
+      "debut": 60.35,
+      "fin": 60.65,
+      "mot": "petit,"
+    },
+    {
+      "debut": 61.07,
+      "fin": 61.21,
+      "mot": "je"
+    },
+    {
+      "debut": 61.21,
+      "fin": 61.27,
+      "mot": "m"
+    },
+    {
+      "debut": 61.27,
+      "fin": 61.43,
+      "mot": "'en"
+    },
+    {
+      "debut": 61.43,
+      "fin": 62.01,
+      "mot": "occupe."
+    },
+    {
+      "debut": 64.95,
+      "fin": 65.33,
+      "mot": "Quoi"
+    },
+    {
+      "debut": 65.33,
+      "fin": 65.39,
+      "mot": "?"
+    },
+    {
+      "debut": 65.39,
+      "fin": 65.51,
+      "mot": "Tu"
+    },
+    {
+      "debut": 65.51,
+      "fin": 65.65,
+      "mot": "te"
+    },
+    {
+      "debut": 65.65,
+      "fin": 65.75,
+      "mot": "prends"
+    },
+    {
+      "debut": 65.75,
+      "fin": 65.93,
+      "mot": "pour"
+    },
+    {
+      "debut": 65.93,
+      "fin": 66.13,
+      "mot": "Rocky"
+    },
+    {
+      "debut": 66.13,
+      "fin": 66.41,
+      "mot": "toi"
+    },
+    {
+      "debut": 66.41,
+      "fin": 66.65,
+      "mot": "?"
+    },
+    {
+      "debut": 66.65,
+      "fin": 66.85,
+      "mot": "Vas"
+    },
+    {
+      "debut": 66.85,
+      "fin": 66.93,
+      "mot": "-y"
+    },
+    {
+      "debut": 66.93,
+      "fin": 67.87,
+      "mot": "essaie."
+    },
+    {
+      "debut": 68.79,
+      "fin": 69.11,
+      "mot": "Tu"
+    },
+    {
+      "debut": 69.11,
+      "fin": 69.21,
+      "mot": "m"
+    },
+    {
+      "debut": 69.21,
+      "fin": 69.35,
+      "mot": "'as"
+    },
+    {
+      "debut": 69.35,
+      "fin": 69.57,
+      "mot": "demandé"
+    },
+    {
+      "debut": 69.57,
+      "fin": 69.71,
+      "mot": "ce"
+    },
+    {
+      "debut": 69.71,
+      "fin": 69.81,
+      "mot": "que"
+    },
+    {
+      "debut": 69.81,
+      "fin": 69.99,
+      "mot": "c"
+    },
+    {
+      "debut": 69.99,
+      "fin": 70.15,
+      "mot": "'était"
+    },
+    {
+      "debut": 70.15,
+      "fin": 70.45,
+      "mot": "hier."
+    },
+    {
+      "debut": 71.67,
+      "fin": 71.75,
+      "mot": "Je"
+    },
+    {
+      "debut": 71.75,
+      "fin": 71.85,
+      "mot": "vais"
+    },
+    {
+      "debut": 71.85,
+      "fin": 72.01,
+      "mot": "te"
+    },
+    {
+      "debut": 72.01,
+      "fin": 72.25,
+      "mot": "montrer."
+    }
+  ]
+}

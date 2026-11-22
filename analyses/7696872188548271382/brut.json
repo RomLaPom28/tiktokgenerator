@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "id": "7696872188548271382",
+    "url": "https://www.tiktok.com/@les.storytv/video/7696872188548271382",
+    "compte": "les.storytv",
+    "description": "Demande en mariage refusée pour Banane, pour une histoire de bagues ?? Attendez de voir la suite... #fruitstory #iastory #fruitia #mariage #bagues💍",
+    "vues": 240200,
+    "likes": 980,
+    "commentaires": 6,
+    "partages": 12,
+    "date": "20261015",
+    "duree": 60.0,
+    "musique": "BLUE WATER CANDY",
+    "taux_likes": 0.41,
+    "taux_commentaires": 0.002
+  },
+  "langue": "fr",
+  "texte_complet": "Fraise depuis deux ans tu es ma plus belle histoire veux tu m'épouser non comment ça non pardon banane mais c'est non mais devant tout le monde je ne peux vraiment pas cette bague je la connais c'est celle de mon grand-père c'est un diamant rose unique au monde oui et alors il a été volé chez ma grand-mère il y a 30 ans quoi tu m'accuse de quoi mon grand-père me l'a confié la semaine dernière ma grand-mère pleure cette bague depuis 30 ans mon grand-père n'a jamais rien volé de sa vie alors explique-moi comment il l'a eu je te jure que je ne sais pas très bien on appelle nos deux familles bon d'accord la bague n'a jamais été volé c'est moi qui te l'ai offert mon mari la cherchait partout alors j'ai dit qu'on me l'avait volé on s'est met en secret depuis toujours mimi allez les jeunes la bague est à vous on est quoi du coup",
+  "accroche_3s": "Fraise depuis deux ans tu es ma plus belle histoire veux tu",
+  "fin_5s": "",
+  "mots_par_seconde": 3.07,
+  "premier_mot_a": 0.08,
+  "nombre_plans": 17,
+  "duree_moyenne_plan": 3.53,
+  "phrases": [
+    {
+      "debut": 0.08,
+      "fin": 7.06,
+      "texte": "Fraise depuis deux ans tu es ma plus belle histoire veux tu m'épouser non comment ça non pardon banane mais c'est non"
+    },
+    {
+      "debut": 7.06,
+      "fin": 9.24,
+      "texte": "mais devant tout le monde je ne peux vraiment pas"
+    },
+    {
+      "debut": 10.14,
+      "fin": 16.6,
+      "texte": "cette bague je la connais c'est celle de mon grand-père c'est un diamant rose unique au monde oui et alors il a été volé chez ma"
+    },
+    {
+      "debut": 16.6,
+      "fin": 19.94,
+      "texte": "grand-mère il y a 30 ans quoi tu m'accuse de quoi"
+    },
+    {
+      "debut": 19.94,
+      "fin": 26.0,
+      "texte": "mon grand-père me l'a confié la semaine dernière ma grand-mère pleure cette bague depuis 30 ans mon grand-père n'a jamais rien volé de sa vie"
+    },
+    {
+      "debut": 26.0,
+      "fin": 30.0,
+      "texte": "alors explique-moi comment il l'a eu je te jure que je ne sais pas très bien on appelle nos deux familles"
+    },
+    {
+      "debut": 40.06,
+      "fin": 46.18,
+      "texte": "bon d'accord la bague n'a jamais été volé c'est moi qui te l'ai offert mon mari la cherchait partout alors j'ai dit qu'on me l'avait volé on s'est"
+    },
+    {
+      "debut": 46.18,
+      "fin": 49.76,
+      "texte": "met en secret depuis toujours mimi allez les jeunes la bague est à vous"
+    },
+    {
+      "debut": 51.62,
+      "fin": 52.8,
+      "texte": "on est quoi du coup"
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 3.57,
+      "duree": 3.57
+    },
+    {
+      "n": 2,
+      "debut": 3.57,
+      "fin": 4.5,
+      "duree": 0.93
+    },
+    {
+      "n": 3,
+      "debut": 4.5,
+      "fin": 5.5,
+      "duree": 1.0
+    },
+    {
+      "n": 4,
+      "debut": 5.5,
+      "fin": 6.93,
+      "duree": 1.43
+    },
+    {
+      "n": 5,
+      "debut": 6.93,
+      "fin": 12.67,
+      "duree": 5.73
+    },
+    {
+      "n": 6,
+      "debut": 12.67,
+      "fin": 14.47,
+      "duree": 1.8
+    },
+    {
+      "n": 7,
+      "debut": 14.47,
+      "fin": 15.3,
+      "duree": 0.83
+    },
+    {
+      "n": 8,
+      "debut": 15.3,
+      "fin": 17.8,
+      "duree": 2.5
+    },
+    {
+      "n": 9,
+      "debut": 17.8,
+      "fin": 19.97,
+      "duree": 2.17
+    },
+    {
+      "n": 10,
+      "debut": 19.97,
+      "fin": 30.0,
+      "duree": 10.03
+    },
+    {
+      "n": 11,
+      "debut": 30.0,
+      "fin": 40.0,
+      "duree": 10.0
+    },
+    {
+      "n": 12,
+      "debut": 40.0,
+      "fin": 49.47,
+      "duree": 9.47
+    },
+    {
+      "n": 13,
+      "debut": 49.47,
+      "fin": 50.0,
+      "duree": 0.53
+    },
+    {
+      "n": 14,
+      "debut": 50.0,
+      "fin": 52.93,
+      "duree": 2.93
+    },
+    {
+      "n": 15,
+      "debut": 52.93,
+      "fin": 55.13,
+      "duree": 2.2
+    },
+    {
+      "n": 16,
+      "debut": 55.13,
+      "fin": 57.1,
+      "duree": 1.97
+    },
+    {
+      "n": 17,
+      "debut": 57.1,
+      "fin": 60.0,
+      "duree": 2.9
+    }
+  ]
+}

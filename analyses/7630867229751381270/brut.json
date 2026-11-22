@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "id": "7630867229751381270",
+    "url": "https://www.tiktok.com/@7vizory7/video/7630867229751381270",
+    "compte": "7vizory7",
+    "description": "Elle voulait l'amour de ses parents pour elle seule... à n'importe quel prix. #fruitstory #histoiretriste #ia #fr ",
+    "vues": 1800000,
+    "likes": 62400,
+    "commentaires": 754,
+    "partages": 1408,
+    "date": "20260420",
+    "duree": 93.6,
+    "musique": "son original",
+    "taux_likes": 3.47,
+    "taux_commentaires": 0.042
+  },
+  "langue": "fr",
+  "texte_complet": "À partir de maintenant, ça sera moi la préférée. Ah ! Au secours ! Comment c'est possible ? Fiston ! Tu m'entends ? Où es-tu ? Je suis là ! Non, s'il te plaît, le requin, je veux pas finir en salade de fruits ! C'est moi qui l'ai poussé. Je ne pensais pas que ça irait si loin. Quoi ? On ne dit rien pour l'instant. C'est notre secret. Papa, j'ai peur. Je sais pas comment m'en sortir. Faites demi-tour ! Mon fils est en danger ! Je prépare une équipe de sauvetage, monsieur. Merci les dauphins ! Vous me sauvez la vie ! Il va s'en sortir, je le sens. Tout va bien se terminer. Je l'espère. Où es-tu, Fiston ? C'est quoi cet endroit ? Où suis-je ? Il y a quelqu'un ! Si je veux survivre, je vais devoir me débrouiller. De la nourriture ! Merci la nature ! Allez, s'il te plaît. Allez ! J'ai réussi ! Papa, tu me manques tellement. S'il vous plaît, je suis là ! On le tient ! On le ramène ! Accroche-toi, on t'a ! Tout va bien. Tu es en sécurité, maintenant. Mon fils, c'est toi ! Je n'y crois pas ! Papa ! Papa, c'est elle ! C'est elle qui m'a poussé par-dessus bord ! Vous êtes des monstres, toutes les deux. Sortez de notre vie ! Non, attends ! Il y a un malentendu ! On a tout perdu, maintenant. Qu'est-ce qu'on va devenir ? Tout va bien, maintenant, mon fils. Je savais que je te retrouverais, papa.",
+  "accroche_3s": "À partir de maintenant, ça sera moi la préférée.",
+  "fin_5s": "maintenant, mon fils. Je savais que je te retrouverais, papa.",
+  "mots_par_seconde": 3.13,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 18,
+  "duree_moyenne_plan": 5.2,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 2.18,
+      "texte": "À partir de maintenant, ça sera moi la préférée."
+    },
+    {
+      "debut": 5.01,
+      "fin": 6.69,
+      "texte": "Ah ! Au secours !"
+    },
+    {
+      "debut": 11.55,
+      "fin": 13.43,
+      "texte": "Comment c'est possible ? Fiston !"
+    },
+    {
+      "debut": 14.45,
+      "fin": 16.49,
+      "texte": "Tu m'entends ? Où es-tu ? Je suis là !"
+    },
+    {
+      "debut": 16.49,
+      "fin": 21.49,
+      "texte": "Non, s'il te plaît, le requin, je veux pas finir en salade de fruits !"
+    },
+    {
+      "debut": 21.49,
+      "fin": 24.87,
+      "texte": "C'est moi qui l'ai poussé. Je ne pensais pas que ça irait si loin."
+    },
+    {
+      "debut": 25.23,
+      "fin": 25.87,
+      "texte": "Quoi ?"
+    },
+    {
+      "debut": 25.87,
+      "fin": 28.19,
+      "texte": "On ne dit rien pour l'instant. C'est notre secret."
+    },
+    {
+      "debut": 28.73,
+      "fin": 32.09,
+      "texte": "Papa, j'ai peur. Je sais pas comment m'en sortir."
+    },
+    {
+      "debut": 32.39,
+      "fin": 34.75,
+      "texte": "Faites demi-tour ! Mon fils est en danger !"
+    },
+    {
+      "debut": 34.75,
+      "fin": 36.37,
+      "texte": "Je prépare une équipe de sauvetage, monsieur."
+    },
+    {
+      "debut": 36.37,
+      "fin": 39.37,
+      "texte": "Merci les dauphins ! Vous me sauvez la vie !"
+    },
+    {
+      "debut": 40.03,
+      "fin": 42.73,
+      "texte": "Il va s'en sortir, je le sens. Tout va bien se terminer."
+    },
+    {
+      "debut": 43.05,
+      "fin": 44.93,
+      "texte": "Je l'espère. Où es-tu, Fiston ?"
+    },
+    {
+      "debut": 44.93,
+      "fin": 46.99,
+      "texte": "C'est quoi cet endroit ? Où suis-je ?"
+    },
+    {
+      "debut": 46.99,
+      "fin": 48.87,
+      "texte": "Il y a quelqu'un !"
+    },
+    {
+      "debut": 48.87,
+      "fin": 51.51,
+      "texte": "Si je veux survivre, je vais devoir me débrouiller."
+    },
+    {
+      "debut": 52.55,
+      "fin": 54.55,
+      "texte": "De la nourriture ! Merci la nature !"
+    },
+    {
+      "debut": 55.83,
+      "fin": 56.75,
+      "texte": "Allez, s'il te plaît."
+    },
+    {
+      "debut": 57.69,
+      "fin": 59.49,
+      "texte": "Allez ! J'ai réussi !"
+    },
+    {
+      "debut": 60.41,
+      "fin": 61.99,
+      "texte": "Papa, tu me manques tellement."
+    },
+    {
+      "debut": 62.93,
+      "fin": 64.81,
+      "texte": "S'il vous plaît, je suis là !"
+    },
+    {
+      "debut": 66.51,
+      "fin": 70.13,
+      "texte": "On le tient ! On le ramène ! Accroche-toi, on t'a !"
+    },
+    {
+      "debut": 70.13,
+      "fin": 72.35,
+      "texte": "Tout va bien. Tu es en sécurité, maintenant."
+    },
+    {
+      "debut": 73.71,
+      "fin": 75.67,
+      "texte": "Mon fils, c'est toi ! Je n'y crois pas !"
+    },
+    {
+      "debut": 75.67,
+      "fin": 76.51,
+      "texte": "Papa !"
+    },
+    {
+      "debut": 77.13,
+      "fin": 80.15,
+      "texte": "Papa, c'est elle ! C'est elle qui m'a poussé par-dessus bord !"
+    },
+    {
+      "debut": 80.15,
+      "fin": 81.65,
+      "texte": "Vous êtes des monstres, toutes les deux."
+    },
+    {
+      "debut": 82.15,
+      "fin": 83.25,
+      "texte": "Sortez de notre vie !"
+    },
+    {
+      "debut": 83.25,
+      "fin": 84.85,
+      "texte": "Non, attends ! Il y a un malentendu !"
+    },
+    {
+      "debut": 84.85,
+      "fin": 88.07,
+      "texte": "On a tout perdu, maintenant. Qu'est-ce qu'on va devenir ?"
+    },
+    {
+      "debut": 88.07,
+      "fin": 89.61,
+      "texte": "Tout va bien, maintenant, mon fils."
+    },
+    {
+      "debut": 90.03,
+      "fin": 91.61,
+      "texte": "Je savais que je te retrouverais, papa."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 4.12,
+      "duree": 4.12
+    },
+    {
+      "n": 2,
+      "debut": 4.12,
+      "fin": 12.42,
+      "duree": 8.29
+    },
+    {
+      "n": 3,
+      "debut": 12.42,
+      "fin": 16.42,
+      "duree": 4.0
+    },
+    {
+      "n": 4,
+      "debut": 16.42,
+      "fin": 28.67,
+      "duree": 12.25
+    },
+    {
+      "n": 5,
+      "debut": 28.67,
+      "fin": 32.25,
+      "duree": 3.58
+    },
+    {
+      "n": 6,
+      "debut": 32.25,
+      "fin": 34.38,
+      "duree": 2.12
+    },
+    {
+      "n": 7,
+      "debut": 34.38,
+      "fin": 36.08,
+      "duree": 1.71
+    },
+    {
+      "n": 8,
+      "debut": 36.08,
+      "fin": 40.04,
+      "duree": 3.96
+    },
+    {
+      "n": 9,
+      "debut": 40.04,
+      "fin": 44.83,
+      "duree": 4.79
+    },
+    {
+      "n": 10,
+      "debut": 44.83,
+      "fin": 52.46,
+      "duree": 7.62
+    },
+    {
+      "n": 11,
+      "debut": 52.46,
+      "fin": 55.29,
+      "duree": 2.83
+    },
+    {
+      "n": 12,
+      "debut": 55.29,
+      "fin": 62.62,
+      "duree": 7.33
+    },
+    {
+      "n": 13,
+      "debut": 62.62,
+      "fin": 66.58,
+      "duree": 3.96
+    },
+    {
+      "n": 14,
+      "debut": 66.58,
+      "fin": 77.04,
+      "duree": 10.46
+    },
+    {
+      "n": 15,
+      "debut": 77.04,
+      "fin": 80.08,
+      "duree": 3.04
+    },
+    {
+      "n": 16,
+      "debut": 80.08,
+      "fin": 83.0,
+      "duree": 2.92
+    },
+    {
+      "n": 17,
+      "debut": 83.0,
+      "fin": 88.04,
+      "duree": 5.04
+    },
+    {
+      "n": 18,
+      "debut": 88.04,
+      "fin": 93.62,
+      "duree": 5.58
+    }
+  ]
+}

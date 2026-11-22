@@ -1,0 +1,972 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.08,
+      "fin": 7.06,
+      "texte": "Fraise depuis deux ans tu es ma plus belle histoire veux tu m'épouser non comment ça non pardon banane mais c'est non"
+    },
+    {
+      "debut": 7.06,
+      "fin": 9.24,
+      "texte": "mais devant tout le monde je ne peux vraiment pas"
+    },
+    {
+      "debut": 10.14,
+      "fin": 16.6,
+      "texte": "cette bague je la connais c'est celle de mon grand-père c'est un diamant rose unique au monde oui et alors il a été volé chez ma"
+    },
+    {
+      "debut": 16.6,
+      "fin": 19.94,
+      "texte": "grand-mère il y a 30 ans quoi tu m'accuse de quoi"
+    },
+    {
+      "debut": 19.94,
+      "fin": 26.0,
+      "texte": "mon grand-père me l'a confié la semaine dernière ma grand-mère pleure cette bague depuis 30 ans mon grand-père n'a jamais rien volé de sa vie"
+    },
+    {
+      "debut": 26.0,
+      "fin": 30.0,
+      "texte": "alors explique-moi comment il l'a eu je te jure que je ne sais pas très bien on appelle nos deux familles"
+    },
+    {
+      "debut": 40.06,
+      "fin": 46.18,
+      "texte": "bon d'accord la bague n'a jamais été volé c'est moi qui te l'ai offert mon mari la cherchait partout alors j'ai dit qu'on me l'avait volé on s'est"
+    },
+    {
+      "debut": 46.18,
+      "fin": 49.76,
+      "texte": "met en secret depuis toujours mimi allez les jeunes la bague est à vous"
+    },
+    {
+      "debut": 51.62,
+      "fin": 52.8,
+      "texte": "on est quoi du coup"
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.08,
+      "fin": 0.76,
+      "mot": "Fraise"
+    },
+    {
+      "debut": 0.76,
+      "fin": 1.06,
+      "mot": "depuis"
+    },
+    {
+      "debut": 1.06,
+      "fin": 1.32,
+      "mot": "deux"
+    },
+    {
+      "debut": 1.32,
+      "fin": 1.42,
+      "mot": "ans"
+    },
+    {
+      "debut": 1.42,
+      "fin": 1.58,
+      "mot": "tu"
+    },
+    {
+      "debut": 1.58,
+      "fin": 1.68,
+      "mot": "es"
+    },
+    {
+      "debut": 1.68,
+      "fin": 1.82,
+      "mot": "ma"
+    },
+    {
+      "debut": 1.82,
+      "fin": 1.94,
+      "mot": "plus"
+    },
+    {
+      "debut": 1.94,
+      "fin": 2.1,
+      "mot": "belle"
+    },
+    {
+      "debut": 2.1,
+      "fin": 2.6,
+      "mot": "histoire"
+    },
+    {
+      "debut": 2.6,
+      "fin": 2.94,
+      "mot": "veux"
+    },
+    {
+      "debut": 2.94,
+      "fin": 3.04,
+      "mot": "tu"
+    },
+    {
+      "debut": 3.04,
+      "fin": 3.18,
+      "mot": "m"
+    },
+    {
+      "debut": 3.18,
+      "fin": 3.98,
+      "mot": "'épouser"
+    },
+    {
+      "debut": 3.98,
+      "fin": 4.56,
+      "mot": "non"
+    },
+    {
+      "debut": 4.56,
+      "fin": 4.98,
+      "mot": "comment"
+    },
+    {
+      "debut": 4.98,
+      "fin": 5.24,
+      "mot": "ça"
+    },
+    {
+      "debut": 5.24,
+      "fin": 5.5,
+      "mot": "non"
+    },
+    {
+      "debut": 5.5,
+      "fin": 5.9,
+      "mot": "pardon"
+    },
+    {
+      "debut": 5.9,
+      "fin": 6.3,
+      "mot": "banane"
+    },
+    {
+      "debut": 6.3,
+      "fin": 6.48,
+      "mot": "mais"
+    },
+    {
+      "debut": 6.48,
+      "fin": 6.62,
+      "mot": "c"
+    },
+    {
+      "debut": 6.62,
+      "fin": 7.06,
+      "mot": "'est"
+    },
+    {
+      "debut": 7.06,
+      "fin": 7.06,
+      "mot": "non"
+    },
+    {
+      "debut": 7.06,
+      "fin": 7.36,
+      "mot": "mais"
+    },
+    {
+      "debut": 7.36,
+      "fin": 7.62,
+      "mot": "devant"
+    },
+    {
+      "debut": 7.62,
+      "fin": 7.8,
+      "mot": "tout"
+    },
+    {
+      "debut": 7.8,
+      "fin": 7.9,
+      "mot": "le"
+    },
+    {
+      "debut": 7.9,
+      "fin": 8.1,
+      "mot": "monde"
+    },
+    {
+      "debut": 8.1,
+      "fin": 8.38,
+      "mot": "je"
+    },
+    {
+      "debut": 8.38,
+      "fin": 8.56,
+      "mot": "ne"
+    },
+    {
+      "debut": 8.56,
+      "fin": 8.68,
+      "mot": "peux"
+    },
+    {
+      "debut": 8.68,
+      "fin": 9.04,
+      "mot": "vraiment"
+    },
+    {
+      "debut": 9.04,
+      "fin": 9.24,
+      "mot": "pas"
+    },
+    {
+      "debut": 10.14,
+      "fin": 10.5,
+      "mot": "cette"
+    },
+    {
+      "debut": 10.5,
+      "fin": 10.72,
+      "mot": "bague"
+    },
+    {
+      "debut": 10.72,
+      "fin": 10.86,
+      "mot": "je"
+    },
+    {
+      "debut": 10.86,
+      "fin": 11.06,
+      "mot": "la"
+    },
+    {
+      "debut": 11.06,
+      "fin": 11.36,
+      "mot": "connais"
+    },
+    {
+      "debut": 11.36,
+      "fin": 11.74,
+      "mot": "c"
+    },
+    {
+      "debut": 11.74,
+      "fin": 11.78,
+      "mot": "'est"
+    },
+    {
+      "debut": 11.78,
+      "fin": 11.9,
+      "mot": "celle"
+    },
+    {
+      "debut": 11.9,
+      "fin": 12.06,
+      "mot": "de"
+    },
+    {
+      "debut": 12.06,
+      "fin": 12.2,
+      "mot": "mon"
+    },
+    {
+      "debut": 12.2,
+      "fin": 12.42,
+      "mot": "grand"
+    },
+    {
+      "debut": 12.42,
+      "fin": 12.64,
+      "mot": "-père"
+    },
+    {
+      "debut": 12.64,
+      "fin": 12.92,
+      "mot": "c"
+    },
+    {
+      "debut": 12.92,
+      "fin": 12.94,
+      "mot": "'est"
+    },
+    {
+      "debut": 12.94,
+      "fin": 13.12,
+      "mot": "un"
+    },
+    {
+      "debut": 13.12,
+      "fin": 13.44,
+      "mot": "diamant"
+    },
+    {
+      "debut": 13.44,
+      "fin": 13.68,
+      "mot": "rose"
+    },
+    {
+      "debut": 13.68,
+      "fin": 14.1,
+      "mot": "unique"
+    },
+    {
+      "debut": 14.1,
+      "fin": 14.28,
+      "mot": "au"
+    },
+    {
+      "debut": 14.28,
+      "fin": 14.54,
+      "mot": "monde"
+    },
+    {
+      "debut": 14.54,
+      "fin": 14.8,
+      "mot": "oui"
+    },
+    {
+      "debut": 14.8,
+      "fin": 15.08,
+      "mot": "et"
+    },
+    {
+      "debut": 15.08,
+      "fin": 15.3,
+      "mot": "alors"
+    },
+    {
+      "debut": 15.3,
+      "fin": 15.64,
+      "mot": "il"
+    },
+    {
+      "debut": 15.64,
+      "fin": 15.74,
+      "mot": "a"
+    },
+    {
+      "debut": 15.74,
+      "fin": 15.96,
+      "mot": "été"
+    },
+    {
+      "debut": 15.96,
+      "fin": 16.24,
+      "mot": "volé"
+    },
+    {
+      "debut": 16.24,
+      "fin": 16.38,
+      "mot": "chez"
+    },
+    {
+      "debut": 16.38,
+      "fin": 16.6,
+      "mot": "ma"
+    },
+    {
+      "debut": 16.6,
+      "fin": 16.78,
+      "mot": "grand"
+    },
+    {
+      "debut": 16.78,
+      "fin": 16.9,
+      "mot": "-mère"
+    },
+    {
+      "debut": 16.9,
+      "fin": 17.08,
+      "mot": "il"
+    },
+    {
+      "debut": 17.08,
+      "fin": 17.12,
+      "mot": "y"
+    },
+    {
+      "debut": 17.12,
+      "fin": 17.26,
+      "mot": "a"
+    },
+    {
+      "debut": 17.26,
+      "fin": 17.48,
+      "mot": "30"
+    },
+    {
+      "debut": 17.48,
+      "fin": 18.0,
+      "mot": "ans"
+    },
+    {
+      "debut": 18.0,
+      "fin": 18.28,
+      "mot": "quoi"
+    },
+    {
+      "debut": 18.28,
+      "fin": 18.62,
+      "mot": "tu"
+    },
+    {
+      "debut": 18.62,
+      "fin": 18.82,
+      "mot": "m"
+    },
+    {
+      "debut": 18.82,
+      "fin": 18.96,
+      "mot": "'accuse"
+    },
+    {
+      "debut": 18.96,
+      "fin": 19.22,
+      "mot": "de"
+    },
+    {
+      "debut": 19.22,
+      "fin": 19.94,
+      "mot": "quoi"
+    },
+    {
+      "debut": 19.94,
+      "fin": 20.48,
+      "mot": "mon"
+    },
+    {
+      "debut": 20.48,
+      "fin": 20.72,
+      "mot": "grand"
+    },
+    {
+      "debut": 20.72,
+      "fin": 20.84,
+      "mot": "-père"
+    },
+    {
+      "debut": 20.84,
+      "fin": 20.98,
+      "mot": "me"
+    },
+    {
+      "debut": 20.98,
+      "fin": 21.06,
+      "mot": "l"
+    },
+    {
+      "debut": 21.06,
+      "fin": 21.2,
+      "mot": "'a"
+    },
+    {
+      "debut": 21.2,
+      "fin": 21.38,
+      "mot": "confié"
+    },
+    {
+      "debut": 21.38,
+      "fin": 21.58,
+      "mot": "la"
+    },
+    {
+      "debut": 21.58,
+      "fin": 21.72,
+      "mot": "semaine"
+    },
+    {
+      "debut": 21.72,
+      "fin": 22.18,
+      "mot": "dernière"
+    },
+    {
+      "debut": 22.18,
+      "fin": 22.44,
+      "mot": "ma"
+    },
+    {
+      "debut": 22.44,
+      "fin": 22.64,
+      "mot": "grand"
+    },
+    {
+      "debut": 22.64,
+      "fin": 22.78,
+      "mot": "-mère"
+    },
+    {
+      "debut": 22.78,
+      "fin": 23.06,
+      "mot": "pleure"
+    },
+    {
+      "debut": 23.06,
+      "fin": 23.26,
+      "mot": "cette"
+    },
+    {
+      "debut": 23.26,
+      "fin": 23.48,
+      "mot": "bague"
+    },
+    {
+      "debut": 23.48,
+      "fin": 23.7,
+      "mot": "depuis"
+    },
+    {
+      "debut": 23.7,
+      "fin": 23.92,
+      "mot": "30"
+    },
+    {
+      "debut": 23.92,
+      "fin": 24.1,
+      "mot": "ans"
+    },
+    {
+      "debut": 24.1,
+      "fin": 24.28,
+      "mot": "mon"
+    },
+    {
+      "debut": 24.28,
+      "fin": 24.52,
+      "mot": "grand"
+    },
+    {
+      "debut": 24.52,
+      "fin": 24.64,
+      "mot": "-père"
+    },
+    {
+      "debut": 24.64,
+      "fin": 24.76,
+      "mot": "n"
+    },
+    {
+      "debut": 24.76,
+      "fin": 24.82,
+      "mot": "'a"
+    },
+    {
+      "debut": 24.82,
+      "fin": 25.1,
+      "mot": "jamais"
+    },
+    {
+      "debut": 25.1,
+      "fin": 25.32,
+      "mot": "rien"
+    },
+    {
+      "debut": 25.32,
+      "fin": 25.52,
+      "mot": "volé"
+    },
+    {
+      "debut": 25.52,
+      "fin": 25.7,
+      "mot": "de"
+    },
+    {
+      "debut": 25.7,
+      "fin": 25.82,
+      "mot": "sa"
+    },
+    {
+      "debut": 25.82,
+      "fin": 26.0,
+      "mot": "vie"
+    },
+    {
+      "debut": 26.0,
+      "fin": 26.32,
+      "mot": "alors"
+    },
+    {
+      "debut": 26.32,
+      "fin": 26.66,
+      "mot": "explique"
+    },
+    {
+      "debut": 26.66,
+      "fin": 26.76,
+      "mot": "-moi"
+    },
+    {
+      "debut": 26.76,
+      "fin": 27.0,
+      "mot": "comment"
+    },
+    {
+      "debut": 27.0,
+      "fin": 27.18,
+      "mot": "il"
+    },
+    {
+      "debut": 27.18,
+      "fin": 27.22,
+      "mot": "l"
+    },
+    {
+      "debut": 27.22,
+      "fin": 27.3,
+      "mot": "'a"
+    },
+    {
+      "debut": 27.3,
+      "fin": 27.56,
+      "mot": "eu"
+    },
+    {
+      "debut": 27.56,
+      "fin": 27.76,
+      "mot": "je"
+    },
+    {
+      "debut": 27.76,
+      "fin": 27.94,
+      "mot": "te"
+    },
+    {
+      "debut": 27.94,
+      "fin": 28.04,
+      "mot": "jure"
+    },
+    {
+      "debut": 28.04,
+      "fin": 28.2,
+      "mot": "que"
+    },
+    {
+      "debut": 28.2,
+      "fin": 28.32,
+      "mot": "je"
+    },
+    {
+      "debut": 28.32,
+      "fin": 28.5,
+      "mot": "ne"
+    },
+    {
+      "debut": 28.5,
+      "fin": 28.56,
+      "mot": "sais"
+    },
+    {
+      "debut": 28.56,
+      "fin": 28.7,
+      "mot": "pas"
+    },
+    {
+      "debut": 28.7,
+      "fin": 28.84,
+      "mot": "très"
+    },
+    {
+      "debut": 28.84,
+      "fin": 28.98,
+      "mot": "bien"
+    },
+    {
+      "debut": 28.98,
+      "fin": 29.16,
+      "mot": "on"
+    },
+    {
+      "debut": 29.16,
+      "fin": 29.3,
+      "mot": "appelle"
+    },
+    {
+      "debut": 29.3,
+      "fin": 29.46,
+      "mot": "nos"
+    },
+    {
+      "debut": 29.46,
+      "fin": 29.62,
+      "mot": "deux"
+    },
+    {
+      "debut": 29.62,
+      "fin": 30.0,
+      "mot": "familles"
+    },
+    {
+      "debut": 40.06,
+      "fin": 40.42,
+      "mot": "bon"
+    },
+    {
+      "debut": 40.42,
+      "fin": 40.74,
+      "mot": "d"
+    },
+    {
+      "debut": 40.74,
+      "fin": 40.9,
+      "mot": "'accord"
+    },
+    {
+      "debut": 40.9,
+      "fin": 41.08,
+      "mot": "la"
+    },
+    {
+      "debut": 41.08,
+      "fin": 41.3,
+      "mot": "bague"
+    },
+    {
+      "debut": 41.3,
+      "fin": 41.4,
+      "mot": "n"
+    },
+    {
+      "debut": 41.4,
+      "fin": 41.44,
+      "mot": "'a"
+    },
+    {
+      "debut": 41.44,
+      "fin": 41.7,
+      "mot": "jamais"
+    },
+    {
+      "debut": 41.7,
+      "fin": 41.94,
+      "mot": "été"
+    },
+    {
+      "debut": 41.94,
+      "fin": 42.48,
+      "mot": "volé"
+    },
+    {
+      "debut": 42.48,
+      "fin": 42.66,
+      "mot": "c"
+    },
+    {
+      "debut": 42.66,
+      "fin": 42.78,
+      "mot": "'est"
+    },
+    {
+      "debut": 42.78,
+      "fin": 42.88,
+      "mot": "moi"
+    },
+    {
+      "debut": 42.88,
+      "fin": 43.08,
+      "mot": "qui"
+    },
+    {
+      "debut": 43.08,
+      "fin": 43.14,
+      "mot": "te"
+    },
+    {
+      "debut": 43.14,
+      "fin": 43.16,
+      "mot": "l"
+    },
+    {
+      "debut": 43.16,
+      "fin": 43.32,
+      "mot": "'ai"
+    },
+    {
+      "debut": 43.32,
+      "fin": 43.58,
+      "mot": "offert"
+    },
+    {
+      "debut": 43.58,
+      "fin": 43.74,
+      "mot": "mon"
+    },
+    {
+      "debut": 43.74,
+      "fin": 43.98,
+      "mot": "mari"
+    },
+    {
+      "debut": 43.98,
+      "fin": 44.16,
+      "mot": "la"
+    },
+    {
+      "debut": 44.16,
+      "fin": 44.5,
+      "mot": "cherchait"
+    },
+    {
+      "debut": 44.5,
+      "fin": 44.8,
+      "mot": "partout"
+    },
+    {
+      "debut": 44.8,
+      "fin": 45.02,
+      "mot": "alors"
+    },
+    {
+      "debut": 45.02,
+      "fin": 45.12,
+      "mot": "j"
+    },
+    {
+      "debut": 45.12,
+      "fin": 45.2,
+      "mot": "'ai"
+    },
+    {
+      "debut": 45.2,
+      "fin": 45.28,
+      "mot": "dit"
+    },
+    {
+      "debut": 45.28,
+      "fin": 45.36,
+      "mot": "qu"
+    },
+    {
+      "debut": 45.36,
+      "fin": 45.42,
+      "mot": "'on"
+    },
+    {
+      "debut": 45.42,
+      "fin": 45.52,
+      "mot": "me"
+    },
+    {
+      "debut": 45.52,
+      "fin": 45.6,
+      "mot": "l"
+    },
+    {
+      "debut": 45.6,
+      "fin": 45.7,
+      "mot": "'avait"
+    },
+    {
+      "debut": 45.7,
+      "fin": 45.84,
+      "mot": "volé"
+    },
+    {
+      "debut": 45.84,
+      "fin": 45.98,
+      "mot": "on"
+    },
+    {
+      "debut": 45.98,
+      "fin": 46.12,
+      "mot": "s"
+    },
+    {
+      "debut": 46.12,
+      "fin": 46.18,
+      "mot": "'est"
+    },
+    {
+      "debut": 46.18,
+      "fin": 46.24,
+      "mot": "met"
+    },
+    {
+      "debut": 46.24,
+      "fin": 46.52,
+      "mot": "en"
+    },
+    {
+      "debut": 46.52,
+      "fin": 46.7,
+      "mot": "secret"
+    },
+    {
+      "debut": 46.7,
+      "fin": 46.96,
+      "mot": "depuis"
+    },
+    {
+      "debut": 46.96,
+      "fin": 47.32,
+      "mot": "toujours"
+    },
+    {
+      "debut": 47.32,
+      "fin": 47.86,
+      "mot": "mimi"
+    },
+    {
+      "debut": 47.86,
+      "fin": 48.18,
+      "mot": "allez"
+    },
+    {
+      "debut": 48.18,
+      "fin": 48.46,
+      "mot": "les"
+    },
+    {
+      "debut": 48.46,
+      "fin": 48.62,
+      "mot": "jeunes"
+    },
+    {
+      "debut": 48.62,
+      "fin": 48.82,
+      "mot": "la"
+    },
+    {
+      "debut": 48.82,
+      "fin": 49.06,
+      "mot": "bague"
+    },
+    {
+      "debut": 49.06,
+      "fin": 49.2,
+      "mot": "est"
+    },
+    {
+      "debut": 49.2,
+      "fin": 49.34,
+      "mot": "à"
+    },
+    {
+      "debut": 49.34,
+      "fin": 49.76,
+      "mot": "vous"
+    },
+    {
+      "debut": 51.62,
+      "fin": 51.98,
+      "mot": "on"
+    },
+    {
+      "debut": 51.98,
+      "fin": 52.26,
+      "mot": "est"
+    },
+    {
+      "debut": 52.26,
+      "fin": 52.38,
+      "mot": "quoi"
+    },
+    {
+      "debut": 52.38,
+      "fin": 52.62,
+      "mot": "du"
+    },
+    {
+      "debut": 52.62,
+      "fin": 52.8,
+      "mot": "coup"
+    }
+  ]
+}

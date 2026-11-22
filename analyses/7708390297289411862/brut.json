@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "id": "7708390297289411862",
+    "url": "https://www.tiktok.com/@fruitdeguerre/video/7708390297289411862",
+    "compte": "fruitdeguerre",
+    "description": "Il avait le choix entre sa carrière et son petit frère… 😤 Partie 3 #fruitstory #histoireia #boxe #lycee #partie3",
+    "vues": 410500,
+    "likes": 62800,
+    "commentaires": 1147,
+    "partages": 409,
+    "date": "20261115",
+    "duree": 76.6,
+    "musique": "son original - Fruit de Guerre",
+    "taux_likes": 15.3,
+    "taux_commentaires": 0.279
+  },
+  "langue": "fr",
+  "texte_complet": "T'as perdu, ferme-la, je passe demain. Ton petit frère est dans ma voiture, viens seul. J'arrive, touche le pas. La fédération a vu la vidéo, une bagarre de plus et c'est fini, pour toujours. C'est mon frère coach. Regarde qui voilà, le grand frère est venu. T'es venu seul, t'es moins bête que mon cousin. Le champion de France, si tu te bats tu perds ta licence. Tu te bats pas, tu revois plus jamais ton frère. J'ai jamais eu besoin d'une carte pour me battre.",
+  "accroche_3s": "T 'as perdu, ferme -la,",
+  "fin_5s": "",
+  "mots_par_seconde": 1.24,
+  "premier_mot_a": 1.01,
+  "nombre_plans": 13,
+  "duree_moyenne_plan": 5.89,
+  "phrases": [
+    {
+      "debut": 1.01,
+      "fin": 4.03,
+      "texte": "T'as perdu, ferme-la, je passe demain."
+    },
+    {
+      "debut": 7.08,
+      "fin": 9.42,
+      "texte": "Ton petit frère est dans ma voiture, viens seul."
+    },
+    {
+      "debut": 15.24,
+      "fin": 16.7,
+      "texte": "J'arrive, touche le pas."
+    },
+    {
+      "debut": 18.44,
+      "fin": 22.56,
+      "texte": "La fédération a vu la vidéo, une bagarre de plus et c'est fini, pour toujours."
+    },
+    {
+      "debut": 23.74,
+      "fin": 24.88,
+      "texte": "C'est mon frère coach."
+    },
+    {
+      "debut": 36.64,
+      "fin": 39.52,
+      "texte": "Regarde qui voilà, le grand frère est venu."
+    },
+    {
+      "debut": 40.34,
+      "fin": 42.74,
+      "texte": "T'es venu seul, t'es moins bête que mon cousin."
+    },
+    {
+      "debut": 44.72,
+      "fin": 47.96,
+      "texte": "Le champion de France, si tu te bats tu perds ta licence."
+    },
+    {
+      "debut": 48.9,
+      "fin": 52.12,
+      "texte": "Tu te bats pas, tu revois plus jamais ton frère."
+    },
+    {
+      "debut": 65.71,
+      "fin": 67.93,
+      "texte": "J'ai jamais eu besoin d'une carte pour me battre."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 11.42,
+      "duree": 11.42
+    },
+    {
+      "n": 2,
+      "debut": 11.42,
+      "fin": 12.15,
+      "duree": 0.73
+    },
+    {
+      "n": 3,
+      "debut": 12.15,
+      "fin": 16.82,
+      "duree": 4.67
+    },
+    {
+      "n": 4,
+      "debut": 16.82,
+      "fin": 18.22,
+      "duree": 1.4
+    },
+    {
+      "n": 5,
+      "debut": 18.22,
+      "fin": 28.28,
+      "duree": 10.07
+    },
+    {
+      "n": 6,
+      "debut": 28.28,
+      "fin": 34.42,
+      "duree": 6.13
+    },
+    {
+      "n": 7,
+      "debut": 34.42,
+      "fin": 36.42,
+      "duree": 2.0
+    },
+    {
+      "n": 8,
+      "debut": 36.42,
+      "fin": 44.48,
+      "duree": 8.07
+    },
+    {
+      "n": 9,
+      "debut": 44.48,
+      "fin": 54.55,
+      "duree": 10.07
+    },
+    {
+      "n": 10,
+      "debut": 54.55,
+      "fin": 59.5,
+      "duree": 4.95
+    },
+    {
+      "n": 11,
+      "debut": 59.5,
+      "fin": 60.48,
+      "duree": 0.98
+    },
+    {
+      "n": 12,
+      "debut": 60.48,
+      "fin": 70.55,
+      "duree": 10.07
+    },
+    {
+      "n": 13,
+      "debut": 70.55,
+      "fin": 76.6,
+      "duree": 6.05
+    }
+  ]
+}

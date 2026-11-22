@@ -1,0 +1,1462 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 2.26,
+      "texte": "Wesh, des lunettes par terre !"
+    },
+    {
+      "debut": 2.26,
+      "fin": 4.52,
+      "texte": "Attends, il m'arrive quoi ? Je suis invisible ou je rêve là ?"
+    },
+    {
+      "debut": 4.52,
+      "fin": 6.14,
+      "texte": "C'est une dinguerie ça wesh !"
+    },
+    {
+      "debut": 6.14,
+      "fin": 9.34,
+      "texte": "C'est les lunettes qui régale aujourd'hui, je veux le repas le plus cher de ce restaurant monsieur !"
+    },
+    {
+      "debut": 9.34,
+      "fin": 11.44,
+      "texte": "Vous êtes sûr de vous ? Ça va vous coûter très cher."
+    },
+    {
+      "debut": 11.58,
+      "fin": 15.04,
+      "texte": "T'inquiète j'ai trop la dalle, ramène moi ce que je veux maintenant s'te plaît merci !"
+    },
+    {
+      "debut": 15.04,
+      "fin": 15.66,
+      "texte": "Ok monsieur."
+    },
+    {
+      "debut": 16.16,
+      "fin": 17.96,
+      "texte": "Alors ça arrive ou quoi mon ventre gargouille ?"
+    },
+    {
+      "debut": 17.96,
+      "fin": 20.52,
+      "texte": "Le cuistot sans charge, voulez-vous autre chose en attendant ?"
+    },
+    {
+      "debut": 20.52,
+      "fin": 21.86,
+      "texte": "Non pas pour l'instant merci."
+    },
+    {
+      "debut": 22.68,
+      "fin": 27.84,
+      "texte": "C'est parti je vais me régaler !"
+    },
+    {
+      "debut": 27.84,
+      "fin": 30.16,
+      "texte": "Oh je suis bien calé là Théma mon ventre il en peut plus."
+    },
+    {
+      "debut": 30.34,
+      "fin": 31.68,
+      "texte": "Tout s'est bien passé monsieur ?"
+    },
+    {
+      "debut": 31.68,
+      "fin": 33.98,
+      "texte": "Faitement bien, vous devez payer 3000 euros maintenant."
+    },
+    {
+      "debut": 34.22,
+      "fin": 35.48,
+      "texte": "Ok pas de soucis."
+    },
+    {
+      "debut": 36.44,
+      "fin": 39.42,
+      "texte": "Avant de payer j'ai une petite envie pressante, où sont vos toilettes ?"
+    },
+    {
+      "debut": 39.42,
+      "fin": 40.7,
+      "texte": "Au fond du couloir à gauche monsieur."
+    },
+    {
+      "debut": 41.0,
+      "fin": 42.2,
+      "texte": "Ok merci je reviens après."
+    },
+    {
+      "debut": 44.34,
+      "fin": 46.38,
+      "texte": "Je sais pas mais j'ai un mauvais pressentiment avec ce mec."
+    },
+    {
+      "debut": 46.48,
+      "fin": 49.04,
+      "texte": "Je vais le garder à l'œil, j'ai pas envie de me faire virer à cause de lui."
+    },
+    {
+      "debut": 50.4,
+      "fin": 52.2,
+      "texte": "Il met sa vie dans les chiottes ses chevaux ça !"
+    },
+    {
+      "debut": 52.2,
+      "fin": 55.4,
+      "texte": "Soit il a trop mangé et il est en train de tout évacuer, soit il veut me la faire à l'envers."
+    },
+    {
+      "debut": 56.36,
+      "fin": 58.36,
+      "texte": "Il croit vraiment que je vais payer 3000 balles sérieux ?"
+    },
+    {
+      "debut": 58.36,
+      "fin": 60.9,
+      "texte": "Avec mes lunettes il risque de plus me revoir le pauvre mais ça il le sait pas encore."
+    },
+    {
+      "debut": 61.68,
+      "fin": 62.32,
+      "texte": "Tchao !"
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.0,
+      "fin": 0.48,
+      "mot": "Wesh,"
+    },
+    {
+      "debut": 0.5,
+      "fin": 0.66,
+      "mot": "des"
+    },
+    {
+      "debut": 0.66,
+      "fin": 0.88,
+      "mot": "lunettes"
+    },
+    {
+      "debut": 0.88,
+      "fin": 1.12,
+      "mot": "par"
+    },
+    {
+      "debut": 1.12,
+      "fin": 1.42,
+      "mot": "terre"
+    },
+    {
+      "debut": 1.42,
+      "fin": 2.26,
+      "mot": "!"
+    },
+    {
+      "debut": 2.26,
+      "fin": 2.4,
+      "mot": "Attends,"
+    },
+    {
+      "debut": 2.44,
+      "fin": 2.52,
+      "mot": "il"
+    },
+    {
+      "debut": 2.52,
+      "fin": 2.56,
+      "mot": "m"
+    },
+    {
+      "debut": 2.56,
+      "fin": 2.74,
+      "mot": "'arrive"
+    },
+    {
+      "debut": 2.74,
+      "fin": 2.9,
+      "mot": "quoi"
+    },
+    {
+      "debut": 2.9,
+      "fin": 2.96,
+      "mot": "?"
+    },
+    {
+      "debut": 2.96,
+      "fin": 3.04,
+      "mot": "Je"
+    },
+    {
+      "debut": 3.04,
+      "fin": 3.18,
+      "mot": "suis"
+    },
+    {
+      "debut": 3.18,
+      "fin": 3.54,
+      "mot": "invisible"
+    },
+    {
+      "debut": 3.54,
+      "fin": 3.68,
+      "mot": "ou"
+    },
+    {
+      "debut": 3.68,
+      "fin": 3.76,
+      "mot": "je"
+    },
+    {
+      "debut": 3.76,
+      "fin": 3.94,
+      "mot": "rêve"
+    },
+    {
+      "debut": 3.94,
+      "fin": 4.18,
+      "mot": "là"
+    },
+    {
+      "debut": 4.18,
+      "fin": 4.52,
+      "mot": "?"
+    },
+    {
+      "debut": 4.52,
+      "fin": 4.66,
+      "mot": "C"
+    },
+    {
+      "debut": 4.66,
+      "fin": 4.7,
+      "mot": "'est"
+    },
+    {
+      "debut": 4.7,
+      "fin": 4.84,
+      "mot": "une"
+    },
+    {
+      "debut": 4.84,
+      "fin": 5.3,
+      "mot": "dinguerie"
+    },
+    {
+      "debut": 5.3,
+      "fin": 5.48,
+      "mot": "ça"
+    },
+    {
+      "debut": 5.48,
+      "fin": 5.9,
+      "mot": "wesh"
+    },
+    {
+      "debut": 5.9,
+      "fin": 6.14,
+      "mot": "!"
+    },
+    {
+      "debut": 6.14,
+      "fin": 6.18,
+      "mot": "C"
+    },
+    {
+      "debut": 6.18,
+      "fin": 6.24,
+      "mot": "'est"
+    },
+    {
+      "debut": 6.24,
+      "fin": 6.34,
+      "mot": "les"
+    },
+    {
+      "debut": 6.34,
+      "fin": 6.62,
+      "mot": "lunettes"
+    },
+    {
+      "debut": 6.62,
+      "fin": 6.78,
+      "mot": "qui"
+    },
+    {
+      "debut": 6.78,
+      "fin": 7.0,
+      "mot": "régale"
+    },
+    {
+      "debut": 7.0,
+      "fin": 7.3,
+      "mot": "aujourd"
+    },
+    {
+      "debut": 7.3,
+      "fin": 7.36,
+      "mot": "'hui,"
+    },
+    {
+      "debut": 7.4,
+      "fin": 7.48,
+      "mot": "je"
+    },
+    {
+      "debut": 7.48,
+      "fin": 7.58,
+      "mot": "veux"
+    },
+    {
+      "debut": 7.58,
+      "fin": 7.68,
+      "mot": "le"
+    },
+    {
+      "debut": 7.68,
+      "fin": 7.86,
+      "mot": "repas"
+    },
+    {
+      "debut": 7.86,
+      "fin": 8.08,
+      "mot": "le"
+    },
+    {
+      "debut": 8.08,
+      "fin": 8.26,
+      "mot": "plus"
+    },
+    {
+      "debut": 8.26,
+      "fin": 8.38,
+      "mot": "cher"
+    },
+    {
+      "debut": 8.38,
+      "fin": 8.52,
+      "mot": "de"
+    },
+    {
+      "debut": 8.52,
+      "fin": 8.68,
+      "mot": "ce"
+    },
+    {
+      "debut": 8.68,
+      "fin": 8.92,
+      "mot": "restaurant"
+    },
+    {
+      "debut": 8.92,
+      "fin": 9.24,
+      "mot": "monsieur"
+    },
+    {
+      "debut": 9.24,
+      "fin": 9.34,
+      "mot": "!"
+    },
+    {
+      "debut": 9.34,
+      "fin": 9.44,
+      "mot": "Vous"
+    },
+    {
+      "debut": 9.44,
+      "fin": 9.62,
+      "mot": "êtes"
+    },
+    {
+      "debut": 9.62,
+      "fin": 9.76,
+      "mot": "sûr"
+    },
+    {
+      "debut": 9.76,
+      "fin": 9.96,
+      "mot": "de"
+    },
+    {
+      "debut": 9.96,
+      "fin": 10.12,
+      "mot": "vous"
+    },
+    {
+      "debut": 10.12,
+      "fin": 10.3,
+      "mot": "?"
+    },
+    {
+      "debut": 10.3,
+      "fin": 10.44,
+      "mot": "Ça"
+    },
+    {
+      "debut": 10.44,
+      "fin": 10.58,
+      "mot": "va"
+    },
+    {
+      "debut": 10.58,
+      "fin": 10.72,
+      "mot": "vous"
+    },
+    {
+      "debut": 10.72,
+      "fin": 10.98,
+      "mot": "coûter"
+    },
+    {
+      "debut": 10.98,
+      "fin": 11.22,
+      "mot": "très"
+    },
+    {
+      "debut": 11.22,
+      "fin": 11.44,
+      "mot": "cher."
+    },
+    {
+      "debut": 11.58,
+      "fin": 11.68,
+      "mot": "T"
+    },
+    {
+      "debut": 11.68,
+      "fin": 11.84,
+      "mot": "'inquiète"
+    },
+    {
+      "debut": 11.84,
+      "fin": 11.92,
+      "mot": "j"
+    },
+    {
+      "debut": 11.92,
+      "fin": 12.04,
+      "mot": "'ai"
+    },
+    {
+      "debut": 12.04,
+      "fin": 12.24,
+      "mot": "trop"
+    },
+    {
+      "debut": 12.24,
+      "fin": 12.44,
+      "mot": "la"
+    },
+    {
+      "debut": 12.44,
+      "fin": 12.62,
+      "mot": "dalle,"
+    },
+    {
+      "debut": 12.8,
+      "fin": 12.98,
+      "mot": "ramène"
+    },
+    {
+      "debut": 12.98,
+      "fin": 13.14,
+      "mot": "moi"
+    },
+    {
+      "debut": 13.14,
+      "fin": 13.32,
+      "mot": "ce"
+    },
+    {
+      "debut": 13.32,
+      "fin": 13.4,
+      "mot": "que"
+    },
+    {
+      "debut": 13.4,
+      "fin": 13.48,
+      "mot": "je"
+    },
+    {
+      "debut": 13.48,
+      "fin": 13.6,
+      "mot": "veux"
+    },
+    {
+      "debut": 13.6,
+      "fin": 14.0,
+      "mot": "maintenant"
+    },
+    {
+      "debut": 14.0,
+      "fin": 14.26,
+      "mot": "s'te"
+    },
+    {
+      "debut": 14.26,
+      "fin": 14.4,
+      "mot": "plaît"
+    },
+    {
+      "debut": 14.4,
+      "fin": 14.74,
+      "mot": "merci"
+    },
+    {
+      "debut": 14.74,
+      "fin": 15.04,
+      "mot": "!"
+    },
+    {
+      "debut": 15.04,
+      "fin": 15.3,
+      "mot": "Ok"
+    },
+    {
+      "debut": 15.3,
+      "fin": 15.66,
+      "mot": "monsieur."
+    },
+    {
+      "debut": 16.16,
+      "fin": 16.32,
+      "mot": "Alors"
+    },
+    {
+      "debut": 16.32,
+      "fin": 16.54,
+      "mot": "ça"
+    },
+    {
+      "debut": 16.54,
+      "fin": 16.74,
+      "mot": "arrive"
+    },
+    {
+      "debut": 16.74,
+      "fin": 16.92,
+      "mot": "ou"
+    },
+    {
+      "debut": 16.92,
+      "fin": 17.0,
+      "mot": "quoi"
+    },
+    {
+      "debut": 17.0,
+      "fin": 17.16,
+      "mot": "mon"
+    },
+    {
+      "debut": 17.16,
+      "fin": 17.4,
+      "mot": "ventre"
+    },
+    {
+      "debut": 17.4,
+      "fin": 17.74,
+      "mot": "gargouille"
+    },
+    {
+      "debut": 17.74,
+      "fin": 17.96,
+      "mot": "?"
+    },
+    {
+      "debut": 17.96,
+      "fin": 18.16,
+      "mot": "Le"
+    },
+    {
+      "debut": 18.16,
+      "fin": 18.46,
+      "mot": "cuistot"
+    },
+    {
+      "debut": 18.46,
+      "fin": 18.7,
+      "mot": "sans"
+    },
+    {
+      "debut": 18.7,
+      "fin": 18.92,
+      "mot": "charge,"
+    },
+    {
+      "debut": 19.06,
+      "fin": 19.16,
+      "mot": "voulez"
+    },
+    {
+      "debut": 19.16,
+      "fin": 19.32,
+      "mot": "-vous"
+    },
+    {
+      "debut": 19.32,
+      "fin": 19.56,
+      "mot": "autre"
+    },
+    {
+      "debut": 19.56,
+      "fin": 19.72,
+      "mot": "chose"
+    },
+    {
+      "debut": 19.72,
+      "fin": 19.94,
+      "mot": "en"
+    },
+    {
+      "debut": 19.94,
+      "fin": 20.14,
+      "mot": "attendant"
+    },
+    {
+      "debut": 20.14,
+      "fin": 20.52,
+      "mot": "?"
+    },
+    {
+      "debut": 20.52,
+      "fin": 20.8,
+      "mot": "Non"
+    },
+    {
+      "debut": 20.8,
+      "fin": 20.98,
+      "mot": "pas"
+    },
+    {
+      "debut": 20.98,
+      "fin": 21.18,
+      "mot": "pour"
+    },
+    {
+      "debut": 21.18,
+      "fin": 21.26,
+      "mot": "l"
+    },
+    {
+      "debut": 21.26,
+      "fin": 21.42,
+      "mot": "'instant"
+    },
+    {
+      "debut": 21.42,
+      "fin": 21.86,
+      "mot": "merci."
+    },
+    {
+      "debut": 22.68,
+      "fin": 22.82,
+      "mot": "C"
+    },
+    {
+      "debut": 22.82,
+      "fin": 22.92,
+      "mot": "'est"
+    },
+    {
+      "debut": 22.92,
+      "fin": 23.14,
+      "mot": "parti"
+    },
+    {
+      "debut": 23.14,
+      "fin": 23.26,
+      "mot": "je"
+    },
+    {
+      "debut": 23.26,
+      "fin": 23.32,
+      "mot": "vais"
+    },
+    {
+      "debut": 23.32,
+      "fin": 23.46,
+      "mot": "me"
+    },
+    {
+      "debut": 23.46,
+      "fin": 24.28,
+      "mot": "régaler"
+    },
+    {
+      "debut": 27.32,
+      "fin": 27.84,
+      "mot": "!"
+    },
+    {
+      "debut": 27.84,
+      "fin": 28.04,
+      "mot": "Oh"
+    },
+    {
+      "debut": 28.04,
+      "fin": 28.14,
+      "mot": "je"
+    },
+    {
+      "debut": 28.14,
+      "fin": 28.3,
+      "mot": "suis"
+    },
+    {
+      "debut": 28.3,
+      "fin": 28.58,
+      "mot": "bien"
+    },
+    {
+      "debut": 28.58,
+      "fin": 28.78,
+      "mot": "calé"
+    },
+    {
+      "debut": 28.78,
+      "fin": 29.0,
+      "mot": "là"
+    },
+    {
+      "debut": 29.0,
+      "fin": 29.16,
+      "mot": "Théma"
+    },
+    {
+      "debut": 29.16,
+      "fin": 29.38,
+      "mot": "mon"
+    },
+    {
+      "debut": 29.38,
+      "fin": 29.6,
+      "mot": "ventre"
+    },
+    {
+      "debut": 29.6,
+      "fin": 29.74,
+      "mot": "il"
+    },
+    {
+      "debut": 29.74,
+      "fin": 29.86,
+      "mot": "en"
+    },
+    {
+      "debut": 29.86,
+      "fin": 30.0,
+      "mot": "peut"
+    },
+    {
+      "debut": 30.0,
+      "fin": 30.16,
+      "mot": "plus."
+    },
+    {
+      "debut": 30.34,
+      "fin": 30.46,
+      "mot": "Tout"
+    },
+    {
+      "debut": 30.46,
+      "fin": 30.58,
+      "mot": "s"
+    },
+    {
+      "debut": 30.58,
+      "fin": 30.66,
+      "mot": "'est"
+    },
+    {
+      "debut": 30.66,
+      "fin": 30.82,
+      "mot": "bien"
+    },
+    {
+      "debut": 30.82,
+      "fin": 31.02,
+      "mot": "passé"
+    },
+    {
+      "debut": 31.02,
+      "fin": 31.34,
+      "mot": "monsieur"
+    },
+    {
+      "debut": 31.34,
+      "fin": 31.68,
+      "mot": "?"
+    },
+    {
+      "debut": 31.68,
+      "fin": 32.02,
+      "mot": "Faitement"
+    },
+    {
+      "debut": 32.02,
+      "fin": 32.24,
+      "mot": "bien,"
+    },
+    {
+      "debut": 32.38,
+      "fin": 32.44,
+      "mot": "vous"
+    },
+    {
+      "debut": 32.44,
+      "fin": 32.7,
+      "mot": "devez"
+    },
+    {
+      "debut": 32.7,
+      "fin": 32.92,
+      "mot": "payer"
+    },
+    {
+      "debut": 32.92,
+      "fin": 33.3,
+      "mot": "3000"
+    },
+    {
+      "debut": 33.3,
+      "fin": 33.54,
+      "mot": "euros"
+    },
+    {
+      "debut": 33.54,
+      "fin": 33.98,
+      "mot": "maintenant."
+    },
+    {
+      "debut": 34.22,
+      "fin": 34.36,
+      "mot": "Ok"
+    },
+    {
+      "debut": 34.36,
+      "fin": 34.58,
+      "mot": "pas"
+    },
+    {
+      "debut": 34.58,
+      "fin": 34.7,
+      "mot": "de"
+    },
+    {
+      "debut": 34.7,
+      "fin": 35.48,
+      "mot": "soucis."
+    },
+    {
+      "debut": 36.44,
+      "fin": 36.5,
+      "mot": "Avant"
+    },
+    {
+      "debut": 36.5,
+      "fin": 36.66,
+      "mot": "de"
+    },
+    {
+      "debut": 36.66,
+      "fin": 36.86,
+      "mot": "payer"
+    },
+    {
+      "debut": 36.86,
+      "fin": 36.98,
+      "mot": "j"
+    },
+    {
+      "debut": 36.98,
+      "fin": 37.06,
+      "mot": "'ai"
+    },
+    {
+      "debut": 37.06,
+      "fin": 37.16,
+      "mot": "une"
+    },
+    {
+      "debut": 37.16,
+      "fin": 37.46,
+      "mot": "petite"
+    },
+    {
+      "debut": 37.46,
+      "fin": 37.66,
+      "mot": "envie"
+    },
+    {
+      "debut": 37.66,
+      "fin": 38.24,
+      "mot": "pressante,"
+    },
+    {
+      "debut": 38.34,
+      "fin": 38.48,
+      "mot": "où"
+    },
+    {
+      "debut": 38.48,
+      "fin": 38.64,
+      "mot": "sont"
+    },
+    {
+      "debut": 38.64,
+      "fin": 38.78,
+      "mot": "vos"
+    },
+    {
+      "debut": 38.78,
+      "fin": 39.2,
+      "mot": "toilettes"
+    },
+    {
+      "debut": 39.2,
+      "fin": 39.42,
+      "mot": "?"
+    },
+    {
+      "debut": 39.42,
+      "fin": 39.56,
+      "mot": "Au"
+    },
+    {
+      "debut": 39.56,
+      "fin": 39.66,
+      "mot": "fond"
+    },
+    {
+      "debut": 39.66,
+      "fin": 39.8,
+      "mot": "du"
+    },
+    {
+      "debut": 39.8,
+      "fin": 40.12,
+      "mot": "couloir"
+    },
+    {
+      "debut": 40.12,
+      "fin": 40.26,
+      "mot": "à"
+    },
+    {
+      "debut": 40.26,
+      "fin": 40.38,
+      "mot": "gauche"
+    },
+    {
+      "debut": 40.38,
+      "fin": 40.7,
+      "mot": "monsieur."
+    },
+    {
+      "debut": 41.0,
+      "fin": 41.22,
+      "mot": "Ok"
+    },
+    {
+      "debut": 41.22,
+      "fin": 41.52,
+      "mot": "merci"
+    },
+    {
+      "debut": 41.52,
+      "fin": 41.7,
+      "mot": "je"
+    },
+    {
+      "debut": 41.7,
+      "fin": 41.92,
+      "mot": "reviens"
+    },
+    {
+      "debut": 41.92,
+      "fin": 42.2,
+      "mot": "après."
+    },
+    {
+      "debut": 44.34,
+      "fin": 44.42,
+      "mot": "Je"
+    },
+    {
+      "debut": 44.42,
+      "fin": 44.64,
+      "mot": "sais"
+    },
+    {
+      "debut": 44.64,
+      "fin": 44.74,
+      "mot": "pas"
+    },
+    {
+      "debut": 44.74,
+      "fin": 44.84,
+      "mot": "mais"
+    },
+    {
+      "debut": 44.84,
+      "fin": 44.96,
+      "mot": "j"
+    },
+    {
+      "debut": 44.96,
+      "fin": 45.02,
+      "mot": "'ai"
+    },
+    {
+      "debut": 45.02,
+      "fin": 45.14,
+      "mot": "un"
+    },
+    {
+      "debut": 45.14,
+      "fin": 45.34,
+      "mot": "mauvais"
+    },
+    {
+      "debut": 45.34,
+      "fin": 45.86,
+      "mot": "pressentiment"
+    },
+    {
+      "debut": 45.86,
+      "fin": 46.06,
+      "mot": "avec"
+    },
+    {
+      "debut": 46.06,
+      "fin": 46.22,
+      "mot": "ce"
+    },
+    {
+      "debut": 46.22,
+      "fin": 46.38,
+      "mot": "mec."
+    },
+    {
+      "debut": 46.48,
+      "fin": 46.62,
+      "mot": "Je"
+    },
+    {
+      "debut": 46.62,
+      "fin": 46.68,
+      "mot": "vais"
+    },
+    {
+      "debut": 46.68,
+      "fin": 46.76,
+      "mot": "le"
+    },
+    {
+      "debut": 46.76,
+      "fin": 47.0,
+      "mot": "garder"
+    },
+    {
+      "debut": 47.0,
+      "fin": 47.14,
+      "mot": "à"
+    },
+    {
+      "debut": 47.14,
+      "fin": 47.22,
+      "mot": "l"
+    },
+    {
+      "debut": 47.22,
+      "fin": 47.36,
+      "mot": "'œil,"
+    },
+    {
+      "debut": 47.42,
+      "fin": 47.52,
+      "mot": "j"
+    },
+    {
+      "debut": 47.52,
+      "fin": 47.58,
+      "mot": "'ai"
+    },
+    {
+      "debut": 47.58,
+      "fin": 47.68,
+      "mot": "pas"
+    },
+    {
+      "debut": 47.68,
+      "fin": 47.82,
+      "mot": "envie"
+    },
+    {
+      "debut": 47.82,
+      "fin": 47.94,
+      "mot": "de"
+    },
+    {
+      "debut": 47.94,
+      "fin": 48.02,
+      "mot": "me"
+    },
+    {
+      "debut": 48.02,
+      "fin": 48.2,
+      "mot": "faire"
+    },
+    {
+      "debut": 48.2,
+      "fin": 48.42,
+      "mot": "virer"
+    },
+    {
+      "debut": 48.42,
+      "fin": 48.56,
+      "mot": "à"
+    },
+    {
+      "debut": 48.56,
+      "fin": 48.66,
+      "mot": "cause"
+    },
+    {
+      "debut": 48.66,
+      "fin": 48.84,
+      "mot": "de"
+    },
+    {
+      "debut": 48.84,
+      "fin": 49.04,
+      "mot": "lui."
+    },
+    {
+      "debut": 50.4,
+      "fin": 50.46,
+      "mot": "Il"
+    },
+    {
+      "debut": 50.46,
+      "fin": 50.58,
+      "mot": "met"
+    },
+    {
+      "debut": 50.58,
+      "fin": 50.76,
+      "mot": "sa"
+    },
+    {
+      "debut": 50.76,
+      "fin": 50.88,
+      "mot": "vie"
+    },
+    {
+      "debut": 50.88,
+      "fin": 51.0,
+      "mot": "dans"
+    },
+    {
+      "debut": 51.0,
+      "fin": 51.2,
+      "mot": "les"
+    },
+    {
+      "debut": 51.2,
+      "fin": 51.4,
+      "mot": "chiottes"
+    },
+    {
+      "debut": 51.4,
+      "fin": 51.54,
+      "mot": "ses"
+    },
+    {
+      "debut": 51.54,
+      "fin": 51.78,
+      "mot": "chevaux"
+    },
+    {
+      "debut": 51.78,
+      "fin": 51.98,
+      "mot": "ça"
+    },
+    {
+      "debut": 51.98,
+      "fin": 52.2,
+      "mot": "!"
+    },
+    {
+      "debut": 52.2,
+      "fin": 52.34,
+      "mot": "Soit"
+    },
+    {
+      "debut": 52.34,
+      "fin": 52.48,
+      "mot": "il"
+    },
+    {
+      "debut": 52.48,
+      "fin": 52.56,
+      "mot": "a"
+    },
+    {
+      "debut": 52.56,
+      "fin": 52.76,
+      "mot": "trop"
+    },
+    {
+      "debut": 52.76,
+      "fin": 53.12,
+      "mot": "mangé"
+    },
+    {
+      "debut": 53.12,
+      "fin": 53.18,
+      "mot": "et"
+    },
+    {
+      "debut": 53.18,
+      "fin": 53.32,
+      "mot": "il"
+    },
+    {
+      "debut": 53.32,
+      "fin": 53.36,
+      "mot": "est"
+    },
+    {
+      "debut": 53.36,
+      "fin": 53.42,
+      "mot": "en"
+    },
+    {
+      "debut": 53.42,
+      "fin": 53.54,
+      "mot": "train"
+    },
+    {
+      "debut": 53.54,
+      "fin": 53.66,
+      "mot": "de"
+    },
+    {
+      "debut": 53.66,
+      "fin": 53.76,
+      "mot": "tout"
+    },
+    {
+      "debut": 53.76,
+      "fin": 54.2,
+      "mot": "évacuer,"
+    },
+    {
+      "debut": 54.26,
+      "fin": 54.34,
+      "mot": "soit"
+    },
+    {
+      "debut": 54.34,
+      "fin": 54.46,
+      "mot": "il"
+    },
+    {
+      "debut": 54.46,
+      "fin": 54.52,
+      "mot": "veut"
+    },
+    {
+      "debut": 54.52,
+      "fin": 54.62,
+      "mot": "me"
+    },
+    {
+      "debut": 54.62,
+      "fin": 54.76,
+      "mot": "la"
+    },
+    {
+      "debut": 54.76,
+      "fin": 54.84,
+      "mot": "faire"
+    },
+    {
+      "debut": 54.84,
+      "fin": 54.98,
+      "mot": "à"
+    },
+    {
+      "debut": 54.98,
+      "fin": 55.06,
+      "mot": "l"
+    },
+    {
+      "debut": 55.06,
+      "fin": 55.4,
+      "mot": "'envers."
+    },
+    {
+      "debut": 56.36,
+      "fin": 56.56,
+      "mot": "Il"
+    },
+    {
+      "debut": 56.56,
+      "fin": 56.66,
+      "mot": "croit"
+    },
+    {
+      "debut": 56.66,
+      "fin": 56.94,
+      "mot": "vraiment"
+    },
+    {
+      "debut": 56.94,
+      "fin": 57.04,
+      "mot": "que"
+    },
+    {
+      "debut": 57.04,
+      "fin": 57.12,
+      "mot": "je"
+    },
+    {
+      "debut": 57.12,
+      "fin": 57.18,
+      "mot": "vais"
+    },
+    {
+      "debut": 57.18,
+      "fin": 57.38,
+      "mot": "payer"
+    },
+    {
+      "debut": 57.38,
+      "fin": 57.72,
+      "mot": "3000"
+    },
+    {
+      "debut": 57.72,
+      "fin": 57.9,
+      "mot": "balles"
+    },
+    {
+      "debut": 57.9,
+      "fin": 58.28,
+      "mot": "sérieux"
+    },
+    {
+      "debut": 58.28,
+      "fin": 58.36,
+      "mot": "?"
+    },
+    {
+      "debut": 58.36,
+      "fin": 58.52,
+      "mot": "Avec"
+    },
+    {
+      "debut": 58.52,
+      "fin": 58.66,
+      "mot": "mes"
+    },
+    {
+      "debut": 58.66,
+      "fin": 58.88,
+      "mot": "lunettes"
+    },
+    {
+      "debut": 58.88,
+      "fin": 59.0,
+      "mot": "il"
+    },
+    {
+      "debut": 59.0,
+      "fin": 59.18,
+      "mot": "risque"
+    },
+    {
+      "debut": 59.18,
+      "fin": 59.36,
+      "mot": "de"
+    },
+    {
+      "debut": 59.36,
+      "fin": 59.42,
+      "mot": "plus"
+    },
+    {
+      "debut": 59.42,
+      "fin": 59.58,
+      "mot": "me"
+    },
+    {
+      "debut": 59.58,
+      "fin": 59.74,
+      "mot": "revoir"
+    },
+    {
+      "debut": 59.74,
+      "fin": 59.9,
+      "mot": "le"
+    },
+    {
+      "debut": 59.9,
+      "fin": 60.04,
+      "mot": "pauvre"
+    },
+    {
+      "debut": 60.04,
+      "fin": 60.16,
+      "mot": "mais"
+    },
+    {
+      "debut": 60.16,
+      "fin": 60.26,
+      "mot": "ça"
+    },
+    {
+      "debut": 60.26,
+      "fin": 60.36,
+      "mot": "il"
+    },
+    {
+      "debut": 60.36,
+      "fin": 60.46,
+      "mot": "le"
+    },
+    {
+      "debut": 60.46,
+      "fin": 60.54,
+      "mot": "sait"
+    },
+    {
+      "debut": 60.54,
+      "fin": 60.66,
+      "mot": "pas"
+    },
+    {
+      "debut": 60.66,
+      "fin": 60.9,
+      "mot": "encore."
+    },
+    {
+      "debut": 61.68,
+      "fin": 62.32,
+      "mot": "Tchao"
+    },
+    {
+      "debut": 62.32,
+      "fin": 62.32,
+      "mot": "!"
+    }
+  ]
+}

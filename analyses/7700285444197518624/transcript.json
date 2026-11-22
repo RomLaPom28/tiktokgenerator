@@ -1,0 +1,762 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 4.88,
+      "fin": 6.14,
+      "texte": "Je pourrais au moins t'excuser !"
+    },
+    {
+      "debut": 6.14,
+      "fin": 7.84,
+      "texte": "Quoi ? Tu me parles à moi, petit ?"
+    },
+    {
+      "debut": 8.56,
+      "fin": 11.34,
+      "texte": "Oh non ! Ce gamin vient de provoquer Tyson !"
+    },
+    {
+      "debut": 11.34,
+      "fin": 13.58,
+      "texte": "Il ferait mieux de partir avant que ça dégérire !"
+    },
+    {
+      "debut": 14.2,
+      "fin": 15.28,
+      "texte": "Ça va mal finir."
+    },
+    {
+      "debut": 16.46,
+      "fin": 18.18,
+      "texte": "Mets-toi à genoux et demande pardon !"
+    },
+    {
+      "debut": 19.86,
+      "fin": 21.48,
+      "texte": "Je ne m'agenouille devant personne."
+    },
+    {
+      "debut": 24.5,
+      "fin": 26.92,
+      "texte": "Tu sais à qui tu parles ?"
+    },
+    {
+      "debut": 26.92,
+      "fin": 28.76,
+      "texte": "Enlève ta main. Maintenant."
+    },
+    {
+      "debut": 36.07,
+      "fin": 37.57,
+      "texte": "Attendez... Ce tatouage..."
+    },
+    {
+      "debut": 37.57,
+      "fin": 38.49,
+      "texte": "Qu'est-ce qu'il y a, le vieux ?"
+    },
+    {
+      "debut": 38.49,
+      "fin": 41.07,
+      "texte": "Hé petit ! Comment s'appelait ton père ?"
+    },
+    {
+      "debut": 42.67,
+      "fin": 43.97,
+      "texte": "Don Rafael."
+    },
+    {
+      "debut": 46.45,
+      "fin": 47.41,
+      "texte": "Impossible !"
+    },
+    {
+      "debut": 47.41,
+      "fin": 49.33,
+      "texte": "Don Rafael ? L'ancien roi du quartier ?"
+    },
+    {
+      "debut": 49.33,
+      "fin": 50.81,
+      "texte": "Mais sa famille avait disparu !"
+    },
+    {
+      "debut": 50.81,
+      "fin": 52.91,
+      "texte": "Alors ? C'est son fils ?"
+    },
+    {
+      "debut": 56.94,
+      "fin": 58.56,
+      "texte": "Patron, on a un problème."
+    },
+    {
+      "debut": 59.02,
+      "fin": 60.84,
+      "texte": "Quel genre de problème ?"
+    },
+    {
+      "debut": 60.84,
+      "fin": 62.42,
+      "texte": "On vient de retrouver le fils de Rafael."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 4.88,
+      "fin": 4.88,
+      "mot": "Je"
+    },
+    {
+      "debut": 4.88,
+      "fin": 5.14,
+      "mot": "pourrais"
+    },
+    {
+      "debut": 5.14,
+      "fin": 5.2,
+      "mot": "au"
+    },
+    {
+      "debut": 5.2,
+      "fin": 5.34,
+      "mot": "moins"
+    },
+    {
+      "debut": 5.34,
+      "fin": 5.5,
+      "mot": "t"
+    },
+    {
+      "debut": 5.5,
+      "fin": 6.02,
+      "mot": "'excuser"
+    },
+    {
+      "debut": 6.02,
+      "fin": 6.14,
+      "mot": "!"
+    },
+    {
+      "debut": 6.14,
+      "fin": 6.6,
+      "mot": "Quoi"
+    },
+    {
+      "debut": 6.6,
+      "fin": 6.62,
+      "mot": "?"
+    },
+    {
+      "debut": 6.62,
+      "fin": 6.78,
+      "mot": "Tu"
+    },
+    {
+      "debut": 6.78,
+      "fin": 6.96,
+      "mot": "me"
+    },
+    {
+      "debut": 6.96,
+      "fin": 7.08,
+      "mot": "parles"
+    },
+    {
+      "debut": 7.08,
+      "fin": 7.22,
+      "mot": "à"
+    },
+    {
+      "debut": 7.22,
+      "fin": 7.32,
+      "mot": "moi,"
+    },
+    {
+      "debut": 7.46,
+      "fin": 7.64,
+      "mot": "petit"
+    },
+    {
+      "debut": 7.64,
+      "fin": 7.84,
+      "mot": "?"
+    },
+    {
+      "debut": 8.56,
+      "fin": 8.96,
+      "mot": "Oh"
+    },
+    {
+      "debut": 8.96,
+      "fin": 9.2,
+      "mot": "non"
+    },
+    {
+      "debut": 9.2,
+      "fin": 9.52,
+      "mot": "!"
+    },
+    {
+      "debut": 9.52,
+      "fin": 9.72,
+      "mot": "Ce"
+    },
+    {
+      "debut": 9.72,
+      "fin": 9.96,
+      "mot": "gamin"
+    },
+    {
+      "debut": 9.96,
+      "fin": 10.12,
+      "mot": "vient"
+    },
+    {
+      "debut": 10.12,
+      "fin": 10.32,
+      "mot": "de"
+    },
+    {
+      "debut": 10.32,
+      "fin": 10.64,
+      "mot": "provoquer"
+    },
+    {
+      "debut": 10.64,
+      "fin": 11.02,
+      "mot": "Tyson"
+    },
+    {
+      "debut": 11.02,
+      "fin": 11.34,
+      "mot": "!"
+    },
+    {
+      "debut": 11.34,
+      "fin": 11.54,
+      "mot": "Il"
+    },
+    {
+      "debut": 11.54,
+      "fin": 11.68,
+      "mot": "ferait"
+    },
+    {
+      "debut": 11.68,
+      "fin": 11.84,
+      "mot": "mieux"
+    },
+    {
+      "debut": 11.84,
+      "fin": 12.04,
+      "mot": "de"
+    },
+    {
+      "debut": 12.04,
+      "fin": 12.3,
+      "mot": "partir"
+    },
+    {
+      "debut": 12.3,
+      "fin": 12.56,
+      "mot": "avant"
+    },
+    {
+      "debut": 12.56,
+      "fin": 12.7,
+      "mot": "que"
+    },
+    {
+      "debut": 12.7,
+      "fin": 12.84,
+      "mot": "ça"
+    },
+    {
+      "debut": 12.84,
+      "fin": 13.38,
+      "mot": "dégérire"
+    },
+    {
+      "debut": 13.38,
+      "fin": 13.58,
+      "mot": "!"
+    },
+    {
+      "debut": 14.2,
+      "fin": 14.36,
+      "mot": "Ça"
+    },
+    {
+      "debut": 14.36,
+      "fin": 14.54,
+      "mot": "va"
+    },
+    {
+      "debut": 14.54,
+      "fin": 14.74,
+      "mot": "mal"
+    },
+    {
+      "debut": 14.74,
+      "fin": 15.28,
+      "mot": "finir."
+    },
+    {
+      "debut": 16.46,
+      "fin": 16.62,
+      "mot": "Mets"
+    },
+    {
+      "debut": 16.62,
+      "fin": 16.84,
+      "mot": "-toi"
+    },
+    {
+      "debut": 16.84,
+      "fin": 16.94,
+      "mot": "à"
+    },
+    {
+      "debut": 16.94,
+      "fin": 17.14,
+      "mot": "genoux"
+    },
+    {
+      "debut": 17.14,
+      "fin": 17.3,
+      "mot": "et"
+    },
+    {
+      "debut": 17.3,
+      "fin": 17.56,
+      "mot": "demande"
+    },
+    {
+      "debut": 17.56,
+      "fin": 17.98,
+      "mot": "pardon"
+    },
+    {
+      "debut": 17.98,
+      "fin": 18.18,
+      "mot": "!"
+    },
+    {
+      "debut": 19.86,
+      "fin": 20.18,
+      "mot": "Je"
+    },
+    {
+      "debut": 20.18,
+      "fin": 20.3,
+      "mot": "ne"
+    },
+    {
+      "debut": 20.3,
+      "fin": 20.42,
+      "mot": "m"
+    },
+    {
+      "debut": 20.42,
+      "fin": 20.68,
+      "mot": "'agenouille"
+    },
+    {
+      "debut": 20.68,
+      "fin": 20.92,
+      "mot": "devant"
+    },
+    {
+      "debut": 20.92,
+      "fin": 21.48,
+      "mot": "personne."
+    },
+    {
+      "debut": 24.5,
+      "fin": 24.72,
+      "mot": "Tu"
+    },
+    {
+      "debut": 24.72,
+      "fin": 24.86,
+      "mot": "sais"
+    },
+    {
+      "debut": 24.86,
+      "fin": 25.04,
+      "mot": "à"
+    },
+    {
+      "debut": 25.04,
+      "fin": 25.1,
+      "mot": "qui"
+    },
+    {
+      "debut": 25.1,
+      "fin": 25.34,
+      "mot": "tu"
+    },
+    {
+      "debut": 25.34,
+      "fin": 25.6,
+      "mot": "parles"
+    },
+    {
+      "debut": 25.6,
+      "fin": 26.92,
+      "mot": "?"
+    },
+    {
+      "debut": 26.92,
+      "fin": 27.22,
+      "mot": "Enlève"
+    },
+    {
+      "debut": 27.22,
+      "fin": 27.38,
+      "mot": "ta"
+    },
+    {
+      "debut": 27.38,
+      "fin": 27.74,
+      "mot": "main."
+    },
+    {
+      "debut": 28.36,
+      "fin": 28.76,
+      "mot": "Maintenant."
+    },
+    {
+      "debut": 36.07,
+      "fin": 36.47,
+      "mot": "Attendez..."
+    },
+    {
+      "debut": 36.47,
+      "fin": 36.75,
+      "mot": "Ce"
+    },
+    {
+      "debut": 36.75,
+      "fin": 37.57,
+      "mot": "tatouage..."
+    },
+    {
+      "debut": 37.57,
+      "fin": 37.77,
+      "mot": "Qu"
+    },
+    {
+      "debut": 37.77,
+      "fin": 37.89,
+      "mot": "'est"
+    },
+    {
+      "debut": 37.89,
+      "fin": 37.91,
+      "mot": "-ce"
+    },
+    {
+      "debut": 37.91,
+      "fin": 38.01,
+      "mot": "qu"
+    },
+    {
+      "debut": 38.01,
+      "fin": 38.05,
+      "mot": "'il"
+    },
+    {
+      "debut": 38.05,
+      "fin": 38.09,
+      "mot": "y"
+    },
+    {
+      "debut": 38.09,
+      "fin": 38.13,
+      "mot": "a,"
+    },
+    {
+      "debut": 38.15,
+      "fin": 38.29,
+      "mot": "le"
+    },
+    {
+      "debut": 38.29,
+      "fin": 38.41,
+      "mot": "vieux"
+    },
+    {
+      "debut": 38.41,
+      "fin": 38.49,
+      "mot": "?"
+    },
+    {
+      "debut": 38.49,
+      "fin": 38.69,
+      "mot": "Hé"
+    },
+    {
+      "debut": 38.69,
+      "fin": 38.85,
+      "mot": "petit"
+    },
+    {
+      "debut": 38.85,
+      "fin": 39.75,
+      "mot": "!"
+    },
+    {
+      "debut": 39.75,
+      "fin": 39.97,
+      "mot": "Comment"
+    },
+    {
+      "debut": 39.97,
+      "fin": 40.15,
+      "mot": "s"
+    },
+    {
+      "debut": 40.15,
+      "fin": 40.39,
+      "mot": "'appelait"
+    },
+    {
+      "debut": 40.39,
+      "fin": 40.57,
+      "mot": "ton"
+    },
+    {
+      "debut": 40.57,
+      "fin": 40.87,
+      "mot": "père"
+    },
+    {
+      "debut": 40.87,
+      "fin": 41.07,
+      "mot": "?"
+    },
+    {
+      "debut": 42.67,
+      "fin": 43.45,
+      "mot": "Don"
+    },
+    {
+      "debut": 43.45,
+      "fin": 43.97,
+      "mot": "Rafael."
+    },
+    {
+      "debut": 46.45,
+      "fin": 46.93,
+      "mot": "Impossible"
+    },
+    {
+      "debut": 46.93,
+      "fin": 47.41,
+      "mot": "!"
+    },
+    {
+      "debut": 47.41,
+      "fin": 47.51,
+      "mot": "Don"
+    },
+    {
+      "debut": 47.51,
+      "fin": 47.97,
+      "mot": "Rafael"
+    },
+    {
+      "debut": 47.97,
+      "fin": 48.31,
+      "mot": "?"
+    },
+    {
+      "debut": 48.31,
+      "fin": 48.35,
+      "mot": "L"
+    },
+    {
+      "debut": 48.35,
+      "fin": 48.61,
+      "mot": "'ancien"
+    },
+    {
+      "debut": 48.61,
+      "fin": 48.71,
+      "mot": "roi"
+    },
+    {
+      "debut": 48.71,
+      "fin": 48.87,
+      "mot": "du"
+    },
+    {
+      "debut": 48.87,
+      "fin": 49.23,
+      "mot": "quartier"
+    },
+    {
+      "debut": 49.23,
+      "fin": 49.33,
+      "mot": "?"
+    },
+    {
+      "debut": 49.33,
+      "fin": 49.45,
+      "mot": "Mais"
+    },
+    {
+      "debut": 49.45,
+      "fin": 49.57,
+      "mot": "sa"
+    },
+    {
+      "debut": 49.57,
+      "fin": 49.81,
+      "mot": "famille"
+    },
+    {
+      "debut": 49.81,
+      "fin": 50.05,
+      "mot": "avait"
+    },
+    {
+      "debut": 50.05,
+      "fin": 50.55,
+      "mot": "disparu"
+    },
+    {
+      "debut": 50.55,
+      "fin": 50.81,
+      "mot": "!"
+    },
+    {
+      "debut": 50.81,
+      "fin": 51.11,
+      "mot": "Alors"
+    },
+    {
+      "debut": 51.11,
+      "fin": 51.55,
+      "mot": "?"
+    },
+    {
+      "debut": 51.55,
+      "fin": 51.59,
+      "mot": "C"
+    },
+    {
+      "debut": 51.59,
+      "fin": 51.69,
+      "mot": "'est"
+    },
+    {
+      "debut": 51.69,
+      "fin": 51.85,
+      "mot": "son"
+    },
+    {
+      "debut": 51.85,
+      "fin": 52.11,
+      "mot": "fils"
+    },
+    {
+      "debut": 52.11,
+      "fin": 52.91,
+      "mot": "?"
+    },
+    {
+      "debut": 56.94,
+      "fin": 57.4,
+      "mot": "Patron,"
+    },
+    {
+      "debut": 57.92,
+      "fin": 58.02,
+      "mot": "on"
+    },
+    {
+      "debut": 58.02,
+      "fin": 58.14,
+      "mot": "a"
+    },
+    {
+      "debut": 58.14,
+      "fin": 58.32,
+      "mot": "un"
+    },
+    {
+      "debut": 58.32,
+      "fin": 58.56,
+      "mot": "problème."
+    },
+    {
+      "debut": 59.02,
+      "fin": 59.06,
+      "mot": "Quel"
+    },
+    {
+      "debut": 59.06,
+      "fin": 59.26,
+      "mot": "genre"
+    },
+    {
+      "debut": 59.26,
+      "fin": 59.5,
+      "mot": "de"
+    },
+    {
+      "debut": 59.5,
+      "fin": 59.7,
+      "mot": "problème"
+    },
+    {
+      "debut": 59.7,
+      "fin": 60.84,
+      "mot": "?"
+    },
+    {
+      "debut": 60.84,
+      "fin": 61.04,
+      "mot": "On"
+    },
+    {
+      "debut": 61.04,
+      "fin": 61.2,
+      "mot": "vient"
+    },
+    {
+      "debut": 61.2,
+      "fin": 61.44,
+      "mot": "de"
+    },
+    {
+      "debut": 61.44,
+      "fin": 61.62,
+      "mot": "retrouver"
+    },
+    {
+      "debut": 61.62,
+      "fin": 61.82,
+      "mot": "le"
+    },
+    {
+      "debut": 61.82,
+      "fin": 61.9,
+      "mot": "fils"
+    },
+    {
+      "debut": 61.9,
+      "fin": 62.08,
+      "mot": "de"
+    },
+    {
+      "debut": 62.08,
+      "fin": 62.42,
+      "mot": "Rafael."
+    }
+  ]
+}

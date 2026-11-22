@@ -1,0 +1,1147 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 1.6,
+      "texte": "Mon cœur fait attention de ne pas glisser."
+    },
+    {
+      "debut": 1.78,
+      "fin": 3.14,
+      "texte": "Ah, je tombe ! Aide-moi !"
+    },
+    {
+      "debut": 3.14,
+      "fin": 4.08,
+      "texte": "J'arrive !"
+    },
+    {
+      "debut": 6.08,
+      "fin": 8.22,
+      "texte": "Mon amour, tu vas me manquer pour toujours."
+    },
+    {
+      "debut": 8.76,
+      "fin": 10.6,
+      "texte": "Tu as laissé des alocots pour nos enfants."
+    },
+    {
+      "debut": 10.86,
+      "fin": 11.3,
+      "texte": "Merci."
+    },
+    {
+      "debut": 12.32,
+      "fin": 14.84,
+      "texte": "Mangez, mes enfants, papa a laissé plein d'alocots."
+    },
+    {
+      "debut": 15.2,
+      "fin": 18.5,
+      "texte": "Maman, c'est trop bon ! Mais il est où, papa ?"
+    },
+    {
+      "debut": 18.5,
+      "fin": 20.68,
+      "texte": "Papa est parti travailler à l'étranger."
+    },
+    {
+      "debut": 21.62,
+      "fin": 23.0,
+      "texte": "Il vous a laissé tout ça."
+    },
+    {
+      "debut": 25.28,
+      "fin": 26.62,
+      "texte": "Je dois nourrir mes enfants."
+    },
+    {
+      "debut": 27.36,
+      "fin": 28.94,
+      "texte": "Je vais vendre les alocots de papa."
+    },
+    {
+      "debut": 29.84,
+      "fin": 32.48,
+      "texte": "Venez goûter les alocots de papa, bien dorés."
+    },
+    {
+      "debut": 32.68,
+      "fin": 34.12,
+      "texte": "À n'acheter un offert."
+    },
+    {
+      "debut": 34.32,
+      "fin": 36.1,
+      "texte": "Miam, trop bon, j'en veux !"
+    },
+    {
+      "debut": 36.1,
+      "fin": 38.74,
+      "texte": "Merci mon amour, grâce à toi, je suis riche."
+    },
+    {
+      "debut": 38.9,
+      "fin": 40.84,
+      "texte": "Nos enfants ne manqueront jamais de rien."
+    },
+    {
+      "debut": 42.02,
+      "fin": 43.62,
+      "texte": "Je suis passée d'un petit stand"
+    },
+    {
+      "debut": 43.62,
+      "fin": 46.18,
+      "texte": "à l'un des meilleurs restaurants d'alocots du monde."
+    },
+    {
+      "debut": 46.88,
+      "fin": 47.8,
+      "texte": "Grâce à mon homme."
+    },
+    {
+      "debut": 48.78,
+      "fin": 50.32,
+      "texte": "Table 5, 10 portions d'alocots."
+    },
+    {
+      "debut": 50.84,
+      "fin": 52.04,
+      "texte": "Les meilleurs alocots du monde."
+    },
+    {
+      "debut": 52.62,
+      "fin": 53.68,
+      "texte": "Mes affaires marchent bien."
+    },
+    {
+      "debut": 54.18,
+      "fin": 55.52,
+      "texte": "Patronne, on a un gros problème."
+    },
+    {
+      "debut": 55.78,
+      "fin": 57.44,
+      "texte": "Plus de stock d'alocots, c'est les commandes arrivent."
+    },
+    {
+      "debut": 57.44,
+      "fin": 60.26,
+      "texte": "Quoi ? Comment je fais, maintenant ?"
+    },
+    {
+      "debut": 60.26,
+      "fin": 62.36,
+      "texte": "Je sais pas, mais trouvez vite une solution."
+    },
+    {
+      "debut": 62.9,
+      "fin": 65.76,
+      "texte": "Oh non, oh non, oh non, vite !"
+    },
+    {
+      "debut": 67.12,
+      "fin": 68.88,
+      "texte": "Je crois que j'ai une idée."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.0,
+      "fin": 0.2,
+      "mot": "Mon"
+    },
+    {
+      "debut": 0.2,
+      "fin": 0.4,
+      "mot": "cœur"
+    },
+    {
+      "debut": 0.4,
+      "fin": 0.58,
+      "mot": "fait"
+    },
+    {
+      "debut": 0.58,
+      "fin": 0.9,
+      "mot": "attention"
+    },
+    {
+      "debut": 0.9,
+      "fin": 1.04,
+      "mot": "de"
+    },
+    {
+      "debut": 1.04,
+      "fin": 1.16,
+      "mot": "ne"
+    },
+    {
+      "debut": 1.16,
+      "fin": 1.26,
+      "mot": "pas"
+    },
+    {
+      "debut": 1.26,
+      "fin": 1.6,
+      "mot": "glisser."
+    },
+    {
+      "debut": 1.78,
+      "fin": 1.9,
+      "mot": "Ah,"
+    },
+    {
+      "debut": 1.94,
+      "fin": 2.06,
+      "mot": "je"
+    },
+    {
+      "debut": 2.06,
+      "fin": 2.4,
+      "mot": "tombe"
+    },
+    {
+      "debut": 2.4,
+      "fin": 2.5,
+      "mot": "!"
+    },
+    {
+      "debut": 2.5,
+      "fin": 2.72,
+      "mot": "Aide"
+    },
+    {
+      "debut": 2.72,
+      "fin": 2.94,
+      "mot": "-moi"
+    },
+    {
+      "debut": 2.94,
+      "fin": 3.14,
+      "mot": "!"
+    },
+    {
+      "debut": 3.14,
+      "fin": 3.32,
+      "mot": "J"
+    },
+    {
+      "debut": 3.32,
+      "fin": 3.7,
+      "mot": "'arrive"
+    },
+    {
+      "debut": 3.7,
+      "fin": 4.08,
+      "mot": "!"
+    },
+    {
+      "debut": 6.08,
+      "fin": 6.44,
+      "mot": "Mon"
+    },
+    {
+      "debut": 6.44,
+      "fin": 6.84,
+      "mot": "amour,"
+    },
+    {
+      "debut": 6.84,
+      "fin": 6.98,
+      "mot": "tu"
+    },
+    {
+      "debut": 6.98,
+      "fin": 7.14,
+      "mot": "vas"
+    },
+    {
+      "debut": 7.14,
+      "fin": 7.3,
+      "mot": "me"
+    },
+    {
+      "debut": 7.3,
+      "fin": 7.58,
+      "mot": "manquer"
+    },
+    {
+      "debut": 7.58,
+      "fin": 7.84,
+      "mot": "pour"
+    },
+    {
+      "debut": 7.84,
+      "fin": 8.22,
+      "mot": "toujours."
+    },
+    {
+      "debut": 8.76,
+      "fin": 8.94,
+      "mot": "Tu"
+    },
+    {
+      "debut": 8.94,
+      "fin": 9.08,
+      "mot": "as"
+    },
+    {
+      "debut": 9.08,
+      "fin": 9.28,
+      "mot": "laissé"
+    },
+    {
+      "debut": 9.28,
+      "fin": 9.54,
+      "mot": "des"
+    },
+    {
+      "debut": 9.54,
+      "fin": 9.84,
+      "mot": "alocots"
+    },
+    {
+      "debut": 9.84,
+      "fin": 10.08,
+      "mot": "pour"
+    },
+    {
+      "debut": 10.08,
+      "fin": 10.3,
+      "mot": "nos"
+    },
+    {
+      "debut": 10.3,
+      "fin": 10.6,
+      "mot": "enfants."
+    },
+    {
+      "debut": 10.86,
+      "fin": 11.3,
+      "mot": "Merci."
+    },
+    {
+      "debut": 12.32,
+      "fin": 12.72,
+      "mot": "Mangez,"
+    },
+    {
+      "debut": 12.74,
+      "fin": 12.9,
+      "mot": "mes"
+    },
+    {
+      "debut": 12.9,
+      "fin": 13.18,
+      "mot": "enfants,"
+    },
+    {
+      "debut": 13.32,
+      "fin": 13.52,
+      "mot": "papa"
+    },
+    {
+      "debut": 13.52,
+      "fin": 13.66,
+      "mot": "a"
+    },
+    {
+      "debut": 13.66,
+      "fin": 13.94,
+      "mot": "laissé"
+    },
+    {
+      "debut": 13.94,
+      "fin": 14.16,
+      "mot": "plein"
+    },
+    {
+      "debut": 14.16,
+      "fin": 14.28,
+      "mot": "d"
+    },
+    {
+      "debut": 14.28,
+      "fin": 14.84,
+      "mot": "'alocots."
+    },
+    {
+      "debut": 15.2,
+      "fin": 15.5,
+      "mot": "Maman,"
+    },
+    {
+      "debut": 15.52,
+      "fin": 15.66,
+      "mot": "c"
+    },
+    {
+      "debut": 15.66,
+      "fin": 15.74,
+      "mot": "'est"
+    },
+    {
+      "debut": 15.74,
+      "fin": 16.04,
+      "mot": "trop"
+    },
+    {
+      "debut": 16.04,
+      "fin": 16.22,
+      "mot": "bon"
+    },
+    {
+      "debut": 16.22,
+      "fin": 16.48,
+      "mot": "!"
+    },
+    {
+      "debut": 16.48,
+      "fin": 16.68,
+      "mot": "Mais"
+    },
+    {
+      "debut": 16.68,
+      "fin": 16.8,
+      "mot": "il"
+    },
+    {
+      "debut": 16.8,
+      "fin": 17.0,
+      "mot": "est"
+    },
+    {
+      "debut": 17.0,
+      "fin": 17.14,
+      "mot": "où,"
+    },
+    {
+      "debut": 17.26,
+      "fin": 17.52,
+      "mot": "papa"
+    },
+    {
+      "debut": 17.52,
+      "fin": 18.5,
+      "mot": "?"
+    },
+    {
+      "debut": 18.5,
+      "fin": 18.86,
+      "mot": "Papa"
+    },
+    {
+      "debut": 18.86,
+      "fin": 19.06,
+      "mot": "est"
+    },
+    {
+      "debut": 19.06,
+      "fin": 19.38,
+      "mot": "parti"
+    },
+    {
+      "debut": 19.38,
+      "fin": 19.88,
+      "mot": "travailler"
+    },
+    {
+      "debut": 19.88,
+      "fin": 20.04,
+      "mot": "à"
+    },
+    {
+      "debut": 20.04,
+      "fin": 20.16,
+      "mot": "l"
+    },
+    {
+      "debut": 20.16,
+      "fin": 20.68,
+      "mot": "'étranger."
+    },
+    {
+      "debut": 21.62,
+      "fin": 21.82,
+      "mot": "Il"
+    },
+    {
+      "debut": 21.82,
+      "fin": 22.02,
+      "mot": "vous"
+    },
+    {
+      "debut": 22.02,
+      "fin": 22.18,
+      "mot": "a"
+    },
+    {
+      "debut": 22.18,
+      "fin": 22.46,
+      "mot": "laissé"
+    },
+    {
+      "debut": 22.46,
+      "fin": 22.74,
+      "mot": "tout"
+    },
+    {
+      "debut": 22.74,
+      "fin": 23.0,
+      "mot": "ça."
+    },
+    {
+      "debut": 25.28,
+      "fin": 25.52,
+      "mot": "Je"
+    },
+    {
+      "debut": 25.52,
+      "fin": 25.7,
+      "mot": "dois"
+    },
+    {
+      "debut": 25.7,
+      "fin": 26.06,
+      "mot": "nourrir"
+    },
+    {
+      "debut": 26.06,
+      "fin": 26.3,
+      "mot": "mes"
+    },
+    {
+      "debut": 26.3,
+      "fin": 26.62,
+      "mot": "enfants."
+    },
+    {
+      "debut": 27.36,
+      "fin": 27.54,
+      "mot": "Je"
+    },
+    {
+      "debut": 27.54,
+      "fin": 27.7,
+      "mot": "vais"
+    },
+    {
+      "debut": 27.7,
+      "fin": 28.04,
+      "mot": "vendre"
+    },
+    {
+      "debut": 28.04,
+      "fin": 28.22,
+      "mot": "les"
+    },
+    {
+      "debut": 28.22,
+      "fin": 28.54,
+      "mot": "alocots"
+    },
+    {
+      "debut": 28.54,
+      "fin": 28.74,
+      "mot": "de"
+    },
+    {
+      "debut": 28.74,
+      "fin": 28.94,
+      "mot": "papa."
+    },
+    {
+      "debut": 29.84,
+      "fin": 30.26,
+      "mot": "Venez"
+    },
+    {
+      "debut": 30.26,
+      "fin": 30.64,
+      "mot": "goûter"
+    },
+    {
+      "debut": 30.64,
+      "fin": 30.84,
+      "mot": "les"
+    },
+    {
+      "debut": 30.84,
+      "fin": 31.12,
+      "mot": "alocots"
+    },
+    {
+      "debut": 31.12,
+      "fin": 31.34,
+      "mot": "de"
+    },
+    {
+      "debut": 31.34,
+      "fin": 31.58,
+      "mot": "papa,"
+    },
+    {
+      "debut": 31.86,
+      "fin": 32.04,
+      "mot": "bien"
+    },
+    {
+      "debut": 32.04,
+      "fin": 32.48,
+      "mot": "dorés."
+    },
+    {
+      "debut": 32.68,
+      "fin": 32.8,
+      "mot": "À"
+    },
+    {
+      "debut": 32.8,
+      "fin": 32.94,
+      "mot": "n"
+    },
+    {
+      "debut": 32.94,
+      "fin": 33.16,
+      "mot": "'acheter"
+    },
+    {
+      "debut": 33.16,
+      "fin": 33.36,
+      "mot": "un"
+    },
+    {
+      "debut": 33.36,
+      "fin": 34.12,
+      "mot": "offert."
+    },
+    {
+      "debut": 34.32,
+      "fin": 34.56,
+      "mot": "Miam,"
+    },
+    {
+      "debut": 34.68,
+      "fin": 34.88,
+      "mot": "trop"
+    },
+    {
+      "debut": 34.88,
+      "fin": 34.98,
+      "mot": "bon,"
+    },
+    {
+      "debut": 35.06,
+      "fin": 35.18,
+      "mot": "j"
+    },
+    {
+      "debut": 35.18,
+      "fin": 35.34,
+      "mot": "'en"
+    },
+    {
+      "debut": 35.34,
+      "fin": 35.46,
+      "mot": "veux"
+    },
+    {
+      "debut": 35.46,
+      "fin": 36.1,
+      "mot": "!"
+    },
+    {
+      "debut": 36.1,
+      "fin": 36.52,
+      "mot": "Merci"
+    },
+    {
+      "debut": 36.52,
+      "fin": 36.76,
+      "mot": "mon"
+    },
+    {
+      "debut": 36.76,
+      "fin": 37.18,
+      "mot": "amour,"
+    },
+    {
+      "debut": 37.24,
+      "fin": 37.52,
+      "mot": "grâce"
+    },
+    {
+      "debut": 37.52,
+      "fin": 37.72,
+      "mot": "à"
+    },
+    {
+      "debut": 37.72,
+      "fin": 37.78,
+      "mot": "toi,"
+    },
+    {
+      "debut": 37.84,
+      "fin": 37.98,
+      "mot": "je"
+    },
+    {
+      "debut": 37.98,
+      "fin": 38.18,
+      "mot": "suis"
+    },
+    {
+      "debut": 38.18,
+      "fin": 38.74,
+      "mot": "riche."
+    },
+    {
+      "debut": 38.9,
+      "fin": 39.12,
+      "mot": "Nos"
+    },
+    {
+      "debut": 39.12,
+      "fin": 39.38,
+      "mot": "enfants"
+    },
+    {
+      "debut": 39.38,
+      "fin": 39.56,
+      "mot": "ne"
+    },
+    {
+      "debut": 39.56,
+      "fin": 39.94,
+      "mot": "manqueront"
+    },
+    {
+      "debut": 39.94,
+      "fin": 40.3,
+      "mot": "jamais"
+    },
+    {
+      "debut": 40.3,
+      "fin": 40.6,
+      "mot": "de"
+    },
+    {
+      "debut": 40.6,
+      "fin": 40.84,
+      "mot": "rien."
+    },
+    {
+      "debut": 42.02,
+      "fin": 42.2,
+      "mot": "Je"
+    },
+    {
+      "debut": 42.2,
+      "fin": 42.5,
+      "mot": "suis"
+    },
+    {
+      "debut": 42.5,
+      "fin": 42.7,
+      "mot": "passée"
+    },
+    {
+      "debut": 42.7,
+      "fin": 42.82,
+      "mot": "d"
+    },
+    {
+      "debut": 42.82,
+      "fin": 42.98,
+      "mot": "'un"
+    },
+    {
+      "debut": 42.98,
+      "fin": 43.26,
+      "mot": "petit"
+    },
+    {
+      "debut": 43.26,
+      "fin": 43.62,
+      "mot": "stand"
+    },
+    {
+      "debut": 43.62,
+      "fin": 44.1,
+      "mot": "à"
+    },
+    {
+      "debut": 44.1,
+      "fin": 44.16,
+      "mot": "l"
+    },
+    {
+      "debut": 44.16,
+      "fin": 44.24,
+      "mot": "'un"
+    },
+    {
+      "debut": 44.24,
+      "fin": 44.42,
+      "mot": "des"
+    },
+    {
+      "debut": 44.42,
+      "fin": 44.78,
+      "mot": "meilleurs"
+    },
+    {
+      "debut": 44.78,
+      "fin": 45.18,
+      "mot": "restaurants"
+    },
+    {
+      "debut": 45.18,
+      "fin": 45.34,
+      "mot": "d"
+    },
+    {
+      "debut": 45.34,
+      "fin": 45.64,
+      "mot": "'alocots"
+    },
+    {
+      "debut": 45.64,
+      "fin": 45.86,
+      "mot": "du"
+    },
+    {
+      "debut": 45.86,
+      "fin": 46.18,
+      "mot": "monde."
+    },
+    {
+      "debut": 46.88,
+      "fin": 47.06,
+      "mot": "Grâce"
+    },
+    {
+      "debut": 47.06,
+      "fin": 47.2,
+      "mot": "à"
+    },
+    {
+      "debut": 47.2,
+      "fin": 47.34,
+      "mot": "mon"
+    },
+    {
+      "debut": 47.34,
+      "fin": 47.8,
+      "mot": "homme."
+    },
+    {
+      "debut": 48.78,
+      "fin": 48.94,
+      "mot": "Table"
+    },
+    {
+      "debut": 48.94,
+      "fin": 49.26,
+      "mot": "5,"
+    },
+    {
+      "debut": 49.36,
+      "fin": 49.5,
+      "mot": "10"
+    },
+    {
+      "debut": 49.5,
+      "fin": 49.74,
+      "mot": "portions"
+    },
+    {
+      "debut": 49.74,
+      "fin": 49.86,
+      "mot": "d"
+    },
+    {
+      "debut": 49.86,
+      "fin": 50.32,
+      "mot": "'alocots."
+    },
+    {
+      "debut": 50.84,
+      "fin": 50.98,
+      "mot": "Les"
+    },
+    {
+      "debut": 50.98,
+      "fin": 51.28,
+      "mot": "meilleurs"
+    },
+    {
+      "debut": 51.28,
+      "fin": 51.56,
+      "mot": "alocots"
+    },
+    {
+      "debut": 51.56,
+      "fin": 51.76,
+      "mot": "du"
+    },
+    {
+      "debut": 51.76,
+      "fin": 52.04,
+      "mot": "monde."
+    },
+    {
+      "debut": 52.62,
+      "fin": 52.82,
+      "mot": "Mes"
+    },
+    {
+      "debut": 52.82,
+      "fin": 53.12,
+      "mot": "affaires"
+    },
+    {
+      "debut": 53.12,
+      "fin": 53.4,
+      "mot": "marchent"
+    },
+    {
+      "debut": 53.4,
+      "fin": 53.68,
+      "mot": "bien."
+    },
+    {
+      "debut": 54.18,
+      "fin": 54.54,
+      "mot": "Patronne,"
+    },
+    {
+      "debut": 54.6,
+      "fin": 54.7,
+      "mot": "on"
+    },
+    {
+      "debut": 54.7,
+      "fin": 54.84,
+      "mot": "a"
+    },
+    {
+      "debut": 54.84,
+      "fin": 55.0,
+      "mot": "un"
+    },
+    {
+      "debut": 55.0,
+      "fin": 55.16,
+      "mot": "gros"
+    },
+    {
+      "debut": 55.16,
+      "fin": 55.52,
+      "mot": "problème."
+    },
+    {
+      "debut": 55.78,
+      "fin": 55.92,
+      "mot": "Plus"
+    },
+    {
+      "debut": 55.92,
+      "fin": 56.06,
+      "mot": "de"
+    },
+    {
+      "debut": 56.06,
+      "fin": 56.16,
+      "mot": "stock"
+    },
+    {
+      "debut": 56.16,
+      "fin": 56.28,
+      "mot": "d"
+    },
+    {
+      "debut": 56.28,
+      "fin": 56.6,
+      "mot": "'alocots,"
+    },
+    {
+      "debut": 56.68,
+      "fin": 56.76,
+      "mot": "c"
+    },
+    {
+      "debut": 56.76,
+      "fin": 56.76,
+      "mot": "'est"
+    },
+    {
+      "debut": 56.76,
+      "fin": 56.96,
+      "mot": "les"
+    },
+    {
+      "debut": 56.96,
+      "fin": 57.2,
+      "mot": "commandes"
+    },
+    {
+      "debut": 57.2,
+      "fin": 57.44,
+      "mot": "arrivent."
+    },
+    {
+      "debut": 57.44,
+      "fin": 57.98,
+      "mot": "Quoi"
+    },
+    {
+      "debut": 57.98,
+      "fin": 58.18,
+      "mot": "?"
+    },
+    {
+      "debut": 58.18,
+      "fin": 58.32,
+      "mot": "Comment"
+    },
+    {
+      "debut": 58.32,
+      "fin": 58.48,
+      "mot": "je"
+    },
+    {
+      "debut": 58.48,
+      "fin": 58.56,
+      "mot": "fais,"
+    },
+    {
+      "debut": 58.58,
+      "fin": 58.94,
+      "mot": "maintenant"
+    },
+    {
+      "debut": 58.94,
+      "fin": 60.26,
+      "mot": "?"
+    },
+    {
+      "debut": 60.26,
+      "fin": 60.46,
+      "mot": "Je"
+    },
+    {
+      "debut": 60.46,
+      "fin": 60.68,
+      "mot": "sais"
+    },
+    {
+      "debut": 60.68,
+      "fin": 60.92,
+      "mot": "pas,"
+    },
+    {
+      "debut": 61.12,
+      "fin": 61.24,
+      "mot": "mais"
+    },
+    {
+      "debut": 61.24,
+      "fin": 61.54,
+      "mot": "trouvez"
+    },
+    {
+      "debut": 61.54,
+      "fin": 61.74,
+      "mot": "vite"
+    },
+    {
+      "debut": 61.74,
+      "fin": 61.88,
+      "mot": "une"
+    },
+    {
+      "debut": 61.88,
+      "fin": 62.36,
+      "mot": "solution."
+    },
+    {
+      "debut": 62.9,
+      "fin": 63.1,
+      "mot": "Oh"
+    },
+    {
+      "debut": 63.1,
+      "fin": 63.36,
+      "mot": "non,"
+    },
+    {
+      "debut": 63.66,
+      "fin": 63.8,
+      "mot": "oh"
+    },
+    {
+      "debut": 63.8,
+      "fin": 64.12,
+      "mot": "non,"
+    },
+    {
+      "debut": 64.36,
+      "fin": 64.54,
+      "mot": "oh"
+    },
+    {
+      "debut": 64.54,
+      "fin": 64.88,
+      "mot": "non,"
+    },
+    {
+      "debut": 65.14,
+      "fin": 65.38,
+      "mot": "vite"
+    },
+    {
+      "debut": 65.38,
+      "fin": 65.76,
+      "mot": "!"
+    },
+    {
+      "debut": 67.12,
+      "fin": 67.52,
+      "mot": "Je"
+    },
+    {
+      "debut": 67.52,
+      "fin": 67.76,
+      "mot": "crois"
+    },
+    {
+      "debut": 67.76,
+      "fin": 68.0,
+      "mot": "que"
+    },
+    {
+      "debut": 68.0,
+      "fin": 68.16,
+      "mot": "j"
+    },
+    {
+      "debut": 68.16,
+      "fin": 68.22,
+      "mot": "'ai"
+    },
+    {
+      "debut": 68.22,
+      "fin": 68.52,
+      "mot": "une"
+    },
+    {
+      "debut": 68.52,
+      "fin": 68.88,
+      "mot": "idée."
+    }
+  ]
+}

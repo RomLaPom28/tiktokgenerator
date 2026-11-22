@@ -1,0 +1,1357 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 2.58,
+      "texte": "Hé Petit ! Tu vas te tuer ! Descends de là !"
+    },
+    {
+      "debut": 2.58,
+      "fin": 4.68,
+      "texte": "T'inquiète papi, j'attends juste ma pizza."
+    },
+    {
+      "debut": 5.04,
+      "fin": 7.18,
+      "texte": "Mais qu'est-ce qu'il a dans la tête lui ?"
+    },
+    {
+      "debut": 7.18,
+      "fin": 9.08,
+      "texte": "Ça fait 30 minutes qu'il est accroché à la barre."
+    },
+    {
+      "debut": 9.34,
+      "fin": 11.12,
+      "texte": "Petit, il y a plein de places assises !"
+    },
+    {
+      "debut": 11.12,
+      "fin": 12.8,
+      "texte": "Je sais, mais accroché je suis mieux."
+    },
+    {
+      "debut": 13.16,
+      "fin": 15.52,
+      "texte": "Attends, 30 minutes accrochées sans trembler ?"
+    },
+    {
+      "debut": 15.52,
+      "fin": 16.9,
+      "texte": "Ouais, c'est même confortable."
+    },
+    {
+      "debut": 17.32,
+      "fin": 18.72,
+      "texte": "Petit, t'es un génie !"
+    },
+    {
+      "debut": 18.72,
+      "fin": 20.6,
+      "texte": "Championnat du monde d'accroche, 1 million d'euros !"
+    },
+    {
+      "debut": 20.6,
+      "fin": 22.34,
+      "texte": "1 million juste pour rester accroché ?"
+    },
+    {
+      "debut": 22.34,
+      "fin": 23.4,
+      "texte": "Marché conclu coach."
+    },
+    {
+      "debut": 23.6,
+      "fin": 26.12,
+      "texte": "Bienvenue au championnat du monde d'accroche !"
+    },
+    {
+      "debut": 26.12,
+      "fin": 28.36,
+      "texte": "Hé le petit, contre moi t'as aucune chance."
+    },
+    {
+      "debut": 28.6,
+      "fin": 29.82,
+      "texte": "Et toi t'es qui le grand ?"
+    },
+    {
+      "debut": 29.82,
+      "fin": 31.06,
+      "texte": "Je m'appelle Jean."
+    },
+    {
+      "debut": 31.46,
+      "fin": 32.62,
+      "texte": "Jean Peuplu."
+    },
+    {
+      "debut": 32.92,
+      "fin": 35.0,
+      "texte": "Jean Peuplu ? C'est quoi ce nom ?"
+    },
+    {
+      "debut": 36.22,
+      "fin": 36.74,
+      "texte": "Partez !"
+    },
+    {
+      "debut": 36.74,
+      "fin": 39.08,
+      "texte": "Dans 20 minutes, tu finis dans la scène."
+    },
+    {
+      "debut": 39.8,
+      "fin": 41.12,
+      "texte": "Je pourrais rester là toute la journée."
+    },
+    {
+      "debut": 41.48,
+      "fin": 43.08,
+      "texte": "Hé le grand, tu trembles là ?"
+    },
+    {
+      "debut": 43.08,
+      "fin": 43.82,
+      "texte": "Je tremble pas."
+    },
+    {
+      "debut": 44.12,
+      "fin": 45.4,
+      "texte": "T'en veux une gorgée ?"
+    },
+    {
+      "debut": 45.4,
+      "fin": 47.06,
+      "texte": "Comment tu fais pour être aussi tranquille ?"
+    },
+    {
+      "debut": 47.06,
+      "fin": 49.32,
+      "texte": "Je suis juste accroché, j'ai même pas commencé à forcer."
+    },
+    {
+      "debut": 49.64,
+      "fin": 50.7,
+      "texte": "Jean Peuplu."
+    },
+    {
+      "debut": 51.06,
+      "fin": 52.44,
+      "texte": "Ah bah il porte bien son nom."
+    },
+    {
+      "debut": 54.42,
+      "fin": 56.16,
+      "texte": "Incroyable, nous avons un vainqueur !"
+    },
+    {
+      "debut": 56.16,
+      "fin": 57.66,
+      "texte": "Alors, il est où mon million ?"
+    },
+    {
+      "debut": 57.66,
+      "fin": 58.7,
+      "texte": "Doucement champion."
+    },
+    {
+      "debut": 58.7,
+      "fin": 61.26,
+      "texte": "Tu dois encore affronter le haricot vert,"
+    },
+    {
+      "debut": 61.64,
+      "fin": 63.32,
+      "texte": "l'homme qui n'est jamais tombé."
+    },
+    {
+      "debut": 63.5,
+      "fin": 64.8,
+      "texte": "Jamais ? Jamais ?"
+    },
+    {
+      "debut": 64.8,
+      "fin": 66.06,
+      "texte": "Pas une seule fois."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.0,
+      "fin": 0.24,
+      "mot": "Hé"
+    },
+    {
+      "debut": 0.24,
+      "fin": 0.74,
+      "mot": "Petit"
+    },
+    {
+      "debut": 0.74,
+      "fin": 1.0,
+      "mot": "!"
+    },
+    {
+      "debut": 1.0,
+      "fin": 1.1,
+      "mot": "Tu"
+    },
+    {
+      "debut": 1.1,
+      "fin": 1.3,
+      "mot": "vas"
+    },
+    {
+      "debut": 1.3,
+      "fin": 1.4,
+      "mot": "te"
+    },
+    {
+      "debut": 1.4,
+      "fin": 1.62,
+      "mot": "tuer"
+    },
+    {
+      "debut": 1.62,
+      "fin": 1.7,
+      "mot": "!"
+    },
+    {
+      "debut": 1.7,
+      "fin": 1.96,
+      "mot": "Descends"
+    },
+    {
+      "debut": 1.96,
+      "fin": 2.1,
+      "mot": "de"
+    },
+    {
+      "debut": 2.1,
+      "fin": 2.34,
+      "mot": "là"
+    },
+    {
+      "debut": 2.34,
+      "fin": 2.58,
+      "mot": "!"
+    },
+    {
+      "debut": 2.58,
+      "fin": 2.66,
+      "mot": "T"
+    },
+    {
+      "debut": 2.66,
+      "fin": 2.96,
+      "mot": "'inquiète"
+    },
+    {
+      "debut": 2.96,
+      "fin": 3.54,
+      "mot": "papi,"
+    },
+    {
+      "debut": 3.64,
+      "fin": 3.78,
+      "mot": "j"
+    },
+    {
+      "debut": 3.78,
+      "fin": 3.96,
+      "mot": "'attends"
+    },
+    {
+      "debut": 3.96,
+      "fin": 4.18,
+      "mot": "juste"
+    },
+    {
+      "debut": 4.18,
+      "fin": 4.34,
+      "mot": "ma"
+    },
+    {
+      "debut": 4.34,
+      "fin": 4.68,
+      "mot": "pizza."
+    },
+    {
+      "debut": 5.04,
+      "fin": 5.24,
+      "mot": "Mais"
+    },
+    {
+      "debut": 5.24,
+      "fin": 5.42,
+      "mot": "qu"
+    },
+    {
+      "debut": 5.42,
+      "fin": 5.54,
+      "mot": "'est"
+    },
+    {
+      "debut": 5.54,
+      "fin": 5.54,
+      "mot": "-ce"
+    },
+    {
+      "debut": 5.54,
+      "fin": 5.68,
+      "mot": "qu"
+    },
+    {
+      "debut": 5.68,
+      "fin": 5.76,
+      "mot": "'il"
+    },
+    {
+      "debut": 5.76,
+      "fin": 5.84,
+      "mot": "a"
+    },
+    {
+      "debut": 5.84,
+      "fin": 5.98,
+      "mot": "dans"
+    },
+    {
+      "debut": 5.98,
+      "fin": 6.3,
+      "mot": "la"
+    },
+    {
+      "debut": 6.3,
+      "fin": 6.6,
+      "mot": "tête"
+    },
+    {
+      "debut": 6.6,
+      "fin": 6.88,
+      "mot": "lui"
+    },
+    {
+      "debut": 6.88,
+      "fin": 7.18,
+      "mot": "?"
+    },
+    {
+      "debut": 7.18,
+      "fin": 7.34,
+      "mot": "Ça"
+    },
+    {
+      "debut": 7.34,
+      "fin": 7.48,
+      "mot": "fait"
+    },
+    {
+      "debut": 7.48,
+      "fin": 7.72,
+      "mot": "30"
+    },
+    {
+      "debut": 7.72,
+      "fin": 8.0,
+      "mot": "minutes"
+    },
+    {
+      "debut": 8.0,
+      "fin": 8.12,
+      "mot": "qu"
+    },
+    {
+      "debut": 8.12,
+      "fin": 8.2,
+      "mot": "'il"
+    },
+    {
+      "debut": 8.2,
+      "fin": 8.3,
+      "mot": "est"
+    },
+    {
+      "debut": 8.3,
+      "fin": 8.58,
+      "mot": "accroché"
+    },
+    {
+      "debut": 8.58,
+      "fin": 8.7,
+      "mot": "à"
+    },
+    {
+      "debut": 8.7,
+      "fin": 8.86,
+      "mot": "la"
+    },
+    {
+      "debut": 8.86,
+      "fin": 9.08,
+      "mot": "barre."
+    },
+    {
+      "debut": 9.34,
+      "fin": 9.74,
+      "mot": "Petit,"
+    },
+    {
+      "debut": 9.84,
+      "fin": 9.94,
+      "mot": "il"
+    },
+    {
+      "debut": 9.94,
+      "fin": 9.96,
+      "mot": "y"
+    },
+    {
+      "debut": 9.96,
+      "fin": 10.06,
+      "mot": "a"
+    },
+    {
+      "debut": 10.06,
+      "fin": 10.18,
+      "mot": "plein"
+    },
+    {
+      "debut": 10.18,
+      "fin": 10.32,
+      "mot": "de"
+    },
+    {
+      "debut": 10.32,
+      "fin": 10.44,
+      "mot": "places"
+    },
+    {
+      "debut": 10.44,
+      "fin": 11.04,
+      "mot": "assises"
+    },
+    {
+      "debut": 11.04,
+      "fin": 11.12,
+      "mot": "!"
+    },
+    {
+      "debut": 11.12,
+      "fin": 11.32,
+      "mot": "Je"
+    },
+    {
+      "debut": 11.32,
+      "fin": 11.56,
+      "mot": "sais,"
+    },
+    {
+      "debut": 11.88,
+      "fin": 12.02,
+      "mot": "mais"
+    },
+    {
+      "debut": 12.02,
+      "fin": 12.34,
+      "mot": "accroché"
+    },
+    {
+      "debut": 12.34,
+      "fin": 12.48,
+      "mot": "je"
+    },
+    {
+      "debut": 12.48,
+      "fin": 12.64,
+      "mot": "suis"
+    },
+    {
+      "debut": 12.64,
+      "fin": 12.8,
+      "mot": "mieux."
+    },
+    {
+      "debut": 13.16,
+      "fin": 13.56,
+      "mot": "Attends,"
+    },
+    {
+      "debut": 13.72,
+      "fin": 13.92,
+      "mot": "30"
+    },
+    {
+      "debut": 13.92,
+      "fin": 14.16,
+      "mot": "minutes"
+    },
+    {
+      "debut": 14.16,
+      "fin": 14.68,
+      "mot": "accrochées"
+    },
+    {
+      "debut": 14.68,
+      "fin": 14.9,
+      "mot": "sans"
+    },
+    {
+      "debut": 14.9,
+      "fin": 15.32,
+      "mot": "trembler"
+    },
+    {
+      "debut": 15.32,
+      "fin": 15.52,
+      "mot": "?"
+    },
+    {
+      "debut": 15.52,
+      "fin": 15.78,
+      "mot": "Ouais,"
+    },
+    {
+      "debut": 16.04,
+      "fin": 16.16,
+      "mot": "c"
+    },
+    {
+      "debut": 16.16,
+      "fin": 16.18,
+      "mot": "'est"
+    },
+    {
+      "debut": 16.18,
+      "fin": 16.38,
+      "mot": "même"
+    },
+    {
+      "debut": 16.38,
+      "fin": 16.9,
+      "mot": "confortable."
+    },
+    {
+      "debut": 17.32,
+      "fin": 17.72,
+      "mot": "Petit,"
+    },
+    {
+      "debut": 17.8,
+      "fin": 17.9,
+      "mot": "t"
+    },
+    {
+      "debut": 17.9,
+      "fin": 18.0,
+      "mot": "'es"
+    },
+    {
+      "debut": 18.0,
+      "fin": 18.14,
+      "mot": "un"
+    },
+    {
+      "debut": 18.14,
+      "fin": 18.46,
+      "mot": "génie"
+    },
+    {
+      "debut": 18.46,
+      "fin": 18.72,
+      "mot": "!"
+    },
+    {
+      "debut": 18.72,
+      "fin": 19.0,
+      "mot": "Championnat"
+    },
+    {
+      "debut": 19.0,
+      "fin": 19.14,
+      "mot": "du"
+    },
+    {
+      "debut": 19.14,
+      "fin": 19.22,
+      "mot": "monde"
+    },
+    {
+      "debut": 19.22,
+      "fin": 19.42,
+      "mot": "d"
+    },
+    {
+      "debut": 19.42,
+      "fin": 19.7,
+      "mot": "'accroche,"
+    },
+    {
+      "debut": 19.9,
+      "fin": 20.02,
+      "mot": "1"
+    },
+    {
+      "debut": 20.02,
+      "fin": 20.22,
+      "mot": "million"
+    },
+    {
+      "debut": 20.22,
+      "fin": 20.34,
+      "mot": "d"
+    },
+    {
+      "debut": 20.34,
+      "fin": 20.52,
+      "mot": "'euros"
+    },
+    {
+      "debut": 20.52,
+      "fin": 20.6,
+      "mot": "!"
+    },
+    {
+      "debut": 20.6,
+      "fin": 20.8,
+      "mot": "1"
+    },
+    {
+      "debut": 20.8,
+      "fin": 21.08,
+      "mot": "million"
+    },
+    {
+      "debut": 21.08,
+      "fin": 21.38,
+      "mot": "juste"
+    },
+    {
+      "debut": 21.38,
+      "fin": 21.5,
+      "mot": "pour"
+    },
+    {
+      "debut": 21.5,
+      "fin": 21.7,
+      "mot": "rester"
+    },
+    {
+      "debut": 21.7,
+      "fin": 22.04,
+      "mot": "accroché"
+    },
+    {
+      "debut": 22.04,
+      "fin": 22.34,
+      "mot": "?"
+    },
+    {
+      "debut": 22.34,
+      "fin": 22.74,
+      "mot": "Marché"
+    },
+    {
+      "debut": 22.74,
+      "fin": 22.98,
+      "mot": "conclu"
+    },
+    {
+      "debut": 22.98,
+      "fin": 23.4,
+      "mot": "coach."
+    },
+    {
+      "debut": 23.6,
+      "fin": 24.0,
+      "mot": "Bienvenue"
+    },
+    {
+      "debut": 24.0,
+      "fin": 24.22,
+      "mot": "au"
+    },
+    {
+      "debut": 24.22,
+      "fin": 24.64,
+      "mot": "championnat"
+    },
+    {
+      "debut": 24.64,
+      "fin": 24.88,
+      "mot": "du"
+    },
+    {
+      "debut": 24.88,
+      "fin": 25.12,
+      "mot": "monde"
+    },
+    {
+      "debut": 25.12,
+      "fin": 25.34,
+      "mot": "d"
+    },
+    {
+      "debut": 25.34,
+      "fin": 25.88,
+      "mot": "'accroche"
+    },
+    {
+      "debut": 25.88,
+      "fin": 26.12,
+      "mot": "!"
+    },
+    {
+      "debut": 26.12,
+      "fin": 26.4,
+      "mot": "Hé"
+    },
+    {
+      "debut": 26.4,
+      "fin": 26.58,
+      "mot": "le"
+    },
+    {
+      "debut": 26.58,
+      "fin": 26.86,
+      "mot": "petit,"
+    },
+    {
+      "debut": 27.16,
+      "fin": 27.36,
+      "mot": "contre"
+    },
+    {
+      "debut": 27.36,
+      "fin": 27.56,
+      "mot": "moi"
+    },
+    {
+      "debut": 27.56,
+      "fin": 27.68,
+      "mot": "t"
+    },
+    {
+      "debut": 27.68,
+      "fin": 27.76,
+      "mot": "'as"
+    },
+    {
+      "debut": 27.76,
+      "fin": 27.96,
+      "mot": "aucune"
+    },
+    {
+      "debut": 27.96,
+      "fin": 28.36,
+      "mot": "chance."
+    },
+    {
+      "debut": 28.6,
+      "fin": 28.78,
+      "mot": "Et"
+    },
+    {
+      "debut": 28.78,
+      "fin": 28.88,
+      "mot": "toi"
+    },
+    {
+      "debut": 28.88,
+      "fin": 29.0,
+      "mot": "t"
+    },
+    {
+      "debut": 29.0,
+      "fin": 29.08,
+      "mot": "'es"
+    },
+    {
+      "debut": 29.08,
+      "fin": 29.22,
+      "mot": "qui"
+    },
+    {
+      "debut": 29.22,
+      "fin": 29.4,
+      "mot": "le"
+    },
+    {
+      "debut": 29.4,
+      "fin": 29.52,
+      "mot": "grand"
+    },
+    {
+      "debut": 29.52,
+      "fin": 29.82,
+      "mot": "?"
+    },
+    {
+      "debut": 29.82,
+      "fin": 29.98,
+      "mot": "Je"
+    },
+    {
+      "debut": 29.98,
+      "fin": 30.18,
+      "mot": "m"
+    },
+    {
+      "debut": 30.18,
+      "fin": 30.44,
+      "mot": "'appelle"
+    },
+    {
+      "debut": 30.44,
+      "fin": 31.06,
+      "mot": "Jean."
+    },
+    {
+      "debut": 31.46,
+      "fin": 31.8,
+      "mot": "Jean"
+    },
+    {
+      "debut": 31.8,
+      "fin": 32.62,
+      "mot": "Peuplu."
+    },
+    {
+      "debut": 32.92,
+      "fin": 33.12,
+      "mot": "Jean"
+    },
+    {
+      "debut": 33.12,
+      "fin": 33.76,
+      "mot": "Peuplu"
+    },
+    {
+      "debut": 33.76,
+      "fin": 34.04,
+      "mot": "?"
+    },
+    {
+      "debut": 34.04,
+      "fin": 34.12,
+      "mot": "C"
+    },
+    {
+      "debut": 34.12,
+      "fin": 34.26,
+      "mot": "'est"
+    },
+    {
+      "debut": 34.26,
+      "fin": 34.4,
+      "mot": "quoi"
+    },
+    {
+      "debut": 34.4,
+      "fin": 34.64,
+      "mot": "ce"
+    },
+    {
+      "debut": 34.64,
+      "fin": 34.8,
+      "mot": "nom"
+    },
+    {
+      "debut": 34.8,
+      "fin": 35.0,
+      "mot": "?"
+    },
+    {
+      "debut": 36.22,
+      "fin": 36.62,
+      "mot": "Partez"
+    },
+    {
+      "debut": 36.62,
+      "fin": 36.74,
+      "mot": "!"
+    },
+    {
+      "debut": 36.74,
+      "fin": 36.92,
+      "mot": "Dans"
+    },
+    {
+      "debut": 36.92,
+      "fin": 37.1,
+      "mot": "20"
+    },
+    {
+      "debut": 37.1,
+      "fin": 37.6,
+      "mot": "minutes,"
+    },
+    {
+      "debut": 37.94,
+      "fin": 38.16,
+      "mot": "tu"
+    },
+    {
+      "debut": 38.16,
+      "fin": 38.4,
+      "mot": "finis"
+    },
+    {
+      "debut": 38.4,
+      "fin": 38.58,
+      "mot": "dans"
+    },
+    {
+      "debut": 38.58,
+      "fin": 38.8,
+      "mot": "la"
+    },
+    {
+      "debut": 38.8,
+      "fin": 39.08,
+      "mot": "scène."
+    },
+    {
+      "debut": 39.8,
+      "fin": 39.86,
+      "mot": "Je"
+    },
+    {
+      "debut": 39.86,
+      "fin": 40.1,
+      "mot": "pourrais"
+    },
+    {
+      "debut": 40.1,
+      "fin": 40.38,
+      "mot": "rester"
+    },
+    {
+      "debut": 40.38,
+      "fin": 40.54,
+      "mot": "là"
+    },
+    {
+      "debut": 40.54,
+      "fin": 40.7,
+      "mot": "toute"
+    },
+    {
+      "debut": 40.7,
+      "fin": 40.88,
+      "mot": "la"
+    },
+    {
+      "debut": 40.88,
+      "fin": 41.12,
+      "mot": "journée."
+    },
+    {
+      "debut": 41.48,
+      "fin": 41.72,
+      "mot": "Hé"
+    },
+    {
+      "debut": 41.72,
+      "fin": 41.9,
+      "mot": "le"
+    },
+    {
+      "debut": 41.9,
+      "fin": 42.08,
+      "mot": "grand,"
+    },
+    {
+      "debut": 42.24,
+      "fin": 42.4,
+      "mot": "tu"
+    },
+    {
+      "debut": 42.4,
+      "fin": 42.68,
+      "mot": "trembles"
+    },
+    {
+      "debut": 42.68,
+      "fin": 42.9,
+      "mot": "là"
+    },
+    {
+      "debut": 42.9,
+      "fin": 43.08,
+      "mot": "?"
+    },
+    {
+      "debut": 43.08,
+      "fin": 43.28,
+      "mot": "Je"
+    },
+    {
+      "debut": 43.28,
+      "fin": 43.56,
+      "mot": "tremble"
+    },
+    {
+      "debut": 43.56,
+      "fin": 43.82,
+      "mot": "pas."
+    },
+    {
+      "debut": 44.12,
+      "fin": 44.24,
+      "mot": "T"
+    },
+    {
+      "debut": 44.24,
+      "fin": 44.38,
+      "mot": "'en"
+    },
+    {
+      "debut": 44.38,
+      "fin": 44.44,
+      "mot": "veux"
+    },
+    {
+      "debut": 44.44,
+      "fin": 44.64,
+      "mot": "une"
+    },
+    {
+      "debut": 44.64,
+      "fin": 45.04,
+      "mot": "gorgée"
+    },
+    {
+      "debut": 45.04,
+      "fin": 45.4,
+      "mot": "?"
+    },
+    {
+      "debut": 45.4,
+      "fin": 45.6,
+      "mot": "Comment"
+    },
+    {
+      "debut": 45.6,
+      "fin": 45.82,
+      "mot": "tu"
+    },
+    {
+      "debut": 45.82,
+      "fin": 45.92,
+      "mot": "fais"
+    },
+    {
+      "debut": 45.92,
+      "fin": 46.08,
+      "mot": "pour"
+    },
+    {
+      "debut": 46.08,
+      "fin": 46.26,
+      "mot": "être"
+    },
+    {
+      "debut": 46.26,
+      "fin": 46.46,
+      "mot": "aussi"
+    },
+    {
+      "debut": 46.46,
+      "fin": 46.94,
+      "mot": "tranquille"
+    },
+    {
+      "debut": 46.94,
+      "fin": 47.06,
+      "mot": "?"
+    },
+    {
+      "debut": 47.06,
+      "fin": 47.24,
+      "mot": "Je"
+    },
+    {
+      "debut": 47.24,
+      "fin": 47.4,
+      "mot": "suis"
+    },
+    {
+      "debut": 47.4,
+      "fin": 47.6,
+      "mot": "juste"
+    },
+    {
+      "debut": 47.6,
+      "fin": 48.0,
+      "mot": "accroché,"
+    },
+    {
+      "debut": 48.2,
+      "fin": 48.34,
+      "mot": "j"
+    },
+    {
+      "debut": 48.34,
+      "fin": 48.38,
+      "mot": "'ai"
+    },
+    {
+      "debut": 48.38,
+      "fin": 48.54,
+      "mot": "même"
+    },
+    {
+      "debut": 48.54,
+      "fin": 48.68,
+      "mot": "pas"
+    },
+    {
+      "debut": 48.68,
+      "fin": 48.88,
+      "mot": "commencé"
+    },
+    {
+      "debut": 48.88,
+      "fin": 49.0,
+      "mot": "à"
+    },
+    {
+      "debut": 49.0,
+      "fin": 49.32,
+      "mot": "forcer."
+    },
+    {
+      "debut": 49.64,
+      "fin": 49.88,
+      "mot": "Jean"
+    },
+    {
+      "debut": 49.88,
+      "fin": 50.7,
+      "mot": "Peuplu."
+    },
+    {
+      "debut": 51.06,
+      "fin": 51.2,
+      "mot": "Ah"
+    },
+    {
+      "debut": 51.2,
+      "fin": 51.32,
+      "mot": "bah"
+    },
+    {
+      "debut": 51.32,
+      "fin": 51.5,
+      "mot": "il"
+    },
+    {
+      "debut": 51.5,
+      "fin": 51.72,
+      "mot": "porte"
+    },
+    {
+      "debut": 51.72,
+      "fin": 52.02,
+      "mot": "bien"
+    },
+    {
+      "debut": 52.02,
+      "fin": 52.18,
+      "mot": "son"
+    },
+    {
+      "debut": 52.18,
+      "fin": 52.44,
+      "mot": "nom."
+    },
+    {
+      "debut": 54.42,
+      "fin": 54.82,
+      "mot": "Incroyable,"
+    },
+    {
+      "debut": 54.96,
+      "fin": 55.12,
+      "mot": "nous"
+    },
+    {
+      "debut": 55.12,
+      "fin": 55.3,
+      "mot": "avons"
+    },
+    {
+      "debut": 55.3,
+      "fin": 55.48,
+      "mot": "un"
+    },
+    {
+      "debut": 55.48,
+      "fin": 55.92,
+      "mot": "vainqueur"
+    },
+    {
+      "debut": 55.92,
+      "fin": 56.16,
+      "mot": "!"
+    },
+    {
+      "debut": 56.16,
+      "fin": 56.48,
+      "mot": "Alors,"
+    },
+    {
+      "debut": 56.64,
+      "fin": 56.8,
+      "mot": "il"
+    },
+    {
+      "debut": 56.8,
+      "fin": 56.88,
+      "mot": "est"
+    },
+    {
+      "debut": 56.88,
+      "fin": 56.96,
+      "mot": "où"
+    },
+    {
+      "debut": 56.96,
+      "fin": 57.1,
+      "mot": "mon"
+    },
+    {
+      "debut": 57.1,
+      "fin": 57.38,
+      "mot": "million"
+    },
+    {
+      "debut": 57.38,
+      "fin": 57.66,
+      "mot": "?"
+    },
+    {
+      "debut": 57.66,
+      "fin": 58.24,
+      "mot": "Doucement"
+    },
+    {
+      "debut": 58.24,
+      "fin": 58.7,
+      "mot": "champion."
+    },
+    {
+      "debut": 58.7,
+      "fin": 59.2,
+      "mot": "Tu"
+    },
+    {
+      "debut": 59.2,
+      "fin": 59.38,
+      "mot": "dois"
+    },
+    {
+      "debut": 59.38,
+      "fin": 59.84,
+      "mot": "encore"
+    },
+    {
+      "debut": 59.84,
+      "fin": 60.3,
+      "mot": "affronter"
+    },
+    {
+      "debut": 60.3,
+      "fin": 60.5,
+      "mot": "le"
+    },
+    {
+      "debut": 60.5,
+      "fin": 60.92,
+      "mot": "haricot"
+    },
+    {
+      "debut": 60.92,
+      "fin": 61.26,
+      "mot": "vert,"
+    },
+    {
+      "debut": 61.64,
+      "fin": 61.78,
+      "mot": "l"
+    },
+    {
+      "debut": 61.78,
+      "fin": 61.96,
+      "mot": "'homme"
+    },
+    {
+      "debut": 61.96,
+      "fin": 62.18,
+      "mot": "qui"
+    },
+    {
+      "debut": 62.18,
+      "fin": 62.24,
+      "mot": "n"
+    },
+    {
+      "debut": 62.24,
+      "fin": 62.4,
+      "mot": "'est"
+    },
+    {
+      "debut": 62.4,
+      "fin": 62.66,
+      "mot": "jamais"
+    },
+    {
+      "debut": 62.66,
+      "fin": 63.32,
+      "mot": "tombé."
+    },
+    {
+      "debut": 63.5,
+      "fin": 63.96,
+      "mot": "Jamais"
+    },
+    {
+      "debut": 63.96,
+      "fin": 64.26,
+      "mot": "?"
+    },
+    {
+      "debut": 64.26,
+      "fin": 64.54,
+      "mot": "Jamais"
+    },
+    {
+      "debut": 64.54,
+      "fin": 64.8,
+      "mot": "?"
+    },
+    {
+      "debut": 64.8,
+      "fin": 65.16,
+      "mot": "Pas"
+    },
+    {
+      "debut": 65.16,
+      "fin": 65.56,
+      "mot": "une"
+    },
+    {
+      "debut": 65.56,
+      "fin": 65.8,
+      "mot": "seule"
+    },
+    {
+      "debut": 65.8,
+      "fin": 66.06,
+      "mot": "fois."
+    }
+  ]
+}

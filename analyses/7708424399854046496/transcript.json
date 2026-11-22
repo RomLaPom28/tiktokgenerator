@@ -1,0 +1,1437 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 2.0,
+      "texte": "Mes trois ex m'aimaient pour mes cheveux."
+    },
+    {
+      "debut": 2.26,
+      "fin": 3.84,
+      "texte": "Lucas, lui, m'aime chauve depuis six mois."
+    },
+    {
+      "debut": 4.8,
+      "fin": 5.9,
+      "texte": "Ce soir, je rencontre sa famille."
+    },
+    {
+      "debut": 6.42,
+      "fin": 7.46,
+      "texte": "On va voir qui m'aime vraiment."
+    },
+    {
+      "debut": 7.92,
+      "fin": 9.76,
+      "texte": "Et si ta famille me trouve moche ?"
+    },
+    {
+      "debut": 9.76,
+      "fin": 12.44,
+      "texte": "T'es la plus belle, avec ou sans cheveux."
+    },
+    {
+      "debut": 12.6,
+      "fin": 13.8,
+      "texte": "Lucas, c'est une blague !"
+    },
+    {
+      "debut": 13.8,
+      "fin": 15.04,
+      "texte": "Elle a pas un seul cheveu !"
+    },
+    {
+      "debut": 15.04,
+      "fin": 16.92,
+      "texte": "Maman, je te présente Jade. Sois gentille."
+    },
+    {
+      "debut": 17.2,
+      "fin": 19.06,
+      "texte": "On dirait Zidane en robe de soirée !"
+    },
+    {
+      "debut": 19.06,
+      "fin": 20.84,
+      "texte": "Une vraie femme, ça a des cheveux."
+    },
+    {
+      "debut": 21.04,
+      "fin": 22.82,
+      "texte": "Encore un mot sur Jade, et on s'en va."
+    },
+    {
+      "debut": 23.02,
+      "fin": 24.6,
+      "texte": "Laisse, Lucas, ça ne me dérange pas."
+    },
+    {
+      "debut": 24.92,
+      "fin": 27.4,
+      "texte": "Mon fils mérite une vraie femme, pas une boule de billard."
+    },
+    {
+      "debut": 27.4,
+      "fin": 29.44,
+      "texte": "Je te donne 5000 euros pour disparaître."
+    },
+    {
+      "debut": 30.1,
+      "fin": 32.18,
+      "texte": "Gardez votre argent, madame. Vous en aurez besoin."
+    },
+    {
+      "debut": 32.6,
+      "fin": 34.86,
+      "texte": "Qu'est-ce qu'elle t'a dit, ma mère ? Dans la cuisine ?"
+    },
+    {
+      "debut": 34.86,
+      "fin": 36.54,
+      "texte": "Rien. Elle voulait juste faire connaissance."
+    },
+    {
+      "debut": 36.8,
+      "fin": 37.24,
+      "texte": "Je la connais."
+    },
+    {
+      "debut": 37.94,
+      "fin": 39.9,
+      "texte": "Si elle te fait du mal, c'est toi que je choisis."
+    },
+    {
+      "debut": 40.4,
+      "fin": 42.62,
+      "texte": "Clara, ma chérie, ça me dit, c'est l'anniversaire de Lucas."
+    },
+    {
+      "debut": 42.84,
+      "fin": 44.46,
+      "texte": "Et tu veux que je fasse quoi ?"
+    },
+    {
+      "debut": 44.46,
+      "fin": 45.74,
+      "texte": "Tu l'embrasses devant la chauve,"
+    },
+    {
+      "debut": 45.94,
+      "fin": 48.12,
+      "texte": "et elle partira toute seule en pleurant !"
+    },
+    {
+      "debut": 48.12,
+      "fin": 49.9,
+      "texte": "Joyeux anniversaire, mon beau Lucas !"
+    },
+    {
+      "debut": 49.9,
+      "fin": 52.1,
+      "texte": "Clara, arrête ! C'est Jade que j'aime."
+    },
+    {
+      "debut": 52.34,
+      "fin": 53.44,
+      "texte": "Elle ?"
+    },
+    {
+      "debut": 53.44,
+      "fin": 55.82,
+      "texte": "Mais regarde-la ! Elle a même pas de cheveux !"
+    },
+    {
+      "debut": 55.82,
+      "fin": 58.4,
+      "texte": "Regardez-la tous ! Vous voulez vraiment d'une femme sans un cheveu ?"
+    },
+    {
+      "debut": 58.4,
+      "fin": 60.3,
+      "texte": "Une boule de billard au mariage ? Jamais !"
+    },
+    {
+      "debut": 60.3,
+      "fin": 61.82,
+      "texte": "Vous voulez voir mes cheveux, madame ?"
+    },
+    {
+      "debut": 62.4,
+      "fin": 62.94,
+      "texte": "Regardez bien."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.0,
+      "fin": 0.34,
+      "mot": "Mes"
+    },
+    {
+      "debut": 0.34,
+      "fin": 0.54,
+      "mot": "trois"
+    },
+    {
+      "debut": 0.54,
+      "fin": 0.7,
+      "mot": "ex"
+    },
+    {
+      "debut": 0.7,
+      "fin": 0.82,
+      "mot": "m"
+    },
+    {
+      "debut": 0.82,
+      "fin": 0.9,
+      "mot": "'aimaient"
+    },
+    {
+      "debut": 0.9,
+      "fin": 1.08,
+      "mot": "pour"
+    },
+    {
+      "debut": 1.08,
+      "fin": 1.22,
+      "mot": "mes"
+    },
+    {
+      "debut": 1.22,
+      "fin": 2.0,
+      "mot": "cheveux."
+    },
+    {
+      "debut": 2.26,
+      "fin": 2.44,
+      "mot": "Lucas,"
+    },
+    {
+      "debut": 2.48,
+      "fin": 2.74,
+      "mot": "lui,"
+    },
+    {
+      "debut": 2.82,
+      "fin": 2.86,
+      "mot": "m"
+    },
+    {
+      "debut": 2.86,
+      "fin": 3.0,
+      "mot": "'aime"
+    },
+    {
+      "debut": 3.0,
+      "fin": 3.2,
+      "mot": "chauve"
+    },
+    {
+      "debut": 3.2,
+      "fin": 3.48,
+      "mot": "depuis"
+    },
+    {
+      "debut": 3.48,
+      "fin": 3.68,
+      "mot": "six"
+    },
+    {
+      "debut": 3.68,
+      "fin": 3.84,
+      "mot": "mois."
+    },
+    {
+      "debut": 4.8,
+      "fin": 4.92,
+      "mot": "Ce"
+    },
+    {
+      "debut": 4.92,
+      "fin": 5.06,
+      "mot": "soir,"
+    },
+    {
+      "debut": 5.08,
+      "fin": 5.2,
+      "mot": "je"
+    },
+    {
+      "debut": 5.2,
+      "fin": 5.5,
+      "mot": "rencontre"
+    },
+    {
+      "debut": 5.5,
+      "fin": 5.68,
+      "mot": "sa"
+    },
+    {
+      "debut": 5.68,
+      "fin": 5.9,
+      "mot": "famille."
+    },
+    {
+      "debut": 6.42,
+      "fin": 6.54,
+      "mot": "On"
+    },
+    {
+      "debut": 6.54,
+      "fin": 6.64,
+      "mot": "va"
+    },
+    {
+      "debut": 6.64,
+      "fin": 6.78,
+      "mot": "voir"
+    },
+    {
+      "debut": 6.78,
+      "fin": 6.94,
+      "mot": "qui"
+    },
+    {
+      "debut": 6.94,
+      "fin": 7.0,
+      "mot": "m"
+    },
+    {
+      "debut": 7.0,
+      "fin": 7.06,
+      "mot": "'aime"
+    },
+    {
+      "debut": 7.06,
+      "fin": 7.46,
+      "mot": "vraiment."
+    },
+    {
+      "debut": 7.92,
+      "fin": 8.06,
+      "mot": "Et"
+    },
+    {
+      "debut": 8.06,
+      "fin": 8.24,
+      "mot": "si"
+    },
+    {
+      "debut": 8.24,
+      "fin": 8.4,
+      "mot": "ta"
+    },
+    {
+      "debut": 8.4,
+      "fin": 8.64,
+      "mot": "famille"
+    },
+    {
+      "debut": 8.64,
+      "fin": 8.86,
+      "mot": "me"
+    },
+    {
+      "debut": 8.86,
+      "fin": 9.06,
+      "mot": "trouve"
+    },
+    {
+      "debut": 9.06,
+      "fin": 9.46,
+      "mot": "moche"
+    },
+    {
+      "debut": 9.46,
+      "fin": 9.76,
+      "mot": "?"
+    },
+    {
+      "debut": 9.76,
+      "fin": 9.86,
+      "mot": "T"
+    },
+    {
+      "debut": 9.86,
+      "fin": 9.92,
+      "mot": "'es"
+    },
+    {
+      "debut": 9.92,
+      "fin": 10.06,
+      "mot": "la"
+    },
+    {
+      "debut": 10.06,
+      "fin": 10.16,
+      "mot": "plus"
+    },
+    {
+      "debut": 10.16,
+      "fin": 10.5,
+      "mot": "belle,"
+    },
+    {
+      "debut": 11.34,
+      "fin": 11.52,
+      "mot": "avec"
+    },
+    {
+      "debut": 11.52,
+      "fin": 11.64,
+      "mot": "ou"
+    },
+    {
+      "debut": 11.64,
+      "fin": 11.78,
+      "mot": "sans"
+    },
+    {
+      "debut": 11.78,
+      "fin": 12.44,
+      "mot": "cheveux."
+    },
+    {
+      "debut": 12.6,
+      "fin": 12.88,
+      "mot": "Lucas,"
+    },
+    {
+      "debut": 12.94,
+      "fin": 13.06,
+      "mot": "c"
+    },
+    {
+      "debut": 13.06,
+      "fin": 13.06,
+      "mot": "'est"
+    },
+    {
+      "debut": 13.06,
+      "fin": 13.26,
+      "mot": "une"
+    },
+    {
+      "debut": 13.26,
+      "fin": 13.48,
+      "mot": "blague"
+    },
+    {
+      "debut": 13.48,
+      "fin": 13.8,
+      "mot": "!"
+    },
+    {
+      "debut": 13.8,
+      "fin": 13.92,
+      "mot": "Elle"
+    },
+    {
+      "debut": 13.92,
+      "fin": 14.02,
+      "mot": "a"
+    },
+    {
+      "debut": 14.02,
+      "fin": 14.16,
+      "mot": "pas"
+    },
+    {
+      "debut": 14.16,
+      "fin": 14.32,
+      "mot": "un"
+    },
+    {
+      "debut": 14.32,
+      "fin": 14.44,
+      "mot": "seul"
+    },
+    {
+      "debut": 14.44,
+      "fin": 14.82,
+      "mot": "cheveu"
+    },
+    {
+      "debut": 14.82,
+      "fin": 15.04,
+      "mot": "!"
+    },
+    {
+      "debut": 15.04,
+      "fin": 15.3,
+      "mot": "Maman,"
+    },
+    {
+      "debut": 15.3,
+      "fin": 15.4,
+      "mot": "je"
+    },
+    {
+      "debut": 15.4,
+      "fin": 15.58,
+      "mot": "te"
+    },
+    {
+      "debut": 15.58,
+      "fin": 15.76,
+      "mot": "présente"
+    },
+    {
+      "debut": 15.76,
+      "fin": 16.02,
+      "mot": "Jade."
+    },
+    {
+      "debut": 16.4,
+      "fin": 16.56,
+      "mot": "Sois"
+    },
+    {
+      "debut": 16.56,
+      "fin": 16.92,
+      "mot": "gentille."
+    },
+    {
+      "debut": 17.2,
+      "fin": 17.38,
+      "mot": "On"
+    },
+    {
+      "debut": 17.38,
+      "fin": 17.58,
+      "mot": "dirait"
+    },
+    {
+      "debut": 17.58,
+      "fin": 17.94,
+      "mot": "Zidane"
+    },
+    {
+      "debut": 17.94,
+      "fin": 18.12,
+      "mot": "en"
+    },
+    {
+      "debut": 18.12,
+      "fin": 18.22,
+      "mot": "robe"
+    },
+    {
+      "debut": 18.22,
+      "fin": 18.5,
+      "mot": "de"
+    },
+    {
+      "debut": 18.5,
+      "fin": 18.82,
+      "mot": "soirée"
+    },
+    {
+      "debut": 18.82,
+      "fin": 19.06,
+      "mot": "!"
+    },
+    {
+      "debut": 19.06,
+      "fin": 19.28,
+      "mot": "Une"
+    },
+    {
+      "debut": 19.28,
+      "fin": 19.58,
+      "mot": "vraie"
+    },
+    {
+      "debut": 19.58,
+      "fin": 19.8,
+      "mot": "femme,"
+    },
+    {
+      "debut": 19.9,
+      "fin": 20.1,
+      "mot": "ça"
+    },
+    {
+      "debut": 20.1,
+      "fin": 20.16,
+      "mot": "a"
+    },
+    {
+      "debut": 20.16,
+      "fin": 20.34,
+      "mot": "des"
+    },
+    {
+      "debut": 20.34,
+      "fin": 20.84,
+      "mot": "cheveux."
+    },
+    {
+      "debut": 21.04,
+      "fin": 21.3,
+      "mot": "Encore"
+    },
+    {
+      "debut": 21.3,
+      "fin": 21.46,
+      "mot": "un"
+    },
+    {
+      "debut": 21.46,
+      "fin": 21.54,
+      "mot": "mot"
+    },
+    {
+      "debut": 21.54,
+      "fin": 21.76,
+      "mot": "sur"
+    },
+    {
+      "debut": 21.76,
+      "fin": 22.06,
+      "mot": "Jade,"
+    },
+    {
+      "debut": 22.24,
+      "fin": 22.38,
+      "mot": "et"
+    },
+    {
+      "debut": 22.38,
+      "fin": 22.52,
+      "mot": "on"
+    },
+    {
+      "debut": 22.52,
+      "fin": 22.62,
+      "mot": "s"
+    },
+    {
+      "debut": 22.62,
+      "fin": 22.72,
+      "mot": "'en"
+    },
+    {
+      "debut": 22.72,
+      "fin": 22.82,
+      "mot": "va."
+    },
+    {
+      "debut": 23.02,
+      "fin": 23.22,
+      "mot": "Laisse,"
+    },
+    {
+      "debut": 23.3,
+      "fin": 23.64,
+      "mot": "Lucas,"
+    },
+    {
+      "debut": 23.76,
+      "fin": 23.96,
+      "mot": "ça"
+    },
+    {
+      "debut": 23.96,
+      "fin": 24.06,
+      "mot": "ne"
+    },
+    {
+      "debut": 24.06,
+      "fin": 24.16,
+      "mot": "me"
+    },
+    {
+      "debut": 24.16,
+      "fin": 24.32,
+      "mot": "dérange"
+    },
+    {
+      "debut": 24.32,
+      "fin": 24.6,
+      "mot": "pas."
+    },
+    {
+      "debut": 24.92,
+      "fin": 25.14,
+      "mot": "Mon"
+    },
+    {
+      "debut": 25.14,
+      "fin": 25.32,
+      "mot": "fils"
+    },
+    {
+      "debut": 25.32,
+      "fin": 25.58,
+      "mot": "mérite"
+    },
+    {
+      "debut": 25.58,
+      "fin": 25.8,
+      "mot": "une"
+    },
+    {
+      "debut": 25.8,
+      "fin": 26.08,
+      "mot": "vraie"
+    },
+    {
+      "debut": 26.08,
+      "fin": 26.3,
+      "mot": "femme,"
+    },
+    {
+      "debut": 26.48,
+      "fin": 26.58,
+      "mot": "pas"
+    },
+    {
+      "debut": 26.58,
+      "fin": 26.74,
+      "mot": "une"
+    },
+    {
+      "debut": 26.74,
+      "fin": 26.92,
+      "mot": "boule"
+    },
+    {
+      "debut": 26.92,
+      "fin": 27.08,
+      "mot": "de"
+    },
+    {
+      "debut": 27.08,
+      "fin": 27.4,
+      "mot": "billard."
+    },
+    {
+      "debut": 27.4,
+      "fin": 27.74,
+      "mot": "Je"
+    },
+    {
+      "debut": 27.74,
+      "fin": 27.94,
+      "mot": "te"
+    },
+    {
+      "debut": 27.94,
+      "fin": 28.1,
+      "mot": "donne"
+    },
+    {
+      "debut": 28.1,
+      "fin": 28.56,
+      "mot": "5000"
+    },
+    {
+      "debut": 28.56,
+      "fin": 28.92,
+      "mot": "euros"
+    },
+    {
+      "debut": 28.92,
+      "fin": 29.26,
+      "mot": "pour"
+    },
+    {
+      "debut": 29.26,
+      "fin": 29.44,
+      "mot": "disparaître."
+    },
+    {
+      "debut": 30.1,
+      "fin": 30.4,
+      "mot": "Gardez"
+    },
+    {
+      "debut": 30.4,
+      "fin": 30.58,
+      "mot": "votre"
+    },
+    {
+      "debut": 30.58,
+      "fin": 30.8,
+      "mot": "argent,"
+    },
+    {
+      "debut": 30.9,
+      "fin": 31.2,
+      "mot": "madame."
+    },
+    {
+      "debut": 31.44,
+      "fin": 31.58,
+      "mot": "Vous"
+    },
+    {
+      "debut": 31.58,
+      "fin": 31.72,
+      "mot": "en"
+    },
+    {
+      "debut": 31.72,
+      "fin": 31.88,
+      "mot": "aurez"
+    },
+    {
+      "debut": 31.88,
+      "fin": 32.18,
+      "mot": "besoin."
+    },
+    {
+      "debut": 32.6,
+      "fin": 32.72,
+      "mot": "Qu"
+    },
+    {
+      "debut": 32.72,
+      "fin": 32.8,
+      "mot": "'est"
+    },
+    {
+      "debut": 32.8,
+      "fin": 32.8,
+      "mot": "-ce"
+    },
+    {
+      "debut": 32.8,
+      "fin": 32.9,
+      "mot": "qu"
+    },
+    {
+      "debut": 32.9,
+      "fin": 32.96,
+      "mot": "'elle"
+    },
+    {
+      "debut": 32.96,
+      "fin": 33.06,
+      "mot": "t"
+    },
+    {
+      "debut": 33.06,
+      "fin": 33.1,
+      "mot": "'a"
+    },
+    {
+      "debut": 33.1,
+      "fin": 33.18,
+      "mot": "dit,"
+    },
+    {
+      "debut": 33.24,
+      "fin": 33.4,
+      "mot": "ma"
+    },
+    {
+      "debut": 33.4,
+      "fin": 33.6,
+      "mot": "mère"
+    },
+    {
+      "debut": 33.6,
+      "fin": 34.08,
+      "mot": "?"
+    },
+    {
+      "debut": 34.08,
+      "fin": 34.18,
+      "mot": "Dans"
+    },
+    {
+      "debut": 34.18,
+      "fin": 34.36,
+      "mot": "la"
+    },
+    {
+      "debut": 34.36,
+      "fin": 34.58,
+      "mot": "cuisine"
+    },
+    {
+      "debut": 34.58,
+      "fin": 34.86,
+      "mot": "?"
+    },
+    {
+      "debut": 34.86,
+      "fin": 35.2,
+      "mot": "Rien."
+    },
+    {
+      "debut": 35.28,
+      "fin": 35.44,
+      "mot": "Elle"
+    },
+    {
+      "debut": 35.44,
+      "fin": 35.62,
+      "mot": "voulait"
+    },
+    {
+      "debut": 35.62,
+      "fin": 35.9,
+      "mot": "juste"
+    },
+    {
+      "debut": 35.9,
+      "fin": 36.1,
+      "mot": "faire"
+    },
+    {
+      "debut": 36.1,
+      "fin": 36.54,
+      "mot": "connaissance."
+    },
+    {
+      "debut": 36.8,
+      "fin": 36.9,
+      "mot": "Je"
+    },
+    {
+      "debut": 36.9,
+      "fin": 37.08,
+      "mot": "la"
+    },
+    {
+      "debut": 37.08,
+      "fin": 37.24,
+      "mot": "connais."
+    },
+    {
+      "debut": 37.94,
+      "fin": 38.08,
+      "mot": "Si"
+    },
+    {
+      "debut": 38.08,
+      "fin": 38.2,
+      "mot": "elle"
+    },
+    {
+      "debut": 38.2,
+      "fin": 38.32,
+      "mot": "te"
+    },
+    {
+      "debut": 38.32,
+      "fin": 38.38,
+      "mot": "fait"
+    },
+    {
+      "debut": 38.38,
+      "fin": 38.56,
+      "mot": "du"
+    },
+    {
+      "debut": 38.56,
+      "fin": 38.84,
+      "mot": "mal,"
+    },
+    {
+      "debut": 39.22,
+      "fin": 39.32,
+      "mot": "c"
+    },
+    {
+      "debut": 39.32,
+      "fin": 39.32,
+      "mot": "'est"
+    },
+    {
+      "debut": 39.32,
+      "fin": 39.46,
+      "mot": "toi"
+    },
+    {
+      "debut": 39.46,
+      "fin": 39.56,
+      "mot": "que"
+    },
+    {
+      "debut": 39.56,
+      "fin": 39.66,
+      "mot": "je"
+    },
+    {
+      "debut": 39.66,
+      "fin": 39.9,
+      "mot": "choisis."
+    },
+    {
+      "debut": 40.4,
+      "fin": 40.66,
+      "mot": "Clara,"
+    },
+    {
+      "debut": 40.74,
+      "fin": 40.88,
+      "mot": "ma"
+    },
+    {
+      "debut": 40.88,
+      "fin": 41.1,
+      "mot": "chérie,"
+    },
+    {
+      "debut": 41.18,
+      "fin": 41.28,
+      "mot": "ça"
+    },
+    {
+      "debut": 41.28,
+      "fin": 41.42,
+      "mot": "me"
+    },
+    {
+      "debut": 41.42,
+      "fin": 41.54,
+      "mot": "dit,"
+    },
+    {
+      "debut": 41.6,
+      "fin": 41.7,
+      "mot": "c"
+    },
+    {
+      "debut": 41.7,
+      "fin": 41.74,
+      "mot": "'est"
+    },
+    {
+      "debut": 41.74,
+      "fin": 41.8,
+      "mot": "l"
+    },
+    {
+      "debut": 41.8,
+      "fin": 42.22,
+      "mot": "'anniversaire"
+    },
+    {
+      "debut": 42.22,
+      "fin": 42.44,
+      "mot": "de"
+    },
+    {
+      "debut": 42.44,
+      "fin": 42.62,
+      "mot": "Lucas."
+    },
+    {
+      "debut": 42.84,
+      "fin": 43.04,
+      "mot": "Et"
+    },
+    {
+      "debut": 43.04,
+      "fin": 43.2,
+      "mot": "tu"
+    },
+    {
+      "debut": 43.2,
+      "fin": 43.3,
+      "mot": "veux"
+    },
+    {
+      "debut": 43.3,
+      "fin": 43.44,
+      "mot": "que"
+    },
+    {
+      "debut": 43.44,
+      "fin": 43.52,
+      "mot": "je"
+    },
+    {
+      "debut": 43.52,
+      "fin": 43.72,
+      "mot": "fasse"
+    },
+    {
+      "debut": 43.72,
+      "fin": 43.94,
+      "mot": "quoi"
+    },
+    {
+      "debut": 43.94,
+      "fin": 44.46,
+      "mot": "?"
+    },
+    {
+      "debut": 44.46,
+      "fin": 44.6,
+      "mot": "Tu"
+    },
+    {
+      "debut": 44.6,
+      "fin": 44.74,
+      "mot": "l"
+    },
+    {
+      "debut": 44.74,
+      "fin": 45.0,
+      "mot": "'embrasses"
+    },
+    {
+      "debut": 45.0,
+      "fin": 45.2,
+      "mot": "devant"
+    },
+    {
+      "debut": 45.2,
+      "fin": 45.46,
+      "mot": "la"
+    },
+    {
+      "debut": 45.46,
+      "fin": 45.74,
+      "mot": "chauve,"
+    },
+    {
+      "debut": 45.94,
+      "fin": 46.08,
+      "mot": "et"
+    },
+    {
+      "debut": 46.08,
+      "fin": 46.26,
+      "mot": "elle"
+    },
+    {
+      "debut": 46.26,
+      "fin": 46.62,
+      "mot": "partira"
+    },
+    {
+      "debut": 46.62,
+      "fin": 46.9,
+      "mot": "toute"
+    },
+    {
+      "debut": 46.9,
+      "fin": 47.02,
+      "mot": "seule"
+    },
+    {
+      "debut": 47.02,
+      "fin": 47.2,
+      "mot": "en"
+    },
+    {
+      "debut": 47.2,
+      "fin": 47.86,
+      "mot": "pleurant"
+    },
+    {
+      "debut": 47.86,
+      "fin": 48.12,
+      "mot": "!"
+    },
+    {
+      "debut": 48.12,
+      "fin": 48.42,
+      "mot": "Joyeux"
+    },
+    {
+      "debut": 48.42,
+      "fin": 48.96,
+      "mot": "anniversaire,"
+    },
+    {
+      "debut": 49.02,
+      "fin": 49.12,
+      "mot": "mon"
+    },
+    {
+      "debut": 49.12,
+      "fin": 49.22,
+      "mot": "beau"
+    },
+    {
+      "debut": 49.22,
+      "fin": 49.56,
+      "mot": "Lucas"
+    },
+    {
+      "debut": 49.56,
+      "fin": 49.9,
+      "mot": "!"
+    },
+    {
+      "debut": 49.9,
+      "fin": 50.2,
+      "mot": "Clara,"
+    },
+    {
+      "debut": 50.36,
+      "fin": 50.68,
+      "mot": "arrête"
+    },
+    {
+      "debut": 50.68,
+      "fin": 51.28,
+      "mot": "!"
+    },
+    {
+      "debut": 51.28,
+      "fin": 51.46,
+      "mot": "C"
+    },
+    {
+      "debut": 51.46,
+      "fin": 51.52,
+      "mot": "'est"
+    },
+    {
+      "debut": 51.52,
+      "fin": 51.66,
+      "mot": "Jade"
+    },
+    {
+      "debut": 51.66,
+      "fin": 51.84,
+      "mot": "que"
+    },
+    {
+      "debut": 51.84,
+      "fin": 51.96,
+      "mot": "j"
+    },
+    {
+      "debut": 51.96,
+      "fin": 52.1,
+      "mot": "'aime."
+    },
+    {
+      "debut": 52.34,
+      "fin": 52.62,
+      "mot": "Elle"
+    },
+    {
+      "debut": 52.62,
+      "fin": 53.44,
+      "mot": "?"
+    },
+    {
+      "debut": 53.44,
+      "fin": 53.72,
+      "mot": "Mais"
+    },
+    {
+      "debut": 53.72,
+      "fin": 54.0,
+      "mot": "regarde"
+    },
+    {
+      "debut": 54.0,
+      "fin": 54.26,
+      "mot": "-la"
+    },
+    {
+      "debut": 54.26,
+      "fin": 54.36,
+      "mot": "!"
+    },
+    {
+      "debut": 54.36,
+      "fin": 54.5,
+      "mot": "Elle"
+    },
+    {
+      "debut": 54.5,
+      "fin": 54.62,
+      "mot": "a"
+    },
+    {
+      "debut": 54.62,
+      "fin": 54.76,
+      "mot": "même"
+    },
+    {
+      "debut": 54.76,
+      "fin": 54.88,
+      "mot": "pas"
+    },
+    {
+      "debut": 54.88,
+      "fin": 55.02,
+      "mot": "de"
+    },
+    {
+      "debut": 55.02,
+      "fin": 55.58,
+      "mot": "cheveux"
+    },
+    {
+      "debut": 55.58,
+      "fin": 55.82,
+      "mot": "!"
+    },
+    {
+      "debut": 55.82,
+      "fin": 56.18,
+      "mot": "Regardez"
+    },
+    {
+      "debut": 56.18,
+      "fin": 56.34,
+      "mot": "-la"
+    },
+    {
+      "debut": 56.34,
+      "fin": 56.54,
+      "mot": "tous"
+    },
+    {
+      "debut": 56.54,
+      "fin": 56.82,
+      "mot": "!"
+    },
+    {
+      "debut": 56.82,
+      "fin": 56.86,
+      "mot": "Vous"
+    },
+    {
+      "debut": 56.86,
+      "fin": 57.02,
+      "mot": "voulez"
+    },
+    {
+      "debut": 57.02,
+      "fin": 57.28,
+      "mot": "vraiment"
+    },
+    {
+      "debut": 57.28,
+      "fin": 57.38,
+      "mot": "d"
+    },
+    {
+      "debut": 57.38,
+      "fin": 57.46,
+      "mot": "'une"
+    },
+    {
+      "debut": 57.46,
+      "fin": 57.6,
+      "mot": "femme"
+    },
+    {
+      "debut": 57.6,
+      "fin": 57.82,
+      "mot": "sans"
+    },
+    {
+      "debut": 57.82,
+      "fin": 57.98,
+      "mot": "un"
+    },
+    {
+      "debut": 57.98,
+      "fin": 58.2,
+      "mot": "cheveu"
+    },
+    {
+      "debut": 58.2,
+      "fin": 58.4,
+      "mot": "?"
+    },
+    {
+      "debut": 58.4,
+      "fin": 58.56,
+      "mot": "Une"
+    },
+    {
+      "debut": 58.56,
+      "fin": 58.76,
+      "mot": "boule"
+    },
+    {
+      "debut": 58.76,
+      "fin": 58.9,
+      "mot": "de"
+    },
+    {
+      "debut": 58.9,
+      "fin": 59.1,
+      "mot": "billard"
+    },
+    {
+      "debut": 59.1,
+      "fin": 59.26,
+      "mot": "au"
+    },
+    {
+      "debut": 59.26,
+      "fin": 59.6,
+      "mot": "mariage"
+    },
+    {
+      "debut": 59.6,
+      "fin": 59.72,
+      "mot": "?"
+    },
+    {
+      "debut": 59.72,
+      "fin": 60.06,
+      "mot": "Jamais"
+    },
+    {
+      "debut": 60.06,
+      "fin": 60.3,
+      "mot": "!"
+    },
+    {
+      "debut": 60.3,
+      "fin": 60.44,
+      "mot": "Vous"
+    },
+    {
+      "debut": 60.44,
+      "fin": 60.6,
+      "mot": "voulez"
+    },
+    {
+      "debut": 60.6,
+      "fin": 60.78,
+      "mot": "voir"
+    },
+    {
+      "debut": 60.78,
+      "fin": 60.92,
+      "mot": "mes"
+    },
+    {
+      "debut": 60.92,
+      "fin": 61.16,
+      "mot": "cheveux,"
+    },
+    {
+      "debut": 61.24,
+      "fin": 61.56,
+      "mot": "madame"
+    },
+    {
+      "debut": 61.56,
+      "fin": 61.82,
+      "mot": "?"
+    },
+    {
+      "debut": 62.4,
+      "fin": 62.78,
+      "mot": "Regardez"
+    },
+    {
+      "debut": 62.78,
+      "fin": 62.94,
+      "mot": "bien."
+    }
+  ]
+}

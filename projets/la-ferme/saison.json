@@ -1,0 +1,104 @@
+{
+  "_lisez_moi": "Plan de la saison : chaque épisode a un FORMAT différent et fait avancer au moins un fil. /episode suit ce plan mais peut l'ajuster selon les votes des commentaires (champ vote_gagnant). Une saison = 12 épisodes, puis une nouvelle saison avec un nouveau gros enjeu.",
+  "enjeu": "Les 15 millions de Gérard : qui va mettre la main dessus ?",
+  "episodes": [
+    {
+      "format": "révélation en cascade",
+      "n": 1,
+      "pitch": "Gérard gagne, Vanessa le trompe, Josiane a tout filmé, Bernard cache la vidéo. Vanessa entre."
+    },
+    {
+      "format": "confrontation en huis clos",
+      "n": 2,
+      "pitch": "Au bar, Vanessa retourne la situation : elle accuse Bernard de mentir. Gérard doit choisir qui croire."
+    },
+    {
+      "format": "enquête / filature",
+      "n": 3,
+      "pitch": "Gérard, déguisé, suit Vanessa en voiture jusqu'à la grange. Il trouve un indice qui n'est pas celui qu'il attendait."
+    },
+    {
+      "format": "POV vidéo de Josiane",
+      "n": 4,
+      "pitch": "La vidéo de Josiane fuite sur le groupe du village. Tout le monde la regarde en même temps, réactions en cascade."
+    },
+    {
+      "format": "réunion de famille",
+      "n": 5,
+      "pitch": "Repas du dimanche chez Huguette : tout le monde sait quelque chose, personne ne dit rien, la tension monte jusqu'à l'explosion."
+    },
+    {
+      "format": "arrivée d'un nouveau",
+      "n": 6,
+      "pitch": "Steeve débarque en ville et propose à Gérard de « placer » son argent. Huguette le reconnaît et pâlit."
+    },
+    {
+      "format": "piège",
+      "n": 7,
+      "pitch": "Gérard et Bernard tendent un piège à Kevin avec un faux ticket de loto. Ça tourne mal."
+    },
+    {
+      "format": "évènement public",
+      "n": 8,
+      "pitch": "Fête du village à la salle des fêtes : Gérard prend le micro pour annoncer quelque chose devant tout le monde."
+    },
+    {
+      "format": "course contre la montre",
+      "n": 9,
+      "pitch": "Le ticket a disparu. Il reste 24 h pour le retrouver avant la fin de validité."
+    },
+    {
+      "format": "flashback",
+      "n": 10,
+      "pitch": "Comment tout a commencé il y a 3 ans : la première rencontre Vanessa-Kevin, et le rôle d'Huguette."
+    },
+    {
+      "format": "trahison ultime",
+      "n": 11,
+      "pitch": "Bernard est vu en train d'encaisser un chèque. Gérard croit que son meilleur ami l'a trahi."
+    },
+    {
+      "format": "finale : chez l'avocat",
+      "n": 12,
+      "pitch": "Signature du divorce chez l'avocat. Retournement final sur qui possède vraiment le ticket. Cliffhanger de saison."
+    }
+  ],
+  "fils": [
+    {
+      "id": "loto",
+      "statut": "ouvert",
+      "texte": "Gérard a gagné 15 millions en secret"
+    },
+    {
+      "id": "liaison",
+      "statut": "ouvert",
+      "texte": "Vanessa trompe Gérard avec Kevin"
+    },
+    {
+      "id": "video",
+      "statut": "ouvert",
+      "texte": "Josiane a filmé la liaison"
+    },
+    {
+      "id": "bernard_sait",
+      "statut": "ouvert",
+      "texte": "Bernard savait depuis 6 mois"
+    },
+    {
+      "id": "divorce",
+      "statut": "ouvert",
+      "texte": "Huguette pousse Vanessa à divorcer vite"
+    },
+    {
+      "id": "dettes_kevin",
+      "statut": "cache",
+      "texte": "Kevin est criblé de dettes"
+    },
+    {
+      "id": "steeve_fils",
+      "statut": "cache",
+      "texte": "Steeve est le fils caché d'Huguette"
+    }
+  ],
+  "saison": 1
+}

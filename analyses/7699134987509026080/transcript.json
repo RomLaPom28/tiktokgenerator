@@ -1,0 +1,2077 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.27,
+      "fin": 6.33,
+      "texte": "Wesh, une McLaren elle fout quoi ici ? Celui qui l'a abandonné il n'a vraiment pas conscience de ce qu'il vient de faire c'est pas possible !"
+    },
+    {
+      "debut": 6.33,
+      "fin": 9.53,
+      "texte": "Bonjour monsieur, elle a combien la McLaren bleue là-bas ? Tu parles de cette carcasse ?"
+    },
+    {
+      "debut": 9.53,
+      "fin": 10.87,
+      "texte": "Oui elle m'intéresse je veux l'acheter."
+    },
+    {
+      "debut": 11.09,
+      "fin": 12.43,
+      "texte": "Ok pour 100 balles elle est à toi gamin."
+    },
+    {
+      "debut": 12.59,
+      "fin": 14.21,
+      "texte": "Je vous la prends cash en espèce !"
+    },
+    {
+      "debut": 14.21,
+      "fin": 16.33,
+      "texte": "La signe ce papier et cette voiture t'appartient gamin."
+    },
+    {
+      "debut": 16.51,
+      "fin": 17.37,
+      "texte": "Ok je signe monsieur."
+    },
+    {
+      "debut": 17.77,
+      "fin": 20.09,
+      "texte": "Par contre pour la ramener chez toi tu te débrouilles solo je te préviens."
+    },
+    {
+      "debut": 20.19,
+      "fin": 22.09,
+      "texte": "Bah alors banano t'es encore venu en bus à ce que je vois MDR."
+    },
+    {
+      "debut": 22.57,
+      "fin": 24.33,
+      "texte": "Rigole mon pote je viens d'acheter une McLaren wesh !"
+    },
+    {
+      "debut": 24.33,
+      "fin": 25.87,
+      "texte": "Tu sais quoi mec je te crois même pas t'es un mec pauvre."
+    },
+    {
+      "debut": 25.87,
+      "fin": 28.13,
+      "texte": "J'mite au pas ! Attends que je la remette en état tu vas choquer mon gars quand tu vas la voir."
+    },
+    {
+      "debut": 28.29,
+      "fin": 30.69,
+      "texte": "T'as acheté cette épave pour 100 euros sérieux ?"
+    },
+    {
+      "debut": 30.69,
+      "fin": 32.73,
+      "texte": "Bah oui j'ai fait une bonne affaire non ?"
+    },
+    {
+      "debut": 32.73,
+      "fin": 35.63,
+      "texte": "Mais t'es bête tu vas payer cher pour la réparer t'es au courant ?"
+    },
+    {
+      "debut": 35.63,
+      "fin": 38.09,
+      "texte": "T'inquiète je vais m'informer sur le net pas de panique papa."
+    },
+    {
+      "debut": 38.67,
+      "fin": 41.11,
+      "texte": "Wesh c'est une galère frère je pourrais pas faire ça tout seul."
+    },
+    {
+      "debut": 41.41,
+      "fin": 45.51,
+      "texte": "Je vais demander à mon poteau d'enfance de m'aider il s'y connait bien en voiture sportive."
+    },
+    {
+      "debut": 46.29,
+      "fin": 47.33,
+      "texte": "Pas mal ta caisse mec."
+    },
+    {
+      "debut": 47.99,
+      "fin": 49.85,
+      "texte": "Tu peux faire quelque chose du coup ?"
+    },
+    {
+      "debut": 49.85,
+      "fin": 52.35,
+      "texte": "Tu vas pas la reconnaître mon gars je gère t'inquiète."
+    },
+    {
+      "debut": 53.39,
+      "fin": 55.53,
+      "texte": "Alors on va mettre des freins pour commencer ensuite on met des nouvelles roues."
+    },
+    {
+      "debut": 55.53,
+      "fin": 57.93,
+      "texte": "Et après le plus important un moteur V8 4.0 litre biturbo."
+    },
+    {
+      "debut": 58.07,
+      "fin": 60.71,
+      "texte": "Et pour le style on finit par un aileron racing state GTR et voilà."
+    },
+    {
+      "debut": 61.09,
+      "fin": 62.73,
+      "texte": "Bah alors ton épave elle roule toujours pas MDR."
+    },
+    {
+      "debut": 63.05,
+      "fin": 64.21,
+      "texte": "Tu sais quoi je te propose un duel mec."
+    },
+    {
+      "debut": 64.31,
+      "fin": 66.31,
+      "texte": "T'ouvre trop ta gorge pour rien je vais te faire redescendre d'un étage."
+    },
+    {
+      "debut": 66.61,
+      "fin": 68.29,
+      "texte": "Ok celui qui perd donne sa voiture au vainqueur."
+    },
+    {
+      "debut": 68.53,
+      "fin": 69.39,
+      "texte": "Ok c'est bon pour moi."
+    },
+    {
+      "debut": 70.77,
+      "fin": 73.83,
+      "texte": "La McLaren sera prête ce soir normalement j'ai hâte de voir son glow up."
+    },
+    {
+      "debut": 73.85,
+      "fin": 76.61,
+      "texte": "Plus que quelques heures avant de voir le résultat j'ai hâte wesh."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.27,
+      "fin": 0.83,
+      "mot": "Wesh,"
+    },
+    {
+      "debut": 0.91,
+      "fin": 1.03,
+      "mot": "une"
+    },
+    {
+      "debut": 1.03,
+      "fin": 1.51,
+      "mot": "McLaren"
+    },
+    {
+      "debut": 1.51,
+      "fin": 1.75,
+      "mot": "elle"
+    },
+    {
+      "debut": 1.75,
+      "fin": 1.91,
+      "mot": "fout"
+    },
+    {
+      "debut": 1.91,
+      "fin": 2.11,
+      "mot": "quoi"
+    },
+    {
+      "debut": 2.11,
+      "fin": 2.45,
+      "mot": "ici"
+    },
+    {
+      "debut": 2.45,
+      "fin": 2.85,
+      "mot": "?"
+    },
+    {
+      "debut": 2.85,
+      "fin": 3.03,
+      "mot": "Celui"
+    },
+    {
+      "debut": 3.03,
+      "fin": 3.15,
+      "mot": "qui"
+    },
+    {
+      "debut": 3.15,
+      "fin": 3.19,
+      "mot": "l"
+    },
+    {
+      "debut": 3.19,
+      "fin": 3.35,
+      "mot": "'a"
+    },
+    {
+      "debut": 3.35,
+      "fin": 3.59,
+      "mot": "abandonné"
+    },
+    {
+      "debut": 3.59,
+      "fin": 3.71,
+      "mot": "il"
+    },
+    {
+      "debut": 3.71,
+      "fin": 3.73,
+      "mot": "n"
+    },
+    {
+      "debut": 3.73,
+      "fin": 3.75,
+      "mot": "'a"
+    },
+    {
+      "debut": 3.75,
+      "fin": 4.05,
+      "mot": "vraiment"
+    },
+    {
+      "debut": 4.05,
+      "fin": 4.23,
+      "mot": "pas"
+    },
+    {
+      "debut": 4.23,
+      "fin": 4.49,
+      "mot": "conscience"
+    },
+    {
+      "debut": 4.49,
+      "fin": 4.63,
+      "mot": "de"
+    },
+    {
+      "debut": 4.63,
+      "fin": 4.73,
+      "mot": "ce"
+    },
+    {
+      "debut": 4.73,
+      "fin": 4.79,
+      "mot": "qu"
+    },
+    {
+      "debut": 4.79,
+      "fin": 4.85,
+      "mot": "'il"
+    },
+    {
+      "debut": 4.85,
+      "fin": 4.91,
+      "mot": "vient"
+    },
+    {
+      "debut": 4.91,
+      "fin": 5.05,
+      "mot": "de"
+    },
+    {
+      "debut": 5.05,
+      "fin": 5.11,
+      "mot": "faire"
+    },
+    {
+      "debut": 5.11,
+      "fin": 5.23,
+      "mot": "c"
+    },
+    {
+      "debut": 5.23,
+      "fin": 5.29,
+      "mot": "'est"
+    },
+    {
+      "debut": 5.29,
+      "fin": 5.45,
+      "mot": "pas"
+    },
+    {
+      "debut": 5.45,
+      "fin": 5.89,
+      "mot": "possible"
+    },
+    {
+      "debut": 5.89,
+      "fin": 6.33,
+      "mot": "!"
+    },
+    {
+      "debut": 6.33,
+      "fin": 6.39,
+      "mot": "Bonjour"
+    },
+    {
+      "debut": 6.39,
+      "fin": 6.65,
+      "mot": "monsieur,"
+    },
+    {
+      "debut": 6.77,
+      "fin": 6.79,
+      "mot": "elle"
+    },
+    {
+      "debut": 6.79,
+      "fin": 6.91,
+      "mot": "a"
+    },
+    {
+      "debut": 6.91,
+      "fin": 7.03,
+      "mot": "combien"
+    },
+    {
+      "debut": 7.03,
+      "fin": 7.19,
+      "mot": "la"
+    },
+    {
+      "debut": 7.19,
+      "fin": 7.53,
+      "mot": "McLaren"
+    },
+    {
+      "debut": 7.53,
+      "fin": 7.69,
+      "mot": "bleue"
+    },
+    {
+      "debut": 7.69,
+      "fin": 7.85,
+      "mot": "là"
+    },
+    {
+      "debut": 7.85,
+      "fin": 7.97,
+      "mot": "-bas"
+    },
+    {
+      "debut": 7.97,
+      "fin": 8.29,
+      "mot": "?"
+    },
+    {
+      "debut": 8.29,
+      "fin": 8.39,
+      "mot": "Tu"
+    },
+    {
+      "debut": 8.39,
+      "fin": 8.55,
+      "mot": "parles"
+    },
+    {
+      "debut": 8.55,
+      "fin": 8.71,
+      "mot": "de"
+    },
+    {
+      "debut": 8.71,
+      "fin": 8.83,
+      "mot": "cette"
+    },
+    {
+      "debut": 8.83,
+      "fin": 9.33,
+      "mot": "carcasse"
+    },
+    {
+      "debut": 9.33,
+      "fin": 9.53,
+      "mot": "?"
+    },
+    {
+      "debut": 9.53,
+      "fin": 9.65,
+      "mot": "Oui"
+    },
+    {
+      "debut": 9.65,
+      "fin": 9.77,
+      "mot": "elle"
+    },
+    {
+      "debut": 9.77,
+      "fin": 9.93,
+      "mot": "m"
+    },
+    {
+      "debut": 9.93,
+      "fin": 10.13,
+      "mot": "'intéresse"
+    },
+    {
+      "debut": 10.13,
+      "fin": 10.19,
+      "mot": "je"
+    },
+    {
+      "debut": 10.19,
+      "fin": 10.29,
+      "mot": "veux"
+    },
+    {
+      "debut": 10.29,
+      "fin": 10.39,
+      "mot": "l"
+    },
+    {
+      "debut": 10.39,
+      "fin": 10.87,
+      "mot": "'acheter."
+    },
+    {
+      "debut": 11.09,
+      "fin": 11.19,
+      "mot": "Ok"
+    },
+    {
+      "debut": 11.19,
+      "fin": 11.37,
+      "mot": "pour"
+    },
+    {
+      "debut": 11.37,
+      "fin": 11.51,
+      "mot": "100"
+    },
+    {
+      "debut": 11.51,
+      "fin": 11.65,
+      "mot": "balles"
+    },
+    {
+      "debut": 11.65,
+      "fin": 11.77,
+      "mot": "elle"
+    },
+    {
+      "debut": 11.77,
+      "fin": 11.83,
+      "mot": "est"
+    },
+    {
+      "debut": 11.83,
+      "fin": 11.95,
+      "mot": "à"
+    },
+    {
+      "debut": 11.95,
+      "fin": 12.05,
+      "mot": "toi"
+    },
+    {
+      "debut": 12.05,
+      "fin": 12.43,
+      "mot": "gamin."
+    },
+    {
+      "debut": 12.59,
+      "fin": 12.67,
+      "mot": "Je"
+    },
+    {
+      "debut": 12.67,
+      "fin": 12.81,
+      "mot": "vous"
+    },
+    {
+      "debut": 12.81,
+      "fin": 12.97,
+      "mot": "la"
+    },
+    {
+      "debut": 12.97,
+      "fin": 13.05,
+      "mot": "prends"
+    },
+    {
+      "debut": 13.05,
+      "fin": 13.25,
+      "mot": "cash"
+    },
+    {
+      "debut": 13.25,
+      "fin": 13.47,
+      "mot": "en"
+    },
+    {
+      "debut": 13.47,
+      "fin": 13.91,
+      "mot": "espèce"
+    },
+    {
+      "debut": 13.91,
+      "fin": 14.21,
+      "mot": "!"
+    },
+    {
+      "debut": 14.21,
+      "fin": 14.29,
+      "mot": "La"
+    },
+    {
+      "debut": 14.29,
+      "fin": 14.43,
+      "mot": "signe"
+    },
+    {
+      "debut": 14.43,
+      "fin": 14.57,
+      "mot": "ce"
+    },
+    {
+      "debut": 14.57,
+      "fin": 14.79,
+      "mot": "papier"
+    },
+    {
+      "debut": 14.79,
+      "fin": 14.95,
+      "mot": "et"
+    },
+    {
+      "debut": 14.95,
+      "fin": 15.03,
+      "mot": "cette"
+    },
+    {
+      "debut": 15.03,
+      "fin": 15.29,
+      "mot": "voiture"
+    },
+    {
+      "debut": 15.29,
+      "fin": 15.45,
+      "mot": "t"
+    },
+    {
+      "debut": 15.45,
+      "fin": 15.75,
+      "mot": "'appartient"
+    },
+    {
+      "debut": 15.75,
+      "fin": 16.33,
+      "mot": "gamin."
+    },
+    {
+      "debut": 16.51,
+      "fin": 16.65,
+      "mot": "Ok"
+    },
+    {
+      "debut": 16.65,
+      "fin": 16.85,
+      "mot": "je"
+    },
+    {
+      "debut": 16.85,
+      "fin": 17.07,
+      "mot": "signe"
+    },
+    {
+      "debut": 17.07,
+      "fin": 17.37,
+      "mot": "monsieur."
+    },
+    {
+      "debut": 17.77,
+      "fin": 17.95,
+      "mot": "Par"
+    },
+    {
+      "debut": 17.95,
+      "fin": 18.13,
+      "mot": "contre"
+    },
+    {
+      "debut": 18.13,
+      "fin": 18.27,
+      "mot": "pour"
+    },
+    {
+      "debut": 18.27,
+      "fin": 18.43,
+      "mot": "la"
+    },
+    {
+      "debut": 18.43,
+      "fin": 18.63,
+      "mot": "ramener"
+    },
+    {
+      "debut": 18.63,
+      "fin": 18.79,
+      "mot": "chez"
+    },
+    {
+      "debut": 18.79,
+      "fin": 18.91,
+      "mot": "toi"
+    },
+    {
+      "debut": 18.91,
+      "fin": 19.05,
+      "mot": "tu"
+    },
+    {
+      "debut": 19.05,
+      "fin": 19.23,
+      "mot": "te"
+    },
+    {
+      "debut": 19.23,
+      "fin": 19.37,
+      "mot": "débrouilles"
+    },
+    {
+      "debut": 19.37,
+      "fin": 19.57,
+      "mot": "solo"
+    },
+    {
+      "debut": 19.57,
+      "fin": 19.71,
+      "mot": "je"
+    },
+    {
+      "debut": 19.71,
+      "fin": 19.89,
+      "mot": "te"
+    },
+    {
+      "debut": 19.89,
+      "fin": 20.09,
+      "mot": "préviens."
+    },
+    {
+      "debut": 20.19,
+      "fin": 20.29,
+      "mot": "Bah"
+    },
+    {
+      "debut": 20.29,
+      "fin": 20.45,
+      "mot": "alors"
+    },
+    {
+      "debut": 20.45,
+      "fin": 20.69,
+      "mot": "banano"
+    },
+    {
+      "debut": 20.69,
+      "fin": 20.79,
+      "mot": "t"
+    },
+    {
+      "debut": 20.79,
+      "fin": 20.85,
+      "mot": "'es"
+    },
+    {
+      "debut": 20.85,
+      "fin": 21.01,
+      "mot": "encore"
+    },
+    {
+      "debut": 21.01,
+      "fin": 21.15,
+      "mot": "venu"
+    },
+    {
+      "debut": 21.15,
+      "fin": 21.29,
+      "mot": "en"
+    },
+    {
+      "debut": 21.29,
+      "fin": 21.37,
+      "mot": "bus"
+    },
+    {
+      "debut": 21.37,
+      "fin": 21.45,
+      "mot": "à"
+    },
+    {
+      "debut": 21.45,
+      "fin": 21.53,
+      "mot": "ce"
+    },
+    {
+      "debut": 21.53,
+      "fin": 21.59,
+      "mot": "que"
+    },
+    {
+      "debut": 21.59,
+      "fin": 21.67,
+      "mot": "je"
+    },
+    {
+      "debut": 21.67,
+      "fin": 21.71,
+      "mot": "vois"
+    },
+    {
+      "debut": 21.71,
+      "fin": 22.09,
+      "mot": "MDR."
+    },
+    {
+      "debut": 22.57,
+      "fin": 22.71,
+      "mot": "Rigole"
+    },
+    {
+      "debut": 22.71,
+      "fin": 22.85,
+      "mot": "mon"
+    },
+    {
+      "debut": 22.85,
+      "fin": 22.95,
+      "mot": "pote"
+    },
+    {
+      "debut": 22.95,
+      "fin": 23.01,
+      "mot": "je"
+    },
+    {
+      "debut": 23.01,
+      "fin": 23.11,
+      "mot": "viens"
+    },
+    {
+      "debut": 23.11,
+      "fin": 23.19,
+      "mot": "d"
+    },
+    {
+      "debut": 23.19,
+      "fin": 23.27,
+      "mot": "'acheter"
+    },
+    {
+      "debut": 23.27,
+      "fin": 23.35,
+      "mot": "une"
+    },
+    {
+      "debut": 23.35,
+      "fin": 23.71,
+      "mot": "McLaren"
+    },
+    {
+      "debut": 23.71,
+      "fin": 24.09,
+      "mot": "wesh"
+    },
+    {
+      "debut": 24.09,
+      "fin": 24.33,
+      "mot": "!"
+    },
+    {
+      "debut": 24.33,
+      "fin": 24.39,
+      "mot": "Tu"
+    },
+    {
+      "debut": 24.39,
+      "fin": 24.47,
+      "mot": "sais"
+    },
+    {
+      "debut": 24.47,
+      "fin": 24.59,
+      "mot": "quoi"
+    },
+    {
+      "debut": 24.59,
+      "fin": 24.69,
+      "mot": "mec"
+    },
+    {
+      "debut": 24.69,
+      "fin": 24.81,
+      "mot": "je"
+    },
+    {
+      "debut": 24.81,
+      "fin": 24.91,
+      "mot": "te"
+    },
+    {
+      "debut": 24.91,
+      "fin": 24.95,
+      "mot": "crois"
+    },
+    {
+      "debut": 24.95,
+      "fin": 25.11,
+      "mot": "même"
+    },
+    {
+      "debut": 25.11,
+      "fin": 25.19,
+      "mot": "pas"
+    },
+    {
+      "debut": 25.19,
+      "fin": 25.29,
+      "mot": "t"
+    },
+    {
+      "debut": 25.29,
+      "fin": 25.29,
+      "mot": "'es"
+    },
+    {
+      "debut": 25.29,
+      "fin": 25.37,
+      "mot": "un"
+    },
+    {
+      "debut": 25.37,
+      "fin": 25.49,
+      "mot": "mec"
+    },
+    {
+      "debut": 25.49,
+      "fin": 25.87,
+      "mot": "pauvre."
+    },
+    {
+      "debut": 25.87,
+      "fin": 26.21,
+      "mot": "J'mite"
+    },
+    {
+      "debut": 26.21,
+      "fin": 26.33,
+      "mot": "au"
+    },
+    {
+      "debut": 26.33,
+      "fin": 26.41,
+      "mot": "pas"
+    },
+    {
+      "debut": 26.41,
+      "fin": 26.51,
+      "mot": "!"
+    },
+    {
+      "debut": 26.51,
+      "fin": 26.61,
+      "mot": "Attends"
+    },
+    {
+      "debut": 26.61,
+      "fin": 26.67,
+      "mot": "que"
+    },
+    {
+      "debut": 26.67,
+      "fin": 26.75,
+      "mot": "je"
+    },
+    {
+      "debut": 26.75,
+      "fin": 26.81,
+      "mot": "la"
+    },
+    {
+      "debut": 26.81,
+      "fin": 26.93,
+      "mot": "remette"
+    },
+    {
+      "debut": 26.93,
+      "fin": 27.07,
+      "mot": "en"
+    },
+    {
+      "debut": 27.07,
+      "fin": 27.15,
+      "mot": "état"
+    },
+    {
+      "debut": 27.15,
+      "fin": 27.25,
+      "mot": "tu"
+    },
+    {
+      "debut": 27.25,
+      "fin": 27.35,
+      "mot": "vas"
+    },
+    {
+      "debut": 27.35,
+      "fin": 27.55,
+      "mot": "choquer"
+    },
+    {
+      "debut": 27.55,
+      "fin": 27.67,
+      "mot": "mon"
+    },
+    {
+      "debut": 27.67,
+      "fin": 27.73,
+      "mot": "gars"
+    },
+    {
+      "debut": 27.73,
+      "fin": 27.83,
+      "mot": "quand"
+    },
+    {
+      "debut": 27.83,
+      "fin": 27.95,
+      "mot": "tu"
+    },
+    {
+      "debut": 27.95,
+      "fin": 28.01,
+      "mot": "vas"
+    },
+    {
+      "debut": 28.01,
+      "fin": 28.09,
+      "mot": "la"
+    },
+    {
+      "debut": 28.09,
+      "fin": 28.13,
+      "mot": "voir."
+    },
+    {
+      "debut": 28.29,
+      "fin": 28.29,
+      "mot": "T"
+    },
+    {
+      "debut": 28.29,
+      "fin": 28.41,
+      "mot": "'as"
+    },
+    {
+      "debut": 28.41,
+      "fin": 28.65,
+      "mot": "acheté"
+    },
+    {
+      "debut": 28.65,
+      "fin": 28.85,
+      "mot": "cette"
+    },
+    {
+      "debut": 28.85,
+      "fin": 29.19,
+      "mot": "épave"
+    },
+    {
+      "debut": 29.19,
+      "fin": 29.43,
+      "mot": "pour"
+    },
+    {
+      "debut": 29.43,
+      "fin": 29.61,
+      "mot": "100"
+    },
+    {
+      "debut": 29.61,
+      "fin": 29.87,
+      "mot": "euros"
+    },
+    {
+      "debut": 29.87,
+      "fin": 30.37,
+      "mot": "sérieux"
+    },
+    {
+      "debut": 30.37,
+      "fin": 30.69,
+      "mot": "?"
+    },
+    {
+      "debut": 30.69,
+      "fin": 30.93,
+      "mot": "Bah"
+    },
+    {
+      "debut": 30.93,
+      "fin": 31.05,
+      "mot": "oui"
+    },
+    {
+      "debut": 31.05,
+      "fin": 31.15,
+      "mot": "j"
+    },
+    {
+      "debut": 31.15,
+      "fin": 31.21,
+      "mot": "'ai"
+    },
+    {
+      "debut": 31.21,
+      "fin": 31.31,
+      "mot": "fait"
+    },
+    {
+      "debut": 31.31,
+      "fin": 31.47,
+      "mot": "une"
+    },
+    {
+      "debut": 31.47,
+      "fin": 31.59,
+      "mot": "bonne"
+    },
+    {
+      "debut": 31.59,
+      "fin": 31.91,
+      "mot": "affaire"
+    },
+    {
+      "debut": 31.91,
+      "fin": 32.09,
+      "mot": "non"
+    },
+    {
+      "debut": 32.09,
+      "fin": 32.73,
+      "mot": "?"
+    },
+    {
+      "debut": 32.73,
+      "fin": 32.87,
+      "mot": "Mais"
+    },
+    {
+      "debut": 32.87,
+      "fin": 32.95,
+      "mot": "t"
+    },
+    {
+      "debut": 32.95,
+      "fin": 33.07,
+      "mot": "'es"
+    },
+    {
+      "debut": 33.07,
+      "fin": 33.27,
+      "mot": "bête"
+    },
+    {
+      "debut": 33.27,
+      "fin": 33.45,
+      "mot": "tu"
+    },
+    {
+      "debut": 33.45,
+      "fin": 33.59,
+      "mot": "vas"
+    },
+    {
+      "debut": 33.59,
+      "fin": 33.81,
+      "mot": "payer"
+    },
+    {
+      "debut": 33.81,
+      "fin": 34.05,
+      "mot": "cher"
+    },
+    {
+      "debut": 34.05,
+      "fin": 34.23,
+      "mot": "pour"
+    },
+    {
+      "debut": 34.23,
+      "fin": 34.39,
+      "mot": "la"
+    },
+    {
+      "debut": 34.39,
+      "fin": 34.73,
+      "mot": "réparer"
+    },
+    {
+      "debut": 34.73,
+      "fin": 34.83,
+      "mot": "t"
+    },
+    {
+      "debut": 34.83,
+      "fin": 34.91,
+      "mot": "'es"
+    },
+    {
+      "debut": 34.91,
+      "fin": 35.03,
+      "mot": "au"
+    },
+    {
+      "debut": 35.03,
+      "fin": 35.47,
+      "mot": "courant"
+    },
+    {
+      "debut": 35.47,
+      "fin": 35.63,
+      "mot": "?"
+    },
+    {
+      "debut": 35.63,
+      "fin": 35.79,
+      "mot": "T"
+    },
+    {
+      "debut": 35.79,
+      "fin": 36.01,
+      "mot": "'inquiète"
+    },
+    {
+      "debut": 36.01,
+      "fin": 36.11,
+      "mot": "je"
+    },
+    {
+      "debut": 36.11,
+      "fin": 36.17,
+      "mot": "vais"
+    },
+    {
+      "debut": 36.17,
+      "fin": 36.27,
+      "mot": "m"
+    },
+    {
+      "debut": 36.27,
+      "fin": 36.61,
+      "mot": "'informer"
+    },
+    {
+      "debut": 36.61,
+      "fin": 36.77,
+      "mot": "sur"
+    },
+    {
+      "debut": 36.77,
+      "fin": 36.93,
+      "mot": "le"
+    },
+    {
+      "debut": 36.93,
+      "fin": 37.07,
+      "mot": "net"
+    },
+    {
+      "debut": 37.07,
+      "fin": 37.31,
+      "mot": "pas"
+    },
+    {
+      "debut": 37.31,
+      "fin": 37.45,
+      "mot": "de"
+    },
+    {
+      "debut": 37.45,
+      "fin": 37.71,
+      "mot": "panique"
+    },
+    {
+      "debut": 37.71,
+      "fin": 38.09,
+      "mot": "papa."
+    },
+    {
+      "debut": 38.67,
+      "fin": 38.75,
+      "mot": "Wesh"
+    },
+    {
+      "debut": 38.75,
+      "fin": 38.93,
+      "mot": "c"
+    },
+    {
+      "debut": 38.93,
+      "fin": 38.93,
+      "mot": "'est"
+    },
+    {
+      "debut": 38.93,
+      "fin": 39.15,
+      "mot": "une"
+    },
+    {
+      "debut": 39.15,
+      "fin": 39.53,
+      "mot": "galère"
+    },
+    {
+      "debut": 39.53,
+      "fin": 39.81,
+      "mot": "frère"
+    },
+    {
+      "debut": 39.81,
+      "fin": 39.99,
+      "mot": "je"
+    },
+    {
+      "debut": 39.99,
+      "fin": 40.21,
+      "mot": "pourrais"
+    },
+    {
+      "debut": 40.21,
+      "fin": 40.35,
+      "mot": "pas"
+    },
+    {
+      "debut": 40.35,
+      "fin": 40.51,
+      "mot": "faire"
+    },
+    {
+      "debut": 40.51,
+      "fin": 40.69,
+      "mot": "ça"
+    },
+    {
+      "debut": 40.69,
+      "fin": 40.91,
+      "mot": "tout"
+    },
+    {
+      "debut": 40.91,
+      "fin": 41.11,
+      "mot": "seul."
+    },
+    {
+      "debut": 41.41,
+      "fin": 41.49,
+      "mot": "Je"
+    },
+    {
+      "debut": 41.49,
+      "fin": 41.61,
+      "mot": "vais"
+    },
+    {
+      "debut": 41.61,
+      "fin": 41.91,
+      "mot": "demander"
+    },
+    {
+      "debut": 41.91,
+      "fin": 42.07,
+      "mot": "à"
+    },
+    {
+      "debut": 42.07,
+      "fin": 42.19,
+      "mot": "mon"
+    },
+    {
+      "debut": 42.19,
+      "fin": 42.51,
+      "mot": "poteau"
+    },
+    {
+      "debut": 42.51,
+      "fin": 42.57,
+      "mot": "d"
+    },
+    {
+      "debut": 42.57,
+      "fin": 42.89,
+      "mot": "'enfance"
+    },
+    {
+      "debut": 42.89,
+      "fin": 43.05,
+      "mot": "de"
+    },
+    {
+      "debut": 43.05,
+      "fin": 43.07,
+      "mot": "m"
+    },
+    {
+      "debut": 43.07,
+      "fin": 43.31,
+      "mot": "'aider"
+    },
+    {
+      "debut": 43.31,
+      "fin": 43.51,
+      "mot": "il"
+    },
+    {
+      "debut": 43.51,
+      "fin": 43.57,
+      "mot": "s"
+    },
+    {
+      "debut": 43.57,
+      "fin": 43.71,
+      "mot": "'y"
+    },
+    {
+      "debut": 43.71,
+      "fin": 43.89,
+      "mot": "connait"
+    },
+    {
+      "debut": 43.89,
+      "fin": 44.11,
+      "mot": "bien"
+    },
+    {
+      "debut": 44.11,
+      "fin": 44.29,
+      "mot": "en"
+    },
+    {
+      "debut": 44.29,
+      "fin": 44.59,
+      "mot": "voiture"
+    },
+    {
+      "debut": 44.59,
+      "fin": 45.51,
+      "mot": "sportive."
+    },
+    {
+      "debut": 46.29,
+      "fin": 46.41,
+      "mot": "Pas"
+    },
+    {
+      "debut": 46.41,
+      "fin": 46.59,
+      "mot": "mal"
+    },
+    {
+      "debut": 46.59,
+      "fin": 46.81,
+      "mot": "ta"
+    },
+    {
+      "debut": 46.81,
+      "fin": 47.05,
+      "mot": "caisse"
+    },
+    {
+      "debut": 47.05,
+      "fin": 47.33,
+      "mot": "mec."
+    },
+    {
+      "debut": 47.99,
+      "fin": 48.11,
+      "mot": "Tu"
+    },
+    {
+      "debut": 48.11,
+      "fin": 48.23,
+      "mot": "peux"
+    },
+    {
+      "debut": 48.23,
+      "fin": 48.41,
+      "mot": "faire"
+    },
+    {
+      "debut": 48.41,
+      "fin": 48.71,
+      "mot": "quelque"
+    },
+    {
+      "debut": 48.71,
+      "fin": 48.83,
+      "mot": "chose"
+    },
+    {
+      "debut": 48.83,
+      "fin": 49.01,
+      "mot": "du"
+    },
+    {
+      "debut": 49.01,
+      "fin": 49.19,
+      "mot": "coup"
+    },
+    {
+      "debut": 49.19,
+      "fin": 49.85,
+      "mot": "?"
+    },
+    {
+      "debut": 49.85,
+      "fin": 50.01,
+      "mot": "Tu"
+    },
+    {
+      "debut": 50.01,
+      "fin": 50.15,
+      "mot": "vas"
+    },
+    {
+      "debut": 50.15,
+      "fin": 50.27,
+      "mot": "pas"
+    },
+    {
+      "debut": 50.27,
+      "fin": 50.43,
+      "mot": "la"
+    },
+    {
+      "debut": 50.43,
+      "fin": 50.75,
+      "mot": "reconnaître"
+    },
+    {
+      "debut": 50.75,
+      "fin": 50.91,
+      "mot": "mon"
+    },
+    {
+      "debut": 50.91,
+      "fin": 51.05,
+      "mot": "gars"
+    },
+    {
+      "debut": 51.05,
+      "fin": 51.23,
+      "mot": "je"
+    },
+    {
+      "debut": 51.23,
+      "fin": 51.35,
+      "mot": "gère"
+    },
+    {
+      "debut": 51.35,
+      "fin": 51.53,
+      "mot": "t"
+    },
+    {
+      "debut": 51.53,
+      "fin": 52.35,
+      "mot": "'inquiète."
+    },
+    {
+      "debut": 53.39,
+      "fin": 53.53,
+      "mot": "Alors"
+    },
+    {
+      "debut": 53.53,
+      "fin": 53.63,
+      "mot": "on"
+    },
+    {
+      "debut": 53.63,
+      "fin": 53.69,
+      "mot": "va"
+    },
+    {
+      "debut": 53.69,
+      "fin": 53.79,
+      "mot": "mettre"
+    },
+    {
+      "debut": 53.79,
+      "fin": 54.01,
+      "mot": "des"
+    },
+    {
+      "debut": 54.01,
+      "fin": 54.07,
+      "mot": "freins"
+    },
+    {
+      "debut": 54.07,
+      "fin": 54.27,
+      "mot": "pour"
+    },
+    {
+      "debut": 54.27,
+      "fin": 54.53,
+      "mot": "commencer"
+    },
+    {
+      "debut": 54.53,
+      "fin": 54.79,
+      "mot": "ensuite"
+    },
+    {
+      "debut": 54.79,
+      "fin": 54.91,
+      "mot": "on"
+    },
+    {
+      "debut": 54.91,
+      "fin": 54.95,
+      "mot": "met"
+    },
+    {
+      "debut": 54.95,
+      "fin": 55.11,
+      "mot": "des"
+    },
+    {
+      "debut": 55.11,
+      "fin": 55.23,
+      "mot": "nouvelles"
+    },
+    {
+      "debut": 55.23,
+      "fin": 55.53,
+      "mot": "roues."
+    },
+    {
+      "debut": 55.53,
+      "fin": 55.79,
+      "mot": "Et"
+    },
+    {
+      "debut": 55.79,
+      "fin": 55.89,
+      "mot": "après"
+    },
+    {
+      "debut": 55.89,
+      "fin": 56.01,
+      "mot": "le"
+    },
+    {
+      "debut": 56.01,
+      "fin": 56.11,
+      "mot": "plus"
+    },
+    {
+      "debut": 56.11,
+      "fin": 56.39,
+      "mot": "important"
+    },
+    {
+      "debut": 56.39,
+      "fin": 56.51,
+      "mot": "un"
+    },
+    {
+      "debut": 56.51,
+      "fin": 56.73,
+      "mot": "moteur"
+    },
+    {
+      "debut": 56.73,
+      "fin": 57.05,
+      "mot": "V8"
+    },
+    {
+      "debut": 57.05,
+      "fin": 57.25,
+      "mot": "4"
+    },
+    {
+      "debut": 57.25,
+      "fin": 57.41,
+      "mot": ".0"
+    },
+    {
+      "debut": 57.41,
+      "fin": 57.55,
+      "mot": "litre"
+    },
+    {
+      "debut": 57.55,
+      "fin": 57.93,
+      "mot": "biturbo."
+    },
+    {
+      "debut": 58.07,
+      "fin": 58.11,
+      "mot": "Et"
+    },
+    {
+      "debut": 58.11,
+      "fin": 58.25,
+      "mot": "pour"
+    },
+    {
+      "debut": 58.25,
+      "fin": 58.39,
+      "mot": "le"
+    },
+    {
+      "debut": 58.39,
+      "fin": 58.49,
+      "mot": "style"
+    },
+    {
+      "debut": 58.49,
+      "fin": 58.63,
+      "mot": "on"
+    },
+    {
+      "debut": 58.63,
+      "fin": 58.85,
+      "mot": "finit"
+    },
+    {
+      "debut": 58.85,
+      "fin": 58.95,
+      "mot": "par"
+    },
+    {
+      "debut": 58.95,
+      "fin": 59.11,
+      "mot": "un"
+    },
+    {
+      "debut": 59.11,
+      "fin": 59.33,
+      "mot": "aileron"
+    },
+    {
+      "debut": 59.33,
+      "fin": 59.61,
+      "mot": "racing"
+    },
+    {
+      "debut": 59.61,
+      "fin": 59.79,
+      "mot": "state"
+    },
+    {
+      "debut": 59.79,
+      "fin": 60.33,
+      "mot": "GTR"
+    },
+    {
+      "debut": 60.33,
+      "fin": 60.51,
+      "mot": "et"
+    },
+    {
+      "debut": 60.51,
+      "fin": 60.71,
+      "mot": "voilà."
+    },
+    {
+      "debut": 61.09,
+      "fin": 61.23,
+      "mot": "Bah"
+    },
+    {
+      "debut": 61.23,
+      "fin": 61.41,
+      "mot": "alors"
+    },
+    {
+      "debut": 61.41,
+      "fin": 61.55,
+      "mot": "ton"
+    },
+    {
+      "debut": 61.55,
+      "fin": 61.79,
+      "mot": "épave"
+    },
+    {
+      "debut": 61.79,
+      "fin": 61.89,
+      "mot": "elle"
+    },
+    {
+      "debut": 61.89,
+      "fin": 62.05,
+      "mot": "roule"
+    },
+    {
+      "debut": 62.05,
+      "fin": 62.25,
+      "mot": "toujours"
+    },
+    {
+      "debut": 62.25,
+      "fin": 62.37,
+      "mot": "pas"
+    },
+    {
+      "debut": 62.37,
+      "fin": 62.73,
+      "mot": "MDR."
+    },
+    {
+      "debut": 63.05,
+      "fin": 63.11,
+      "mot": "Tu"
+    },
+    {
+      "debut": 63.11,
+      "fin": 63.25,
+      "mot": "sais"
+    },
+    {
+      "debut": 63.25,
+      "fin": 63.33,
+      "mot": "quoi"
+    },
+    {
+      "debut": 63.33,
+      "fin": 63.41,
+      "mot": "je"
+    },
+    {
+      "debut": 63.41,
+      "fin": 63.63,
+      "mot": "te"
+    },
+    {
+      "debut": 63.63,
+      "fin": 63.75,
+      "mot": "propose"
+    },
+    {
+      "debut": 63.75,
+      "fin": 63.91,
+      "mot": "un"
+    },
+    {
+      "debut": 63.91,
+      "fin": 64.05,
+      "mot": "duel"
+    },
+    {
+      "debut": 64.05,
+      "fin": 64.21,
+      "mot": "mec."
+    },
+    {
+      "debut": 64.31,
+      "fin": 64.37,
+      "mot": "T"
+    },
+    {
+      "debut": 64.37,
+      "fin": 64.55,
+      "mot": "'ouvre"
+    },
+    {
+      "debut": 64.55,
+      "fin": 64.65,
+      "mot": "trop"
+    },
+    {
+      "debut": 64.65,
+      "fin": 64.79,
+      "mot": "ta"
+    },
+    {
+      "debut": 64.79,
+      "fin": 64.91,
+      "mot": "gorge"
+    },
+    {
+      "debut": 64.91,
+      "fin": 65.09,
+      "mot": "pour"
+    },
+    {
+      "debut": 65.09,
+      "fin": 65.17,
+      "mot": "rien"
+    },
+    {
+      "debut": 65.17,
+      "fin": 65.27,
+      "mot": "je"
+    },
+    {
+      "debut": 65.27,
+      "fin": 65.33,
+      "mot": "vais"
+    },
+    {
+      "debut": 65.33,
+      "fin": 65.43,
+      "mot": "te"
+    },
+    {
+      "debut": 65.43,
+      "fin": 65.55,
+      "mot": "faire"
+    },
+    {
+      "debut": 65.55,
+      "fin": 65.85,
+      "mot": "redescendre"
+    },
+    {
+      "debut": 65.85,
+      "fin": 65.89,
+      "mot": "d"
+    },
+    {
+      "debut": 65.89,
+      "fin": 66.01,
+      "mot": "'un"
+    },
+    {
+      "debut": 66.01,
+      "fin": 66.31,
+      "mot": "étage."
+    },
+    {
+      "debut": 66.61,
+      "fin": 66.75,
+      "mot": "Ok"
+    },
+    {
+      "debut": 66.75,
+      "fin": 66.95,
+      "mot": "celui"
+    },
+    {
+      "debut": 66.95,
+      "fin": 67.15,
+      "mot": "qui"
+    },
+    {
+      "debut": 67.15,
+      "fin": 67.27,
+      "mot": "perd"
+    },
+    {
+      "debut": 67.27,
+      "fin": 67.41,
+      "mot": "donne"
+    },
+    {
+      "debut": 67.41,
+      "fin": 67.53,
+      "mot": "sa"
+    },
+    {
+      "debut": 67.53,
+      "fin": 67.79,
+      "mot": "voiture"
+    },
+    {
+      "debut": 67.79,
+      "fin": 67.91,
+      "mot": "au"
+    },
+    {
+      "debut": 67.91,
+      "fin": 68.29,
+      "mot": "vainqueur."
+    },
+    {
+      "debut": 68.53,
+      "fin": 68.63,
+      "mot": "Ok"
+    },
+    {
+      "debut": 68.63,
+      "fin": 68.73,
+      "mot": "c"
+    },
+    {
+      "debut": 68.73,
+      "fin": 68.79,
+      "mot": "'est"
+    },
+    {
+      "debut": 68.79,
+      "fin": 68.85,
+      "mot": "bon"
+    },
+    {
+      "debut": 68.85,
+      "fin": 69.03,
+      "mot": "pour"
+    },
+    {
+      "debut": 69.03,
+      "fin": 69.39,
+      "mot": "moi."
+    },
+    {
+      "debut": 70.77,
+      "fin": 70.93,
+      "mot": "La"
+    },
+    {
+      "debut": 70.93,
+      "fin": 71.35,
+      "mot": "McLaren"
+    },
+    {
+      "debut": 71.35,
+      "fin": 71.55,
+      "mot": "sera"
+    },
+    {
+      "debut": 71.55,
+      "fin": 71.81,
+      "mot": "prête"
+    },
+    {
+      "debut": 71.81,
+      "fin": 72.01,
+      "mot": "ce"
+    },
+    {
+      "debut": 72.01,
+      "fin": 72.13,
+      "mot": "soir"
+    },
+    {
+      "debut": 72.13,
+      "fin": 72.59,
+      "mot": "normalement"
+    },
+    {
+      "debut": 72.59,
+      "fin": 72.71,
+      "mot": "j"
+    },
+    {
+      "debut": 72.71,
+      "fin": 72.83,
+      "mot": "'ai"
+    },
+    {
+      "debut": 72.83,
+      "fin": 73.01,
+      "mot": "hâte"
+    },
+    {
+      "debut": 73.01,
+      "fin": 73.11,
+      "mot": "de"
+    },
+    {
+      "debut": 73.11,
+      "fin": 73.31,
+      "mot": "voir"
+    },
+    {
+      "debut": 73.31,
+      "fin": 73.51,
+      "mot": "son"
+    },
+    {
+      "debut": 73.51,
+      "fin": 73.71,
+      "mot": "glow"
+    },
+    {
+      "debut": 73.71,
+      "fin": 73.83,
+      "mot": "up."
+    },
+    {
+      "debut": 73.85,
+      "fin": 74.01,
+      "mot": "Plus"
+    },
+    {
+      "debut": 74.01,
+      "fin": 74.27,
+      "mot": "que"
+    },
+    {
+      "debut": 74.27,
+      "fin": 74.47,
+      "mot": "quelques"
+    },
+    {
+      "debut": 74.47,
+      "fin": 74.67,
+      "mot": "heures"
+    },
+    {
+      "debut": 74.67,
+      "fin": 74.83,
+      "mot": "avant"
+    },
+    {
+      "debut": 74.83,
+      "fin": 74.97,
+      "mot": "de"
+    },
+    {
+      "debut": 74.97,
+      "fin": 75.05,
+      "mot": "voir"
+    },
+    {
+      "debut": 75.05,
+      "fin": 75.23,
+      "mot": "le"
+    },
+    {
+      "debut": 75.23,
+      "fin": 75.65,
+      "mot": "résultat"
+    },
+    {
+      "debut": 75.65,
+      "fin": 75.73,
+      "mot": "j"
+    },
+    {
+      "debut": 75.73,
+      "fin": 75.91,
+      "mot": "'ai"
+    },
+    {
+      "debut": 75.91,
+      "fin": 76.27,
+      "mot": "hâte"
+    },
+    {
+      "debut": 76.27,
+      "fin": 76.61,
+      "mot": "wesh."
+    }
+  ]
+}

@@ -1,0 +1,711 @@
+{
+  "numero": 1,
+  "titre": "Le faux joueur de district",
+  "format": "vidéo unique à chute",
+  "accroche_type": "aveu",
+  "cliff_type": "twist final",
+  "centre": "hugo",
+  "texte_accroche": "Il vaut 80 millions en secret",
+  "question_milieu": {
+    "plan": 7,
+    "texte": "Elle l'aime vraiment, tu crois ? 🤔"
+  },
+  "vote_question": "Chloé aime Hugo ou son argent ?",
+  "fils_avances": [],
+  "revele": [],
+  "reprend": "",
+  "resume": "Hugo, star à 80 millions, se fait passer pour un joueur de district pour tester Chloé. Sa mère Sandrine l'humilie et veut le payer pour qu'il parte, Chloé le défend. Au match du dimanche, Enzo reconnaît le tir de Y10 et Sandrine retourne sa veste. Hugo croit avoir trouvé l'amour vrai… mais Chloé savait depuis le début.",
+  "fin": "Sur le parking, Chloé serre Hugo dans ses bras et, par-dessus son épaule, avoue à la caméra qu'elle connaissait les 80 millions.",
+  "recettes_utilisees": [
+    "Aveu-prémisse à 0 s",
+    "Test d'amour déguisé",
+    "Sous-estimé à force cachée",
+    "Témoin choqué après la réplique-choc",
+    "Gros chiffre lisible à l'écran"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "role": "accroche",
+      "duree": 6,
+      "lieu": "voiture_yanis",
+      "lumiere": "fin_journee",
+      "cadrage": "TGP",
+      "angle": "face",
+      "camera": "crash_zoom",
+      "persos": [
+        {
+          "id": "hugo",
+          "jeu": "penché vers l'objectif, sourire en coin, un sourcil levé, yeux qui brillent de malice, mains sur le volant usé"
+        }
+      ],
+      "detail_image": "par le pare-brise, la grande villa illuminée au loin",
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Hugo se penche d'un coup vers la caméra",
+          "camera": "crash_zoom",
+          "son": "whoosh"
+        },
+        {
+          "t": "2-4",
+          "action": "il jette un regard méfiant vers la villa par le pare-brise"
+        },
+        {
+          "t": "4-6",
+          "action": "il se retourne vers nous et fait un clin d'œil",
+          "son": "petit ding"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.2",
+          "parle": "hugo",
+          "emotion": "complice, à voix basse",
+          "texte": "Ils croient que je joue en district."
+        },
+        {
+          "t": "3.8-5.6",
+          "parle": "hugo",
+          "emotion": "fier, chuchoté",
+          "texte": "Je vaux 80 millions."
+        }
+      ],
+      "texte_ecran": "80 MILLIONS"
+    },
+    {
+      "n": 2,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "voiture_yanis",
+      "lumiere": "fin_journee",
+      "cadrage": "PR",
+      "angle": "profil",
+      "camera": "fixe",
+      "persos": [
+        {
+          "id": "hugo",
+          "jeu": "regarde la villa, mâchoire serrée, se passe la langue sur les crocs"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Hugo fixe la villa, le regard dur"
+        },
+        {
+          "t": "3-6",
+          "action": "il arrache la clé du contact et ouvre la portière d'un coup d'épaule",
+          "camera": "whip_pan",
+          "son": "portière qui grince"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-3.2",
+          "parle": "hugo",
+          "emotion": "déterminé",
+          "texte": "Ce soir je saurai si Chloé m'aime moi."
+        },
+        {
+          "t": "3.6-5.2",
+          "parle": "hugo",
+          "emotion": "sec",
+          "texte": "Pas mon argent."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "salon_villa",
+      "lumiere": "nuit_lampe",
+      "cadrage": "PE",
+      "angle": "plongee",
+      "camera": "panoramique",
+      "persos": [
+        {
+          "id": "sandrine",
+          "jeu": "en bout de table, queue déployée en éventail, baisse ses lunettes pour le toiser, sourire pincé"
+        },
+        {
+          "id": "hugo",
+          "jeu": "assis droit, mains sur les genoux, sourire poli"
+        },
+        {
+          "id": "chloe",
+          "jeu": "assise à côté d'Hugo, enroule son collier autour de son doigt, gênée"
+        },
+        {
+          "id": "enzo",
+          "jeu": "affalé, ricane en filmant avec son téléphone"
+        }
+      ],
+      "fin": {
+        "cadrage": "PR",
+        "persos": [
+          {
+            "id": "enzo",
+            "jeu": "plié de rire, téléphone braqué sur Hugo, crête dressée"
+          },
+          {
+            "id": "hugo",
+            "jeu": "au second plan, sourire figé, se passe la langue sur les crocs"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Sandrine fait tinter son verre et toise Hugo",
+          "son": "tintement de cristal"
+        },
+        {
+          "t": "3-5",
+          "action": "Hugo répond calmement, sourire poli",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "5-7",
+          "action": "Enzo explose de rire et manque de tomber de sa chaise",
+          "camera": "secousse"
+        },
+        {
+          "t": "7-10",
+          "action": "Sandrine déploie sa queue en éventail, triomphante, Enzo filme Hugo de près"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.8",
+          "parle": "sandrine",
+          "emotion": "méprisante, faussement polie",
+          "texte": "Donc toi, tu joues au foot le dimanche ?"
+        },
+        {
+          "t": "3.2-4.6",
+          "parle": "hugo",
+          "emotion": "calme",
+          "texte": "Juste le dimanche, oui."
+        },
+        {
+          "t": "5.0-6.4",
+          "parle": "enzo",
+          "emotion": "hilare",
+          "texte": "Un joueur du dimanche !"
+        },
+        {
+          "t": "7.2-9.4",
+          "parle": "sandrine",
+          "emotion": "glaciale",
+          "texte": "Chez nous, on vise plus haut."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "temoin",
+      "duree": 6,
+      "lieu": "salon_villa",
+      "lumiere": "nuit_lampe",
+      "cadrage": "GP",
+      "angle": "contre_plongee",
+      "camera": "epaule",
+      "persos": [
+        {
+          "id": "enzo",
+          "jeu": "secoue son téléphone sous le nez d'Hugo, torse gonflé, crête dressée"
+        },
+        {
+          "id": "hugo",
+          "jeu": "de dos en amorce, immobile"
+        }
+      ],
+      "texte_decor": "sur l'écran du téléphone, le fond d'écran d'un guépard en maillot doré avec « Y10 · 80 M€ »",
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Enzo colle l'écran du téléphone au visage d'Hugo",
+          "camera": "crash_zoom",
+          "son": "whoosh"
+        },
+        {
+          "t": "2-4",
+          "action": "Hugo regarde l'écran, son propre visage, et retient un sourire"
+        },
+        {
+          "t": "4-6",
+          "action": "Enzo range le téléphone, gonfle le torse, fier"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.4",
+          "parle": "enzo",
+          "emotion": "moqueur",
+          "texte": "Mon idole, c'est Y10. Un vrai joueur."
+        },
+        {
+          "t": "4.0-5.2",
+          "parle": "enzo",
+          "emotion": "méprisant",
+          "texte": "Pas toi, frère."
+        }
+      ],
+      "texte_ecran": "SON IDOLE… C'EST LUI 😭"
+    },
+    {
+      "n": 5,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "salon_villa",
+      "lumiere": "nuit_lampe",
+      "cadrage": "PT",
+      "angle": "face",
+      "camera": "fixe",
+      "persos": [
+        {
+          "id": "sandrine",
+          "jeu": "se lève, pose une enveloppe épaisse sur la table, menton relevé"
+        },
+        {
+          "id": "hugo",
+          "jeu": "assis, regarde l'enveloppe, impassible"
+        }
+      ],
+      "texte_decor": "sur l'enveloppe, écrit au feutre doré : « 5 000 € »",
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {
+            "id": "chloe",
+            "jeu": "debout, repousse l'enveloppe vers sa mère, regard furieux, oreilles plaquées"
+          },
+          {
+            "id": "sandrine",
+            "jeu": "bec grand ouvert, choquée, lunettes qui glissent"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Sandrine fait glisser l'enveloppe jusqu'à l'assiette d'Hugo",
+          "son": "glissement de papier"
+        },
+        {
+          "t": "3-5",
+          "action": "silence, Hugo fixe l'enveloppe",
+          "camera": "crash_zoom",
+          "son": "tic-tac d'horloge"
+        },
+        {
+          "t": "5-7",
+          "action": "Chloé se lève d'un bond et frappe la table",
+          "camera": "secousse",
+          "son": "impact sourd, couverts qui sautent"
+        },
+        {
+          "t": "7-10",
+          "action": "Chloé renvoie l'enveloppe vers sa mère, Sandrine reste bec ouvert"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-3.0",
+          "parle": "sandrine",
+          "emotion": "froide, détachée",
+          "texte": "Cinq mille euros. Tu quittes ma fille."
+        },
+        {
+          "t": "5.2-6.6",
+          "parle": "chloe",
+          "emotion": "furieuse",
+          "texte": "Maman, ça suffit !"
+        },
+        {
+          "t": "7.4-9.4",
+          "parle": "chloe",
+          "emotion": "ferme, menton relevé",
+          "texte": "Je l'aime, même en district."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "salon_villa",
+      "lumiere": "nuit_lampe",
+      "cadrage": "AMORCE",
+      "angle": "face",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "hugo",
+          "jeu": "regarde Chloé, ému, se passe la langue sur les crocs pour ne pas sourire"
+        },
+        {
+          "id": "chloe",
+          "jeu": "de dos en amorce, lui serre la main"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Chloé serre fort la main d'Hugo"
+        },
+        {
+          "t": "3-6",
+          "action": "Hugo regarde la caméra, bouleversé, sourire qui craque",
+          "camera": "crash_zoom",
+          "son": "petit battement de cœur"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "3.2-5.4",
+          "parle": "hugo",
+          "emotion": "chuchoté à la caméra, ému",
+          "texte": "Elle a refusé cinq mille balles…"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "terrain_district",
+      "lumiere": "jour",
+      "cadrage": "PA",
+      "angle": "face",
+      "camera": "epaule",
+      "persos": [
+        {
+          "id": "enzo",
+          "jeu": "au bord du grillage, filme en riant, fait de grands signes aux spectateurs"
+        },
+        {
+          "id": "sandrine",
+          "tenue": "tribune",
+          "jeu": "derrière lui dans la tribune en bois, lunettes de soleil sur le bec, bras croisés"
+        }
+      ],
+      "texte_decor": "panneau peint à la main « AS PRÉ-FLEURI »",
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Enzo tourne son téléphone vers le terrain en ricanant",
+          "son": "sifflet du coup d'envoi"
+        },
+        {
+          "t": "3-6",
+          "action": "Sandrine soupire et regarde sa montre",
+          "camera": "whip_pan"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.8",
+          "parle": "enzo",
+          "emotion": "surexcité, moqueur",
+          "texte": "Venez voir, il va tout rater !"
+        },
+        {
+          "t": "3.4-5.2",
+          "parle": "sandrine",
+          "emotion": "blasée",
+          "texte": "Quelle perte de temps."
+        }
+      ],
+      "texte_ecran": "Elle l'aime vraiment, tu crois ? 🤔"
+    },
+    {
+      "n": 8,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "terrain_district",
+      "lumiere": "jour",
+      "cadrage": "PE",
+      "angle": "contre_plongee",
+      "camera": "suivi_course",
+      "persos": [
+        {
+          "id": "hugo",
+          "tenue": "match",
+          "jeu": "court balle au pied, regard de tueur, trois défenseurs animaux à ses trousses"
+        }
+      ],
+      "texte_decor": "petit tableau d'affichage en bois : « AS PRÉ-FLEURI 0 – 0 »",
+      "fin": {
+        "cadrage": "PE",
+        "persos": [
+          {
+            "id": "hugo",
+            "tenue": "match",
+            "jeu": "de dos, bras écartés, immobile, le ballon au fond des filets en pleine lucarne"
+          }
+        ],
+        "detail_image": "la tribune entière debout, bouche bée"
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Hugo dribble deux défenseurs d'un crochet éclair",
+          "camera": "suivi_course",
+          "son": "crampons sur le synthétique"
+        },
+        {
+          "t": "3-5",
+          "action": "il arme une frappe du gauche de 35 mètres",
+          "camera": "ralenti",
+          "son": "souffle ralenti"
+        },
+        {
+          "t": "5-7",
+          "action": "le ballon file en pleine lucarne",
+          "camera": "whip_pan",
+          "son": "filet qui claque"
+        },
+        {
+          "t": "7-10",
+          "action": "silence total, toute la tribune se lève bouche bée"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "7.6-8.6",
+          "parle": "enzo",
+          "emotion": "hurle, voix qui part dans les aigus",
+          "texte": "QUOI ?!",
+          "hors_champ": true
+        }
+      ],
+      "son": "un corbeau croasse dans le silence"
+    },
+    {
+      "n": 9,
+      "role": "temoin",
+      "duree": 6,
+      "lieu": "terrain_district",
+      "lumiere": "jour",
+      "cadrage": "TGP",
+      "angle": "debullee",
+      "camera": "crash_zoom",
+      "persos": [
+        {
+          "id": "enzo",
+          "jeu": "yeux exorbités, crête dressée à la verticale, regarde son fond d'écran puis le terrain"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Enzo regarde son fond d'écran",
+          "son": "ding"
+        },
+        {
+          "t": "2-4",
+          "action": "il relève la tête vers le terrain, puis l'écran, puis le terrain",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "4-6",
+          "action": "son téléphone lui glisse des mains",
+          "camera": "crash_zoom",
+          "son": "téléphone qui tombe"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.2",
+          "parle": "enzo",
+          "emotion": "bégaie, sous le choc",
+          "texte": "Attends… ce tir du gauche…"
+        },
+        {
+          "t": "4.0-5.8",
+          "parle": "enzo",
+          "emotion": "hurle",
+          "texte": "C'EST Y10 !"
+        }
+      ],
+      "texte_ecran": "C'ÉTAIT Y10 😳"
+    },
+    {
+      "n": 10,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "terrain_district",
+      "lumiere": "jour",
+      "cadrage": "PA",
+      "angle": "contre_plongee",
+      "camera": "orbite",
+      "persos": [
+        {
+          "id": "sandrine",
+          "tenue": "tribune",
+          "jeu": "bondit dans la tribune, agite les deux ailes, queue déployée, sourire énorme"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Sandrine arrache ses lunettes et sautille dans la tribune",
+          "son": "cris de la foule"
+        },
+        {
+          "t": "3-6",
+          "action": "elle envoie des bisous vers le terrain des deux ailes"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.4",
+          "parle": "sandrine",
+          "emotion": "hystérique, mielleuse",
+          "texte": "Mon gendre adoré !"
+        },
+        {
+          "t": "3.0-5.4",
+          "parle": "sandrine",
+          "emotion": "suppliante",
+          "texte": "Tu restes dîner ce soir, hein ?"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "role": "climax",
+      "duree": 6,
+      "lieu": "parking_stade",
+      "lumiere": "nuit_lune",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "travelling_lateral",
+      "persos": [
+        {
+          "id": "hugo",
+          "tenue": "match",
+          "jeu": "adossé à la vieille voiture, sourire tendre"
+        },
+        {
+          "id": "chloe",
+          "tenue": "nuit",
+          "jeu": "face à lui, les yeux brillants"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Hugo ouvre les bras vers Chloé"
+        },
+        {
+          "t": "3-6",
+          "action": "Chloé se jette dans ses bras",
+          "son": "grillons"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.8",
+          "parle": "hugo",
+          "emotion": "sincère, doux",
+          "texte": "Tu m'as choisi sans l'argent."
+        },
+        {
+          "t": "3.2-4.6",
+          "parle": "chloe",
+          "emotion": "douce",
+          "texte": "Toujours, mon cœur."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "role": "cliff",
+      "duree": 10,
+      "lieu": "parking_stade",
+      "lumiere": "nuit_lune",
+      "cadrage": "GP",
+      "angle": "face",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "chloe",
+          "tenue": "nuit",
+          "jeu": "menton posé sur l'épaule d'Hugo, yeux fermés, sourire tendre"
+        },
+        {
+          "id": "hugo",
+          "tenue": "match",
+          "jeu": "de dos, la serre dans ses bras"
+        }
+      ],
+      "fin": {
+        "cadrage": "TGP",
+        "persos": [
+          {
+            "id": "chloe",
+            "tenue": "nuit",
+            "jeu": "yeux grands ouverts tournés vers l'objectif, sourire en coin diabolique, penche la tête, enroule son collier autour du doigt"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Chloé enlace Hugo, yeux fermés, l'air amoureuse"
+        },
+        {
+          "t": "3-6",
+          "action": "elle ouvre lentement les yeux vers la caméra",
+          "camera": "travelling_avant",
+          "son": "note grave"
+        },
+        {
+          "t": "6-8",
+          "action": "sourire en coin diabolique",
+          "camera": "crash_zoom"
+        },
+        {
+          "t": "8-10",
+          "action": "elle fait un clin d'œil lent à la caméra",
+          "son": "ding"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "3.4-5.4",
+          "parle": "chloe",
+          "emotion": "chuchoté, complice avec le spectateur",
+          "texte": "Quatre-vingts millions…"
+        },
+        {
+          "t": "6.2-8.6",
+          "parle": "chloe",
+          "emotion": "chuchoté, malicieux",
+          "texte": "Et il croit que je sais rien."
+        }
+      ],
+      "texte_ecran": "ELLE SAVAIT 😈"
+    }
+  ],
+  "titre_couverture": "Il vaut 80 M€, elle le savait ?",
+  "legende": "Il s'est fait passer pour un joueur de district pour tester sa copine… La belle-mère n'a rien vu venir 😳 Et Chloé, elle l'aime vraiment ?",
+  "hashtags": [
+    "#foot",
+    "#histoire",
+    "#testdamour",
+    "#animaux",
+    "#ia",
+    "#drama"
+  ],
+  "commentaire_epingle": "Chloé l'aime vraiment ? ❤️ Oui, elle l'a défendu / 💰 Non, elle visait les millions",
+  "hooks_alternatifs": [
+    "Ma belle-mère m'a proposé 5 000 € pour partir. Je vaux 80 millions.",
+    "Son petit frère a mon visage en fond d'écran. Il me reconnaît pas.",
+    "J'ai joué en district pour tester ma copine. Elle a fait pire."
+  ]
+}

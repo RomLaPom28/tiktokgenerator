@@ -1,0 +1,91 @@
+[
+  {
+    "numero": 1,
+    "titre": "Le ticket gagnant",
+    "format": "révélation en cascade",
+    "accroche_type": "témoin choqué",
+    "cliff_type": "entrée du coupable",
+    "centre": "gerard",
+    "lieu_principal": "bar_tabac",
+    "lieux": [
+      "bar_tabac",
+      "cuisine_huguette",
+      "grange_bureau",
+      "jardin_josiane"
+    ],
+    "fils_avances": [
+      "loto",
+      "liaison",
+      "video",
+      "bernard_sait"
+    ],
+    "revele": [],
+    "temps_parole": {
+      "josiane": 2,
+      "kevin": 1,
+      "vanessa": 2,
+      "gerard": 3,
+      "bernard": 2,
+      "huguette": 1
+    },
+    "repliques": [
+      "Oh la vache… la Vanessa est en train d'embrasser le patron !",
+      "Ton gros taureau se doute de rien, t'es sûre ?",
+      "Il est bête comme ses sabots, crois-moi.",
+      "Quinze millions… je vais tout offrir à ma Vanessa.",
+      "Quinze millions ?! Et t'as rien dit à ta femme ?",
+      "C'est une surprise pour nos vingt ans de mariage.",
+      "Ma fille, tu signes le divorce vite, avant qu'il se doute.",
+      "Gérard ! Faut que tu voies cette vidéo, maintenant !",
+      "Non non non, Josiane, pas ici, pas maintenant !",
+      "Bernard… pourquoi tu me caches ce téléphone ?",
+      "Mon chéri… qu'est-ce qui se passe ici ?"
+    ],
+    "resume": "Gérard a gagné 15 millions et veut tout offrir à Vanessa, qui le trompe avec Kevin. Josiane a tout filmé et débarque au bar, mais Bernard cache la vidéo.",
+    "fin": "Au bar-tabac, Bernard serre le téléphone de Josiane contre lui, Gérard le soupçonne, et Vanessa entre au même moment en souriant."
+  },
+  {
+    "numero": 2,
+    "titre": "La vidéo effacée",
+    "format": "confrontation en huis clos",
+    "accroche_type": "insulte choc",
+    "cliff_type": "téléphone qui sonne",
+    "centre": "vanessa",
+    "lieu_principal": "voiture_gerard",
+    "lieux": [
+      "bar_tabac",
+      "cuisine_huguette",
+      "jardin_josiane",
+      "salon_pavillon",
+      "voiture_gerard"
+    ],
+    "fils_avances": [
+      "liaison",
+      "video",
+      "divorce"
+    ],
+    "revele": [],
+    "temps_parole": {
+      "vanessa": 3,
+      "bernard": 1,
+      "josiane": 2,
+      "gerard": 4,
+      "huguette": 1
+    },
+    "repliques": [
+      "Espèce de gros menteur, rends ce téléphone tout de suite !",
+      "Gérard, je te jure, c'est pas ce que tu crois !",
+      "Elle l'a effacée ! Elle a effacé ma vidéo, cette sale vipère !",
+      "Tu montes. On rentre. Et tu vas tout m'expliquer.",
+      "Bernard me drague depuis des mois… j'osais pas te le dire.",
+      "Bernard ? Mon Bernard ? Oh, c'est pas possible ça !",
+      "Ce soir, elle lui fait signer les papiers. Après, la maison est à nous.",
+      "Et pourquoi la Josiane dit que t'étais avec Kevin ?",
+      "Kevin ? Il m'aide pour ta surprise d'anniversaire, idiot.",
+      "Heureusement que j'ai toujours une copie dans le cloud, ma belle…",
+      "Une vidéo de Josiane… « Regarde avant qu'elle t'arnaque. »"
+    ],
+    "resume": "Vanessa efface la vidéo de Josiane et retourne la situation dans la voiture : c'est Bernard qui la draguerait. Gérard la croit presque, mais Josiane avait une copie.",
+    "fin": "Dans le salon, le téléphone de Gérard vibre : Josiane lui envoie la vidéo avec un message d'avertissement. Il ne l'a pas encore ouverte."
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "_lisez_moi": "ADN = description copiée MOT POUR MOT dans chaque prompt image où le personnage apparaît. voix = copiée mot pour mot dans chaque prompt Grok.",
+  "style": "Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : villa clinquante, petit stade de district, parking de nuit, remplis de figurants animaux.",
+  "personnages": [
+    {
+      "id": "hugo",
+      "nom": "Hugo",
+      "animal": "guépard",
+      "adn": "Hugo, guépard élancé de 24 ans au pelage doré tacheté de noir, deux larmes noires marquées sous les yeux, fines tresses courtes sur le crâne, petite boucle d'oreille argentée à l'oreille gauche",
+      "tenues": {
+        "base": "vieux survêtement bleu délavé brodé « AS Pré-Fleuri », baskets usées",
+        "match": "maillot vert délavé de l'AS Pré-Fleuri numéro 10, short noir, chaussettes basses"
+      },
+      "voix": "voix d'homme de 24 ans, calme et posée, léger accent de banlieue parisienne",
+      "caractere": "star discrète, fier mais patient, encaisse les humiliations sans broncher",
+      "objectif": "savoir si Chloé l'aime pour lui et pas pour son argent",
+      "secret": "c'est Y10, l'attaquant le plus cher du championnat, 80 millions, en vacances incognito",
+      "tics": [
+        "se passe la langue sur les crocs quand il se retient de répondre",
+        "fait rouler une balle de tennis sous son pied",
+        "sourire en coin quand on le sous-estime"
+      ],
+      "replique_fetiche": "T'inquiète, je joue juste le dimanche.",
+      "ref": "refs/hugo.png"
+    },
+    {
+      "id": "chloe",
+      "nom": "Chloé",
+      "animal": "gazelle",
+      "adn": "Chloé, jeune gazelle de 23 ans au pelage caramel clair, grands yeux noisette en amande, longues cornes fines et recourbées, petit collier doré avec une lettre C",
+      "tenues": {
+        "base": "pull crème oversize et jean droit",
+        "nuit": "doudoune blanche courte sur le pull crème"
+      },
+      "voix": "voix douce de jeune femme de 23 ans, posée, avec une pointe de malice",
+      "caractere": "douce en apparence, très maligne, toujours un coup d'avance",
+      "objectif": "garder Hugo et faire taire sa mère",
+      "secret": "elle sait depuis le premier jour que Hugo est Y10",
+      "tics": [
+        "enroule son collier autour de son doigt",
+        "penche la tête quand elle ment",
+        "regard bref vers la caméra"
+      ],
+      "replique_fetiche": "Moi, je m'en fiche de l'argent.",
+      "ref": "refs/chloe.png"
+    },
+    {
+      "id": "sandrine",
+      "nom": "Sandrine",
+      "animal": "paonne",
+      "adn": "Sandrine, paonne de 52 ans aux plumes bleu-vert éclatantes, queue en éventail derrière elle, lunettes de soleil dorées sur la tête, rouge à lèvres prune",
+      "tenues": {
+        "base": "tailleur blanc cassé, gros bijoux dorés, sac de luxe doré sans logo",
+        "tribune": "long manteau beige, foulard en soie, grosses lunettes de soleil dorées sur le bec"
+      },
+      "voix": "voix de femme de 52 ans, aiguë et hautaine, articule chaque mot",
+      "caractere": "mère snob, juge tout le monde à son compte en banque, retourne sa veste en une seconde",
+      "objectif": "marier sa fille à un homme riche",
+      "secret": "la villa est hypothéquée, elle est presque ruinée",
+      "tics": [
+        "déploie sa queue en éventail quand elle se sent supérieure",
+        "tapote ses bijoux",
+        "baisse ses lunettes pour regarder de haut"
+      ],
+      "replique_fetiche": "Chez nous, on ne mélange pas les torchons et les serviettes.",
+      "ref": "refs/sandrine.png"
+    },
+    {
+      "id": "enzo",
+      "nom": "Enzo",
+      "animal": "coq",
+      "adn": "Enzo, jeune coq de 19 ans au plumage roux flamboyant, crête rouge gominée vers l'arrière, fine moustache naissante, chaîne argentée autour du cou",
+      "tenues": {
+        "base": "survêtement noir brillant à bandes blanches, sans logo"
+      },
+      "voix": "voix d'ado de 19 ans, rapide et moqueuse, monte dans les aigus quand il s'emballe",
+      "caractere": "petit frère chambreur, fan absolu de Y10, filme tout pour ses stories",
+      "objectif": "humilier le copain de sa sœur en vidéo",
+      "secret": "a le visage de Y10 en fond d'écran sans le reconnaître",
+      "tics": [
+        "filme tout avec son téléphone à bout d'aile",
+        "gonfle le torse quand il chambre",
+        "sa crête se dresse quand il est choqué"
+      ],
+      "replique_fetiche": "Wesh, c'est pas possible ça !",
+      "ref": "refs/enzo.png"
+    }
+  ]
+}

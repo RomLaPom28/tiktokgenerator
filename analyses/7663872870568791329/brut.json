@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "id": "7663872870568791329",
+    "url": "https://www.tiktok.com/@7vizory7/video/7663872870568791329",
+    "compte": "7vizory7",
+    "description": "Elle a créé un antagoniste ! #fruitstory #histoiretriste #ia #fr ",
+    "vues": 1700000,
+    "likes": 127000,
+    "commentaires": 761,
+    "partages": 1680,
+    "date": "20260718",
+    "duree": 72.5,
+    "musique": "son original",
+    "taux_likes": 7.47,
+    "taux_commentaires": 0.045
+  },
+  "langue": "fr",
+  "texte_complet": "Waouh ! C'est vraiment un gros concombre ! Gros ? Non, il est plutôt petit. C'est vraiment un gros concombre ! Mais pourquoi j'ai dit un truc pareil ? J'arrive pas à me contrôler quand je lui parle, elle est tellement belle ! Les gars me demandent tout le temps comment j'ai autant de femmes. Honnêtement, le plus important, c'est d'être soi-même. Compris ! Euh... Je te trouve vraiment jolie. Ça te dirait qu'on sort ensemble demain ? Comment te dire ? Je te vois plus comme un frère, désolé. Ah ok, t'inquiète, je rigolais. Waouh ! T'es vraiment trop beau ! Ça te dirait qu'on aille en dettes, toi et moi ? Comment refuser à une aussi belle femme ? Allez, monte. Je crois que je trouverai jamais l'amour. Je suis moche et pas intéressant. Est-ce que quelqu'un m'aimera un jour ? J'y crois pas. Tu m'as vraiment trompé. Je te quitte. Je m'en fous, je suis riche. J'ai tout quitté pour lui. Beau, riche. Et au final, il m'a trompé. Il est comme les autres, mais c'est ta faute aussi. Tu vas toujours vers les mecs comme ça. Il te faut un mec gentil. Attends, c'est toi le petit caissier qui voulait me copier ? Regarde-toi. Reste à ta caisse, ça vaut mieux pour toi. Non. Navetto, mon ami le caissier ? Où est-il ? C'est déjà trop tard ? Être moi-même n'a jamais suffi. Je vais changer. Et vous allez tous me voir autrement. Tout le monde sera à mes pieds.",
+  "accroche_3s": "Waouh ! C 'est vraiment un gros concombre ! Gros ? Non,",
+  "fin_5s": "Tout le monde sera à mes pieds.",
+  "mots_par_seconde": 3.89,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 12,
+  "duree_moyenne_plan": 6.04,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 2.4,
+      "texte": "Waouh ! C'est vraiment un gros concombre !"
+    },
+    {
+      "debut": 2.4,
+      "fin": 4.24,
+      "texte": "Gros ? Non, il est plutôt petit."
+    },
+    {
+      "debut": 4.66,
+      "fin": 6.28,
+      "texte": "C'est vraiment un gros concombre !"
+    },
+    {
+      "debut": 6.28,
+      "fin": 7.76,
+      "texte": "Mais pourquoi j'ai dit un truc pareil ?"
+    },
+    {
+      "debut": 7.76,
+      "fin": 10.34,
+      "texte": "J'arrive pas à me contrôler quand je lui parle, elle est tellement belle !"
+    },
+    {
+      "debut": 10.34,
+      "fin": 12.8,
+      "texte": "Les gars me demandent tout le temps comment j'ai autant de femmes."
+    },
+    {
+      "debut": 13.34,
+      "fin": 15.8,
+      "texte": "Honnêtement, le plus important, c'est d'être soi-même."
+    },
+    {
+      "debut": 16.42,
+      "fin": 17.1,
+      "texte": "Compris !"
+    },
+    {
+      "debut": 17.58,
+      "fin": 19.14,
+      "texte": "Euh... Je te trouve vraiment jolie."
+    },
+    {
+      "debut": 19.4,
+      "fin": 20.88,
+      "texte": "Ça te dirait qu'on sort ensemble demain ?"
+    },
+    {
+      "debut": 20.88,
+      "fin": 23.16,
+      "texte": "Comment te dire ? Je te vois plus comme un frère, désolé."
+    },
+    {
+      "debut": 23.32,
+      "fin": 25.2,
+      "texte": "Ah ok, t'inquiète, je rigolais."
+    },
+    {
+      "debut": 25.58,
+      "fin": 27.32,
+      "texte": "Waouh ! T'es vraiment trop beau !"
+    },
+    {
+      "debut": 27.32,
+      "fin": 29.08,
+      "texte": "Ça te dirait qu'on aille en dettes, toi et moi ?"
+    },
+    {
+      "debut": 29.08,
+      "fin": 31.08,
+      "texte": "Comment refuser à une aussi belle femme ?"
+    },
+    {
+      "debut": 31.08,
+      "fin": 31.72,
+      "texte": "Allez, monte."
+    },
+    {
+      "debut": 34.21,
+      "fin": 35.73,
+      "texte": "Je crois que je trouverai jamais l'amour."
+    },
+    {
+      "debut": 36.27,
+      "fin": 37.73,
+      "texte": "Je suis moche et pas intéressant."
+    },
+    {
+      "debut": 37.93,
+      "fin": 39.33,
+      "texte": "Est-ce que quelqu'un m'aimera un jour ?"
+    },
+    {
+      "debut": 39.33,
+      "fin": 41.33,
+      "texte": "J'y crois pas. Tu m'as vraiment trompé."
+    },
+    {
+      "debut": 41.61,
+      "fin": 42.19,
+      "texte": "Je te quitte."
+    },
+    {
+      "debut": 42.31,
+      "fin": 43.63,
+      "texte": "Je m'en fous, je suis riche."
+    },
+    {
+      "debut": 44.83,
+      "fin": 45.95,
+      "texte": "J'ai tout quitté pour lui."
+    },
+    {
+      "debut": 46.89,
+      "fin": 48.81,
+      "texte": "Beau, riche. Et au final, il m'a trompé."
+    },
+    {
+      "debut": 48.97,
+      "fin": 50.85,
+      "texte": "Il est comme les autres, mais c'est ta faute aussi."
+    },
+    {
+      "debut": 51.07,
+      "fin": 52.29,
+      "texte": "Tu vas toujours vers les mecs comme ça."
+    },
+    {
+      "debut": 52.43,
+      "fin": 53.43,
+      "texte": "Il te faut un mec gentil."
+    },
+    {
+      "debut": 53.83,
+      "fin": 56.27,
+      "texte": "Attends, c'est toi le petit caissier qui voulait me copier ?"
+    },
+    {
+      "debut": 56.27,
+      "fin": 59.17,
+      "texte": "Regarde-toi. Reste à ta caisse, ça vaut mieux pour toi."
+    },
+    {
+      "debut": 59.17,
+      "fin": 59.57,
+      "texte": "Non."
+    },
+    {
+      "debut": 60.31,
+      "fin": 62.01,
+      "texte": "Navetto, mon ami le caissier ?"
+    },
+    {
+      "debut": 62.01,
+      "fin": 63.41,
+      "texte": "Où est-il ? C'est déjà trop tard ?"
+    },
+    {
+      "debut": 63.41,
+      "fin": 65.07,
+      "texte": "Être moi-même n'a jamais suffi."
+    },
+    {
+      "debut": 65.33,
+      "fin": 65.95,
+      "texte": "Je vais changer."
+    },
+    {
+      "debut": 66.37,
+      "fin": 67.81,
+      "texte": "Et vous allez tous me voir autrement."
+    },
+    {
+      "debut": 68.23,
+      "fin": 69.35,
+      "texte": "Tout le monde sera à mes pieds."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 2.17,
+      "duree": 2.17
+    },
+    {
+      "n": 2,
+      "debut": 2.17,
+      "fin": 4.5,
+      "duree": 2.33
+    },
+    {
+      "n": 3,
+      "debut": 4.5,
+      "fin": 10.17,
+      "duree": 5.67
+    },
+    {
+      "n": 4,
+      "debut": 10.17,
+      "fin": 15.83,
+      "duree": 5.67
+    },
+    {
+      "n": 5,
+      "debut": 15.83,
+      "fin": 23.17,
+      "duree": 7.33
+    },
+    {
+      "n": 6,
+      "debut": 23.17,
+      "fin": 29.0,
+      "duree": 5.83
+    },
+    {
+      "n": 7,
+      "debut": 29.0,
+      "fin": 39.29,
+      "duree": 10.29
+    },
+    {
+      "n": 8,
+      "debut": 39.29,
+      "fin": 49.88,
+      "duree": 10.58
+    },
+    {
+      "n": 9,
+      "debut": 49.88,
+      "fin": 53.46,
+      "duree": 3.58
+    },
+    {
+      "n": 10,
+      "debut": 53.46,
+      "fin": 59.17,
+      "duree": 5.71
+    },
+    {
+      "n": 11,
+      "debut": 59.17,
+      "fin": 63.33,
+      "duree": 4.17
+    },
+    {
+      "n": 12,
+      "debut": 63.33,
+      "fin": 72.47,
+      "duree": 9.13
+    }
+  ]
+}

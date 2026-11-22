@@ -1,0 +1,197 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.08,
+      "fin": 2.54,
+      "texte": "Il a tué papa, je vais le tuer aussi."
+    },
+    {
+      "debut": 2.78,
+      "fin": 3.92,
+      "texte": "Non, mon fils n'y va pas."
+    },
+    {
+      "debut": 12.74,
+      "fin": 14.44,
+      "texte": "Oh non, mon bébé."
+    },
+    {
+      "debut": 25.89,
+      "fin": 27.39,
+      "texte": "Marc, Romy est mort."
+    },
+    {
+      "debut": 30.3,
+      "fin": 32.42,
+      "texte": "Nous devons nous venger pour Steven et son fils."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.08,
+      "fin": 0.62,
+      "mot": "Il"
+    },
+    {
+      "debut": 0.62,
+      "fin": 0.84,
+      "mot": "a"
+    },
+    {
+      "debut": 0.84,
+      "fin": 1.04,
+      "mot": "tué"
+    },
+    {
+      "debut": 1.04,
+      "fin": 1.3,
+      "mot": "papa,"
+    },
+    {
+      "debut": 1.62,
+      "fin": 1.7,
+      "mot": "je"
+    },
+    {
+      "debut": 1.7,
+      "fin": 1.84,
+      "mot": "vais"
+    },
+    {
+      "debut": 1.84,
+      "fin": 2.04,
+      "mot": "le"
+    },
+    {
+      "debut": 2.04,
+      "fin": 2.26,
+      "mot": "tuer"
+    },
+    {
+      "debut": 2.26,
+      "fin": 2.54,
+      "mot": "aussi."
+    },
+    {
+      "debut": 2.78,
+      "fin": 2.86,
+      "mot": "Non,"
+    },
+    {
+      "debut": 3.02,
+      "fin": 3.06,
+      "mot": "mon"
+    },
+    {
+      "debut": 3.06,
+      "fin": 3.28,
+      "mot": "fils"
+    },
+    {
+      "debut": 3.28,
+      "fin": 3.38,
+      "mot": "n"
+    },
+    {
+      "debut": 3.38,
+      "fin": 3.48,
+      "mot": "'y"
+    },
+    {
+      "debut": 3.48,
+      "fin": 3.64,
+      "mot": "va"
+    },
+    {
+      "debut": 3.64,
+      "fin": 3.92,
+      "mot": "pas."
+    },
+    {
+      "debut": 12.74,
+      "fin": 12.94,
+      "mot": "Oh"
+    },
+    {
+      "debut": 12.94,
+      "fin": 13.2,
+      "mot": "non,"
+    },
+    {
+      "debut": 13.38,
+      "fin": 13.44,
+      "mot": "mon"
+    },
+    {
+      "debut": 13.44,
+      "fin": 14.44,
+      "mot": "bébé."
+    },
+    {
+      "debut": 25.89,
+      "fin": 26.05,
+      "mot": "Marc,"
+    },
+    {
+      "debut": 26.51,
+      "fin": 26.79,
+      "mot": "Romy"
+    },
+    {
+      "debut": 26.79,
+      "fin": 27.05,
+      "mot": "est"
+    },
+    {
+      "debut": 27.05,
+      "fin": 27.39,
+      "mot": "mort."
+    },
+    {
+      "debut": 30.3,
+      "fin": 30.44,
+      "mot": "Nous"
+    },
+    {
+      "debut": 30.44,
+      "fin": 30.76,
+      "mot": "devons"
+    },
+    {
+      "debut": 30.76,
+      "fin": 30.9,
+      "mot": "nous"
+    },
+    {
+      "debut": 30.9,
+      "fin": 31.2,
+      "mot": "venger"
+    },
+    {
+      "debut": 31.2,
+      "fin": 31.46,
+      "mot": "pour"
+    },
+    {
+      "debut": 31.46,
+      "fin": 31.76,
+      "mot": "Steven"
+    },
+    {
+      "debut": 31.76,
+      "fin": 32.02,
+      "mot": "et"
+    },
+    {
+      "debut": 32.02,
+      "fin": 32.16,
+      "mot": "son"
+    },
+    {
+      "debut": 32.16,
+      "fin": 32.42,
+      "mot": "fils."
+    }
+  ]
+}

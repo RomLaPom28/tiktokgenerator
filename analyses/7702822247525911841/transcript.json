@@ -1,0 +1,1167 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 2.64,
+      "texte": "« Monsieur Damien, pourquoi vous vous peignez en blanc ? »"
+    },
+    {
+      "debut": 2.64,
+      "fin": 3.36,
+      "texte": "J'en ai marre."
+    },
+    {
+      "debut": 3.48,
+      "fin": 5.48,
+      "texte": "Les femmes viennent me voir seulement pour mon argent."
+    },
+    {
+      "debut": 5.76,
+      "fin": 7.42,
+      "texte": "Comme ça, personne ne me reconnaîtra."
+    },
+    {
+      "debut": 7.7,
+      "fin": 9.52,
+      "texte": "Je veux une femme qui m'aime pour ce que je suis,"
+    },
+    {
+      "debut": 9.74,
+      "fin": 10.46,
+      "texte": "pas pour mes millions."
+    },
+    {
+      "debut": 10.9,
+      "fin": 13.64,
+      "texte": "Et comment vous allez savoir si elle est sincère ?"
+    },
+    {
+      "debut": 13.64,
+      "fin": 14.16,
+      "texte": "Facile."
+    },
+    {
+      "debut": 14.36,
+      "fin": 15.54,
+      "texte": "Je l'invite dans un petit resto,"
+    },
+    {
+      "debut": 15.84,
+      "fin": 18.34,
+      "texte": "et au moment de payer, je dis que j'ai que la moitié."
+    },
+    {
+      "debut": 18.56,
+      "fin": 20.52,
+      "texte": "Et si elle se fâche,"
+    },
+    {
+      "debut": 20.7,
+      "fin": 23.72,
+      "texte": "alors je saurai comment elle traite un homme sans argent."
+    },
+    {
+      "debut": 23.82,
+      "fin": 24.9,
+      "texte": "J'ai trouvé quatre candidates."
+    },
+    {
+      "debut": 25.06,
+      "fin": 26.2,
+      "texte": "La première, c'est Isabelle."
+    },
+    {
+      "debut": 26.32,
+      "fin": 27.16,
+      "texte": "Elle est libre ce soir."
+    },
+    {
+      "debut": 27.58,
+      "fin": 27.98,
+      "texte": "Parfait."
+    },
+    {
+      "debut": 28.1,
+      "fin": 29.26,
+      "texte": "Réserve un petit resto simple."
+    },
+    {
+      "debut": 29.26,
+      "fin": 30.38,
+      "texte": "Surtout pas un des miens."
+    },
+    {
+      "debut": 30.44,
+      "fin": 31.48,
+      "texte": "C'est ça, le resto ?"
+    },
+    {
+      "debut": 31.48,
+      "fin": 33.22,
+      "texte": "Je pensais que tu m'emmènerais dans un endroit chic."
+    },
+    {
+      "debut": 33.42,
+      "fin": 34.56,
+      "texte": "Tu fais quoi dans la vie ?"
+    },
+    {
+      "debut": 34.56,
+      "fin": 35.72,
+      "texte": "Je travaille dans une entreprise."
+    },
+    {
+      "debut": 35.96,
+      "fin": 37.58,
+      "texte": "Je gagne pas beaucoup, mais je m'en sors."
+    },
+    {
+      "debut": 37.92,
+      "fin": 39.18,
+      "texte": "Isabelle, j'ai que la moitié."
+    },
+    {
+      "debut": 39.38,
+      "fin": 40.38,
+      "texte": "Tu peux payer le reste ?"
+    },
+    {
+      "debut": 40.38,
+      "fin": 42.68,
+      "texte": "Quoi ? C'est toi qui m'a invitée !"
+    },
+    {
+      "debut": 42.68,
+      "fin": 45.94,
+      "texte": "Je sors pas avec un homme qui peut même pas payer un dîner."
+    },
+    {
+      "debut": 46.34,
+      "fin": 48.62,
+      "texte": "Si seulement elle savait que je peux acheter tout ce restaurant."
+    },
+    {
+      "debut": 48.98,
+      "fin": 49.5,
+      "texte": "Au suivant."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.0,
+      "fin": 0.0,
+      "mot": "«"
+    },
+    {
+      "debut": 0.0,
+      "fin": 0.32,
+      "mot": "Monsieur"
+    },
+    {
+      "debut": 0.32,
+      "fin": 0.68,
+      "mot": "Damien,"
+    },
+    {
+      "debut": 0.88,
+      "fin": 1.04,
+      "mot": "pourquoi"
+    },
+    {
+      "debut": 1.04,
+      "fin": 1.26,
+      "mot": "vous"
+    },
+    {
+      "debut": 1.26,
+      "fin": 1.46,
+      "mot": "vous"
+    },
+    {
+      "debut": 1.46,
+      "fin": 1.74,
+      "mot": "peignez"
+    },
+    {
+      "debut": 1.74,
+      "fin": 2.04,
+      "mot": "en"
+    },
+    {
+      "debut": 2.04,
+      "fin": 2.2,
+      "mot": "blanc"
+    },
+    {
+      "debut": 2.2,
+      "fin": 2.56,
+      "mot": "?"
+    },
+    {
+      "debut": 2.56,
+      "fin": 2.64,
+      "mot": "»"
+    },
+    {
+      "debut": 2.64,
+      "fin": 2.72,
+      "mot": "J"
+    },
+    {
+      "debut": 2.72,
+      "fin": 2.84,
+      "mot": "'en"
+    },
+    {
+      "debut": 2.84,
+      "fin": 3.0,
+      "mot": "ai"
+    },
+    {
+      "debut": 3.0,
+      "fin": 3.36,
+      "mot": "marre."
+    },
+    {
+      "debut": 3.48,
+      "fin": 3.64,
+      "mot": "Les"
+    },
+    {
+      "debut": 3.64,
+      "fin": 3.84,
+      "mot": "femmes"
+    },
+    {
+      "debut": 3.84,
+      "fin": 4.02,
+      "mot": "viennent"
+    },
+    {
+      "debut": 4.02,
+      "fin": 4.26,
+      "mot": "me"
+    },
+    {
+      "debut": 4.26,
+      "fin": 4.44,
+      "mot": "voir"
+    },
+    {
+      "debut": 4.44,
+      "fin": 4.78,
+      "mot": "seulement"
+    },
+    {
+      "debut": 4.78,
+      "fin": 5.02,
+      "mot": "pour"
+    },
+    {
+      "debut": 5.02,
+      "fin": 5.18,
+      "mot": "mon"
+    },
+    {
+      "debut": 5.18,
+      "fin": 5.48,
+      "mot": "argent."
+    },
+    {
+      "debut": 5.76,
+      "fin": 5.94,
+      "mot": "Comme"
+    },
+    {
+      "debut": 5.94,
+      "fin": 6.38,
+      "mot": "ça,"
+    },
+    {
+      "debut": 6.66,
+      "fin": 6.82,
+      "mot": "personne"
+    },
+    {
+      "debut": 6.82,
+      "fin": 6.94,
+      "mot": "ne"
+    },
+    {
+      "debut": 6.94,
+      "fin": 7.08,
+      "mot": "me"
+    },
+    {
+      "debut": 7.08,
+      "fin": 7.42,
+      "mot": "reconnaîtra."
+    },
+    {
+      "debut": 7.7,
+      "fin": 7.8,
+      "mot": "Je"
+    },
+    {
+      "debut": 7.8,
+      "fin": 7.9,
+      "mot": "veux"
+    },
+    {
+      "debut": 7.9,
+      "fin": 8.04,
+      "mot": "une"
+    },
+    {
+      "debut": 8.04,
+      "fin": 8.26,
+      "mot": "femme"
+    },
+    {
+      "debut": 8.26,
+      "fin": 8.48,
+      "mot": "qui"
+    },
+    {
+      "debut": 8.48,
+      "fin": 8.58,
+      "mot": "m"
+    },
+    {
+      "debut": 8.58,
+      "fin": 8.72,
+      "mot": "'aime"
+    },
+    {
+      "debut": 8.72,
+      "fin": 8.96,
+      "mot": "pour"
+    },
+    {
+      "debut": 8.96,
+      "fin": 9.06,
+      "mot": "ce"
+    },
+    {
+      "debut": 9.06,
+      "fin": 9.14,
+      "mot": "que"
+    },
+    {
+      "debut": 9.14,
+      "fin": 9.34,
+      "mot": "je"
+    },
+    {
+      "debut": 9.34,
+      "fin": 9.52,
+      "mot": "suis,"
+    },
+    {
+      "debut": 9.74,
+      "fin": 9.9,
+      "mot": "pas"
+    },
+    {
+      "debut": 9.9,
+      "fin": 10.08,
+      "mot": "pour"
+    },
+    {
+      "debut": 10.08,
+      "fin": 10.18,
+      "mot": "mes"
+    },
+    {
+      "debut": 10.18,
+      "fin": 10.46,
+      "mot": "millions."
+    },
+    {
+      "debut": 10.9,
+      "fin": 11.08,
+      "mot": "Et"
+    },
+    {
+      "debut": 11.08,
+      "fin": 11.28,
+      "mot": "comment"
+    },
+    {
+      "debut": 11.28,
+      "fin": 11.46,
+      "mot": "vous"
+    },
+    {
+      "debut": 11.46,
+      "fin": 11.64,
+      "mot": "allez"
+    },
+    {
+      "debut": 11.64,
+      "fin": 12.18,
+      "mot": "savoir"
+    },
+    {
+      "debut": 12.18,
+      "fin": 12.64,
+      "mot": "si"
+    },
+    {
+      "debut": 12.64,
+      "fin": 12.78,
+      "mot": "elle"
+    },
+    {
+      "debut": 12.78,
+      "fin": 12.96,
+      "mot": "est"
+    },
+    {
+      "debut": 12.96,
+      "fin": 13.52,
+      "mot": "sincère"
+    },
+    {
+      "debut": 13.52,
+      "fin": 13.64,
+      "mot": "?"
+    },
+    {
+      "debut": 13.64,
+      "fin": 14.16,
+      "mot": "Facile."
+    },
+    {
+      "debut": 14.36,
+      "fin": 14.4,
+      "mot": "Je"
+    },
+    {
+      "debut": 14.4,
+      "fin": 14.52,
+      "mot": "l"
+    },
+    {
+      "debut": 14.52,
+      "fin": 14.66,
+      "mot": "'invite"
+    },
+    {
+      "debut": 14.66,
+      "fin": 14.84,
+      "mot": "dans"
+    },
+    {
+      "debut": 14.84,
+      "fin": 14.98,
+      "mot": "un"
+    },
+    {
+      "debut": 14.98,
+      "fin": 15.18,
+      "mot": "petit"
+    },
+    {
+      "debut": 15.18,
+      "fin": 15.54,
+      "mot": "resto,"
+    },
+    {
+      "debut": 15.84,
+      "fin": 15.92,
+      "mot": "et"
+    },
+    {
+      "debut": 15.92,
+      "fin": 16.06,
+      "mot": "au"
+    },
+    {
+      "debut": 16.06,
+      "fin": 16.2,
+      "mot": "moment"
+    },
+    {
+      "debut": 16.2,
+      "fin": 16.34,
+      "mot": "de"
+    },
+    {
+      "debut": 16.34,
+      "fin": 16.68,
+      "mot": "payer,"
+    },
+    {
+      "debut": 17.0,
+      "fin": 17.08,
+      "mot": "je"
+    },
+    {
+      "debut": 17.08,
+      "fin": 17.22,
+      "mot": "dis"
+    },
+    {
+      "debut": 17.22,
+      "fin": 17.38,
+      "mot": "que"
+    },
+    {
+      "debut": 17.38,
+      "fin": 17.48,
+      "mot": "j"
+    },
+    {
+      "debut": 17.48,
+      "fin": 17.56,
+      "mot": "'ai"
+    },
+    {
+      "debut": 17.56,
+      "fin": 17.74,
+      "mot": "que"
+    },
+    {
+      "debut": 17.74,
+      "fin": 17.94,
+      "mot": "la"
+    },
+    {
+      "debut": 17.94,
+      "fin": 18.34,
+      "mot": "moitié."
+    },
+    {
+      "debut": 18.56,
+      "fin": 18.82,
+      "mot": "Et"
+    },
+    {
+      "debut": 18.82,
+      "fin": 19.24,
+      "mot": "si"
+    },
+    {
+      "debut": 19.24,
+      "fin": 19.54,
+      "mot": "elle"
+    },
+    {
+      "debut": 19.54,
+      "fin": 19.84,
+      "mot": "se"
+    },
+    {
+      "debut": 19.84,
+      "fin": 20.52,
+      "mot": "fâche,"
+    },
+    {
+      "debut": 20.7,
+      "fin": 20.92,
+      "mot": "alors"
+    },
+    {
+      "debut": 20.92,
+      "fin": 21.18,
+      "mot": "je"
+    },
+    {
+      "debut": 21.18,
+      "fin": 21.5,
+      "mot": "saurai"
+    },
+    {
+      "debut": 21.5,
+      "fin": 21.84,
+      "mot": "comment"
+    },
+    {
+      "debut": 21.84,
+      "fin": 22.12,
+      "mot": "elle"
+    },
+    {
+      "debut": 22.12,
+      "fin": 22.26,
+      "mot": "traite"
+    },
+    {
+      "debut": 22.26,
+      "fin": 22.48,
+      "mot": "un"
+    },
+    {
+      "debut": 22.48,
+      "fin": 22.9,
+      "mot": "homme"
+    },
+    {
+      "debut": 22.9,
+      "fin": 23.44,
+      "mot": "sans"
+    },
+    {
+      "debut": 23.44,
+      "fin": 23.72,
+      "mot": "argent."
+    },
+    {
+      "debut": 23.82,
+      "fin": 23.9,
+      "mot": "J"
+    },
+    {
+      "debut": 23.9,
+      "fin": 24.0,
+      "mot": "'ai"
+    },
+    {
+      "debut": 24.0,
+      "fin": 24.18,
+      "mot": "trouvé"
+    },
+    {
+      "debut": 24.18,
+      "fin": 24.46,
+      "mot": "quatre"
+    },
+    {
+      "debut": 24.46,
+      "fin": 24.9,
+      "mot": "candidates."
+    },
+    {
+      "debut": 25.06,
+      "fin": 25.28,
+      "mot": "La"
+    },
+    {
+      "debut": 25.28,
+      "fin": 25.46,
+      "mot": "première,"
+    },
+    {
+      "debut": 25.6,
+      "fin": 25.72,
+      "mot": "c"
+    },
+    {
+      "debut": 25.72,
+      "fin": 25.72,
+      "mot": "'est"
+    },
+    {
+      "debut": 25.72,
+      "fin": 26.2,
+      "mot": "Isabelle."
+    },
+    {
+      "debut": 26.32,
+      "fin": 26.42,
+      "mot": "Elle"
+    },
+    {
+      "debut": 26.42,
+      "fin": 26.54,
+      "mot": "est"
+    },
+    {
+      "debut": 26.54,
+      "fin": 26.76,
+      "mot": "libre"
+    },
+    {
+      "debut": 26.76,
+      "fin": 27.0,
+      "mot": "ce"
+    },
+    {
+      "debut": 27.0,
+      "fin": 27.16,
+      "mot": "soir."
+    },
+    {
+      "debut": 27.58,
+      "fin": 27.98,
+      "mot": "Parfait."
+    },
+    {
+      "debut": 28.1,
+      "fin": 28.38,
+      "mot": "Réserve"
+    },
+    {
+      "debut": 28.38,
+      "fin": 28.48,
+      "mot": "un"
+    },
+    {
+      "debut": 28.48,
+      "fin": 28.66,
+      "mot": "petit"
+    },
+    {
+      "debut": 28.66,
+      "fin": 28.9,
+      "mot": "resto"
+    },
+    {
+      "debut": 28.9,
+      "fin": 29.26,
+      "mot": "simple."
+    },
+    {
+      "debut": 29.26,
+      "fin": 29.78,
+      "mot": "Surtout"
+    },
+    {
+      "debut": 29.78,
+      "fin": 29.98,
+      "mot": "pas"
+    },
+    {
+      "debut": 29.98,
+      "fin": 30.06,
+      "mot": "un"
+    },
+    {
+      "debut": 30.06,
+      "fin": 30.18,
+      "mot": "des"
+    },
+    {
+      "debut": 30.18,
+      "fin": 30.38,
+      "mot": "miens."
+    },
+    {
+      "debut": 30.44,
+      "fin": 30.46,
+      "mot": "C"
+    },
+    {
+      "debut": 30.46,
+      "fin": 30.6,
+      "mot": "'est"
+    },
+    {
+      "debut": 30.6,
+      "fin": 30.78,
+      "mot": "ça,"
+    },
+    {
+      "debut": 30.86,
+      "fin": 30.9,
+      "mot": "le"
+    },
+    {
+      "debut": 30.9,
+      "fin": 31.22,
+      "mot": "resto"
+    },
+    {
+      "debut": 31.22,
+      "fin": 31.48,
+      "mot": "?"
+    },
+    {
+      "debut": 31.48,
+      "fin": 31.62,
+      "mot": "Je"
+    },
+    {
+      "debut": 31.62,
+      "fin": 31.82,
+      "mot": "pensais"
+    },
+    {
+      "debut": 31.82,
+      "fin": 31.92,
+      "mot": "que"
+    },
+    {
+      "debut": 31.92,
+      "fin": 32.02,
+      "mot": "tu"
+    },
+    {
+      "debut": 32.02,
+      "fin": 32.08,
+      "mot": "m"
+    },
+    {
+      "debut": 32.08,
+      "fin": 32.38,
+      "mot": "'emmènerais"
+    },
+    {
+      "debut": 32.38,
+      "fin": 32.58,
+      "mot": "dans"
+    },
+    {
+      "debut": 32.58,
+      "fin": 32.72,
+      "mot": "un"
+    },
+    {
+      "debut": 32.72,
+      "fin": 32.94,
+      "mot": "endroit"
+    },
+    {
+      "debut": 32.94,
+      "fin": 33.22,
+      "mot": "chic."
+    },
+    {
+      "debut": 33.42,
+      "fin": 33.5,
+      "mot": "Tu"
+    },
+    {
+      "debut": 33.5,
+      "fin": 33.66,
+      "mot": "fais"
+    },
+    {
+      "debut": 33.66,
+      "fin": 33.82,
+      "mot": "quoi"
+    },
+    {
+      "debut": 33.82,
+      "fin": 33.98,
+      "mot": "dans"
+    },
+    {
+      "debut": 33.98,
+      "fin": 34.14,
+      "mot": "la"
+    },
+    {
+      "debut": 34.14,
+      "fin": 34.22,
+      "mot": "vie"
+    },
+    {
+      "debut": 34.22,
+      "fin": 34.56,
+      "mot": "?"
+    },
+    {
+      "debut": 34.56,
+      "fin": 34.72,
+      "mot": "Je"
+    },
+    {
+      "debut": 34.72,
+      "fin": 34.96,
+      "mot": "travaille"
+    },
+    {
+      "debut": 34.96,
+      "fin": 35.14,
+      "mot": "dans"
+    },
+    {
+      "debut": 35.14,
+      "fin": 35.26,
+      "mot": "une"
+    },
+    {
+      "debut": 35.26,
+      "fin": 35.72,
+      "mot": "entreprise."
+    },
+    {
+      "debut": 35.96,
+      "fin": 36.06,
+      "mot": "Je"
+    },
+    {
+      "debut": 36.06,
+      "fin": 36.24,
+      "mot": "gagne"
+    },
+    {
+      "debut": 36.24,
+      "fin": 36.42,
+      "mot": "pas"
+    },
+    {
+      "debut": 36.42,
+      "fin": 36.62,
+      "mot": "beaucoup,"
+    },
+    {
+      "debut": 36.94,
+      "fin": 37.04,
+      "mot": "mais"
+    },
+    {
+      "debut": 37.04,
+      "fin": 37.16,
+      "mot": "je"
+    },
+    {
+      "debut": 37.16,
+      "fin": 37.2,
+      "mot": "m"
+    },
+    {
+      "debut": 37.2,
+      "fin": 37.34,
+      "mot": "'en"
+    },
+    {
+      "debut": 37.34,
+      "fin": 37.58,
+      "mot": "sors."
+    },
+    {
+      "debut": 37.92,
+      "fin": 38.28,
+      "mot": "Isabelle,"
+    },
+    {
+      "debut": 38.56,
+      "fin": 38.62,
+      "mot": "j"
+    },
+    {
+      "debut": 38.62,
+      "fin": 38.68,
+      "mot": "'ai"
+    },
+    {
+      "debut": 38.68,
+      "fin": 38.8,
+      "mot": "que"
+    },
+    {
+      "debut": 38.8,
+      "fin": 38.92,
+      "mot": "la"
+    },
+    {
+      "debut": 38.92,
+      "fin": 39.18,
+      "mot": "moitié."
+    },
+    {
+      "debut": 39.38,
+      "fin": 39.5,
+      "mot": "Tu"
+    },
+    {
+      "debut": 39.5,
+      "fin": 39.6,
+      "mot": "peux"
+    },
+    {
+      "debut": 39.6,
+      "fin": 39.76,
+      "mot": "payer"
+    },
+    {
+      "debut": 39.76,
+      "fin": 39.9,
+      "mot": "le"
+    },
+    {
+      "debut": 39.9,
+      "fin": 40.06,
+      "mot": "reste"
+    },
+    {
+      "debut": 40.06,
+      "fin": 40.38,
+      "mot": "?"
+    },
+    {
+      "debut": 40.38,
+      "fin": 40.88,
+      "mot": "Quoi"
+    },
+    {
+      "debut": 40.88,
+      "fin": 41.0,
+      "mot": "?"
+    },
+    {
+      "debut": 41.0,
+      "fin": 41.14,
+      "mot": "C"
+    },
+    {
+      "debut": 41.14,
+      "fin": 41.26,
+      "mot": "'est"
+    },
+    {
+      "debut": 41.26,
+      "fin": 41.46,
+      "mot": "toi"
+    },
+    {
+      "debut": 41.46,
+      "fin": 41.62,
+      "mot": "qui"
+    },
+    {
+      "debut": 41.62,
+      "fin": 41.72,
+      "mot": "m"
+    },
+    {
+      "debut": 41.72,
+      "fin": 41.9,
+      "mot": "'a"
+    },
+    {
+      "debut": 41.9,
+      "fin": 42.34,
+      "mot": "invitée"
+    },
+    {
+      "debut": 42.34,
+      "fin": 42.68,
+      "mot": "!"
+    },
+    {
+      "debut": 42.68,
+      "fin": 42.86,
+      "mot": "Je"
+    },
+    {
+      "debut": 42.86,
+      "fin": 43.12,
+      "mot": "sors"
+    },
+    {
+      "debut": 43.12,
+      "fin": 43.38,
+      "mot": "pas"
+    },
+    {
+      "debut": 43.38,
+      "fin": 43.58,
+      "mot": "avec"
+    },
+    {
+      "debut": 43.58,
+      "fin": 43.82,
+      "mot": "un"
+    },
+    {
+      "debut": 43.82,
+      "fin": 44.02,
+      "mot": "homme"
+    },
+    {
+      "debut": 44.02,
+      "fin": 44.38,
+      "mot": "qui"
+    },
+    {
+      "debut": 44.38,
+      "fin": 44.6,
+      "mot": "peut"
+    },
+    {
+      "debut": 44.6,
+      "fin": 44.86,
+      "mot": "même"
+    },
+    {
+      "debut": 44.86,
+      "fin": 45.08,
+      "mot": "pas"
+    },
+    {
+      "debut": 45.08,
+      "fin": 45.36,
+      "mot": "payer"
+    },
+    {
+      "debut": 45.36,
+      "fin": 45.62,
+      "mot": "un"
+    },
+    {
+      "debut": 45.62,
+      "fin": 45.94,
+      "mot": "dîner."
+    },
+    {
+      "debut": 46.34,
+      "fin": 46.46,
+      "mot": "Si"
+    },
+    {
+      "debut": 46.46,
+      "fin": 46.68,
+      "mot": "seulement"
+    },
+    {
+      "debut": 46.68,
+      "fin": 46.88,
+      "mot": "elle"
+    },
+    {
+      "debut": 46.88,
+      "fin": 47.22,
+      "mot": "savait"
+    },
+    {
+      "debut": 47.22,
+      "fin": 47.42,
+      "mot": "que"
+    },
+    {
+      "debut": 47.42,
+      "fin": 47.54,
+      "mot": "je"
+    },
+    {
+      "debut": 47.54,
+      "fin": 47.68,
+      "mot": "peux"
+    },
+    {
+      "debut": 47.68,
+      "fin": 48.0,
+      "mot": "acheter"
+    },
+    {
+      "debut": 48.0,
+      "fin": 48.12,
+      "mot": "tout"
+    },
+    {
+      "debut": 48.12,
+      "fin": 48.3,
+      "mot": "ce"
+    },
+    {
+      "debut": 48.3,
+      "fin": 48.62,
+      "mot": "restaurant."
+    },
+    {
+      "debut": 48.98,
+      "fin": 49.12,
+      "mot": "Au"
+    },
+    {
+      "debut": 49.12,
+      "fin": 49.5,
+      "mot": "suivant."
+    }
+  ]
+}

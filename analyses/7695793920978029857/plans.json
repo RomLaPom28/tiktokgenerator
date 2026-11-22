@@ -1,0 +1,12 @@
+{
+  "nombre": 1,
+  "duree_moyenne": 61.79,
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 61.79,
+      "duree": 61.79
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "id": "ep001",
+  "numero": 1,
+  "titre": "Le prodige de 34 ans",
+  "resume": "Viré en 2010 par Bernard qui a pistonné son neveu, Théo revient 15 ans plus tard en se faisant passer pour un jeune de 19 ans. Bernard et son fils Mathis l'humilient ; Théo les ridiculise balle au pied, une recruteuse propose 1 M€. Bernard veut truquer la radio, inutile : Théo a vraiment 34 ans. Humilié devant l'équipe, Théo révèle qui il est ; la recruteuse le signe pour l'équipe première, balance le faux âge de Bernard, et Bernard finit sur le banc. Kicker : la recruteuse est sa femme.",
+  "projet": "prodige-34-ans",
+  "projet_titre": "Le prodige de 34 ans",
+  "type": "unique",
+  "portraits": [
+    {
+      "id": "theo",
+      "nom": "Théo",
+      "ref": "refs/theo.png",
+      "prompt": "Fiche de référence personnage : Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté, survêtement vert et blanc du FC Val-d'Argent, chaussettes remontées jusqu'aux genoux. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (ancien prodige brisé, calme, vanne froide, rancune de 15 ans), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "mathis",
+      "nom": "Mathis",
+      "ref": "refs/mathis.png",
+      "prompt": "Fiche de référence personnage : Mathis, jeune renard roux de 17 ans au pelage orange vif, oreilles immenses, taches de rousseur sur le museau, casquette noire portée à l'envers, chaîne dorée trop grosse, survêtement noir du FC Val-d'Argent tout neuf, crampons dorés. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (fils du coach, pistonné, arrogant, nul balle au pied), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "bernard",
+      "nom": "Bernard",
+      "ref": "refs/bernard.png",
+      "prompt": "Fiche de référence personnage : Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte, vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (coach tyrannique, humilie en public, pistonne son fils), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "isabelle",
+      "nom": "Isabelle",
+      "ref": "refs/isabelle.png",
+      "prompt": "Fiche de référence personnage : Isabelle, chouette de 50 ans aux plumes grises et blanches, énormes lunettes rondes dorées, blouse blanche, stéthoscope bleu autour du cou, blouse blanche de médecin du club. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (médecin du club, imperturbable, humour très sec), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "laura",
+      "nom": "Laura",
+      "ref": "refs/laura.png",
+      "prompt": "Fiche de référence personnage : Laura, chèvre élégante au pelage blanc neigeux, longue frange blonde lissée, grandes lunettes de soleil roses, rouge à lèvres corail, créoles dorées, tailleur vert sapin cintré, badge doré « RECRUTEUSE », dossier sous le bras. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (recruteuse d'un grand club pro, glaciale en affaires), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    }
+  ],
+  "ouverture": "Tu vas générer les images d'une vidéo. Toutes les images : format vertical 9:16, même style, mêmes personnages avec EXACTEMENT les mêmes visages, couleurs et accessoires d'une image à l'autre. Aucun sous-titre ni bulle ; le seul texte autorisé est celui que je décris dans le décor (tableau d'affichage, banderole, maillot), écrit sans faute.\n\nSTYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux.\n\nPERSONNAGES DE CET ÉPISODE (looks fixes) :\n- Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté. Tenues : survêtement vert et blanc du FC Val-d'Argent, chaussettes remontées jusqu'aux genoux / maillot vert et blanc du FC Val-d'Argent numéro 9, short blanc, genouillères noires.\n- Mathis, jeune renard roux de 17 ans au pelage orange vif, oreilles immenses, taches de rousseur sur le museau, casquette noire portée à l'envers, chaîne dorée trop grosse. Tenue : survêtement noir du FC Val-d'Argent tout neuf, crampons dorés.\n- Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte. Tenue : vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse.\n- Isabelle, chouette de 50 ans aux plumes grises et blanches, énormes lunettes rondes dorées, blouse blanche, stéthoscope bleu autour du cou. Tenue : blouse blanche de médecin du club.\n- Laura, chèvre élégante au pelage blanc neigeux, longue frange blonde lissée, grandes lunettes de soleil roses, rouge à lèvres corail, créoles dorées. Tenue : tailleur vert sapin cintré, badge doré « RECRUTEUSE », dossier sous le bras.\n\nSi je joins des images de référence, ce sont ces personnages : respecte-les à la lettre.\nJe vais t'envoyer \"Image 1 : …\", \"Image 2 : …\". Pour chaque message, génère uniquement l'image demandée, sans commentaire. Réponds juste OK à ce message.",
+  "refs": [
+    "refs/theo.png",
+    "refs/bernard.png",
+    "refs/mathis.png",
+    "refs/laura.png",
+    "refs/isabelle.png"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "duree": 6,
+      "role": "accroche",
+      "titre": "Salle de bain de Théo · TGP",
+      "dialogues": [
+        {
+          "t": "0.1-2.2",
+          "qui": "Théo",
+          "texte": "J'ai 34 ans. Demain, je joue en U19."
+        },
+        {
+          "t": "2.5-4.0",
+          "qui": "Théo",
+          "texte": "Faux âge. Faux appareil."
+        },
+        {
+          "t": "4.2-5.9",
+          "qui": "Théo",
+          "texte": "Vraie vengeance."
+        }
+      ],
+      "replique": "J'ai 34 ans. Demain, je joue en U19. Faux âge. Faux appareil. Vraie vengeance.",
+      "parle": "theo",
+      "texte_ecran": "34 ANS EN U19 😳",
+      "image": "Image 1 : très gros plan sur le visage, les yeux remplissent le cadre, caméra à hauteur des yeux. Décor : petite salle de bain d'appartement, grand miroir éclairé d'ampoules, lavabo encombré de flacons de teinture noire pour barbe, de crèmes antirides et d'un faux appareil dentaire dans un verre. Lumière : nuit, une seule lampe chaude, fortes ombres. Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté, survêtement vert et blanc du FC Val-d'Argent, chaussettes remontées jusqu'aux genoux : face au miroir, pinceau de teinture noire à la main, regarde droit dans l'objectif, regard froid et déterminé. Poils blancs aux tempes, flacons de teinture et crème antirides sur le lavabo. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Théo se tourne d'un coup vers la caméra, pinceau en l'air. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : whoosh.\n[0.1-2.2s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, froid, à voix basse) dit en français : « J'ai 34 ans. Demain, je joue en U19. »\n[2-4s] Il clipse son faux appareil dentaire d'un geste sec. Bruitage : clic métallique.\n[2.5-4.0s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, sec) dit en français : « Faux âge. Faux appareil. »\n[4-6s] Il serre son bandeau rouge sur son front, mâchoire serrée. Bruitage : note grave.\n[4.2-5.9s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, glacial, regard caméra) dit en français : « Vraie vengeance. »\nAmbiance sonore : robinet qui goutte, néon qui grésille, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 2,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Vestiaire du FC Val-d'Argent · PR",
+      "dialogues": [
+        {
+          "t": "0.2-2.6",
+          "qui": "Bernard",
+          "texte": "Les vieux, ça finit sur le banc."
+        },
+        {
+          "t": "2.9-4.2",
+          "qui": "Théo",
+          "texte": "Il m'a dit pareil…"
+        },
+        {
+          "t": "4.3-5.8",
+          "qui": "Théo",
+          "texte": "il y a quinze ans."
+        }
+      ],
+      "replique": "Les vieux, ça finit sur le banc. Il m'a dit pareil… il y a quinze ans.",
+      "parle": "bernard",
+      "texte_ecran": "IL Y A 15 ANS…",
+      "image": "Image 2 : plan rapproché, de la tête à la poitrine, caméra en plongée, au-dessus, qui écrase le personnage. Décor : vestiaire de centre de formation, bancs en bois, casiers verts numérotés, maillots verts et blancs accrochés, tableau blanc tactique, écusson du FC Val-d'Argent peint au mur, jeunes joueurs animaux en arrière-plan. Lumière : néons froids avec touches de couleur. Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte, vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse : au centre du vestiaire, sifflet à la bouche, pointe du doigt un vieux joueur assis au fond, rictus méprisant. Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté, survêtement vert et blanc du FC Val-d'Argent, chaussettes remontées jusqu'aux genoux : assis au premier plan, tête basse, mâchoire serrée. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Bernard pointe le vieux joueur et le chasse vers le banc d'un geste. Bruitage : coup de sifflet.\n[0.2-2.6s] BERNARD (voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases, hurlé, méprisant) dit en français : « Les vieux, ça finit sur le banc. »\n[2.9-4.2s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, chuchoté à la caméra) dit en français : « Il m'a dit pareil… »\n[3-6s] Théo lève lentement les yeux vers la caméra. Caméra : zoom éclair sur le visage au moment de la réplique-choc.\n[4.3-5.8s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, chuchoté, rancunier) dit en français : « il y a quinze ans. »\nAmbiance sonore : brouhaha de joueurs, crampons sur le carrelage, douches au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 3,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Vestiaire du FC Val-d'Argent · GP",
+      "dialogues": [
+        {
+          "t": "0.1-1.8",
+          "qui": "Mathis",
+          "texte": "Bouge, le nouveau. C'est ma place."
+        },
+        {
+          "t": "2.0-3.2",
+          "qui": "Théo",
+          "texte": "Ta place ?"
+        },
+        {
+          "t": "3.4-4.8",
+          "qui": "Mathis",
+          "texte": "Mon père, c'est le coach."
+        },
+        {
+          "t": "5.0-5.9",
+          "qui": "Théo",
+          "texte": "Ça se voit."
+        }
+      ],
+      "replique": "Bouge, le nouveau. C'est ma place. Ta place ? Mon père, c'est le coach. Ça se voit.",
+      "parle": "mathis",
+      "texte_ecran": "",
+      "image": "Image 3 : gros plan sur le visage et le haut des épaules, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : vestiaire de centre de formation, bancs en bois, casiers verts numérotés, maillots verts et blancs accrochés, tableau blanc tactique, écusson du FC Val-d'Argent peint au mur, jeunes joueurs animaux en arrière-plan. Lumière : néons froids avec touches de couleur. Mathis, jeune renard roux de 17 ans au pelage orange vif, oreilles immenses, taches de rousseur sur le museau, casquette noire portée à l'envers, chaîne dorée trop grosse, survêtement noir du FC Val-d'Argent tout neuf, crampons dorés : balance les crampons de Théo par terre d'un revers, torse bombé, sourire arrogant. Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté, survêtement vert et blanc du FC Val-d'Argent, chaussettes remontées jusqu'aux genoux : face à lui, impassible, sourcil levé. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Mathis envoie valser les crampons de Théo. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : crampons qui claquent au sol.\n[0.1-1.8s] MATHIS (voix d'ado de 17 ans, rapide, moqueuse, qui part dans les aigus quand il est choqué, arrogant) dit en français : « Bouge, le nouveau. C'est ma place. »\n[2-4s] Théo ne bouge pas d'un poil, sourcil levé.\n[2.0-3.2s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, calme) dit en français : « Ta place ? »\n[3.4-4.8s] MATHIS (voix d'ado de 17 ans, rapide, moqueuse, qui part dans les aigus quand il est choqué, fier) dit en français : « Mon père, c'est le coach. »\n[4-6s] Théo esquisse un sourire en coin. Caméra : zoom éclair sur le visage au moment de la réplique-choc.\n[5.0-5.9s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, sec, sourire en coin) dit en français : « Ça se voit. »\nAmbiance sonore : brouhaha de joueurs, crampons sur le carrelage, douches au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 4,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Petit stade du FC Val-d'Argent · PE",
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "qui": "Mathis",
+          "texte": "Vas-y, montre, papy !"
+        },
+        {
+          "t": "2.0-3.0",
+          "qui": "Théo",
+          "texte": "Avec plaisir."
+        },
+        {
+          "t": "3.6-4.6",
+          "qui": "Mathis",
+          "texte": "QUOI ?!"
+        },
+        {
+          "t": "5.0-6.4",
+          "qui": "Théo",
+          "texte": "Assieds-toi, petit."
+        },
+        {
+          "t": "7.2-9.6",
+          "qui": "Bernard",
+          "texte": "Toi. Test osseux. Demain."
+        }
+      ],
+      "replique": "Vas-y, montre, papy ! Avec plaisir. QUOI ?! Assieds-toi, petit. Toi. Test osseux. Demain.",
+      "parle": "mathis",
+      "texte_ecran": "",
+      "image": "Image 4 : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra à hauteur des yeux. Décor : petit stade de centre de formation, pelouse verte éclatante, tribune métallique pleine de supporters animaux avec drapeaux verts et blancs, tableau d'affichage électronique, lumière de match. Lumière : lumière naturelle de jour, ombres nettes. Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté, maillot vert et blanc du FC Val-d'Argent numéro 9, short blanc, genouillères noires : balle au pied, regard de tueur, face à Mathis qui le provoque. Mathis, jeune renard roux de 17 ans au pelage orange vif, oreilles immenses, taches de rousseur sur le museau, casquette noire portée à l'envers, chaîne dorée trop grosse, survêtement noir du FC Val-d'Argent tout neuf, crampons dorés : devant lui, bras écartés, ricane. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 4 FIN (dernière image du plan, quelques secondes plus tard) : plan américain, de la tête aux genoux, caméra à hauteur des yeux. Décor : petit stade de centre de formation, pelouse verte éclatante, tribune métallique pleine de supporters animaux avec drapeaux verts et blancs, tableau d'affichage électronique, lumière de match. Lumière : lumière naturelle de jour, ombres nettes. Mathis, jeune renard roux de 17 ans au pelage orange vif, oreilles immenses, taches de rousseur sur le museau, casquette noire portée à l'envers, chaîne dorée trop grosse, survêtement noir du FC Val-d'Argent tout neuf, crampons dorés : assis par terre, casquette de travers, bouche ouverte. Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte, vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse : au bord du terrain, sifflet qui tombe de la bouche, regard noir de jalousie. Au fond, le ballon dans la lucarne, des joueurs animaux bouche bée. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Mathis provoque Théo en sautillant devant lui.\n[0.2-1.8s] MATHIS (voix d'ado de 17 ans, rapide, moqueuse, qui part dans les aigus quand il est choqué, moqueur) dit en français : « Vas-y, montre, papy ! »\n[2.0-3.0s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, calme) dit en français : « Avec plaisir. »\n[3-5s] Théo lui met un petit pont éclair, Mathis tombe assis par terre. Caméra : ralenti dramatique d'une seconde puis reprise à vitesse normale. Bruitage : whoosh puis chute.\n[3.6-4.6s] MATHIS (voix d'ado de 17 ans, rapide, moqueuse, qui part dans les aigus quand il est choqué, hurle, aigu) dit en français : « QUOI ?! »\n[5-7s] Théo frappe en lucarne sans regarder. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : filet qui claque.\n[5.0-6.4s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, sec, sans le regarder) dit en français : « Assieds-toi, petit. »\n[7-10s] Bernard serre les poings, le sifflet tombe de sa bouche. Caméra : zoom éclair sur le visage au moment de la réplique-choc.\n[7.2-9.6s] BERNARD (voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases, rage contenue) dit en français : « Toi. Test osseux. Demain. »\nAmbiance sonore : foule qui chante, sifflet, ballon frappé, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 5,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Petit stade du FC Val-d'Argent · GP",
+      "dialogues": [
+        {
+          "t": "0.2-2.4",
+          "qui": "Laura",
+          "texte": "Je recrute. Un million. Pour le 9."
+        },
+        {
+          "t": "2.6-4.0",
+          "qui": "Bernard",
+          "texte": "Prenez mon fils !"
+        },
+        {
+          "t": "4.2-5.8",
+          "qui": "Laura",
+          "texte": "Votre fils ? Il est assis."
+        }
+      ],
+      "replique": "Je recrute. Un million. Pour le 9. Prenez mon fils ! Votre fils ? Il est assis.",
+      "parle": "laura",
+      "texte_ecran": "1 000 000 € 💰",
+      "image": "Image 5 : gros plan sur le visage et le haut des épaules, personnage de profil. Décor : petit stade de centre de formation, pelouse verte éclatante, tribune métallique pleine de supporters animaux avec drapeaux verts et blancs, tableau d'affichage électronique, lumière de match. Lumière : lumière naturelle de jour, ombres nettes. Laura, chèvre élégante au pelage blanc neigeux, longue frange blonde lissée, grandes lunettes de soleil roses, rouge à lèvres corail, créoles dorées, tailleur vert sapin cintré, badge doré « RECRUTEUSE », dossier sous le bras : arrive au bord du terrain, remonte ses lunettes roses sur la tête, brandit un dossier. Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte, vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse : face à elle, courbé, sourire servile. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur le dossier, en grosses lettres dorées : « CONTRAT PRO · 1 000 000 € ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Laura brandit le dossier sous le nez de Bernard. Bruitage : papier qui claque.\n[0.2-2.4s] LAURA (voix de femme posée et tranchante, sourire dans la voix, ne hausse jamais le ton, posée, tranchante) dit en français : « Je recrute. Un million. Pour le 9. »\n[2.6-4.0s] BERNARD (voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases, suppliant) dit en français : « Prenez mon fils ! »\n[3-6s] Laura tourne la tête vers Mathis assis par terre, puis revient vers Bernard. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : whoosh.\n[4.2-5.8s] LAURA (voix de femme posée et tranchante, sourire dans la voix, ne hausse jamais le ton, sourire en coin) dit en français : « Votre fils ? Il est assis. »\nAmbiance sonore : foule qui chante, sifflet, ballon frappé, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 6,
+      "duree": 10,
+      "role": "retournement",
+      "titre": "Infirmerie du club · PR",
+      "dialogues": [
+        {
+          "t": "0.2-2.4",
+          "qui": "Bernard",
+          "texte": "Sa radio. Je veux qu'il ait quarante ans."
+        },
+        {
+          "t": "2.6-4.2",
+          "qui": "Isabelle",
+          "texte": "Les os, ça ne ment pas."
+        },
+        {
+          "t": "4.4-6.0",
+          "qui": "Bernard",
+          "texte": "Tu veux garder ton poste ?"
+        },
+        {
+          "t": "6.2-7.0",
+          "qui": "Isabelle",
+          "texte": "…Pardon ?"
+        },
+        {
+          "t": "7.4-9.6",
+          "qui": "Isabelle",
+          "texte": "Pas besoin. Il a vraiment 34 ans."
+        }
+      ],
+      "replique": "Sa radio. Je veux qu'il ait quarante ans. Les os, ça ne ment pas. Tu veux garder ton poste ? …Pardon ? Pas besoin. Il a vraiment 34 ans.",
+      "parle": "bernard",
+      "texte_ecran": "34 ANS CONFIRMÉ 🦴",
+      "image": "Image 6 : plan rapproché, de la tête à la poitrine, caméra à hauteur des yeux. Décor : infirmerie du club, murs blancs et verts, table d'examen, négatoscope lumineux avec une radio de genou, squelette de démonstration dans un coin, diplômes encadrés. Lumière : lumière dorée et douce du matin. Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte, vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse : penché sur le bureau, menaçant, doigt pointé vers la médecin. Isabelle, chouette de 50 ans aux plumes grises et blanches, énormes lunettes rondes dorées, blouse blanche, stéthoscope bleu autour du cou, blouse blanche de médecin du club : derrière le bureau, ailes croisées, sourcil levé au-dessus de ses lunettes. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur le négatoscope, sous la radio du genou, une étiquette en grosses lettres : « ÂGE OSSEUX : 34 ANS ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 6 FIN (dernière image du plan, quelques secondes plus tard) : gros plan sur le visage et le haut des épaules, caméra à hauteur des yeux. Décor : infirmerie du club, murs blancs et verts, table d'examen, négatoscope lumineux avec une radio de genou, squelette de démonstration dans un coin, diplômes encadrés. Lumière : lumière dorée et douce du matin. Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte, vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse : devant la radio lumineuse, sourire diabolique énorme, se lisse la moustache. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur le négatoscope, sous la radio du genou, une étiquette en grosses lettres : « ÂGE OSSEUX : 34 ANS ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Bernard abat sa patte sur le bureau. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : impact sourd.\n[0.2-2.4s] BERNARD (voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases, rauque) dit en français : « Sa radio. Je veux qu'il ait quarante ans. »\n[2.6-4.2s] ISABELLE (voix de femme de 50 ans, posée, pince-sans-rire, détache chaque syllabe, pince-sans-rire) dit en français : « Les os, ça ne ment pas. »\n[3-6s] Isabelle fait pivoter sa tête à 180 degrés, outrée. Bruitage : grincement cartoon.\n[4.4-6.0s] BERNARD (voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases, menaçant) dit en français : « Tu veux garder ton poste ? »\n[6-8s] Elle allume le négatoscope, la radio s'éclaire. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : néon qui s'allume.\n[6.2-7.0s] ISABELLE (voix de femme de 50 ans, posée, pince-sans-rire, détache chaque syllabe, choquée) dit en français : « …Pardon ? »\n[7.4-9.6s] ISABELLE (voix de femme de 50 ans, posée, pince-sans-rire, détache chaque syllabe, froide) dit en français : « Pas besoin. Il a vraiment 34 ans. »\n[8-10s] Bernard se retourne vers la radio et sourit comme un diable. Caméra : zoom éclair sur le visage au moment de la réplique-choc.\nAmbiance sonore : bip de machine médicale, horloge, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 7,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Vestiaire du FC Val-d'Argent · PA",
+      "dialogues": [
+        {
+          "t": "0.2-2.2",
+          "qui": "Bernard",
+          "texte": "Trente-quatre ans ! Un tricheur !"
+        },
+        {
+          "t": "2.4-3.4",
+          "qui": "Mathis",
+          "texte": "Papy, dehors !"
+        },
+        {
+          "t": "3.6-5.8",
+          "qui": "Bernard",
+          "texte": "Les vieux, ça finit sur le banc."
+        }
+      ],
+      "replique": "Trente-quatre ans ! Un tricheur ! Papy, dehors ! Les vieux, ça finit sur le banc.",
+      "parle": "bernard",
+      "texte_ecran": "Il mérite sa place ou pas ? 🤔",
+      "image": "Image 7 : plan américain, de la tête aux genoux, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : vestiaire de centre de formation, bancs en bois, casiers verts numérotés, maillots verts et blancs accrochés, tableau blanc tactique, écusson du FC Val-d'Argent peint au mur, jeunes joueurs animaux en arrière-plan. Lumière : néons froids avec touches de couleur. Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte, vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse : brandit la radio au-dessus de sa tête devant toute l'équipe, triomphant. Mathis, jeune renard roux de 17 ans au pelage orange vif, oreilles immenses, taches de rousseur sur le museau, casquette noire portée à l'envers, chaîne dorée trop grosse, survêtement noir du FC Val-d'Argent tout neuf, crampons dorés : à côté de son père, pointe Théo du doigt en riant. Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté, survêtement vert et blanc du FC Val-d'Argent, chaussettes remontées jusqu'aux genoux : seul sur le banc, tête basse. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Bernard brandit la radio devant toute l'équipe. Bruitage : murmures de l'équipe.\n[0.2-2.2s] BERNARD (voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases, hurlé, triomphant) dit en français : « Trente-quatre ans ! Un tricheur ! »\n[2.4-3.4s] MATHIS (voix d'ado de 17 ans, rapide, moqueuse, qui part dans les aigus quand il est choqué, moqueur) dit en français : « Papy, dehors ! »\n[3-6s] Bernard pointe le banc du doigt, Théo reste immobile. Caméra : zoom éclair sur le visage au moment de la réplique-choc.\n[3.6-5.8s] BERNARD (voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases, jubilant) dit en français : « Les vieux, ça finit sur le banc. »\nAmbiance sonore : brouhaha de joueurs, crampons sur le carrelage, douches au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 8,
+      "duree": 6,
+      "role": "retournement",
+      "titre": "Vestiaire du FC Val-d'Argent · TGP",
+      "dialogues": [
+        {
+          "t": "0.2-1.4",
+          "qui": "Théo",
+          "texte": "Tu me reconnais pas ?"
+        },
+        {
+          "t": "1.6-2.6",
+          "qui": "Bernard",
+          "texte": "Quoi ?"
+        },
+        {
+          "t": "2.8-5.8",
+          "qui": "Théo",
+          "texte": "Théo Garnier. 2010. Tu m'as viré pour ton neveu."
+        }
+      ],
+      "replique": "Tu me reconnais pas ? Quoi ? Théo Garnier. 2010. Tu m'as viré pour ton neveu.",
+      "parle": "theo",
+      "texte_ecran": "IL L'A BRISÉ IL Y A 15 ANS",
+      "image": "Image 8 : très gros plan sur le visage, les yeux remplissent le cadre, caméra à hauteur des yeux. Décor : vestiaire de centre de formation, bancs en bois, casiers verts numérotés, maillots verts et blancs accrochés, tableau blanc tactique, écusson du FC Val-d'Argent peint au mur, jeunes joueurs animaux en arrière-plan. Lumière : néons froids avec touches de couleur. Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté, survêtement vert et blanc du FC Val-d'Argent, chaussettes remontées jusqu'aux genoux : retire son bandeau rouge, révèle une longue cicatrice sur le front, regard glacial. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Théo se lève lentement et retire son bandeau. Bruitage : silence total.\n[0.2-1.4s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, calme, glacial) dit en français : « Tu me reconnais pas ? »\n[1.6-2.6s] BERNARD (hors champ) (voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases, hors champ, inquiet) dit en français : « Quoi ? »\n[2-4s] La cicatrice apparaît, toute l'équipe recule. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : note grave.\n[2.8-5.8s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, froid, détache chaque mot) dit en français : « Théo Garnier. 2010. Tu m'as viré pour ton neveu. »\n[4-6s] Théo s'avance vers Bernard.\nAmbiance sonore : brouhaha de joueurs, crampons sur le carrelage, douches au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 9,
+      "duree": 10,
+      "role": "retournement",
+      "titre": "Vestiaire du FC Val-d'Argent · GP",
+      "dialogues": [
+        {
+          "t": "0.2-1.6",
+          "qui": "Bernard",
+          "texte": "Garnier… le petit génie ?"
+        },
+        {
+          "t": "1.8-3.4",
+          "qui": "Mathis",
+          "texte": "Papa, c'est qui ?"
+        },
+        {
+          "t": "3.6-5.6",
+          "qui": "Laura",
+          "texte": "Le meilleur joueur que j'aie vu."
+        },
+        {
+          "t": "5.8-7.6",
+          "qui": "Laura",
+          "texte": "Le contrat, c'est pas pour les U19."
+        },
+        {
+          "t": "7.8-9.6",
+          "qui": "Laura",
+          "texte": "C'est pour l'équipe première."
+        }
+      ],
+      "replique": "Garnier… le petit génie ? Papa, c'est qui ? Le meilleur joueur que j'aie vu. Le contrat, c'est pas pour les U19. C'est pour l'équipe première.",
+      "parle": "bernard",
+      "texte_ecran": "",
+      "image": "Image 9 : gros plan sur le visage et le haut des épaules, cadre légèrement penché pour le malaise. Décor : vestiaire de centre de formation, bancs en bois, casiers verts numérotés, maillots verts et blancs accrochés, tableau blanc tactique, écusson du FC Val-d'Argent peint au mur, jeunes joueurs animaux en arrière-plan. Lumière : néons froids avec touches de couleur. Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte, vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse : blême, la radio qui tremble dans sa patte, moustache qui frémit. Mathis, jeune renard roux de 17 ans au pelage orange vif, oreilles immenses, taches de rousseur sur le museau, casquette noire portée à l'envers, chaîne dorée trop grosse, survêtement noir du FC Val-d'Argent tout neuf, crampons dorés : derrière lui, regarde son père, oreilles baissées. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 9 FIN (dernière image du plan, quelques secondes plus tard) : plan rapproché, de la tête à la poitrine, caméra à hauteur des yeux. Décor : vestiaire de centre de formation, bancs en bois, casiers verts numérotés, maillots verts et blancs accrochés, tableau blanc tactique, écusson du FC Val-d'Argent peint au mur, jeunes joueurs animaux en arrière-plan. Lumière : néons froids avec touches de couleur. Laura, chèvre élégante au pelage blanc neigeux, longue frange blonde lissée, grandes lunettes de soleil roses, rouge à lèvres corail, créoles dorées, tailleur vert sapin cintré, badge doré « RECRUTEUSE », dossier sous le bras : dans l'embrasure de la porte, lunettes roses sur la tête, dossier tendu vers Théo. Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté, survêtement vert et blanc du FC Val-d'Argent, chaussettes remontées jusqu'aux genoux : signe le contrat d'un geste calme. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Bernard recule, la radio tremble dans sa patte. Caméra : zoom rapide et court sur le visage au moment de la révélation (une seule fois par épisode maximum). Bruitage : tic-tac.\n[0.2-1.6s] BERNARD (voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases, bégaie) dit en français : « Garnier… le petit génie ? »\n[1.8-3.4s] MATHIS (voix d'ado de 17 ans, rapide, moqueuse, qui part dans les aigus quand il est choqué, perdu) dit en français : « Papa, c'est qui ? »\n[3-6s] La porte s'ouvre, Laura entre en tapotant son dossier. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : porte qui claque.\n[3.6-5.6s] LAURA (voix de femme posée et tranchante, sourire dans la voix, ne hausse jamais le ton, posée) dit en français : « Le meilleur joueur que j'aie vu. »\n[5.8-7.6s] LAURA (voix de femme posée et tranchante, sourire dans la voix, ne hausse jamais le ton, tranchante) dit en français : « Le contrat, c'est pas pour les U19. »\n[6-8s] Laura tend le stylo à Théo.\n[7.8-9.6s] LAURA (voix de femme posée et tranchante, sourire dans la voix, ne hausse jamais le ton, sourire en coin) dit en français : « C'est pour l'équipe première. »\n[8-10s] Théo signe, Bernard s'effondre contre un casier. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : casier qui tremble.\nAmbiance sonore : brouhaha de joueurs, crampons sur le carrelage, douches au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 10,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Vestiaire du FC Val-d'Argent · PR",
+      "dialogues": [
+        {
+          "t": "0.1-1.9",
+          "qui": "Bernard",
+          "texte": "Il a triché sur son âge !"
+        },
+        {
+          "t": "2.0-4.2",
+          "qui": "Laura",
+          "texte": "Et vous, sur le vôtre à la fédé ?"
+        },
+        {
+          "t": "4.3-5.0",
+          "qui": "Mathis",
+          "texte": "QUOI ?!"
+        },
+        {
+          "t": "5.2-5.9",
+          "qui": "Bernard",
+          "texte": "Je…"
+        }
+      ],
+      "replique": "Il a triché sur son âge ! Et vous, sur le vôtre à la fédé ? QUOI ?! Je…",
+      "parle": "bernard",
+      "texte_ecran": "LE COACH AUSSI 💀",
+      "image": "Image 10 : plan rapproché, de la tête à la poitrine, personnage de profil. Décor : vestiaire de centre de formation, bancs en bois, casiers verts numérotés, maillots verts et blancs accrochés, tableau blanc tactique, écusson du FC Val-d'Argent peint au mur, jeunes joueurs animaux en arrière-plan. Lumière : néons froids avec touches de couleur. Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte, vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse : pointe Théo en hurlant, veine sur le front. Laura, chèvre élégante au pelage blanc neigeux, longue frange blonde lissée, grandes lunettes de soleil roses, rouge à lèvres corail, créoles dorées, tailleur vert sapin cintré, badge doré « RECRUTEUSE », dossier sous le bras : face à lui, impassible, remonte ses lunettes. Mathis, jeune renard roux de 17 ans au pelage orange vif, oreilles immenses, taches de rousseur sur le museau, casquette noire portée à l'envers, chaîne dorée trop grosse, survêtement noir du FC Val-d'Argent tout neuf, crampons dorés : entre eux, tête qui fait des allers-retours. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Bernard pointe Théo en hurlant.\n[0.1-1.9s] BERNARD (voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases, hurlé) dit en français : « Il a triché sur son âge ! »\n[2-4s] Laura se tourne lentement vers Bernard. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : whoosh.\n[2.0-4.2s] LAURA (voix de femme posée et tranchante, sourire dans la voix, ne hausse jamais le ton, calme, tranchante) dit en français : « Et vous, sur le vôtre à la fédé ? »\n[4-6s] Mathis se tourne vers son père, choqué. Caméra : zoom éclair sur le visage au moment de la réplique-choc.\n[4.3-5.0s] MATHIS (voix d'ado de 17 ans, rapide, moqueuse, qui part dans les aigus quand il est choqué, aigu) dit en français : « QUOI ?! »\n[5.2-5.9s] BERNARD (voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases, étranglé) dit en français : « Je… »\nAmbiance sonore : brouhaha de joueurs, crampons sur le carrelage, douches au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 11,
+      "duree": 6,
+      "role": "climax",
+      "titre": "Petit stade du FC Val-d'Argent · PA",
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "qui": "Laura",
+          "texte": "Le club vous remplace, Bernard."
+        },
+        {
+          "t": "2.0-4.6",
+          "qui": "Théo",
+          "texte": "Les vieux, ça finit sur le banc."
+        },
+        {
+          "t": "4.8-5.8",
+          "qui": "Mathis",
+          "texte": "Ouuuh…"
+        }
+      ],
+      "replique": "Le club vous remplace, Bernard. Les vieux, ça finit sur le banc. Ouuuh…",
+      "parle": "laura",
+      "texte_ecran": "SUR LE BANC 🪑",
+      "image": "Image 11 : plan américain, de la tête aux genoux, caméra à hauteur des yeux. Décor : petit stade de centre de formation, pelouse verte éclatante, tribune métallique pleine de supporters animaux avec drapeaux verts et blancs, tableau d'affichage électronique, lumière de match. Lumière : lumière naturelle de jour, ombres nettes. Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté, maillot vert et blanc du FC Val-d'Argent numéro 9, short blanc, genouillères noires : pointe calmement le banc de touche. Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte, vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse : s'assoit sur le banc de touche, épaules basses, sifflet qui pend. Mathis, jeune renard roux de 17 ans au pelage orange vif, oreilles immenses, taches de rousseur sur le museau, casquette noire portée à l'envers, chaîne dorée trop grosse, survêtement noir du FC Val-d'Argent tout neuf, crampons dorés : en retrait, se cache le visage sous sa casquette. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Théo tend le bras vers le banc de touche. Bruitage : foule qui murmure.\n[0.2-1.8s] LAURA (hors champ) (voix de femme posée et tranchante, sourire dans la voix, ne hausse jamais le ton, hors champ, froide) dit en français : « Le club vous remplace, Bernard. »\n[2.0-4.6s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, calme, savoure) dit en français : « Les vieux, ça finit sur le banc. »\n[3-6s] Bernard s'assoit sur le banc, tête basse. Caméra : travelling latéral qui suit le personnage. Bruitage : grincement du banc.\n[4.8-5.8s] MATHIS (voix d'ado de 17 ans, rapide, moqueuse, qui part dans les aigus quand il est choqué, admiratif malgré lui) dit en français : « Ouuuh… »\nAmbiance sonore : foule qui chante, sifflet, ballon frappé, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 12,
+      "duree": 10,
+      "role": "cliff",
+      "titre": "Petit stade du FC Val-d'Argent · GP",
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "qui": "Laura",
+          "texte": "On rentre, mon chéri ?"
+        },
+        {
+          "t": "2.0-3.0",
+          "qui": "Bernard",
+          "texte": "Chéri ?!"
+        },
+        {
+          "t": "3.2-5.4",
+          "qui": "Théo",
+          "texte": "Ma femme. Quinze ans qu'on prépare ça."
+        },
+        {
+          "t": "5.6-6.6",
+          "qui": "Mathis",
+          "texte": "Ah ouais…"
+        },
+        {
+          "t": "6.8-9.4",
+          "qui": "Théo",
+          "texte": "Quinze ans d'attente. Ça valait le coup ?"
+        }
+      ],
+      "replique": "On rentre, mon chéri ? Chéri ?! Ma femme. Quinze ans qu'on prépare ça. Ah ouais… Quinze ans d'attente. Ça valait le coup ?",
+      "parle": "laura",
+      "texte_ecran": "15 ANS DE PLAN 😈",
+      "image": "Image 12 : gros plan sur le visage et le haut des épaules, caméra à hauteur des yeux. Décor : petit stade de centre de formation, pelouse verte éclatante, tribune métallique pleine de supporters animaux avec drapeaux verts et blancs, tableau d'affichage électronique, lumière de match. Lumière : lumière naturelle de jour, ombres nettes. Laura, chèvre élégante au pelage blanc neigeux, longue frange blonde lissée, grandes lunettes de soleil roses, rouge à lèvres corail, créoles dorées, tailleur vert sapin cintré, badge doré « RECRUTEUSE », dossier sous le bras : prend le bras de Théo, sourire complice. Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté, maillot vert et blanc du FC Val-d'Argent numéro 9, short blanc, genouillères noires : à côté d'elle, sourire en coin. Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte, vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse : au fond sur le banc, mâchoire au sol. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 12 FIN (dernière image du plan, quelques secondes plus tard) : très gros plan sur le visage, les yeux remplissent le cadre, caméra à hauteur des yeux. Décor : petit stade de centre de formation, pelouse verte éclatante, tribune métallique pleine de supporters animaux avec drapeaux verts et blancs, tableau d'affichage électronique, lumière de match. Lumière : lumière naturelle de jour, ombres nettes. Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté, maillot vert et blanc du FC Val-d'Argent numéro 9, short blanc, genouillères noires : seul face à l'objectif, sourcil levé, clin d'œil, sourire en coin. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Laura prend le bras de Théo et lui fait un bisou sur la joue. Bruitage : smack.\n[0.2-1.8s] LAURA (voix de femme posée et tranchante, sourire dans la voix, ne hausse jamais le ton, tendre) dit en français : « On rentre, mon chéri ? »\n[2.0-3.0s] BERNARD (voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases, hurle, aigu) dit en français : « Chéri ?! »\n[3-5s] Bernard se lève d'un bond sur le banc. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : whoosh.\n[3.2-5.4s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, calme) dit en français : « Ma femme. Quinze ans qu'on prépare ça. »\n[5-7s] Théo se tourne vers la caméra. Caméra : lent travelling avant vers le visage.\n[5.6-6.6s] MATHIS (hors champ) (voix d'ado de 17 ans, rapide, moqueuse, qui part dans les aigus quand il est choqué, hors champ, admiratif) dit en français : « Ah ouais… »\n[6.8-9.4s] THÉO (voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie, à la caméra, malicieux) dit en français : « Quinze ans d'attente. Ça valait le coup ? »\n[7-10s] Théo fait un clin d'œil lent à la caméra. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : ding.\nAmbiance sonore : foule qui chante, sifflet, ballon frappé, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    }
+  ],
+  "titre_couverture": "Viré à 19 ans, il revient à 34 😈",
+  "publication": "Le coach l'a viré il y a 15 ans… il est revenu dans son équipe en se faisant passer pour un U19 😳 Il avait le droit de tricher ?\n\n#foot #histoire #vengeance #animaux #ia #drama",
+  "commentaire": "Il avait le droit de tricher ? 😈 Oui, le coach l'a mérité / ⚖️ Non, la triche reste la triche",
+  "texte_accroche": "34 ans, il rejoue en U19",
+  "hooks_alternatifs": [
+    "Ce coach a brisé ma carrière. Aujourd'hui je joue dans son équipe… à 34 ans.",
+    "Faux âge, faux appareil, vraie vengeance.",
+    "Il m'a viré il y a 15 ans. Il me reconnaît pas."
+  ],
+  "question_milieu": {
+    "plan": 7,
+    "texte": "Il mérite sa place ou pas ? 🤔"
+  },
+  "duree_totale": 88
+}

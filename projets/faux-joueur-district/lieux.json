@@ -1,0 +1,29 @@
+{
+  "_lisez_moi": "desc = recopiée mot pour mot dans chaque prompt image ; son = ambiance des prompts Grok.",
+  "lieux": [
+    {
+      "id": "voiture_yanis",
+      "nom": "Vieille voiture de Hugo",
+      "desc": "intérieur d'une vieille petite citadine grise cabossée, sièges en tissu usés, sapin désodorisant qui pend au rétroviseur, tableau de bord fissuré, une grande villa éclairée visible par le pare-brise",
+      "son": "moteur au ralenti, clignotant"
+    },
+    {
+      "id": "salon_villa",
+      "nom": "Salon de la villa de Sandrine",
+      "desc": "salon de villa clinquante, sol en marbre blanc, canapé doré, lustre en cristal, grande table dressée avec nappe blanche et chandeliers, baies vitrées sur une piscine éclairée",
+      "son": "couverts qui tintent, horloge"
+    },
+    {
+      "id": "terrain_district",
+      "nom": "Terrain de l'AS Pré-Fleuri",
+      "desc": "petit terrain de foot synthétique de district usé, grillage vert, tribune en bois de trois rangs, panneau « AS Pré-Fleuri » peint à la main, une vingtaine de spectateurs en doudoune",
+      "son": "cris lointains de joueurs, coup de sifflet, vent"
+    },
+    {
+      "id": "parking_stade",
+      "nom": "Parking du stade la nuit",
+      "desc": "parking en gravier derrière le petit stade, de nuit, un seul lampadaire orange, la vieille citadine grise cabossée garée seule, projecteurs du terrain éteints au loin",
+      "son": "grillons, bourdonnement du lampadaire"
+    }
+  ]
+}

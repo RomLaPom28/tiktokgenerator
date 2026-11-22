@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "id": "7709574908862303510",
+    "url": "https://www.tiktok.com/@fruitdeguerre/video/7709574908862303510",
+    "compte": "fruitdeguerre",
+    "description": "Partie 5 | Il est allé chercher son petit frère… chez le Pharaon 😳 Partie 1 sur mon profil #histoireia #boxe #paris #france #partie5 #fruitstory #lycee",
+    "vues": 271800,
+    "likes": 55100,
+    "commentaires": 975,
+    "partages": 383,
+    "date": "20261118",
+    "duree": 79.6,
+    "musique": "son original - Fruit de Guerre",
+    "taux_likes": 20.27,
+    "taux_commentaires": 0.359
+  },
+  "langue": "fr",
+  "texte_complet": "Il est où mon petit frère? C'est plus moi qu'il est, c'est le pharaon. Si tu le cherches t'es mort. Ils l'ont laissé devant la porte, c'est sa basket Ilyes, la basket de ton frère. Ramène-moi mon fils, je t'en supplie Ilyes, ramène-le-moi. Je te le ramène maman, je te le jure. Tu vas pas y aller seul, petit. Il a dit seul coach. Il a dit seul, il a pas dit sans entraîneur. Toi tu montes, le vieux il reste en bas, le vieux il monte aussi, enfin le petit champion. Coco, tu lui as toujours pas dit qui je suis?",
+  "accroche_3s": "Il est où mon petit frère?",
+  "fin_5s": "tu lui as toujours pas dit qui je suis?",
+  "mots_par_seconde": 1.41,
+  "premier_mot_a": 1.07,
+  "nombre_plans": 11,
+  "duree_moyenne_plan": 7.24,
+  "phrases": [
+    {
+      "debut": 1.07,
+      "fin": 7.29,
+      "texte": "Il est où mon petit frère? C'est plus moi qu'il est, c'est le pharaon. Si tu le cherches t'es mort."
+    },
+    {
+      "debut": 12.66,
+      "fin": 16.74,
+      "texte": "Ils l'ont laissé devant la porte, c'est sa basket Ilyes, la basket de ton frère."
+    },
+    {
+      "debut": 25.92,
+      "fin": 30.28,
+      "texte": "Ramène-moi mon fils, je t'en supplie Ilyes, ramène-le-moi."
+    },
+    {
+      "debut": 31.36,
+      "fin": 38.18,
+      "texte": "Je te le ramène maman, je te le jure. Tu vas pas y aller seul,"
+    },
+    {
+      "debut": 39.12,
+      "fin": 43.26,
+      "texte": "petit. Il a dit seul coach."
+    },
+    {
+      "debut": 44.46,
+      "fin": 47.74,
+      "texte": "Il a dit seul, il a pas dit sans entraîneur."
+    },
+    {
+      "debut": 51.94,
+      "fin": 72.19,
+      "texte": "Toi tu montes, le vieux il reste en bas, le vieux il monte aussi, enfin le petit champion."
+    },
+    {
+      "debut": 73.75,
+      "fin": 76.69,
+      "texte": "Coco, tu lui as toujours pas dit qui je suis?"
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 10.48,
+      "duree": 10.48
+    },
+    {
+      "n": 2,
+      "debut": 10.48,
+      "fin": 20.55,
+      "duree": 10.07
+    },
+    {
+      "n": 3,
+      "debut": 20.55,
+      "fin": 25.52,
+      "duree": 4.97
+    },
+    {
+      "n": 4,
+      "debut": 25.52,
+      "fin": 35.58,
+      "duree": 10.07
+    },
+    {
+      "n": 5,
+      "debut": 35.58,
+      "fin": 41.65,
+      "duree": 6.07
+    },
+    {
+      "n": 6,
+      "debut": 41.65,
+      "fin": 51.58,
+      "duree": 9.93
+    },
+    {
+      "n": 7,
+      "debut": 51.58,
+      "fin": 61.65,
+      "duree": 10.07
+    },
+    {
+      "n": 8,
+      "debut": 61.65,
+      "fin": 65.68,
+      "duree": 4.03
+    },
+    {
+      "n": 9,
+      "debut": 65.68,
+      "fin": 73.55,
+      "duree": 7.87
+    },
+    {
+      "n": 10,
+      "debut": 73.55,
+      "fin": 78.55,
+      "duree": 5.0
+    },
+    {
+      "n": 11,
+      "debut": 78.55,
+      "fin": 79.62,
+      "duree": 1.07
+    }
+  ]
+}

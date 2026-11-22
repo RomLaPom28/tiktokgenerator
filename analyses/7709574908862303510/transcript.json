@@ -1,0 +1,607 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 1.07,
+      "fin": 7.29,
+      "texte": "Il est où mon petit frère? C'est plus moi qu'il est, c'est le pharaon. Si tu le cherches t'es mort."
+    },
+    {
+      "debut": 12.66,
+      "fin": 16.74,
+      "texte": "Ils l'ont laissé devant la porte, c'est sa basket Ilyes, la basket de ton frère."
+    },
+    {
+      "debut": 25.92,
+      "fin": 30.28,
+      "texte": "Ramène-moi mon fils, je t'en supplie Ilyes, ramène-le-moi."
+    },
+    {
+      "debut": 31.36,
+      "fin": 38.18,
+      "texte": "Je te le ramène maman, je te le jure. Tu vas pas y aller seul,"
+    },
+    {
+      "debut": 39.12,
+      "fin": 43.26,
+      "texte": "petit. Il a dit seul coach."
+    },
+    {
+      "debut": 44.46,
+      "fin": 47.74,
+      "texte": "Il a dit seul, il a pas dit sans entraîneur."
+    },
+    {
+      "debut": 51.94,
+      "fin": 72.19,
+      "texte": "Toi tu montes, le vieux il reste en bas, le vieux il monte aussi, enfin le petit champion."
+    },
+    {
+      "debut": 73.75,
+      "fin": 76.69,
+      "texte": "Coco, tu lui as toujours pas dit qui je suis?"
+    }
+  ],
+  "mots": [
+    {
+      "debut": 1.07,
+      "fin": 1.67,
+      "mot": "Il"
+    },
+    {
+      "debut": 1.67,
+      "fin": 1.87,
+      "mot": "est"
+    },
+    {
+      "debut": 1.87,
+      "fin": 2.05,
+      "mot": "où"
+    },
+    {
+      "debut": 2.05,
+      "fin": 2.19,
+      "mot": "mon"
+    },
+    {
+      "debut": 2.19,
+      "fin": 2.47,
+      "mot": "petit"
+    },
+    {
+      "debut": 2.47,
+      "fin": 2.91,
+      "mot": "frère?"
+    },
+    {
+      "debut": 3.17,
+      "fin": 3.17,
+      "mot": "C"
+    },
+    {
+      "debut": 3.17,
+      "fin": 3.27,
+      "mot": "'est"
+    },
+    {
+      "debut": 3.27,
+      "fin": 3.41,
+      "mot": "plus"
+    },
+    {
+      "debut": 3.41,
+      "fin": 3.59,
+      "mot": "moi"
+    },
+    {
+      "debut": 3.59,
+      "fin": 3.69,
+      "mot": "qu"
+    },
+    {
+      "debut": 3.69,
+      "fin": 3.79,
+      "mot": "'il"
+    },
+    {
+      "debut": 3.79,
+      "fin": 4.15,
+      "mot": "est,"
+    },
+    {
+      "debut": 4.49,
+      "fin": 4.59,
+      "mot": "c"
+    },
+    {
+      "debut": 4.59,
+      "fin": 4.59,
+      "mot": "'est"
+    },
+    {
+      "debut": 4.59,
+      "fin": 4.77,
+      "mot": "le"
+    },
+    {
+      "debut": 4.77,
+      "fin": 5.59,
+      "mot": "pharaon."
+    },
+    {
+      "debut": 5.83,
+      "fin": 5.97,
+      "mot": "Si"
+    },
+    {
+      "debut": 5.97,
+      "fin": 6.11,
+      "mot": "tu"
+    },
+    {
+      "debut": 6.11,
+      "fin": 6.29,
+      "mot": "le"
+    },
+    {
+      "debut": 6.29,
+      "fin": 6.49,
+      "mot": "cherches"
+    },
+    {
+      "debut": 6.49,
+      "fin": 6.63,
+      "mot": "t"
+    },
+    {
+      "debut": 6.63,
+      "fin": 6.73,
+      "mot": "'es"
+    },
+    {
+      "debut": 6.73,
+      "fin": 7.29,
+      "mot": "mort."
+    },
+    {
+      "debut": 12.66,
+      "fin": 12.74,
+      "mot": "Ils"
+    },
+    {
+      "debut": 12.74,
+      "fin": 12.86,
+      "mot": "l"
+    },
+    {
+      "debut": 12.86,
+      "fin": 12.92,
+      "mot": "'ont"
+    },
+    {
+      "debut": 12.92,
+      "fin": 13.16,
+      "mot": "laissé"
+    },
+    {
+      "debut": 13.16,
+      "fin": 13.36,
+      "mot": "devant"
+    },
+    {
+      "debut": 13.36,
+      "fin": 13.62,
+      "mot": "la"
+    },
+    {
+      "debut": 13.62,
+      "fin": 13.94,
+      "mot": "porte,"
+    },
+    {
+      "debut": 14.34,
+      "fin": 14.42,
+      "mot": "c"
+    },
+    {
+      "debut": 14.42,
+      "fin": 14.44,
+      "mot": "'est"
+    },
+    {
+      "debut": 14.44,
+      "fin": 14.64,
+      "mot": "sa"
+    },
+    {
+      "debut": 14.64,
+      "fin": 14.98,
+      "mot": "basket"
+    },
+    {
+      "debut": 14.98,
+      "fin": 15.52,
+      "mot": "Ilyes,"
+    },
+    {
+      "debut": 15.8,
+      "fin": 15.94,
+      "mot": "la"
+    },
+    {
+      "debut": 15.94,
+      "fin": 16.22,
+      "mot": "basket"
+    },
+    {
+      "debut": 16.22,
+      "fin": 16.4,
+      "mot": "de"
+    },
+    {
+      "debut": 16.4,
+      "fin": 16.52,
+      "mot": "ton"
+    },
+    {
+      "debut": 16.52,
+      "fin": 16.74,
+      "mot": "frère."
+    },
+    {
+      "debut": 25.92,
+      "fin": 26.14,
+      "mot": "Ramène"
+    },
+    {
+      "debut": 26.14,
+      "fin": 26.34,
+      "mot": "-moi"
+    },
+    {
+      "debut": 26.34,
+      "fin": 26.62,
+      "mot": "mon"
+    },
+    {
+      "debut": 26.62,
+      "fin": 26.94,
+      "mot": "fils,"
+    },
+    {
+      "debut": 27.44,
+      "fin": 27.56,
+      "mot": "je"
+    },
+    {
+      "debut": 27.56,
+      "fin": 27.66,
+      "mot": "t"
+    },
+    {
+      "debut": 27.66,
+      "fin": 27.86,
+      "mot": "'en"
+    },
+    {
+      "debut": 27.86,
+      "fin": 28.2,
+      "mot": "supplie"
+    },
+    {
+      "debut": 28.2,
+      "fin": 28.96,
+      "mot": "Ilyes,"
+    },
+    {
+      "debut": 29.28,
+      "fin": 29.54,
+      "mot": "ramène"
+    },
+    {
+      "debut": 29.54,
+      "fin": 29.8,
+      "mot": "-le"
+    },
+    {
+      "debut": 29.8,
+      "fin": 30.28,
+      "mot": "-moi."
+    },
+    {
+      "debut": 31.36,
+      "fin": 31.52,
+      "mot": "Je"
+    },
+    {
+      "debut": 31.52,
+      "fin": 31.66,
+      "mot": "te"
+    },
+    {
+      "debut": 31.66,
+      "fin": 31.84,
+      "mot": "le"
+    },
+    {
+      "debut": 31.84,
+      "fin": 32.04,
+      "mot": "ramène"
+    },
+    {
+      "debut": 32.04,
+      "fin": 32.58,
+      "mot": "maman,"
+    },
+    {
+      "debut": 32.98,
+      "fin": 33.1,
+      "mot": "je"
+    },
+    {
+      "debut": 33.1,
+      "fin": 33.24,
+      "mot": "te"
+    },
+    {
+      "debut": 33.24,
+      "fin": 33.4,
+      "mot": "le"
+    },
+    {
+      "debut": 33.4,
+      "fin": 33.8,
+      "mot": "jure."
+    },
+    {
+      "debut": 37.08,
+      "fin": 37.2,
+      "mot": "Tu"
+    },
+    {
+      "debut": 37.2,
+      "fin": 37.44,
+      "mot": "vas"
+    },
+    {
+      "debut": 37.44,
+      "fin": 37.62,
+      "mot": "pas"
+    },
+    {
+      "debut": 37.62,
+      "fin": 37.72,
+      "mot": "y"
+    },
+    {
+      "debut": 37.72,
+      "fin": 37.96,
+      "mot": "aller"
+    },
+    {
+      "debut": 37.96,
+      "fin": 38.18,
+      "mot": "seul,"
+    },
+    {
+      "debut": 39.12,
+      "fin": 39.56,
+      "mot": "petit."
+    },
+    {
+      "debut": 41.78,
+      "fin": 41.98,
+      "mot": "Il"
+    },
+    {
+      "debut": 41.98,
+      "fin": 42.18,
+      "mot": "a"
+    },
+    {
+      "debut": 42.18,
+      "fin": 42.34,
+      "mot": "dit"
+    },
+    {
+      "debut": 42.34,
+      "fin": 42.66,
+      "mot": "seul"
+    },
+    {
+      "debut": 42.66,
+      "fin": 43.26,
+      "mot": "coach."
+    },
+    {
+      "debut": 44.46,
+      "fin": 44.88,
+      "mot": "Il"
+    },
+    {
+      "debut": 44.88,
+      "fin": 45.08,
+      "mot": "a"
+    },
+    {
+      "debut": 45.08,
+      "fin": 45.24,
+      "mot": "dit"
+    },
+    {
+      "debut": 45.24,
+      "fin": 45.6,
+      "mot": "seul,"
+    },
+    {
+      "debut": 46.44,
+      "fin": 46.48,
+      "mot": "il"
+    },
+    {
+      "debut": 46.48,
+      "fin": 46.7,
+      "mot": "a"
+    },
+    {
+      "debut": 46.7,
+      "fin": 46.9,
+      "mot": "pas"
+    },
+    {
+      "debut": 46.9,
+      "fin": 47.1,
+      "mot": "dit"
+    },
+    {
+      "debut": 47.1,
+      "fin": 47.4,
+      "mot": "sans"
+    },
+    {
+      "debut": 47.4,
+      "fin": 47.74,
+      "mot": "entraîneur."
+    },
+    {
+      "debut": 51.94,
+      "fin": 52.08,
+      "mot": "Toi"
+    },
+    {
+      "debut": 52.08,
+      "fin": 52.26,
+      "mot": "tu"
+    },
+    {
+      "debut": 52.26,
+      "fin": 53.0,
+      "mot": "montes,"
+    },
+    {
+      "debut": 53.24,
+      "fin": 53.38,
+      "mot": "le"
+    },
+    {
+      "debut": 53.38,
+      "fin": 53.58,
+      "mot": "vieux"
+    },
+    {
+      "debut": 53.58,
+      "fin": 53.7,
+      "mot": "il"
+    },
+    {
+      "debut": 53.7,
+      "fin": 53.88,
+      "mot": "reste"
+    },
+    {
+      "debut": 53.88,
+      "fin": 54.06,
+      "mot": "en"
+    },
+    {
+      "debut": 54.06,
+      "fin": 54.38,
+      "mot": "bas,"
+    },
+    {
+      "debut": 59.21,
+      "fin": 59.37,
+      "mot": "le"
+    },
+    {
+      "debut": 59.37,
+      "fin": 59.59,
+      "mot": "vieux"
+    },
+    {
+      "debut": 59.59,
+      "fin": 59.75,
+      "mot": "il"
+    },
+    {
+      "debut": 59.75,
+      "fin": 59.93,
+      "mot": "monte"
+    },
+    {
+      "debut": 59.93,
+      "fin": 60.49,
+      "mot": "aussi,"
+    },
+    {
+      "debut": 70.67,
+      "fin": 70.89,
+      "mot": "enfin"
+    },
+    {
+      "debut": 70.89,
+      "fin": 71.27,
+      "mot": "le"
+    },
+    {
+      "debut": 71.27,
+      "fin": 71.51,
+      "mot": "petit"
+    },
+    {
+      "debut": 71.51,
+      "fin": 72.19,
+      "mot": "champion."
+    },
+    {
+      "debut": 73.75,
+      "fin": 74.17,
+      "mot": "Coco,"
+    },
+    {
+      "debut": 75.43,
+      "fin": 75.51,
+      "mot": "tu"
+    },
+    {
+      "debut": 75.51,
+      "fin": 75.65,
+      "mot": "lui"
+    },
+    {
+      "debut": 75.65,
+      "fin": 75.79,
+      "mot": "as"
+    },
+    {
+      "debut": 75.79,
+      "fin": 76.03,
+      "mot": "toujours"
+    },
+    {
+      "debut": 76.03,
+      "fin": 76.21,
+      "mot": "pas"
+    },
+    {
+      "debut": 76.21,
+      "fin": 76.29,
+      "mot": "dit"
+    },
+    {
+      "debut": 76.29,
+      "fin": 76.41,
+      "mot": "qui"
+    },
+    {
+      "debut": 76.41,
+      "fin": 76.59,
+      "mot": "je"
+    },
+    {
+      "debut": 76.59,
+      "fin": 76.69,
+      "mot": "suis?"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 5.55,
+      "fin": 8.23,
+      "texte": "Tu croyais que j'étais comme mon cousin ?"
+    },
+    {
+      "debut": 30.5,
+      "fin": 33.02,
+      "texte": "Tu te relèves, c'est tout ce que je t'ai appris."
+    },
+    {
+      "debut": 67.35,
+      "fin": 74.66,
+      "texte": "Où mon petit frère ?"
+    },
+    {
+      "debut": 74.66,
+      "fin": 76.86,
+      "texte": "C'est plus moi qu'il est, c'est le pharaon."
+    },
+    {
+      "debut": 77.4,
+      "fin": 78.46,
+      "texte": "Si tu le cherches, t'es mort."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 5.55,
+      "fin": 6.05,
+      "mot": "Tu"
+    },
+    {
+      "debut": 6.05,
+      "fin": 6.41,
+      "mot": "croyais"
+    },
+    {
+      "debut": 6.41,
+      "fin": 6.51,
+      "mot": "que"
+    },
+    {
+      "debut": 6.51,
+      "fin": 6.67,
+      "mot": "j"
+    },
+    {
+      "debut": 6.67,
+      "fin": 6.87,
+      "mot": "'étais"
+    },
+    {
+      "debut": 6.87,
+      "fin": 7.05,
+      "mot": "comme"
+    },
+    {
+      "debut": 7.05,
+      "fin": 7.25,
+      "mot": "mon"
+    },
+    {
+      "debut": 7.25,
+      "fin": 7.55,
+      "mot": "cousin"
+    },
+    {
+      "debut": 7.55,
+      "fin": 8.23,
+      "mot": "?"
+    },
+    {
+      "debut": 30.5,
+      "fin": 30.58,
+      "mot": "Tu"
+    },
+    {
+      "debut": 30.58,
+      "fin": 30.74,
+      "mot": "te"
+    },
+    {
+      "debut": 30.74,
+      "fin": 31.32,
+      "mot": "relèves,"
+    },
+    {
+      "debut": 31.8,
+      "fin": 31.84,
+      "mot": "c"
+    },
+    {
+      "debut": 31.84,
+      "fin": 31.88,
+      "mot": "'est"
+    },
+    {
+      "debut": 31.88,
+      "fin": 32.0,
+      "mot": "tout"
+    },
+    {
+      "debut": 32.0,
+      "fin": 32.12,
+      "mot": "ce"
+    },
+    {
+      "debut": 32.12,
+      "fin": 32.16,
+      "mot": "que"
+    },
+    {
+      "debut": 32.16,
+      "fin": 32.26,
+      "mot": "je"
+    },
+    {
+      "debut": 32.26,
+      "fin": 32.32,
+      "mot": "t"
+    },
+    {
+      "debut": 32.32,
+      "fin": 32.48,
+      "mot": "'ai"
+    },
+    {
+      "debut": 32.48,
+      "fin": 33.02,
+      "mot": "appris."
+    },
+    {
+      "debut": 67.35,
+      "fin": 67.45,
+      "mot": "Où"
+    },
+    {
+      "debut": 67.45,
+      "fin": 67.59,
+      "mot": "mon"
+    },
+    {
+      "debut": 67.59,
+      "fin": 67.83,
+      "mot": "petit"
+    },
+    {
+      "debut": 67.83,
+      "fin": 68.31,
+      "mot": "frère"
+    },
+    {
+      "debut": 73.94,
+      "fin": 74.66,
+      "mot": "?"
+    },
+    {
+      "debut": 74.66,
+      "fin": 74.76,
+      "mot": "C"
+    },
+    {
+      "debut": 74.76,
+      "fin": 74.88,
+      "mot": "'est"
+    },
+    {
+      "debut": 74.88,
+      "fin": 74.96,
+      "mot": "plus"
+    },
+    {
+      "debut": 74.96,
+      "fin": 75.16,
+      "mot": "moi"
+    },
+    {
+      "debut": 75.16,
+      "fin": 75.26,
+      "mot": "qu"
+    },
+    {
+      "debut": 75.26,
+      "fin": 75.36,
+      "mot": "'il"
+    },
+    {
+      "debut": 75.36,
+      "fin": 75.64,
+      "mot": "est,"
+    },
+    {
+      "debut": 76.06,
+      "fin": 76.14,
+      "mot": "c"
+    },
+    {
+      "debut": 76.14,
+      "fin": 76.16,
+      "mot": "'est"
+    },
+    {
+      "debut": 76.16,
+      "fin": 76.34,
+      "mot": "le"
+    },
+    {
+      "debut": 76.34,
+      "fin": 76.86,
+      "mot": "pharaon."
+    },
+    {
+      "debut": 77.4,
+      "fin": 77.54,
+      "mot": "Si"
+    },
+    {
+      "debut": 77.54,
+      "fin": 77.68,
+      "mot": "tu"
+    },
+    {
+      "debut": 77.68,
+      "fin": 77.86,
+      "mot": "le"
+    },
+    {
+      "debut": 77.86,
+      "fin": 78.12,
+      "mot": "cherches,"
+    },
+    {
+      "debut": 78.16,
+      "fin": 78.16,
+      "mot": "t"
+    },
+    {
+      "debut": 78.16,
+      "fin": 78.3,
+      "mot": "'es"
+    },
+    {
+      "debut": 78.3,
+      "fin": 78.46,
+      "mot": "mort."
+    }
+  ]
+}

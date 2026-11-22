@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "id": "7698828978043276577",
+    "url": "https://www.tiktok.com/@fruitwist.tv/video/7698828978043276577",
+    "compte": "fruitwist.tv",
+    "description": "20 minutes sans respirer 🧘 #fruitstory #iafruit ",
+    "vues": 978300,
+    "likes": 111300,
+    "commentaires": 1216,
+    "partages": 1088,
+    "date": "20261020",
+    "duree": 62.2,
+    "musique": "TREND DAS FRUTAS",
+    "taux_likes": 11.38,
+    "taux_commentaires": 0.124
+  },
+  "langue": "fr",
+  "texte_complet": "20 minutes sous l'eau, Péchina, sors ou je vide la piscine ! Je suis maman, je suis en visio avec mon chef, au fond au moins c'est calme. Maman, 2 millions d'euros pour que tu tiens le plus longtemps sous l'eau, c'est pour moi ! Même pas en rêve Péchina, je te laisse pas faire cette folie. S'il te plaît maman, si tu dis non, je pleure ici toute la journée, devant tout le monde ! Oh la honte, tout le monde nous regarde. Relève-toi, c'est bon, vas-y. Merci maman, je filme inscrire, c'est parti ! C'est bon, t'es inscrite Péchina, fil au bassin, le championnat commence dans 30 minutes. Mille merci, je suis née pour ça moi. Alors, on va voir qui tient 5 minutes, ici ! Vous dégonflez pas hein ? Franchement, sous l'eau je suis comme chez moi frérot. J'en peux plus, j'ai plus d'air ! Je sors, je sors ! Et Poirino craque, il sort de l'eau, il est éliminé, le premier ! Je ne supporte plus la pression Kiwino, j'ai plus une seule goutte d'air ! J'abandonne, je remonte ! Attends-moi, comment elle fait pour rester aussi tranquille au fond Péchina ? Elle dort ou quoi ? J'abandonne aussi ! Incroyable, notre candidat de Marseille, Péchina, va aller meilleur de France sans forcer. Franchement, je commençais à peine à être bien, au fond. Attends ce pas fini Péchina, maintenant tu affrontes le champion du monde, jamais battu, point ! Le champion du monde ici, il garde son titre depuis 10 ans ! Et tes 2 millions tu les touches seulement si tu me bats ! J'ai gagné et personne ne m'avait parlé plus !",
+  "accroche_3s": "20 minutes sous l 'eau, Péchina, sors ou je vide la piscine ! Je suis",
+  "fin_5s": "millions tu les touches seulement si tu me bats ! J 'ai gagné et personne ne m 'avait parlé plus !",
+  "mots_par_seconde": 4.87,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 9,
+  "duree_moyenne_plan": 6.91,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 2.86,
+      "texte": "20 minutes sous l'eau, Péchina, sors ou je vide la piscine !"
+    },
+    {
+      "debut": 2.86,
+      "fin": 5.02,
+      "texte": "Je suis maman, je suis en visio avec mon chef, au fond au moins c'est calme."
+    },
+    {
+      "debut": 5.18,
+      "fin": 7.8,
+      "texte": "Maman, 2 millions d'euros pour que tu tiens le plus longtemps sous l'eau, c'est pour moi !"
+    },
+    {
+      "debut": 7.8,
+      "fin": 10.04,
+      "texte": "Même pas en rêve Péchina, je te laisse pas faire cette folie."
+    },
+    {
+      "debut": 10.16,
+      "fin": 13.8,
+      "texte": "S'il te plaît maman, si tu dis non, je pleure ici toute la journée, devant tout le monde !"
+    },
+    {
+      "debut": 13.8,
+      "fin": 14.96,
+      "texte": "Oh la honte, tout le monde nous regarde."
+    },
+    {
+      "debut": 15.18,
+      "fin": 16.1,
+      "texte": "Relève-toi, c'est bon, vas-y."
+    },
+    {
+      "debut": 16.18,
+      "fin": 18.46,
+      "texte": "Merci maman, je filme inscrire, c'est parti !"
+    },
+    {
+      "debut": 18.46,
+      "fin": 21.32,
+      "texte": "C'est bon, t'es inscrite Péchina, fil au bassin, le championnat commence dans 30 minutes."
+    },
+    {
+      "debut": 21.42,
+      "fin": 22.74,
+      "texte": "Mille merci, je suis née pour ça moi."
+    },
+    {
+      "debut": 27.28,
+      "fin": 29.42,
+      "texte": "Alors, on va voir qui tient 5 minutes, ici !"
+    },
+    {
+      "debut": 29.42,
+      "fin": 30.4,
+      "texte": "Vous dégonflez pas hein ?"
+    },
+    {
+      "debut": 30.4,
+      "fin": 32.1,
+      "texte": "Franchement, sous l'eau je suis comme chez moi frérot."
+    },
+    {
+      "debut": 32.64,
+      "fin": 33.92,
+      "texte": "J'en peux plus, j'ai plus d'air !"
+    },
+    {
+      "debut": 33.92,
+      "fin": 34.82,
+      "texte": "Je sors, je sors !"
+    },
+    {
+      "debut": 34.82,
+      "fin": 37.5,
+      "texte": "Et Poirino craque, il sort de l'eau, il est éliminé, le premier !"
+    },
+    {
+      "debut": 37.5,
+      "fin": 40.42,
+      "texte": "Je ne supporte plus la pression Kiwino, j'ai plus une seule goutte d'air !"
+    },
+    {
+      "debut": 40.42,
+      "fin": 41.68,
+      "texte": "J'abandonne, je remonte !"
+    },
+    {
+      "debut": 41.68,
+      "fin": 44.04,
+      "texte": "Attends-moi, comment elle fait pour rester aussi tranquille au fond Péchina ?"
+    },
+    {
+      "debut": 44.04,
+      "fin": 45.84,
+      "texte": "Elle dort ou quoi ? J'abandonne aussi !"
+    },
+    {
+      "debut": 45.84,
+      "fin": 48.72,
+      "texte": "Incroyable, notre candidat de Marseille, Péchina, va aller meilleur de France sans forcer."
+    },
+    {
+      "debut": 48.88,
+      "fin": 50.62,
+      "texte": "Franchement, je commençais à peine à être bien, au fond."
+    },
+    {
+      "debut": 51.28,
+      "fin": 54.58,
+      "texte": "Attends ce pas fini Péchina, maintenant tu affrontes le champion du monde, jamais battu, point !"
+    },
+    {
+      "debut": 54.58,
+      "fin": 56.86,
+      "texte": "Le champion du monde ici, il garde son titre depuis 10 ans !"
+    },
+    {
+      "debut": 56.86,
+      "fin": 58.84,
+      "texte": "Et tes 2 millions tu les touches seulement si tu me bats !"
+    },
+    {
+      "debut": 58.84,
+      "fin": 60.62,
+      "texte": "J'ai gagné et personne ne m'avait parlé plus !"
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 17.57,
+      "duree": 17.57
+    },
+    {
+      "n": 2,
+      "debut": 17.57,
+      "fin": 24.62,
+      "duree": 7.05
+    },
+    {
+      "n": 3,
+      "debut": 24.62,
+      "fin": 34.65,
+      "duree": 10.03
+    },
+    {
+      "n": 4,
+      "debut": 34.65,
+      "fin": 40.82,
+      "duree": 6.17
+    },
+    {
+      "n": 5,
+      "debut": 40.82,
+      "fin": 45.07,
+      "duree": 4.25
+    },
+    {
+      "n": 6,
+      "debut": 45.07,
+      "fin": 54.37,
+      "duree": 9.3
+    },
+    {
+      "n": 7,
+      "debut": 54.37,
+      "fin": 56.2,
+      "duree": 1.83
+    },
+    {
+      "n": 8,
+      "debut": 56.2,
+      "fin": 58.7,
+      "duree": 2.5
+    },
+    {
+      "n": 9,
+      "debut": 58.7,
+      "fin": 62.16,
+      "duree": 3.46
+    }
+  ]
+}

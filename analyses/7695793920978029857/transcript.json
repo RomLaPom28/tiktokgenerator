@@ -1,0 +1,1317 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.11,
+      "fin": 2.27,
+      "texte": "Je vois, donc tu essaies de m'arnaquer ?"
+    },
+    {
+      "debut": 2.27,
+      "fin": 5.29,
+      "texte": "Personne ne peut arnaquer le diable, je vais rester ici jusqu'à ce que tu sortes !"
+    },
+    {
+      "debut": 5.29,
+      "fin": 8.11,
+      "texte": "Vas-y pas de soucis, bah profite bien de la vue, trou de balle !"
+    },
+    {
+      "debut": 16.82,
+      "fin": 19.06,
+      "texte": "Recule, enfoiré ! Tu ne vas pas m'attraper !"
+    },
+    {
+      "debut": 20.66,
+      "fin": 22.92,
+      "texte": "Putain Coco, j'ai besoin de toi !"
+    },
+    {
+      "debut": 22.92,
+      "fin": 24.84,
+      "texte": "Le diable a réussi à rentrer dans ma maison !"
+    },
+    {
+      "debut": 24.84,
+      "fin": 29.28,
+      "texte": "Là je suis caché dans mon salon derrière une ligne de selle et je sais pas combien de temps elle va tenir !"
+    },
+    {
+      "debut": 29.28,
+      "fin": 32.46,
+      "texte": "Surtout reste bien derrière la ligne de selle, ne la franchis sous aucun prétexte !"
+    },
+    {
+      "debut": 32.46,
+      "fin": 35.22,
+      "texte": "Il va essayer de te faire sortir en te séduisant mais résiste !"
+    },
+    {
+      "debut": 35.22,
+      "fin": 39.92,
+      "texte": "S'il te plait mon chéri, enlève la ligne de selle, j'ai pas envie de salir mes talons, ils sont tout neuf !"
+    },
+    {
+      "debut": 39.92,
+      "fin": 43.24,
+      "texte": "Ferme-la sale démon ! Je sais que c'est toi qui te cache derrière cette femme, dégage !"
+    },
+    {
+      "debut": 43.76,
+      "fin": 46.92,
+      "texte": "Bien essayé mais il va falloir être plus technique pour réussir à me piéger !"
+    },
+    {
+      "debut": 46.92,
+      "fin": 49.52,
+      "texte": "Ne t'inquiète pas, tu ne vas pas pouvoir rester dans ce salon toute ta vie !"
+    },
+    {
+      "debut": 49.52,
+      "fin": 52.36,
+      "texte": "On verra bien !"
+    },
+    {
+      "debut": 52.36,
+      "fin": 57.14,
+      "texte": "Ma... Maman c'est vraiment toi ? Tu es mort il y a 20 ans, ça ne peut pas être toi !"
+    },
+    {
+      "debut": 57.14,
+      "fin": 61.76,
+      "texte": "Si mon fils c'est moi, et je suis bloquée dans ce monde parce que j'ai aussi fait un pacte avec le diable !"
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.11,
+      "fin": 0.63,
+      "mot": "Je"
+    },
+    {
+      "debut": 0.63,
+      "fin": 0.85,
+      "mot": "vois,"
+    },
+    {
+      "debut": 0.93,
+      "fin": 0.97,
+      "mot": "donc"
+    },
+    {
+      "debut": 0.97,
+      "fin": 1.13,
+      "mot": "tu"
+    },
+    {
+      "debut": 1.13,
+      "fin": 1.29,
+      "mot": "essaies"
+    },
+    {
+      "debut": 1.29,
+      "fin": 1.37,
+      "mot": "de"
+    },
+    {
+      "debut": 1.37,
+      "fin": 1.45,
+      "mot": "m"
+    },
+    {
+      "debut": 1.45,
+      "fin": 1.91,
+      "mot": "'arnaquer"
+    },
+    {
+      "debut": 1.91,
+      "fin": 2.27,
+      "mot": "?"
+    },
+    {
+      "debut": 2.27,
+      "fin": 2.47,
+      "mot": "Personne"
+    },
+    {
+      "debut": 2.47,
+      "fin": 2.57,
+      "mot": "ne"
+    },
+    {
+      "debut": 2.57,
+      "fin": 2.69,
+      "mot": "peut"
+    },
+    {
+      "debut": 2.69,
+      "fin": 2.93,
+      "mot": "arnaquer"
+    },
+    {
+      "debut": 2.93,
+      "fin": 3.09,
+      "mot": "le"
+    },
+    {
+      "debut": 3.09,
+      "fin": 3.23,
+      "mot": "diable,"
+    },
+    {
+      "debut": 3.29,
+      "fin": 3.37,
+      "mot": "je"
+    },
+    {
+      "debut": 3.37,
+      "fin": 3.47,
+      "mot": "vais"
+    },
+    {
+      "debut": 3.47,
+      "fin": 3.67,
+      "mot": "rester"
+    },
+    {
+      "debut": 3.67,
+      "fin": 3.93,
+      "mot": "ici"
+    },
+    {
+      "debut": 3.93,
+      "fin": 4.11,
+      "mot": "jusqu"
+    },
+    {
+      "debut": 4.11,
+      "fin": 4.21,
+      "mot": "'à"
+    },
+    {
+      "debut": 4.21,
+      "fin": 4.23,
+      "mot": "ce"
+    },
+    {
+      "debut": 4.23,
+      "fin": 4.27,
+      "mot": "que"
+    },
+    {
+      "debut": 4.27,
+      "fin": 4.45,
+      "mot": "tu"
+    },
+    {
+      "debut": 4.45,
+      "fin": 5.15,
+      "mot": "sortes"
+    },
+    {
+      "debut": 5.15,
+      "fin": 5.29,
+      "mot": "!"
+    },
+    {
+      "debut": 5.29,
+      "fin": 5.43,
+      "mot": "Vas"
+    },
+    {
+      "debut": 5.43,
+      "fin": 5.51,
+      "mot": "-y"
+    },
+    {
+      "debut": 5.51,
+      "fin": 5.63,
+      "mot": "pas"
+    },
+    {
+      "debut": 5.63,
+      "fin": 5.75,
+      "mot": "de"
+    },
+    {
+      "debut": 5.75,
+      "fin": 6.07,
+      "mot": "soucis,"
+    },
+    {
+      "debut": 6.19,
+      "fin": 6.35,
+      "mot": "bah"
+    },
+    {
+      "debut": 6.35,
+      "fin": 6.53,
+      "mot": "profite"
+    },
+    {
+      "debut": 6.53,
+      "fin": 6.71,
+      "mot": "bien"
+    },
+    {
+      "debut": 6.71,
+      "fin": 6.79,
+      "mot": "de"
+    },
+    {
+      "debut": 6.79,
+      "fin": 6.87,
+      "mot": "la"
+    },
+    {
+      "debut": 6.87,
+      "fin": 6.99,
+      "mot": "vue,"
+    },
+    {
+      "debut": 7.01,
+      "fin": 7.15,
+      "mot": "trou"
+    },
+    {
+      "debut": 7.15,
+      "fin": 7.29,
+      "mot": "de"
+    },
+    {
+      "debut": 7.29,
+      "fin": 7.51,
+      "mot": "balle"
+    },
+    {
+      "debut": 7.51,
+      "fin": 8.11,
+      "mot": "!"
+    },
+    {
+      "debut": 16.82,
+      "fin": 17.1,
+      "mot": "Recule,"
+    },
+    {
+      "debut": 17.1,
+      "fin": 17.38,
+      "mot": "enfoiré"
+    },
+    {
+      "debut": 17.38,
+      "fin": 17.66,
+      "mot": "!"
+    },
+    {
+      "debut": 17.66,
+      "fin": 17.84,
+      "mot": "Tu"
+    },
+    {
+      "debut": 17.84,
+      "fin": 17.94,
+      "mot": "ne"
+    },
+    {
+      "debut": 17.94,
+      "fin": 18.06,
+      "mot": "vas"
+    },
+    {
+      "debut": 18.06,
+      "fin": 18.18,
+      "mot": "pas"
+    },
+    {
+      "debut": 18.18,
+      "fin": 18.32,
+      "mot": "m"
+    },
+    {
+      "debut": 18.32,
+      "fin": 18.92,
+      "mot": "'attraper"
+    },
+    {
+      "debut": 18.92,
+      "fin": 19.06,
+      "mot": "!"
+    },
+    {
+      "debut": 20.66,
+      "fin": 20.94,
+      "mot": "Putain"
+    },
+    {
+      "debut": 20.94,
+      "fin": 21.2,
+      "mot": "Coco,"
+    },
+    {
+      "debut": 21.26,
+      "fin": 21.36,
+      "mot": "j"
+    },
+    {
+      "debut": 21.36,
+      "fin": 21.48,
+      "mot": "'ai"
+    },
+    {
+      "debut": 21.48,
+      "fin": 21.64,
+      "mot": "besoin"
+    },
+    {
+      "debut": 21.64,
+      "fin": 21.82,
+      "mot": "de"
+    },
+    {
+      "debut": 21.82,
+      "fin": 22.06,
+      "mot": "toi"
+    },
+    {
+      "debut": 22.06,
+      "fin": 22.92,
+      "mot": "!"
+    },
+    {
+      "debut": 22.92,
+      "fin": 23.12,
+      "mot": "Le"
+    },
+    {
+      "debut": 23.12,
+      "fin": 23.3,
+      "mot": "diable"
+    },
+    {
+      "debut": 23.3,
+      "fin": 23.46,
+      "mot": "a"
+    },
+    {
+      "debut": 23.46,
+      "fin": 23.7,
+      "mot": "réussi"
+    },
+    {
+      "debut": 23.7,
+      "fin": 23.84,
+      "mot": "à"
+    },
+    {
+      "debut": 23.84,
+      "fin": 24.04,
+      "mot": "rentrer"
+    },
+    {
+      "debut": 24.04,
+      "fin": 24.18,
+      "mot": "dans"
+    },
+    {
+      "debut": 24.18,
+      "fin": 24.28,
+      "mot": "ma"
+    },
+    {
+      "debut": 24.28,
+      "fin": 24.54,
+      "mot": "maison"
+    },
+    {
+      "debut": 24.54,
+      "fin": 24.84,
+      "mot": "!"
+    },
+    {
+      "debut": 24.84,
+      "fin": 24.98,
+      "mot": "Là"
+    },
+    {
+      "debut": 24.98,
+      "fin": 25.0,
+      "mot": "je"
+    },
+    {
+      "debut": 25.0,
+      "fin": 25.16,
+      "mot": "suis"
+    },
+    {
+      "debut": 25.16,
+      "fin": 25.42,
+      "mot": "caché"
+    },
+    {
+      "debut": 25.42,
+      "fin": 25.56,
+      "mot": "dans"
+    },
+    {
+      "debut": 25.56,
+      "fin": 25.7,
+      "mot": "mon"
+    },
+    {
+      "debut": 25.7,
+      "fin": 25.9,
+      "mot": "salon"
+    },
+    {
+      "debut": 25.9,
+      "fin": 26.18,
+      "mot": "derrière"
+    },
+    {
+      "debut": 26.18,
+      "fin": 26.3,
+      "mot": "une"
+    },
+    {
+      "debut": 26.3,
+      "fin": 26.44,
+      "mot": "ligne"
+    },
+    {
+      "debut": 26.44,
+      "fin": 26.7,
+      "mot": "de"
+    },
+    {
+      "debut": 26.7,
+      "fin": 26.74,
+      "mot": "selle"
+    },
+    {
+      "debut": 26.74,
+      "fin": 26.86,
+      "mot": "et"
+    },
+    {
+      "debut": 26.86,
+      "fin": 26.98,
+      "mot": "je"
+    },
+    {
+      "debut": 26.98,
+      "fin": 27.08,
+      "mot": "sais"
+    },
+    {
+      "debut": 27.08,
+      "fin": 27.22,
+      "mot": "pas"
+    },
+    {
+      "debut": 27.22,
+      "fin": 27.36,
+      "mot": "combien"
+    },
+    {
+      "debut": 27.36,
+      "fin": 27.5,
+      "mot": "de"
+    },
+    {
+      "debut": 27.5,
+      "fin": 27.56,
+      "mot": "temps"
+    },
+    {
+      "debut": 27.56,
+      "fin": 27.64,
+      "mot": "elle"
+    },
+    {
+      "debut": 27.64,
+      "fin": 27.78,
+      "mot": "va"
+    },
+    {
+      "debut": 27.78,
+      "fin": 28.12,
+      "mot": "tenir"
+    },
+    {
+      "debut": 28.12,
+      "fin": 29.28,
+      "mot": "!"
+    },
+    {
+      "debut": 29.28,
+      "fin": 29.48,
+      "mot": "Surtout"
+    },
+    {
+      "debut": 29.48,
+      "fin": 29.7,
+      "mot": "reste"
+    },
+    {
+      "debut": 29.7,
+      "fin": 29.92,
+      "mot": "bien"
+    },
+    {
+      "debut": 29.92,
+      "fin": 30.12,
+      "mot": "derrière"
+    },
+    {
+      "debut": 30.12,
+      "fin": 30.24,
+      "mot": "la"
+    },
+    {
+      "debut": 30.24,
+      "fin": 30.36,
+      "mot": "ligne"
+    },
+    {
+      "debut": 30.36,
+      "fin": 30.56,
+      "mot": "de"
+    },
+    {
+      "debut": 30.56,
+      "fin": 30.8,
+      "mot": "selle,"
+    },
+    {
+      "debut": 30.9,
+      "fin": 31.0,
+      "mot": "ne"
+    },
+    {
+      "debut": 31.0,
+      "fin": 31.18,
+      "mot": "la"
+    },
+    {
+      "debut": 31.18,
+      "fin": 31.38,
+      "mot": "franchis"
+    },
+    {
+      "debut": 31.38,
+      "fin": 31.56,
+      "mot": "sous"
+    },
+    {
+      "debut": 31.56,
+      "fin": 31.76,
+      "mot": "aucun"
+    },
+    {
+      "debut": 31.76,
+      "fin": 32.34,
+      "mot": "prétexte"
+    },
+    {
+      "debut": 32.34,
+      "fin": 32.46,
+      "mot": "!"
+    },
+    {
+      "debut": 32.46,
+      "fin": 32.56,
+      "mot": "Il"
+    },
+    {
+      "debut": 32.56,
+      "fin": 32.66,
+      "mot": "va"
+    },
+    {
+      "debut": 32.66,
+      "fin": 32.9,
+      "mot": "essayer"
+    },
+    {
+      "debut": 32.9,
+      "fin": 33.0,
+      "mot": "de"
+    },
+    {
+      "debut": 33.0,
+      "fin": 33.06,
+      "mot": "te"
+    },
+    {
+      "debut": 33.06,
+      "fin": 33.22,
+      "mot": "faire"
+    },
+    {
+      "debut": 33.22,
+      "fin": 33.46,
+      "mot": "sortir"
+    },
+    {
+      "debut": 33.46,
+      "fin": 33.58,
+      "mot": "en"
+    },
+    {
+      "debut": 33.58,
+      "fin": 33.7,
+      "mot": "te"
+    },
+    {
+      "debut": 33.7,
+      "fin": 34.0,
+      "mot": "séduisant"
+    },
+    {
+      "debut": 34.0,
+      "fin": 34.14,
+      "mot": "mais"
+    },
+    {
+      "debut": 34.14,
+      "fin": 34.58,
+      "mot": "résiste"
+    },
+    {
+      "debut": 34.58,
+      "fin": 35.22,
+      "mot": "!"
+    },
+    {
+      "debut": 35.22,
+      "fin": 35.32,
+      "mot": "S"
+    },
+    {
+      "debut": 35.32,
+      "fin": 35.42,
+      "mot": "'il"
+    },
+    {
+      "debut": 35.42,
+      "fin": 35.6,
+      "mot": "te"
+    },
+    {
+      "debut": 35.6,
+      "fin": 35.7,
+      "mot": "plait"
+    },
+    {
+      "debut": 35.7,
+      "fin": 35.88,
+      "mot": "mon"
+    },
+    {
+      "debut": 35.88,
+      "fin": 36.32,
+      "mot": "chéri,"
+    },
+    {
+      "debut": 36.72,
+      "fin": 36.86,
+      "mot": "enlève"
+    },
+    {
+      "debut": 36.86,
+      "fin": 37.0,
+      "mot": "la"
+    },
+    {
+      "debut": 37.0,
+      "fin": 37.16,
+      "mot": "ligne"
+    },
+    {
+      "debut": 37.16,
+      "fin": 37.38,
+      "mot": "de"
+    },
+    {
+      "debut": 37.38,
+      "fin": 37.48,
+      "mot": "selle,"
+    },
+    {
+      "debut": 37.58,
+      "fin": 37.64,
+      "mot": "j"
+    },
+    {
+      "debut": 37.64,
+      "fin": 37.64,
+      "mot": "'ai"
+    },
+    {
+      "debut": 37.64,
+      "fin": 37.8,
+      "mot": "pas"
+    },
+    {
+      "debut": 37.8,
+      "fin": 37.92,
+      "mot": "envie"
+    },
+    {
+      "debut": 37.92,
+      "fin": 38.06,
+      "mot": "de"
+    },
+    {
+      "debut": 38.06,
+      "fin": 38.2,
+      "mot": "salir"
+    },
+    {
+      "debut": 38.2,
+      "fin": 38.38,
+      "mot": "mes"
+    },
+    {
+      "debut": 38.38,
+      "fin": 38.68,
+      "mot": "talons,"
+    },
+    {
+      "debut": 38.86,
+      "fin": 38.98,
+      "mot": "ils"
+    },
+    {
+      "debut": 38.98,
+      "fin": 39.18,
+      "mot": "sont"
+    },
+    {
+      "debut": 39.18,
+      "fin": 39.36,
+      "mot": "tout"
+    },
+    {
+      "debut": 39.36,
+      "fin": 39.68,
+      "mot": "neuf"
+    },
+    {
+      "debut": 39.68,
+      "fin": 39.92,
+      "mot": "!"
+    },
+    {
+      "debut": 39.92,
+      "fin": 40.18,
+      "mot": "Ferme"
+    },
+    {
+      "debut": 40.18,
+      "fin": 40.34,
+      "mot": "-la"
+    },
+    {
+      "debut": 40.34,
+      "fin": 40.48,
+      "mot": "sale"
+    },
+    {
+      "debut": 40.48,
+      "fin": 40.76,
+      "mot": "démon"
+    },
+    {
+      "debut": 40.76,
+      "fin": 40.94,
+      "mot": "!"
+    },
+    {
+      "debut": 40.94,
+      "fin": 41.06,
+      "mot": "Je"
+    },
+    {
+      "debut": 41.06,
+      "fin": 41.22,
+      "mot": "sais"
+    },
+    {
+      "debut": 41.22,
+      "fin": 41.3,
+      "mot": "que"
+    },
+    {
+      "debut": 41.3,
+      "fin": 41.42,
+      "mot": "c"
+    },
+    {
+      "debut": 41.42,
+      "fin": 41.42,
+      "mot": "'est"
+    },
+    {
+      "debut": 41.42,
+      "fin": 41.54,
+      "mot": "toi"
+    },
+    {
+      "debut": 41.54,
+      "fin": 41.64,
+      "mot": "qui"
+    },
+    {
+      "debut": 41.64,
+      "fin": 41.82,
+      "mot": "te"
+    },
+    {
+      "debut": 41.82,
+      "fin": 41.92,
+      "mot": "cache"
+    },
+    {
+      "debut": 41.92,
+      "fin": 42.16,
+      "mot": "derrière"
+    },
+    {
+      "debut": 42.16,
+      "fin": 42.32,
+      "mot": "cette"
+    },
+    {
+      "debut": 42.32,
+      "fin": 42.54,
+      "mot": "femme,"
+    },
+    {
+      "debut": 42.72,
+      "fin": 43.08,
+      "mot": "dégage"
+    },
+    {
+      "debut": 43.08,
+      "fin": 43.24,
+      "mot": "!"
+    },
+    {
+      "debut": 43.76,
+      "fin": 43.98,
+      "mot": "Bien"
+    },
+    {
+      "debut": 43.98,
+      "fin": 44.32,
+      "mot": "essayé"
+    },
+    {
+      "debut": 44.32,
+      "fin": 44.4,
+      "mot": "mais"
+    },
+    {
+      "debut": 44.4,
+      "fin": 44.54,
+      "mot": "il"
+    },
+    {
+      "debut": 44.54,
+      "fin": 44.62,
+      "mot": "va"
+    },
+    {
+      "debut": 44.62,
+      "fin": 44.82,
+      "mot": "falloir"
+    },
+    {
+      "debut": 44.82,
+      "fin": 44.98,
+      "mot": "être"
+    },
+    {
+      "debut": 44.98,
+      "fin": 45.16,
+      "mot": "plus"
+    },
+    {
+      "debut": 45.16,
+      "fin": 45.4,
+      "mot": "technique"
+    },
+    {
+      "debut": 45.4,
+      "fin": 45.56,
+      "mot": "pour"
+    },
+    {
+      "debut": 45.56,
+      "fin": 45.88,
+      "mot": "réussir"
+    },
+    {
+      "debut": 45.88,
+      "fin": 45.94,
+      "mot": "à"
+    },
+    {
+      "debut": 45.94,
+      "fin": 46.08,
+      "mot": "me"
+    },
+    {
+      "debut": 46.08,
+      "fin": 46.32,
+      "mot": "piéger"
+    },
+    {
+      "debut": 46.32,
+      "fin": 46.92,
+      "mot": "!"
+    },
+    {
+      "debut": 46.92,
+      "fin": 47.06,
+      "mot": "Ne"
+    },
+    {
+      "debut": 47.06,
+      "fin": 47.2,
+      "mot": "t"
+    },
+    {
+      "debut": 47.2,
+      "fin": 47.4,
+      "mot": "'inquiète"
+    },
+    {
+      "debut": 47.4,
+      "fin": 47.54,
+      "mot": "pas,"
+    },
+    {
+      "debut": 47.56,
+      "fin": 47.66,
+      "mot": "tu"
+    },
+    {
+      "debut": 47.66,
+      "fin": 47.74,
+      "mot": "ne"
+    },
+    {
+      "debut": 47.74,
+      "fin": 47.88,
+      "mot": "vas"
+    },
+    {
+      "debut": 47.88,
+      "fin": 47.96,
+      "mot": "pas"
+    },
+    {
+      "debut": 47.96,
+      "fin": 48.14,
+      "mot": "pouvoir"
+    },
+    {
+      "debut": 48.14,
+      "fin": 48.34,
+      "mot": "rester"
+    },
+    {
+      "debut": 48.34,
+      "fin": 48.48,
+      "mot": "dans"
+    },
+    {
+      "debut": 48.48,
+      "fin": 48.58,
+      "mot": "ce"
+    },
+    {
+      "debut": 48.58,
+      "fin": 48.74,
+      "mot": "salon"
+    },
+    {
+      "debut": 48.74,
+      "fin": 48.92,
+      "mot": "toute"
+    },
+    {
+      "debut": 48.92,
+      "fin": 49.1,
+      "mot": "ta"
+    },
+    {
+      "debut": 49.1,
+      "fin": 49.3,
+      "mot": "vie"
+    },
+    {
+      "debut": 49.3,
+      "fin": 49.52,
+      "mot": "!"
+    },
+    {
+      "debut": 49.52,
+      "fin": 49.58,
+      "mot": "On"
+    },
+    {
+      "debut": 49.58,
+      "fin": 49.82,
+      "mot": "verra"
+    },
+    {
+      "debut": 49.82,
+      "fin": 50.3,
+      "mot": "bien"
+    },
+    {
+      "debut": 50.3,
+      "fin": 52.36,
+      "mot": "!"
+    },
+    {
+      "debut": 52.36,
+      "fin": 52.94,
+      "mot": "Ma..."
+    },
+    {
+      "debut": 52.94,
+      "fin": 53.16,
+      "mot": "Maman"
+    },
+    {
+      "debut": 53.16,
+      "fin": 53.28,
+      "mot": "c"
+    },
+    {
+      "debut": 53.28,
+      "fin": 53.32,
+      "mot": "'est"
+    },
+    {
+      "debut": 53.32,
+      "fin": 53.6,
+      "mot": "vraiment"
+    },
+    {
+      "debut": 53.6,
+      "fin": 53.9,
+      "mot": "toi"
+    },
+    {
+      "debut": 53.9,
+      "fin": 54.36,
+      "mot": "?"
+    },
+    {
+      "debut": 54.36,
+      "fin": 54.5,
+      "mot": "Tu"
+    },
+    {
+      "debut": 54.5,
+      "fin": 54.7,
+      "mot": "es"
+    },
+    {
+      "debut": 54.7,
+      "fin": 54.82,
+      "mot": "mort"
+    },
+    {
+      "debut": 54.82,
+      "fin": 54.96,
+      "mot": "il"
+    },
+    {
+      "debut": 54.96,
+      "fin": 54.98,
+      "mot": "y"
+    },
+    {
+      "debut": 54.98,
+      "fin": 55.04,
+      "mot": "a"
+    },
+    {
+      "debut": 55.04,
+      "fin": 55.24,
+      "mot": "20"
+    },
+    {
+      "debut": 55.24,
+      "fin": 55.4,
+      "mot": "ans,"
+    },
+    {
+      "debut": 55.44,
+      "fin": 55.56,
+      "mot": "ça"
+    },
+    {
+      "debut": 55.56,
+      "fin": 55.72,
+      "mot": "ne"
+    },
+    {
+      "debut": 55.72,
+      "fin": 55.82,
+      "mot": "peut"
+    },
+    {
+      "debut": 55.82,
+      "fin": 55.94,
+      "mot": "pas"
+    },
+    {
+      "debut": 55.94,
+      "fin": 56.1,
+      "mot": "être"
+    },
+    {
+      "debut": 56.1,
+      "fin": 56.44,
+      "mot": "toi"
+    },
+    {
+      "debut": 56.44,
+      "fin": 57.14,
+      "mot": "!"
+    },
+    {
+      "debut": 57.14,
+      "fin": 57.32,
+      "mot": "Si"
+    },
+    {
+      "debut": 57.32,
+      "fin": 57.52,
+      "mot": "mon"
+    },
+    {
+      "debut": 57.52,
+      "fin": 57.7,
+      "mot": "fils"
+    },
+    {
+      "debut": 57.7,
+      "fin": 57.82,
+      "mot": "c"
+    },
+    {
+      "debut": 57.82,
+      "fin": 57.96,
+      "mot": "'est"
+    },
+    {
+      "debut": 57.96,
+      "fin": 58.18,
+      "mot": "moi,"
+    },
+    {
+      "debut": 58.5,
+      "fin": 58.64,
+      "mot": "et"
+    },
+    {
+      "debut": 58.64,
+      "fin": 58.7,
+      "mot": "je"
+    },
+    {
+      "debut": 58.7,
+      "fin": 58.88,
+      "mot": "suis"
+    },
+    {
+      "debut": 58.88,
+      "fin": 59.16,
+      "mot": "bloquée"
+    },
+    {
+      "debut": 59.16,
+      "fin": 59.32,
+      "mot": "dans"
+    },
+    {
+      "debut": 59.32,
+      "fin": 59.48,
+      "mot": "ce"
+    },
+    {
+      "debut": 59.48,
+      "fin": 59.6,
+      "mot": "monde"
+    },
+    {
+      "debut": 59.6,
+      "fin": 59.84,
+      "mot": "parce"
+    },
+    {
+      "debut": 59.84,
+      "fin": 59.94,
+      "mot": "que"
+    },
+    {
+      "debut": 59.94,
+      "fin": 60.02,
+      "mot": "j"
+    },
+    {
+      "debut": 60.02,
+      "fin": 60.08,
+      "mot": "'ai"
+    },
+    {
+      "debut": 60.08,
+      "fin": 60.3,
+      "mot": "aussi"
+    },
+    {
+      "debut": 60.3,
+      "fin": 60.44,
+      "mot": "fait"
+    },
+    {
+      "debut": 60.44,
+      "fin": 60.62,
+      "mot": "un"
+    },
+    {
+      "debut": 60.62,
+      "fin": 60.84,
+      "mot": "pacte"
+    },
+    {
+      "debut": 60.84,
+      "fin": 60.98,
+      "mot": "avec"
+    },
+    {
+      "debut": 60.98,
+      "fin": 61.18,
+      "mot": "le"
+    },
+    {
+      "debut": 61.18,
+      "fin": 61.44,
+      "mot": "diable"
+    },
+    {
+      "debut": 61.44,
+      "fin": 61.76,
+      "mot": "!"
+    }
+  ]
+}

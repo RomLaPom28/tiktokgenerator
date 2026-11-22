@@ -1,0 +1,432 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 3.6,
+      "texte": "Ton petit frère est parti en chialant. Et toi, tu fais quoi, la victime ?"
+    },
+    {
+      "debut": 4.44,
+      "fin": 6.76,
+      "texte": "Tu voulais savoir ce que c'était ? Regarde bien."
+    },
+    {
+      "debut": 29.14,
+      "fin": 30.62,
+      "texte": "Portes tes mains et bats-toi !"
+    },
+    {
+      "debut": 39.01,
+      "fin": 41.09,
+      "texte": "Derrière toi, tu me cherchais où ?"
+    },
+    {
+      "debut": 47.15,
+      "fin": 50.61,
+      "texte": "Tout le lycée à la vidéo, Ilyes. Même ton coach l'a vu."
+    },
+    {
+      "debut": 51.83,
+      "fin": 54.31,
+      "texte": "Il a touché à Lychee. Je regrette rien."
+    },
+    {
+      "debut": 57.82,
+      "fin": 62.06,
+      "texte": "Cousin, j'ai besoin de toi. C'est grave."
+    },
+    {
+      "debut": 63.88,
+      "fin": 66.22,
+      "texte": "T'as perdu. Ferme-la. Je passe demain."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.0,
+      "fin": 0.42,
+      "mot": "Ton"
+    },
+    {
+      "debut": 0.42,
+      "fin": 0.7,
+      "mot": "petit"
+    },
+    {
+      "debut": 0.7,
+      "fin": 0.88,
+      "mot": "frère"
+    },
+    {
+      "debut": 0.88,
+      "fin": 1.08,
+      "mot": "est"
+    },
+    {
+      "debut": 1.08,
+      "fin": 1.26,
+      "mot": "parti"
+    },
+    {
+      "debut": 1.26,
+      "fin": 1.44,
+      "mot": "en"
+    },
+    {
+      "debut": 1.44,
+      "fin": 1.94,
+      "mot": "chialant."
+    },
+    {
+      "debut": 2.18,
+      "fin": 2.32,
+      "mot": "Et"
+    },
+    {
+      "debut": 2.32,
+      "fin": 2.44,
+      "mot": "toi,"
+    },
+    {
+      "debut": 2.52,
+      "fin": 2.62,
+      "mot": "tu"
+    },
+    {
+      "debut": 2.62,
+      "fin": 2.7,
+      "mot": "fais"
+    },
+    {
+      "debut": 2.7,
+      "fin": 2.86,
+      "mot": "quoi,"
+    },
+    {
+      "debut": 2.92,
+      "fin": 3.04,
+      "mot": "la"
+    },
+    {
+      "debut": 3.04,
+      "fin": 3.38,
+      "mot": "victime"
+    },
+    {
+      "debut": 3.38,
+      "fin": 3.6,
+      "mot": "?"
+    },
+    {
+      "debut": 4.44,
+      "fin": 4.62,
+      "mot": "Tu"
+    },
+    {
+      "debut": 4.62,
+      "fin": 4.78,
+      "mot": "voulais"
+    },
+    {
+      "debut": 4.78,
+      "fin": 5.06,
+      "mot": "savoir"
+    },
+    {
+      "debut": 5.06,
+      "fin": 5.22,
+      "mot": "ce"
+    },
+    {
+      "debut": 5.22,
+      "fin": 5.26,
+      "mot": "que"
+    },
+    {
+      "debut": 5.26,
+      "fin": 5.42,
+      "mot": "c"
+    },
+    {
+      "debut": 5.42,
+      "fin": 5.6,
+      "mot": "'était"
+    },
+    {
+      "debut": 5.6,
+      "fin": 6.06,
+      "mot": "?"
+    },
+    {
+      "debut": 6.06,
+      "fin": 6.34,
+      "mot": "Regarde"
+    },
+    {
+      "debut": 6.34,
+      "fin": 6.76,
+      "mot": "bien."
+    },
+    {
+      "debut": 29.14,
+      "fin": 29.16,
+      "mot": "Portes"
+    },
+    {
+      "debut": 29.16,
+      "fin": 29.3,
+      "mot": "tes"
+    },
+    {
+      "debut": 29.3,
+      "fin": 29.5,
+      "mot": "mains"
+    },
+    {
+      "debut": 29.5,
+      "fin": 29.7,
+      "mot": "et"
+    },
+    {
+      "debut": 29.7,
+      "fin": 29.96,
+      "mot": "bats"
+    },
+    {
+      "debut": 29.96,
+      "fin": 30.34,
+      "mot": "-toi"
+    },
+    {
+      "debut": 30.34,
+      "fin": 30.62,
+      "mot": "!"
+    },
+    {
+      "debut": 39.01,
+      "fin": 39.35,
+      "mot": "Derrière"
+    },
+    {
+      "debut": 39.35,
+      "fin": 39.67,
+      "mot": "toi,"
+    },
+    {
+      "debut": 40.11,
+      "fin": 40.23,
+      "mot": "tu"
+    },
+    {
+      "debut": 40.23,
+      "fin": 40.39,
+      "mot": "me"
+    },
+    {
+      "debut": 40.39,
+      "fin": 40.63,
+      "mot": "cherchais"
+    },
+    {
+      "debut": 40.63,
+      "fin": 40.85,
+      "mot": "où"
+    },
+    {
+      "debut": 40.85,
+      "fin": 41.09,
+      "mot": "?"
+    },
+    {
+      "debut": 47.15,
+      "fin": 47.33,
+      "mot": "Tout"
+    },
+    {
+      "debut": 47.33,
+      "fin": 47.51,
+      "mot": "le"
+    },
+    {
+      "debut": 47.51,
+      "fin": 47.69,
+      "mot": "lycée"
+    },
+    {
+      "debut": 47.69,
+      "fin": 47.81,
+      "mot": "à"
+    },
+    {
+      "debut": 47.81,
+      "fin": 48.01,
+      "mot": "la"
+    },
+    {
+      "debut": 48.01,
+      "fin": 48.23,
+      "mot": "vidéo,"
+    },
+    {
+      "debut": 48.51,
+      "fin": 48.77,
+      "mot": "Ilyes."
+    },
+    {
+      "debut": 49.49,
+      "fin": 49.69,
+      "mot": "Même"
+    },
+    {
+      "debut": 49.69,
+      "fin": 49.87,
+      "mot": "ton"
+    },
+    {
+      "debut": 49.87,
+      "fin": 50.15,
+      "mot": "coach"
+    },
+    {
+      "debut": 50.15,
+      "fin": 50.33,
+      "mot": "l"
+    },
+    {
+      "debut": 50.33,
+      "fin": 50.37,
+      "mot": "'a"
+    },
+    {
+      "debut": 50.37,
+      "fin": 50.61,
+      "mot": "vu."
+    },
+    {
+      "debut": 51.83,
+      "fin": 51.97,
+      "mot": "Il"
+    },
+    {
+      "debut": 51.97,
+      "fin": 52.15,
+      "mot": "a"
+    },
+    {
+      "debut": 52.15,
+      "fin": 52.41,
+      "mot": "touché"
+    },
+    {
+      "debut": 52.41,
+      "fin": 52.53,
+      "mot": "à"
+    },
+    {
+      "debut": 52.53,
+      "fin": 53.03,
+      "mot": "Lychee."
+    },
+    {
+      "debut": 53.43,
+      "fin": 53.67,
+      "mot": "Je"
+    },
+    {
+      "debut": 53.67,
+      "fin": 53.95,
+      "mot": "regrette"
+    },
+    {
+      "debut": 53.95,
+      "fin": 54.31,
+      "mot": "rien."
+    },
+    {
+      "debut": 57.82,
+      "fin": 58.26,
+      "mot": "Cousin,"
+    },
+    {
+      "debut": 59.3,
+      "fin": 59.46,
+      "mot": "j"
+    },
+    {
+      "debut": 59.46,
+      "fin": 59.66,
+      "mot": "'ai"
+    },
+    {
+      "debut": 59.66,
+      "fin": 59.86,
+      "mot": "besoin"
+    },
+    {
+      "debut": 59.86,
+      "fin": 60.06,
+      "mot": "de"
+    },
+    {
+      "debut": 60.06,
+      "fin": 60.36,
+      "mot": "toi."
+    },
+    {
+      "debut": 61.32,
+      "fin": 61.46,
+      "mot": "C"
+    },
+    {
+      "debut": 61.46,
+      "fin": 61.6,
+      "mot": "'est"
+    },
+    {
+      "debut": 61.6,
+      "fin": 62.06,
+      "mot": "grave."
+    },
+    {
+      "debut": 63.88,
+      "fin": 64.04,
+      "mot": "T"
+    },
+    {
+      "debut": 64.04,
+      "fin": 64.18,
+      "mot": "'as"
+    },
+    {
+      "debut": 64.18,
+      "fin": 64.5,
+      "mot": "perdu."
+    },
+    {
+      "debut": 64.9,
+      "fin": 65.12,
+      "mot": "Ferme"
+    },
+    {
+      "debut": 65.12,
+      "fin": 65.38,
+      "mot": "-la."
+    },
+    {
+      "debut": 65.6,
+      "fin": 65.76,
+      "mot": "Je"
+    },
+    {
+      "debut": 65.76,
+      "fin": 65.92,
+      "mot": "passe"
+    },
+    {
+      "debut": 65.92,
+      "fin": 66.22,
+      "mot": "demain."
+    }
+  ]
+}

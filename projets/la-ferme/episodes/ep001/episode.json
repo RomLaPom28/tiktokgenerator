@@ -1,0 +1,286 @@
+{
+  "accroche_type": "témoin choqué",
+  "centre": "gerard",
+  "cliff_type": "entrée du coupable",
+  "commentaire_epingle": "Bernard fait quoi ? 🐷 Il balance tout / 🤐 Il ment pour sauver Vanessa",
+  "fils_avances": [
+    "loto",
+    "liaison",
+    "video",
+    "bernard_sait"
+  ],
+  "fin": "Au bar-tabac, Bernard serre le téléphone de Josiane contre lui, Gérard le soupçonne, et Vanessa entre au même moment en souriant.",
+  "format": "révélation en cascade",
+  "hashtags": [
+    "#laferme",
+    "#drama",
+    "#animaux",
+    "#histoire",
+    "#partie1"
+  ],
+  "legende": "Gérard a gagné 15 millions et veut tout offrir à sa femme… mais Josiane a tout filmé 😳 Bernard va-t-il balancer ?",
+  "numero": 1,
+  "plans": [
+    {
+      "angle": "face",
+      "cadrage": "GP",
+      "camera": "epaule",
+      "emotion": "chuchoté fort, choquée et ravie",
+      "lieu": "jardin_josiane",
+      "lumiere": "matin",
+      "mouvement": "Josiane se baisse derrière la haie, rapproche son téléphone, ses yeux s'écarquillent encore, elle plaque une aile sur son bec",
+      "n": 1,
+      "parle": "josiane",
+      "persos": [
+        {
+          "id": "josiane",
+          "jeu": "cachée derrière la haie, elle filme avec son téléphone tenu à l'horizontale, les yeux exorbités, le bec grand ouvert de choc"
+        }
+      ],
+      "replique": "Oh la vache… la Vanessa est en train d'embrasser le patron !",
+      "role": "accroche"
+    },
+    {
+      "angle": "profil",
+      "cadrage": "PT",
+      "camera": "travelling_avant",
+      "emotion": "frimeur, moqueur",
+      "lieu": "grange_bureau",
+      "lumiere": "jour",
+      "mouvement": "Kevin rapproche Vanessa de lui, hausse un sourcil en souriant, Vanessa tire doucement sur sa gourmette",
+      "n": 2,
+      "parle": "kevin",
+      "persos": [
+        {
+          "id": "kevin",
+          "jeu": "adossé au bureau, il enlace Vanessa par la taille, sourire arrogant, lunettes relevées sur la crête"
+        },
+        {
+          "id": "vanessa",
+          "jeu": "collée contre Kevin, elle joue avec sa gourmette"
+        }
+      ],
+      "replique": "Ton gros taureau se doute de rien, t'es sûre ?",
+      "role": "developpement"
+    },
+    {
+      "angle": "face",
+      "cadrage": "TGP",
+      "camera": "fixe",
+      "emotion": "méprisante, amusée",
+      "lieu": "grange_bureau",
+      "lumiere": "jour",
+      "mouvement": "Vanessa lève les yeux au ciel, laisse échapper un petit rire méprisant, puis fait une moue sûre d'elle",
+      "n": 3,
+      "parle": "vanessa",
+      "persos": [
+        {
+          "id": "vanessa",
+          "jeu": "visage méprisant, petit sourire en coin, yeux mi-clos, un ongle rouge posé sur sa propre joue"
+        }
+      ],
+      "replique": "Il est bête comme ses sabots, crois-moi.",
+      "role": "developpement"
+    },
+    {
+      "angle": "plongee",
+      "cadrage": "INSERT",
+      "camera": "travelling_avant",
+      "detail_image": "à côté du ticket, un café et une pièce de monnaie",
+      "lieu": "bar_tabac",
+      "lumiere": "neon",
+      "mouvement": "les sabots tremblent de plus en plus, une larme tombe et s'écrase sur le ticket",
+      "n": 4,
+      "persos": [
+        {
+          "id": "gerard",
+          "jeu": "on ne voit que ses gros sabots noirs qui tiennent un ticket de loto froissé posé sur le comptoir en zinc, ils tremblent"
+        }
+      ],
+      "role": "retournement",
+      "son": "souffle tremblant, cœur qui bat"
+    },
+    {
+      "angle": "contre_plongee",
+      "cadrage": "GP",
+      "camera": "travelling_avant",
+      "emotion": "ému, à voix basse",
+      "lieu": "bar_tabac",
+      "lumiere": "neon",
+      "mouvement": "Gérard inspire fort, une larme coule sur son museau, il sourit tendrement en serrant le ticket",
+      "n": 5,
+      "parle": "gerard",
+      "persos": [
+        {
+          "id": "gerard",
+          "jeu": "accoudé au comptoir, les yeux humides d'émotion, il sourit tendrement en regardant le ticket"
+        }
+      ],
+      "replique": "Quinze millions… je vais tout offrir à ma Vanessa.",
+      "role": "retournement"
+    },
+    {
+      "angle": "face",
+      "cadrage": "PR",
+      "camera": "choc",
+      "emotion": "paniqué, dans les aigus",
+      "lieu": "bar_tabac",
+      "lumiere": "neon",
+      "mouvement": "Bernard recrache son café, s'essuie le groin avec sa casquette et se tourne vers Gérard, affolé",
+      "n": 6,
+      "parle": "bernard",
+      "persos": [
+        {
+          "id": "bernard",
+          "jeu": "au comptoir, une tasse de café à la bouche, les yeux exorbités, du café qui gicle de son groin"
+        }
+      ],
+      "replique": "Quinze millions ?! Et t'as rien dit à ta femme ?",
+      "role": "developpement"
+    },
+    {
+      "angle": "face",
+      "cadrage": "AMORCE",
+      "camera": "fixe",
+      "emotion": "fier, naïf",
+      "lieu": "bar_tabac",
+      "lumiere": "neon",
+      "mouvement": "Gérard tapote sa poitrine avec fierté, bombe le torse et fait un clin d'œil à Bernard",
+      "n": 7,
+      "parle": "gerard",
+      "persos": [
+        {
+          "id": "bernard",
+          "jeu": "de dos au premier plan, flou"
+        },
+        {
+          "id": "gerard",
+          "jeu": "range fièrement le ticket dans son marcel en tapotant dessus, torse bombé, sourire naïf"
+        }
+      ],
+      "replique": "C'est une surprise pour nos vingt ans de mariage.",
+      "role": "developpement"
+    },
+    {
+      "angle": "debullee",
+      "cadrage": "TGP",
+      "camera": "travelling_avant",
+      "emotion": "venimeuse, chuchotée",
+      "lieu": "cuisine_huguette",
+      "lumiere": "fin_journee",
+      "mouvement": "Huguette ajuste ses lunettes, jette un œil vers la fenêtre et enroule le fil du téléphone autour de son doigt",
+      "n": 8,
+      "parle": "huguette",
+      "persos": [
+        {
+          "id": "huguette",
+          "jeu": "le combiné du vieux téléphone fixe contre l'oreille, regard venimeux plissé derrière ses lunettes, sourire mauvais"
+        }
+      ],
+      "replique": "Ma fille, tu signes le divorce vite, avant qu'il se doute.",
+      "role": "developpement"
+    },
+    {
+      "angle": "face",
+      "cadrage": "PE",
+      "camera": "fixe",
+      "emotion": "crié, essoufflée",
+      "lieu": "bar_tabac",
+      "lumiere": "neon",
+      "mouvement": "Josiane entre en courant, la porte claque derrière elle, elle avance vers le comptoir en agitant son téléphone",
+      "n": 9,
+      "parle": "josiane",
+      "persos": [
+        {
+          "id": "josiane",
+          "jeu": "pousse la porte vitrée du bar, essoufflée, plumes en bataille, brandit son smartphone au-dessus de sa tête"
+        },
+        {
+          "id": "gerard",
+          "jeu": "au comptoir, se retourne surpris"
+        },
+        {
+          "id": "bernard",
+          "jeu": "au comptoir, se retourne et se fige"
+        }
+      ],
+      "replique": "Gérard ! Faut que tu voies cette vidéo, maintenant !",
+      "role": "retournement",
+      "son": "porte qui claque, clochette"
+    },
+    {
+      "angle": "face",
+      "cadrage": "GP",
+      "camera": "epaule",
+      "emotion": "paniqué, très rapide",
+      "lieu": "bar_tabac",
+      "lumiere": "neon",
+      "mouvement": "Bernard arrache le téléphone, le plaque contre son torse, recule d'un pas en secouant la tête très vite",
+      "n": 10,
+      "parle": "bernard",
+      "persos": [
+        {
+          "id": "bernard",
+          "jeu": "serre le smartphone de Josiane contre sa poitrine, en sueur, yeux paniqués, sourire forcé"
+        }
+      ],
+      "replique": "Non non non, Josiane, pas ici, pas maintenant !",
+      "role": "developpement"
+    },
+    {
+      "angle": "contre_plongee",
+      "cadrage": "PR",
+      "camera": "orbite",
+      "emotion": "calme et menaçant",
+      "lieu": "bar_tabac",
+      "lumiere": "neon",
+      "mouvement": "Gérard se redresse de toute sa hauteur, souffle bruyamment par les naseaux et plisse les yeux",
+      "n": 11,
+      "parle": "gerard",
+      "persos": [
+        {
+          "id": "gerard",
+          "jeu": "se lève lentement de son tabouret, naseaux dilatés, regard sombre et soupçonneux"
+        }
+      ],
+      "replique": "Bernard… pourquoi tu me caches ce téléphone ?",
+      "role": "retournement"
+    },
+    {
+      "angle": "face",
+      "cadrage": "PA",
+      "camera": "travelling_arriere",
+      "emotion": "faussement douce, inquiète",
+      "lieu": "bar_tabac",
+      "lumiere": "neon",
+      "mouvement": "Vanessa entre souriante, son sourire se fige, ses yeux passent du téléphone à Gérard, elle serre son sac",
+      "n": 12,
+      "parle": "vanessa",
+      "persos": [
+        {
+          "id": "vanessa",
+          "jeu": "entre par la porte vitrée avec un grand sourire, puis son sourire se fige en voyant le téléphone"
+        }
+      ],
+      "replique": "Mon chéri… qu'est-ce qui se passe ici ?",
+      "role": "cliff",
+      "son": "clochette de porte, silence pesant"
+    }
+  ],
+  "question_milieu": {
+    "plan": 6,
+    "texte": "Bernard doit lui dire ? 🤔"
+  },
+  "recettes_utilisees": [
+    "accroche témoin choqué",
+    "le spectateur en sait plus que la victime",
+    "l'ami qui sait et se tait",
+    "coupure à l'entrée du coupable"
+  ],
+  "reprend": "",
+  "resume": "Gérard a gagné 15 millions et veut tout offrir à Vanessa, qui le trompe avec Kevin. Josiane a tout filmé et débarque au bar, mais Bernard cache la vidéo.",
+  "revele": [],
+  "texte_accroche": "Il gagne 15 millions, elle le trompe",
+  "titre": "Le ticket gagnant",
+  "titre_couverture": "Il gagne 15 millions, elle le trompe"
+}

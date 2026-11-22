@@ -1,0 +1,107 @@
+{
+  "_lisez_moi": "ADN = description copiée MOT POUR MOT dans chaque prompt image où le personnage apparaît. voix = copiée mot pour mot dans chaque prompt Grok.",
+  "style": "Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Univers d'un centre de formation de foot français inventé, le FC Val-d'Argent (vert et blanc) : vestiaire, petit stade, infirmerie, parking, remplis de figurants animaux.",
+  "personnages": [
+    {
+      "id": "theo",
+      "nom": "Théo",
+      "animal": "bouc",
+      "adn": "Théo, bouc au pelage blanc crème, barbichette teinte en noir corbeau beaucoup trop brillant, quelques poils blancs qui dépassent aux tempes, petites cornes recourbées, bandeau rouge sur le front qui cache une cicatrice, faux appareil dentaire argenté",
+      "tenues": {
+        "base": "survêtement vert et blanc du FC Val-d'Argent, chaussettes remontées jusqu'aux genoux",
+        "match": "maillot vert et blanc du FC Val-d'Argent numéro 9, short blanc, genouillères noires"
+      },
+      "voix": "voix d'homme qui force pour paraître ado, qui retombe dans une voix grave de trentenaire quand il oublie",
+      "caractere": "ancien prodige brisé, calme, vanne froide, rancune de 15 ans",
+      "objectif": "se venger du coach et signer pro",
+      "secret": "il a 34 ans ; le coach l'a viré en 2010 pour placer son neveu",
+      "tics": [
+        "se recoiffe la barbichette quand il ment",
+        "son dos craque quand il s'assoit",
+        "dit « wesh » au mauvais moment pour faire jeune"
+      ],
+      "replique_fetiche": "Avec plaisir.",
+      "ref": "refs/theo.png"
+    },
+    {
+      "id": "mathis",
+      "nom": "Mathis",
+      "animal": "renard",
+      "adn": "Mathis, jeune renard roux de 17 ans au pelage orange vif, oreilles immenses, taches de rousseur sur le museau, casquette noire portée à l'envers, chaîne dorée trop grosse",
+      "tenues": {
+        "base": "survêtement noir du FC Val-d'Argent tout neuf, crampons dorés"
+      },
+      "voix": "voix d'ado de 17 ans, rapide, moqueuse, qui part dans les aigus quand il est choqué",
+      "caractere": "fils du coach, pistonné, arrogant, nul balle au pied",
+      "objectif": "garder sa place de titulaire grâce à papa",
+      "secret": "il ne joue que parce que son père est le coach",
+      "tics": [
+        "filme tout avec son téléphone",
+        "ses oreilles se dressent quand il flaire un mensonge",
+        "plisse les yeux en mode détective"
+      ],
+      "replique_fetiche": "Mon père, c'est le coach.",
+      "ref": "refs/mathis.png"
+    },
+    {
+      "id": "bernard",
+      "nom": "Bernard",
+      "animal": "sanglier",
+      "adn": "Bernard, gros sanglier massif au pelage gris-brun, défenses jaunies, énorme moustache teinte en noir trop brillant, sifflet doré autour du cou, casquette verte",
+      "tenues": {
+        "base": "vieux survêtement vert foncé du FC Val-d'Argent, ventre qui dépasse"
+      },
+      "voix": "voix d'homme rauque et puissante, hurle à moitié, respire fort entre les phrases",
+      "caractere": "coach tyrannique, humilie en public, pistonne son fils",
+      "objectif": "placer son fils chez les pros",
+      "secret": "il a menti sur son âge à la fédération ; il a viré Théo en 2010",
+      "tics": [
+        "souffle dans son sifflet pour rien",
+        "se lisse la moustache teinte",
+        "tape dans ses mains comme un tonnerre"
+      ],
+      "replique_fetiche": "Les vieux, ça finit sur le banc.",
+      "ref": "refs/bernard.png"
+    },
+    {
+      "id": "isabelle",
+      "nom": "Isabelle",
+      "animal": "chouette",
+      "adn": "Isabelle, chouette de 50 ans aux plumes grises et blanches, énormes lunettes rondes dorées, blouse blanche, stéthoscope bleu autour du cou",
+      "tenues": {
+        "base": "blouse blanche de médecin du club"
+      },
+      "voix": "voix de femme de 50 ans, posée, pince-sans-rire, détache chaque syllabe",
+      "caractere": "médecin du club, imperturbable, humour très sec",
+      "objectif": "faire passer les tests sans histoire",
+      "secret": "aucun",
+      "tics": [
+        "fait pivoter sa tête à 180 degrés quand elle est surprise",
+        "remonte ses lunettes du bout de l'aile",
+        "tapote la radio avec son stylo"
+      ],
+      "replique_fetiche": "Les os, ça ne ment pas.",
+      "ref": "refs/isabelle.png"
+    },
+    {
+      "id": "laura",
+      "nom": "Laura",
+      "animal": "chèvre",
+      "adn": "Laura, chèvre élégante au pelage blanc neigeux, longue frange blonde lissée, grandes lunettes de soleil roses, rouge à lèvres corail, créoles dorées",
+      "tenues": {
+        "base": "tailleur vert sapin cintré, badge doré « RECRUTEUSE », dossier sous le bras"
+      },
+      "voix": "voix de femme posée et tranchante, sourire dans la voix, ne hausse jamais le ton",
+      "caractere": "recruteuse d'un grand club pro, glaciale en affaires",
+      "objectif": "recruter Théo",
+      "secret": "c'est la femme de Théo ; ils préparent ce plan depuis 15 ans",
+      "tics": [
+        "remonte ses lunettes roses sur la tête avant de trancher",
+        "tapote son dossier du bout du sabot",
+        "sourire en coin quand elle humilie"
+      ],
+      "replique_fetiche": "Je recrute.",
+      "ref": "refs/laura.png"
+    }
+  ]
+}

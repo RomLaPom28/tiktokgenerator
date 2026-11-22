@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "id": "7667555136977243424",
+    "url": "https://www.tiktok.com/@histoiresfruite/video/7667555136977243424",
+    "compte": "histoiresfruite",
+    "description": "Trahison entre meilleures amies 💔 Republie cette vidéo et abonne toi si tu as apprécié cette histoire 🙌 Commente « suite » et pose un like si tu veux la partie 2 ✍️ #ia #viral #fruitstory #histoiredefruit #skibidi ",
+    "vues": 2500000,
+    "likes": 86000,
+    "commentaires": 581,
+    "partages": 2072,
+    "date": "20260728",
+    "duree": 59.8,
+    "musique": "son original",
+    "taux_likes": 3.44,
+    "taux_commentaires": 0.023
+  },
+  "langue": "fr",
+  "texte_complet": "Tu voulais être la plus belle pour ton mariage, Mélanie. Regarde-toi maintenant. Bon mariage, grosse baleine. Cléa, qu'as-tu fait ? Mon mariage commence dans cinq minutes. Ce voile me va beaucoup mieux, ma belle. Je vais te remplacer pour faire la mariée. Cléa, tu peux pas me faire ça, c'est mon mariage. C'est le plus beau jour de ma vie. Reste bien là, Mélanie. Le marié m'attend et c'est moi qui vais dire oui. Cléa, pourquoi tu m'as fait ça ? J'arrive plus à respirer, crois que je vais y passer. C'est quoi cette odeur infecte ? Qui a laissé ce morceau de fromage moisi ici ? Attends, mais ça pourrait me sauver. Si je mange ça, je pourrais peut-être me vider au toilette. Ça pourrait aussi me tuer. C'est tout ? Je n'ai même pas dégonflé. Mais comment je vais faire ? Je vous déclare mari et femme. Vous pouvez maintenant embrasser la mariée. Tu es enfin à moi, mon amour. Tu es la plus belle, Cléa. Où est Mélanie ? Pourquoi tu portes son voile ? Elle est partie. De toute façon, elle ne t'aime pas.",
+  "accroche_3s": "Tu voulais être la plus belle pour ton mariage, Mélanie. Regarde",
+  "fin_5s": "Cléa. Où est Mélanie ? Pourquoi tu portes son voile ? Elle est partie. De toute façon, elle ne t 'aime pas.",
+  "mots_par_seconde": 3.38,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 16,
+  "duree_moyenne_plan": 3.74,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 4.98,
+      "texte": "Tu voulais être la plus belle pour ton mariage, Mélanie. Regarde-toi maintenant. Bon mariage, grosse baleine."
+    },
+    {
+      "debut": 5.22,
+      "fin": 7.9,
+      "texte": "Cléa, qu'as-tu fait ? Mon mariage commence dans cinq minutes."
+    },
+    {
+      "debut": 8.28,
+      "fin": 11.58,
+      "texte": "Ce voile me va beaucoup mieux, ma belle. Je vais te remplacer pour faire la mariée."
+    },
+    {
+      "debut": 11.86,
+      "fin": 15.94,
+      "texte": "Cléa, tu peux pas me faire ça, c'est mon mariage. C'est le plus beau jour de ma vie."
+    },
+    {
+      "debut": 16.44,
+      "fin": 20.3,
+      "texte": "Reste bien là, Mélanie. Le marié m'attend et c'est moi qui vais dire oui."
+    },
+    {
+      "debut": 21.0,
+      "fin": 25.02,
+      "texte": "Cléa, pourquoi tu m'as fait ça ? J'arrive plus à respirer, crois que je vais y passer."
+    },
+    {
+      "debut": 30.04,
+      "fin": 34.86,
+      "texte": "C'est quoi cette odeur infecte ? Qui a laissé ce morceau de fromage moisi ici ?"
+    },
+    {
+      "debut": 34.86,
+      "fin": 38.26,
+      "texte": "Attends, mais ça pourrait me sauver. Si je mange ça, je pourrais peut-être me vider au toilette."
+    },
+    {
+      "debut": 38.34,
+      "fin": 48.86,
+      "texte": "Ça pourrait aussi me tuer. C'est tout ? Je n'ai même pas dégonflé. Mais comment je vais faire ?"
+    },
+    {
+      "debut": 48.86,
+      "fin": 52.36,
+      "texte": "Je vous déclare mari et femme. Vous pouvez maintenant embrasser la mariée."
+    },
+    {
+      "debut": 52.84,
+      "fin": 55.24,
+      "texte": "Tu es enfin à moi, mon amour. Tu es la plus belle, Cléa."
+    },
+    {
+      "debut": 55.28,
+      "fin": 57.38,
+      "texte": "Où est Mélanie ? Pourquoi tu portes son voile ?"
+    },
+    {
+      "debut": 57.38,
+      "fin": 59.5,
+      "texte": "Elle est partie. De toute façon, elle ne t'aime pas."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 4.43,
+      "duree": 4.43
+    },
+    {
+      "n": 2,
+      "debut": 4.43,
+      "fin": 8.07,
+      "duree": 3.63
+    },
+    {
+      "n": 3,
+      "debut": 8.07,
+      "fin": 11.6,
+      "duree": 3.53
+    },
+    {
+      "n": 4,
+      "debut": 11.6,
+      "fin": 14.33,
+      "duree": 2.73
+    },
+    {
+      "n": 5,
+      "debut": 14.33,
+      "fin": 16.1,
+      "duree": 1.77
+    },
+    {
+      "n": 6,
+      "debut": 16.1,
+      "fin": 17.7,
+      "duree": 1.6
+    },
+    {
+      "n": 7,
+      "debut": 17.7,
+      "fin": 20.2,
+      "duree": 2.5
+    },
+    {
+      "n": 8,
+      "debut": 20.2,
+      "fin": 22.4,
+      "duree": 2.2
+    },
+    {
+      "n": 9,
+      "debut": 22.4,
+      "fin": 25.27,
+      "duree": 2.87
+    },
+    {
+      "n": 10,
+      "debut": 25.27,
+      "fin": 28.2,
+      "duree": 2.93
+    },
+    {
+      "n": 11,
+      "debut": 28.2,
+      "fin": 30.3,
+      "duree": 2.1
+    },
+    {
+      "n": 12,
+      "debut": 30.3,
+      "fin": 34.57,
+      "duree": 4.27
+    },
+    {
+      "n": 13,
+      "debut": 34.57,
+      "fin": 40.33,
+      "duree": 5.77
+    },
+    {
+      "n": 14,
+      "debut": 40.33,
+      "fin": 43.6,
+      "duree": 3.27
+    },
+    {
+      "n": 15,
+      "debut": 43.6,
+      "fin": 48.4,
+      "duree": 4.8
+    },
+    {
+      "n": 16,
+      "debut": 48.4,
+      "fin": 59.81,
+      "duree": 11.41
+    }
+  ]
+}

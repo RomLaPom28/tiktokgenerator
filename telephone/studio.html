@@ -1,0 +1,870 @@
+<title>Studio La Ferme</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800;900&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Carnet de tournage : une colonne mobile, cartes de plans numérotées comme des claps, une seule couleur d'action */
+:root{
+  --bg:#f3f0ea; --surface:#fffdf9; --ink:#1b1a17; --mute:#6f6a60; --line:#e2dccf;
+  --clap:#d8432b; --clap-ink:#ffffff; --ok:#2e7d4f; --ok-bg:#e3f1e8; --wait:#a86a12; --wait-bg:#f8ecd6;
+  --bad:#b3261e; --bad-bg:#f9e1de;
+  --display:"Archivo","Arial Black",system-ui,sans-serif; --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141311; --surface:#1e1c19; --ink:#f2efe8; --mute:#a39d91; --line:#34302a;
+  --clap:#ec5a40; --ok:#5cc28a; --ok-bg:#1c3226; --wait:#e2a64a; --wait-bg:#3a2c14; --bad:#ff8a7a; --bad-bg:#3d1c18; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141311; --surface:#1e1c19; --ink:#f2efe8; --mute:#a39d91; --line:#34302a;
+  --clap:#ec5a40; --ok:#5cc28a; --ok-bg:#1c3226; --wait:#e2a64a; --wait-bg:#3a2c14; --bad:#ff8a7a; --bad-bg:#3d1c18; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.45 var(--body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:640px;margin:0 auto;padding-block:0 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:14px 0 10px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px}
+header h1{font:900 22px/1 var(--display);letter-spacing:-.01em;margin:0;text-transform:uppercase;flex:1}
+header h1 span{color:var(--clap)}
+header .back,.nav a{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:7px 11px;font:600 14px var(--body);cursor:pointer;text-decoration:none}
+.nav{display:flex;gap:6px;margin-top:12px;flex-wrap:wrap}
+.nav a.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.stack{display:flex;flex-direction:column;gap:12px;margin-top:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;min-width:0}
+.lbl{font:700 11px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin:0 0 8px}
+h2{font:800 20px/1.15 var(--display);margin:0 0 6px;text-wrap:balance}
+h3{font:800 16px/1.2 var(--display);margin:0 0 6px}
+p{margin:0}
+.mute{color:var(--mute)}
+textarea,input[type=text],select{width:100%;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);padding:9px 10px;font:15px/1.4 var(--body)}
+textarea{min-height:70px;resize:vertical}
+textarea.big{min-height:180px;font-size:14px}
+label.f{display:block;font:600 12px/1.2 var(--body);color:var(--mute);margin:10px 0 4px}
+.btn{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;border:0;border-radius:11px;padding:12px 10px;font:700 14px var(--body);cursor:pointer;background:var(--clap);color:var(--clap-ink);text-align:center}
+.btn.alt{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn.small{padding:8px 10px;font-size:13px}
+.btn.done{background:var(--ok);color:#fff}
+.btn.danger{background:transparent;color:var(--bad);border:1.5px solid var(--bad)}
+.btn:disabled{opacity:.45;cursor:default}
+.btn:focus-visible,.ep:focus-visible,.back:focus-visible,.nav a:focus-visible{outline:3px solid var(--clap);outline-offset:2px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+@media (max-width:420px){.row3{grid-template-columns:1fr 1fr}}
+.ep{display:flex;gap:12px;align-items:center;text-align:left;width:100%;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px;cursor:pointer;color:var(--ink);font:inherit}
+.num{flex:none;width:46px;height:46px;border-radius:10px;background:var(--ink);color:var(--bg);display:grid;place-items:center;font:900 18px/1 var(--display);
+  background-image:repeating-linear-gradient(135deg,transparent 0 7px,rgba(255,255,255,.14) 7px 14px)}
+.ep .t{flex:1;min-width:0}.ep .t b{display:block;font:800 16px/1.2 var(--display)}
+.chip{display:inline-block;font:700 12px/1 var(--body);padding:5px 8px;border-radius:999px;background:var(--wait-bg);color:var(--wait);margin-top:5px}
+.chip.ok{background:var(--ok-bg);color:var(--ok)}
+.chip.bad{background:var(--bad-bg);color:var(--bad)}
+.chip.role{background:var(--bg);color:var(--mute);border:1px solid var(--line);margin:0}
+.bar{height:6px;border-radius:3px;background:var(--line);overflow:hidden;margin-top:10px}.bar i{display:block;height:100%;background:var(--ok);width:0;transition:width .3s}
+.plan .top{display:flex;gap:10px;align-items:flex-start}
+.plan .n{flex:none;font:900 24px/1 var(--display);color:var(--clap);min-width:34px;font-variant-numeric:tabular-nums}
+.plan .n small{display:block;font:600 11px/1.4 var(--body);color:var(--mute)}
+.plan.got .n{color:var(--ok)}
+.plan .what{flex:1;min-width:0}
+.plan .tech{font-size:12px;color:var(--mute);margin-top:3px}
+.plan .say{margin-top:6px;font-size:15px}
+.plan .say b{font-weight:700}
+.plan .acts{margin-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.plan .full{grid-column:1/-1}
+.plan video{width:84px;height:150px;object-fit:cover;border-radius:8px;background:#000;flex:none}
+.overlay{margin-top:8px;font-size:13px;background:var(--wait-bg);color:var(--wait);border-radius:8px;padding:6px 9px;font-weight:600}
+.edit{margin-top:10px;border-top:1px dashed var(--line);padding-top:4px}
+.file{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.final video{width:100%;max-height:70vh;border-radius:12px;background:#000;display:block}
+.final img{border-radius:10px;width:120px}
+.note{font-size:13px;color:var(--mute);margin-top:8px}
+.toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font:600 14px var(--body);z-index:20;max-width:calc(100% - 32px);text-align:center}
+.empty{text-align:center;padding:28px 14px}
+details summary{cursor:pointer;color:var(--mute);font-size:13px;margin-top:8px}
+details.sec>summary{font:800 16px/1.2 var(--display);color:var(--ink);margin:0;list-style:none;display:flex;justify-content:space-between}
+details.sec>summary::after{content:"+";color:var(--clap)}
+details.sec[open]>summary::after{content:"–"}
+pre{white-space:pre-wrap;font:12px/1.45 ui-monospace,Consolas,monospace;margin:6px 0 0;color:var(--ink);overflow-wrap:anywhere}
+.checks{list-style:none;padding:0;margin:8px 0 0;display:flex;flex-direction:column;gap:6px;font-size:13px}
+.checks li{display:flex;gap:8px;align-items:flex-start}
+.checks .k{flex:none;font:800 10px/1 var(--body);padding:4px 6px;border-radius:6px;letter-spacing:.04em;margin-top:1px}
+.k.ECHEC{background:var(--bad-bg);color:var(--bad)}.k.AVOIR{background:var(--wait-bg);color:var(--wait)}.k.OK{background:var(--ok-bg);color:var(--ok)}
+.checks span.m{color:var(--mute);overflow-wrap:anywhere}
+.progress{font:600 13px var(--body);color:var(--mute);margin-top:8px;white-space:pre-wrap}
+.perso{border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-top:8px}
+.perso>summary{font-weight:700;cursor:pointer;list-style:none}
+.perso>summary small{font-weight:500;color:var(--mute)}
+.timeline{display:flex;flex-direction:column;gap:4px;font-size:13px;margin-top:6px}
+.timeline div{display:flex;gap:8px}.timeline b{flex:none;width:44px;font-variant-numeric:tabular-nums;color:var(--clap)}
+.sw{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:6px;border:1px solid var(--line)}
+.confirm{display:flex;gap:8px;margin-top:8px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header><button class="back" id="back" hidden>← Retour</button><h1>La Ferme <span>Studio</span></h1></header>
+  <nav class="nav" id="nav"><a href="#" data-v="">Séries</a><a href="#nouveau" data-v="nouveau">Créer</a><a href="#tendances" data-v="tendances">Tendances</a><a href="#regles" data-v="regles">Règles TikTok</a></nav>
+  <main id="app" class="stack"><div class="card empty mute">Chargement du studio…</div></main>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+/* ================== état ================== */
+const app=document.getElementById("app"), backBtn=document.getElementById("back"), toastEl=document.getElementById("toast"), nav=document.getElementById("nav");
+let db=null, assets=null, downloads=null, sample=null;
+let episodes=[], clips={}, demandes=[], B={}, view="", open={}, busy={}, gen=null, confirmDel=null, bibleLoaded=false;
+let G={}, series=[], tendances=[], cur="laferme", imgOK=false;
+let wiz={niche:"foot",type:"serie",style:"animaux",ton:"drama drôle",idee:"",concepts:null,busy:false,progress:""};
+const STYLES={animaux:"Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées. Lumière de cinéma, profondeur de champ, étalonnage chaud et contrasté. Pas de style enfantin.",
+  fruits:"Fruits et objets anthropomorphes en 3D (visage expressif, bras et jambes fins), rendu cinéma réaliste type film d'animation haut de gamme, textures très détaillées, vêtements et accessoires réalistes, expressions très marquées. Lumière de cinéma, profondeur de champ.",
+  humains:"Personnages humains stylisés en 3D type film d'animation haut de gamme, proportions légèrement caricaturales, peau et tissus détaillés, expressions très marquées. Lumière de cinéma, profondeur de champ, étalonnage contrasté.",
+  anime:"Style animé japonais (shonen) en 2D haut de gamme, traits nets, couleurs saturées, effets d'énergie et de vitesse, cadrages dynamiques, expressions exagérées."};
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pad=n=>String(n).padStart(2,"0");
+const clone=o=>JSON.parse(JSON.stringify(o));
+function toast(t,ms){toastEl.textContent=t;toastEl.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>toastEl.hidden=true,ms||2000)}
+async function copy(text,btn){
+  try{await navigator.clipboard.writeText(text)}catch(e){const ta=document.createElement("textarea");ta.value=text;document.body.appendChild(ta);ta.select();try{document.execCommand("copy")}catch(_){}ta.remove()}
+  if(btn){btn.classList.add("done");try{localStorage.setItem("c-"+btn.dataset.k,"1")}catch(e){}}
+  toast("Copié");
+}
+function wasCopied(k){try{return localStorage.getItem("c-"+k)==="1"}catch(e){return false}}
+const SUB_COLORS=[["#FFD23F","jaune"],["#FF5A5F","rouge"],["#3EC1D3","cyan"],["#FF9F1C","orange"],["#B388FF","violet"],["#06D6A0","vert"],["#F15BB5","rose"],["#FFFFFF","blanc"]];
+
+/* ================== séries ================== */
+const sid=s=>norm(s).replace(/\s+/g,"-").slice(0,30)||("serie-"+Date.now());
+function seriesList(){return [{id:"laferme",nom:"La Ferme",type:"serie",niche:"animaux · drame de quartier",legacy:true},...series]}
+const serieOf=id=>seriesList().find(s=>s.id===id);
+const isUnique=()=>serieOf(cur)?.type==="unique";
+function bibleOf(id){const s=serieOf(id); if(!s) return {};
+  const b=s.legacy?{personnages:G.personnages,lieux:G.lieux,saison:G.saison,serie:G.serie,recettes:G.recettes}:(s.bible||{});
+  return {...b,realisation:G.realisation,conformite:G.conformite}}
+function setCur(id){if(serieOf(id)){cur=id;B=bibleOf(id)}}
+const epsOf=id=>episodes.filter(e=>(e.serie||"laferme")===id);
+const docId=(id,n)=>id==="laferme"?"ep"+String(n).padStart(3,"0"):`${id}-ep${String(n).padStart(3,"0")}`;
+async function saveBibleDoc(doc,data){
+  const s=serieOf(cur);
+  if(s.legacy) return db.collection("bible").doc(doc).set(data);
+  return db.collection("series").doc(cur).update({bible:{...(s.bible||{}),[doc]:data}});
+}
+const tendOf=niche=>tendances.filter(t=>!niche||norm(t.niche).includes(norm(niche).split(" ")[0])||norm(niche).includes(norm(t.niche))).slice(0,8);
+const tendTxt=list=>list.length?list.map(t=>`- [${t.niche}] ${t.note||""}${t.vues?` (${t.vues} vues)`:""}${t.fiche?`\n  Analyse : ${t.fiche}`:""}`).join("\n"):"aucune";
+
+/* ================== bible ================== */
+const persos=()=>Object.fromEntries((B.personnages?.personnages||[]).map(p=>[p.id,p]));
+const ordre=()=>(B.personnages?.personnages||[]).map(p=>p.id);
+const lieux=()=>Object.fromEntries((B.lieux?.lieux||[]).map(l=>[l.id,l]));
+const R=()=>B.realisation||{};
+const C=()=>B.conformite||{rouge:{},orange:[],max_orange:2,appats_interdits:[],remplacements:{}};
+const nomDe=id=>persos()[id]?.nom||id;
+const tenue=(id,t)=>{const p=persos()[id];if(!p)return"";return p.tenues?.[t||"base"]||p.tenues?.base||""};
+const phrase=s=>{s=(s||"").trim();return s?s[0].toUpperCase()+s.slice(1):s};
+const point=s=>phrase(s).replace(/\.+$/,"")+".";
+
+function promptImage(p){
+  const r=R(), l=lieux()[p.lieu]||{desc:p.lieu}, P=persos();
+  const m=[`Image ${p.n} : ${r.cadrages?.[p.cadrage]||p.cadrage}, ${r.angles?.[p.angle||"face"]||p.angle}.`,`Décor : ${l.desc}.`,`Lumière : ${r.lumieres?.[p.lumiere]||p.lumiere}.`];
+  for(const x of p.persos||[]){const q=P[x.id]; if(!q) continue;
+    m.push(`${q.adn}, ${tenue(x.id,x.tenue)} : ${x.jeu}${x.id===p.parle&&p.replique?", la bouche entrouverte comme s'il ou elle parlait":""}.`)}
+  if(p.detail_image) m.push(point(p.detail_image));
+  m.push("Même style et mêmes personnages que les images précédentes. Vertical 9:16, aucun texte, aucun sous-titre, aucun logo.");
+  return m.join(" ");
+}
+function promptGrok(p){
+  const r=R(), l=lieux()[p.lieu]||{son:""}, P=persos();
+  const L=[`Mouvement : ${point(p.mouvement)}`,`Caméra : ${r.cameras?.[p.camera]||p.camera}.`];
+  if(p.replique){const q=P[p.parle]||{nom:p.parle,voix:""};
+    L.push(`Dialogue en français : ${q.nom} (${q.voix}, ${p.emotion||"naturel"}) dit : « ${p.replique} »\nLèvres synchronisées, une seule personne parle, les autres se taisent.`)}
+  else L.push("Pas de dialogue, seulement des réactions et des bruits.");
+  L.push(`Son : ${[l.son,p.son].filter(Boolean).join(", ")}, pas de musique.`);
+  L.push("Garder exactement l'apparence des personnages et le décor de l'image.");
+  return L.join("\n");
+}
+function ouverture(src){
+  const P=persos(), t={};
+  for(const pl of src.plans||[]) for(const x of pl.persos||[]){if(!P[x.id])continue;(t[x.id]=t[x.id]||[]);const v=tenue(x.id,x.tenue);if(!t[x.id].includes(v))t[x.id].push(v)}
+  const ids=Object.keys(t).sort((a,b)=>ordre().indexOf(a)-ordre().indexOf(b));
+  const fiches=ids.map(id=>`- ${P[id].adn}. Tenue${t[id].length>1?"s":""} : ${t[id].join(" / ")}.`).join("\n");
+  return "Tu vas générer les images d'une série. Toutes les images : format vertical 9:16, même style, mêmes personnages avec EXACTEMENT les mêmes visages, couleurs et accessoires d'une image à l'autre. Aucun texte, aucun sous-titre, aucun logo dans l'image.\n\n"+
+    `STYLE : ${B.personnages?.style||""}\n\nPERSONNAGES DE CET ÉPISODE (looks fixes) :\n${fiches}\n\n`+
+    "Si je joins des images de référence, ce sont ces personnages : respecte-les à la lettre.\nJe vais t'envoyer \"Image 1 : …\", \"Image 2 : …\". Pour chaque message, génère uniquement l'image demandée, sans commentaire. Réponds juste OK à ce message.";
+}
+function fichePersos(src){
+  const P=persos(), ids=[...new Set((src.plans||[]).flatMap(p=>(p.persos||[]).map(x=>x.id)))].filter(id=>P[id]);
+  return ids.map(id=>({id,nom:P[id].nom,prompt:`Portrait de référence, vertical 9:16, plan américain de face sur fond neutre gris clair, lumière de studio douce. ${B.personnages?.style||""} ${P[id].adn}, ${P[id].tenues?.base||""}. Expression neutre, regard caméra. Aucun texte.`}));
+}
+const tps=n=>{const s=(n-1)*6;return `${Math.floor(s/60)}:${pad(s%60)}`};
+function ficheMontage(src){
+  const ids=[...new Set((src.plans||[]).filter(p=>p.replique).map(p=>p.parle))];
+  const col=Object.fromEntries(ids.map((id,i)=>[id,SUB_COLORS[ordre().indexOf(id)%SUB_COLORS.length]||SUB_COLORS[i]]));
+  const qm=src.question_milieu||{};
+  const L=[`ÉPISODE ${src.numero} · ${src.titre}`,"",
+    "1. Importer les clips 01 à "+pad((src.plans||[]).length)+" dans l'ordre. Couper chaque clip juste avant la 1re syllabe et juste après la dernière (zéro blanc). Durée cible : 61 à 72 s.",
+    `2. 0:00-0:03 · texte d'accroche en haut, gros, blanc contour noir : « ${src.texte_accroche||src.titre_couverture||""} »`,
+    isUnique()?"3. Pas de numéro de partie (vidéo unique).":`3. Petit texte permanent en haut à gauche : « Partie ${src.numero} »`];
+  if(qm.texte) L.push(`4. Plan ${qm.plan} (≈${tps(qm.plan)}) · texte au centre 2 s : « ${qm.texte} »`);
+  L.push(isUnique()?`5. Dernier plan · la chute, puis 1 s avec la question : « ${(src.commentaire_epingle||"").split("?")[0]}? ». Faire en sorte que la dernière image ressemble à la première (boucle = revisionnage).`
+    :`5. Dernier plan · couper au milieu du geste/de la phrase, puis 1 s noir avec : « Partie ${src.numero+1} ? » + « ${(src.commentaire_epingle||"").split("?")[0]}? »`,
+    "6. Sous-titres auto CapCut (français), 2 à 4 mots par ligne, une couleur par personnage :");
+  for(const id of ids) L.push(`   - ${nomDe(id)} : ${col[id][1]} (${col[id][0]})`);
+  L.push("7. Musique tension en fond à 10-15 % du volume (bibliothèque CapCut/TikTok uniquement), coupée sur la dernière seconde.",
+    "8. Effets : zoom léger (110 %) sur les répliques choc, petit « whoosh » sur les retournements, pas d'effet choc soudain.",
+    "9. Export 1080×1920, 30 i/s, sans filigrane.");
+  return L.join("\n");
+}
+function publication(src){return ((src.legende||"")+"\n\n"+(src.hashtags||[]).join(" ")).trim()}
+
+/* ================== vérificateur (port de outils/verifier.py + conformité) ================== */
+const norm=s=>String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]/g,"").trim();
+const words=s=>" "+String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9]+/g," ").trim()+" ";
+const trouve=(t,list)=>{const w=words(t);return (list||[]).filter(m=>w.includes(words(m)))};
+const PROCHES=new Set(["TGP","GP","PR"]);
+function runs(arr,pred){let best=0,cur=0,prev;for(const x of arr){cur=(x===prev)?cur+1:1;prev=x;if(!pred||pred(x))best=Math.max(best,cur)}return best}
+function mostCommon(a){const c={};a.forEach(x=>c[x]=(c[x]||0)+1);return Object.entries(c).sort((x,y)=>y[1]-x[1])[0]?.[0]}
+function verifier(src){
+  const res=[], ok=(c,regle,mes,niv)=>res.push({niv:c?"OK":(niv||"ECHEC"),regle,mes:String(mes??"")});
+  const r=R(), P=persos(), Lx=lieux(), plans=src.plans||[];
+  const hist=isUnique()?[]:epsOf(cur).filter(e=>e.source&&e.numero<src.numero).map(e=>e.source).sort((a,b)=>a.numero-b.numero);
+  ok(plans.length>=11&&plans.length<=13,"11 à 13 plans",plans.length);
+  const err=[];
+  for(const p of plans){
+    for(const [ch,tab] of [["lieu",Lx],["lumiere",r.lumieres||{}],["cadrage",r.cadrages||{}],["angle",r.angles||{}],["camera",r.cameras||{}]])
+      if(!(p[ch] in tab)) err.push(`plan ${p.n} ${ch}=${p[ch]}`);
+    for(const x of p.persos||[]){ if(!P[x.id]) err.push(`plan ${p.n} perso inconnu ${x.id}`);
+      else if(!((x.tenue||"base") in (P[x.id].tenues||{}))) err.push(`plan ${p.n} tenue ${x.tenue} de ${x.id}`);
+      if(!x.jeu) err.push(`plan ${p.n} jeu vide ${x.id}`)}
+    if(p.replique&&!(p.persos||[]).some(x=>x.id===p.parle)) err.push(`plan ${p.n} : ${p.parle} parle hors image`);
+    if(!p.mouvement) err.push(`plan ${p.n} mouvement vide`);
+  }
+  ok(!err.length,"Codes valides (bible, réalisation)",err.join("; ")||"oui");
+  const longs=plans.filter(p=>p.replique&&!(p.replique.split(/\s+/).length>=2&&p.replique.split(/\s+/).length<=14)).map(p=>p.n);
+  ok(!longs.length,"Répliques de 2 à 14 mots (tient en 6 s)",longs.join(", ")||"oui");
+  ok(plans.filter(p=>!p.replique).length<=1,"Au plus 1 plan muet",plans.filter(p=>!p.replique).length);
+  const p1=plans[0]||{};
+  ok(p1.replique&&p1.replique.split(/\s+/).length<=12,"Accroche parlée, 12 mots max",p1.replique||"—");
+  ok(PROCHES.has(p1.cadrage)||["ECRAN","INSERT"].includes(p1.cadrage),"Plan 1 serré",p1.cadrage);
+  ok((r.accroches||[]).includes(src.accroche_type),"Type d'accroche déclaré",src.accroche_type);
+  ok((r.cliffhangers||[]).includes(src.cliff_type),"Type de cliffhanger déclaré",src.cliff_type);
+  ok(plans.at(-1)?.role==="cliff","Dernier plan = cliffhanger",plans.at(-1)?.role);
+  const ce=src.commentaire_epingle||"";
+  ok(ce.includes("/")||ce.includes("?"),"Question de vote en commentaire épinglé",ce||"—");
+  const cad=plans.map(p=>p.cadrage), rep=[];
+  for(let i=0;i<cad.length-1;i++) if(cad[i]===cad[i+1]) rep.push(`${i+1}-${i+2}`);
+  ok(!rep.length,"Jamais 2 cadrages identiques d'affilée",rep.join(", ")||"oui");
+  ok(new Set(cad).size>=5,"Au moins 5 cadrages différents",new Set(cad).size);
+  ok(cad.filter(c=>PROCHES.has(c)).length>=4,"Au moins 4 plans serrés sur les visages",cad.filter(c=>PROCHES.has(c)).length);
+  const cams=plans.map(p=>p.camera);
+  ok(new Set(cams).size>=4,"Au moins 4 mouvements de caméra",new Set(cams).size);
+  ok(runs(cams,x=>x==="fixe")<3,"Jamais 3 caméras fixes d'affilée",runs(cams,x=>x==="fixe"));
+  ok(cams.filter(c=>c==="zoom_dramatique").length<=1,"Zoom dramatique 1 fois max",cams.filter(c=>c==="zoom_dramatique").length);
+  ok(new Set(plans.map(p=>p.angle||"face")).size>=3,"Au moins 3 angles",new Set(plans.map(p=>p.angle||"face")).size);
+  const lx=plans.map(p=>p.lieu), hc=(src.format||"").includes("huis clos");
+  ok(new Set(lx).size>=(hc?1:3),"Au moins 3 lieux (sauf huis clos)",new Set(lx).size);
+  ok(new Set(plans.map(p=>p.lumiere)).size>=2,"Au moins 2 lumières",new Set(plans.map(p=>p.lumiere)).size);
+  const parl=plans.filter(p=>p.replique).map(p=>p.parle);
+  ok(runs(parl)<=2,"Même personnage 2 plans d'affilée max",runs(parl));
+  ok(new Set(parl).size>=3,"Au moins 3 personnages parlent",new Set(parl).size);
+  ok(new Set(plans.flatMap(p=>(p.persos||[]).map(x=>x.id))).size<=6,"6 personnages max",new Set(plans.flatMap(p=>(p.persos||[]).map(x=>x.id))).size);
+  const vu={}, conf=[];
+  for(const p of plans) for(const x of p.persos||[]){const k=x.id+"|"+p.lieu,t=x.tenue||"base";if(k in vu&&vu[k]!==t&&!(src.format||"").includes("flashback"))conf.push(`${x.id} plan ${p.n}`);if(!(k in vu))vu[k]=t}
+  ok(!conf.length,"Tenues cohérentes dans un même lieu",conf.join(", ")||"oui");
+  const fils=Object.fromEntries((B.saison?.fils||[]).map(f=>[f.id,f])), av=src.fils_avances||[];
+  ok(av.length&&av.every(f=>fils[f]),"Fait avancer au moins un fil de la saison",av.join(", ")||"aucun");
+  const rev=(src.revele||[]).filter(f=>fils[f]?.statut==="cache");
+  ok(rev.length<=1,"Un seul secret révélé max",rev.join(", ")||"aucun");
+  if(hist.length){const der=hist.at(-1);
+    ok(!hist.slice(-2).map(h=>h.format).includes(src.format),"Format différent des 2 derniers",src.format);
+    ok(!hist.slice(-3).map(h=>h.accroche_type).includes(src.accroche_type),"Accroche différente des 3 derniers",src.accroche_type);
+    ok(!hist.slice(-3).map(h=>h.cliff_type).includes(src.cliff_type),"Cliffhanger différent des 3 derniers",src.cliff_type);
+    const pr=mostCommon(lx), prDer=mostCommon((der.plans||[]).map(p=>p.lieu));
+    ok(pr!==prDer,"Décor principal différent de l'épisode précédent",pr);
+    ok(src.centre!==der.centre,"Personnage au centre différent du précédent",src.centre);
+    const anc=new Set(hist.flatMap(h=>(h.plans||[]).filter(p=>p.replique).map(p=>norm(p.replique))));
+    const dbl=plans.filter(p=>p.replique&&anc.has(norm(p.replique))).map(p=>p.n);
+    ok(!dbl.length,"Aucune réplique déjà utilisée",dbl.join(", ")||"oui");
+    ok(!!src.reprend,"Reprend la fin de l'épisode précédent",src.reprend||"—","AVOIR");
+  }
+  // rétention
+  const ta=src.texte_accroche||"";
+  ok(ta&&ta.split(/\s+/).length<=7,"Texte d'accroche à l'écran (7 mots max)",ta||"—");
+  const qm=src.question_milieu||{};
+  ok(qm.texte&&+qm.plan>=5&&+qm.plan<=8,"Question au milieu (plans 5 à 8)",`plan ${qm.plan??"?"} : ${qm.texte||"—"}`);
+  const ret=plans.filter(p=>p.role==="retournement").map(p=>p.n);
+  ok(ret.some(n=>n>=3&&n<=6)&&ret.some(n=>n>=7&&n<=11),"Retournement avant 35 s ET avant 65 s",ret.join(", ")||"aucun");
+  if(!isUnique()) ok((src.hashtags||[]).map(h=>h.toLowerCase()).includes("#partie"+src.numero),"Hashtag #partie"+src.numero,(src.hashtags||[]).join(" "));
+  // conformité
+  const c=C(), textes=plans.map(p=>[`plan ${p.n}`,[p.replique,p.mouvement,p.detail_image,...(p.persos||[]).map(x=>x.jeu)].join(" ")]);
+  for(const k of ["titre","titre_couverture","legende","commentaire_epingle","texte_accroche"]) textes.push([k,src[k]]);
+  textes.push(["question milieu",qm.texte]);
+  const rouges=[];
+  for(const [ou,t] of textes) for(const [cat,list] of Object.entries(c.rouge||{})) for(const m of trouve(t,list))
+    rouges.push(`${ou} « ${m} » (${cat.replace(/_/g," ")}) → ${c.remplacements?.[words(m).trim()]||"reformuler"}`);
+  ok(!rouges.length,"Aucun mot rouge TikTok",rouges.join(" ; ")||"oui");
+  const or=plans.flatMap(p=>trouve(p.replique,c.orange).map(m=>`plan ${p.n} « ${m} »`));
+  ok(or.length<=(c.max_orange??2),`Gros mots légers ${c.max_orange??2} max`,or.join(", ")||0);
+  ok(!trouve(p1.replique,c.orange).length,"Plan 1 sans gros mot",p1.replique||"");
+  const bait=[...trouve(src.legende,c.appats_interdits),...trouve(src.commentaire_epingle,c.appats_interdits),...trouve(qm.texte,c.appats_interdits)];
+  ok(!bait.length,"Pas d'appât à likes/abonnements",bait.join(", ")||"oui");
+  ok((src.hashtags||[]).length>=4&&(src.hashtags||[]).length<=7,"4 à 7 hashtags",(src.hashtags||[]).length,"AVOIR");
+  let fet=0; for(const p of plans) for(const q of Object.values(P)) if(p.replique&&q.replique_fetiche&&norm(p.replique).includes(norm(q.replique_fetiche))) fet++;
+  ok(fet<=2,"Répliques fétiches 2 fois max",fet,"AVOIR");
+  return res;
+}
+const echecs=res=>res.filter(r=>r.niv==="ECHEC");
+
+/* ================== Claude : écriture ================== */
+function contexte(numero){
+  const P=B.personnages?.personnages||[], r=R(), c=C(), s=B.saison||{};
+  const hist=epsOf(cur).filter(e=>e.source&&e.numero<numero).map(e=>e.source).sort((a,b)=>a.numero-b.numero);
+  const S=serieOf(cur)||{}, K=G.concepts||{};
+  const resumeHist=hist.map(h=>({numero:h.numero,titre:h.titre,format:h.format,accroche_type:h.accroche_type,cliff_type:h.cliff_type,centre:h.centre,
+    lieu_principal:mostCommon((h.plans||[]).map(p=>p.lieu)),fils_avances:h.fils_avances,revele:h.revele,resume:h.resume,fin:h.fin,vote_gagnant:h.vote_gagnant||"",
+    repliques:(h.plans||[]).filter(p=>p.replique).map(p=>p.replique)}));
+  return `=== ${S.type==="unique"?"VIDÉO UNIQUE":"SÉRIE"} : ${S.nom||""} (niche : ${S.niche||""}) ===\n${S.concept?`Concept : ${S.concept.nom} — ${S.concept.logline}\nMécanique prouvée reprise : ${S.concept.pourquoi?.join(" ; ")||""}\n`:""}\n`+
+  `=== TENDANCES REPÉRÉES (s'en inspirer pour la mécanique, jamais copier le texte) ===\n${tendTxt(tendOf(S.niche))}\n\n`+
+  `=== RÈGLES GÉNÉRIQUES ===\n${(K.regles_generiques||[]).map(x=>"- "+x).join("\n")}\n\n`+
+  `=== TON DE LA SÉRIE ===\n${B.serie?.texte||""}\n\n=== RECETTES VIRALES ===\n${B.recettes?.texte||""}\n\n`+
+  `=== RÈGLES TIKTOK (bloquantes) ===\n${(c.regles_ecriture||[]).map(x=>"- "+x).join("\n")}\nMots INTERDITS (même dans les descriptions) : ${Object.values(c.rouge||{}).flat().join(", ")}\nGros mots légers autorisés 2 max, jamais au plan 1 : ${(c.orange||[]).join(", ")}\nInsultes maison à privilégier : ${(c.insultes_maison||[]).join(", ")}\nFormulations interdites en légende/commentaire : ${(c.appats_interdits||[]).join(", ")}\n\n`+
+  `=== PERSONNAGES (ids) ===\n${P.map(p=>`- ${p.id} : ${p.nom}, ${p.animal}. Caractère : ${p.caractere}. Tics : ${(p.tics||[]).join(" ; ")}. Réplique fétiche : « ${p.replique_fetiche} ». Objectif : ${p.objectif}. Secret : ${p.secret}. Tenues : ${Object.entries(p.tenues||{}).map(([k,v])=>k+" = "+v).join(" | ")}`).join("\n")}\n\n`+
+  `=== LIEUX (ids) ===\n${(B.lieux?.lieux||[]).map(l=>`- ${l.id} : ${l.nom} (${l.desc})`).join("\n")}\n\n`+
+  `=== CODES DE RÉALISATION (seules valeurs autorisées) ===\ncadrage : ${Object.entries(r.cadrages||{}).map(([k,v])=>k+" ("+v+")").join(" ; ")}\nangle : ${Object.keys(r.angles||{}).join(", ")}\ncamera : ${Object.entries(r.cameras||{}).map(([k,v])=>k+" ("+v+")").join(" ; ")}\nlumiere : ${Object.keys(r.lumieres||{}).join(", ")}\nformat : ${(r.formats_episode||[]).join(" | ")}\naccroche_type : ${(r.accroches||[]).join(" | ")}\ncliff_type : ${(r.cliffhangers||[]).join(" | ")}\n\n`+
+  `=== SAISON ${s.saison||1} ===\nEnjeu : ${s.enjeu||""}\nFils : ${(s.fils||[]).map(f=>`${f.id} [${f.statut}] ${f.texte}`).join(" ; ")}\nPlan prévu : ${(s.episodes||[]).map(e=>`${e.n}. (${e.format}) ${e.pitch}`).join("\n")}\n\n`+
+  `=== ÉPISODES DÉJÀ FAITS ===\n${resumeHist.length?JSON.stringify(resumeHist):"aucun"}`;
+}
+const SCHEMA=`Réponds UNIQUEMENT avec un objet JSON (aucun texte autour) :
+{"numero":N,"titre":"3-5 mots","format":"…","accroche_type":"…","cliff_type":"…","centre":"id","fils_avances":["id"],"revele":[],"reprend":"comment le plan 1 enchaîne sur la fin précédente (vide pour l'épisode 1)","resume":"2 phrases","fin":"1 phrase : situation exacte à la coupure","recettes_utilisees":["…"],
+"texte_accroche":"7 mots max, texte affiché 0-3 s","question_milieu":{"plan":5-8,"texte":"vraie question d'opinion courte + 1 émoji"},
+"plans":[{"n":1,"role":"accroche|developpement|retournement|cliff","lieu":"id","lumiere":"code","cadrage":"code","angle":"code","camera":"code","persos":[{"id":"id","tenue":"base|chic|nuit","jeu":"posture + expression précise, avec les tics"}],"parle":"id","emotion":"ton de voix","replique":"2 à 14 mots","mouvement":"UNE action simple et lisible pendant 6 s (Grok anime mal les actions complexes)","detail_image":"facultatif","son":"facultatif"}],
+"titre_couverture":"6 mots choc max","legende":"1-2 phrases + 1 émoji, finit par une question","hashtags":["#laferme","#drama","#animaux","#histoire","#partieN"],"commentaire_epingle":"question binaire : 🅰️ choix A / 🅱️ choix B","vote_question":"même question en une ligne"}`;
+const CONTRAINTES_UNIQUE=`MODE VIDÉO UNIQUE (pas une série) : l'histoire est complète en une vidéo. Le dernier plan (role "cliff") est une CHUTE qui surprend et dont l'image rappelle le plan 1 (boucle = revisionnage). Pas de « Partie N », pas de #partieN. Le commentaire épinglé pose une vraie question d'opinion sur la chute.
+`;
+const contraintes=()=>(isUnique()?CONTRAINTES_UNIQUE:"")+CONTRAINTES;
+const CONTRAINTES=`CONTRAINTES (vérifiées automatiquement, tout échec = refusé) :
+- 12 plans (11-13), chaque plan = clip Grok de 6 s. Une seule personne parle par plan, 2 à 14 mots, au plus 1 plan muet. Celui qui parle est dans "persos".
+- Plan 1 : réplique-choc au cœur du drame (12 mots max, AUCUN gros mot), cadrage TGP/GP/PR/ECRAN/INSERT. Plan 2 : redonne le contexte en une phrase pour les nouveaux spectateurs.
+- Un "retournement" entre les plans 3-6 ET un autre entre 7-11. Dernier plan role "cliff", coupé au pire moment.
+- Jamais 2 cadrages identiques d'affilée, ≥5 cadrages différents, ≥4 plans TGP/GP/PR, ≥4 caméras différentes, jamais 3 "fixe" d'affilée, zoom_dramatique 1 fois max, ≥3 angles, ≥3 lieux (sauf format huis clos), ≥2 lumières.
+- Même personnage 2 plans de parole d'affilée max, ≥3 personnages parlent, 6 personnages max. Même tenue pour un perso dans un même lieu.
+- Au moins un fil de la saison avancé, au plus un secret "cache" révélé. Au moins un moment de contraste comique.
+- Si des épisodes existent : format différent des 2 derniers, accroche différente des 3 derniers, cliffhanger différent des 3 derniers, décor principal et personnage central différents du précédent, aucune réplique réutilisée, le plan 1 reprend EXACTEMENT la fin du précédent (et le vote gagnant s'il est indiqué).
+- Répliques : comme on parle vraiment, courtes, qui claquent. Engueulades par le ton et les insultes maison. Respect strict des règles TikTok.
+- Hashtags : 4 à 7 dont #partieN. Aucune formule « like si / partie 2 à X likes / abonne-toi pour ».`;
+
+function stream(label){return ({text})=>{if(gen){gen.progress=`${label}… ${text.length} caractères écrits`;const el=document.getElementById("prog");if(el)el.textContent=gen.progress}}}
+function errMsg(e){return e?.code==="rate_limited"?"Limite d'utilisation Claude atteinte, réessaie plus tard":e?.code==="not_granted"?"Autorise Claude pour cette page (menu Autorisations)":e?.code==="invalid_json"?"Réponse illisible, relance":e?.code==="cancelled"?"Annulé":"Claude n'a pas pu répondre, relance"}
+
+function nettoie(o,numero){
+  o.numero=numero; o.plans=(o.plans||[]).map((p,i)=>({...p,n:i+1,persos:Array.isArray(p.persos)?p.persos:[]}));
+  if(o.question_milieu) o.question_milieu.plan=+o.question_milieu.plan||6;
+  o.hashtags=(o.hashtags||[]).map(h=>h.startsWith("#")?h:"#"+h);
+  return o;
+}
+async function ecrireEpisode(){
+  if(!sample) return toast("Écriture par Claude indisponible ici");
+  const numero=Math.max(0,...epsOf(cur).map(e=>e.numero))+1, idee=(document.getElementById("idee")?.value||"").trim(), vote=(document.getElementById("vote")?.value||"").trim();
+  const ctl=new AbortController(); gen={numero,progress:"Claude lit la bible…",ctl}; render();
+  const consigne=`Tu es showrunner et réalisateur de ${isUnique()?"vidéos":"séries"} TikTok virales en IA (vidéos de 61-72 s, images ChatGPT + animation Grok). Écris l'ÉPISODE ${numero}.\n${idee?`IDÉE DU CRÉATEUR (à intégrer) : ${idee}\n`:""}${vote?`VOTE GAGNANT DES COMMENTAIRES de l'épisode précédent (à reprendre et à dire) : ${vote}\n`:""}\n${contexte(numero)}\n\n${contraintes()}\n\n${SCHEMA}`;
+  try{
+    let o=nettoie(await sample.json(consigne,{modelTier:"complex",signal:ctl.signal,onText:stream("Écriture")}),numero);
+    if(vote) o.vote_precedent=vote;
+    let res=verifier(o);
+    if(echecs(res).length){
+      gen.progress=`${echecs(res).length} règle(s) à corriger, Claude corrige…`; render();
+      o=nettoie(await sample.json(corrigerPrompt(o,res),{modelTier:"complex",signal:ctl.signal,onText:stream("Correction")}),numero);
+      res=verifier(o);
+    }
+    const id=docId(cur,numero);
+    await db.collection("episodes").doc(id).set({serie:cur,numero,titre:o.titre,resume:o.resume,source:o,origine:"telephone",idee,maj:new Date().toISOString()});
+    gen=null; toast(echecs(res).length?`Épisode écrit · ${echecs(res).length} point(s) à revoir`:"Épisode écrit et validé",3000); location.hash="e-"+id;
+  }catch(e){gen=null; render(); toast(errMsg(e),3500)}
+}
+function corrigerPrompt(o,res,extra){
+  return `Tu es le réalisateur de la série. Voici un épisode (JSON) et le rapport du contrôle qualité. Corrige TOUS les ÉCHECS${extra?" et applique la demande du créateur":""} en changeant le moins de choses possible, en gardant l'histoire. ${extra?`\nDEMANDE DU CRÉATEUR : ${extra}\n`:""}\nRAPPORT :\n${res.filter(r=>r.niv!=="OK").map(r=>`${r.niv} ${r.regle} — ${r.mes}`).join("\n")||"(aucun échec)"}\n\n${contexte(o.numero)}\n\n${contraintes()}\n\nÉPISODE :\n${JSON.stringify(o)}\n\nRenvoie l'épisode COMPLET corrigé, même format JSON, rien d'autre.`;
+}
+async function corrigerEpisode(ep,extra){
+  if(!sample) return toast("Claude indisponible ici");
+  const k="fix-"+ep.id; busy[k]=1; render();
+  try{
+    const o=nettoie(await sample.json(corrigerPrompt(ep.source,verifier(ep.source),extra),{modelTier:"complex"}),ep.source.numero);
+    o.vote_precedent=ep.source.vote_precedent; await saveSource(ep,o); toast("Épisode corrigé");
+  }catch(e){toast(errMsg(e),3500)}finally{delete busy[k];render()}
+}
+async function reecrirePlan(ep,n,instr){
+  if(!sample) return toast("Claude indisponible ici");
+  const k=`rw-${ep.id}-${n}`; busy[k]=1; render();
+  const src=ep.source, p=src.plans.find(x=>x.n===n);
+  const consigne=`Tu es le réalisateur de la série. Réécris UNIQUEMENT le plan ${n} de cet épisode${instr?` selon cette demande : ${instr}`:" pour qu'il soit plus fort (réplique plus percutante, jeu plus précis)"}. Garde la continuité avec les plans voisins, le même rôle dans l'histoire, les codes autorisés, une seule personne qui parle (2 à 14 mots), et les règles TikTok.\n\n${contexte(src.numero)}\n\nÉPISODE :\n${JSON.stringify(src)}\n\nRenvoie UNIQUEMENT l'objet JSON du plan ${n} (mêmes champs : n, role, lieu, lumiere, cadrage, angle, camera, persos, parle, emotion, replique, mouvement, detail_image, son).`;
+  try{const np=await sample.json(consigne,{modelTier:"default"}); np.n=n; if(!Array.isArray(np.persos))np.persos=p.persos;
+    const o=clone(src); o.plans=o.plans.map(x=>x.n===n?np:x); await saveSource(ep,o); toast(`Plan ${pad(n)} réécrit`)}
+  catch(e){toast(errMsg(e),3500)}finally{delete busy[k];render()}
+}
+async function saveSource(ep,o){
+  await db.collection("episodes").doc(ep.id).update({source:o,titre:o.titre,resume:o.resume,maj:new Date().toISOString()});
+}
+
+/* ================== vues ================== */
+function clipsOf(id){return Object.values(clips).filter(c=>c.episode===id)}
+function statut(ep){
+  if(ep.final) return {t:"Prête à publier",c:"ok"};
+  const res=ep.source?verifier(ep.source):[], e=echecs(res).length;
+  if(e) return {t:`Brouillon · ${e} règle${e>1?"s":""} à corriger`,c:"bad"};
+  const n=clipsOf(ep.id).length, tot=(ep.source?.plans||ep.plans||[]).length;
+  if(demandes.some(d=>d.type==="monter"&&d.episode===ep.id&&d.statut!=="fait")) return {t:"Montage demandé",c:""};
+  if(n>=tot&&tot) return {t:"Clips complets · à monter",c:""};
+  return {t:`Validé · à tourner ${n}/${tot}`,c:""};
+}
+function render(){
+  const m=view.match(/^(e|s|b)-(.+)$/);
+  backBtn.hidden=!m;
+  nav.querySelectorAll("a").forEach(a=>a.classList.toggle("on",a.dataset.v===view||(a.dataset.v===""&&!!m)));
+  if(m?.[1]==="e"){const ep=episodes.find(e=>e.id===m[2]); if(ep){setCur(ep.serie||"laferme");backBtn.dataset.to="s-"+cur;return renderEp(ep)}}
+  if(m?.[1]==="s"&&serieOf(m[2])){setCur(m[2]);backBtn.dataset.to="";return renderSerie()}
+  if(m?.[1]==="b"&&serieOf(m[2])){setCur(m[2]);backBtn.dataset.to="s-"+cur;return renderBible()}
+  if(view==="regles") return renderRegles();
+  if(view==="tendances") return renderTendances();
+  if(view==="nouveau") return renderNouveau();
+  renderStudio();
+}
+function renderStudio(){
+  app.innerHTML=`
+  <section class="card"><h2>Tes séries et vidéos</h2><p class="mute">Chaque série a sa propre bible (personnages, décors, saison) et part d'un concept déjà prouvé sur TikTok.</p>
+    <div style="height:10px"></div><a class="btn" href="#nouveau" style="text-decoration:none">Créer une série ou une vidéo</a></section>
+  ${seriesList().map(s=>{const eps=epsOf(s.id);return `<button class="ep" data-s="${esc(s.id)}"><span class="num">${esc((s.nom||"?").slice(0,2).toUpperCase())}</span>
+    <span class="t"><b>${esc(s.nom)}</b><span class="mute" style="font-size:13px">${esc(s.type==="unique"?"Vidéo unique":"Série")} · ${esc(s.niche||"")}${s.concept?` · ${esc(s.concept.nom)}`:""}</span><br>
+    <span class="chip">${eps.length} ${s.type==="unique"?"vidéo":"épisode"}${eps.length>1?"s":""}</span></span></button>`}).join("")}
+  <section class="card"><p class="lbl">Tendances</p><p>${tendances.length} vidéo${tendances.length>1?"s":""} virale${tendances.length>1?"s":""} repérée${tendances.length>1?"s":""}. Claude s'en sert pour proposer les concepts et écrire les épisodes.</p>
+    <div style="height:10px"></div><a class="btn alt" href="#tendances" style="text-decoration:none">Ajouter une vidéo virale</a></section>`;
+  app.querySelectorAll("[data-s]").forEach(b=>b.onclick=()=>{location.hash="s-"+b.dataset.s});
+}
+function renderSerie(){
+  const S=serieOf(cur), U=S.type==="unique";
+  const keep={idee:document.getElementById("idee")?.value||"",vote:document.getElementById("vote")?.value||""};
+  const eps=epsOf(cur), numero=Math.max(0,...eps.map(e=>e.numero))+1, prevu=(B.saison?.episodes||[]).find(e=>e.n===numero);
+  const prec=eps.find(e=>e.numero===numero-1)?.source;
+  app.innerHTML=`
+  <section class="card"><p class="lbl">${U?"Vidéo unique":"Série"} · ${esc(S.niche||"")}</p><h2>${esc(S.nom)}</h2>
+    ${S.concept?`<p class="mute">${esc(S.concept.logline||"")}</p><p class="note">Concept prouvé : ${esc(S.concept.nom||"")}</p>`:""}
+    <div style="height:10px"></div><a class="btn alt small" href="#b-${esc(cur)}" style="text-decoration:none">Bible : personnages, décors, saison</a></section>
+  <section class="card"><p class="lbl">${U?`Nouvelle vidéo · n°${numero}`:`Nouvel épisode · Partie ${numero}`}</p>
+    ${prevu?`<p class="mute" style="margin-bottom:8px">Prévu : <b>${esc(prevu.format)}</b> · ${esc(prevu.pitch)}</p>`:""}
+    ${!U&&prec?.commentaire_epingle?`<label class="f" for="vote">Vote gagnant de la partie ${numero-1} (« ${esc(prec.commentaire_epingle)} »)</label><input type="text" id="vote" placeholder="Ex : il pardonne (68 %)">`:""}
+    <label class="f" for="idee">Ton idée (facultatif)</label>
+    <textarea id="idee" placeholder="${U?"Ex : l'arbitre consulte la VAR pour savoir qui a mangé son sandwich":"Une idée pour la suite ?"}"></textarea>
+    <div style="height:10px"></div>
+    ${gen?`<button class="btn" disabled>Claude écrit…</button><p class="progress" id="prog">${esc(gen.progress)}</p><div style="height:8px"></div><button class="btn alt small" id="stop">Annuler</button>`
+      :`<button class="btn" id="write" ${sample&&B.personnages&&B.realisation?"":"disabled"}>${U?"Écrire une vidéo avec Claude":"Écrire l'épisode avec Claude"}</button>
+      <p class="note">${sample?"Environ 1 à 2 minutes. Claude suit la bible, le concept, les tendances et les règles TikTok, puis le contrôle qualité vérifie environ 45 règles.":"L'écriture directe marche dans l'appli Claude ou sur claude.ai. Sinon, demande au PC :"}</p>
+      ${!sample&&S.legacy?`<div style="height:8px"></div><button class="btn alt" id="ask">Demander au PC</button>`:""}`}
+  </section>
+  ${eps.length?eps.map(ep=>{const s=statut(ep);return `
+    <button class="ep" data-ep="${esc(ep.id)}"><span class="num">${pad(ep.numero)}</span>
+    <span class="t"><b>${esc(ep.titre)}</b><span class="chip ${s.c}">${esc(s.t)}</span></span></button>`}).join("")
+  :`<div class="card empty"><h2>Rien pour l'instant</h2><p class="mute">Écris ${U?"la première vidéo":"la partie 1"} : elle apparaîtra ici avec tous ses prompts prêts à copier.</p></div>`}`;
+  if(document.getElementById("idee")) document.getElementById("idee").value=keep.idee;
+  if(document.getElementById("vote")) document.getElementById("vote").value=keep.vote;
+  const w=document.getElementById("write"); if(w) w.onclick=ecrireEpisode;
+  const st=document.getElementById("stop"); if(st) st.onclick=()=>gen?.ctl.abort();
+  const a=document.getElementById("ask"); if(a) a.onclick=askEpisode;
+  app.querySelectorAll("[data-ep]").forEach(b=>b.onclick=()=>{location.hash="e-"+b.dataset.ep});
+}
+
+/* ---------- création d'une série ou d'une vidéo ---------- */
+function promptConcepts(){
+  const K=G.concepts||{}, c=G.conformite||{};
+  return `Tu es directeur de création d'un studio qui fait des vidéos TikTok virales en IA (images ChatGPT + animation Grok, 61-72 s, beaucoup de dialogue car Grok anime mal les actions complexes).
+Le créateur veut ${wiz.type==="unique"?"une VIDÉO UNIQUE (histoire complète en une vidéo, chute finale)":"une nouvelle SÉRIE (épisodes « Partie N » avec cliffhanger, mêmes personnages)"}.
+Niche : ${wiz.niche}. Style visuel : ${wiz.style}. Ton : ${wiz.ton}. ${wiz.idee?`Idée du créateur : ${wiz.idee}`:""}
+
+Propose 3 concepts DIFFÉRENTS. Chaque concept DOIT partir d'un concept prouvé de la bibliothèque (garder la mécanique, changer l'univers) et s'appuyer si possible sur les tendances repérées. Rien au hasard : chaque choix est justifié par une preuve.
+
+=== BIBLIOTHÈQUE DE CONCEPTS PROUVÉS ===
+${(K.concepts||[]).map(k=>`- ${k.id} : ${k.nom}. Preuve : ${k.preuve} Mécanique : ${k.mecanique} Structure : ${k.structure} Risques : ${k.risques}`).join("\n")}
+
+=== ARCHÉTYPES ===
+${Object.entries(K.archetypes||{}).map(([k,v])=>k+" : "+v.join(", ")).join("\n")}
+=== SITUATIONS ===
+${Object.entries(K.situations||{}).map(([k,v])=>k+" : "+v.join(", ")).join("\n")}
+
+=== TENDANCES REPÉRÉES ===
+${tendTxt(tendOf(wiz.niche))}
+
+=== RÈGLES ===
+${[...(K.regles_generiques||[]),...(c.regles_ecriture||[])].map(x=>"- "+x).join("\n")}
+
+Réponds UNIQUEMENT en JSON :
+{"concepts":[{"nom":"nom de la série, 1-3 mots, inventé","logline":"le concept en une phrase","concept_id":"id de la bibliothèque","pourquoi":["3 raisons, chacune reliée à une preuve ou une tendance"],"casting":[{"nom":"prénom inventé","role":"archétype","look":"animal/objet/physique + signe distinctif"}],"accroche_exemple":"1re réplique de la 1re vidéo","fin_exemple":"comment se termine la 1re vidéo","tendances_utilisees":["…"],"risques":"risque TikTok et comment on l'évite"}]}`;
+}
+function promptBible(k){
+  const R0=G.realisation||{};
+  return `Tu es showrunner. Crée la BIBLE complète de ${wiz.type==="unique"?"cette vidéo unique (on pourra en faire d'autres avec le même casting)":"cette série TikTok"} à partir du concept choisi. Tout doit être cohérent, réutilisable d'un épisode à l'autre et décrit pour qu'une IA d'image redessine EXACTEMENT les mêmes personnages.
+
+CONCEPT CHOISI : ${JSON.stringify(k)}
+Niche : ${wiz.niche}. Ton : ${wiz.ton}.
+STYLE VISUEL : ${STYLES[wiz.style]||wiz.style}
+
+Règles :
+- 5 à 7 personnages, chacun un archétype net et VISUELLEMENT très distinct (couleur dominante, accessoire signature). "adn" = description physique précise et fixe en une phrase, commençant par le prénom (espèce/forme, couleurs, signes distinctifs, accessoires). Tenues "base", "chic", "nuit" (jamais suggestives). "voix" = âge, timbre, accent, débit. 2-3 tics visibles à l'image. Un objectif et un secret par personnage, qui créent des conflits entre eux.
+- Univers 100 % inventé : aucun vrai joueur, club, ligue, stade, sponsor, logo, maillot reconnaissable, émission ou marque.
+- 8 à 10 décors avec "desc" visuelle précise et fixe, et "son" (ambiance sonore).
+- Saison : un enjeu clair en une phrase, 5 à 7 fils (2 au statut "cache" = secrets à révéler plus tard), et ${wiz.type==="unique"?"1 épisode":"10 à 12 épisodes"} avec chacun un format différent pris dans : ${(R0.formats_episode||[]).join(" | ")}.
+- "serie_texte" : le ton et les règles d'écriture de la série en markdown (comment on parle, l'humour, ce qui rend addictif, ce qui est interdit).
+- "recettes_texte" : en markdown, les mécaniques virales à appliquer, tirées du concept prouvé et des tendances.
+- ids : minuscules sans accents ni espaces (ex : "kylian" interdit car trop proche d'un vrai joueur ; invente des prénoms neutres).
+
+Réponds UNIQUEMENT en JSON :
+{"nom":"…","style":"le style visuel complet","personnages":[{"id":"…","nom":"…","animal":"espèce ou forme","adn":"…","tenues":{"base":"…","chic":"…","nuit":"…"},"voix":"…","caractere":"…","tics":["…"],"replique_fetiche":"…","objectif":"…","secret":"…"}],"lieux":[{"id":"…","nom":"…","desc":"…","son":"…"}],"saison":{"saison":1,"enjeu":"…","fils":[{"id":"…","texte":"…","statut":"ouvert|cache"}],"episodes":[{"n":1,"format":"…","pitch":"…"}]},"serie_texte":"…","recettes_texte":"…"}`;
+}
+async function proposerConcepts(){
+  if(!sample) return toast("Claude indisponible ici");
+  readWiz(); wiz.busy=true; wiz.progress="Claude compare les concepts prouvés et les tendances…"; wiz.concepts=null; render();
+  try{const r=await sample.json(promptConcepts(),{modelTier:"complex",onText:({text})=>{wiz.progress=`Claude réfléchit… ${text.length} caractères`;const el=document.getElementById("prog");if(el)el.textContent=wiz.progress}});
+    wiz.concepts=r.concepts||[]}catch(e){toast(errMsg(e),3500)}finally{wiz.busy=false;render()}
+}
+async function creerSerie(i){
+  const k=wiz.concepts[i]; wiz.busy=true; wiz.progress=`Claude écrit la bible de « ${k.nom} »…`; render();
+  try{const b=await sample.json(promptBible(k),{modelTier:"complex",onText:({text})=>{wiz.progress=`Bible de « ${k.nom} »… ${text.length} caractères`;const el=document.getElementById("prog");if(el)el.textContent=wiz.progress}});
+    let id=sid(b.nom||k.nom); if(serieOf(id)) id+="-"+(series.length+2);
+    const doc={nom:b.nom||k.nom,type:wiz.type,niche:wiz.niche,ton:wiz.ton,style_choisi:wiz.style,concept:k,creee:new Date().toISOString(),
+      bible:{personnages:{style:b.style||STYLES[wiz.style],personnages:b.personnages||[]},lieux:{lieux:b.lieux||[]},saison:b.saison||{saison:1,enjeu:"",fils:[],episodes:[]},serie:{texte:b.serie_texte||""},recettes:{texte:b.recettes_texte||""}}};
+    await db.collection("series").doc(id).set(doc); wiz.concepts=null; toast("Série créée : vérifie la bible puis écris la 1re vidéo",3500); location.hash="s-"+id;
+  }catch(e){toast(errMsg(e),3500)}finally{wiz.busy=false;render()}
+}
+function readWiz(){const g=id=>document.getElementById(id);if(!g("w-niche"))return;
+  wiz.niche=g("w-niche").value.trim()||"foot";wiz.type=g("w-type").value;wiz.style=g("w-style").value;wiz.ton=g("w-ton").value.trim();wiz.idee=g("w-idee").value.trim()}
+function renderNouveau(){
+  const K=G.concepts||{}, chk=(a,b)=>a===b?"selected":"";
+  app.innerHTML=`
+  <section class="card"><h2>Créer une série ou une vidéo</h2>
+    <p class="mute">Claude part de formats qui ont déjà fait des millions de vues et des tendances que tu as repérées. Il propose 3 concepts justifiés, tu choisis, il écrit toute la bible.</p>
+    <div class="row"><div><label class="f" for="w-type">Quoi</label><select id="w-type"><option value="serie" ${chk(wiz.type,"serie")}>Une série (Partie 1, 2, 3…)</option><option value="unique" ${chk(wiz.type,"unique")}>Une vidéo unique</option></select></div>
+      <div><label class="f" for="w-style">Style des personnages</label><select id="w-style">${[["animaux","Animaux 3D"],["fruits","Fruits et objets 3D"],["humains","Humains 3D cartoon"],["anime","Animé japonais"]].map(([v,t])=>`<option value="${v}" ${chk(wiz.style,v)}>${t}</option>`).join("")}</select></div></div>
+    <label class="f" for="w-niche">Niche</label><input type="text" id="w-niche" value="${esc(wiz.niche)}" placeholder="foot, cuisine, bureau, école…">
+    <label class="f" for="w-ton">Ton</label><input type="text" id="w-ton" value="${esc(wiz.ton)}" placeholder="drama drôle, épique, absurde…">
+    <label class="f" for="w-idee">Une envie précise ? (facultatif)</label><textarea id="w-idee" placeholder="Ex : un vestiaire de foot amateur où tout le monde se déteste">${esc(wiz.idee)}</textarea>
+    <div style="height:10px"></div>
+    ${wiz.busy?`<button class="btn" disabled>Claude travaille…</button><p class="progress" id="prog">${esc(wiz.progress)}</p>`
+      :`<button class="btn" id="w-go" ${sample&&G.concepts?"":"disabled"}>${wiz.concepts?"Proposer 3 autres concepts":"Proposer 3 concepts"}</button>`}
+    ${!sample?`<p class="note">Ouvre la page dans l'appli Claude pour utiliser Claude.</p>`:""}
+  </section>
+  ${(wiz.concepts||[]).map((k,i)=>{const src=(K.concepts||[]).find(x=>x.id===k.concept_id);return `<section class="card"><p class="lbl">Concept ${i+1} · d'après « ${esc(src?.nom||k.concept_id)} »</p>
+    <h2>${esc(k.nom)}</h2><p>${esc(k.logline)}</p>
+    <p class="lbl" style="margin-top:12px">Pourquoi ça marche</p><ul class="checks">${(k.pourquoi||[]).map(x=>`<li><span class="k OK">✓</span><span>${esc(x)}</span></li>`).join("")}</ul>
+    <p class="lbl" style="margin-top:12px">Casting</p><ul class="checks">${(k.casting||[]).map(c=>`<li><span class="k AVOIR">${esc((c.nom||"?").slice(0,1))}</span><span><b>${esc(c.nom)}</b> · ${esc(c.role)} <span class="m">${esc(c.look)}</span></span></li>`).join("")}</ul>
+    <p class="note"><b>1re réplique :</b> « ${esc(k.accroche_exemple)} »<br><b>Fin :</b> ${esc(k.fin_exemple)}${k.tendances_utilisees?.length?`<br><b>Tendances :</b> ${esc(k.tendances_utilisees.join(", "))}`:""}<br><b>Risque TikTok :</b> ${esc(k.risques)}</p>
+    <div style="height:10px"></div><button class="btn" data-pick="${i}" ${wiz.busy?"disabled":""}>Choisir et écrire la bible</button></section>`}).join("")}
+  <section class="card"><details class="sec"><summary>Les ${(K.concepts||[]).length} concepts prouvés</summary>
+    <ul class="checks">${(K.concepts||[]).map(k=>`<li><span class="k OK">✓</span><span><b>${esc(k.nom)}</b> <span class="m">${esc(k.preuve)}</span></span></li>`).join("")}</ul></details></section>`;
+  const go=document.getElementById("w-go"); if(go) go.onclick=proposerConcepts;
+  app.querySelectorAll("[data-pick]").forEach(b=>b.onclick=()=>{readWiz();creerSerie(+b.dataset.pick)});
+  ["w-niche","w-type","w-style","w-ton","w-idee"].forEach(id=>{const el=document.getElementById(id);if(el)el.onchange=readWiz});
+}
+
+/* ---------- tendances ---------- */
+async function analyserCaptures(files,note){
+  const lim=await sample.limits().catch(()=>null), max=lim?.images?.maxCount||4;
+  const imgs=[...files].slice(0,max);
+  const r=await sample(`Tu analyses une vidéo TikTok virale pour un studio qui fait des vidéos IA. Voici ${imgs.length} captures d'écran (dans l'ordre) et la note du créateur : « ${note||"aucune"} ».
+Réponds en français, 6 lignes max, sans recopier les répliques : 1) accroche des 3 premières secondes et sa mécanique, 2) structure et retournements, 3) pourquoi on reste, 4) visuel (cadrages, style, personnages), 5) ce qui pousse à commenter, 6) 2 mécaniques transposables.`,{images:imgs,modelTier:"default"});
+  return r.text;
+}
+function renderTendances(){
+  const niches=[...new Set(seriesList().map(s=>s.niche).filter(Boolean))];
+  app.innerHTML=`
+  <section class="card"><h2>Vidéos virales repérées</h2>
+    <p class="mute">Tu vois une vidéo qui cartonne ? Colle le lien et dis ce qui s'y passe. Ajoute des captures d'écran : Claude les analyse tout de suite. Les liens sont aussi analysés en profondeur par le PC (/analyser : vues, rythme, transcription).</p>
+    <label class="f" for="t-lien">Lien TikTok</label><input type="text" id="t-lien" placeholder="https://www.tiktok.com/@…/video/…">
+    <div class="row"><div><label class="f" for="t-niche">Niche</label><input type="text" id="t-niche" list="t-nl" placeholder="foot"><datalist id="t-nl">${niches.map(n=>`<option value="${esc(n)}">`).join("")}<option value="foot"></datalist></div>
+      <div><label class="f" for="t-vues">Vues (environ)</label><input type="text" id="t-vues" placeholder="2,4 M"></div></div>
+    <label class="f" for="t-note">Ce qui se passe et pourquoi ça marche selon toi</label><textarea id="t-note" placeholder="Ex : le coach engueule un joueur à la mi-temps, chaque réplique est plus absurde, 40 000 commentaires « team coach / team joueur »"></textarea>
+    <label class="f" for="t-img">Captures d'écran (facultatif, 4 max)</label><input type="file" id="t-img" accept="image/*" multiple ${imgOK?"":"disabled"}>
+    ${imgOK?"":`<p class="note">L'analyse d'images n'est pas disponible ici.</p>`}
+    <div style="height:10px"></div><button class="btn" id="t-add" ${busy.tend?"disabled":""}>${busy.tend?"Claude analyse les captures…":"Ajouter la tendance"}</button></section>
+  ${tendances.map(t=>`<section class="card"><p class="lbl">${esc(t.niche||"")} ${t.vues?`· ${esc(t.vues)} vues`:""} · ${t.fiche?"analysée":t.lien?"en attente du PC":"note"}</p>
+    <p>${esc(t.note||"")}</p>${t.lien?`<p class="note" style="overflow-wrap:anywhere">${esc(t.lien)}</p>`:""}
+    ${t.fiche?`<details><summary>Analyse</summary><pre>${esc(t.fiche)}</pre></details>`:""}
+    ${confirmDel===t.id?`<div class="confirm"><button class="btn danger small" data-tdy="${esc(t.id)}">Supprimer</button><button class="btn alt small" data-tdn="1">Garder</button></div>`:`<div style="height:8px"></div><button class="btn alt small" data-td="${esc(t.id)}">Supprimer</button>`}</section>`).join("")}`;
+  document.getElementById("t-add").onclick=async()=>{
+    const g=id=>document.getElementById(id), lien=g("t-lien").value.trim(), note=g("t-note").value.trim(), files=g("t-img").files;
+    if(!lien&&!note) return toast("Mets au moins un lien ou une description");
+    busy.tend=1; render();
+    let fiche="";
+    try{if(files&&files.length&&sample&&imgOK) fiche=await analyserCaptures(files,note)}catch(e){toast(errMsg(e),3000)}
+    try{await db.collection("tendances").add({lien,note,niche:g("t-niche")?.value.trim()||"general",vues:g("t-vues")?.value.trim()||"",fiche,statut:lien?"a_analyser":"note",date:new Date().toISOString()});toast(fiche?"Tendance analysée et ajoutée":"Tendance ajoutée")}
+    catch(e){toast("Ajout impossible")}finally{delete busy.tend;render()}};
+  app.querySelectorAll("[data-td]").forEach(b=>b.onclick=()=>{confirmDel=b.dataset.td;render()});
+  app.querySelectorAll("[data-tdn]").forEach(b=>b.onclick=()=>{confirmDel=null;render()});
+  app.querySelectorAll("[data-tdy]").forEach(b=>b.onclick=async()=>{try{await db.collection("tendances").doc(b.dataset.tdy).delete();confirmDel=null;toast("Supprimée")}catch(e){toast("Suppression impossible")}});
+}
+
+const opts=(obj,val)=>Object.entries(obj||{}).map(([k,v])=>`<option value="${esc(k)}" ${k===val?"selected":""}>${esc(k)} · ${esc(String(v).slice(0,40))}</option>`).join("");
+function editPlanForm(ep,p){
+  const r=R(), P=persos(), id=`${ep.id}-${p.n}`;
+  return `<div class="edit">
+    <label class="f" for="rep-${id}">Réplique</label><input type="text" id="rep-${id}" value="${esc(p.replique||"")}">
+    <div class="row"><div><label class="f" for="par-${id}">Qui parle</label><select id="par-${id}">${(p.persos||[]).map(x=>`<option value="${esc(x.id)}" ${x.id===p.parle?"selected":""}>${esc(nomDe(x.id))}</option>`).join("")}</select></div>
+      <div><label class="f" for="emo-${id}">Ton de voix</label><input type="text" id="emo-${id}" value="${esc(p.emotion||"")}"></div></div>
+    ${(p.persos||[]).map((x,i)=>`<label class="f" for="jeu-${id}-${i}">Jeu de ${esc(nomDe(x.id))} · tenue
+      <select id="ten-${id}-${i}" style="width:auto;padding:2px 6px;font-size:12px">${Object.keys(P[x.id]?.tenues||{}).map(t=>`<option ${t===(x.tenue||"base")?"selected":""}>${t}</option>`).join("")}</select></label>
+      <textarea id="jeu-${id}-${i}" style="min-height:50px">${esc(x.jeu||"")}</textarea>`).join("")}
+    <label class="f" for="mvt-${id}">Mouvement (Grok, 6 s)</label><textarea id="mvt-${id}" style="min-height:50px">${esc(p.mouvement||"")}</textarea>
+    <div class="row">
+      <div><label class="f" for="lie-${id}">Lieu</label><select id="lie-${id}">${opts(Object.fromEntries(Object.entries(lieux()).map(([k,v])=>[k,v.nom])),p.lieu)}</select></div>
+      <div><label class="f" for="lum-${id}">Lumière</label><select id="lum-${id}">${opts(r.lumieres,p.lumiere)}</select></div>
+      <div><label class="f" for="cad-${id}">Cadrage</label><select id="cad-${id}">${opts(r.cadrages,p.cadrage)}</select></div>
+      <div><label class="f" for="ang-${id}">Angle</label><select id="ang-${id}">${opts(r.angles,p.angle||"face")}</select></div>
+      <div><label class="f" for="cam-${id}">Caméra</label><select id="cam-${id}">${opts(r.cameras,p.camera)}</select></div>
+      <div><label class="f" for="son-${id}">Bruit en plus</label><input type="text" id="son-${id}" value="${esc(p.son||"")}"></div>
+    </div>
+    <label class="f" for="det-${id}">Détail image (facultatif)</label><input type="text" id="det-${id}" value="${esc(p.detail_image||"")}">
+    <div style="height:10px"></div>
+    <div class="row"><button class="btn small" data-save="${p.n}">Enregistrer le plan</button><button class="btn alt small" data-close="${p.n}">Fermer</button></div>
+    <label class="f" for="ins-${id}">Ou demande à Claude de le réécrire</label>
+    <input type="text" id="ins-${id}" placeholder="Ex : plus méchant, Bernard fait une blague, plan plus large…">
+    <div style="height:8px"></div>
+    <button class="btn alt small" data-rw="${p.n}" ${busy[`rw-${ep.id}-${p.n}`]||!sample?"disabled":""}>${busy[`rw-${ep.id}-${p.n}`]?"Claude réécrit…":"Réécrire ce plan avec Claude"}</button>
+  </div>`;
+}
+function readPlanForm(ep,p){
+  const id=`${ep.id}-${p.n}`, g=x=>document.getElementById(x+"-"+id)?.value??"";
+  const np={...p,replique:g("rep").trim(),parle:g("par"),emotion:g("emo"),mouvement:g("mvt"),lieu:g("lie"),lumiere:g("lum"),cadrage:g("cad"),angle:g("ang"),camera:g("cam"),son:g("son"),detail_image:g("det"),
+    persos:(p.persos||[]).map((x,i)=>({...x,jeu:document.getElementById(`jeu-${id}-${i}`).value,tenue:document.getElementById(`ten-${id}-${i}`).value}))};
+  for(const k of ["son","detail_image"]) if(!np[k]) delete np[k];
+  return np;
+}
+function renderEp(ep){
+  const src=ep.source;
+  if(!src) return app.innerHTML=`<div class="card"><h2>${esc(ep.titre)}</h2><p class="mute">Ancien format : renvoie cet épisode depuis le PC.</p></div>`;
+  const got=Object.fromEntries(clipsOf(ep.id).map(c=>[c.n,c]));
+  const tot=src.plans.length, n=Object.keys(got).length, res=verifier(src), E=echecs(res), V=res.filter(r=>r.niv==="AVOIR");
+  const monterDemande=demandes.some(d=>d.type==="monter"&&d.episode===ep.id&&d.statut!=="fait");
+  const k=s=>`${ep.id}-${s}`, qm=src.question_milieu||{};
+  const refs=fichePersos(src);
+  app.innerHTML=`
+  <section class="card"><p class="lbl">${esc(serieOf(cur)?.nom||"")} · ${isUnique()?"Vidéo":"Partie"} ${src.numero} · ${esc(src.format||"")}</p><h2>${esc(src.titre)}</h2><p class="mute">${esc(src.resume)}</p>
+    <p class="note"><b>Accroche écran :</b> « ${esc(src.texte_accroche||"")} » · <b>Fin :</b> ${esc(src.fin||"")}</p>
+    <span class="chip ${E.length?"bad":"ok"}">${E.length?`${E.length} règle${E.length>1?"s":""} à corriger`:`Contrôle qualité OK · ${res.length} règles`}${V.length?` · ${V.length} à voir`:""}</span>
+    <details ${E.length?"open":""}><summary>Contrôle qualité (${res.filter(r=>r.niv==="OK").length}/${res.length} OK)</summary>
+      <ul class="checks">${[...E,...V,...res.filter(r=>r.niv==="OK")].map(r=>`<li><span class="k ${r.niv}">${r.niv==="ECHEC"?"ÉCHEC":r.niv==="AVOIR"?"À VOIR":"OK"}</span><span><b>${esc(r.regle)}</b> <span class="m">${esc(r.mes)}</span></span></li>`).join("")}</ul>
+    </details>
+    <div style="height:10px"></div>
+    <label class="f" for="fixreq">Demande de changement pour tout l'épisode (facultatif)</label>
+    <input type="text" id="fixreq" placeholder="Ex : Huguette plus présente, fin plus choquante…">
+    <div style="height:8px"></div>
+    <button class="btn ${E.length?"":"alt"}" id="fix" ${busy["fix-"+ep.id]||!sample?"disabled":""}>${busy["fix-"+ep.id]?"Claude retravaille l'épisode…":E.length?"Corriger avec Claude":"Retravailler avec Claude"}</button>
+    <div class="bar"><i style="width:${tot?n/tot*100:0}%"></i></div><p class="note">${n} / ${tot} clips envoyés</p></section>
+
+  ${ep.final?`<section class="card final"><p class="lbl">Vidéo finale</p>
+    <video src="/_blob/${esc(ep.final)}" controls playsinline preload="metadata"></video><div style="height:10px"></div>
+    <button class="btn" id="save">Enregistrer la vidéo</button>
+    ${ep.couverture?`<p class="note">Couverture :</p><img src="/_blob/${esc(ep.couverture)}" alt="Couverture de la partie ${src.numero}">`:""}
+    ${ep.rapport?`<details><summary>Rapport de montage</summary><pre>${esc(ep.rapport)}</pre></details>`:""}</section>`:""}
+
+  <section class="card"><p class="lbl">1 · Ouverture ChatGPT</p>
+    <p>Nouvelle conversation ChatGPT, colle ce message, joins les portraits de référence si tu les as.</p><div style="height:10px"></div>
+    <button class="btn ${wasCopied(k("open"))?"done":""}" data-copy="open" data-k="${k("open")}">Copier le message d'ouverture</button>
+    <details><summary>Pas encore de portraits de référence ? (à faire une fois par personnage)</summary>
+      <div class="row" style="margin-top:8px">${refs.map(r=>`<button class="btn alt small" data-ref="${esc(r.id)}" data-k="${k("ref-"+r.id)}">Portrait ${esc(r.nom)}</button>`).join("")}</div>
+      <p class="note">Garde chaque portrait dans ta galerie et joins-le à chaque nouvelle conversation : c'est ce qui garde les visages identiques d'un épisode à l'autre.</p></details></section>
+
+  <p class="lbl" style="margin:6px 0 0">2 · Storyboard, dans l'ordre</p>
+  ${src.plans.map(p=>{const c=got[p.n], ed=open[k(p.n)];return `
+  <section class="card plan ${c?"got":""}"><div class="top"><span class="n">${pad(p.n)}<small>${tps(p.n)}</small></span>
+    <div class="what"><span class="chip role">${esc(p.role)}</span>
+      <p class="tech">${esc(lieux()[p.lieu]?.nom||p.lieu)} · ${esc(p.cadrage)} · ${esc(p.angle||"face")} · ${esc(p.camera)} · ${esc(p.lumiere)}</p>
+      <p class="say">${p.replique?`<b>${esc(nomDe(p.parle))}</b> <span class="mute">(${esc(p.emotion||"")})</span> : « ${esc(p.replique)} »`:`<span class="mute">plan muet</span>`}</p>
+      ${p.n===1&&src.texte_accroche?`<p class="overlay">Texte écran 0-3 s : « ${esc(src.texte_accroche)} »</p>`:""}
+      ${+qm.plan===p.n&&qm.texte?`<p class="overlay">Question au milieu : « ${esc(qm.texte)} »</p>`:""}
+      ${p.n===tot?`<p class="overlay">${isUnique()?"Fin : la chute + question":`Fin : « Partie ${src.numero+1} ? » + question de vote`}</p>`:""}
+    </div>
+    ${c?`<video src="/_blob/${esc(c.asset)}" muted playsinline preload="metadata"></video>`:""}</div>
+    ${ed?editPlanForm(ep,p):`<div class="acts">
+      <button class="btn ${wasCopied(k("i"+p.n))?"done":""}" data-copy="i" data-n="${p.n}" data-k="${k("i"+p.n)}">Image → ChatGPT</button>
+      <button class="btn ${wasCopied(k("g"+p.n))?"done":""}" data-copy="g" data-n="${p.n}" data-k="${k("g"+p.n)}">Vidéo → Grok</button>
+      <button class="btn alt small" data-edit="${p.n}">Modifier</button>
+      <label class="btn ${c?"done":"alt"} small" ${assets?"":"hidden"}>
+        <input class="file" type="file" accept="video/mp4,video/webm,video/*" data-up="${p.n}" id="up-${ep.id}-${p.n}">
+        ${busy[k(p.n)]?"Envoi…":c?"Clip reçu ✓":"Envoyer clip "+pad(p.n)}</label>
+    </div>`}</section>`}).join("")}
+
+  <section class="card"><p class="lbl">3 · Montage CapCut</p>
+    <pre>${esc(ficheMontage(src))}</pre><div style="height:10px"></div>
+    <button class="btn alt" data-copy="mont" data-k="${k("mont")}">Copier la fiche de montage</button>
+    <div style="height:8px"></div>
+    <button class="btn alt" id="monter" ${n<tot||monterDemande?"disabled":""}>${monterDemande?"Montage PC demandé ✓":n<tot?`Montage auto sur PC : encore ${tot-n} clip${tot-n>1?"s":""}`:"Lancer le montage auto sur PC"}</button>
+  </section>
+
+  <section class="card"><p class="lbl">4 · Publication</p>
+    <details class="sec"><summary>Textes de publication</summary>
+      <label class="f" for="e-titre">Titre</label><input type="text" id="e-titre" value="${esc(src.titre)}">
+      <label class="f" for="e-ta">Texte d'accroche à l'écran (7 mots max)</label><input type="text" id="e-ta" value="${esc(src.texte_accroche||"")}">
+      <div class="row"><div><label class="f" for="e-qmp">Question milieu : plan</label><input type="text" id="e-qmp" inputmode="numeric" value="${esc(qm.plan||"")}"></div>
+        <div><label class="f" for="e-qmt">texte</label><input type="text" id="e-qmt" value="${esc(qm.texte||"")}"></div></div>
+      <label class="f" for="e-tc">Titre de couverture</label><input type="text" id="e-tc" value="${esc(src.titre_couverture||"")}">
+      <label class="f" for="e-leg">Légende</label><textarea id="e-leg">${esc(src.legende||"")}</textarea>
+      <label class="f" for="e-hash">Hashtags</label><input type="text" id="e-hash" value="${esc((src.hashtags||[]).join(" "))}">
+      <label class="f" for="e-com">Commentaire épinglé</label><input type="text" id="e-com" value="${esc(src.commentaire_epingle||"")}">
+      <div style="height:10px"></div><button class="btn small" id="savepub">Enregistrer les textes</button>
+    </details>
+    <div style="height:10px"></div>
+    <div class="row"><button class="btn alt" data-copy="pub" data-k="${k("pub")}">Légende + hashtags</button><button class="btn alt" data-copy="com" data-k="${k("com")}">Commentaire épinglé</button></div>
+    <ul class="checks" style="margin-top:12px">${(C().publication||[]).map(x=>`<li><span class="k AVOIR">☐</span><span>${esc(x)}</span></li>`).join("")}</ul>
+  </section>
+
+  <section class="card"><details class="sec"><summary>Supprimer l'épisode</summary>
+    ${confirmDel===ep.id?`<p class="note">L'épisode et ses textes seront supprimés définitivement (les clips envoyés restent stockés).</p><div class="confirm"><button class="btn danger small" id="delyes">Supprimer pour de bon</button><button class="btn alt small" id="delno">Garder</button></div>`
+      :`<div style="height:8px"></div><button class="btn danger small" id="del">Supprimer la partie ${src.numero}</button>`}</details></section>`;
+
+  app.querySelectorAll("[data-copy]").forEach(b=>b.onclick=()=>{
+    const t=b.dataset.copy, p=src.plans.find(x=>x.n==b.dataset.n);
+    copy(t==="open"?ouverture(src):t==="i"?promptImage(p):t==="g"?promptGrok(p):t==="pub"?publication(src):t==="mont"?ficheMontage(src):src.commentaire_epingle||"",b)});
+  app.querySelectorAll("[data-ref]").forEach(b=>b.onclick=()=>copy(refs.find(r=>r.id===b.dataset.ref).prompt,b));
+  app.querySelectorAll("[data-up]").forEach(inp=>inp.onchange=()=>upload(ep,+inp.dataset.up,inp.files[0]));
+  app.querySelectorAll("[data-edit]").forEach(b=>b.onclick=()=>{open[k(b.dataset.edit)]=1;render()});
+  app.querySelectorAll("[data-close]").forEach(b=>b.onclick=()=>{delete open[k(b.dataset.close)];render()});
+  app.querySelectorAll("[data-save]").forEach(b=>b.onclick=async()=>{const nn=+b.dataset.save,p=src.plans.find(x=>x.n===nn);
+    const o=clone(src); o.plans=o.plans.map(x=>x.n===nn?readPlanForm(ep,p):x);
+    try{await saveSource(ep,o);delete open[k(nn)];toast(`Plan ${pad(nn)} enregistré`)}catch(e){toast("Enregistrement impossible")}});
+  app.querySelectorAll("[data-rw]").forEach(b=>b.onclick=()=>{const nn=+b.dataset.rw;reecrirePlan(ep,nn,document.getElementById(`ins-${ep.id}-${nn}`).value.trim())});
+  const f=document.getElementById("fix"); if(f) f.onclick=()=>corrigerEpisode(ep,document.getElementById("fixreq").value.trim());
+  const sp=document.getElementById("savepub"); if(sp) sp.onclick=async()=>{const o=clone(src),g=id=>document.getElementById(id).value;
+    o.titre=g("e-titre").trim();o.texte_accroche=g("e-ta").trim();o.question_milieu={plan:+g("e-qmp")||6,texte:g("e-qmt").trim()};o.titre_couverture=g("e-tc").trim();
+    o.legende=g("e-leg").trim();o.hashtags=g("e-hash").split(/\s+/).filter(Boolean).map(h=>h.startsWith("#")?h:"#"+h);o.commentaire_epingle=g("e-com").trim();
+    try{await saveSource(ep,o);toast("Textes enregistrés")}catch(e){toast("Enregistrement impossible")}};
+  const m=document.getElementById("monter"); if(m) m.onclick=()=>askMonter(ep);
+  const s=document.getElementById("save"); if(s) s.onclick=()=>saveFinal(ep,s);
+  const d=document.getElementById("del"); if(d) d.onclick=()=>{confirmDel=ep.id;render()};
+  const dn=document.getElementById("delno"); if(dn) dn.onclick=()=>{confirmDel=null;render()};
+  const dy=document.getElementById("delyes"); if(dy) dy.onclick=async()=>{try{await db.collection("episodes").doc(ep.id).delete();confirmDel=null;location.hash="s-"+cur;toast("Épisode supprimé")}catch(e){toast("Suppression impossible")}};
+}
+
+/* ---------- bible ---------- */
+const lines=s=>String(s||"").split(/[,\n]/).map(x=>x.trim()).filter(Boolean);
+const slug=s=>norm(s).replace(/\s+/g,"_")||("id"+Date.now());
+function renderBible(){
+  if(!B.personnages||!B.lieux||!B.saison) return app.innerHTML=`<div class="card empty"><h2>Bible pas encore chargée</h2><p class="mute">Patiente quelques secondes.</p></div>`;
+  const P=B.personnages.personnages, L=B.lieux.lieux, S=B.saison;
+  app.innerHTML=`
+  <section class="card"><p class="mute">Tout ce qui est changé ici s'applique aux prochains prompts et aux prochains épisodes. Les descriptions (ADN, tenues, décors) sont recopiées mot pour mot dans chaque prompt : c'est la clé de la cohérence.</p></section>
+  <section class="card"><details class="sec" ${open.bp?"open":""} data-o="bp"><summary>Personnages (${P.length})</summary>
+    ${P.map((p,i)=>`<details class="perso" ${open["p"+i]?"open":""} data-o="p${i}"><summary>${esc(p.nom)} <small>· ${esc(p.animal)}</small></summary>
+      <div class="row"><div><label class="f" for="pn${i}">Prénom</label><input type="text" id="pn${i}" value="${esc(p.nom)}"></div><div><label class="f" for="pa${i}">Animal</label><input type="text" id="pa${i}" value="${esc(p.animal)}"></div></div>
+      <label class="f" for="pd${i}">ADN visuel (copié dans chaque image)</label><textarea id="pd${i}">${esc(p.adn)}</textarea>
+      ${["base","chic","nuit"].map(t=>`<label class="f" for="pt${t}${i}">Tenue ${t}</label><input type="text" id="pt${t}${i}" value="${esc(p.tenues?.[t]||"")}">`).join("")}
+      <label class="f" for="pv${i}">Voix (copiée dans chaque prompt Grok)</label><input type="text" id="pv${i}" value="${esc(p.voix)}">
+      <label class="f" for="pc${i}">Caractère</label><input type="text" id="pc${i}" value="${esc(p.caractere)}">
+      <label class="f" for="pk${i}">Tics (séparés par des virgules)</label><input type="text" id="pk${i}" value="${esc((p.tics||[]).join(", "))}">
+      <label class="f" for="pf${i}">Réplique fétiche</label><input type="text" id="pf${i}" value="${esc(p.replique_fetiche)}">
+      <label class="f" for="po${i}">Objectif</label><input type="text" id="po${i}" value="${esc(p.objectif)}">
+      <label class="f" for="ps${i}">Secret</label><input type="text" id="ps${i}" value="${esc(p.secret)}">
+    </details>`).join("")}
+    <div style="height:10px"></div><div class="row"><button class="btn small" id="savep">Enregistrer les personnages</button><button class="btn alt small" id="addp">Ajouter un personnage</button></div>
+    <label class="f" for="style">Style visuel commun (copié dans l'ouverture ChatGPT)</label><textarea id="style">${esc(B.personnages.style)}</textarea>
+  </details></section>
+
+  <section class="card"><details class="sec" ${open.bl?"open":""} data-o="bl"><summary>Décors (${L.length})</summary>
+    ${L.map((l,i)=>`<details class="perso" ${open["l"+i]?"open":""} data-o="l${i}"><summary>${esc(l.nom)}</summary>
+      <label class="f" for="ln${i}">Nom</label><input type="text" id="ln${i}" value="${esc(l.nom)}">
+      <label class="f" for="ld${i}">Description (copiée dans chaque image)</label><textarea id="ld${i}">${esc(l.desc)}</textarea>
+      <label class="f" for="ls${i}">Ambiance sonore (Grok)</label><input type="text" id="ls${i}" value="${esc(l.son)}"></details>`).join("")}
+    <div style="height:10px"></div><div class="row"><button class="btn small" id="savel">Enregistrer les décors</button><button class="btn alt small" id="addl">Ajouter un décor</button></div>
+  </details></section>
+
+  <section class="card"><details class="sec" ${open.bs?"open":""} data-o="bs"><summary>Saison ${esc(S.saison)}</summary>
+    <label class="f" for="enjeu">Enjeu</label><input type="text" id="enjeu" value="${esc(S.enjeu)}">
+    <p class="lbl" style="margin-top:12px">Fils et secrets</p>
+    ${S.fils.map((f,i)=>`<div class="row" style="grid-template-columns:2fr 1fr;margin-top:6px"><input type="text" id="ft${i}" aria-label="Fil ${esc(f.id)}" value="${esc(f.texte)}"><select id="fs${i}" aria-label="Statut">${["ouvert","cache","resolu"].map(s=>`<option ${s===f.statut?"selected":""}>${s}</option>`).join("")}</select></div>`).join("")}
+    <p class="lbl" style="margin-top:12px">Plan des épisodes</p>
+    ${S.episodes.map((e,i)=>`<label class="f" for="sp${i}">Partie ${e.n} · ${esc(e.format)}</label><textarea id="sp${i}" style="min-height:50px">${esc(e.pitch)}</textarea>`).join("")}
+    <div style="height:10px"></div><button class="btn small" id="saves">Enregistrer la saison</button>
+  </details></section>
+
+  ${[["serie","Ton de la série"],["recettes","Recettes virales"]].map(([d,t])=>`<section class="card"><details class="sec" ${open["b"+d]?"open":""} data-o="b${d}"><summary>${t}</summary>
+    <textarea class="big" id="t-${d}">${esc(B[d]?.texte||"")}</textarea><div style="height:10px"></div><button class="btn small" data-savet="${d}">Enregistrer</button></details></section>`).join("")}`;
+
+  app.querySelectorAll("details[data-o]").forEach(d=>d.ontoggle=()=>{if(d.open)open[d.dataset.o]=1;else delete open[d.dataset.o]});
+  const v=id=>document.getElementById(id).value.trim();
+  const save=async(doc,data,msg)=>{try{await saveBibleDoc(doc,data);toast(msg)}catch(e){toast("Enregistrement impossible")}};
+  const readP=()=>P.map((p,i)=>({...p,nom:v("pn"+i),animal:v("pa"+i),adn:v("pd"+i),tenues:{base:v("ptbase"+i),chic:v("ptchic"+i)||v("ptbase"+i),nuit:v("ptnuit"+i)||v("ptbase"+i)},
+    voix:v("pv"+i),caractere:v("pc"+i),tics:lines(v("pk"+i)),replique_fetiche:v("pf"+i),objectif:v("po"+i),secret:v("ps"+i)}));
+  document.getElementById("savep").onclick=()=>save("personnages",{...B.personnages,style:v("style"),personnages:readP()},"Personnages enregistrés");
+  document.getElementById("addp").onclick=()=>{const np=readP();const i=np.length;np.push({id:"nouveau"+(i+1),nom:"Nouveau",animal:"animal",adn:"Nouveau, …",tenues:{base:"",chic:"",nuit:""},voix:"",caractere:"",tics:[],replique_fetiche:"",objectif:"",secret:""});
+    open.bp=1;open["p"+i]=1;save("personnages",{...B.personnages,style:v("style"),personnages:np},"Personnage ajouté : remplis sa fiche")};
+  const readL=()=>L.map((l,i)=>({...l,nom:v("ln"+i),desc:v("ld"+i),son:v("ls"+i)}));
+  document.getElementById("savel").onclick=()=>save("lieux",{...B.lieux,lieux:readL()},"Décors enregistrés");
+  document.getElementById("addl").onclick=()=>{const nl=readL();const i=nl.length;nl.push({id:"lieu"+(i+1),nom:"Nouveau décor",desc:"",son:""});open.bl=1;open["l"+i]=1;save("lieux",{...B.lieux,lieux:nl},"Décor ajouté : décris-le")};
+  document.getElementById("saves").onclick=()=>save("saison",{...S,enjeu:v("enjeu"),fils:S.fils.map((f,i)=>({...f,texte:v("ft"+i),statut:v("fs"+i)})),episodes:S.episodes.map((e,i)=>({...e,pitch:v("sp"+i)}))},"Saison enregistrée");
+  app.querySelectorAll("[data-savet]").forEach(b=>b.onclick=()=>save(b.dataset.savet,{texte:document.getElementById("t-"+b.dataset.savet).value},"Enregistré"));
+}
+
+/* ---------- règles ---------- */
+function renderRegles(){
+  const c=C();
+  app.innerHTML=`
+  <section class="card"><h2>Pourquoi des vidéos sautent</h2>
+    <p>TikTok transcrit les voix. Les insultes dégradantes (garce, bâtard…) comptent comme du harcèlement, même entre personnages de fiction. Les tenues légères et les sous-entendus sexuels sortent la vidéo du fil Pour Toi. Le contrôle qualité bloque tout ça avant le tournage.</p>
+    <p class="note">Source : Règles de la communauté TikTok en vigueur depuis le 24 septembre 2026.</p></section>
+  <section class="card"><p class="lbl">Règles d'écriture</p><ul class="checks">${(c.regles_ecriture||[]).map(x=>`<li><span class="k OK">✓</span><span>${esc(x)}</span></li>`).join("")}</ul></section>
+  <section class="card"><p class="lbl">À chaque publication</p><ul class="checks">${(c.publication||[]).map(x=>`<li><span class="k AVOIR">☐</span><span>${esc(x)}</span></li>`).join("")}</ul></section>
+  <section class="card"><details class="sec" ${open.rc?"open":""} data-o="rc"><summary>Listes de mots (modifiables)</summary>
+    <label class="f" for="r-rouge">Mots rouges, bloqués (une catégorie par ligne : nom: mot, mot)</label>
+    <textarea class="big" id="r-rouge">${esc(Object.entries(c.rouge||{}).map(([k,v])=>k+": "+v.join(", ")).join("\n"))}</textarea>
+    <label class="f" for="r-orange">Gros mots légers, ${c.max_orange??2} max par épisode</label><textarea id="r-orange">${esc((c.orange||[]).join(", "))}</textarea>
+    <label class="f" for="r-maison">Insultes maison conseillées</label><textarea id="r-maison">${esc((c.insultes_maison||[]).join(", "))}</textarea>
+    <label class="f" for="r-bait">Appâts interdits (légende, commentaire)</label><textarea id="r-bait">${esc((c.appats_interdits||[]).join(", "))}</textarea>
+    <label class="f" for="r-remp">Remplacements proposés (une ligne : mot = remplacement)</label>
+    <textarea class="big" id="r-remp">${esc(Object.entries(c.remplacements||{}).map(([k,v])=>k+" = "+v).join("\n"))}</textarea>
+    <div style="height:10px"></div><button class="btn small" id="saver">Enregistrer les listes</button></details></section>`;
+  app.querySelectorAll("details[data-o]").forEach(d=>d.ontoggle=()=>{if(d.open)open[d.dataset.o]=1;else delete open[d.dataset.o]});
+  const sv=document.getElementById("saver"); if(sv) sv.onclick=async()=>{const g=id=>document.getElementById(id).value;
+    const rouge={}; g("r-rouge").split("\n").forEach(l=>{const i=l.indexOf(":");if(i>0)rouge[l.slice(0,i).trim()]=lines(l.slice(i+1))});
+    const remp={}; g("r-remp").split("\n").forEach(l=>{const i=l.indexOf("=");if(i>0)remp[words(l.slice(0,i)).trim()]=l.slice(i+1).trim()});
+    try{await db.collection("bible").doc("conformite").set({...c,rouge,orange:lines(g("r-orange")),insultes_maison:lines(g("r-maison")),appats_interdits:lines(g("r-bait")),remplacements:remp});toast("Listes enregistrées")}
+    catch(e){toast("Enregistrement impossible")}};
+}
+
+/* ================== actions ================== */
+async function upload(ep,n,file){
+  if(!file||!assets) return;
+  const key=`${ep.id}-${n}`; busy[key]=1; render();
+  try{const type=file.type&&/^video\/(mp4|webm)$/.test(file.type)?file.type:"video/mp4";
+    const r=await assets.upload(file,{type});
+    await db.collection("clips").doc(`${ep.id}-${pad(n)}`).set({episode:ep.id,n,asset:r.id,taille:r.sizeBytes,date:new Date().toISOString()});
+    toast(`Clip ${pad(n)} reçu`);
+  }catch(e){toast(e.code==="too_large"?"Vidéo trop lourde (20 Mo max)":e.code==="unsupported_type"?"Format refusé : envoie un MP4":"Envoi raté, réessaie")}
+  finally{delete busy[key]; render()}
+}
+async function askEpisode(){
+  if(!db) return toast("Studio hors ligne");
+  const idee=(document.getElementById("idee")?.value||"").trim();
+  try{await db.collection("demandes").add({type:"episode",idee,statut:"en_attente",date:new Date().toISOString()});toast("Demande envoyée au PC")}
+  catch(e){toast("Impossible d'envoyer la demande")}
+}
+async function askMonter(ep){
+  try{await db.collection("demandes").add({type:"monter",episode:ep.id,statut:"en_attente",date:new Date().toISOString()});toast("Montage demandé")}
+  catch(e){toast("Impossible d'envoyer la demande")}
+}
+async function saveFinal(ep,btn){
+  if(!downloads) return toast("Enregistrement indisponible ici : appuie longuement sur la vidéo");
+  btn.disabled=true; btn.textContent="Préparation…";
+  try{const blob=await (await fetch("/_blob/"+ep.final)).blob();
+    await downloads.save({filename:`laferme-partie-${pad(ep.numero)}.mp4`,data:blob}); toast("Vidéo enregistrée")}
+  catch(e){if(e&&e.code!=="declined") toast("Enregistrement impossible")}
+  finally{btn.disabled=false; btn.textContent="Enregistrer la vidéo"}
+}
+
+function route(){let h=location.hash.slice(1);if(/^ep\d{3}$/.test(h))h="e-"+h;view=/^(e|s|b)-[a-z0-9-]+$/.test(h)||["regles","tendances","nouveau"].includes(h)?h:"";confirmDel=null;render();window.scrollTo(0,0)}
+backBtn.onclick=()=>{location.hash=backBtn.dataset.to||""};
+addEventListener("hashchange",route);
+// garde le focus et la saisie pendant les mises à jour en direct
+function safeRender(){const a=document.activeElement;if(a&&/INPUT|TEXTAREA|SELECT/.test(a.tagName)&&app.contains(a))return;render()}
+
+(async()=>{
+  const c=window.claude;
+  if(!c||!c.use){app.innerHTML=`<div class="card empty"><h2>Studio hors ligne</h2><p class="mute">Ouvre cette page dans l'appli Claude ou sur claude.ai.</p></div>`;return}
+  const timer=setTimeout(()=>{if(!episodes.length&&!G.realisation) app.innerHTML=`<div class="card empty"><h2>Connexion lente</h2><p class="mute">Le studio n'arrive pas encore. Vérifie ta connexion.</p></div>`},10000);
+  [db,assets,downloads,sample]=await Promise.all([c.use("db"),c.use("assets"),c.use("downloads"),c.use("sample")]);
+  if(!db){clearTimeout(timer);app.innerHTML=`<div class="card empty"><h2>Connecte-toi</h2><p class="mute">Le studio a besoin de ton compte Claude.</p></div>`;return}
+  db.collection("bible").onSnapshot(s=>{clearTimeout(timer);G=Object.fromEntries(s.docs.map(d=>[d.id,d.data()]));bibleLoaded=!!G.realisation;setCur(cur);safeRender()},()=>{});
+  db.collection("series").onSnapshot(s=>{series=s.docs.map(d=>({id:d.id,...d.data()}));setCur(cur);safeRender()},()=>{});
+  db.collection("tendances").orderBy("date","desc").limit(60).onSnapshot(s=>{tendances=s.docs.map(d=>({id:d.id,...d.data()}));safeRender()},()=>{});
+  if(sample){try{imgOK=!!(await sample.limits())?.images}catch(e){}}
+  db.collection("episodes").orderBy("numero","desc").onSnapshot(s=>{clearTimeout(timer);episodes=s.docs.map(d=>({id:d.id,...d.data()}));safeRender()},()=>{});
+  db.collection("clips").onSnapshot(s=>{clips=Object.fromEntries(s.docs.map(d=>[d.id,d.data()]));safeRender()},()=>{});
+  db.collection("demandes").orderBy("date","desc").limit(50).onSnapshot(s=>{demandes=s.docs.map(d=>({id:d.id,...d.data()}));safeRender()},()=>{});
+  route();
+})();
+</script>

@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "id": "7689796721815063840",
+    "url": "https://www.tiktok.com/@fruitwist.tv/video/7689796721815063840",
+    "compte": "fruitwist.tv",
+    "description": "#fruitstory #iafruit ",
+    "vues": 708100,
+    "likes": 73000,
+    "commentaires": 197,
+    "partages": 427,
+    "date": "20260926",
+    "duree": 62.9,
+    "musique": "son original",
+    "taux_likes": 10.31,
+    "taux_commentaires": 0.028
+  },
+  "langue": "fr",
+  "texte_complet": "167 de QI c'est le meilleur élève que cette école est jamais vu et pendant ce temps on lui avait collé un faux 20 sur le front c'est un scandale mais le chouchou c'était moi allô monsieur c'est l'école de votre fils faut que vous veniez là direct votre gamin à 167 de QI et quelqu'un chez vous a trafiqué son score c'est grave mon fils il a 167 et personne m'a rien dit franchement ça me saoule quelqu'un dans cette maison va devoir s'expliquer explique moi ça tout de suite attend laisse moi t'expliquer c'est pas ce que tu crois t'as trafiqué le score de mon fils depuis qu'il est bébé sérieux t'abuse j'ai eu peur wesh un bébé plus intelligent que moi j'ai flippé je voulais garder mon respect dans la maison j'ai fait n'importe quoi je sais tu l'as fait passer pour le moins bien pendant des années il a rien demandé lui maman il a parlé j'ai jamais eu besoin d'un badge pour savoir combien tu m'aimais ou pas écoute moi bien fiston toi et ton frère vous valez pareil c'est fini tout ça frérot tu es un génie et t'as jamais rien dit sérieux fallait bien quelqu'un tienne le silence dans cette maison j'avais gardé ça l'étiquette de mon berceau non c'est pas possible je le savais depuis le début maman j'ai juste attendu que quelqu'un d'autre le voit",
+  "accroche_3s": "167 de QI c 'est le meilleur élève que cette école est jamais",
+  "fin_5s": "'est pas possible je le savais depuis le début maman j 'ai juste attendu que quelqu 'un d 'autre le voit",
+  "mots_par_seconde": 4.23,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 1,
+  "duree_moyenne_plan": 62.87,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 5.38,
+      "texte": "167 de QI c'est le meilleur élève que cette école est jamais vu et pendant ce temps on lui avait collé un faux 20 sur"
+    },
+    {
+      "debut": 5.38,
+      "fin": 8.32,
+      "texte": "le front c'est un scandale mais le chouchou c'était moi"
+    },
+    {
+      "debut": 9.26,
+      "fin": 14.08,
+      "texte": "allô monsieur c'est l'école de votre fils faut que vous veniez là direct votre gamin à"
+    },
+    {
+      "debut": 14.08,
+      "fin": 18.46,
+      "texte": "167 de QI et quelqu'un chez vous a trafiqué son score c'est grave mon fils il a"
+    },
+    {
+      "debut": 18.46,
+      "fin": 23.64,
+      "texte": "167 et personne m'a rien dit franchement ça me saoule quelqu'un dans cette maison va devoir s'expliquer"
+    },
+    {
+      "debut": 23.64,
+      "fin": 25.52,
+      "texte": "explique moi ça tout de suite"
+    },
+    {
+      "debut": 25.52,
+      "fin": 31.58,
+      "texte": "attend laisse moi t'expliquer c'est pas ce que tu crois t'as trafiqué le score de mon fils depuis qu'il est bébé sérieux t'abuse"
+    },
+    {
+      "debut": 31.58,
+      "fin": 37.08,
+      "texte": "j'ai eu peur wesh un bébé plus intelligent que moi j'ai flippé je voulais garder mon respect dans la maison j'ai fait n'importe quoi je"
+    },
+    {
+      "debut": 37.08,
+      "fin": 40.46,
+      "texte": "sais tu l'as fait passer pour le moins bien pendant des années il a rien demandé lui"
+    },
+    {
+      "debut": 40.46,
+      "fin": 46.92,
+      "texte": "maman il a parlé j'ai jamais eu besoin d'un badge pour savoir combien tu m'aimais ou pas"
+    },
+    {
+      "debut": 46.92,
+      "fin": 50.42,
+      "texte": "écoute moi bien fiston toi et ton frère vous valez pareil c'est fini tout ça"
+    },
+    {
+      "debut": 50.42,
+      "fin": 54.56,
+      "texte": "frérot tu es un génie et t'as jamais rien dit sérieux fallait bien quelqu'un tienne le silence dans cette maison"
+    },
+    {
+      "debut": 55.14,
+      "fin": 62.5,
+      "texte": "j'avais gardé ça l'étiquette de mon berceau non c'est pas possible je le savais depuis le début maman j'ai juste attendu que quelqu'un d'autre le voit"
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 62.87,
+      "duree": 62.87
+    }
+  ]
+}

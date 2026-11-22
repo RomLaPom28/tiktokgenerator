@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "id": "7705406941392145697",
+    "url": "https://www.tiktok.com/@histoiresfruite/video/7705406941392145697",
+    "compte": "histoiresfruite",
+    "description": "Un repas chez les mouches 🪰 #brainrot #triste #ia #dram #HistoireTikTok ",
+    "vues": 137300,
+    "likes": 6418,
+    "commentaires": 89,
+    "partages": 213,
+    "date": "20261107",
+    "duree": 63.4,
+    "musique": "Monkeys Spinning Monkeys（纯享版）",
+    "taux_likes": 4.67,
+    "taux_commentaires": 0.065
+  },
+  "langue": "fr",
+  "texte_complet": "Mon cœur, tu n'as pas mangé le repas, ça va ? Maman, j'en ai marre de manger une crotte ! D'accord fiston, mange un peu de crotte et après nous irons chercher des restes dehors, je te le promets ! Fiston, je pense qu'il y aurait d'autres options trouvables pour le repas. Je veux vraiment de la pizza ! D'accord mon cœur. Ça va aller papa ?",
+  "accroche_3s": "Mon cœur, tu n 'as pas mangé le repas, ça va",
+  "fin_5s": "",
+  "mots_par_seconde": 1.15,
+  "premier_mot_a": 0.8,
+  "nombre_plans": 14,
+  "duree_moyenne_plan": 4.53,
+  "phrases": [
+    {
+      "debut": 0.8,
+      "fin": 3.38,
+      "texte": "Mon cœur, tu n'as pas mangé le repas, ça va ?"
+    },
+    {
+      "debut": 3.38,
+      "fin": 5.56,
+      "texte": "Maman, j'en ai marre de manger une crotte !"
+    },
+    {
+      "debut": 5.56,
+      "fin": 22.29,
+      "texte": "D'accord fiston, mange un peu de crotte et après nous irons chercher des restes dehors, je te le promets !"
+    },
+    {
+      "debut": 22.29,
+      "fin": 26.43,
+      "texte": "Fiston, je pense qu'il y aurait d'autres options trouvables pour le repas."
+    },
+    {
+      "debut": 28.51,
+      "fin": 30.37,
+      "texte": "Je veux vraiment de la pizza !"
+    },
+    {
+      "debut": 31.01,
+      "fin": 31.95,
+      "texte": "D'accord mon cœur."
+    },
+    {
+      "debut": 43.41,
+      "fin": 44.93,
+      "texte": "Ça va aller papa ?"
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 2.93,
+      "duree": 2.93
+    },
+    {
+      "n": 2,
+      "debut": 2.93,
+      "fin": 4.9,
+      "duree": 1.97
+    },
+    {
+      "n": 3,
+      "debut": 4.9,
+      "fin": 11.0,
+      "duree": 6.1
+    },
+    {
+      "n": 4,
+      "debut": 11.0,
+      "fin": 13.07,
+      "duree": 2.07
+    },
+    {
+      "n": 5,
+      "debut": 13.07,
+      "fin": 16.1,
+      "duree": 3.03
+    },
+    {
+      "n": 6,
+      "debut": 16.1,
+      "fin": 21.27,
+      "duree": 5.17
+    },
+    {
+      "n": 7,
+      "debut": 21.27,
+      "fin": 26.37,
+      "duree": 5.1
+    },
+    {
+      "n": 8,
+      "debut": 26.37,
+      "fin": 30.33,
+      "duree": 3.97
+    },
+    {
+      "n": 9,
+      "debut": 30.33,
+      "fin": 41.37,
+      "duree": 11.03
+    },
+    {
+      "n": 10,
+      "debut": 41.37,
+      "fin": 42.3,
+      "duree": 0.93
+    },
+    {
+      "n": 11,
+      "debut": 42.3,
+      "fin": 46.07,
+      "duree": 3.77
+    },
+    {
+      "n": 12,
+      "debut": 46.07,
+      "fin": 53.47,
+      "duree": 7.4
+    },
+    {
+      "n": 13,
+      "debut": 53.47,
+      "fin": 58.47,
+      "duree": 5.0
+    },
+    {
+      "n": 14,
+      "debut": 58.47,
+      "fin": 63.44,
+      "duree": 4.97
+    }
+  ]
+}

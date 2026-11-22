@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "id": "7696932719464353056",
+    "url": "https://www.tiktok.com/@sans_pepin/video/7696932719464353056",
+    "compte": "sans_pepin",
+    "description": "Partie 2 | Il court avec des chaussures de 100kg aux pieds ! #fruitstory #fruits #ia #chaussure #100kg ",
+    "vues": 1700000,
+    "likes": 342300,
+    "commentaires": 4323,
+    "partages": 2108,
+    "date": "20261015",
+    "duree": 77.9,
+    "musique": "original sound",
+    "taux_likes": 20.14,
+    "taux_commentaires": 0.254
+  },
+  "langue": "fr",
+  "texte_complet": "Enlève ses chaussures et viens avec moi. On retourne voir ton coach. Coach, laissez mon fils refaire un dernier 100 mètres. Désolé, mais en 24 heures, ses chronos ne vont pas changer par miracle. Faites-moi confiance, juste une dernière course. Bon, si tu insistes. Attends, fils, laisse-moi faire. Je sais que je t'ai fait souffrir pendant 10 ans. Et j'en suis désolé. Alors pourquoi tu m'as obligé à faire tout ça ? Dans quelques minutes, tu comprendras. J'ai l'impression d'être super léger, c'est génial ! Pendant 10 ans, tes jambes ont appris à porter 100 kilos. Maintenant, mets celles-là. Et cours comme si ta vie en dépendait. Vas-y, mon fils, fais-toi confiance. 3, 2, 1, partez ! Putain, j'avais l'impression de voler ! Mais c'est impossible ! 9 secondes 47 ! Il vient de battre le record du monde ! Léo, samedi, tu seras au départ. Tu es sélectionné ! Alors, Citron, t'as enfin jeté tes casseroles ? Ouais. Et cette fois, c'est toi qui seras dans mon rétro. Mais, c'est pas possible ! Léo, c'est incroyable ! T'as gagné ! Les recruteurs se battent déjà pour te signer ! Non, j'y crois pas ! Plus sérieusement, ta carrière professionnelle commence aujourd'hui. Félicitations ! Papa, aujourd'hui, j'ai compris. Merci d'avoir toujours cru en moi. Je suis fier de toi, mon fils. Tellement fier. Je t'aime, papa. Moi aussi, champion.",
+  "accroche_3s": "Enlève ses chaussures et viens avec moi. On retourne voir ton coach.",
+  "fin_5s": "suis fier de toi, mon fils. Tellement fier. Je t 'aime, papa. Moi aussi, champion.",
+  "mots_par_seconde": 3.28,
+  "premier_mot_a": 0.0,
+  "nombre_plans": 15,
+  "duree_moyenne_plan": 5.19,
+  "phrases": [
+    {
+      "debut": 0.0,
+      "fin": 1.72,
+      "texte": "Enlève ses chaussures et viens avec moi."
+    },
+    {
+      "debut": 2.14,
+      "fin": 3.12,
+      "texte": "On retourne voir ton coach."
+    },
+    {
+      "debut": 3.66,
+      "fin": 6.26,
+      "texte": "Coach, laissez mon fils refaire un dernier 100 mètres."
+    },
+    {
+      "debut": 6.3,
+      "fin": 9.04,
+      "texte": "Désolé, mais en 24 heures, ses chronos ne vont pas changer par miracle."
+    },
+    {
+      "debut": 9.28,
+      "fin": 10.74,
+      "texte": "Faites-moi confiance, juste une dernière course."
+    },
+    {
+      "debut": 11.04,
+      "fin": 12.4,
+      "texte": "Bon, si tu insistes."
+    },
+    {
+      "debut": 12.64,
+      "fin": 13.96,
+      "texte": "Attends, fils, laisse-moi faire."
+    },
+    {
+      "debut": 14.2,
+      "fin": 15.96,
+      "texte": "Je sais que je t'ai fait souffrir pendant 10 ans."
+    },
+    {
+      "debut": 16.38,
+      "fin": 17.26,
+      "texte": "Et j'en suis désolé."
+    },
+    {
+      "debut": 17.48,
+      "fin": 19.46,
+      "texte": "Alors pourquoi tu m'as obligé à faire tout ça ?"
+    },
+    {
+      "debut": 19.46,
+      "fin": 20.82,
+      "texte": "Dans quelques minutes, tu comprendras."
+    },
+    {
+      "debut": 21.32,
+      "fin": 23.58,
+      "texte": "J'ai l'impression d'être super léger, c'est génial !"
+    },
+    {
+      "debut": 23.58,
+      "fin": 25.7,
+      "texte": "Pendant 10 ans, tes jambes ont appris à porter 100 kilos."
+    },
+    {
+      "debut": 25.98,
+      "fin": 26.94,
+      "texte": "Maintenant, mets celles-là."
+    },
+    {
+      "debut": 27.14,
+      "fin": 28.64,
+      "texte": "Et cours comme si ta vie en dépendait."
+    },
+    {
+      "debut": 29.14,
+      "fin": 30.86,
+      "texte": "Vas-y, mon fils, fais-toi confiance."
+    },
+    {
+      "debut": 31.26,
+      "fin": 33.54,
+      "texte": "3, 2, 1, partez !"
+    },
+    {
+      "debut": 33.54,
+      "fin": 35.44,
+      "texte": "Putain, j'avais l'impression de voler !"
+    },
+    {
+      "debut": 35.44,
+      "fin": 36.64,
+      "texte": "Mais c'est impossible !"
+    },
+    {
+      "debut": 36.64,
+      "fin": 38.1,
+      "texte": "9 secondes 47 !"
+    },
+    {
+      "debut": 38.1,
+      "fin": 40.54,
+      "texte": "Il vient de battre le record du monde !"
+    },
+    {
+      "debut": 40.54,
+      "fin": 42.58,
+      "texte": "Léo, samedi, tu seras au départ."
+    },
+    {
+      "debut": 42.78,
+      "fin": 44.52,
+      "texte": "Tu es sélectionné !"
+    },
+    {
+      "debut": 44.52,
+      "fin": 46.88,
+      "texte": "Alors, Citron, t'as enfin jeté tes casseroles ?"
+    },
+    {
+      "debut": 46.88,
+      "fin": 47.14,
+      "texte": "Ouais."
+    },
+    {
+      "debut": 47.66,
+      "fin": 49.36,
+      "texte": "Et cette fois, c'est toi qui seras dans mon rétro."
+    },
+    {
+      "debut": 53.76,
+      "fin": 55.64,
+      "texte": "Mais, c'est pas possible !"
+    },
+    {
+      "debut": 59.71,
+      "fin": 61.03,
+      "texte": "Léo, c'est incroyable !"
+    },
+    {
+      "debut": 61.03,
+      "fin": 61.73,
+      "texte": "T'as gagné !"
+    },
+    {
+      "debut": 61.73,
+      "fin": 64.21,
+      "texte": "Les recruteurs se battent déjà pour te signer !"
+    },
+    {
+      "debut": 64.21,
+      "fin": 65.41,
+      "texte": "Non, j'y crois pas !"
+    },
+    {
+      "debut": 65.41,
+      "fin": 68.05,
+      "texte": "Plus sérieusement, ta carrière professionnelle commence aujourd'hui."
+    },
+    {
+      "debut": 68.37,
+      "fin": 69.05,
+      "texte": "Félicitations !"
+    },
+    {
+      "debut": 69.77,
+      "fin": 70.93,
+      "texte": "Papa, aujourd'hui, j'ai compris."
+    },
+    {
+      "debut": 71.35,
+      "fin": 72.67,
+      "texte": "Merci d'avoir toujours cru en moi."
+    },
+    {
+      "debut": 72.85,
+      "fin": 74.11,
+      "texte": "Je suis fier de toi, mon fils."
+    },
+    {
+      "debut": 74.29,
+      "fin": 74.85,
+      "texte": "Tellement fier."
+    },
+    {
+      "debut": 75.19,
+      "fin": 75.99,
+      "texte": "Je t'aime, papa."
+    },
+    {
+      "debut": 76.31,
+      "fin": 77.05,
+      "texte": "Moi aussi, champion."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 6.18,
+      "duree": 6.18
+    },
+    {
+      "n": 2,
+      "debut": 6.18,
+      "fin": 12.28,
+      "duree": 6.1
+    },
+    {
+      "n": 3,
+      "debut": 12.28,
+      "fin": 19.28,
+      "duree": 7.0
+    },
+    {
+      "n": 4,
+      "debut": 19.28,
+      "fin": 21.0,
+      "duree": 1.72
+    },
+    {
+      "n": 5,
+      "debut": 21.0,
+      "fin": 25.75,
+      "duree": 4.75
+    },
+    {
+      "n": 6,
+      "debut": 25.75,
+      "fin": 28.97,
+      "duree": 3.22
+    },
+    {
+      "n": 7,
+      "debut": 28.97,
+      "fin": 33.28,
+      "duree": 4.32
+    },
+    {
+      "n": 8,
+      "debut": 33.28,
+      "fin": 35.33,
+      "duree": 2.05
+    },
+    {
+      "n": 9,
+      "debut": 35.33,
+      "fin": 36.6,
+      "duree": 1.27
+    },
+    {
+      "n": 10,
+      "debut": 36.6,
+      "fin": 40.28,
+      "duree": 3.68
+    },
+    {
+      "n": 11,
+      "debut": 40.28,
+      "fin": 49.68,
+      "duree": 9.4
+    },
+    {
+      "n": 12,
+      "debut": 49.68,
+      "fin": 54.5,
+      "duree": 4.82
+    },
+    {
+      "n": 13,
+      "debut": 54.5,
+      "fin": 55.5,
+      "duree": 1.0
+    },
+    {
+      "n": 14,
+      "debut": 55.5,
+      "fin": 69.53,
+      "duree": 14.03
+    },
+    {
+      "n": 15,
+      "debut": 69.53,
+      "fin": 77.86,
+      "duree": 8.32
+    }
+  ]
+}

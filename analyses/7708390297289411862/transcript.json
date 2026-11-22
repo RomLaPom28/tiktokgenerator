@@ -1,0 +1,532 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 1.01,
+      "fin": 4.03,
+      "texte": "T'as perdu, ferme-la, je passe demain."
+    },
+    {
+      "debut": 7.08,
+      "fin": 9.42,
+      "texte": "Ton petit frère est dans ma voiture, viens seul."
+    },
+    {
+      "debut": 15.24,
+      "fin": 16.7,
+      "texte": "J'arrive, touche le pas."
+    },
+    {
+      "debut": 18.44,
+      "fin": 22.56,
+      "texte": "La fédération a vu la vidéo, une bagarre de plus et c'est fini, pour toujours."
+    },
+    {
+      "debut": 23.74,
+      "fin": 24.88,
+      "texte": "C'est mon frère coach."
+    },
+    {
+      "debut": 36.64,
+      "fin": 39.52,
+      "texte": "Regarde qui voilà, le grand frère est venu."
+    },
+    {
+      "debut": 40.34,
+      "fin": 42.74,
+      "texte": "T'es venu seul, t'es moins bête que mon cousin."
+    },
+    {
+      "debut": 44.72,
+      "fin": 47.96,
+      "texte": "Le champion de France, si tu te bats tu perds ta licence."
+    },
+    {
+      "debut": 48.9,
+      "fin": 52.12,
+      "texte": "Tu te bats pas, tu revois plus jamais ton frère."
+    },
+    {
+      "debut": 65.71,
+      "fin": 67.93,
+      "texte": "J'ai jamais eu besoin d'une carte pour me battre."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 1.01,
+      "fin": 1.05,
+      "mot": "T"
+    },
+    {
+      "debut": 1.05,
+      "fin": 1.61,
+      "mot": "'as"
+    },
+    {
+      "debut": 1.61,
+      "fin": 1.97,
+      "mot": "perdu,"
+    },
+    {
+      "debut": 2.41,
+      "fin": 2.63,
+      "mot": "ferme"
+    },
+    {
+      "debut": 2.63,
+      "fin": 2.91,
+      "mot": "-la,"
+    },
+    {
+      "debut": 3.01,
+      "fin": 3.19,
+      "mot": "je"
+    },
+    {
+      "debut": 3.19,
+      "fin": 3.35,
+      "mot": "passe"
+    },
+    {
+      "debut": 3.35,
+      "fin": 4.03,
+      "mot": "demain."
+    },
+    {
+      "debut": 7.08,
+      "fin": 7.18,
+      "mot": "Ton"
+    },
+    {
+      "debut": 7.18,
+      "fin": 7.44,
+      "mot": "petit"
+    },
+    {
+      "debut": 7.44,
+      "fin": 7.64,
+      "mot": "frère"
+    },
+    {
+      "debut": 7.64,
+      "fin": 7.76,
+      "mot": "est"
+    },
+    {
+      "debut": 7.76,
+      "fin": 7.86,
+      "mot": "dans"
+    },
+    {
+      "debut": 7.86,
+      "fin": 7.98,
+      "mot": "ma"
+    },
+    {
+      "debut": 7.98,
+      "fin": 8.48,
+      "mot": "voiture,"
+    },
+    {
+      "debut": 9.06,
+      "fin": 9.16,
+      "mot": "viens"
+    },
+    {
+      "debut": 9.16,
+      "fin": 9.42,
+      "mot": "seul."
+    },
+    {
+      "debut": 15.24,
+      "fin": 15.36,
+      "mot": "J"
+    },
+    {
+      "debut": 15.36,
+      "fin": 15.7,
+      "mot": "'arrive,"
+    },
+    {
+      "debut": 16.04,
+      "fin": 16.18,
+      "mot": "touche"
+    },
+    {
+      "debut": 16.18,
+      "fin": 16.34,
+      "mot": "le"
+    },
+    {
+      "debut": 16.34,
+      "fin": 16.7,
+      "mot": "pas."
+    },
+    {
+      "debut": 18.44,
+      "fin": 18.6,
+      "mot": "La"
+    },
+    {
+      "debut": 18.6,
+      "fin": 19.06,
+      "mot": "fédération"
+    },
+    {
+      "debut": 19.06,
+      "fin": 19.16,
+      "mot": "a"
+    },
+    {
+      "debut": 19.16,
+      "fin": 19.3,
+      "mot": "vu"
+    },
+    {
+      "debut": 19.3,
+      "fin": 19.46,
+      "mot": "la"
+    },
+    {
+      "debut": 19.46,
+      "fin": 19.74,
+      "mot": "vidéo,"
+    },
+    {
+      "debut": 20.1,
+      "fin": 20.24,
+      "mot": "une"
+    },
+    {
+      "debut": 20.24,
+      "fin": 20.52,
+      "mot": "bagarre"
+    },
+    {
+      "debut": 20.52,
+      "fin": 20.76,
+      "mot": "de"
+    },
+    {
+      "debut": 20.76,
+      "fin": 20.94,
+      "mot": "plus"
+    },
+    {
+      "debut": 20.94,
+      "fin": 21.08,
+      "mot": "et"
+    },
+    {
+      "debut": 21.08,
+      "fin": 21.22,
+      "mot": "c"
+    },
+    {
+      "debut": 21.22,
+      "fin": 21.26,
+      "mot": "'est"
+    },
+    {
+      "debut": 21.26,
+      "fin": 21.58,
+      "mot": "fini,"
+    },
+    {
+      "debut": 22.02,
+      "fin": 22.18,
+      "mot": "pour"
+    },
+    {
+      "debut": 22.18,
+      "fin": 22.56,
+      "mot": "toujours."
+    },
+    {
+      "debut": 23.74,
+      "fin": 23.84,
+      "mot": "C"
+    },
+    {
+      "debut": 23.84,
+      "fin": 23.9,
+      "mot": "'est"
+    },
+    {
+      "debut": 23.9,
+      "fin": 24.1,
+      "mot": "mon"
+    },
+    {
+      "debut": 24.1,
+      "fin": 24.44,
+      "mot": "frère"
+    },
+    {
+      "debut": 24.44,
+      "fin": 24.88,
+      "mot": "coach."
+    },
+    {
+      "debut": 36.64,
+      "fin": 36.88,
+      "mot": "Regarde"
+    },
+    {
+      "debut": 36.88,
+      "fin": 37.1,
+      "mot": "qui"
+    },
+    {
+      "debut": 37.1,
+      "fin": 37.28,
+      "mot": "voilà,"
+    },
+    {
+      "debut": 37.74,
+      "fin": 37.92,
+      "mot": "le"
+    },
+    {
+      "debut": 37.92,
+      "fin": 38.12,
+      "mot": "grand"
+    },
+    {
+      "debut": 38.12,
+      "fin": 38.34,
+      "mot": "frère"
+    },
+    {
+      "debut": 38.34,
+      "fin": 38.52,
+      "mot": "est"
+    },
+    {
+      "debut": 38.52,
+      "fin": 39.52,
+      "mot": "venu."
+    },
+    {
+      "debut": 40.34,
+      "fin": 40.38,
+      "mot": "T"
+    },
+    {
+      "debut": 40.38,
+      "fin": 40.5,
+      "mot": "'es"
+    },
+    {
+      "debut": 40.5,
+      "fin": 40.74,
+      "mot": "venu"
+    },
+    {
+      "debut": 40.74,
+      "fin": 41.0,
+      "mot": "seul,"
+    },
+    {
+      "debut": 41.56,
+      "fin": 41.6,
+      "mot": "t"
+    },
+    {
+      "debut": 41.6,
+      "fin": 41.72,
+      "mot": "'es"
+    },
+    {
+      "debut": 41.72,
+      "fin": 41.88,
+      "mot": "moins"
+    },
+    {
+      "debut": 41.88,
+      "fin": 42.04,
+      "mot": "bête"
+    },
+    {
+      "debut": 42.04,
+      "fin": 42.2,
+      "mot": "que"
+    },
+    {
+      "debut": 42.2,
+      "fin": 42.36,
+      "mot": "mon"
+    },
+    {
+      "debut": 42.36,
+      "fin": 42.74,
+      "mot": "cousin."
+    },
+    {
+      "debut": 44.72,
+      "fin": 44.9,
+      "mot": "Le"
+    },
+    {
+      "debut": 44.9,
+      "fin": 45.24,
+      "mot": "champion"
+    },
+    {
+      "debut": 45.24,
+      "fin": 45.44,
+      "mot": "de"
+    },
+    {
+      "debut": 45.44,
+      "fin": 45.8,
+      "mot": "France,"
+    },
+    {
+      "debut": 46.46,
+      "fin": 46.66,
+      "mot": "si"
+    },
+    {
+      "debut": 46.66,
+      "fin": 46.78,
+      "mot": "tu"
+    },
+    {
+      "debut": 46.78,
+      "fin": 46.94,
+      "mot": "te"
+    },
+    {
+      "debut": 46.94,
+      "fin": 47.06,
+      "mot": "bats"
+    },
+    {
+      "debut": 47.06,
+      "fin": 47.22,
+      "mot": "tu"
+    },
+    {
+      "debut": 47.22,
+      "fin": 47.48,
+      "mot": "perds"
+    },
+    {
+      "debut": 47.48,
+      "fin": 47.6,
+      "mot": "ta"
+    },
+    {
+      "debut": 47.6,
+      "fin": 47.96,
+      "mot": "licence."
+    },
+    {
+      "debut": 48.9,
+      "fin": 49.34,
+      "mot": "Tu"
+    },
+    {
+      "debut": 49.34,
+      "fin": 49.5,
+      "mot": "te"
+    },
+    {
+      "debut": 49.5,
+      "fin": 49.62,
+      "mot": "bats"
+    },
+    {
+      "debut": 49.62,
+      "fin": 50.08,
+      "mot": "pas,"
+    },
+    {
+      "debut": 50.54,
+      "fin": 50.62,
+      "mot": "tu"
+    },
+    {
+      "debut": 50.62,
+      "fin": 50.9,
+      "mot": "revois"
+    },
+    {
+      "debut": 50.9,
+      "fin": 51.06,
+      "mot": "plus"
+    },
+    {
+      "debut": 51.06,
+      "fin": 51.26,
+      "mot": "jamais"
+    },
+    {
+      "debut": 51.26,
+      "fin": 51.42,
+      "mot": "ton"
+    },
+    {
+      "debut": 51.42,
+      "fin": 52.12,
+      "mot": "frère."
+    },
+    {
+      "debut": 65.71,
+      "fin": 65.75,
+      "mot": "J"
+    },
+    {
+      "debut": 65.75,
+      "fin": 65.95,
+      "mot": "'ai"
+    },
+    {
+      "debut": 65.95,
+      "fin": 66.15,
+      "mot": "jamais"
+    },
+    {
+      "debut": 66.15,
+      "fin": 66.39,
+      "mot": "eu"
+    },
+    {
+      "debut": 66.39,
+      "fin": 66.63,
+      "mot": "besoin"
+    },
+    {
+      "debut": 66.63,
+      "fin": 66.75,
+      "mot": "d"
+    },
+    {
+      "debut": 66.75,
+      "fin": 66.93,
+      "mot": "'une"
+    },
+    {
+      "debut": 66.93,
+      "fin": 67.19,
+      "mot": "carte"
+    },
+    {
+      "debut": 67.19,
+      "fin": 67.43,
+      "mot": "pour"
+    },
+    {
+      "debut": 67.43,
+      "fin": 67.59,
+      "mot": "me"
+    },
+    {
+      "debut": 67.59,
+      "fin": 67.93,
+      "mot": "battre."
+    }
+  ]
+}

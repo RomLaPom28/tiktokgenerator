@@ -1,0 +1,290 @@
+{
+  "id": "ep001",
+  "numero": 1,
+  "titre": "Le ticket gagnant",
+  "resume": "Gérard a gagné 15 millions et veut tout offrir à Vanessa, qui le trompe avec Kevin. Josiane a tout filmé et débarque au bar, mais Bernard cache la vidéo.",
+  "projet": "la-ferme",
+  "projet_titre": "La Ferme",
+  "type": "serie",
+  "portraits": [
+    {
+      "id": "gerard",
+      "nom": "Gérard",
+      "ref": "refs/gerard.png",
+      "prompt": "Fiche de référence personnage : Gérard, taureau noir massif aux grandes cornes claires, petite cicatrice blanche sur le museau, anneau doré au nez, marcel blanc, chaîne en or épaisse. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (naïf, gentil, colérique quand il comprend, très fier), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "vanessa",
+      "nom": "Vanessa",
+      "ref": "refs/vanessa.png",
+      "prompt": "Fiche de référence personnage : Vanessa, vache blanche tachée de noir, longs faux cils, rouge à lèvres rouge, ongles longs rouges, boucles d'oreilles créoles dorées, robe moulante léopard, sac de marque au bras. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (manipulatrice, menteuse parfaite, ambitieuse, jamais prise au dépourvu… sauf rarement), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "kevin",
+      "nom": "Kevin",
+      "ref": "refs/kevin.png",
+      "prompt": "Fiche de référence personnage : Kevin, coq roux flamboyant à crête rouge vif, lunettes de soleil miroir, gourmette en or au poignet, chemise blanche ouverte sur le poitrail, pantalon beige. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (patron de la ferme, beau parleur, lâche dès que ça chauffe), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "bernard",
+      "nom": "Bernard",
+      "ref": "refs/bernard.png",
+      "prompt": "Fiche de référence personnage : Bernard, cochon rose rondouillard, casquette noire à l'envers, petite moustache, survêtement gris taché. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (meilleur pote de Gérard, lâche, drôle, transpire quand il ment), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "josiane",
+      "nom": "Josiane",
+      "ref": "refs/josiane.png",
+      "prompt": "Fiche de référence personnage : Josiane, poule brune âgée aux plumes ébouriffées, bigoudis roses sur la tête, smartphone toujours à la main, robe de chambre fleurie et chaussons. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (commère du village, voit tout, filme tout, adore le drame), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "huguette",
+      "nom": "Huguette",
+      "ref": "refs/huguette.png",
+      "prompt": "Fiche de référence personnage : Huguette, vieille chèvre grise à barbichette blanche, lunettes en pendentif sur une chaîne, gilet beige boutonné et jupe plissée. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (mère de Vanessa, belle-mère toxique, cerveau de l'arnaque), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Vertical 9:16, aucun texte, aucun logo."
+    }
+  ],
+  "ouverture": "Tu vas générer les images d'une vidéo. Toutes les images : format vertical 9:16, même style, mêmes personnages avec EXACTEMENT les mêmes visages, couleurs et accessoires d'une image à l'autre. Aucun sous-titre ni bulle ; le seul texte autorisé est celui que je décris dans le décor (tableau d'affichage, banderole, maillot), écrit sans faute.\n\nSTYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin.\n\nPERSONNAGES DE CET ÉPISODE (looks fixes) :\n- Gérard, taureau noir massif aux grandes cornes claires, petite cicatrice blanche sur le museau, anneau doré au nez. Tenue : marcel blanc, chaîne en or épaisse.\n- Vanessa, vache blanche tachée de noir, longs faux cils, rouge à lèvres rouge, ongles longs rouges, boucles d'oreilles créoles dorées. Tenue : robe moulante léopard, sac de marque au bras.\n- Kevin, coq roux flamboyant à crête rouge vif, lunettes de soleil miroir, gourmette en or au poignet. Tenue : chemise blanche ouverte sur le poitrail, pantalon beige.\n- Bernard, cochon rose rondouillard, casquette noire à l'envers, petite moustache. Tenue : survêtement gris taché.\n- Josiane, poule brune âgée aux plumes ébouriffées, bigoudis roses sur la tête, smartphone toujours à la main. Tenue : robe de chambre fleurie et chaussons.\n- Huguette, vieille chèvre grise à barbichette blanche, lunettes en pendentif sur une chaîne. Tenue : gilet beige boutonné et jupe plissée.\n\nSi je joins des images de référence, ce sont ces personnages : respecte-les à la lettre.\nJe vais t'envoyer \"Image 1 : …\", \"Image 2 : …\". Pour chaque message, génère uniquement l'image demandée, sans commentaire. Réponds juste OK à ce message.",
+  "refs": [
+    "refs/josiane.png",
+    "refs/kevin.png",
+    "refs/vanessa.png",
+    "refs/gerard.png",
+    "refs/bernard.png",
+    "refs/huguette.png"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "duree": 6,
+      "role": "accroche",
+      "titre": "Jardin de Josiane · GP",
+      "dialogues": [
+        {
+          "t": "0-6",
+          "qui": "Josiane",
+          "texte": "Oh la vache… la Vanessa est en train d'embrasser le patron !"
+        }
+      ],
+      "replique": "Oh la vache… la Vanessa est en train d'embrasser le patron !",
+      "parle": "josiane",
+      "texte_ecran": "",
+      "image": "Image 1 : gros plan sur le visage et le haut des épaules, caméra à hauteur des yeux. Décor : jardin de vieille dame avec nains de jardin, haie taillée, clôture qui donne sur la maison voisine. Lumière : lumière dorée et douce du matin. Josiane, poule brune âgée aux plumes ébouriffées, bigoudis roses sur la tête, smartphone toujours à la main, robe de chambre fleurie et chaussons : cachée derrière la haie, elle filme avec son téléphone tenu à l'horizontale, les yeux exorbités, le bec grand ouvert de choc. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\nCaméra : caméra à l'épaule, légèrement nerveuse.\n[0-6s] Josiane se baisse derrière la haie, rapproche son téléphone, ses yeux s'écarquillent encore, elle plaque une aile sur son bec.\n[0-6s] JOSIANE (voix de femme de 60 ans, aiguë, excitée, qui chuchote fort, chuchoté fort, choquée et ravie) dit en français : « Oh la vache… la Vanessa est en train d'embrasser le patron ! »\nAmbiance sonore : oiseaux, tondeuse au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 2,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Bureau de Kevin dans la grange · PT",
+      "dialogues": [
+        {
+          "t": "0-6",
+          "qui": "Kevin",
+          "texte": "Ton gros taureau se doute de rien, t'es sûre ?"
+        }
+      ],
+      "replique": "Ton gros taureau se doute de rien, t'es sûre ?",
+      "parle": "kevin",
+      "texte_ecran": "",
+      "image": "Image 2 : plan taille, personnage de profil. Décor : petit bureau en bois installé dans une grange, bottes de foin, vieux coffre-fort, calendrier de tracteurs au mur, lumière qui passe entre les planches. Lumière : lumière naturelle de jour, ombres nettes. Kevin, coq roux flamboyant à crête rouge vif, lunettes de soleil miroir, gourmette en or au poignet, chemise blanche ouverte sur le poitrail, pantalon beige : adossé au bureau, il enlace Vanessa par la taille, sourire arrogant, lunettes relevées sur la crête. Vanessa, vache blanche tachée de noir, longs faux cils, rouge à lèvres rouge, ongles longs rouges, boucles d'oreilles créoles dorées, robe moulante léopard, sac de marque au bras : collée contre Kevin, elle joue avec sa gourmette. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\nCaméra : lent travelling avant vers le visage.\n[0-6s] Kevin rapproche Vanessa de lui, hausse un sourcil en souriant, Vanessa tire doucement sur sa gourmette.\n[0-6s] KEVIN (voix d'homme de 30 ans, frimeur, rapide, un peu nasillarde, frimeur, moqueur) dit en français : « Ton gros taureau se doute de rien, t'es sûre ? »\nAmbiance sonore : grange calme, poules au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 3,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Bureau de Kevin dans la grange · TGP",
+      "dialogues": [
+        {
+          "t": "0-6",
+          "qui": "Vanessa",
+          "texte": "Il est bête comme ses sabots, crois-moi."
+        }
+      ],
+      "replique": "Il est bête comme ses sabots, crois-moi.",
+      "parle": "vanessa",
+      "texte_ecran": "",
+      "image": "Image 3 : très gros plan sur le visage, les yeux remplissent le cadre, caméra à hauteur des yeux. Décor : petit bureau en bois installé dans une grange, bottes de foin, vieux coffre-fort, calendrier de tracteurs au mur, lumière qui passe entre les planches. Lumière : lumière naturelle de jour, ombres nettes. Vanessa, vache blanche tachée de noir, longs faux cils, rouge à lèvres rouge, ongles longs rouges, boucles d'oreilles créoles dorées, robe moulante léopard, sac de marque au bras : visage méprisant, petit sourire en coin, yeux mi-clos, un ongle rouge posé sur sa propre joue. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\nCaméra : caméra fixe sur pied.\n[0-6s] Vanessa lève les yeux au ciel, laisse échapper un petit rire méprisant, puis fait une moue sûre d'elle.\n[0-6s] VANESSA (voix de femme de 38 ans, sûre d'elle, sèche et méprisante, méprisante, amusée) dit en français : « Il est bête comme ses sabots, crois-moi. »\nAmbiance sonore : grange calme, poules au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 4,
+      "duree": 6,
+      "role": "retournement",
+      "titre": "Bar-tabac Le Balto · INSERT",
+      "dialogues": [],
+      "replique": "",
+      "parle": null,
+      "texte_ecran": "",
+      "image": "Image 4 : très gros plan sur un objet ou une main, caméra en plongée, au-dessus, qui écrase le personnage. Décor : bar-tabac de village, comptoir en zinc, écran des résultats du loto, présentoir de cigarettes, néons, tabourets hauts. Lumière : néons froids avec touches de couleur. Gérard, taureau noir massif aux grandes cornes claires, petite cicatrice blanche sur le museau, anneau doré au nez, marcel blanc, chaîne en or épaisse : on ne voit que ses gros sabots noirs qui tiennent un ticket de loto froissé posé sur le comptoir en zinc, ils tremblent. À côté du ticket, un café et une pièce de monnaie. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\nCaméra : lent travelling avant vers le visage.\n[0-6s] Les sabots tremblent de plus en plus, une larme tombe et s'écrase sur le ticket.\nPersonne ne parle : seulement des réactions, des souffles et des bruitages.\nAmbiance sonore : machine à café, brouhaha léger, télé PMU, souffle tremblant, cœur qui bat, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 5,
+      "duree": 6,
+      "role": "retournement",
+      "titre": "Bar-tabac Le Balto · GP",
+      "dialogues": [
+        {
+          "t": "0-6",
+          "qui": "Gérard",
+          "texte": "Quinze millions… je vais tout offrir à ma Vanessa."
+        }
+      ],
+      "replique": "Quinze millions… je vais tout offrir à ma Vanessa.",
+      "parle": "gerard",
+      "texte_ecran": "",
+      "image": "Image 5 : gros plan sur le visage et le haut des épaules, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : bar-tabac de village, comptoir en zinc, écran des résultats du loto, présentoir de cigarettes, néons, tabourets hauts. Lumière : néons froids avec touches de couleur. Gérard, taureau noir massif aux grandes cornes claires, petite cicatrice blanche sur le museau, anneau doré au nez, marcel blanc, chaîne en or épaisse : accoudé au comptoir, les yeux humides d'émotion, il sourit tendrement en regardant le ticket. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\nCaméra : lent travelling avant vers le visage.\n[0-6s] Gérard inspire fort, une larme coule sur son museau, il sourit tendrement en serrant le ticket.\n[0-6s] GÉRARD (voix grave d'homme de 45 ans, accent populaire du sud de la France, ému, à voix basse) dit en français : « Quinze millions… je vais tout offrir à ma Vanessa. »\nAmbiance sonore : machine à café, brouhaha léger, télé PMU, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 6,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Bar-tabac Le Balto · PR",
+      "dialogues": [
+        {
+          "t": "0-6",
+          "qui": "Bernard",
+          "texte": "Quinze millions ?! Et t'as rien dit à ta femme ?"
+        }
+      ],
+      "replique": "Quinze millions ?! Et t'as rien dit à ta femme ?",
+      "parle": "bernard",
+      "texte_ecran": "",
+      "image": "Image 6 : plan rapproché, de la tête à la poitrine, caméra à hauteur des yeux. Décor : bar-tabac de village, comptoir en zinc, écran des résultats du loto, présentoir de cigarettes, néons, tabourets hauts. Lumière : néons froids avec touches de couleur. Bernard, cochon rose rondouillard, casquette noire à l'envers, petite moustache, survêtement gris taché : au comptoir, une tasse de café à la bouche, les yeux exorbités, du café qui gicle de son groin. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\nCaméra : caméra fixe avec une secousse brève au moment de l'impact.\n[0-6s] Bernard recrache son café, s'essuie le groin avec sa casquette et se tourne vers Gérard, affolé.\n[0-6s] BERNARD (voix d'homme de 40 ans, nerveuse, essoufflée, qui part dans les aigus quand il panique, paniqué, dans les aigus) dit en français : « Quinze millions ?! Et t'as rien dit à ta femme ? »\nAmbiance sonore : machine à café, brouhaha léger, télé PMU, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 7,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Bar-tabac Le Balto · AMORCE",
+      "dialogues": [
+        {
+          "t": "0-6",
+          "qui": "Gérard",
+          "texte": "C'est une surprise pour nos vingt ans de mariage."
+        }
+      ],
+      "replique": "C'est une surprise pour nos vingt ans de mariage.",
+      "parle": "gerard",
+      "texte_ecran": "",
+      "image": "Image 7 : plan par-dessus l'épaule d'un personnage flou au premier plan, vers celui qui parle, caméra à hauteur des yeux. Décor : bar-tabac de village, comptoir en zinc, écran des résultats du loto, présentoir de cigarettes, néons, tabourets hauts. Lumière : néons froids avec touches de couleur. Bernard, cochon rose rondouillard, casquette noire à l'envers, petite moustache, survêtement gris taché : de dos au premier plan, flou. Gérard, taureau noir massif aux grandes cornes claires, petite cicatrice blanche sur le museau, anneau doré au nez, marcel blanc, chaîne en or épaisse : range fièrement le ticket dans son marcel en tapotant dessus, torse bombé, sourire naïf. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\nCaméra : caméra fixe sur pied.\n[0-6s] Gérard tapote sa poitrine avec fierté, bombe le torse et fait un clin d'œil à Bernard.\n[0-6s] GÉRARD (voix grave d'homme de 45 ans, accent populaire du sud de la France, fier, naïf) dit en français : « C'est une surprise pour nos vingt ans de mariage. »\nAmbiance sonore : machine à café, brouhaha léger, télé PMU, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 8,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Cuisine d'Huguette · TGP",
+      "dialogues": [
+        {
+          "t": "0-6",
+          "qui": "Huguette",
+          "texte": "Ma fille, tu signes le divorce vite, avant qu'il se doute."
+        }
+      ],
+      "replique": "Ma fille, tu signes le divorce vite, avant qu'il se doute.",
+      "parle": "huguette",
+      "texte_ecran": "",
+      "image": "Image 8 : très gros plan sur le visage, les yeux remplissent le cadre, cadre légèrement penché pour le malaise. Décor : cuisine rustique sombre, toile cirée à fleurs, vieux téléphone fixe à fil, crucifix au mur, rideaux en dentelle. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Huguette, vieille chèvre grise à barbichette blanche, lunettes en pendentif sur une chaîne, gilet beige boutonné et jupe plissée : le combiné du vieux téléphone fixe contre l'oreille, regard venimeux plissé derrière ses lunettes, sourire mauvais. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\nCaméra : lent travelling avant vers le visage.\n[0-6s] Huguette ajuste ses lunettes, jette un œil vers la fenêtre et enroule le fil du téléphone autour de son doigt.\n[0-6s] HUGUETTE (voix de vieille dame de 75 ans, venimeuse, lente, venimeuse, chuchotée) dit en français : « Ma fille, tu signes le divorce vite, avant qu'il se doute. »\nAmbiance sonore : horloge comtoise, bouilloire, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 9,
+      "duree": 6,
+      "role": "retournement",
+      "titre": "Bar-tabac Le Balto · PE",
+      "dialogues": [
+        {
+          "t": "0-6",
+          "qui": "Josiane",
+          "texte": "Gérard ! Faut que tu voies cette vidéo, maintenant !"
+        }
+      ],
+      "replique": "Gérard ! Faut que tu voies cette vidéo, maintenant !",
+      "parle": "josiane",
+      "texte_ecran": "",
+      "image": "Image 9 : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra à hauteur des yeux. Décor : bar-tabac de village, comptoir en zinc, écran des résultats du loto, présentoir de cigarettes, néons, tabourets hauts. Lumière : néons froids avec touches de couleur. Josiane, poule brune âgée aux plumes ébouriffées, bigoudis roses sur la tête, smartphone toujours à la main, robe de chambre fleurie et chaussons : pousse la porte vitrée du bar, essoufflée, plumes en bataille, brandit son smartphone au-dessus de sa tête. Gérard, taureau noir massif aux grandes cornes claires, petite cicatrice blanche sur le museau, anneau doré au nez, marcel blanc, chaîne en or épaisse : au comptoir, se retourne surpris. Bernard, cochon rose rondouillard, casquette noire à l'envers, petite moustache, survêtement gris taché : au comptoir, se retourne et se fige. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\nCaméra : caméra fixe sur pied.\n[0-6s] Josiane entre en courant, la porte claque derrière elle, elle avance vers le comptoir en agitant son téléphone.\n[0-6s] JOSIANE (voix de femme de 60 ans, aiguë, excitée, qui chuchote fort, crié, essoufflée) dit en français : « Gérard ! Faut que tu voies cette vidéo, maintenant ! »\nAmbiance sonore : machine à café, brouhaha léger, télé PMU, porte qui claque, clochette, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 10,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Bar-tabac Le Balto · GP",
+      "dialogues": [
+        {
+          "t": "0-6",
+          "qui": "Bernard",
+          "texte": "Non non non, Josiane, pas ici, pas maintenant !"
+        }
+      ],
+      "replique": "Non non non, Josiane, pas ici, pas maintenant !",
+      "parle": "bernard",
+      "texte_ecran": "",
+      "image": "Image 10 : gros plan sur le visage et le haut des épaules, caméra à hauteur des yeux. Décor : bar-tabac de village, comptoir en zinc, écran des résultats du loto, présentoir de cigarettes, néons, tabourets hauts. Lumière : néons froids avec touches de couleur. Bernard, cochon rose rondouillard, casquette noire à l'envers, petite moustache, survêtement gris taché : serre le smartphone de Josiane contre sa poitrine, en sueur, yeux paniqués, sourire forcé. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\nCaméra : caméra à l'épaule, légèrement nerveuse.\n[0-6s] Bernard arrache le téléphone, le plaque contre son torse, recule d'un pas en secouant la tête très vite.\n[0-6s] BERNARD (voix d'homme de 40 ans, nerveuse, essoufflée, qui part dans les aigus quand il panique, paniqué, très rapide) dit en français : « Non non non, Josiane, pas ici, pas maintenant ! »\nAmbiance sonore : machine à café, brouhaha léger, télé PMU, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 11,
+      "duree": 6,
+      "role": "retournement",
+      "titre": "Bar-tabac Le Balto · PR",
+      "dialogues": [
+        {
+          "t": "0-6",
+          "qui": "Gérard",
+          "texte": "Bernard… pourquoi tu me caches ce téléphone ?"
+        }
+      ],
+      "replique": "Bernard… pourquoi tu me caches ce téléphone ?",
+      "parle": "gerard",
+      "texte_ecran": "",
+      "image": "Image 11 : plan rapproché, de la tête à la poitrine, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : bar-tabac de village, comptoir en zinc, écran des résultats du loto, présentoir de cigarettes, néons, tabourets hauts. Lumière : néons froids avec touches de couleur. Gérard, taureau noir massif aux grandes cornes claires, petite cicatrice blanche sur le museau, anneau doré au nez, marcel blanc, chaîne en or épaisse : se lève lentement de son tabouret, naseaux dilatés, regard sombre et soupçonneux. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\nCaméra : caméra qui tourne lentement autour du personnage.\n[0-6s] Gérard se redresse de toute sa hauteur, souffle bruyamment par les naseaux et plisse les yeux.\n[0-6s] GÉRARD (voix grave d'homme de 45 ans, accent populaire du sud de la France, calme et menaçant) dit en français : « Bernard… pourquoi tu me caches ce téléphone ? »\nAmbiance sonore : machine à café, brouhaha léger, télé PMU, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 12,
+      "duree": 6,
+      "role": "cliff",
+      "titre": "Bar-tabac Le Balto · PA",
+      "dialogues": [
+        {
+          "t": "0-6",
+          "qui": "Vanessa",
+          "texte": "Mon chéri… qu'est-ce qui se passe ici ?"
+        }
+      ],
+      "replique": "Mon chéri… qu'est-ce qui se passe ici ?",
+      "parle": "vanessa",
+      "texte_ecran": "",
+      "image": "Image 12 : plan américain, de la tête aux genoux, caméra à hauteur des yeux. Décor : bar-tabac de village, comptoir en zinc, écran des résultats du loto, présentoir de cigarettes, néons, tabourets hauts. Lumière : néons froids avec touches de couleur. Vanessa, vache blanche tachée de noir, longs faux cils, rouge à lèvres rouge, ongles longs rouges, boucles d'oreilles créoles dorées, robe moulante léopard, sac de marque au bras : entre par la porte vitrée avec un grand sourire, puis son sourire se fige en voyant le téléphone. STYLE : Animaux anthropomorphes en 3D, rendu cinéma réaliste type film d'animation haut de gamme, fourrure et plumes très détaillées, vêtements réalistes, expressions faciales très marquées et lisibles. Décors réalistes de France rurale et périurbaine. Lumière de cinéma, profondeur de champ, étalonnage légèrement chaud et contrasté. Pas de couleurs bonbon, pas de style enfantin. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\nCaméra : travelling arrière qui révèle le décor.\n[0-6s] Vanessa entre souriante, son sourire se fige, ses yeux passent du téléphone à Gérard, elle serre son sac.\n[0-6s] VANESSA (voix de femme de 38 ans, sûre d'elle, sèche et méprisante, faussement douce, inquiète) dit en français : « Mon chéri… qu'est-ce qui se passe ici ? »\nAmbiance sonore : machine à café, brouhaha léger, télé PMU, clochette de porte, silence pesant, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    }
+  ],
+  "titre_couverture": "Il gagne 15 millions, elle le trompe",
+  "publication": "Gérard a gagné 15 millions et veut tout offrir à sa femme… mais Josiane a tout filmé 😳 Bernard va-t-il balancer ?\n\n#laferme #drama #animaux #histoire #partie1",
+  "commentaire": "Bernard fait quoi ? 🐷 Il balance tout / 🤐 Il ment pour sauver Vanessa",
+  "texte_accroche": "Il gagne 15 millions, elle le trompe",
+  "hooks_alternatifs": [],
+  "question_milieu": {
+    "plan": 6,
+    "texte": "Bernard doit lui dire ? 🤔"
+  },
+  "duree_totale": 72
+}

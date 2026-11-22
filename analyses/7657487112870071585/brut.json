@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "id": "7657487112870071585",
+    "url": "https://www.tiktok.com/@histoiresfruite/video/7657487112870071585",
+    "compte": "histoiresfruite",
+    "description": "La famille Moustiquo Partie 2 🦟 Republie la vidéo et abonne toi si tu as apprécié cette histoire 🙌 #ia #viral #histoiredefruit #brainrot #skibidi ",
+    "vues": 124100,
+    "likes": 8969,
+    "commentaires": 108,
+    "partages": 148,
+    "date": "20260701",
+    "duree": 59.1,
+    "musique": "Epic War March",
+    "taux_likes": 7.23,
+    "taux_commentaires": 0.087
+  },
+  "langue": "fr",
+  "texte_complet": "Il a tué papa, je vais le tuer aussi. Non, mon fils n'y va pas. Oh non, mon bébé. Marc, Romy est mort. Nous devons nous venger pour Steven et son fils.",
+  "accroche_3s": "Il a tué papa, je vais le tuer aussi. Non,",
+  "fin_5s": "",
+  "mots_par_seconde": 0.56,
+  "premier_mot_a": 0.08,
+  "nombre_plans": 12,
+  "duree_moyenne_plan": 4.92,
+  "phrases": [
+    {
+      "debut": 0.08,
+      "fin": 2.54,
+      "texte": "Il a tué papa, je vais le tuer aussi."
+    },
+    {
+      "debut": 2.78,
+      "fin": 3.92,
+      "texte": "Non, mon fils n'y va pas."
+    },
+    {
+      "debut": 12.74,
+      "fin": 14.44,
+      "texte": "Oh non, mon bébé."
+    },
+    {
+      "debut": 25.89,
+      "fin": 27.39,
+      "texte": "Marc, Romy est mort."
+    },
+    {
+      "debut": 30.3,
+      "fin": 32.42,
+      "texte": "Nous devons nous venger pour Steven et son fils."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 5.07,
+      "duree": 5.07
+    },
+    {
+      "n": 2,
+      "debut": 5.07,
+      "fin": 7.67,
+      "duree": 2.6
+    },
+    {
+      "n": 3,
+      "debut": 7.67,
+      "fin": 10.13,
+      "duree": 2.47
+    },
+    {
+      "n": 4,
+      "debut": 10.13,
+      "fin": 12.1,
+      "duree": 1.97
+    },
+    {
+      "n": 5,
+      "debut": 12.1,
+      "fin": 19.13,
+      "duree": 7.03
+    },
+    {
+      "n": 6,
+      "debut": 19.13,
+      "fin": 25.83,
+      "duree": 6.7
+    },
+    {
+      "n": 7,
+      "debut": 25.83,
+      "fin": 27.77,
+      "duree": 1.93
+    },
+    {
+      "n": 8,
+      "debut": 27.77,
+      "fin": 29.23,
+      "duree": 1.47
+    },
+    {
+      "n": 9,
+      "debut": 29.23,
+      "fin": 30.57,
+      "duree": 1.33
+    },
+    {
+      "n": 10,
+      "debut": 30.57,
+      "fin": 32.6,
+      "duree": 2.03
+    },
+    {
+      "n": 11,
+      "debut": 32.6,
+      "fin": 39.63,
+      "duree": 7.03
+    },
+    {
+      "n": 12,
+      "debut": 39.63,
+      "fin": 59.07,
+      "duree": 19.44
+    }
+  ]
+}

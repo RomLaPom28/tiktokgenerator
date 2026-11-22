@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "id": "7703990613775060257",
+    "url": "https://www.tiktok.com/@ldtfuit/video/7703990613775060257",
+    "compte": "ldtfuit",
+    "description": "Episode 2 #fruitstory #tiktoktrance #france #creche #fr ",
+    "vues": 1400000,
+    "likes": 88100,
+    "commentaires": 701,
+    "partages": 846,
+    "date": "20261103",
+    "duree": 60.4,
+    "musique": "son original",
+    "taux_likes": 6.29,
+    "taux_commentaires": 0.05
+  },
+  "langue": "fr",
+  "texte_complet": "Si elle la change vraiment, on le saura. Oh mon petit ange, viens voir Tata, on va passer une journée magique. Regardez, tout est déjà prévu. Trois changements, tout est noté, tout est contrôlé. Vous pouvez partir l'esprit tranquille. Merci, c'est parfait. Ça va masquer l'odeur. De toute façon, il dira rien. Il a été adorable, comme d'habitude. Regardez les trois coches. Merci, à demain. Pourquoi tu sens si fort la lavande ? Qu'est-ce qu'elle t'a fait ? Elle a jamais été changée. Elle m'a menti en face. Je saurais tout.",
+  "accroche_3s": "Si elle la change vraiment,",
+  "fin_5s": "Je saurais tout.",
+  "mots_par_seconde": 1.66,
+  "premier_mot_a": 0.75,
+  "nombre_plans": 3,
+  "duree_moyenne_plan": 20.14,
+  "phrases": [
+    {
+      "debut": 0.75,
+      "fin": 4.53,
+      "texte": "Si elle la change vraiment, on le saura."
+    },
+    {
+      "debut": 7.73,
+      "fin": 12.49,
+      "texte": "Oh mon petit ange, viens voir Tata, on va passer une journée magique."
+    },
+    {
+      "debut": 15.27,
+      "fin": 16.93,
+      "texte": "Regardez, tout est déjà prévu."
+    },
+    {
+      "debut": 17.43,
+      "fin": 20.07,
+      "texte": "Trois changements, tout est noté, tout est contrôlé."
+    },
+    {
+      "debut": 20.41,
+      "fin": 22.13,
+      "texte": "Vous pouvez partir l'esprit tranquille."
+    },
+    {
+      "debut": 22.51,
+      "fin": 23.41,
+      "texte": "Merci, c'est parfait."
+    },
+    {
+      "debut": 26.18,
+      "fin": 28.1,
+      "texte": "Ça va masquer l'odeur."
+    },
+    {
+      "debut": 28.24,
+      "fin": 29.62,
+      "texte": "De toute façon, il dira rien."
+    },
+    {
+      "debut": 31.72,
+      "fin": 33.48,
+      "texte": "Il a été adorable, comme d'habitude."
+    },
+    {
+      "debut": 33.68,
+      "fin": 34.74,
+      "texte": "Regardez les trois coches."
+    },
+    {
+      "debut": 35.18,
+      "fin": 36.18,
+      "texte": "Merci, à demain."
+    },
+    {
+      "debut": 40.06,
+      "fin": 42.22,
+      "texte": "Pourquoi tu sens si fort la lavande ?"
+    },
+    {
+      "debut": 43.12,
+      "fin": 49.42,
+      "texte": "Qu'est-ce qu'elle t'a fait ?"
+    },
+    {
+      "debut": 49.42,
+      "fin": 50.92,
+      "texte": "Elle a jamais été changée."
+    },
+    {
+      "debut": 51.26,
+      "fin": 52.3,
+      "texte": "Elle m'a menti en face."
+    },
+    {
+      "debut": 55.56,
+      "fin": 56.32,
+      "texte": "Je saurais tout."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 23.57,
+      "duree": 23.57
+    },
+    {
+      "n": 2,
+      "debut": 23.57,
+      "fin": 38.97,
+      "duree": 15.4
+    },
+    {
+      "n": 3,
+      "debut": 38.97,
+      "fin": 60.42,
+      "duree": 21.45
+    }
+  ]
+}

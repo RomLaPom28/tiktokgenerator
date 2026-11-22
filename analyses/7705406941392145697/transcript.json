@@ -1,0 +1,407 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.8,
+      "fin": 3.38,
+      "texte": "Mon cœur, tu n'as pas mangé le repas, ça va ?"
+    },
+    {
+      "debut": 3.38,
+      "fin": 5.56,
+      "texte": "Maman, j'en ai marre de manger une crotte !"
+    },
+    {
+      "debut": 5.56,
+      "fin": 22.29,
+      "texte": "D'accord fiston, mange un peu de crotte et après nous irons chercher des restes dehors, je te le promets !"
+    },
+    {
+      "debut": 22.29,
+      "fin": 26.43,
+      "texte": "Fiston, je pense qu'il y aurait d'autres options trouvables pour le repas."
+    },
+    {
+      "debut": 28.51,
+      "fin": 30.37,
+      "texte": "Je veux vraiment de la pizza !"
+    },
+    {
+      "debut": 31.01,
+      "fin": 31.95,
+      "texte": "D'accord mon cœur."
+    },
+    {
+      "debut": 43.41,
+      "fin": 44.93,
+      "texte": "Ça va aller papa ?"
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.8,
+      "fin": 1.24,
+      "mot": "Mon"
+    },
+    {
+      "debut": 1.24,
+      "fin": 1.46,
+      "mot": "cœur,"
+    },
+    {
+      "debut": 1.58,
+      "fin": 1.64,
+      "mot": "tu"
+    },
+    {
+      "debut": 1.64,
+      "fin": 1.82,
+      "mot": "n"
+    },
+    {
+      "debut": 1.82,
+      "fin": 1.82,
+      "mot": "'as"
+    },
+    {
+      "debut": 1.82,
+      "fin": 2.0,
+      "mot": "pas"
+    },
+    {
+      "debut": 2.0,
+      "fin": 2.2,
+      "mot": "mangé"
+    },
+    {
+      "debut": 2.2,
+      "fin": 2.38,
+      "mot": "le"
+    },
+    {
+      "debut": 2.38,
+      "fin": 2.66,
+      "mot": "repas,"
+    },
+    {
+      "debut": 2.86,
+      "fin": 2.86,
+      "mot": "ça"
+    },
+    {
+      "debut": 2.86,
+      "fin": 3.06,
+      "mot": "va"
+    },
+    {
+      "debut": 3.06,
+      "fin": 3.38,
+      "mot": "?"
+    },
+    {
+      "debut": 3.38,
+      "fin": 3.56,
+      "mot": "Maman,"
+    },
+    {
+      "debut": 3.62,
+      "fin": 3.66,
+      "mot": "j"
+    },
+    {
+      "debut": 3.66,
+      "fin": 3.78,
+      "mot": "'en"
+    },
+    {
+      "debut": 3.78,
+      "fin": 3.92,
+      "mot": "ai"
+    },
+    {
+      "debut": 3.92,
+      "fin": 4.14,
+      "mot": "marre"
+    },
+    {
+      "debut": 4.14,
+      "fin": 4.26,
+      "mot": "de"
+    },
+    {
+      "debut": 4.26,
+      "fin": 4.48,
+      "mot": "manger"
+    },
+    {
+      "debut": 4.48,
+      "fin": 4.72,
+      "mot": "une"
+    },
+    {
+      "debut": 4.72,
+      "fin": 5.04,
+      "mot": "crotte"
+    },
+    {
+      "debut": 5.04,
+      "fin": 5.56,
+      "mot": "!"
+    },
+    {
+      "debut": 5.56,
+      "fin": 5.62,
+      "mot": "D"
+    },
+    {
+      "debut": 5.62,
+      "fin": 5.84,
+      "mot": "'accord"
+    },
+    {
+      "debut": 5.84,
+      "fin": 6.34,
+      "mot": "fiston,"
+    },
+    {
+      "debut": 6.64,
+      "fin": 6.78,
+      "mot": "mange"
+    },
+    {
+      "debut": 6.78,
+      "fin": 6.94,
+      "mot": "un"
+    },
+    {
+      "debut": 6.94,
+      "fin": 7.04,
+      "mot": "peu"
+    },
+    {
+      "debut": 7.04,
+      "fin": 7.28,
+      "mot": "de"
+    },
+    {
+      "debut": 7.28,
+      "fin": 7.52,
+      "mot": "crotte"
+    },
+    {
+      "debut": 7.52,
+      "fin": 7.94,
+      "mot": "et"
+    },
+    {
+      "debut": 7.94,
+      "fin": 8.22,
+      "mot": "après"
+    },
+    {
+      "debut": 8.22,
+      "fin": 8.42,
+      "mot": "nous"
+    },
+    {
+      "debut": 8.42,
+      "fin": 8.72,
+      "mot": "irons"
+    },
+    {
+      "debut": 8.72,
+      "fin": 9.12,
+      "mot": "chercher"
+    },
+    {
+      "debut": 9.12,
+      "fin": 9.36,
+      "mot": "des"
+    },
+    {
+      "debut": 9.36,
+      "fin": 9.9,
+      "mot": "restes"
+    },
+    {
+      "debut": 9.9,
+      "fin": 10.14,
+      "mot": "dehors,"
+    },
+    {
+      "debut": 10.24,
+      "fin": 10.24,
+      "mot": "je"
+    },
+    {
+      "debut": 10.24,
+      "fin": 10.36,
+      "mot": "te"
+    },
+    {
+      "debut": 10.36,
+      "fin": 10.6,
+      "mot": "le"
+    },
+    {
+      "debut": 10.6,
+      "fin": 11.48,
+      "mot": "promets"
+    },
+    {
+      "debut": 22.17,
+      "fin": 22.29,
+      "mot": "!"
+    },
+    {
+      "debut": 22.29,
+      "fin": 22.63,
+      "mot": "Fiston,"
+    },
+    {
+      "debut": 23.13,
+      "fin": 23.21,
+      "mot": "je"
+    },
+    {
+      "debut": 23.21,
+      "fin": 23.47,
+      "mot": "pense"
+    },
+    {
+      "debut": 23.47,
+      "fin": 23.65,
+      "mot": "qu"
+    },
+    {
+      "debut": 23.65,
+      "fin": 23.75,
+      "mot": "'il"
+    },
+    {
+      "debut": 23.75,
+      "fin": 23.85,
+      "mot": "y"
+    },
+    {
+      "debut": 23.85,
+      "fin": 23.99,
+      "mot": "aurait"
+    },
+    {
+      "debut": 23.99,
+      "fin": 24.19,
+      "mot": "d"
+    },
+    {
+      "debut": 24.19,
+      "fin": 24.49,
+      "mot": "'autres"
+    },
+    {
+      "debut": 24.49,
+      "fin": 24.91,
+      "mot": "options"
+    },
+    {
+      "debut": 24.91,
+      "fin": 25.43,
+      "mot": "trouvables"
+    },
+    {
+      "debut": 25.43,
+      "fin": 25.65,
+      "mot": "pour"
+    },
+    {
+      "debut": 25.65,
+      "fin": 25.83,
+      "mot": "le"
+    },
+    {
+      "debut": 25.83,
+      "fin": 26.43,
+      "mot": "repas."
+    },
+    {
+      "debut": 28.51,
+      "fin": 28.55,
+      "mot": "Je"
+    },
+    {
+      "debut": 28.55,
+      "fin": 28.81,
+      "mot": "veux"
+    },
+    {
+      "debut": 28.81,
+      "fin": 29.27,
+      "mot": "vraiment"
+    },
+    {
+      "debut": 29.27,
+      "fin": 29.47,
+      "mot": "de"
+    },
+    {
+      "debut": 29.47,
+      "fin": 29.65,
+      "mot": "la"
+    },
+    {
+      "debut": 29.65,
+      "fin": 30.03,
+      "mot": "pizza"
+    },
+    {
+      "debut": 30.03,
+      "fin": 30.37,
+      "mot": "!"
+    },
+    {
+      "debut": 31.01,
+      "fin": 31.13,
+      "mot": "D"
+    },
+    {
+      "debut": 31.13,
+      "fin": 31.37,
+      "mot": "'accord"
+    },
+    {
+      "debut": 31.37,
+      "fin": 31.59,
+      "mot": "mon"
+    },
+    {
+      "debut": 31.59,
+      "fin": 31.95,
+      "mot": "cœur."
+    },
+    {
+      "debut": 43.41,
+      "fin": 43.59,
+      "mot": "Ça"
+    },
+    {
+      "debut": 43.59,
+      "fin": 43.81,
+      "mot": "va"
+    },
+    {
+      "debut": 43.81,
+      "fin": 44.09,
+      "mot": "aller"
+    },
+    {
+      "debut": 44.09,
+      "fin": 44.47,
+      "mot": "papa"
+    },
+    {
+      "debut": 44.47,
+      "fin": 44.93,
+      "mot": "?"
+    }
+  ]
+}

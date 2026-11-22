@@ -1,0 +1,35 @@
+{
+  "_lisez_moi": "desc = recopiée mot pour mot dans chaque prompt image ; son = ambiance des prompts Grok.",
+  "lieux": [
+    {
+      "id": "salle_bain",
+      "nom": "Salle de bain de Théo",
+      "desc": "petite salle de bain d'appartement, grand miroir éclairé d'ampoules, lavabo encombré de flacons de teinture noire pour barbe, de crèmes antirides et d'un faux appareil dentaire dans un verre",
+      "son": "robinet qui goutte, néon qui grésille"
+    },
+    {
+      "id": "vestiaire",
+      "nom": "Vestiaire du FC Val-d'Argent",
+      "desc": "vestiaire de centre de formation, bancs en bois, casiers verts numérotés, maillots verts et blancs accrochés, tableau blanc tactique, écusson du FC Val-d'Argent peint au mur, jeunes joueurs animaux en arrière-plan",
+      "son": "brouhaha de joueurs, crampons sur le carrelage, douches au loin"
+    },
+    {
+      "id": "stade",
+      "nom": "Petit stade du FC Val-d'Argent",
+      "desc": "petit stade de centre de formation, pelouse verte éclatante, tribune métallique pleine de supporters animaux avec drapeaux verts et blancs, tableau d'affichage électronique, lumière de match",
+      "son": "foule qui chante, sifflet, ballon frappé"
+    },
+    {
+      "id": "infirmerie",
+      "nom": "Infirmerie du club",
+      "desc": "infirmerie du club, murs blancs et verts, table d'examen, négatoscope lumineux avec une radio de genou, squelette de démonstration dans un coin, diplômes encadrés",
+      "son": "bip de machine médicale, horloge"
+    },
+    {
+      "id": "parking",
+      "nom": "Parking du centre de formation",
+      "desc": "parking du centre de formation au coucher du soleil, voitures garées, grand panneau vert « FC Val-d'Argent – Centre de formation », projecteurs du stade derrière",
+      "son": "oiseaux du soir, voiture qui passe au loin"
+    }
+  ]
+}
