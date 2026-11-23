@@ -1,0 +1,59 @@
+{
+  "_lisez_moi": "desc = recopiée mot pour mot dans chaque prompt image ; son = ambiance des prompts Grok. 9 décors pour la trilogie.",
+  "lieux": [
+    {
+      "id": "stade_ruine",
+      "nom": "Stade des Peupliers abandonné",
+      "desc": "Stade des Peupliers abandonné : grand portail en fer rouillé, tribunes en béton fissuré aux sièges verts cassés, pelouse jaunie envahie d'herbes hautes, cages de but tordues sans filet, vieux tableau d'affichage éteint, flaques boueuses, pigeons partout",
+      "son": "vent, roucoulements de pigeons, grincement du portail"
+    },
+    {
+      "id": "vestiaire",
+      "nom": "Vestiaire insalubre",
+      "desc": "vestiaire insalubre du Stade des Peupliers : casiers en métal rouillés et défoncés, bancs en bois cassés, douches carrelées qui fuient, tags sur les murs, une ampoule qui pend au plafond et grésille, vieux maillots verts moisis sur des cintres",
+      "son": "goutte-à-goutte, grésillement de l'ampoule, pigeon qui roucoule"
+    },
+    {
+      "id": "salon_coiffure",
+      "nom": "Salon de coiffure de Nathalie",
+      "desc": "petit salon de coiffure de quartier aux murs rose bonbon, trois fauteuils, casques sèche-cheveux vintage, miroirs couverts de photos collées, clientes animales en bigoudis, enseigne « NATHA'COIFF » au mur",
+      "son": "sèche-cheveux, cliquetis de ciseaux, papotages"
+    },
+    {
+      "id": "parvis_royal",
+      "nom": "Parvis de la Royal Arena",
+      "desc": "parvis immense devant la Royal Arena, stade doré futuriste, écrans géants sur la façade, boutique officielle dorée, escalier d'honneur couvert d'un tapis rouge, foule de supporters animaux en écharpes dorées",
+      "son": "foule, annonces au haut-parleur, crépitement des flashs"
+    },
+    {
+      "id": "rue_boite",
+      "nom": "Devant la boîte « Le Zèbre »",
+      "desc": "trottoir de nuit devant la boîte de nuit « LE ZÈBRE », enseigne néon rose et bleue, cordon rouge, file d'attente de fêtards animaux, pavés mouillés qui reflètent les néons",
+      "son": "basses étouffées, brouhaha de la file d'attente"
+    },
+    {
+      "id": "stade_retape",
+      "nom": "Stade des Peupliers retapé en une nuit",
+      "desc": "le Stade des Peupliers retapé en une nuit : bâches vertes sur les trous des tribunes, peinture fraîche qui coule, cages rafistolées au scotch avec des filets neufs, herbe tondue de travers, guirlandes et banderole peinte à la main « FC PEUPLIERS »",
+      "son": "coups de marteau, tondeuse au loin, oiseaux"
+    },
+    {
+      "id": "terrain_match",
+      "nom": "Pelouse le jour du match",
+      "desc": "pelouse du Stade des Peupliers le jour du match, vue depuis le terrain : tribunes rafistolées pleines à craquer, supporters animaux en vert d'un côté et en doré de l'autre, fumigènes verts, tableau d'affichage en carton bricolé à la main, joueurs dorés immenses du Royal Olympique face à une équipe verte dépareillée",
+      "son": "foule qui gronde, tambours, coups de sifflet de l'arbitre"
+    },
+    {
+      "id": "banc_touche",
+      "nom": "Banc de touche des Peupliers",
+      "desc": "banc de touche du FC Peupliers : vieux banc en bois sous un parasol troué, glacière, sac de ballons, seau d'eau, tableau tactique griffonné, ligne de touche blanche, tribune pleine derrière",
+      "son": "cris du public, coups de sifflet, consignes criées"
+    },
+    {
+      "id": "tribune_trone",
+      "nom": "Trône de Victor en tribune",
+      "desc": "dans la vieille tribune du Stade des Peupliers, un trône doré géant posé sur un tapis rouge, gardes du corps rhinocéros en costume noir, ventilateur doré, verre de jus d'orange à paille dorée, supporters du Royal en écharpes dorées tout autour",
+      "son": "foule, trompettes de supporters, cris"
+    }
+  ]
+}

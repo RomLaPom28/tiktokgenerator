@@ -1,0 +1,391 @@
+{
+  "numero": 2,
+  "titre": "Le défi impossible",
+  "format": "course contre la montre",
+  "accroche_type": "argent",
+  "cliff_type": "coup qui part",
+  "centre": "gerard",
+  "texte_accroche": "100 € contre 800 millions",
+  "question_milieu": {
+    "plan": 7,
+    "texte": "Il cache quoi, ce petit ? 👀"
+  },
+  "vote_question": "Le petit numéro 100 va renverser le match ?",
+  "fils_avances": ["match_demain", "pari_million", "enzo_recale"],
+  "revele": [],
+  "reprend": "L'épisode 1 finit sur « Il en faut onze » au stade de nuit : l'épisode 2 s'ouvre au même endroit, compte à rebours lancé, et redit le concept (club à 100 € contre 800 millions).",
+  "moteur": {
+    "desir": "Trouver huit joueurs en dix-huit heures pour ne pas perdre le club par forfait.",
+    "injustice": "Victor débarque à l'entraînement, se moque des bâches, impose un pari truqué d'avance et humilie Enzo, qu'il a recalé à 12 ans : « Les petits, ça ramasse les balles. »",
+    "antagoniste": "Victor, qui veut le club et danse sur son trône doré pendant le massacre.",
+    "enjeu_chiffre": "18 h pour 11 joueurs ; pari : le club à 100 € contre 1 000 000 € ; score 0-3.",
+    "force_cachee": "Enzo amortit sans regarder, sur la nuque, le ballon que Victor lui envoie de toutes ses forces.",
+    "payoff": "À 0-3, Gérard fait entrer Enzo en renvoyant à Victor sa propre phrase.",
+    "callback": "Les petits, ça ramasse les balles",
+    "kicker": "Enzo reçoit le ballon à 60 mètres du but et arme une frappe : coupure noire à l'impact."
+  },
+  "resume": "Dix-huit heures pour trouver onze joueurs : Léo et Gérard recrutent un videur, des recrues improbables, et Enzo, le minus qui dort dans le stade, recalé par Victor. Victor débarque, impose un pari (le club contre un million) et humilie Enzo, qui amortit son tir sans regarder. Le match tourne au massacre : 0-3. Gérard fait entrer le ramasseur de balles.",
+  "fin": "Enzo, numéro 100, entre à 0-3, reçoit le ballon à 60 mètres et arme une frappe. Noir.",
+  "recettes_utilisees": [
+    "Partie N+1 = même réplique que la fin de N",
+    "Sous-estimé à force cachée",
+    "Gros chiffre lisible à l'écran",
+    "Témoin choqué après la réplique-choc",
+    "Moteur d'histoire : callback du méchant renvoyé contre lui"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "role": "accroche",
+      "duree": 6,
+      "lieu": "stade_ruine",
+      "lumiere": "nuit_lune",
+      "cadrage": "GP",
+      "angle": "face",
+      "camera": "travelling_avant",
+      "persos": [
+        {"id": "leo", "jeu": "au milieu de la pelouse en ruine, la grosse clé rouillée serrée dans le poing, regard de feu"},
+        {"id": "gerard", "tenue": "coach", "jeu": "à côté de lui, chronomètre à la main, l'air sombre"},
+        {"id": "mathis", "jeu": "derrière eux, bonnet de travers, livide"}
+      ],
+      "texte_decor": "le vieux tableau d'affichage se rallume en clignotant sur un compte à rebours : « 18:00:00 »",
+      "timeline": [
+        {"t": "0-2", "action": "Léo serre la clé rouillée dans son poing", "camera": "travelling_avant", "son": "grincement de métal"},
+        {"t": "2-4", "action": "Gérard déclenche son chronomètre, le tableau d'affichage s'allume", "son": "bip électronique"},
+        {"t": "4-6", "action": "Mathis lève les bras au ciel, paniqué", "camera": "whip_pan", "son": "whoosh"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.6", "parle": "leo", "emotion": "rage contenue, face caméra", "fonction": "aveu", "texte": "Club acheté cent euros. Demain, il affronte 800 millions."},
+        {"t": "2.9-3.9", "parle": "gerard", "emotion": "sec", "fonction": "revelation", "texte": "Et on est trois."},
+        {"t": "4.2-5.8", "parle": "mathis", "emotion": "panique, aigu", "fonction": "reaction", "texte": "Je sais même pas jouer !"}
+      ],
+      "texte_ecran": "18 H POUR 11 JOUEURS"
+    },
+    {
+      "n": 2,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "rue_boite",
+      "lumiere": "neon",
+      "cadrage": "PA",
+      "angle": "contre_plongee",
+      "camera": "fixe",
+      "persos": [
+        {"id": "karim", "jeu": "bras croisés devant la porte de la boîte, immense, lunettes noires, impassible"},
+        {"id": "leo", "jeu": "minuscule à côté de lui, la tête levée, sourire culotté"},
+        {"id": "gerard", "tenue": "coach", "jeu": "derrière Léo, sifflet entre les dents, observe Karim de haut en bas"}
+      ],
+      "timeline": [
+        {"t": "0-3", "action": "Karim bloque la porte d'un bras, Léo lève la tête vers lui", "son": "basses étouffées"},
+        {"t": "3-6", "action": "Karim baisse lentement ses lunettes noires et sourit", "camera": "crash_zoom", "son": "ding"}
+      ],
+      "dialogues": [
+        {"t": "0.2-1.8", "parle": "karim", "emotion": "très grave", "fonction": "menace", "texte": "Pas de baskets, pas d'entrée."},
+        {"t": "2.0-3.9", "parle": "leo", "emotion": "culotté", "fonction": "riposte", "texte": "On veut pas entrer. Un défenseur."},
+        {"t": "4.2-5.8", "parle": "karim", "emotion": "lent, sourire en coin", "fonction": "promesse", "texte": "Personne passe devant moi. Jamais."}
+      ]
+    },
+    {
+      "n": 3,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "stade_retape",
+      "lumiere": "matin",
+      "cadrage": "PE",
+      "angle": "plongee",
+      "camera": "panoramique",
+      "persos": [
+        {"id": "gerard", "tenue": "coach", "jeu": "passe devant une rangée de recrues, sifflet à la bouche, consterné"},
+        {"id": "mathis", "tenue": "match", "jeu": "dans la file, ventre rentré, essaie d'avoir l'air sportif"},
+        {"id": "karim", "tenue": "match", "jeu": "dans la file, bras croisés, impassible"}
+      ],
+      "detail_image": "une file de recrues improbables : un lapin livreur de pizzas avec son casque, une vieille tortue en charentaises, deux hérissons jumeaux, un paresseux qui dort debout",
+      "timeline": [
+        {"t": "0-3", "action": "Gérard passe devant la file, le paresseux ronfle debout", "camera": "panoramique", "son": "ronflement"},
+        {"t": "3-6", "action": "Mathis rentre son ventre, qui ressort d'un coup", "camera": "secousse", "son": "boing"}
+      ],
+      "dialogues": [
+        {"t": "0.2-1.8", "parle": "gerard", "emotion": "désespéré", "fonction": "revelation", "texte": "Neuf. Il en manque deux."},
+        {"t": "2.1-3.4", "parle": "mathis", "emotion": "fier", "fonction": "promesse", "texte": "Je compte pour deux, moi."},
+        {"t": "3.7-5.6", "parle": "gerard", "emotion": "cinglant", "fonction": "attaque", "texte": "Toi, tu comptes comme un plot."}
+      ]
+    },
+    {
+      "n": 4,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "stade_retape",
+      "lumiere": "matin",
+      "cadrage": "PR",
+      "angle": "profil",
+      "camera": "travelling_lateral",
+      "persos": [
+        {"id": "leo", "tenue": "match", "jeu": "monte les marches de la tribune, sourire bienveillant"},
+        {"id": "enzo", "jeu": "recroquevillé dans un vieux sac de couchage entre deux sièges cassés, serre une canette cabossée"}
+      ],
+      "fin": {
+        "cadrage": "TGP",
+        "angle": "face",
+        "persos": [
+          {"id": "enzo", "jeu": "relève la tête, yeux brillants de colère, pointe du doigt quelque chose au loin"}
+        ],
+        "detail_image": "au loin, au-dessus de la ville, la Royal Arena dorée qui brille"
+      },
+      "timeline": [
+        {"t": "0-3", "action": "Léo monte les marches de la tribune vers le sac de couchage", "camera": "travelling_lateral", "son": "marches qui grincent"},
+        {"t": "3-6", "action": "Enzo serre sa canette contre lui et baisse les yeux"},
+        {"t": "6-8", "action": "Enzo relève la tête d'un coup", "camera": "crash_zoom", "son": "whoosh"},
+        {"t": "8-10", "action": "il pointe la Royal Arena dorée au loin", "son": "note grave"}
+      ],
+      "dialogues": [
+        {"t": "0.3-1.9", "parle": "leo", "emotion": "doux, surpris", "fonction": "reaction", "texte": "Tu dors ici, toi ?"},
+        {"t": "2.2-3.6", "parle": "enzo", "emotion": "timide", "fonction": "aveu", "texte": "Depuis deux ans."},
+        {"t": "3.9-5.6", "parle": "leo", "emotion": "chaleureux", "fonction": "promesse", "texte": "Viens jouer avec nous demain."},
+        {"t": "6.0-7.8", "parle": "enzo", "emotion": "la voix qui tremble", "fonction": "aveu", "texte": "On m'a dit que j'étais trop petit."},
+        {"t": "8.0-9.0", "parle": "leo", "emotion": "sec", "fonction": "reaction", "texte": "Qui ?"},
+        {"t": "9.2-9.9", "parle": "enzo", "emotion": "glacial", "fonction": "revelation", "texte": "Lui."}
+      ]
+    },
+    {
+      "n": 5,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "stade_retape",
+      "lumiere": "matin",
+      "cadrage": "PA",
+      "angle": "contre_plongee",
+      "camera": "epaule",
+      "persos": [
+        {"id": "victor", "jeu": "entre sur la pelouse en mocassins dorés, écarte les bras devant les bâches, rire gras"},
+        {"id": "leo", "tenue": "match", "jeu": "lui barre la route, la clé rouillée autour du cou, menton relevé"}
+      ],
+      "texte_decor": "un contrat doré posé sur une table pliante : « FC PEUPLIERS (100 €) contre 1 000 000 € »",
+      "fin": {
+        "cadrage": "INSERT",
+        "persos": [
+          {"id": "victor", "jeu": "seule sa patte à la chevalière couronne, posée sur le contrat doré, tend un stylo plume doré"}
+        ]
+      },
+      "timeline": [
+        {"t": "0-2", "action": "Victor entre sur la pelouse et écarte les bras", "camera": "epaule", "son": "rire gras"},
+        {"t": "2-5", "action": "Léo s'avance face à lui", "camera": "whip_pan"},
+        {"t": "5-7", "action": "Victor claque un contrat doré sur une table pliante", "camera": "secousse", "son": "claquement"},
+        {"t": "7-10", "action": "gros plan sur le contrat et le stylo plume doré", "camera": "crash_zoom", "son": "ding"}
+      ],
+      "dialogues": [
+        {"t": "0.3-2.8", "parle": "victor", "emotion": "hilare", "fonction": "attaque", "texte": "Des bâches ? C'est un stade ou un camping ?"},
+        {"t": "3.1-4.8", "parle": "leo", "emotion": "insolent", "fonction": "riposte", "texte": "Un camping qui va te battre."},
+        {"t": "5.2-7.4", "parle": "victor", "emotion": "glacial", "fonction": "menace", "texte": "Tu perds demain, ton club est à moi."},
+        {"t": "7.7-9.0", "parle": "leo", "emotion": "provocant", "fonction": "riposte", "texte": "Et si je gagne ?"}
+      ],
+      "texte_ecran": "LE CLUB CONTRE 1 MILLION"
+    },
+    {
+      "n": 6,
+      "role": "temoin",
+      "duree": 6,
+      "lieu": "stade_retape",
+      "lumiere": "matin",
+      "cadrage": "TGP",
+      "angle": "face",
+      "camera": "crash_zoom",
+      "persos": [
+        {"id": "mathis", "tenue": "match", "jeu": "une chips à mi-chemin de la bouche, yeux qui s'exorbitent"}
+      ],
+      "timeline": [
+        {"t": "0-2", "action": "Mathis écoute, une chips en l'air"},
+        {"t": "2-4", "action": "ses yeux s'exorbitent, les chips tombent", "camera": "crash_zoom", "son": "crunch"},
+        {"t": "4-6", "action": "il tourne lentement la tête vers Léo hors champ", "son": "glouglou de gorge"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.2", "parle": "victor", "emotion": "royal, méprisant", "fonction": "menace", "texte": "Si tu gagnes ? Un million d'euros.", "hors_champ": true},
+        {"t": "2.5-3.5", "parle": "mathis", "emotion": "hurle", "fonction": "reaction", "texte": "UN MILLION ?!"},
+        {"t": "3.8-5.8", "parle": "victor", "emotion": "rire gras", "fonction": "attaque", "texte": "Mais tu gagneras jamais, petit.", "hors_champ": true}
+      ]
+    },
+    {
+      "n": 7,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "stade_retape",
+      "lumiere": "matin",
+      "cadrage": "PE",
+      "angle": "debullee",
+      "camera": "ralenti",
+      "persos": [
+        {"id": "victor", "jeu": "repère Enzo dans la tribune, sourire cruel, un pied posé sur un ballon"},
+        {"id": "enzo", "jeu": "descend timidement les marches de la tribune, sa canette à la main"},
+        {"id": "gerard", "tenue": "coach", "jeu": "au bord du terrain, bras croisés, observe"}
+      ],
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {"id": "gerard", "tenue": "coach", "jeu": "yeux écarquillés, son sifflet qui tombe de sa bouche"},
+          {"id": "enzo", "jeu": "au second plan, ballon parfaitement immobile posé sur sa nuque, l'air ennuyé"}
+        ]
+      },
+      "timeline": [
+        {"t": "0-2", "action": "Victor pointe Enzo dans la tribune", "camera": "whip_pan"},
+        {"t": "2-5", "action": "Victor tire de toutes ses forces dans le ballon vers Enzo", "camera": "ralenti", "son": "boum du ballon"},
+        {"t": "5-7", "action": "sans regarder, Enzo amortit le ballon sur sa nuque, le ballon reste collé", "camera": "secousse", "son": "silence soudain"},
+        {"t": "7-10", "action": "Gérard laisse tomber son sifflet, bouche bée", "camera": "crash_zoom", "son": "sifflet qui tinte au sol"}
+      ],
+      "dialogues": [
+        {"t": "0.3-2.2", "parle": "victor", "emotion": "faussement surpris", "fonction": "attaque", "texte": "Tiens, le minus de mon centre !"},
+        {"t": "2.5-4.6", "parle": "victor", "emotion": "cruel, détache les mots", "fonction": "attaque", "texte": "Les petits, ça ramasse les balles."},
+        {"t": "6.0-7.4", "parle": "enzo", "emotion": "calme, sans le regarder", "fonction": "riposte", "texte": "Comme ça, monsieur ?"},
+        {"t": "7.7-9.6", "parle": "gerard", "emotion": "souffle, stupéfait", "fonction": "reaction", "texte": "Sans même regarder…"}
+      ],
+      "texte_ecran": "Il cache quoi, ce petit ? 👀"
+    },
+    {
+      "n": 8,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "banc_touche",
+      "lumiere": "jour",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "epaule",
+      "persos": [
+        {"id": "gerard", "tenue": "coach", "jeu": "tape sur son tableau tactique, regard de général"},
+        {"id": "leo", "tenue": "match", "jeu": "à côté de lui, sautille sur place, survolté"},
+        {"id": "mathis", "tenue": "match", "jeu": "derrière, lève timidement le doigt"}
+      ],
+      "texte_decor": "tableau d'affichage en carton bricolé à la main : « PEUPLIERS 0 – 0 ROYAL »",
+      "timeline": [
+        {"t": "0-3", "action": "Gérard tape du poing sur son tableau tactique", "son": "tchac"},
+        {"t": "3-6", "action": "Mathis lève timidement le doigt", "camera": "whip_pan", "son": "coup de sifflet du coup d'envoi"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.4", "parle": "gerard", "emotion": "grave", "fonction": "revelation", "texte": "Ils valent 800 millions. Nous, cent euros."},
+        {"t": "2.6-4.3", "parle": "leo", "emotion": "survolté", "fonction": "promesse", "texte": "Alors on a rien à perdre !"},
+        {"t": "4.5-5.8", "parle": "mathis", "emotion": "petite voix", "fonction": "reaction", "texte": "À part le club…"}
+      ]
+    },
+    {
+      "n": 9,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "terrain_match",
+      "lumiere": "jour",
+      "cadrage": "PE",
+      "angle": "plongee",
+      "camera": "plongee_drone",
+      "persos": [
+        {"id": "leo", "tenue": "match", "jeu": "à genoux sur la pelouse, mains sur la tête"},
+        {"id": "mathis", "tenue": "match", "jeu": "allongé par terre, épuisé, bonnet sur les yeux"}
+      ],
+      "detail_image": "un taureau noir colossal en maillot doré numéro 9 célèbre un but en faisant des pompes, ses coéquipiers dorés l'entourent",
+      "texte_decor": "tableau d'affichage en carton bricolé : « PEUPLIERS 0 – 3 ROYAL »",
+      "fin": {
+        "cadrage": "TGP",
+        "angle": "face",
+        "persos": [
+          {"id": "leo", "tenue": "match", "jeu": "regard vide, larme au coin de l'œil, mèche blonde collée par la sueur"}
+        ]
+      },
+      "timeline": [
+        {"t": "0-2", "action": "vu du ciel, le taureau numéro 9 marque un troisième but", "camera": "plongee_drone", "son": "filet qui claque"},
+        {"t": "2-5", "action": "Mathis s'effondre sur la pelouse", "son": "bruit sourd"},
+        {"t": "5-7", "action": "Léo tombe à genoux", "camera": "ralenti"},
+        {"t": "7-10", "action": "un chiffre en carton tombe du tableau d'affichage bricolé", "camera": "crash_zoom", "son": "carton qui claque"}
+      ],
+      "dialogues": [
+        {"t": "0.3-2.4", "parle": "victor", "emotion": "au mégaphone, hilare", "fonction": "attaque", "texte": "Trois-zéro ! Et il reste une heure !", "hors_champ": true},
+        {"t": "2.7-4.4", "parle": "mathis", "emotion": "à bout de souffle", "fonction": "reaction", "texte": "Ils sont trop forts, Léo…"},
+        {"t": "4.7-6.4", "parle": "leo", "emotion": "la voix qui casse", "fonction": "promesse", "texte": "Relève-toi. On lâche rien."},
+        {"t": "6.8-8.8", "parle": "victor", "emotion": "au mégaphone", "fonction": "menace", "texte": "Prépare les clés de ton stade !", "hors_champ": true}
+      ],
+      "texte_ecran": "0-3 😰"
+    },
+    {
+      "n": 10,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "tribune_trone",
+      "lumiere": "jour",
+      "cadrage": "GP",
+      "angle": "contre_plongee",
+      "camera": "orbite",
+      "persos": [
+        {"id": "victor", "tenue": "tribune", "jeu": "debout sur son trône doré, danse en agitant un mégaphone doré, dent en or qui brille"}
+      ],
+      "timeline": [
+        {"t": "0-3", "action": "Victor danse sur son trône doré", "camera": "orbite", "son": "trompettes de supporters"},
+        {"t": "3-6", "action": "il pointe le tableau d'affichage avec son mégaphone", "camera": "whip_pan"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.4", "parle": "victor", "emotion": "chantonne, moqueur", "fonction": "attaque", "texte": "Ton club vaut cent euros. Ton score aussi."},
+        {"t": "2.7-4.2", "parle": "leo", "emotion": "crie de loin", "fonction": "riposte", "texte": "Le match est pas fini !", "hors_champ": true},
+        {"t": "4.5-5.9", "parle": "victor", "emotion": "rire gras", "fonction": "attaque", "texte": "Pour toi, si, petit."}
+      ]
+    },
+    {
+      "n": 11,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "banc_touche",
+      "lumiere": "jour",
+      "cadrage": "PT",
+      "angle": "face",
+      "camera": "travelling_avant",
+      "persos": [
+        {"id": "gerard", "tenue": "coach", "jeu": "les mains sur les hanches, se gratte la barbe, puis tourne la tête vers le bout du banc"},
+        {"id": "enzo", "tenue": "ramasseur", "jeu": "assis au bout du banc, sac de ballons sur les genoux, petit et oublié"}
+      ],
+      "timeline": [
+        {"t": "0-3", "action": "Gérard se gratte la barbe puis tourne la tête vers Enzo", "camera": "travelling_avant"},
+        {"t": "3-6", "action": "Enzo lâche son sac, les ballons roulent partout", "camera": "secousse", "son": "ballons qui rebondissent"}
+      ],
+      "dialogues": [
+        {"t": "0.2-1.8", "parle": "gerard", "emotion": "à lui-même", "fonction": "revelation", "texte": "Il nous faut un miracle."},
+        {"t": "2.1-3.0", "parle": "enzo", "emotion": "timide", "fonction": "reaction", "texte": "Coach ?"},
+        {"t": "3.3-5.6", "parle": "gerard", "emotion": "grave, regard fixe", "fonction": "promesse", "texte": "Petit. Enlève ton chasuble. Tu entres."}
+      ]
+    },
+    {
+      "n": 12,
+      "role": "cliff",
+      "duree": 10,
+      "lieu": "terrain_match",
+      "lumiere": "jour",
+      "cadrage": "PA",
+      "angle": "contre_plongee",
+      "camera": "suivi_course",
+      "persos": [
+        {"id": "enzo", "tenue": "match", "jeu": "sur la ligne de touche, minuscule face aux géants dorés, le numéro 100 dans le dos, regard de tueur"},
+        {"id": "gerard", "tenue": "coach", "jeu": "à côté de lui, main posée sur son épaule, sourire en coin"}
+      ],
+      "fin": {
+        "cadrage": "TGP",
+        "persos": [
+          {"id": "enzo", "tenue": "match", "jeu": "jambe armée au ralenti, regard féroce, le ballon déformé contre son pied à l'impact"}
+        ]
+      },
+      "timeline": [
+        {"t": "0-2", "action": "Enzo jette une chasuble orange et entre sur le terrain", "camera": "suivi_course", "son": "rires de la tribune dorée"},
+        {"t": "2-5", "action": "Gérard le regarde passer, sourire en coin", "camera": "travelling_lateral"},
+        {"t": "5-7", "action": "Enzo reçoit le ballon dans son camp et lève la tête vers le but adverse, à 60 mètres", "camera": "crash_zoom", "son": "silence soudain"},
+        {"t": "7-10", "action": "il arme une frappe au ralenti, coupure noire à l'impact", "camera": "ralenti", "son": "boum, puis silence total"}
+      ],
+      "dialogues": [
+        {"t": "0.3-2.1", "parle": "victor", "emotion": "explose de rire", "fonction": "attaque", "texte": "Le ramasseur de balles ?! Sérieux ?", "hors_champ": true},
+        {"t": "2.4-5.0", "parle": "gerard", "emotion": "lent, chaque mot pèse", "fonction": "riposte", "texte": "Les petits, ça ramasse les balles ?"},
+        {"t": "5.3-6.6", "parle": "gerard", "emotion": "glacial", "fonction": "riposte", "texte": "Pas aujourd'hui."},
+        {"t": "7.0-8.2", "parle": "enzo", "emotion": "glacial", "fonction": "menace", "texte": "Regarde bien, Victor."},
+        {"t": "8.5-9.6", "parle": "mathis", "emotion": "hurle", "fonction": "reaction", "texte": "Il tire ?!", "hors_champ": true}
+      ],
+      "texte_ecran": "LE N°100 ENTRE… #PARTIE3"
+    }
+  ],
+  "titre_couverture": "0-3… et il fait entrer le ramasseur",
+  "legende": "Club acheté 100 €, 18 h pour trouver 11 joueurs, et un pari à 1 million contre le club le plus riche du pays 😳 Partie 2",
+  "hashtags": ["#foot", "#histoire", "#partie2", "#animaux", "#ia", "#football"],
+  "commentaire_epingle": "Le petit numéro 100 va renverser le match ? 🐿️ Oui, il va tout casser / 🦁 Non, Victor a déjà gagné",
+  "hooks_alternatifs": [
+    "Il m'a recalé parce que j'étais trop petit. Aujourd'hui je joue contre lui.",
+    "Un million d'euros contre un club acheté cent euros. J'ai signé.",
+    "Trois-zéro. Et le coach fait entrer le ramasseur de balles."
+  ]
+}

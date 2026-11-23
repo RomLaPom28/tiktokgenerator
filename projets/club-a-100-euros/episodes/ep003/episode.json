@@ -1,0 +1,391 @@
+{
+  "numero": 3,
+  "titre": "La remontée impossible",
+  "format": "évènement public",
+  "accroche_type": "insulte choc",
+  "cliff_type": "fin ouverte au vote",
+  "centre": "enzo",
+  "texte_accroche": "0-3. Il entre. Il a 16 ans.",
+  "question_milieu": {
+    "plan": 6,
+    "texte": "Ils peuvent vraiment remonter ? 😳"
+  },
+  "vote_question": "Match retour chez Victor, le terrain en jeu : ils acceptent ?",
+  "fils_avances": ["pari_million", "enzo_recale", "terrain_30m"],
+  "revele": ["terrain_30m"],
+  "reprend": "L'épisode 2 coupe sur l'entrée d'Enzo et sa frappe : l'épisode 3 rouvre sur Enzo à la ligne de touche, Victor qui répète « Les petits, ça ramasse les balles », et le score 0-3 en gros.",
+  "moteur": {
+    "desir": "Enzo veut prouver qu'il n'est pas trop petit ; l'équipe veut remonter 0-3 et sauver le club.",
+    "injustice": "Victor hurle au mégaphone « Les petits, ça ramasse les balles » à l'entrée d'Enzo ; Dylan, la star à 9 de dos, le renvoie derrière les cages.",
+    "antagoniste": "Victor sur son trône doré, et sa star Dylan.",
+    "enjeu_chiffre": "0-3, vingt minutes à jouer, le club à 100 € contre 1 000 000 €.",
+    "force_cachee": "Enzo fait un petit pont à Dylan, marque en lucarne, puis en retourné acrobatique.",
+    "payoff": "4-3 : Enzo dépose le ballon aux pieds de Victor et lui rend mot pour mot sa phrase.",
+    "callback": "Les petits, ça ramasse les balles",
+    "kicker": "Victor refuse de payer et révèle qu'il veut le terrain, qui vaut 30 millions : match retour chez lui, terrain en jeu. Léo demande au public s'il accepte."
+  },
+  "resume": "À 0-3, Enzo entre sous les moqueries de Victor. Il fait un petit pont à Dylan et marque (1-3). Victor panique, Léo marque du nez (2-3), Enzo égalise en retourné (3-3). Dernière action, tout le monde monte : 4-3. Enzo rend à Victor sa phrase. Victor refuse de payer et révèle que le terrain vaut 30 millions : match retour chez lui, terrain en jeu. Léo demande au public.",
+  "fin": "Léo, billet de 100 € entre deux doigts, se tourne vers la caméra : « On accepte ? »",
+  "recettes_utilisees": [
+    "Partie N+1 = même réplique que la fin de N",
+    "Sous-estimé à force cachée",
+    "Humilié → transformation",
+    "Témoin choqué après la réplique-choc",
+    "Gros chiffre lisible à l'écran",
+    "Vote du public en fin d'épisode"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "role": "accroche",
+      "duree": 6,
+      "lieu": "terrain_match",
+      "lumiere": "jour",
+      "cadrage": "TGP",
+      "angle": "contre_plongee",
+      "camera": "crash_zoom",
+      "persos": [
+        {"id": "enzo", "tenue": "match", "jeu": "sur la ligne de touche, minuscule, regard glacial fixé vers un trône doré dans la tribune, queue en panache hérissée"}
+      ],
+      "texte_decor": "tableau d'affichage en carton bricolé : « PEUPLIERS 0 – 3 ROYAL »",
+      "timeline": [
+        {"t": "0-2", "action": "Enzo fixe le trône doré, immobile", "camera": "crash_zoom", "son": "rires de la foule dorée"},
+        {"t": "2-4", "action": "il serre les poings, sa queue en panache se hérisse", "son": "whoosh"},
+        {"t": "4-6", "action": "il entre sur la pelouse d'un pas décidé", "camera": "travelling_arriere", "son": "crampons sur l'herbe"}
+      ],
+      "dialogues": [
+        {"t": "0.2-1.9", "parle": "victor", "emotion": "hurle de rire au mégaphone", "fonction": "attaque", "texte": "Les petits, ça ramasse les balles !", "hors_champ": true},
+        {"t": "2.2-3.9", "parle": "enzo", "emotion": "très calme, à la caméra", "fonction": "riposte", "texte": "Vingt minutes. Quatre buts."},
+        {"t": "4.2-5.8", "parle": "enzo", "emotion": "sourire en coin", "fonction": "menace", "texte": "Il va le regretter."}
+      ],
+      "texte_ecran": "0-3 · 20 MIN"
+    },
+    {
+      "n": 2,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "banc_touche",
+      "lumiere": "jour",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "epaule",
+      "persos": [
+        {"id": "camille", "jeu": "au bord du terrain, micro rouge collé au bec, surexcitée, face caméra"},
+        {"id": "leo", "tenue": "match", "jeu": "derrière elle, en sueur, lève le pouce vers la caméra"}
+      ],
+      "timeline": [
+        {"t": "0-3", "action": "Camille commente face caméra, micro rouge au bec", "camera": "epaule", "son": "foule qui siffle"},
+        {"t": "3-6", "action": "Léo surgit dans le cadre derrière elle et lève le pouce", "camera": "whip_pan", "son": "whoosh"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.6", "parle": "camille", "emotion": "commentatrice survoltée", "fonction": "revelation", "texte": "Le club acheté cent euros est mené trois-zéro !"},
+        {"t": "2.9-4.1", "parle": "leo", "emotion": "essoufflé, à la caméra", "fonction": "riposte", "texte": "Pas pour longtemps !"},
+        {"t": "4.4-5.9", "parle": "camille", "emotion": "incrédule", "fonction": "reaction", "texte": "Ils font entrer le ramasseur ?!"}
+      ]
+    },
+    {
+      "n": 3,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "terrain_match",
+      "lumiere": "jour",
+      "cadrage": "PA",
+      "angle": "face",
+      "camera": "suivi_course",
+      "persos": [
+        {"id": "dylan", "jeu": "immense, se penche au-dessus d'Enzo avec un rictus, cornes qui brillent"},
+        {"id": "enzo", "tenue": "match", "jeu": "lève les yeux vers lui, pied posé sur le ballon, parfaitement calme"}
+      ],
+      "fin": {
+        "cadrage": "PE",
+        "angle": "plongee",
+        "persos": [
+          {"id": "dylan", "jeu": "assis par terre sur la pelouse, cornes de travers, l'air hébété"},
+          {"id": "enzo", "tenue": "match", "jeu": "file au loin avec le ballon après un petit pont"}
+        ]
+      },
+      "timeline": [
+        {"t": "0-3", "action": "Dylan se penche au-dessus d'Enzo en ricanant", "camera": "suivi_course", "son": "souffle des naseaux"},
+        {"t": "3-5", "action": "Enzo pose tranquillement le pied sur le ballon"},
+        {"t": "5-7", "action": "Dylan charge, Enzo glisse le ballon entre ses jambes", "camera": "ralenti", "son": "whoosh"},
+        {"t": "7-10", "action": "Dylan tombe sur le derrière, Enzo file", "camera": "secousse", "son": "boum sourd, la foule hurle"}
+      ],
+      "dialogues": [
+        {"t": "0.3-2.6", "parle": "dylan", "emotion": "ricane", "fonction": "attaque", "texte": "T'es perdu ? Les ballons, c'est derrière les cages."},
+        {"t": "2.9-4.5", "parle": "enzo", "emotion": "doux, presque poli", "fonction": "riposte", "texte": "Je sais. Va les chercher."},
+        {"t": "4.8-6.0", "parle": "dylan", "emotion": "charge en soufflant", "fonction": "menace", "texte": "Pousse-toi, minus !"},
+        {"t": "6.4-7.4", "parle": "camille", "emotion": "hurle", "fonction": "reaction", "texte": "PETIT PONT !", "hors_champ": true},
+        {"t": "7.8-9.4", "parle": "dylan", "emotion": "assis par terre, hébété", "fonction": "reaction", "texte": "Il est passé où ?"}
+      ]
+    },
+    {
+      "n": 4,
+      "role": "retournement",
+      "duree": 6,
+      "lieu": "terrain_match",
+      "lumiere": "jour",
+      "cadrage": "PE",
+      "angle": "plongee",
+      "camera": "plongee_drone",
+      "persos": [
+        {"id": "enzo", "tenue": "match", "jeu": "en pleine course, s'envole pour frapper, queue en panache déployée"}
+      ],
+      "texte_decor": "tableau d'affichage en carton bricolé : « PEUPLIERS 1 – 3 ROYAL »",
+      "timeline": [
+        {"t": "0-2", "action": "Enzo envoie le ballon en pleine lucarne", "camera": "plongee_drone", "son": "filet qui claque"},
+        {"t": "2-4", "action": "le zéro du tableau bricolé est remplacé par un 1", "son": "carton qui claque"},
+        {"t": "4-6", "action": "Enzo court vers le trône doré en pointant Victor", "camera": "whip_pan", "son": "la foule explose"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.0", "parle": "camille", "emotion": "hurle", "fonction": "revelation", "texte": "BUT ! Le numéro 100 marque !", "hors_champ": true},
+        {"t": "2.3-3.9", "parle": "victor", "emotion": "rire jaune", "fonction": "attaque", "texte": "Un coup de chance !", "hors_champ": true},
+        {"t": "4.2-5.8", "parle": "enzo", "emotion": "en courant, pointe le trône", "fonction": "riposte", "texte": "Et de un, Victor !"}
+      ],
+      "texte_ecran": "1-3"
+    },
+    {
+      "n": 5,
+      "role": "temoin",
+      "duree": 6,
+      "lieu": "tribune_trone",
+      "lumiere": "jour",
+      "cadrage": "GP",
+      "angle": "debullee",
+      "camera": "choc",
+      "persos": [
+        {"id": "victor", "tenue": "tribune", "jeu": "se lève d'un bond de son trône, jus d'orange renversé sur son costume blanc, crinière décoiffée"}
+      ],
+      "timeline": [
+        {"t": "0-3", "action": "Victor bondit, son jus d'orange se renverse sur son costume blanc", "camera": "choc", "son": "splash"},
+        {"t": "3-6", "action": "il arrache ses lunettes fumées, crinière ébouriffée", "camera": "crash_zoom", "son": "rugissement étouffé"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.2", "parle": "victor", "emotion": "hurle à ses joueurs", "fonction": "menace", "texte": "Mettez-vous à trois sur le petit !"},
+        {"t": "2.5-4.0", "parle": "gerard", "emotion": "ironique, de loin", "fonction": "riposte", "texte": "À trois ? Il adore ça.", "hors_champ": true},
+        {"t": "4.3-5.8", "parle": "victor", "emotion": "s'étrangle", "fonction": "reaction", "texte": "Il adore QUOI ?!"}
+      ]
+    },
+    {
+      "n": 6,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "terrain_match",
+      "lumiere": "jour",
+      "cadrage": "PT",
+      "angle": "face",
+      "camera": "travelling_lateral",
+      "persos": [
+        {"id": "enzo", "tenue": "match", "jeu": "attire trois défenseurs dorés sur lui, sourire malicieux"},
+        {"id": "leo", "tenue": "match", "jeu": "seul au second poteau, distrait, se gratte la tête"}
+      ],
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {"id": "leo", "tenue": "match", "jeu": "allongé dans les filets, le ballon au fond, nez rouge écrasé, sourire béat"}
+        ]
+      },
+      "timeline": [
+        {"t": "0-2", "action": "Enzo attire trois défenseurs dorés et les dribble", "camera": "travelling_lateral", "son": "crampons"},
+        {"t": "2-4", "action": "il centre, le ballon rebondit sur le nez de Léo", "camera": "ralenti", "son": "boing"},
+        {"t": "4-7", "action": "le ballon roule au fond des filets", "camera": "secousse", "son": "filet"},
+        {"t": "7-10", "action": "Léo se relève, nez rouge, et fait semblant d'avoir tout prévu", "camera": "crash_zoom", "son": "la foule explose de rire"}
+      ],
+      "dialogues": [
+        {"t": "0.3-1.6", "parle": "enzo", "emotion": "crie", "fonction": "promesse", "texte": "Léo ! À toi !"},
+        {"t": "1.9-2.8", "parle": "leo", "emotion": "paniqué", "fonction": "reaction", "texte": "Quoi ?!"},
+        {"t": "4.2-6.2", "parle": "camille", "emotion": "hurle, hilare", "fonction": "revelation", "texte": "But du président… avec le nez !", "hors_champ": true},
+        {"t": "6.6-8.0", "parle": "leo", "emotion": "relève la tête, fier", "fonction": "riposte", "texte": "C'était voulu !"},
+        {"t": "8.3-9.7", "parle": "mathis", "emotion": "blasé", "fonction": "reaction", "texte": "Mais bien sûr…", "hors_champ": true}
+      ],
+      "texte_ecran": "2-3 😂 · Ils peuvent vraiment remonter ? 😳"
+    },
+    {
+      "n": 7,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "terrain_match",
+      "lumiere": "jour",
+      "cadrage": "PE",
+      "angle": "contre_plongee",
+      "camera": "ralenti",
+      "persos": [
+        {"id": "enzo", "tenue": "match", "jeu": "s'élève dans les airs à l'horizontale pour un retourné acrobatique, queue en panache comme une voile"},
+        {"id": "dylan", "jeu": "saute trop tard, cornes en avant, yeux exorbités"}
+      ],
+      "fin": {
+        "cadrage": "TGP",
+        "persos": [
+          {"id": "dylan", "jeu": "à genoux, bouche ouverte, anneau doré du nez qui tremble"}
+        ]
+      },
+      "timeline": [
+        {"t": "0-2", "action": "Dylan fonce sur Enzo", "son": "galop lourd"},
+        {"t": "2-4", "action": "Enzo s'envole en retourné acrobatique", "camera": "ralenti", "son": "whoosh"},
+        {"t": "4-7", "action": "le ballon file en pleine lucarne", "camera": "whip_pan", "son": "filet qui claque, la foule explose"},
+        {"t": "7-10", "action": "Dylan tombe à genoux", "camera": "crash_zoom"}
+      ],
+      "dialogues": [
+        {"t": "0.3-2.0", "parle": "dylan", "emotion": "rugit", "fonction": "attaque", "texte": "Cette fois, tu passes pas !"},
+        {"t": "2.3-3.5", "parle": "enzo", "emotion": "en l'air, calme", "fonction": "riposte", "texte": "Je passe au-dessus."},
+        {"t": "4.0-6.2", "parle": "camille", "emotion": "hurle à s'en casser la voix", "fonction": "revelation", "texte": "TROIS-TROIS ! Le stade explose !", "hors_champ": true},
+        {"t": "6.6-8.4", "parle": "dylan", "emotion": "à genoux, sonné", "fonction": "reaction", "texte": "C'est… c'est impossible…"},
+        {"t": "8.7-9.8", "parle": "victor", "emotion": "hurle", "fonction": "reaction", "texte": "NON !", "hors_champ": true}
+      ],
+      "texte_ecran": "3-3 🤯"
+    },
+    {
+      "n": 8,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "banc_touche",
+      "lumiere": "fin_journee",
+      "cadrage": "GP",
+      "angle": "face",
+      "camera": "travelling_avant",
+      "persos": [
+        {"id": "gerard", "tenue": "coach", "jeu": "debout sur la ligne de touche, sifflet aux lèvres, regard de général"},
+        {"id": "leo", "tenue": "match", "jeu": "à côté de lui, essoufflé, nez encore rouge"}
+      ],
+      "texte_decor": "panneau lumineux du quatrième arbitre levé : « 90+4 »",
+      "timeline": [
+        {"t": "0-3", "action": "Gérard lève le bras, toute l'équipe verte part vers l'avant", "camera": "travelling_avant", "son": "coup de sifflet"},
+        {"t": "3-6", "action": "Léo s'élance, déterminé", "camera": "whip_pan", "son": "tambours"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.0", "parle": "gerard", "emotion": "grave", "fonction": "promesse", "texte": "Dernière action. Tout le monde monte."},
+        {"t": "2.3-3.4", "parle": "leo", "emotion": "incrédule", "fonction": "reaction", "texte": "Même le gardien ?"},
+        {"t": "3.7-5.6", "parle": "gerard", "emotion": "sourire en coin", "fonction": "riposte", "texte": "Même Nathalie, si elle veut."}
+      ]
+    },
+    {
+      "n": 9,
+      "role": "climax",
+      "duree": 10,
+      "lieu": "terrain_match",
+      "lumiere": "fin_journee",
+      "cadrage": "PE",
+      "angle": "plongee",
+      "camera": "plongee_drone",
+      "persos": [
+        {"id": "leo", "tenue": "match", "jeu": "au milieu du terrain, transmet le ballon d'une talonnade"},
+        {"id": "enzo", "tenue": "match", "jeu": "lancé en profondeur, regard fixé sur le but"}
+      ],
+      "detail_image": "un gorille argenté en maillot vert numéro 4 relance de la tête, toute l'équipe verte monte vers le but doré",
+      "fin": {
+        "cadrage": "PE",
+        "angle": "face",
+        "persos": [
+          {"id": "enzo", "tenue": "match", "jeu": "à genoux sur la pelouse, bras levés au ciel, l'équipe verte lui saute dessus"},
+          {"id": "leo", "tenue": "match", "jeu": "en tête de la mêlée, hurle de joie"}
+        ],
+        "detail_image": "le tableau d'affichage bricolé affiche « PEUPLIERS 4 – 3 ROYAL », toute la tribune verte debout"
+      },
+      "timeline": [
+        {"t": "0-2", "action": "le gorille numéro 4 relance, Léo transmet d'une talonnade", "camera": "plongee_drone", "son": "foule qui retient son souffle"},
+        {"t": "2-4", "action": "Léo lance Enzo en profondeur", "camera": "suivi_course"},
+        {"t": "4-6", "action": "Enzo tire au ralenti, le ballon tourne", "camera": "ralenti", "son": "souffle ralenti"},
+        {"t": "6-8", "action": "le ballon entre en pleine lucarne", "camera": "secousse", "son": "filet qui claque, explosion de la foule"},
+        {"t": "8-10", "action": "toute l'équipe saute sur Enzo", "son": "cris de joie"}
+      ],
+      "dialogues": [
+        {"t": "0.3-1.8", "parle": "camille", "emotion": "suffoque", "fonction": "revelation", "texte": "Dernière seconde, dernière action !", "hors_champ": true},
+        {"t": "2.1-3.4", "parle": "leo", "emotion": "hurle en passant", "fonction": "promesse", "texte": "Enzo ! Finis-le !"},
+        {"t": "3.7-4.6", "parle": "enzo", "emotion": "glacial", "fonction": "promesse", "texte": "Avec plaisir."},
+        {"t": "6.0-8.3", "parle": "camille", "emotion": "hurle, en larmes", "fonction": "revelation", "texte": "QUATRE-TROIS ! Le club à cent euros !", "hors_champ": true},
+        {"t": "8.6-9.8", "parle": "leo", "emotion": "hurle de joie", "fonction": "reaction", "texte": "ON L'A FAIT !"}
+      ],
+      "texte_ecran": "4-3 🔥"
+    },
+    {
+      "n": 10,
+      "role": "climax",
+      "duree": 6,
+      "lieu": "tribune_trone",
+      "lumiere": "fin_journee",
+      "cadrage": "AMORCE",
+      "angle": "contre_plongee",
+      "camera": "travelling_avant",
+      "persos": [
+        {"id": "enzo", "tenue": "match", "jeu": "en haut des marches du trône, laisse tomber le ballon aux pieds de Victor, regard glacial"},
+        {"id": "victor", "tenue": "tribune", "jeu": "assis, figé, costume taché de jus d'orange, mâchoire tombante, dent en or visible"}
+      ],
+      "timeline": [
+        {"t": "0-3", "action": "Enzo laisse tomber le ballon qui rebondit sur les mocassins dorés de Victor", "camera": "travelling_avant", "son": "boing"},
+        {"t": "3-6", "action": "Victor regarde le ballon, puis Enzo, en tremblant", "camera": "crash_zoom", "son": "silence soudain"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.6", "parle": "enzo", "emotion": "glacial, articule", "fonction": "attaque", "texte": "Tiens. Les petits, ça ramasse les balles."},
+        {"t": "2.9-4.0", "parle": "victor", "emotion": "bégaie", "fonction": "reaction", "texte": "Toi… tu…"},
+        {"t": "4.3-5.8", "parle": "camille", "emotion": "ravie", "fonction": "reaction", "texte": "Il lui rend sa phrase !", "hors_champ": true}
+      ],
+      "texte_ecran": "RAMASSE 😈"
+    },
+    {
+      "n": 11,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "tribune_trone",
+      "lumiere": "fin_journee",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "epaule",
+      "persos": [
+        {"id": "victor", "tenue": "tribune", "jeu": "se lève, rouge de rage, crinière hérissée, pointe Léo du doigt"},
+        {"id": "leo", "tenue": "match", "jeu": "agite un billet de 100 € sous son museau, sourire insolent"}
+      ],
+      "timeline": [
+        {"t": "0-3", "action": "Léo agite un billet de 100 € sous le museau de Victor", "son": "froissement de billet"},
+        {"t": "3-6", "action": "Victor rugit, sa crinière se hérisse", "camera": "secousse", "son": "rugissement"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.0", "parle": "leo", "emotion": "insolent", "fonction": "attaque", "texte": "Tu me dois un million, Victor."},
+        {"t": "2.2-4.3", "parle": "victor", "emotion": "rage", "fonction": "riposte", "texte": "Je paie pas un club à cent balles."},
+        {"t": "4.6-5.9", "parle": "leo", "emotion": "rigolard", "fonction": "riposte", "texte": "Il t'a battu, pourtant."}
+      ]
+    },
+    {
+      "n": 12,
+      "role": "cliff",
+      "duree": 10,
+      "lieu": "tribune_trone",
+      "lumiere": "fin_journee",
+      "cadrage": "GP",
+      "angle": "profil",
+      "camera": "orbite",
+      "persos": [
+        {"id": "victor", "tenue": "tribune", "jeu": "se penche à l'oreille de Léo, sourire de requin retrouvé"},
+        {"id": "leo", "tenue": "match", "jeu": "écoute, son sourire se fige"}
+      ],
+      "texte_decor": "sur le téléphone que Victor tend à Léo, un plan doré : « ROYAL MALL · TERRAIN DES PEUPLIERS · 30 000 000 € »",
+      "fin": {
+        "cadrage": "TGP",
+        "angle": "face",
+        "persos": [
+          {"id": "leo", "tenue": "match", "jeu": "tourné vers l'objectif, sourcil levé, sourire en coin, billet de 100 € entre deux doigts"}
+        ]
+      },
+      "timeline": [
+        {"t": "0-3", "action": "Victor se penche à l'oreille de Léo et lui montre son téléphone", "camera": "orbite"},
+        {"t": "3-5", "action": "Léo se fige", "camera": "crash_zoom", "son": "note grave"},
+        {"t": "5-8", "action": "Léo se tourne lentement vers la caméra", "camera": "whip_pan"},
+        {"t": "8-10", "action": "il lève le billet de 100 € et sourit", "son": "ding"}
+      ],
+      "dialogues": [
+        {"t": "0.3-2.6", "parle": "victor", "emotion": "murmure, menaçant", "fonction": "revelation", "texte": "Ton terrain vaut trente millions. Tu savais pas ?"},
+        {"t": "2.9-4.9", "parle": "victor", "emotion": "glacial", "fonction": "menace", "texte": "Match retour. Chez moi. Le terrain en jeu."},
+        {"t": "5.2-7.1", "parle": "leo", "emotion": "à la caméra, moqueur", "fonction": "riposte", "texte": "Il a payé son club 800 millions."},
+        {"t": "7.4-9.6", "parle": "leo", "emotion": "complice, sourire en coin", "fonction": "promesse", "texte": "Moi, cent euros. On accepte ?"}
+      ],
+      "texte_ecran": "MATCH RETOUR ? ✅ / ❌"
+    }
+  ],
+  "titre_couverture": "Le club à 100 € bat les 800 millions",
+  "legende": "Mené 3-0, il fait entrer le ramasseur de balles… Le club acheté 100 € contre le club le plus riche du pays 🔥 Partie 3",
+  "hashtags": ["#foot", "#histoire", "#partie3", "#animaux", "#ia", "#football"],
+  "commentaire_epingle": "Match retour chez Victor, terrain en jeu : ils acceptent ? ✅ Oui, on y va / ❌ Non, c'est un piège",
+  "hooks_alternatifs": [
+    "Il m'a dit que les petits ramassent les balles. J'avais vingt minutes.",
+    "0-3. Le coach fait entrer le ramasseur de balles. Regardez.",
+    "Mon club a coûté cent euros. Le sien, 800 millions. Score final ?"
+  ]
+}

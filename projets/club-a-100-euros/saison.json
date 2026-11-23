@@ -1,0 +1,57 @@
+{
+  "_lisez_moi": "Saison 1 = la trilogie (épisodes 1 à 3, écrits). Épisodes 4 à 8 = suite prévue si la trilogie marche (match retour). Chaque épisode a un format différent.",
+  "saison": 1,
+  "enjeu": "Un club acheté 100 € peut-il battre le club à 800 millions, et garder son terrain que Victor convoite ?",
+  "episodes": [
+    {
+      "n": 1,
+      "format": "arrivée d'un nouveau",
+      "pitch": "Léo achète le club abandonné 100 €. Victor l'humilie (« Cent euros, c'est le prix d'une poubelle »). Léo retrouve Gérard, coach champion 98 devenu la mascotte de Victor, qui jette sa tête de lion et le rejoint. Cliff : match de Coupe demain contre le Royal, ils sont trois."
+    },
+    {
+      "n": 2,
+      "format": "course contre la montre",
+      "pitch": "18 h pour trouver 11 joueurs : un videur, des recrues improbables, et Enzo, le minus qui dort dans le stade. Victor pose un pari : 1 million contre le club. Le match tourne au massacre : 0-3. Cliff : Gérard fait entrer le ramasseur de balles."
+    },
+    {
+      "n": 3,
+      "format": "évènement public",
+      "pitch": "Enzo renverse le match : 1-3, 2-3 (Léo marque du nez), 3-3, 4-3 sur une action collective. Enzo rend à Victor sa phrase. Kicker : Victor révèle que le terrain vaut 30 millions et exige un match retour, terrain en jeu. Vote du public."
+    },
+    {
+      "n": 4,
+      "format": "flashback",
+      "pitch": "Finale 1998 : Gérard coach des Peupliers, Victor joueur adverse qui achète l'arbitre. Pourquoi Bernard a vendu 100 € à Léo et pas 5 millions à Victor."
+    },
+    {
+      "n": 5,
+      "format": "trahison ultime",
+      "pitch": "Victor propose 2 millions à Enzo pour rejoindre le Royal la veille du match retour. Enzo signe ?"
+    },
+    {
+      "n": 6,
+      "format": "POV vidéo d'un témoin",
+      "pitch": "Mathis filme en cachette Victor qui prépare le match retour truqué dans sa loge."
+    },
+    {
+      "n": 7,
+      "format": "procès / chez l'avocat",
+      "pitch": "Victor attaque : le contrat de vente à 100 € serait nul. Bernard sort un papier signé en 1998."
+    },
+    {
+      "n": 8,
+      "format": "test / mise à l'épreuve",
+      "pitch": "Match retour à la Royal Arena, 80 000 places, terrain en jeu. Finale de saison."
+    }
+  ],
+  "fils": [
+    {"id": "cent_euros", "statut": "ouvert", "texte": "Léo a acheté le FC Peupliers 100 € (l'argent du loyer de sa mère)"},
+    {"id": "gerard_mascotte", "statut": "ouvert", "texte": "Gérard, coach champion 98, était réduit à faire la mascotte « Royalou » de Victor"},
+    {"id": "match_demain", "statut": "ouvert", "texte": "Match de Coupe contre le Royal le lendemain 15 h, forfait = club dissous"},
+    {"id": "pari_million", "statut": "ouvert", "texte": "Pari : si les Peupliers perdent, le club va à Victor ; s'ils gagnent, Victor paie 1 million"},
+    {"id": "enzo_recale", "statut": "ouvert", "texte": "Enzo a été recalé à 12 ans par le centre du Royal : « trop petit »"},
+    {"id": "terrain_30m", "statut": "cache", "texte": "Le terrain des Peupliers vaut 30 millions : Victor veut y construire son Royal Mall"},
+    {"id": "finale_98", "statut": "cache", "texte": "La finale de 98 a été truquée par Victor, alors joueur adverse"},
+    {"id": "enzo_bernard", "statut": "cache", "texte": "Enzo est le petit-fils de Bernard : c'est pour lui qu'il a vendu à Léo"}
+  ]
+}

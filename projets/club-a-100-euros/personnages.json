@@ -1,0 +1,213 @@
+{
+  "_lisez_moi": "ADN = description copiée MOT POUR MOT dans chaque prompt image où le personnage apparaît. voix = copiée mot pour mot dans chaque prompt Grok. 10 personnages pour la trilogie, 6 maximum par épisode (les autres apparaissent en figurants ou hors champ).",
+  "style": "Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux.",
+  "personnages": [
+    {
+      "id": "leo",
+      "nom": "Léo",
+      "animal": "loutre",
+      "adn": "Léo, jeune loutre de 20 ans au pelage chocolat, mèche blonde décolorée en pétard qui dépasse d'une casquette rouge portée à l'envers, sparadrap blanc en travers du museau",
+      "tenues": {
+        "base": "sweat à capuche rouge délavé, jean troué aux genoux, baskets blanches usées",
+        "match": "maillot vert bouteille du FC Peupliers numéro 1 beaucoup trop grand, short noir, casquette rouge à l'envers"
+      },
+      "voix": "voix de jeune homme de 20 ans, énergique et gouailleuse, qui monte vite quand il s'emballe",
+      "caractere": "culotté, optimiste jusqu'à l'absurde, répond à chaque vanne par une meilleure",
+      "objectif": "faire revivre le club de son quartier et battre le Royal",
+      "secret": "les 100 € étaient l'argent du loyer de sa mère",
+      "tics": [
+        "fait tourner la grosse clé rouillée du stade sur son doigt",
+        "remonte sa casquette quand il prépare une vanne",
+        "parle à la caméra comme à un pote"
+      ],
+      "replique_fetiche": "Cent euros, frère. Cent.",
+      "ref": "refs/leo.png"
+    },
+    {
+      "id": "victor",
+      "nom": "Victor",
+      "animal": "lion",
+      "adn": "Victor, lion massif de 56 ans à la crinière blanche gominée en arrière, dent en or qui brille, grosse chevalière dorée en forme de couronne, lunettes fumées dorées",
+      "tenues": {
+        "base": "costume trois pièces blanc immaculé, chemise ouverte, mocassins dorés",
+        "tribune": "long manteau de fourrure synthétique doré sur le costume blanc, écharpe dorée « ROYAL OLYMPIQUE »"
+      },
+      "voix": "voix grave et traînante d'homme de 56 ans, rire gras, articule avec mépris",
+      "caractere": "milliardaire arrogant, humilie en public, mauvais perdant absolu",
+      "objectif": "récupérer le terrain des Peupliers pour y construire son « Royal Mall »",
+      "secret": "le terrain vaut 30 millions ; il a fait virer Gérard après la finale de 98",
+      "tics": [
+        "baisse ses lunettes fumées pour toiser",
+        "fait briller sa dent en or en souriant",
+        "sirote un jus d'orange avec une paille dorée"
+      ],
+      "replique_fetiche": "Chez moi, tout s'achète.",
+      "ref": "refs/victor.png"
+    },
+    {
+      "id": "mathis",
+      "nom": "Mathis",
+      "animal": "hippopotame",
+      "adn": "Mathis, hippopotame de 20 ans tout rond à la peau rose-gris, bonnet jaune vif, dents du bonheur, téléphone toujours à la main",
+      "tenues": {
+        "base": "doudoune orange sans manches sur un t-shirt blanc, short de sport gris",
+        "match": "maillot vert bouteille du FC Peupliers numéro 12 tendu sur le ventre, bonnet jaune vif"
+      },
+      "voix": "voix de jeune homme de 20 ans, grave mais qui part dans les aigus quand il panique",
+      "caractere": "meilleur pote froussard et loyal, filme tout, dit tout haut ce que pense le spectateur",
+      "objectif": "que Léo arrête de faire n'importe quoi (puis gagner avec lui)",
+      "secret": "il a posté la vidéo de l'humiliation qui a fait le tour de la ville",
+      "tics": [
+        "filme tout à bout de bras",
+        "mange des chips au pire moment",
+        "se cache derrière quelqu'un de plus petit que lui"
+      ],
+      "replique_fetiche": "Frère, on va mourir.",
+      "ref": "refs/mathis.png"
+    },
+    {
+      "id": "nathalie",
+      "nom": "Nathalie",
+      "animal": "loutre",
+      "adn": "Nathalie, loutre de 49 ans au pelage chocolat grisonnant, gros bigoudis roses sur la tête, lunettes rouges sur le bout du museau, paire de ciseaux de coiffeuse à la ceinture",
+      "tenues": {
+        "base": "blouse de coiffeuse rose bonbon, tablier noir à poches"
+      },
+      "voix": "voix de femme de 49 ans, forte et populaire, soupirs théâtraux",
+      "caractere": "mère coiffeuse, grande gueule au grand cœur, ne croit en rien mais vient à tous les matchs",
+      "objectif": "récupérer l'argent du loyer",
+      "secret": "elle était supportrice ultra des Peupliers en 98",
+      "tics": [
+        "claque des ciseaux quand elle s'énerve",
+        "remonte ses lunettes rouges d'un doigt",
+        "lève les yeux au ciel en soupirant"
+      ],
+      "replique_fetiche": "Mon fils, ce génie.",
+      "ref": "refs/nathalie.png"
+    },
+    {
+      "id": "bernard",
+      "nom": "Bernard",
+      "animal": "blaireau",
+      "adn": "Bernard, vieux blaireau de 75 ans au museau rayé noir et blanc, sourcils blancs broussailleux, béret noir, canne en bois au pommeau en forme de ballon",
+      "tenues": {
+        "base": "gilet en laine vert bouteille boutonné de travers, écharpe tricotée verte et blanche « FC PEUPLIERS »"
+      },
+      "voix": "voix chevrotante de vieil homme de 75 ans, lente et malicieuse",
+      "caractere": "ancien président fatigué, malin, a choisi son acheteur exprès",
+      "objectif": "que le club ne tombe jamais dans les pattes de Victor",
+      "secret": "il a refusé 5 millions de Victor ; Enzo est son petit-fils",
+      "tics": [
+        "tapote le sol avec sa canne-ballon",
+        "cligne d'un œil quand il cache quelque chose",
+        "chantonne l'hymne du club"
+      ],
+      "replique_fetiche": "Le club, ça se vend pas. Ça se donne.",
+      "ref": "refs/bernard.png"
+    },
+    {
+      "id": "gerard",
+      "nom": "Gérard",
+      "animal": "ours brun",
+      "adn": "Gérard, vieil ours brun massif de 66 ans, barbe grise taillée court, cicatrice sur l'arcade gauche, vieux sifflet chromé pendu au cou",
+      "tenues": {
+        "base": "costume intégral de mascotte lion doré du Royal Olympique, la grosse tête de mascotte souriante sous le bras",
+        "coach": "survêtement violet et vert années 90 brodé « FC PEUPLIERS », casquette délavée"
+      },
+      "voix": "voix rauque et profonde d'homme de 66 ans, lente, chaque mot pèse",
+      "caractere": "coach légendaire brisé, bourru, ne parle que quand c'est utile",
+      "objectif": "prendre sa revanche sur Victor",
+      "secret": "la finale de 98 a été truquée par Victor, alors joueur adverse",
+      "tics": [
+        "porte son sifflet à la bouche sans siffler",
+        "compte sur ses gros doigts",
+        "grogne avant de parler"
+      ],
+      "replique_fetiche": "On joue. Point.",
+      "ref": "refs/gerard.png"
+    },
+    {
+      "id": "enzo",
+      "nom": "Enzo",
+      "animal": "écureuil roux",
+      "adn": "Enzo, minuscule écureuil roux de 16 ans, énorme queue en panache, oreilles à houppettes, taches de rousseur, bandeau éponge jaune sur le front",
+      "tenues": {
+        "base": "vieux sweat vert trop grand qui lui arrive aux genoux, short noir, chaussettes dépareillées",
+        "ramasseur": "chasuble orange fluo « RAMASSEUR » par-dessus le maillot vert du FC Peupliers numéro 100 trop grand",
+        "match": "maillot vert bouteille du FC Peupliers numéro 100 trop grand, manches retroussées, crampons rafistolés au scotch"
+      },
+      "voix": "voix d'ado de 16 ans, timide et douce, puis tranchante et calme quand il est sûr de lui",
+      "caractere": "timide, invisible, génie du ballon que personne n'a jamais regardé",
+      "objectif": "prouver qu'il n'est pas « trop petit »",
+      "secret": "recalé à 12 ans par le centre du Royal ; dort dans le stade abandonné depuis deux ans",
+      "tics": [
+        "jongle avec une canette cabossée",
+        "baisse les yeux quand on lui parle",
+        "sa queue se hérisse quand il se met en colère"
+      ],
+      "replique_fetiche": "Regarde bien.",
+      "ref": "refs/enzo.png"
+    },
+    {
+      "id": "dylan",
+      "nom": "Dylan",
+      "animal": "taureau",
+      "adn": "Dylan, taureau noir colossal de 27 ans, anneau doré dans le nez, bandeau doré sur le front, cornes polies qui brillent",
+      "tenues": {
+        "base": "maillot doré à liseré blanc du Royal Olympique numéro 9, short blanc, crampons dorés"
+      },
+      "voix": "voix grave et arrogante d'homme de 27 ans, ricanements",
+      "caractere": "star arrogante du Royal, méprise les petits",
+      "objectif": "marquer 5 buts pour son contrat",
+      "secret": "il vient lui aussi d'un petit club de quartier",
+      "tics": [
+        "fait des pompes pour célébrer",
+        "souffle par les naseaux avant de charger",
+        "embrasse son anneau doré"
+      ],
+      "replique_fetiche": "Trop facile.",
+      "ref": "refs/dylan.png"
+    },
+    {
+      "id": "camille",
+      "nom": "Camille",
+      "animal": "pie",
+      "adn": "Camille, pie de 32 ans au plumage noir et blanc lustré à reflets bleu pétrole, grandes créoles argentées, micro rouge « BALLON TV » toujours au bout de l'aile",
+      "tenues": {
+        "base": "veste de tailleur rouge cintrée, pantalon noir, badge presse"
+      },
+      "voix": "voix de journaliste de 32 ans, rapide et survoltée, ton de commentatrice en direct",
+      "caractere": "commentatrice qui flaire le scoop, change de camp selon le score",
+      "objectif": "faire le buzz de l'année",
+      "secret": "elle a des images de la finale truquée de 98",
+      "tics": [
+        "colle son micro sous le museau de tout le monde",
+        "hurle les scores en articulant chaque syllabe",
+        "fait des clins d'œil à sa caméra"
+      ],
+      "replique_fetiche": "C'est historique !",
+      "ref": "refs/camille.png"
+    },
+    {
+      "id": "karim",
+      "nom": "Karim",
+      "animal": "gorille",
+      "adn": "Karim, gorille argenté colossal de 34 ans, lunettes de soleil noires même la nuit, oreillette de sécurité, tatouage de ballon sur l'avant-bras",
+      "tenues": {
+        "base": "costume noir de videur, brassard rouge « SÉCURITÉ »",
+        "match": "maillot vert bouteille du FC Peupliers numéro 4 trop moulant, brassard de capitaine"
+      },
+      "voix": "voix très grave et calme d'homme de 34 ans, parle peu, chaque phrase claque",
+      "caractere": "videur impassible, ancien défenseur qui a tout arrêté, muraille humaine",
+      "objectif": "rejouer une dernière fois",
+      "secret": "il jouait aux Peupliers chez les jeunes",
+      "tics": [
+        "baisse lentement ses lunettes",
+        "croise les bras",
+        "répond par un seul mot"
+      ],
+      "replique_fetiche": "Personne passe.",
+      "ref": "refs/karim.png"
+    }
+  ]
+}

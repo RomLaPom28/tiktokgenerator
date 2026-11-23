@@ -1,0 +1,399 @@
+{
+  "numero": 1,
+  "titre": "L'achat à 100 €",
+  "format": "arrivée d'un nouveau",
+  "accroche_type": "aveu",
+  "cliff_type": "choix impossible",
+  "centre": "leo",
+  "texte_accroche": "Il achète un club pour 100 €",
+  "question_milieu": {
+    "plan": 7,
+    "texte": "Le coach va dire oui ? 🤔"
+  },
+  "vote_question": "Ils jouent demain à trois ou ils déclarent forfait ?",
+  "fils_avances": ["cent_euros", "gerard_mascotte", "match_demain"],
+  "revele": [],
+  "reprend": "",
+  "moteur": {
+    "desir": "Léo veut faire revivre le club abandonné de son quartier avec ses 100 derniers euros.",
+    "injustice": "Victor, propriétaire du Royal Olympique (800 M€), jette un billet de 100 € dans une flaque devant lui et le traite de poubelle en public ; il a aussi réduit le coach champion 98 à danser en mascotte.",
+    "antagoniste": "Victor, lion milliardaire en costume blanc, dent en or, humilie tout le monde en public.",
+    "enjeu_chiffre": "100 € contre 800 M€ ; match demain 15 h ; il faut 11 joueurs, ils sont 3.",
+    "force_cachee": "Gérard, coach champion de France 98, caché sous un costume de mascotte ; et un minuscule écureuil qui jongle dans l'ombre des tribunes.",
+    "payoff": "Gérard arrache sa tête de mascotte, la jette aux pieds de Victor et lui renvoie sa phrase pour rejoindre Léo.",
+    "callback": "Cent euros, c'est le prix d'une poubelle",
+    "kicker": "Victor a déjà piégé le tirage : match de Coupe demain contre le Royal, forfait = club dissous, et ils ne sont que trois."
+  },
+  "resume": "Léo achète 100 € le Stade des Peupliers, abandonné depuis le titre de 98. Victor, patron du Royal à 800 millions, l'humilie en jetant un billet dans une flaque. Sa mère hurle (c'était le loyer). Dans le vestiaire en ruine, Léo découvre que le coach champion 98 est aujourd'hui la mascotte de Victor. Il va le chercher ; Victor humilie Gérard devant lui ; Gérard jette sa tête de mascotte et rejoint Léo. Mais Victor a un coup d'avance : match de Coupe demain contre le Royal.",
+  "fin": "Au stade de nuit, Gérard compte : Léo, lui, Mathis. Il en faut onze. Dans l'ombre de la tribune, un petit écureuil jongle avec une canette.",
+  "recettes_utilisees": [
+    "Aveu-prémisse à 0 s",
+    "Gros chiffre lisible à l'écran",
+    "Humilié → transformation",
+    "Témoin choqué après la réplique-choc",
+    "Moteur d'histoire : callback du méchant renvoyé contre lui"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "role": "accroche",
+      "duree": 6,
+      "lieu": "stade_ruine",
+      "lumiere": "matin",
+      "cadrage": "TGP",
+      "angle": "face",
+      "camera": "crash_zoom",
+      "persos": [
+        {"id": "leo", "jeu": "colle son museau à l'objectif, brandit une énorme clé rouillée, sourire jusqu'aux oreilles, yeux qui pétillent"}
+      ],
+      "detail_image": "derrière lui, le portail rouillé du stade abandonné et des tribunes envahies d'herbes folles",
+      "texte_decor": "une pancarte en carton clouée sur le portail : « CLUB À VENDRE · 100 € »",
+      "timeline": [
+        {"t": "0-2", "action": "Léo surgit devant l'objectif en brandissant la grosse clé rouillée", "camera": "crash_zoom", "son": "whoosh"},
+        {"t": "2-4", "action": "derrière lui, la pancarte « 100 € » se décroche et tombe", "camera": "secousse", "son": "clang métallique"},
+        {"t": "4-6", "action": "Léo fait tourner la clé sur son doigt et fait un clin d'œil", "son": "ding"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.4", "parle": "leo", "emotion": "fier, surexcité", "fonction": "aveu", "texte": "J'ai acheté un club de foot pour cent euros."},
+        {"t": "2.7-3.6", "parle": "mathis", "emotion": "s'étrangle, aigu", "fonction": "reaction", "texte": "CENT EUROS ?!", "hors_champ": true},
+        {"t": "3.9-5.8", "parle": "leo", "emotion": "sûr de lui, à la caméra", "fonction": "promesse", "texte": "Et un jour, il battra le Royal."}
+      ],
+      "texte_ecran": "100 €"
+    },
+    {
+      "n": 2,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "stade_ruine",
+      "lumiere": "matin",
+      "cadrage": "PE",
+      "angle": "plongee",
+      "camera": "travelling_arriere",
+      "persos": [
+        {"id": "bernard", "jeu": "tend une grosse clé rouillée d'une patte tremblante, sourire malicieux sous ses sourcils broussailleux"},
+        {"id": "leo", "jeu": "lui tend un billet de 100 € froissé en sautillant d'excitation"}
+      ],
+      "detail_image": "un pigeon s'envole d'un siège cassé, la pelouse est jaunie et pleine d'herbes hautes",
+      "timeline": [
+        {"t": "0-3", "action": "travelling arrière qui découvre tout le stade en ruine, un pigeon s'envole", "camera": "travelling_arriere", "son": "battement d'ailes"},
+        {"t": "3-6", "action": "Bernard pose la clé dans la patte de Léo, Léo lui glisse le billet", "camera": "whip_pan", "son": "clé qui tinte"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.6", "parle": "bernard", "emotion": "nostalgique, chevrotant", "fonction": "revelation", "texte": "Champion en 98. Abandonné depuis vingt ans."},
+        {"t": "2.9-4.0", "parle": "leo", "emotion": "enthousiaste", "fonction": "promesse", "texte": "Plus maintenant, papy !"},
+        {"t": "4.3-5.8", "parle": "bernard", "emotion": "à voix basse, clin d'œil", "fonction": "menace", "texte": "Méfie-toi du lion d'en face."}
+      ]
+    },
+    {
+      "n": 3,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "stade_ruine",
+      "lumiere": "matin",
+      "cadrage": "PA",
+      "angle": "contre_plongee",
+      "camera": "epaule",
+      "persos": [
+        {"id": "victor", "jeu": "descend d'une limousine dorée, baisse ses lunettes fumées, sourire méprisant, dent en or qui brille"},
+        {"id": "leo", "jeu": "face à lui, la grosse clé rouillée à la main, menton relevé"},
+        {"id": "mathis", "jeu": "derrière Léo, téléphone levé, filme la scène"}
+      ],
+      "detail_image": "une limousine dorée garée devant le portail rouillé, deux gardes du corps rhinocéros en costume noir",
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {"id": "leo", "jeu": "fixe un billet de 100 € qui flotte dans une flaque boueuse, mâchoire serrée, oreilles plaquées en arrière"},
+          {"id": "mathis", "jeu": "au second plan, mâchoire qui tombe, téléphone toujours levé"}
+        ],
+        "detail_image": "le billet froissé flotte dans la flaque au premier plan"
+      },
+      "timeline": [
+        {"t": "0-2", "action": "Victor descend de la limousine dorée et baisse ses lunettes", "son": "portière lourde qui claque"},
+        {"t": "2-4", "action": "Léo pointe du doigt la crinière gominée de Victor", "camera": "whip_pan"},
+        {"t": "4-7", "action": "Victor sort un billet de 100 €, le froisse et le jette dans une flaque aux pieds de Léo", "camera": "ralenti", "son": "splash"},
+        {"t": "7-10", "action": "Mathis reste bouche bée, Victor tourne les talons en riant", "camera": "crash_zoom", "son": "rire gras qui résonne"}
+      ],
+      "dialogues": [
+        {"t": "0.3-2.0", "parle": "victor", "emotion": "méprisant, traînant", "fonction": "attaque", "texte": "Cent euros pour ce dépotoir ?"},
+        {"t": "2.3-4.2", "parle": "leo", "emotion": "insolent, sourire en coin", "fonction": "riposte", "texte": "Moins cher que ton gel à crinière."},
+        {"t": "4.6-7.2", "parle": "victor", "emotion": "glacial, détache chaque mot", "fonction": "attaque", "texte": "Cent euros, c'est le prix d'une poubelle."},
+        {"t": "7.6-9.0", "parle": "mathis", "emotion": "sous le choc", "fonction": "reaction", "texte": "Il a pas osé…"}
+      ],
+      "texte_ecran": "800 M€ vs 100 €"
+    },
+    {
+      "n": 4,
+      "role": "temoin",
+      "duree": 6,
+      "lieu": "salon_coiffure",
+      "lumiere": "jour",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "whip_pan",
+      "persos": [
+        {"id": "nathalie", "jeu": "ciseaux levés, bigoudis de travers, regarde son téléphone puis Léo, outrée"},
+        {"id": "leo", "jeu": "devant elle, mains dans les poches, la grosse clé rouillée pendue à une ficelle autour du cou"}
+      ],
+      "detail_image": "trois clientes sous les casques sèche-cheveux regardent la vidéo de l'humiliation sur leurs téléphones",
+      "timeline": [
+        {"t": "0-2", "action": "Nathalie lâche ses ciseaux qui tombent sur le carrelage", "son": "clang"},
+        {"t": "2-4", "action": "Léo hausse les épaules, l'air buté", "camera": "whip_pan"},
+        {"t": "4-6", "action": "les clientes sous les casques éclatent de rire", "camera": "secousse", "son": "éclats de rire"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.2", "parle": "nathalie", "emotion": "outrée, voix qui monte", "fonction": "attaque", "texte": "Cent euros ? C'était le loyer, Léo !"},
+        {"t": "2.5-4.2", "parle": "leo", "emotion": "têtu", "fonction": "riposte", "texte": "Le loyer, c'est pas un rêve."},
+        {"t": "4.4-5.9", "parle": "nathalie", "emotion": "théâtrale", "fonction": "attaque", "texte": "Ton rêve a des rats !"}
+      ]
+    },
+    {
+      "n": 5,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "vestiaire",
+      "lumiere": "nuit_lampe",
+      "cadrage": "PE",
+      "angle": "debullee",
+      "camera": "travelling_avant",
+      "persos": [
+        {"id": "nathalie", "jeu": "se pince le museau, dégoûtée, recule devant une flaque"},
+        {"id": "mathis", "jeu": "caché derrière Nathalie, un pigeon posé sur son bonnet"},
+        {"id": "leo", "jeu": "au fond, souffle la poussière d'un vieux cadre photo, yeux écarquillés"}
+      ],
+      "texte_decor": "une photo d'équipe fanée dans un cadre fissuré : « FC PEUPLIERS · CHAMPION 1998 · COACH GÉRARD »",
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {"id": "leo", "jeu": "tient la photo face caméra, doigt pointé sur l'ours entraîneur de la photo, bouche ouverte"},
+          {"id": "mathis", "jeu": "penché par-dessus son épaule, yeux exorbités, téléphone à la main"}
+        ]
+      },
+      "timeline": [
+        {"t": "0-2", "action": "une douche explose et arrose Mathis", "camera": "secousse", "son": "jet d'eau"},
+        {"t": "2-5", "action": "Nathalie recule, dégoûtée, Léo souffle la poussière d'un cadre", "son": "souffle, poussière"},
+        {"t": "5-7", "action": "Léo retourne la photo vers eux", "camera": "crash_zoom", "son": "ding"},
+        {"t": "7-10", "action": "Mathis regarde la photo puis son téléphone, ses yeux s'exorbitent", "camera": "whip_pan"}
+      ],
+      "dialogues": [
+        {"t": "0.3-1.9", "parle": "nathalie", "emotion": "dégoûtée", "fonction": "attaque", "texte": "Ça sent le poisson mort !"},
+        {"t": "2.2-3.8", "parle": "leo", "emotion": "rêveur", "fonction": "riposte", "texte": "Non, ça sent la victoire."},
+        {"t": "4.1-5.3", "parle": "nathalie", "emotion": "sèche", "fonction": "attaque", "texte": "Non. C'est un poisson mort."},
+        {"t": "5.6-7.4", "parle": "leo", "emotion": "émerveillé", "fonction": "revelation", "texte": "Coach Gérard… champion en 98 !"},
+        {"t": "7.7-9.6", "parle": "mathis", "emotion": "paniqué, aigu", "fonction": "revelation", "texte": "Attends… c'est la mascotte du Royal !"}
+      ],
+      "texte_ecran": "LE COACH CHAMPION ?!"
+    },
+    {
+      "n": 6,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "parvis_royal",
+      "lumiere": "neon",
+      "cadrage": "PA",
+      "angle": "contre_plongee",
+      "camera": "orbite",
+      "persos": [
+        {"id": "gerard", "jeu": "danse mollement devant des enfants, la tête de mascotte sous le bras, sueur sur le front, regard éteint"},
+        {"id": "leo", "jeu": "arrive en courant, la photo d'équipe brandie à bout de bras"}
+      ],
+      "texte_decor": "écran géant sur la façade : « ROYAL OLYMPIQUE · BUDGET 800 M€ »",
+      "timeline": [
+        {"t": "0-3", "action": "Gérard fait une petite danse fatiguée devant des enfants", "camera": "orbite", "son": "trompette de supporters"},
+        {"t": "3-6", "action": "Léo lui brandit la photo sous le museau, Gérard se fige", "camera": "crash_zoom", "son": "grelot du costume"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.0", "parle": "leo", "emotion": "essoufflé, excité", "fonction": "revelation", "texte": "C'est vous, sur la photo !"},
+        {"t": "2.3-4.0", "parle": "gerard", "emotion": "grogne, à voix basse", "fonction": "riposte", "texte": "Chut. Ici, je m'appelle Royalou."},
+        {"t": "4.3-5.8", "parle": "leo", "emotion": "consterné", "fonction": "reaction", "texte": "Royalou ?!"}
+      ]
+    },
+    {
+      "n": 7,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "parvis_royal",
+      "lumiere": "neon",
+      "cadrage": "GP",
+      "angle": "profil",
+      "camera": "panoramique",
+      "persos": [
+        {"id": "gerard", "jeu": "voûté, tourne le dos à Léo, remet la tête de mascotte"},
+        {"id": "leo", "jeu": "le retient par le bras du costume, regard suppliant"}
+      ],
+      "timeline": [
+        {"t": "0-3", "action": "Gérard tourne le dos et soulève la tête de mascotte", "camera": "panoramique"},
+        {"t": "3-6", "action": "Léo le retient par le bras, Gérard s'arrête net", "camera": "crash_zoom", "son": "grelot du costume"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.5", "parle": "leo", "emotion": "piquant", "fonction": "attaque", "texte": "Vous dansez pour celui qui vous a viré ?"},
+        {"t": "2.8-4.0", "parle": "gerard", "emotion": "sec", "fonction": "riposte", "texte": "Il me paie, petit."},
+        {"t": "4.3-5.9", "parle": "leo", "emotion": "doux mais cinglant", "fonction": "attaque", "texte": "Non. Il vous humilie."}
+      ],
+      "texte_ecran": "Le coach va dire oui ? 🤔"
+    },
+    {
+      "n": 8,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "parvis_royal",
+      "lumiere": "neon",
+      "cadrage": "PE",
+      "angle": "plongee",
+      "camera": "travelling_lateral",
+      "persos": [
+        {"id": "victor", "jeu": "descend l'escalier au tapis rouge entouré de gardes du corps, pointe Gérard du doigt, rire gras"},
+        {"id": "gerard", "jeu": "baisse la tête et se remet à danser, humilié"},
+        {"id": "leo", "jeu": "à côté de Gérard, serre les poings"}
+      ],
+      "fin": {
+        "cadrage": "TGP",
+        "persos": [
+          {"id": "gerard", "jeu": "yeux humides qui se durcissent, mâchoire serrée, la cicatrice de l'arcade bien visible"}
+        ]
+      },
+      "timeline": [
+        {"t": "0-2", "action": "Victor descend l'escalier d'honneur sous les flashs", "son": "pas lourds, crépitement des flashs"},
+        {"t": "2-5", "action": "il claque des doigts vers Gérard qui recommence à danser", "camera": "whip_pan", "son": "claquement de doigts"},
+        {"t": "5-7", "action": "Victor tapote la joue de Léo avec mépris", "camera": "crash_zoom"},
+        {"t": "7-10", "action": "les yeux de Gérard s'embuent puis se durcissent", "camera": "travelling_avant", "son": "grondement sourd"}
+      ],
+      "dialogues": [
+        {"t": "0.3-2.6", "parle": "victor", "emotion": "méprisant, fort", "fonction": "attaque", "texte": "Royalou ! Je te paie pour danser."},
+        {"t": "2.9-4.7", "parle": "leo", "emotion": "furieux", "fonction": "riposte", "texte": "C'est un champion, pas un clown !"},
+        {"t": "5.0-7.4", "parle": "victor", "emotion": "goguenard", "fonction": "attaque", "texte": "Et toi, le roi de la poubelle."},
+        {"t": "7.8-9.4", "parle": "gerard", "emotion": "murmure, qui gronde", "fonction": "reaction", "texte": "Ça suffit… ça suffit."}
+      ]
+    },
+    {
+      "n": 9,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "parvis_royal",
+      "lumiere": "neon",
+      "cadrage": "AMORCE",
+      "angle": "face",
+      "camera": "choc",
+      "persos": [
+        {"id": "gerard", "jeu": "arrache sa tête de mascotte et la jette, se redresse de toute sa hauteur, regard de feu"},
+        {"id": "victor", "jeu": "en amorce de dos, flou au premier plan, recule d'un pas"}
+      ],
+      "fin": {
+        "cadrage": "GP",
+        "angle": "contre_plongee",
+        "persos": [
+          {"id": "victor", "jeu": "lunettes fumées qui glissent, mâchoire ouverte, dent en or visible, choqué"},
+          {"id": "gerard", "jeu": "au second plan, sifflet chromé brandi, le costume de mascotte à moitié enlevé"}
+        ],
+        "detail_image": "la tête de mascotte lion roule aux pieds de Victor"
+      },
+      "timeline": [
+        {"t": "0-2", "action": "Gérard arrache sa tête de mascotte", "camera": "choc", "son": "craquement de mousse"},
+        {"t": "2-4", "action": "il la jette aux pieds de Victor", "camera": "secousse", "son": "bong creux"},
+        {"t": "4-7", "action": "Victor recule avec un rire nerveux", "camera": "whip_pan"},
+        {"t": "7-10", "action": "Gérard ouvre le costume et sort son vieux sifflet chromé", "camera": "crash_zoom", "son": "tintement métallique"}
+      ],
+      "dialogues": [
+        {"t": "0.3-2.4", "parle": "gerard", "emotion": "grondement sourd", "fonction": "attaque", "texte": "Cent euros, c'est le prix d'une poubelle ?"},
+        {"t": "2.7-4.3", "parle": "gerard", "emotion": "rugit", "fonction": "promesse", "texte": "Alors j'entraîne la poubelle !"},
+        {"t": "4.6-6.6", "parle": "victor", "emotion": "rire jaune, menaçant", "fonction": "attaque", "texte": "Toi ? T'as perdu ta dernière finale !"},
+        {"t": "6.9-8.6", "parle": "gerard", "emotion": "calme, glaçant", "fonction": "riposte", "texte": "Contre toi. Et je m'en souviens."}
+      ],
+      "texte_ecran": "IL REVIENT 🔥"
+    },
+    {
+      "n": 10,
+      "role": "climax",
+      "duree": 6,
+      "lieu": "parvis_royal",
+      "lumiere": "neon",
+      "cadrage": "PR",
+      "angle": "contre_plongee",
+      "camera": "epaule",
+      "persos": [
+        {"id": "victor", "jeu": "se penche vers Léo, sourire de requin, glisse un papier plié dans la poche de son sweat"},
+        {"id": "leo", "jeu": "attrape le papier, sourcils froncés, méfiant"}
+      ],
+      "timeline": [
+        {"t": "0-3", "action": "Victor glisse un papier plié dans la poche du sweat de Léo", "son": "froissement de papier"},
+        {"t": "3-6", "action": "il s'éloigne en riant avec ses gardes du corps", "camera": "whip_pan", "son": "rire gras"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.0", "parle": "victor", "emotion": "sourire de requin", "fonction": "menace", "texte": "Parfait. On se voit demain."},
+        {"t": "2.3-3.5", "parle": "leo", "emotion": "méfiant", "fonction": "riposte", "texte": "Demain ? Où ça ?"},
+        {"t": "3.8-5.8", "parle": "victor", "emotion": "ravi", "fonction": "menace", "texte": "Lis ton tirage de Coupe, petit."}
+      ]
+    },
+    {
+      "n": 11,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "stade_ruine",
+      "lumiere": "nuit_lune",
+      "cadrage": "PT",
+      "angle": "face",
+      "camera": "fixe",
+      "persos": [
+        {"id": "gerard", "tenue": "coach", "jeu": "lit le papier à la lueur d'une lampe torche, sourcils froncés"},
+        {"id": "mathis", "jeu": "mange des chips, bonnet de travers"},
+        {"id": "leo", "jeu": "entre eux deux, la clé rouillée autour du cou, regard décidé"}
+      ],
+      "texte_decor": "sur le papier : « COUPE DU PAYS · FC PEUPLIERS – ROYAL OLYMPIQUE · DEMAIN 15 H »",
+      "timeline": [
+        {"t": "0-3", "action": "Gérard déplie le papier à la lampe torche", "son": "papier qui se déplie"},
+        {"t": "3-6", "action": "Mathis recrache ses chips", "camera": "crash_zoom", "son": "crunch"}
+      ],
+      "dialogues": [
+        {"t": "0.2-2.6", "parle": "gerard", "emotion": "grave", "fonction": "revelation", "texte": "Coupe du Pays. Demain 15 heures. Contre le Royal."},
+        {"t": "2.9-3.7", "parle": "mathis", "emotion": "s'étouffe", "fonction": "reaction", "texte": "QUOI ?!"},
+        {"t": "4.0-5.8", "parle": "leo", "emotion": "déterminé", "fonction": "promesse", "texte": "Alors on joue. Et on gagne."}
+      ]
+    },
+    {
+      "n": 12,
+      "role": "cliff",
+      "duree": 10,
+      "lieu": "stade_ruine",
+      "lumiere": "nuit_lune",
+      "cadrage": "GP",
+      "angle": "plongee",
+      "camera": "zoom_dramatique",
+      "persos": [
+        {"id": "gerard", "tenue": "coach", "jeu": "compte sur ses gros doigts, regard grave"},
+        {"id": "leo", "jeu": "bras croisés, sourire qui s'efface"},
+        {"id": "mathis", "jeu": "se montre lui-même du doigt, terrifié"}
+      ],
+      "fin": {
+        "cadrage": "PE",
+        "angle": "dos",
+        "persos": [
+          {"id": "leo", "jeu": "de dos au milieu du terrain en ruine, face à la tribune vide"},
+          {"id": "gerard", "tenue": "coach", "jeu": "de dos à côté de lui, sifflet à la main"}
+        ],
+        "detail_image": "tout en haut de la tribune, dans l'ombre, un minuscule écureuil roux en sweat trop grand jongle avec une canette sans la faire tomber"
+      },
+      "timeline": [
+        {"t": "0-3", "action": "Gérard compte sur ses gros doigts"},
+        {"t": "3-5", "action": "Mathis se montre lui-même du doigt, terrifié", "camera": "zoom_dramatique", "son": "note grave"},
+        {"t": "5-7", "action": "Léo se retourne vers le terrain en ruine", "camera": "travelling_arriere"},
+        {"t": "7-10", "action": "dans la tribune sombre, une canette tinte : un petit écureuil jongle dans l'ombre", "camera": "crash_zoom", "son": "tintement de canette"}
+      ],
+      "dialogues": [
+        {"t": "0.3-1.9", "parle": "leo", "emotion": "inquiet", "fonction": "reaction", "texte": "On a combien de joueurs ?"},
+        {"t": "2.2-4.0", "parle": "gerard", "emotion": "compte lentement", "fonction": "revelation", "texte": "Toi. Moi. Et lui."},
+        {"t": "4.3-5.4", "parle": "mathis", "emotion": "terrifié, aigu", "fonction": "reaction", "texte": "MOI ?!"},
+        {"t": "5.7-7.5", "parle": "gerard", "emotion": "grave", "fonction": "revelation", "texte": "Il en faut onze. Sinon, forfait."},
+        {"t": "7.8-9.6", "parle": "leo", "emotion": "regard vers la tribune", "fonction": "promesse", "texte": "Alors on trouve huit joueurs. Cette nuit."}
+      ],
+      "texte_ecran": "3 JOUEURS SUR 11… #PARTIE2"
+    }
+  ],
+  "titre_couverture": "Un club de foot pour 100 € ?!",
+  "legende": "Il a acheté un club de foot pour 100 €… et le patron le plus riche du pays s'est moqué de lui. Grosse erreur 😤 Partie 1",
+  "hashtags": ["#foot", "#histoire", "#partie1", "#animaux", "#ia", "#football"],
+  "commentaire_epingle": "Ils jouent demain à trois contre le Royal ? ⚽ Oui, on y va / 🏳️ Non, c'est perdu d'avance",
+  "hooks_alternatifs": [
+    "Il a jeté cent euros dans une flaque. C'était le prix de mon club.",
+    "Le coach champion 98 fait la mascotte de mon pire ennemi.",
+    "Cent euros, un stade en ruine, et demain on joue le Royal."
+  ]
+}

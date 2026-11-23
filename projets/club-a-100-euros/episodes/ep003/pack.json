@@ -1,0 +1,465 @@
+{
+  "id": "ep003",
+  "numero": 3,
+  "titre": "La remontée impossible",
+  "resume": "À 0-3, Enzo entre sous les moqueries de Victor. Il fait un petit pont à Dylan et marque (1-3). Victor panique, Léo marque du nez (2-3), Enzo égalise en retourné (3-3). Dernière action, tout le monde monte : 4-3. Enzo rend à Victor sa phrase. Victor refuse de payer et révèle que le terrain vaut 30 millions : match retour chez lui, terrain en jeu. Léo demande au public.",
+  "projet": "club-a-100-euros",
+  "projet_titre": "Le club à 100 €",
+  "type": "serie",
+  "portraits": [
+    {
+      "id": "leo",
+      "nom": "Léo",
+      "ref": "refs/leo.png",
+      "prompt": "Fiche de référence personnage : Léo, jeune loutre de 20 ans au pelage chocolat, mèche blonde décolorée en pétard qui dépasse d'une casquette rouge portée à l'envers, sparadrap blanc en travers du museau, sweat à capuche rouge délavé, jean troué aux genoux, baskets blanches usées. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (culotté, optimiste jusqu'à l'absurde, répond à chaque vanne par une meilleure), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "victor",
+      "nom": "Victor",
+      "ref": "refs/victor.png",
+      "prompt": "Fiche de référence personnage : Victor, lion massif de 56 ans à la crinière blanche gominée en arrière, dent en or qui brille, grosse chevalière dorée en forme de couronne, lunettes fumées dorées, costume trois pièces blanc immaculé, chemise ouverte, mocassins dorés. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (milliardaire arrogant, humilie en public, mauvais perdant absolu), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "gerard",
+      "nom": "Gérard",
+      "ref": "refs/gerard.png",
+      "prompt": "Fiche de référence personnage : Gérard, vieil ours brun massif de 66 ans, barbe grise taillée court, cicatrice sur l'arcade gauche, vieux sifflet chromé pendu au cou, costume intégral de mascotte lion doré du Royal Olympique, la grosse tête de mascotte souriante sous le bras. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (coach légendaire brisé, bourru, ne parle que quand c'est utile), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "enzo",
+      "nom": "Enzo",
+      "ref": "refs/enzo.png",
+      "prompt": "Fiche de référence personnage : Enzo, minuscule écureuil roux de 16 ans, énorme queue en panache, oreilles à houppettes, taches de rousseur, bandeau éponge jaune sur le front, vieux sweat vert trop grand qui lui arrive aux genoux, short noir, chaussettes dépareillées. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (timide, invisible, génie du ballon que personne n'a jamais regardé), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "dylan",
+      "nom": "Dylan",
+      "ref": "refs/dylan.png",
+      "prompt": "Fiche de référence personnage : Dylan, taureau noir colossal de 27 ans, anneau doré dans le nez, bandeau doré sur le front, cornes polies qui brillent, maillot doré à liseré blanc du Royal Olympique numéro 9, short blanc, crampons dorés. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (star arrogante du Royal, méprise les petits), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "camille",
+      "nom": "Camille",
+      "ref": "refs/camille.png",
+      "prompt": "Fiche de référence personnage : Camille, pie de 32 ans au plumage noir et blanc lustré à reflets bleu pétrole, grandes créoles argentées, micro rouge « BALLON TV » toujours au bout de l'aile, veste de tailleur rouge cintrée, pantalon noir, badge presse. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (commentatrice qui flaire le scoop, change de camp selon le score), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    }
+  ],
+  "ouverture": "Tu vas générer les images d'une vidéo. Toutes les images : format vertical 9:16, même style, mêmes personnages avec EXACTEMENT les mêmes visages, couleurs et accessoires d'une image à l'autre. Aucun sous-titre ni bulle ; le seul texte autorisé est celui que je décris dans le décor (tableau d'affichage, banderole, maillot), écrit sans faute.\n\nSTYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux.\n\nPERSONNAGES DE CET ÉPISODE (looks fixes) :\n- Léo, jeune loutre de 20 ans au pelage chocolat, mèche blonde décolorée en pétard qui dépasse d'une casquette rouge portée à l'envers, sparadrap blanc en travers du museau. Tenue : maillot vert bouteille du FC Peupliers numéro 1 beaucoup trop grand, short noir, casquette rouge à l'envers.\n- Victor, lion massif de 56 ans à la crinière blanche gominée en arrière, dent en or qui brille, grosse chevalière dorée en forme de couronne, lunettes fumées dorées. Tenue : long manteau de fourrure synthétique doré sur le costume blanc, écharpe dorée « ROYAL OLYMPIQUE ».\n- Gérard, vieil ours brun massif de 66 ans, barbe grise taillée court, cicatrice sur l'arcade gauche, vieux sifflet chromé pendu au cou. Tenue : survêtement violet et vert années 90 brodé « FC PEUPLIERS », casquette délavée.\n- Enzo, minuscule écureuil roux de 16 ans, énorme queue en panache, oreilles à houppettes, taches de rousseur, bandeau éponge jaune sur le front. Tenue : maillot vert bouteille du FC Peupliers numéro 100 trop grand, manches retroussées, crampons rafistolés au scotch.\n- Dylan, taureau noir colossal de 27 ans, anneau doré dans le nez, bandeau doré sur le front, cornes polies qui brillent. Tenue : maillot doré à liseré blanc du Royal Olympique numéro 9, short blanc, crampons dorés.\n- Camille, pie de 32 ans au plumage noir et blanc lustré à reflets bleu pétrole, grandes créoles argentées, micro rouge « BALLON TV » toujours au bout de l'aile. Tenue : veste de tailleur rouge cintrée, pantalon noir, badge presse.\n\nSi je joins des images de référence, ce sont ces personnages : respecte-les à la lettre.\nJe vais t'envoyer \"Image 1 : …\", \"Image 2 : …\". Pour chaque message, génère uniquement l'image demandée, sans commentaire. Réponds juste OK à ce message.",
+  "refs": [
+    "refs/enzo.png",
+    "refs/camille.png",
+    "refs/leo.png",
+    "refs/dylan.png",
+    "refs/victor.png",
+    "refs/gerard.png"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "duree": 6,
+      "role": "accroche",
+      "titre": "Pelouse le jour du match · TGP",
+      "dialogues": [
+        {
+          "t": "0.2-1.9",
+          "qui": "Victor",
+          "texte": "Les petits, ça ramasse les balles !"
+        },
+        {
+          "t": "2.2-3.9",
+          "qui": "Enzo",
+          "texte": "Vingt minutes. Quatre buts."
+        },
+        {
+          "t": "4.2-5.8",
+          "qui": "Enzo",
+          "texte": "Il va le regretter."
+        }
+      ],
+      "replique": "Les petits, ça ramasse les balles ! Vingt minutes. Quatre buts. Il va le regretter.",
+      "parle": "victor",
+      "texte_ecran": "0-3 · 20 MIN",
+      "image": "Image 1 : très gros plan sur le visage, les yeux remplissent le cadre, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : pelouse du Stade des Peupliers le jour du match, vue depuis le terrain : tribunes rafistolées pleines à craquer, supporters animaux en vert d'un côté et en doré de l'autre, fumigènes verts, tableau d'affichage en carton bricolé à la main, joueurs dorés immenses du Royal Olympique face à une équipe verte dépareillée. Lumière : lumière naturelle de jour, ombres nettes. Enzo, minuscule écureuil roux de 16 ans, énorme queue en panache, oreilles à houppettes, taches de rousseur, bandeau éponge jaune sur le front, maillot vert bouteille du FC Peupliers numéro 100 trop grand, manches retroussées, crampons rafistolés au scotch : sur la ligne de touche, minuscule, regard glacial fixé vers un trône doré dans la tribune, queue en panache hérissée. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : tableau d'affichage en carton bricolé : « PEUPLIERS 0 – 3 ROYAL ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Enzo fixe le trône doré, immobile. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : rires de la foule dorée.\n[0.2-1.9s] VICTOR (hors champ) (voix grave et traînante d'homme de 56 ans, rire gras, articule avec mépris, hurle de rire au mégaphone) dit en français : « Les petits, ça ramasse les balles ! »\n[2-4s] Il serre les poings, sa queue en panache se hérisse. Bruitage : whoosh.\n[2.2-3.9s] ENZO (voix d'ado de 16 ans, timide et douce, puis tranchante et calme quand il est sûr de lui, très calme, à la caméra) dit en français : « Vingt minutes. Quatre buts. »\n[4-6s] Il entre sur la pelouse d'un pas décidé. Caméra : travelling arrière qui révèle le décor. Bruitage : crampons sur l'herbe.\n[4.2-5.8s] ENZO (voix d'ado de 16 ans, timide et douce, puis tranchante et calme quand il est sûr de lui, sourire en coin) dit en français : « Il va le regretter. »\nAmbiance sonore : foule qui gronde, tambours, coups de sifflet de l'arbitre, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 2,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Banc de touche des Peupliers · PR",
+      "dialogues": [
+        {
+          "t": "0.2-2.6",
+          "qui": "Camille",
+          "texte": "Le club acheté cent euros est mené trois-zéro !"
+        },
+        {
+          "t": "2.9-4.1",
+          "qui": "Léo",
+          "texte": "Pas pour longtemps !"
+        },
+        {
+          "t": "4.4-5.9",
+          "qui": "Camille",
+          "texte": "Ils font entrer le ramasseur ?!"
+        }
+      ],
+      "replique": "Le club acheté cent euros est mené trois-zéro ! Pas pour longtemps ! Ils font entrer le ramasseur ?!",
+      "parle": "camille",
+      "texte_ecran": "",
+      "image": "Image 2 : plan rapproché, de la tête à la poitrine, caméra à hauteur des yeux. Décor : banc de touche du FC Peupliers : vieux banc en bois sous un parasol troué, glacière, sac de ballons, seau d'eau, tableau tactique griffonné, ligne de touche blanche, tribune pleine derrière. Lumière : lumière naturelle de jour, ombres nettes. Camille, pie de 32 ans au plumage noir et blanc lustré à reflets bleu pétrole, grandes créoles argentées, micro rouge « BALLON TV » toujours au bout de l'aile, veste de tailleur rouge cintrée, pantalon noir, badge presse : au bord du terrain, micro rouge collé au bec, surexcitée, face caméra. Léo, jeune loutre de 20 ans au pelage chocolat, mèche blonde décolorée en pétard qui dépasse d'une casquette rouge portée à l'envers, sparadrap blanc en travers du museau, maillot vert bouteille du FC Peupliers numéro 1 beaucoup trop grand, short noir, casquette rouge à l'envers : derrière elle, en sueur, lève le pouce vers la caméra. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Camille commente face caméra, micro rouge au bec. Caméra : caméra à l'épaule, légèrement nerveuse. Bruitage : foule qui siffle.\n[0.2-2.6s] CAMILLE (voix de journaliste de 32 ans, rapide et survoltée, ton de commentatrice en direct, commentatrice survoltée) dit en français : « Le club acheté cent euros est mené trois-zéro ! »\n[2.9-4.1s] LÉO (voix de jeune homme de 20 ans, énergique et gouailleuse, qui monte vite quand il s'emballe, essoufflé, à la caméra) dit en français : « Pas pour longtemps ! »\n[3-6s] Léo surgit dans le cadre derrière elle et lève le pouce. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : whoosh.\n[4.4-5.9s] CAMILLE (voix de journaliste de 32 ans, rapide et survoltée, ton de commentatrice en direct, incrédule) dit en français : « Ils font entrer le ramasseur ?! »\nAmbiance sonore : cris du public, coups de sifflet, consignes criées, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 3,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Pelouse le jour du match · PA",
+      "dialogues": [
+        {
+          "t": "0.3-2.6",
+          "qui": "Dylan",
+          "texte": "T'es perdu ? Les ballons, c'est derrière les cages."
+        },
+        {
+          "t": "2.9-4.5",
+          "qui": "Enzo",
+          "texte": "Je sais. Va les chercher."
+        },
+        {
+          "t": "4.8-6.0",
+          "qui": "Dylan",
+          "texte": "Pousse-toi, minus !"
+        },
+        {
+          "t": "6.4-7.4",
+          "qui": "Camille",
+          "texte": "PETIT PONT !"
+        },
+        {
+          "t": "7.8-9.4",
+          "qui": "Dylan",
+          "texte": "Il est passé où ?"
+        }
+      ],
+      "replique": "T'es perdu ? Les ballons, c'est derrière les cages. Je sais. Va les chercher. Pousse-toi, minus ! PETIT PONT ! Il est passé où ?",
+      "parle": "dylan",
+      "texte_ecran": "",
+      "image": "Image 3 : plan américain, de la tête aux genoux, caméra à hauteur des yeux. Décor : pelouse du Stade des Peupliers le jour du match, vue depuis le terrain : tribunes rafistolées pleines à craquer, supporters animaux en vert d'un côté et en doré de l'autre, fumigènes verts, tableau d'affichage en carton bricolé à la main, joueurs dorés immenses du Royal Olympique face à une équipe verte dépareillée. Lumière : lumière naturelle de jour, ombres nettes. Dylan, taureau noir colossal de 27 ans, anneau doré dans le nez, bandeau doré sur le front, cornes polies qui brillent, maillot doré à liseré blanc du Royal Olympique numéro 9, short blanc, crampons dorés : immense, se penche au-dessus d'Enzo avec un rictus, cornes qui brillent. Enzo, minuscule écureuil roux de 16 ans, énorme queue en panache, oreilles à houppettes, taches de rousseur, bandeau éponge jaune sur le front, maillot vert bouteille du FC Peupliers numéro 100 trop grand, manches retroussées, crampons rafistolés au scotch : lève les yeux vers lui, pied posé sur le ballon, parfaitement calme. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 3 FIN (dernière image du plan, quelques secondes plus tard) : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en plongée, au-dessus, qui écrase le personnage. Décor : pelouse du Stade des Peupliers le jour du match, vue depuis le terrain : tribunes rafistolées pleines à craquer, supporters animaux en vert d'un côté et en doré de l'autre, fumigènes verts, tableau d'affichage en carton bricolé à la main, joueurs dorés immenses du Royal Olympique face à une équipe verte dépareillée. Lumière : lumière naturelle de jour, ombres nettes. Dylan, taureau noir colossal de 27 ans, anneau doré dans le nez, bandeau doré sur le front, cornes polies qui brillent, maillot doré à liseré blanc du Royal Olympique numéro 9, short blanc, crampons dorés : assis par terre sur la pelouse, cornes de travers, l'air hébété. Enzo, minuscule écureuil roux de 16 ans, énorme queue en panache, oreilles à houppettes, taches de rousseur, bandeau éponge jaune sur le front, maillot vert bouteille du FC Peupliers numéro 100 trop grand, manches retroussées, crampons rafistolés au scotch : file au loin avec le ballon après un petit pont. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Dylan se penche au-dessus d'Enzo en ricanant. Caméra : caméra qui court au ras du sol avec le personnage. Bruitage : souffle des naseaux.\n[0.3-2.6s] DYLAN (voix grave et arrogante d'homme de 27 ans, ricanements, ricane) dit en français : « T'es perdu ? Les ballons, c'est derrière les cages. »\n[2.9-4.5s] ENZO (voix d'ado de 16 ans, timide et douce, puis tranchante et calme quand il est sûr de lui, doux, presque poli) dit en français : « Je sais. Va les chercher. »\n[3-5s] Enzo pose tranquillement le pied sur le ballon.\n[4.8-6.0s] DYLAN (voix grave et arrogante d'homme de 27 ans, ricanements, charge en soufflant) dit en français : « Pousse-toi, minus ! »\n[5-7s] Dylan charge, Enzo glisse le ballon entre ses jambes. Caméra : ralenti dramatique d'une seconde puis reprise à vitesse normale. Bruitage : whoosh.\n[6.4-7.4s] CAMILLE (hors champ) (voix de journaliste de 32 ans, rapide et survoltée, ton de commentatrice en direct, hurle) dit en français : « PETIT PONT ! »\n[7-10s] Dylan tombe sur le derrière, Enzo file. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : boum sourd, la foule hurle.\n[7.8-9.4s] DYLAN (voix grave et arrogante d'homme de 27 ans, ricanements, assis par terre, hébété) dit en français : « Il est passé où ? »\nAmbiance sonore : foule qui gronde, tambours, coups de sifflet de l'arbitre, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 4,
+      "duree": 6,
+      "role": "retournement",
+      "titre": "Pelouse le jour du match · PE",
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "qui": "Camille",
+          "texte": "BUT ! Le numéro 100 marque !"
+        },
+        {
+          "t": "2.3-3.9",
+          "qui": "Victor",
+          "texte": "Un coup de chance !"
+        },
+        {
+          "t": "4.2-5.8",
+          "qui": "Enzo",
+          "texte": "Et de un, Victor !"
+        }
+      ],
+      "replique": "BUT ! Le numéro 100 marque ! Un coup de chance ! Et de un, Victor !",
+      "parle": "camille",
+      "texte_ecran": "1-3",
+      "image": "Image 4 : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en plongée, au-dessus, qui écrase le personnage. Décor : pelouse du Stade des Peupliers le jour du match, vue depuis le terrain : tribunes rafistolées pleines à craquer, supporters animaux en vert d'un côté et en doré de l'autre, fumigènes verts, tableau d'affichage en carton bricolé à la main, joueurs dorés immenses du Royal Olympique face à une équipe verte dépareillée. Lumière : lumière naturelle de jour, ombres nettes. Enzo, minuscule écureuil roux de 16 ans, énorme queue en panache, oreilles à houppettes, taches de rousseur, bandeau éponge jaune sur le front, maillot vert bouteille du FC Peupliers numéro 100 trop grand, manches retroussées, crampons rafistolés au scotch : en pleine course, s'envole pour frapper, queue en panache déployée. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : tableau d'affichage en carton bricolé : « PEUPLIERS 1 – 3 ROYAL ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Enzo envoie le ballon en pleine lucarne. Caméra : plan aérien qui plonge vers la scène. Bruitage : filet qui claque.\n[0.2-2.0s] CAMILLE (hors champ) (voix de journaliste de 32 ans, rapide et survoltée, ton de commentatrice en direct, hurle) dit en français : « BUT ! Le numéro 100 marque ! »\n[2-4s] Le zéro du tableau bricolé est remplacé par un 1. Bruitage : carton qui claque.\n[2.3-3.9s] VICTOR (hors champ) (voix grave et traînante d'homme de 56 ans, rire gras, articule avec mépris, rire jaune) dit en français : « Un coup de chance ! »\n[4-6s] Enzo court vers le trône doré en pointant Victor. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : la foule explose.\n[4.2-5.8s] ENZO (voix d'ado de 16 ans, timide et douce, puis tranchante et calme quand il est sûr de lui, en courant, pointe le trône) dit en français : « Et de un, Victor ! »\nAmbiance sonore : foule qui gronde, tambours, coups de sifflet de l'arbitre, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 5,
+      "duree": 6,
+      "role": "temoin",
+      "titre": "Trône de Victor en tribune · GP",
+      "dialogues": [
+        {
+          "t": "0.2-2.2",
+          "qui": "Victor",
+          "texte": "Mettez-vous à trois sur le petit !"
+        },
+        {
+          "t": "2.5-4.0",
+          "qui": "Gérard",
+          "texte": "À trois ? Il adore ça."
+        },
+        {
+          "t": "4.3-5.8",
+          "qui": "Victor",
+          "texte": "Il adore QUOI ?!"
+        }
+      ],
+      "replique": "Mettez-vous à trois sur le petit ! À trois ? Il adore ça. Il adore QUOI ?!",
+      "parle": "victor",
+      "texte_ecran": "",
+      "image": "Image 5 : gros plan sur le visage et le haut des épaules, cadre légèrement penché pour le malaise. Décor : dans la vieille tribune du Stade des Peupliers, un trône doré géant posé sur un tapis rouge, gardes du corps rhinocéros en costume noir, ventilateur doré, verre de jus d'orange à paille dorée, supporters du Royal en écharpes dorées tout autour. Lumière : lumière naturelle de jour, ombres nettes. Victor, lion massif de 56 ans à la crinière blanche gominée en arrière, dent en or qui brille, grosse chevalière dorée en forme de couronne, lunettes fumées dorées, long manteau de fourrure synthétique doré sur le costume blanc, écharpe dorée « ROYAL OLYMPIQUE » : se lève d'un bond de son trône, jus d'orange renversé sur son costume blanc, crinière décoiffée. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Victor bondit, son jus d'orange se renverse sur son costume blanc. Caméra : caméra fixe avec une secousse brève au moment de l'impact. Bruitage : splash.\n[0.2-2.2s] VICTOR (voix grave et traînante d'homme de 56 ans, rire gras, articule avec mépris, hurle à ses joueurs) dit en français : « Mettez-vous à trois sur le petit ! »\n[2.5-4.0s] GÉRARD (hors champ) (voix rauque et profonde d'homme de 66 ans, lente, chaque mot pèse, ironique, de loin) dit en français : « À trois ? Il adore ça. »\n[3-6s] Il arrache ses lunettes fumées, crinière ébouriffée. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : rugissement étouffé.\n[4.3-5.8s] VICTOR (voix grave et traînante d'homme de 56 ans, rire gras, articule avec mépris, s'étrangle) dit en français : « Il adore QUOI ?! »\nAmbiance sonore : foule, trompettes de supporters, cris, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 6,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Pelouse le jour du match · PT",
+      "dialogues": [
+        {
+          "t": "0.3-1.6",
+          "qui": "Enzo",
+          "texte": "Léo ! À toi !"
+        },
+        {
+          "t": "1.9-2.8",
+          "qui": "Léo",
+          "texte": "Quoi ?!"
+        },
+        {
+          "t": "4.2-6.2",
+          "qui": "Camille",
+          "texte": "But du président… avec le nez !"
+        },
+        {
+          "t": "6.6-8.0",
+          "qui": "Léo",
+          "texte": "C'était voulu !"
+        },
+        {
+          "t": "8.3-9.7",
+          "qui": "Mathis",
+          "texte": "Mais bien sûr…"
+        }
+      ],
+      "replique": "Léo ! À toi ! Quoi ?! But du président… avec le nez ! C'était voulu ! Mais bien sûr…",
+      "parle": "enzo",
+      "texte_ecran": "2-3 😂 · Ils peuvent vraiment remonter ? 😳",
+      "image": "Image 6 : plan taille, caméra à hauteur des yeux. Décor : pelouse du Stade des Peupliers le jour du match, vue depuis le terrain : tribunes rafistolées pleines à craquer, supporters animaux en vert d'un côté et en doré de l'autre, fumigènes verts, tableau d'affichage en carton bricolé à la main, joueurs dorés immenses du Royal Olympique face à une équipe verte dépareillée. Lumière : lumière naturelle de jour, ombres nettes. Enzo, minuscule écureuil roux de 16 ans, énorme queue en panache, oreilles à houppettes, taches de rousseur, bandeau éponge jaune sur le front, maillot vert bouteille du FC Peupliers numéro 100 trop grand, manches retroussées, crampons rafistolés au scotch : attire trois défenseurs dorés sur lui, sourire malicieux. Léo, jeune loutre de 20 ans au pelage chocolat, mèche blonde décolorée en pétard qui dépasse d'une casquette rouge portée à l'envers, sparadrap blanc en travers du museau, maillot vert bouteille du FC Peupliers numéro 1 beaucoup trop grand, short noir, casquette rouge à l'envers : seul au second poteau, distrait, se gratte la tête. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 6 FIN (dernière image du plan, quelques secondes plus tard) : gros plan sur le visage et le haut des épaules, caméra à hauteur des yeux. Décor : pelouse du Stade des Peupliers le jour du match, vue depuis le terrain : tribunes rafistolées pleines à craquer, supporters animaux en vert d'un côté et en doré de l'autre, fumigènes verts, tableau d'affichage en carton bricolé à la main, joueurs dorés immenses du Royal Olympique face à une équipe verte dépareillée. Lumière : lumière naturelle de jour, ombres nettes. Léo, jeune loutre de 20 ans au pelage chocolat, mèche blonde décolorée en pétard qui dépasse d'une casquette rouge portée à l'envers, sparadrap blanc en travers du museau, maillot vert bouteille du FC Peupliers numéro 1 beaucoup trop grand, short noir, casquette rouge à l'envers : allongé dans les filets, le ballon au fond, nez rouge écrasé, sourire béat. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Enzo attire trois défenseurs dorés et les dribble. Caméra : travelling latéral qui suit le personnage. Bruitage : crampons.\n[0.3-1.6s] ENZO (voix d'ado de 16 ans, timide et douce, puis tranchante et calme quand il est sûr de lui, crie) dit en français : « Léo ! À toi ! »\n[1.9-2.8s] LÉO (voix de jeune homme de 20 ans, énergique et gouailleuse, qui monte vite quand il s'emballe, paniqué) dit en français : « Quoi ?! »\n[2-4s] Il centre, le ballon rebondit sur le nez de Léo. Caméra : ralenti dramatique d'une seconde puis reprise à vitesse normale. Bruitage : boing.\n[4-7s] Le ballon roule au fond des filets. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : filet.\n[4.2-6.2s] CAMILLE (hors champ) (voix de journaliste de 32 ans, rapide et survoltée, ton de commentatrice en direct, hurle, hilare) dit en français : « But du président… avec le nez ! »\n[6.6-8.0s] LÉO (voix de jeune homme de 20 ans, énergique et gouailleuse, qui monte vite quand il s'emballe, relève la tête, fier) dit en français : « C'était voulu ! »\n[7-10s] Léo se relève, nez rouge, et fait semblant d'avoir tout prévu. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : la foule explose de rire.\n[8.3-9.7s] MATHIS (hors champ) (voix de jeune homme de 20 ans, grave mais qui part dans les aigus quand il panique, blasé) dit en français : « Mais bien sûr… »\nAmbiance sonore : foule qui gronde, tambours, coups de sifflet de l'arbitre, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 7,
+      "duree": 10,
+      "role": "retournement",
+      "titre": "Pelouse le jour du match · PE",
+      "dialogues": [
+        {
+          "t": "0.3-2.0",
+          "qui": "Dylan",
+          "texte": "Cette fois, tu passes pas !"
+        },
+        {
+          "t": "2.3-3.5",
+          "qui": "Enzo",
+          "texte": "Je passe au-dessus."
+        },
+        {
+          "t": "4.0-6.2",
+          "qui": "Camille",
+          "texte": "TROIS-TROIS ! Le stade explose !"
+        },
+        {
+          "t": "6.6-8.4",
+          "qui": "Dylan",
+          "texte": "C'est… c'est impossible…"
+        },
+        {
+          "t": "8.7-9.8",
+          "qui": "Victor",
+          "texte": "NON !"
+        }
+      ],
+      "replique": "Cette fois, tu passes pas ! Je passe au-dessus. TROIS-TROIS ! Le stade explose ! C'est… c'est impossible… NON !",
+      "parle": "dylan",
+      "texte_ecran": "3-3 🤯",
+      "image": "Image 7 : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : pelouse du Stade des Peupliers le jour du match, vue depuis le terrain : tribunes rafistolées pleines à craquer, supporters animaux en vert d'un côté et en doré de l'autre, fumigènes verts, tableau d'affichage en carton bricolé à la main, joueurs dorés immenses du Royal Olympique face à une équipe verte dépareillée. Lumière : lumière naturelle de jour, ombres nettes. Enzo, minuscule écureuil roux de 16 ans, énorme queue en panache, oreilles à houppettes, taches de rousseur, bandeau éponge jaune sur le front, maillot vert bouteille du FC Peupliers numéro 100 trop grand, manches retroussées, crampons rafistolés au scotch : s'élève dans les airs à l'horizontale pour un retourné acrobatique, queue en panache comme une voile. Dylan, taureau noir colossal de 27 ans, anneau doré dans le nez, bandeau doré sur le front, cornes polies qui brillent, maillot doré à liseré blanc du Royal Olympique numéro 9, short blanc, crampons dorés : saute trop tard, cornes en avant, yeux exorbités. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 7 FIN (dernière image du plan, quelques secondes plus tard) : très gros plan sur le visage, les yeux remplissent le cadre, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : pelouse du Stade des Peupliers le jour du match, vue depuis le terrain : tribunes rafistolées pleines à craquer, supporters animaux en vert d'un côté et en doré de l'autre, fumigènes verts, tableau d'affichage en carton bricolé à la main, joueurs dorés immenses du Royal Olympique face à une équipe verte dépareillée. Lumière : lumière naturelle de jour, ombres nettes. Dylan, taureau noir colossal de 27 ans, anneau doré dans le nez, bandeau doré sur le front, cornes polies qui brillent, maillot doré à liseré blanc du Royal Olympique numéro 9, short blanc, crampons dorés : à genoux, bouche ouverte, anneau doré du nez qui tremble. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Dylan fonce sur Enzo. Bruitage : galop lourd.\n[0.3-2.0s] DYLAN (voix grave et arrogante d'homme de 27 ans, ricanements, rugit) dit en français : « Cette fois, tu passes pas ! »\n[2-4s] Enzo s'envole en retourné acrobatique. Caméra : ralenti dramatique d'une seconde puis reprise à vitesse normale. Bruitage : whoosh.\n[2.3-3.5s] ENZO (voix d'ado de 16 ans, timide et douce, puis tranchante et calme quand il est sûr de lui, en l'air, calme) dit en français : « Je passe au-dessus. »\n[4-7s] Le ballon file en pleine lucarne. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : filet qui claque, la foule explose.\n[4.0-6.2s] CAMILLE (hors champ) (voix de journaliste de 32 ans, rapide et survoltée, ton de commentatrice en direct, hurle à s'en casser la voix) dit en français : « TROIS-TROIS ! Le stade explose ! »\n[6.6-8.4s] DYLAN (voix grave et arrogante d'homme de 27 ans, ricanements, à genoux, sonné) dit en français : « C'est… c'est impossible… »\n[7-10s] Dylan tombe à genoux. Caméra : zoom éclair sur le visage au moment de la réplique-choc.\n[8.7-9.8s] VICTOR (hors champ) (voix grave et traînante d'homme de 56 ans, rire gras, articule avec mépris, hurle) dit en français : « NON ! »\nAmbiance sonore : foule qui gronde, tambours, coups de sifflet de l'arbitre, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 8,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Banc de touche des Peupliers · GP",
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "qui": "Gérard",
+          "texte": "Dernière action. Tout le monde monte."
+        },
+        {
+          "t": "2.3-3.4",
+          "qui": "Léo",
+          "texte": "Même le gardien ?"
+        },
+        {
+          "t": "3.7-5.6",
+          "qui": "Gérard",
+          "texte": "Même Nathalie, si elle veut."
+        }
+      ],
+      "replique": "Dernière action. Tout le monde monte. Même le gardien ? Même Nathalie, si elle veut.",
+      "parle": "gerard",
+      "texte_ecran": "",
+      "image": "Image 8 : gros plan sur le visage et le haut des épaules, caméra à hauteur des yeux. Décor : banc de touche du FC Peupliers : vieux banc en bois sous un parasol troué, glacière, sac de ballons, seau d'eau, tableau tactique griffonné, ligne de touche blanche, tribune pleine derrière. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Gérard, vieil ours brun massif de 66 ans, barbe grise taillée court, cicatrice sur l'arcade gauche, vieux sifflet chromé pendu au cou, survêtement violet et vert années 90 brodé « FC PEUPLIERS », casquette délavée : debout sur la ligne de touche, sifflet aux lèvres, regard de général. Léo, jeune loutre de 20 ans au pelage chocolat, mèche blonde décolorée en pétard qui dépasse d'une casquette rouge portée à l'envers, sparadrap blanc en travers du museau, maillot vert bouteille du FC Peupliers numéro 1 beaucoup trop grand, short noir, casquette rouge à l'envers : à côté de lui, essoufflé, nez encore rouge. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : panneau lumineux du quatrième arbitre levé : « 90+4 ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Gérard lève le bras, toute l'équipe verte part vers l'avant. Caméra : lent travelling avant vers le visage. Bruitage : coup de sifflet.\n[0.2-2.0s] GÉRARD (voix rauque et profonde d'homme de 66 ans, lente, chaque mot pèse, grave) dit en français : « Dernière action. Tout le monde monte. »\n[2.3-3.4s] LÉO (voix de jeune homme de 20 ans, énergique et gouailleuse, qui monte vite quand il s'emballe, incrédule) dit en français : « Même le gardien ? »\n[3-6s] Léo s'élance, déterminé. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : tambours.\n[3.7-5.6s] GÉRARD (voix rauque et profonde d'homme de 66 ans, lente, chaque mot pèse, sourire en coin) dit en français : « Même Nathalie, si elle veut. »\nAmbiance sonore : cris du public, coups de sifflet, consignes criées, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 9,
+      "duree": 10,
+      "role": "climax",
+      "titre": "Pelouse le jour du match · PE",
+      "dialogues": [
+        {
+          "t": "0.3-1.8",
+          "qui": "Camille",
+          "texte": "Dernière seconde, dernière action !"
+        },
+        {
+          "t": "2.1-3.4",
+          "qui": "Léo",
+          "texte": "Enzo ! Finis-le !"
+        },
+        {
+          "t": "3.7-4.6",
+          "qui": "Enzo",
+          "texte": "Avec plaisir."
+        },
+        {
+          "t": "6.0-8.3",
+          "qui": "Camille",
+          "texte": "QUATRE-TROIS ! Le club à cent euros !"
+        },
+        {
+          "t": "8.6-9.8",
+          "qui": "Léo",
+          "texte": "ON L'A FAIT !"
+        }
+      ],
+      "replique": "Dernière seconde, dernière action ! Enzo ! Finis-le ! Avec plaisir. QUATRE-TROIS ! Le club à cent euros ! ON L'A FAIT !",
+      "parle": "camille",
+      "texte_ecran": "4-3 🔥",
+      "image": "Image 9 : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en plongée, au-dessus, qui écrase le personnage. Décor : pelouse du Stade des Peupliers le jour du match, vue depuis le terrain : tribunes rafistolées pleines à craquer, supporters animaux en vert d'un côté et en doré de l'autre, fumigènes verts, tableau d'affichage en carton bricolé à la main, joueurs dorés immenses du Royal Olympique face à une équipe verte dépareillée. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Léo, jeune loutre de 20 ans au pelage chocolat, mèche blonde décolorée en pétard qui dépasse d'une casquette rouge portée à l'envers, sparadrap blanc en travers du museau, maillot vert bouteille du FC Peupliers numéro 1 beaucoup trop grand, short noir, casquette rouge à l'envers : au milieu du terrain, transmet le ballon d'une talonnade. Enzo, minuscule écureuil roux de 16 ans, énorme queue en panache, oreilles à houppettes, taches de rousseur, bandeau éponge jaune sur le front, maillot vert bouteille du FC Peupliers numéro 100 trop grand, manches retroussées, crampons rafistolés au scotch : lancé en profondeur, regard fixé sur le but. Un gorille argenté en maillot vert numéro 4 relance de la tête, toute l'équipe verte monte vers le but doré. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 9 FIN (dernière image du plan, quelques secondes plus tard) : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra à hauteur des yeux. Décor : pelouse du Stade des Peupliers le jour du match, vue depuis le terrain : tribunes rafistolées pleines à craquer, supporters animaux en vert d'un côté et en doré de l'autre, fumigènes verts, tableau d'affichage en carton bricolé à la main, joueurs dorés immenses du Royal Olympique face à une équipe verte dépareillée. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Enzo, minuscule écureuil roux de 16 ans, énorme queue en panache, oreilles à houppettes, taches de rousseur, bandeau éponge jaune sur le front, maillot vert bouteille du FC Peupliers numéro 100 trop grand, manches retroussées, crampons rafistolés au scotch : à genoux sur la pelouse, bras levés au ciel, l'équipe verte lui saute dessus. Léo, jeune loutre de 20 ans au pelage chocolat, mèche blonde décolorée en pétard qui dépasse d'une casquette rouge portée à l'envers, sparadrap blanc en travers du museau, maillot vert bouteille du FC Peupliers numéro 1 beaucoup trop grand, short noir, casquette rouge à l'envers : en tête de la mêlée, hurle de joie. Le tableau d'affichage bricolé affiche « PEUPLIERS 4 – 3 ROYAL », toute la tribune verte debout. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Le gorille numéro 4 relance, Léo transmet d'une talonnade. Caméra : plan aérien qui plonge vers la scène. Bruitage : foule qui retient son souffle.\n[0.3-1.8s] CAMILLE (hors champ) (voix de journaliste de 32 ans, rapide et survoltée, ton de commentatrice en direct, suffoque) dit en français : « Dernière seconde, dernière action ! »\n[2-4s] Léo lance Enzo en profondeur. Caméra : caméra qui court au ras du sol avec le personnage.\n[2.1-3.4s] LÉO (voix de jeune homme de 20 ans, énergique et gouailleuse, qui monte vite quand il s'emballe, hurle en passant) dit en français : « Enzo ! Finis-le ! »\n[3.7-4.6s] ENZO (voix d'ado de 16 ans, timide et douce, puis tranchante et calme quand il est sûr de lui, glacial) dit en français : « Avec plaisir. »\n[4-6s] Enzo tire au ralenti, le ballon tourne. Caméra : ralenti dramatique d'une seconde puis reprise à vitesse normale. Bruitage : souffle ralenti.\n[6-8s] Le ballon entre en pleine lucarne. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : filet qui claque, explosion de la foule.\n[6.0-8.3s] CAMILLE (hors champ) (voix de journaliste de 32 ans, rapide et survoltée, ton de commentatrice en direct, hurle, en larmes) dit en français : « QUATRE-TROIS ! Le club à cent euros ! »\n[8-10s] Toute l'équipe saute sur Enzo. Bruitage : cris de joie.\n[8.6-9.8s] LÉO (voix de jeune homme de 20 ans, énergique et gouailleuse, qui monte vite quand il s'emballe, hurle de joie) dit en français : « ON L'A FAIT ! »\nAmbiance sonore : foule qui gronde, tambours, coups de sifflet de l'arbitre, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 10,
+      "duree": 6,
+      "role": "climax",
+      "titre": "Trône de Victor en tribune · AMORCE",
+      "dialogues": [
+        {
+          "t": "0.2-2.6",
+          "qui": "Enzo",
+          "texte": "Tiens. Les petits, ça ramasse les balles."
+        },
+        {
+          "t": "2.9-4.0",
+          "qui": "Victor",
+          "texte": "Toi… tu…"
+        },
+        {
+          "t": "4.3-5.8",
+          "qui": "Camille",
+          "texte": "Il lui rend sa phrase !"
+        }
+      ],
+      "replique": "Tiens. Les petits, ça ramasse les balles. Toi… tu… Il lui rend sa phrase !",
+      "parle": "enzo",
+      "texte_ecran": "RAMASSE 😈",
+      "image": "Image 10 : plan par-dessus l'épaule d'un personnage flou au premier plan, vers celui qui parle, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : dans la vieille tribune du Stade des Peupliers, un trône doré géant posé sur un tapis rouge, gardes du corps rhinocéros en costume noir, ventilateur doré, verre de jus d'orange à paille dorée, supporters du Royal en écharpes dorées tout autour. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Enzo, minuscule écureuil roux de 16 ans, énorme queue en panache, oreilles à houppettes, taches de rousseur, bandeau éponge jaune sur le front, maillot vert bouteille du FC Peupliers numéro 100 trop grand, manches retroussées, crampons rafistolés au scotch : en haut des marches du trône, laisse tomber le ballon aux pieds de Victor, regard glacial. Victor, lion massif de 56 ans à la crinière blanche gominée en arrière, dent en or qui brille, grosse chevalière dorée en forme de couronne, lunettes fumées dorées, long manteau de fourrure synthétique doré sur le costume blanc, écharpe dorée « ROYAL OLYMPIQUE » : assis, figé, costume taché de jus d'orange, mâchoire tombante, dent en or visible. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Enzo laisse tomber le ballon qui rebondit sur les mocassins dorés de Victor. Caméra : lent travelling avant vers le visage. Bruitage : boing.\n[0.2-2.6s] ENZO (voix d'ado de 16 ans, timide et douce, puis tranchante et calme quand il est sûr de lui, glacial, articule) dit en français : « Tiens. Les petits, ça ramasse les balles. »\n[2.9-4.0s] VICTOR (voix grave et traînante d'homme de 56 ans, rire gras, articule avec mépris, bégaie) dit en français : « Toi… tu… »\n[3-6s] Victor regarde le ballon, puis Enzo, en tremblant. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : silence soudain.\n[4.3-5.8s] CAMILLE (hors champ) (voix de journaliste de 32 ans, rapide et survoltée, ton de commentatrice en direct, ravie) dit en français : « Il lui rend sa phrase ! »\nAmbiance sonore : foule, trompettes de supporters, cris, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 11,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Trône de Victor en tribune · PR",
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "qui": "Léo",
+          "texte": "Tu me dois un million, Victor."
+        },
+        {
+          "t": "2.2-4.3",
+          "qui": "Victor",
+          "texte": "Je paie pas un club à cent balles."
+        },
+        {
+          "t": "4.6-5.9",
+          "qui": "Léo",
+          "texte": "Il t'a battu, pourtant."
+        }
+      ],
+      "replique": "Tu me dois un million, Victor. Je paie pas un club à cent balles. Il t'a battu, pourtant.",
+      "parle": "leo",
+      "texte_ecran": "",
+      "image": "Image 11 : plan rapproché, de la tête à la poitrine, caméra à hauteur des yeux. Décor : dans la vieille tribune du Stade des Peupliers, un trône doré géant posé sur un tapis rouge, gardes du corps rhinocéros en costume noir, ventilateur doré, verre de jus d'orange à paille dorée, supporters du Royal en écharpes dorées tout autour. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Victor, lion massif de 56 ans à la crinière blanche gominée en arrière, dent en or qui brille, grosse chevalière dorée en forme de couronne, lunettes fumées dorées, long manteau de fourrure synthétique doré sur le costume blanc, écharpe dorée « ROYAL OLYMPIQUE » : se lève, rouge de rage, crinière hérissée, pointe Léo du doigt. Léo, jeune loutre de 20 ans au pelage chocolat, mèche blonde décolorée en pétard qui dépasse d'une casquette rouge portée à l'envers, sparadrap blanc en travers du museau, maillot vert bouteille du FC Peupliers numéro 1 beaucoup trop grand, short noir, casquette rouge à l'envers : agite un billet de 100 € sous son museau, sourire insolent. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Léo agite un billet de 100 € sous le museau de Victor. Bruitage : froissement de billet.\n[0.2-2.0s] LÉO (voix de jeune homme de 20 ans, énergique et gouailleuse, qui monte vite quand il s'emballe, insolent) dit en français : « Tu me dois un million, Victor. »\n[2.2-4.3s] VICTOR (voix grave et traînante d'homme de 56 ans, rire gras, articule avec mépris, rage) dit en français : « Je paie pas un club à cent balles. »\n[3-6s] Victor rugit, sa crinière se hérisse. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : rugissement.\n[4.6-5.9s] LÉO (voix de jeune homme de 20 ans, énergique et gouailleuse, qui monte vite quand il s'emballe, rigolard) dit en français : « Il t'a battu, pourtant. »\nAmbiance sonore : foule, trompettes de supporters, cris, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 12,
+      "duree": 10,
+      "role": "cliff",
+      "titre": "Trône de Victor en tribune · GP",
+      "dialogues": [
+        {
+          "t": "0.3-2.6",
+          "qui": "Victor",
+          "texte": "Ton terrain vaut trente millions. Tu savais pas ?"
+        },
+        {
+          "t": "2.9-4.9",
+          "qui": "Victor",
+          "texte": "Match retour. Chez moi. Le terrain en jeu."
+        },
+        {
+          "t": "5.2-7.1",
+          "qui": "Léo",
+          "texte": "Il a payé son club 800 millions."
+        },
+        {
+          "t": "7.4-9.6",
+          "qui": "Léo",
+          "texte": "Moi, cent euros. On accepte ?"
+        }
+      ],
+      "replique": "Ton terrain vaut trente millions. Tu savais pas ? Match retour. Chez moi. Le terrain en jeu. Il a payé son club 800 millions. Moi, cent euros. On accepte ?",
+      "parle": "victor",
+      "texte_ecran": "MATCH RETOUR ? ✅ / ❌",
+      "image": "Image 12 : gros plan sur le visage et le haut des épaules, personnage de profil. Décor : dans la vieille tribune du Stade des Peupliers, un trône doré géant posé sur un tapis rouge, gardes du corps rhinocéros en costume noir, ventilateur doré, verre de jus d'orange à paille dorée, supporters du Royal en écharpes dorées tout autour. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Victor, lion massif de 56 ans à la crinière blanche gominée en arrière, dent en or qui brille, grosse chevalière dorée en forme de couronne, lunettes fumées dorées, long manteau de fourrure synthétique doré sur le costume blanc, écharpe dorée « ROYAL OLYMPIQUE » : se penche à l'oreille de Léo, sourire de requin retrouvé. Léo, jeune loutre de 20 ans au pelage chocolat, mèche blonde décolorée en pétard qui dépasse d'une casquette rouge portée à l'envers, sparadrap blanc en travers du museau, maillot vert bouteille du FC Peupliers numéro 1 beaucoup trop grand, short noir, casquette rouge à l'envers : écoute, son sourire se fige. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur le téléphone que Victor tend à Léo, un plan doré : « ROYAL MALL · TERRAIN DES PEUPLIERS · 30 000 000 € ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 12 FIN (dernière image du plan, quelques secondes plus tard) : très gros plan sur le visage, les yeux remplissent le cadre, caméra à hauteur des yeux. Décor : dans la vieille tribune du Stade des Peupliers, un trône doré géant posé sur un tapis rouge, gardes du corps rhinocéros en costume noir, ventilateur doré, verre de jus d'orange à paille dorée, supporters du Royal en écharpes dorées tout autour. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Léo, jeune loutre de 20 ans au pelage chocolat, mèche blonde décolorée en pétard qui dépasse d'une casquette rouge portée à l'envers, sparadrap blanc en travers du museau, maillot vert bouteille du FC Peupliers numéro 1 beaucoup trop grand, short noir, casquette rouge à l'envers : tourné vers l'objectif, sourcil levé, sourire en coin, billet de 100 € entre deux doigts. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements de sport et costumes stylisés. Couleurs saturées : vert bouteille et rouille pour le petit club des Peupliers, or et blanc éclatant pour le riche Royal Olympique. Lumière dorée et contre-jours dramatiques. Décors riches de France d'aujourd'hui : stade de quartier en ruine, stade doré géant, salon de coiffure, boîte de nuit, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur le téléphone que Victor tend à Léo, un plan doré : « ROYAL MALL · TERRAIN DES PEUPLIERS · 30 000 000 € ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Victor se penche à l'oreille de Léo et lui montre son téléphone. Caméra : caméra qui tourne lentement autour du personnage.\n[0.3-2.6s] VICTOR (voix grave et traînante d'homme de 56 ans, rire gras, articule avec mépris, murmure, menaçant) dit en français : « Ton terrain vaut trente millions. Tu savais pas ? »\n[2.9-4.9s] VICTOR (voix grave et traînante d'homme de 56 ans, rire gras, articule avec mépris, glacial) dit en français : « Match retour. Chez moi. Le terrain en jeu. »\n[3-5s] Léo se fige. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : note grave.\n[5-8s] Léo se tourne lentement vers la caméra. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant.\n[5.2-7.1s] LÉO (voix de jeune homme de 20 ans, énergique et gouailleuse, qui monte vite quand il s'emballe, à la caméra, moqueur) dit en français : « Il a payé son club 800 millions. »\n[7.4-9.6s] LÉO (voix de jeune homme de 20 ans, énergique et gouailleuse, qui monte vite quand il s'emballe, complice, sourire en coin) dit en français : « Moi, cent euros. On accepte ? »\n[8-10s] Il lève le billet de 100 € et sourit. Bruitage : ding.\nAmbiance sonore : foule, trompettes de supporters, cris, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    }
+  ],
+  "titre_couverture": "Le club à 100 € bat les 800 millions",
+  "publication": "Mené 3-0, il fait entrer le ramasseur de balles… Le club acheté 100 € contre le club le plus riche du pays 🔥 Partie 3\n\n#foot #histoire #partie3 #animaux #ia #football",
+  "commentaire": "Match retour chez Victor, terrain en jeu : ils acceptent ? ✅ Oui, on y va / ❌ Non, c'est un piège",
+  "texte_accroche": "0-3. Il entre. Il a 16 ans.",
+  "hooks_alternatifs": [
+    "Il m'a dit que les petits ramassent les balles. J'avais vingt minutes.",
+    "0-3. Le coach fait entrer le ramasseur de balles. Regardez.",
+    "Mon club a coûté cent euros. Le sien, 800 millions. Score final ?"
+  ],
+  "question_milieu": {
+    "plan": 6,
+    "texte": "Ils peuvent vraiment remonter ? 😳"
+  },
+  "duree_totale": 92
+}
