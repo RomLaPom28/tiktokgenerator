@@ -3,7 +3,9 @@ name: copier
 description: Décortique une vidéo TikTok virale (lien, id déjà analysé ou fichier mp4) puis la recrée quasiment à l'identique avec d'autres personnages et décors : découpage plan par plan, personnages, décors, transcription attribuée, pourquoi ça marche, améliorations de viralité, puis projet complet et prompts ChatGPT + Grok (pack.html). Use when the user runs /copier, sends a video to copy/reproduce/adapter, or says « fais la même chose que cette vidéo ».
 ---
 
-# /copier <lien TikTok | id | fichier.mp4>
+# /copier <lien TikTok | id | fichier.mp4> [lien2 lien3 …]
+
+Plusieurs liens = **série source** (partie 1, 2, 3… dans l'ordre donné) : on la copie en série, un épisode à nous par vidéo source.
 
 Studio : racine de ce dépôt. Principe : on garde la MÉCANIQUE exacte d'une vidéo qui a percé (ordre des temps forts, fonction et longueur de chaque réplique, rythme, fin) et on change la SURFACE (univers, espèces, prénoms, objets, chiffres, décors, mots). Résultat : même histoire, zéro réplique recopiée, 1 à 3 améliorations assumées.
 
@@ -45,6 +47,7 @@ Mêmes fichiers et mêmes règles que `/creer` étape 3 (`projet.json`, `personn
                coupees:[rN coupées exprès], ameliorations:[...appliquées]}
 ```
 Série : `saison.json.episodes[]` = une partie par entrée avec sa plage `repliques` ; `/episode` reprendra la plage suivante.
+**Série source (plusieurs liens)** : disséquer CHAQUE vidéo (étape 2) avant de transposer, pour que la transposition tienne sur toute la série (personnages et objets des parties 2-3 prévus dès le casting). `projet.json` : `type: "serie"`, `adaptation.sources: [id1, id2, id3]`. Chaque `episode.json` porte son propre `adaptation: {source, lien, vues, repliques, coupees, ameliorations}` (prioritaire sur celui du projet). `saison.json.episodes[n].source` = id de la vidéo copiée. Fin de chaque épisode = même coupure que la source (cliff).
 
 ## 5 · Écrire `episodes/ep001/episode.json` : transposition réplique par réplique
 Format EXACT de `/creer` étape 4 (plans 6/10 s, `fin` pour les 10 s, `timeline`, `dialogues` timecodés avec `fonction`, `moteur`, hooks, publication). Règles propres à l'adaptation :

@@ -46,7 +46,7 @@ def verifier(projet, nom):
     r = b.real
     # Adaptation (/copier) : on suit le rythme et la structure de la vidéo source, donc les règles de
     # format de /creer deviennent des avertissements (À VOIR) ; le contrôle anti-copie s'ajoute à la fin.
-    adapt = b.projet.get("adaptation")
+    adapt = ep.get("adaptation") or b.projet.get("adaptation")  # série source : une vidéo par épisode
     souple = "À VOIR" if adapt else "ÉCHEC"
     # ---------- structure ----------
     if adapt:

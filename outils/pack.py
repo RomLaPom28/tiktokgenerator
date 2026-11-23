@@ -54,7 +54,7 @@ def construire(b, nom):
 
 def comparaison(b, ep):
     """Projet /copier : réplique originale -> notre réplique, plan par plan."""
-    a = b.projet.get("adaptation")
+    a = ep.get("adaptation") or b.projet.get("adaptation")
     if not a:
         return None
     f = ANALYSES / str(a.get("source")) / "dissection.json"

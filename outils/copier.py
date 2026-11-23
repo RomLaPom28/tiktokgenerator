@@ -1,7 +1,8 @@
 """Découpe une vidéo virale pour la copier (commande /copier).
 
 Usage :
-    python outils/copier.py <lien TikTok | id déjà analysé | fichier.mp4>
+    python outils/copier.py <lien TikTok | id déjà analysé | fichier.mp4> [lien2 lien3 …]
+    (plusieurs liens = une série source : partie 1, partie 2…, dans l'ordre)
 
 1. Si la vidéo n'est pas encore analysée : téléchargement + transcription + détection des plans
    (analyse.py : PC uniquement, il faut yt-dlp, ffmpeg et faster-whisper).
@@ -90,7 +91,11 @@ def planches(mp4, plans, dossier):
 def main():
     if len(sys.argv) < 2:
         raise SystemExit(__doc__)
-    arg = sys.argv[1]
+    for arg in sys.argv[1:]:  # plusieurs liens = une série source, dans l'ordre des épisodes
+        traiter(arg)
+
+
+def traiter(arg):
     vid, local = identifier(arg)
     if not vid or not (ANALYSES / vid / "brut.json").exists():
         from analyse import analyser
