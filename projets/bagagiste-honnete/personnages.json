@@ -9,13 +9,19 @@
       "adn": "Maxime, jeune castor de 22 ans au pelage brun chocolat, grandes incisives orange légèrement écartées, épi de poils rebelle sur le front, grands yeux noisette sincères, large queue plate",
       "tenues": {
         "base": "uniforme de bagagiste bordeaux à boutons dorés un peu trop grand, petit calot bordeaux, badge doré rectangulaire « MAXIME » épinglé sur la poitrine avec une mini-caméra ronde noire et un minuscule point rouge allumé",
-        "maison": "vieux t-shirt gris troué et gilet en laine reprisé"
+        "maison": "vieux t-shirt gris troué et gilet en laine reprisé",
+        "serveur": "tablier blanc de serveur noué sur l'uniforme bordeaux à boutons dorés, nœud papillon noir, plateau argenté de coupes à la main",
+        "directeur": "costume trois pièces bordeaux sur mesure, cravate dorée, badge doré rectangulaire « DIRECTEUR » épinglé sur la poitrine avec sa mini-caméra ronde noire au point rouge"
       },
       "voix": "voix de jeune homme de 22 ans, douce et sincère, qui monte dans les aigus quand il panique",
       "caractere": "honnête jusqu'au bout, timide, travailleur, soutient sa mère malade",
       "objectif": "garder son travail et nourrir sa mère sans jamais voler",
       "secret": "il ne sait pas que son badge du personnel filme en continu",
-      "tics": ["serre son calot contre sa poitrine quand il a peur", "tapote ses incisives du bout du doigt quand il réfléchit", "redresse son badge doré avant de parler à un client"],
+      "tics": [
+        "serre son calot contre sa poitrine quand il a peur",
+        "tapote ses incisives du bout du doigt quand il réfléchit",
+        "redresse son badge doré avant de parler à un client"
+      ],
       "replique_fetiche": "C'est pas à moi, monsieur.",
       "ref": "refs/maxime.png"
     },
@@ -31,7 +37,11 @@
       "caractere": "propriétaire exigeant, juste mais impitoyable avec le mensonge, aveugle sur sa femme",
       "objectif": "trouver un directeur honnête pour son palace",
       "secret": "il teste ses employés avec des enveloppes piégées",
-      "tics": ["remonte ses lunettes du bout d'une griffe", "fait tourner sa chevalière", "parle sans jamais hausser la voix, puis frappe une seule fois sur la table"],
+      "tics": [
+        "remonte ses lunettes du bout d'une griffe",
+        "fait tourner sa chevalière",
+        "parle sans jamais hausser la voix, puis frappe une seule fois sur la table"
+      ],
       "replique_fetiche": "Ici, on ne ment pas au patron.",
       "ref": "refs/philippe.png"
     },
@@ -42,13 +52,18 @@
       "adn": "Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant",
       "tenues": {
         "base": "robe fourreau en satin émeraude, étole en fourrure blanche",
-        "matin": "peignoir en soie dorée et lunettes de soleil sur le front"
+        "matin": "peignoir en soie dorée et lunettes de soleil sur le front",
+        "gala": "robe longue pailletée argent, étole en plumes blanches, diadème en diamants"
       },
       "voix": "voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup",
       "caractere": "cupide, méprise le personnel, vide le coffre du palace pour ses bijoux",
       "objectif": "garder le train de vie et empêcher qu'un employé prenne de l'importance",
       "secret": "elle se sert dans le coffre du palace depuis des mois",
-      "tics": ["tapote son collier de diamants", "se tient sur une seule patte quand elle ment", "appelle son mari « mon chat »"],
+      "tics": [
+        "tapote son collier de diamants",
+        "se tient sur une seule patte quand elle ment",
+        "appelle son mari « mon chat »"
+      ],
       "replique_fetiche": "Un pauvre, ça garde tout.",
       "ref": "refs/corinne.png"
     },
@@ -64,7 +79,11 @@
       "caractere": "gouvernante générale, sévère mais juste, adore Maxime, voit tout",
       "objectif": "protéger son personnel",
       "secret": "elle sait que le coffre se vide depuis des mois",
-      "tics": ["fait tinter son trousseau de clés", "regarde par-dessus ses lunettes", "plaque une aile sur son bec quand elle est choquée"],
+      "tics": [
+        "fait tinter son trousseau de clés",
+        "regarde par-dessus ses lunettes",
+        "plaque une aile sur son bec quand elle est choquée"
+      ],
       "replique_fetiche": "Pas dans mon hall.",
       "ref": "refs/martine.png"
     }

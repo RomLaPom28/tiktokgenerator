@@ -1,0 +1,645 @@
+{
+  "id": "ep003",
+  "numero": 3,
+  "titre": "Le gala",
+  "resume": "Au gala, Corinne trinque à son mari « qui ne voit jamais rien » et humilie Maxime, serveur en tablier. Philippe projette la vidéo du badge ; Corinne crie à l'IA. « Et celle-là aussi, c'est l'IA, chérie ? » : la vidéo du coffre, filmée par le badge caché, la montre se moquer de lui. Philippe avait cru Maxime dès le début. Corinne perd son collier, sort par la porte de service sous les applaudissements, et Maxime devient directeur. Sous la pluie, il lui rend sa boucle d'oreille : « Un pauvre, ça rend tout, madame. »",
+  "projet": "bagagiste-honnete",
+  "projet_titre": "Le bagagiste honnête",
+  "type": "serie",
+  "portraits": [
+    {
+      "id": "maxime",
+      "nom": "Maxime",
+      "ref": "refs/maxime.png",
+      "prompt": "Fiche de référence personnage : Maxime, jeune castor de 22 ans au pelage brun chocolat, grandes incisives orange légèrement écartées, épi de poils rebelle sur le front, grands yeux noisette sincères, large queue plate, uniforme de bagagiste bordeaux à boutons dorés un peu trop grand, petit calot bordeaux, badge doré rectangulaire « MAXIME » épinglé sur la poitrine avec une mini-caméra ronde noire et un minuscule point rouge allumé. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (honnête jusqu'au bout, timide, travailleur, soutient sa mère malade), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "philippe",
+      "nom": "Philippe",
+      "ref": "refs/philippe.png",
+      "prompt": "Fiche de référence personnage : Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V, costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (propriétaire exigeant, juste mais impitoyable avec le mensonge, aveugle sur sa femme), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "corinne",
+      "nom": "Corinne",
+      "ref": "refs/corinne.png",
+      "prompt": "Fiche de référence personnage : Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant, robe fourreau en satin émeraude, étole en fourrure blanche. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (cupide, méprise le personnel, vide le coffre du palace pour ses bijoux), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "martine",
+      "nom": "Martine",
+      "ref": "refs/martine.png",
+      "prompt": "Fiche de référence personnage : Martine, oie blanche de 62 ans au plumage blanc impeccable, chignon de plumes grises tiré en arrière, petites lunettes en demi-lune au bout d'une chaînette, bec orange, tailleur noir de gouvernante générale, col blanc, trousseau de clés dorées à la ceinture. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (gouvernante générale, sévère mais juste, adore Maxime, voit tout), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Vertical 9:16, aucun texte, aucun logo."
+    }
+  ],
+  "ouverture": "Tu vas générer les images d'une vidéo. Toutes les images : format vertical 9:16, même style, mêmes personnages avec EXACTEMENT les mêmes visages, couleurs et accessoires d'une image à l'autre. Aucun sous-titre ni bulle ; le seul texte autorisé est celui que je décris dans le décor (tableau d'affichage, banderole, maillot), écrit sans faute.\n\nSTYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics).\n\nPERSONNAGES DE CET ÉPISODE (looks fixes) :\n- Maxime, jeune castor de 22 ans au pelage brun chocolat, grandes incisives orange légèrement écartées, épi de poils rebelle sur le front, grands yeux noisette sincères, large queue plate. Tenues : tablier blanc de serveur noué sur l'uniforme bordeaux à boutons dorés, nœud papillon noir, plateau argenté de coupes à la main / costume trois pièces bordeaux sur mesure, cravate dorée, badge doré rectangulaire « DIRECTEUR » épinglé sur la poitrine avec sa mini-caméra ronde noire au point rouge.\n- Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V. Tenue : costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux.\n- Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant. Tenue : robe longue pailletée argent, étole en plumes blanches, diadème en diamants.\n- Martine, oie blanche de 62 ans au plumage blanc impeccable, chignon de plumes grises tiré en arrière, petites lunettes en demi-lune au bout d'une chaînette, bec orange. Tenue : tailleur noir de gouvernante générale, col blanc, trousseau de clés dorées à la ceinture.\n\nSi je joins des images de référence, ce sont ces personnages : respecte-les à la lettre.\nJe vais t'envoyer \"Image 1 : …\", \"Image 2 : …\". Pour chaque message, génère uniquement l'image demandée, sans commentaire. Réponds juste OK à ce message.",
+  "refs": [
+    "refs/corinne.png",
+    "refs/maxime.png",
+    "refs/philippe.png",
+    "refs/martine.png"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "duree": 6,
+      "role": "accroche",
+      "titre": "Salle de bal du gala · TGP",
+      "dialogues": [
+        {
+          "t": "0.3-2.6",
+          "qui": "Corinne",
+          "texte": "À mon mari, qui ne voit jamais rien !"
+        },
+        {
+          "t": "2.8-5.3",
+          "qui": "Corinne",
+          "texte": "Et au personnel : un pauvre, ça garde tout !"
+        }
+      ],
+      "replique": "À mon mari, qui ne voit jamais rien ! Et au personnel : un pauvre, ça garde tout !",
+      "parle": "corinne",
+      "texte_ecran": "CE SOIR, ELLE TOMBE",
+      "image": "Image 1 : très gros plan sur le visage, les yeux remplissent le cadre, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : immense salle de bal du palace illuminée pour le gala, lustres de cristal, tables rondes nappées de blanc, 200 invités animaux en smoking et robes de soirée, petite scène avec micro sur pied et écran géant derrière, banderole dorée « GALA DU GRAND HÔTEL VALROSE ». Lumière : lumières colorées de fête, boule à facettes. Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant, robe longue pailletée argent, étole en plumes blanches, diadème en diamants : lève sa coupe bien haut, diadème étincelant, sourire de reine, bec relevé. Maxime, jeune castor de 22 ans au pelage brun chocolat, grandes incisives orange légèrement écartées, épi de poils rebelle sur le front, grands yeux noisette sincères, large queue plate, tablier blanc de serveur noué sur l'uniforme bordeaux à boutons dorés, nœud papillon noir, plateau argenté de coupes à la main : flou au second plan, tient un plateau argenté, tête basse. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : GALA DU GRAND HÔTEL VALROSE. Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Corinne lève sa coupe face aux 200 invités. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : cristal qui tinte.\n[0.3-2.6s] CORINNE (voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup, triomphante) dit en français : « À mon mari, qui ne voit jamais rien ! »\n[2-4s] Elle pointe Maxime du bout de l'aile, les invités ricanent.\n[2.8-5.3s] CORINNE (voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup, méprisante, chantante) dit en français : « Et au personnel : un pauvre, ça garde tout ! »\n[4-6s] Maxime serre son plateau, humilié. Bruitage : rires.\nAmbiance sonore : orchestre de jazz feutré, verres qui tintent, brouhaha d'invités, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 2,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Salle de bal du gala · PE",
+      "dialogues": [
+        {
+          "t": "0.3-2.6",
+          "qui": "Philippe",
+          "texte": "Ce soir, je nomme le nouveau directeur du palace."
+        },
+        {
+          "t": "2.9-4.3",
+          "qui": "Corinne",
+          "texte": "Mon neveu, évidemment."
+        },
+        {
+          "t": "4.6-6.4",
+          "qui": "Philippe",
+          "texte": "Mais d'abord, un petit film."
+        },
+        {
+          "t": "6.7-8.9",
+          "qui": "Maxime",
+          "texte": "Le film de mon badge ?!"
+        }
+      ],
+      "replique": "Ce soir, je nomme le nouveau directeur du palace. Mon neveu, évidemment. Mais d'abord, un petit film. Le film de mon badge ?!",
+      "parle": "philippe",
+      "texte_ecran": "",
+      "image": "Image 2 : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en plongée, au-dessus, qui écrase le personnage. Décor : immense salle de bal du palace illuminée pour le gala, lustres de cristal, tables rondes nappées de blanc, 200 invités animaux en smoking et robes de soirée, petite scène avec micro sur pied et écran géant derrière, banderole dorée « GALA DU GRAND HÔTEL VALROSE ». Lumière : lumières colorées de fête, boule à facettes. Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V, costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux : sur la petite scène, au micro, calme, fait tourner sa chevalière. Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant, robe longue pailletée argent, étole en plumes blanches, diadème en diamants : au premier rang, s'évente, sûre d'elle. Maxime, jeune castor de 22 ans au pelage brun chocolat, grandes incisives orange légèrement écartées, épi de poils rebelle sur le front, grands yeux noisette sincères, large queue plate, tablier blanc de serveur noué sur l'uniforme bordeaux à boutons dorés, nœud papillon noir, plateau argenté de coupes à la main : au bord de la scène, plateau qui tremble. Martine, oie blanche de 62 ans au plumage blanc impeccable, chignon de plumes grises tiré en arrière, petites lunettes en demi-lune au bout d'une chaînette, bec orange, tailleur noir de gouvernante générale, col blanc, trousseau de clés dorées à la ceinture : près de la régie, la main sur un ordinateur portable. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 2 FIN (dernière image du plan, quelques secondes plus tard) : plan rapproché, de la tête à la poitrine, caméra en plongée, au-dessus, qui écrase le personnage. Décor : immense salle de bal du palace illuminée pour le gala, lustres de cristal, tables rondes nappées de blanc, 200 invités animaux en smoking et robes de soirée, petite scène avec micro sur pied et écran géant derrière, banderole dorée « GALA DU GRAND HÔTEL VALROSE ». Lumière : lumières colorées de fête, boule à facettes. Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V, costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux : se décale d'un pas, l'écran géant s'allume derrière lui. Maxime, jeune castor de 22 ans au pelage brun chocolat, grandes incisives orange légèrement écartées, épi de poils rebelle sur le front, grands yeux noisette sincères, large queue plate, tablier blanc de serveur noué sur l'uniforme bordeaux à boutons dorés, nœud papillon noir, plateau argenté de coupes à la main : bouche bée, plateau penché. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Philippe tapote le micro, la salle se tait. Bruitage : larsen bref.\n[0.3-2.6s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, solennel) dit en français : « Ce soir, je nomme le nouveau directeur du palace. »\n[2.9-4.3s] CORINNE (voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup, en aparté, ravie) dit en français : « Mon neveu, évidemment. »\n[3-5s] Corinne se penche vers nous, complice. Caméra : panoramique qui passe d'un personnage à l'autre.\n[4.6-6.4s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, calme, glacial) dit en français : « Mais d'abord, un petit film. »\n[5-8s] Philippe fait un signe à Martine à la régie.\n[6.7-8.9s] MAXIME (voix de jeune homme de 22 ans, douce et sincère, qui monte dans les aigus quand il panique, sidéré, tout bas) dit en français : « Le film de mon badge ?! »\n[8-10s] L'écran géant derrière la scène s'allume. Bruitage : grésillement d'écran.\nAmbiance sonore : orchestre de jazz feutré, verres qui tintent, brouhaha d'invités, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 3,
+      "duree": 6,
+      "role": "retournement",
+      "titre": "Salle de bal du gala · PR",
+      "dialogues": [
+        {
+          "t": "0.3-2.4",
+          "qui": "Corinne",
+          "texte": "Qu'est-ce que c'est que ça ?!"
+        },
+        {
+          "t": "2.7-5.0",
+          "qui": "Corinne",
+          "texte": "C'est la fausse vidéo ! C'est de l'IA !"
+        }
+      ],
+      "replique": "Qu'est-ce que c'est que ça ?! C'est la fausse vidéo ! C'est de l'IA !",
+      "parle": "corinne",
+      "texte_ecran": "FAUSSE VIDÉO ?",
+      "image": "Image 3 : plan rapproché, de la tête à la poitrine, caméra à hauteur des yeux. Décor : immense salle de bal du palace illuminée pour le gala, lustres de cristal, tables rondes nappées de blanc, 200 invités animaux en smoking et robes de soirée, petite scène avec micro sur pied et écran géant derrière, banderole dorée « GALA DU GRAND HÔTEL VALROSE ». Lumière : lumières colorées de fête, boule à facettes. Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant, robe longue pailletée argent, étole en plumes blanches, diadème en diamants : se lève d'un bond, coupe qui se renverse, plumes hérissées, ricane nerveusement. Derrière elle, sur l'écran géant, l'image du badge : Corinne devant son coffre, des billets plein les plumes. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Corinne se lève d'un bond, sa coupe se renverse. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : verre qui se brise.\n[0.3-2.4s] CORINNE (voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup, paniquée) dit en français : « Qu'est-ce que c'est que ça ?! »\n[2.7-5.0s] CORINNE (voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup, riant faux, criarde) dit en français : « C'est la fausse vidéo ! C'est de l'IA ! »\n[3-6s] Elle se tourne vers les invités en riant faux, les ailes ouvertes.\nAmbiance sonore : orchestre de jazz feutré, verres qui tintent, brouhaha d'invités, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 4,
+      "duree": 10,
+      "role": "retournement",
+      "titre": "Salle de bal du gala · TGP",
+      "dialogues": [
+        {
+          "t": "0.3-2.4",
+          "qui": "Philippe",
+          "texte": "Et celle-là aussi, c'est l'IA, chérie ?"
+        },
+        {
+          "t": "2.7-4.5",
+          "qui": "Corinne",
+          "texte": "Le vieux lion a tout gobé !"
+        },
+        {
+          "t": "4.8-6.6",
+          "qui": "Corinne",
+          "texte": "Ce vieux lion ne verra jamais rien."
+        },
+        {
+          "t": "6.8-7.8",
+          "qui": "Martine",
+          "texte": "Oh, la vipère !"
+        },
+        {
+          "t": "8.0-9.8",
+          "qui": "Philippe",
+          "texte": "Il a tout vu, le vieux lion."
+        }
+      ],
+      "replique": "Et celle-là aussi, c'est l'IA, chérie ? Le vieux lion a tout gobé ! Ce vieux lion ne verra jamais rien. Oh, la vipère ! Il a tout vu, le vieux lion.",
+      "parle": "philippe",
+      "texte_ecran": "LE BADGE CACHÉ",
+      "image": "Image 4 : très gros plan sur le visage, les yeux remplissent le cadre, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : immense salle de bal du palace illuminée pour le gala, lustres de cristal, tables rondes nappées de blanc, 200 invités animaux en smoking et robes de soirée, petite scène avec micro sur pied et écran géant derrière, banderole dorée « GALA DU GRAND HÔTEL VALROSE ». Lumière : lumières colorées de fête, boule à facettes. Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V, costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux : au micro, sourire froid, sort le badge doré de sa poche intérieure. Martine, oie blanche de 62 ans au plumage blanc impeccable, chignon de plumes grises tiré en arrière, petites lunettes en demi-lune au bout d'une chaînette, bec orange, tailleur noir de gouvernante générale, col blanc, trousseau de clés dorées à la ceinture : à la régie, appuie sur une touche d'un air vengeur. Le point rouge du badge brille dans la patte de Philippe ; derrière lui, l'écran géant montre Corinne dans sa suite, au téléphone, devant le portrait du coffre. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 4 FIN (dernière image du plan, quelques secondes plus tard) : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : immense salle de bal du palace illuminée pour le gala, lustres de cristal, tables rondes nappées de blanc, 200 invités animaux en smoking et robes de soirée, petite scène avec micro sur pied et écran géant derrière, banderole dorée « GALA DU GRAND HÔTEL VALROSE ». Lumière : lumières colorées de fête, boule à facettes. Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V, costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux : bras tendu vers l'écran géant. Martine, oie blanche de 62 ans au plumage blanc impeccable, chignon de plumes grises tiré en arrière, petites lunettes en demi-lune au bout d'une chaînette, bec orange, tailleur noir de gouvernante générale, col blanc, trousseau de clés dorées à la ceinture : bec pincé, satisfaite. 200 invités se tournent d'un même mouvement vers Corinne, bouches ouvertes. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Philippe sort le badge de sa poche et le lève. Caméra : lent travelling avant vers le visage. Bruitage : bip.\n[0.3-2.4s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, glacial, ironique) dit en français : « Et celle-là aussi, c'est l'IA, chérie ? »\n[2.7-4.5s] CORINNE (hors champ) (voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup, voix enregistrée, hilare) dit en français : « Le vieux lion a tout gobé ! »\n[3-5s] L'écran géant passe à une autre vidéo : la suite de Corinne filmée depuis le coffre.\n[4.8-6.6s] CORINNE (hors champ) (voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup, voix enregistrée, triomphante) dit en français : « Ce vieux lion ne verra jamais rien. »\n[5-8s] Les invités poussent un cri, Martine sourit à la régie. Bruitage : cri de la foule.\n[6.8-7.8s] MARTINE (voix de femme de 62 ans, aiguë, qui s'étrangle de surprise, outrée) dit en français : « Oh, la vipère ! »\n[8-10s] Tous se tournent vers Corinne.\n[8.0-9.8s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, calme) dit en français : « Il a tout vu, le vieux lion. »\nAmbiance sonore : orchestre de jazz feutré, verres qui tintent, brouhaha d'invités, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 5,
+      "duree": 6,
+      "role": "climax",
+      "titre": "Salle de bal du gala · GP",
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "qui": "Corinne",
+          "texte": "Aidez-moi ! Dites-lui que c'est faux !"
+        },
+        {
+          "t": "2.3-4.4",
+          "qui": "Philippe",
+          "texte": "Tu te croyais plus maligne que moi ?"
+        },
+        {
+          "t": "4.6-5.6",
+          "qui": "Corinne",
+          "texte": "Mon chat..."
+        }
+      ],
+      "replique": "Aidez-moi ! Dites-lui que c'est faux ! Tu te croyais plus maligne que moi ? Mon chat...",
+      "parle": "corinne",
+      "texte_ecran": "",
+      "image": "Image 5 : gros plan sur le visage et le haut des épaules, caméra en plongée, au-dessus, qui écrase le personnage. Décor : immense salle de bal du palace illuminée pour le gala, lustres de cristal, tables rondes nappées de blanc, 200 invités animaux en smoking et robes de soirée, petite scène avec micro sur pied et écran géant derrière, banderole dorée « GALA DU GRAND HÔTEL VALROSE ». Lumière : lumières colorées de fête, boule à facettes. Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant, robe longue pailletée argent, étole en plumes blanches, diadème en diamants : se jette sur les invités, diadème de travers, cou tordu par la panique. Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V, costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux : descend de la scène, lent, implacable. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Corinne attrape le bras d'un invité qui recule. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : brouhaha.\n[0.2-2.0s] CORINNE (voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup, suppliante) dit en français : « Aidez-moi ! Dites-lui que c'est faux ! »\n[2-4s] Philippe descend de la scène, la salle s'écarte.\n[2.3-4.4s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, froid) dit en français : « Tu te croyais plus maligne que moi ? »\n[4-6s] Corinne recule, le diadème glisse. Bruitage : silence brutal.\n[4.6-5.6s] CORINNE (voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup, voix brisée) dit en français : « Mon chat... »\nAmbiance sonore : orchestre de jazz feutré, verres qui tintent, brouhaha d'invités, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 6,
+      "duree": 10,
+      "role": "retournement",
+      "titre": "Salle de bal du gala · PR",
+      "dialogues": [
+        {
+          "t": "0.3-2.8",
+          "qui": "Philippe",
+          "texte": "J'ai cru Maxime dès la première seconde."
+        },
+        {
+          "t": "3.0-5.8",
+          "qui": "Philippe",
+          "texte": "Je t'ai crue une semaine. Pour voir jusqu'où tu irais."
+        },
+        {
+          "t": "6.0-8.4",
+          "qui": "Philippe",
+          "texte": "Ces diamants, tu les as payés avec mon coffre."
+        },
+        {
+          "t": "8.6-9.7",
+          "qui": "Corinne",
+          "texte": "Philippe, je..."
+        }
+      ],
+      "replique": "J'ai cru Maxime dès la première seconde. Je t'ai crue une semaine. Pour voir jusqu'où tu irais. Ces diamants, tu les as payés avec mon coffre. Philippe, je...",
+      "parle": "philippe",
+      "texte_ecran": "",
+      "image": "Image 6 : plan rapproché, de la tête à la poitrine, personnage de profil. Décor : immense salle de bal du palace illuminée pour le gala, lustres de cristal, tables rondes nappées de blanc, 200 invités animaux en smoking et robes de soirée, petite scène avec micro sur pied et écran géant derrière, banderole dorée « GALA DU GRAND HÔTEL VALROSE ». Lumière : lumières colorées de fête, boule à facettes. Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V, costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux : face à Corinne, à quelques centimètres, regard ambré implacable, remonte ses lunettes. Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant, robe longue pailletée argent, étole en plumes blanches, diadème en diamants : tremblante, le bec ouvert, une plume tombe. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 6 FIN (dernière image du plan, quelques secondes plus tard) : gros plan sur le visage et le haut des épaules, personnage de profil. Décor : immense salle de bal du palace illuminée pour le gala, lustres de cristal, tables rondes nappées de blanc, 200 invités animaux en smoking et robes de soirée, petite scène avec micro sur pied et écran géant derrière, banderole dorée « GALA DU GRAND HÔTEL VALROSE ». Lumière : lumières colorées de fête, boule à facettes. Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant, robe longue pailletée argent, étole en plumes blanches, diadème en diamants : se décompose, les cils pleins de larmes de rage. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Philippe s'approche, la caméra tourne autour d'eux. Caméra : caméra qui tourne lentement autour du personnage.\n[0.3-2.8s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, posé, définitif) dit en français : « J'ai cru Maxime dès la première seconde. »\n[3-6s] Il remonte ses lunettes, sourire froid. Bruitage : murmures de la foule.\n[3.0-5.8s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, glacial) dit en français : « Je t'ai crue une semaine. Pour voir jusqu'où tu irais. »\n[6-8s] Il désigne le collier de diamants d'une griffe.\n[6.0-8.4s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, méprisant) dit en français : « Ces diamants, tu les as payés avec mon coffre. »\n[8-10s] Corinne se décompose. Bruitage : coup sourd.\n[8.6-9.7s] CORINNE (voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup, étranglée) dit en français : « Philippe, je... »\nAmbiance sonore : orchestre de jazz feutré, verres qui tintent, brouhaha d'invités, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 7,
+      "duree": 6,
+      "role": "climax",
+      "titre": "Salle de bal du gala · GP",
+      "dialogues": [
+        {
+          "t": "0.3-2.1",
+          "qui": "Philippe",
+          "texte": "Ce soir, tu repars seule."
+        },
+        {
+          "t": "2.4-4.4",
+          "qui": "Martine",
+          "texte": "Le collier reste au palace, madame."
+        },
+        {
+          "t": "4.6-5.6",
+          "qui": "Corinne",
+          "texte": "Mes diamants !"
+        }
+      ],
+      "replique": "Ce soir, tu repars seule. Le collier reste au palace, madame. Mes diamants !",
+      "parle": "philippe",
+      "texte_ecran": "",
+      "image": "Image 7 : gros plan sur le visage et le haut des épaules, caméra à hauteur des yeux. Décor : immense salle de bal du palace illuminée pour le gala, lustres de cristal, tables rondes nappées de blanc, 200 invités animaux en smoking et robes de soirée, petite scène avec micro sur pied et écran géant derrière, banderole dorée « GALA DU GRAND HÔTEL VALROSE ». Lumière : lumières colorées de fête, boule à facettes. Martine, oie blanche de 62 ans au plumage blanc impeccable, chignon de plumes grises tiré en arrière, petites lunettes en demi-lune au bout d'une chaînette, bec orange, tailleur noir de gouvernante générale, col blanc, trousseau de clés dorées à la ceinture : décroche le collier de diamants du cou de Corinne d'un geste sec. Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant, robe longue pailletée argent, étole en plumes blanches, diadème en diamants : porte les ailes à son cou dépouillé de ses diamants, horrifiée. Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V, costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux : en retrait, bras croisés. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : COLLIER : 180 000 €. Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Martine décroche le collier d'un coup sec. Caméra : caméra fixe avec une secousse brève au moment de l'impact. Bruitage : clic du fermoir.\n[0.3-2.1s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, sec) dit en français : « Ce soir, tu repars seule. »\n[2.4-4.4s] MARTINE (voix de femme de 62 ans, aiguë, qui s'étrangle de surprise, ravie, sévère) dit en français : « Le collier reste au palace, madame. »\n[3-6s] Corinne porte les ailes à son cou sans bijou, les invités applaudissent. Bruitage : applaudissements.\n[4.6-5.6s] CORINNE (voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup, hurlant) dit en français : « Mes diamants ! »\nAmbiance sonore : orchestre de jazz feutré, verres qui tintent, brouhaha d'invités, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 8,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Porte de service · PE",
+      "dialogues": [
+        {
+          "t": "0.3-1.8",
+          "qui": "Philippe",
+          "texte": "C'est fini, Corinne."
+        },
+        {
+          "t": "2.1-4.3",
+          "qui": "Corinne",
+          "texte": "Vous allez le regretter, tous !"
+        },
+        {
+          "t": "4.6-6.6",
+          "qui": "Martine",
+          "texte": "La porte de service, c'est par là, madame."
+        }
+      ],
+      "replique": "C'est fini, Corinne. Vous allez le regretter, tous ! La porte de service, c'est par là, madame.",
+      "parle": "philippe",
+      "texte_ecran": "",
+      "image": "Image 8 : plan d'ensemble qui montre tout le décor et les personnages en pied, personnage vu de dos. Décor : arrière du palace la nuit sous la pluie, porte de service métallique ouverte sur le couloir des cuisines carrelé, poubelles alignées, flaque sous un néon, personnel en uniforme massé dans l'embrasure. Lumière : lumière grise d'orage, éclairs par la fenêtre. Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant, robe longue pailletée argent, étole en plumes blanches, diadème en diamants : sort sous la pluie par la porte de service, une petite boîte à chaussures dans les ailes, maquillage qui coule. Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V, costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux : dans l'embrasure, immobile. Martine, oie blanche de 62 ans au plumage blanc impeccable, chignon de plumes grises tiré en arrière, petites lunettes en demi-lune au bout d'une chaînette, bec orange, tailleur noir de gouvernante générale, col blanc, trousseau de clés dorées à la ceinture : tient la porte ouverte, un parapluie fermé sous l'aile. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 8 FIN (dernière image du plan, quelques secondes plus tard) : plan américain, de la tête aux genoux, personnage vu de dos. Décor : arrière du palace la nuit sous la pluie, porte de service métallique ouverte sur le couloir des cuisines carrelé, poubelles alignées, flaque sous un néon, personnel en uniforme massé dans l'embrasure. Lumière : lumière grise d'orage, éclairs par la fenêtre. Martine, oie blanche de 62 ans au plumage blanc impeccable, chignon de plumes grises tiré en arrière, petites lunettes en demi-lune au bout d'une chaînette, bec orange, tailleur noir de gouvernante générale, col blanc, trousseau de clés dorées à la ceinture : au milieu du personnel qui applaudit dans le couloir des cuisines. Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V, costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux : referme lentement la porte métallique. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Corinne passe la porte de service sous la pluie. Caméra : travelling arrière qui révèle le décor. Bruitage : pluie battante.\n[0.3-1.8s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, définitif) dit en français : « C'est fini, Corinne. »\n[2.1-4.3s] CORINNE (voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup, rageuse, trempée) dit en français : « Vous allez le regretter, tous ! »\n[3-5s] Elle se retourne, furieuse, et pointe le personnel.\n[4.6-6.6s] MARTINE (voix de femme de 62 ans, aiguë, qui s'étrangle de surprise, faussement polie) dit en français : « La porte de service, c'est par là, madame. »\n[5-8s] Le personnel massé dans le couloir applaudit. Bruitage : applaudissements.\n[8-10s] Philippe referme la porte métallique. Bruitage : clang.\nAmbiance sonore : pluie battante, néon qui grésille, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 9,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Bureau de Philippe au dernier étage · PA",
+      "dialogues": [
+        {
+          "t": "0.3-1.6",
+          "qui": "Philippe",
+          "texte": "Oublie-la, Maxime."
+        },
+        {
+          "t": "1.8-4.0",
+          "qui": "Philippe",
+          "texte": "Ce soir, tu prends la place de son neveu."
+        },
+        {
+          "t": "4.2-6.4",
+          "qui": "Philippe",
+          "texte": "Directeur du palace. Trois cents employés sous tes ordres."
+        },
+        {
+          "t": "6.6-8.4",
+          "qui": "Philippe",
+          "texte": "Tu as les clés. Fais-moi honneur."
+        },
+        {
+          "t": "8.8-9.8",
+          "qui": "Maxime",
+          "texte": "On a réussi, monsieur."
+        }
+      ],
+      "replique": "Oublie-la, Maxime. Ce soir, tu prends la place de son neveu. Directeur du palace. Trois cents employés sous tes ordres. Tu as les clés. Fais-moi honneur. On a réussi, monsieur.",
+      "parle": "philippe",
+      "texte_ecran": "",
+      "image": "Image 9 : plan américain, de la tête aux genoux, caméra à hauteur des yeux. Décor : bureau du propriétaire au dernier étage du palace, boiseries acajou, cheminée allumée, fauteuils chesterfield bordeaux, bureau massif avec un verre de jus de raisin en cristal, grande baie vitrée sur Paris la nuit et la tour Eiffel au loin. Lumière : nuit, une seule lampe chaude, fortes ombres. Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V, costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux : tend un trousseau de clés dorées et un badge « DIRECTEUR », sourire paternel. Maxime, jeune castor de 22 ans au pelage brun chocolat, grandes incisives orange légèrement écartées, épi de poils rebelle sur le front, grands yeux noisette sincères, large queue plate, costume trois pièces bordeaux sur mesure, cravate dorée, badge doré rectangulaire « DIRECTEUR » épinglé sur la poitrine avec sa mini-caméra ronde noire au point rouge : en costume bordeaux neuf, les yeux pleins de larmes, n'ose pas prendre les clés. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : DIRECTEUR · 300 EMPLOYÉS. Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 9 FIN (dernière image du plan, quelques secondes plus tard) : très gros plan sur un objet ou une main, caméra à hauteur des yeux. Décor : bureau du propriétaire au dernier étage du palace, boiseries acajou, cheminée allumée, fauteuils chesterfield bordeaux, bureau massif avec un verre de jus de raisin en cristal, grande baie vitrée sur Paris la nuit et la tour Eiffel au loin. Lumière : nuit, une seule lampe chaude, fortes ombres. Maxime, jeune castor de 22 ans au pelage brun chocolat, grandes incisives orange légèrement écartées, épi de poils rebelle sur le front, grands yeux noisette sincères, large queue plate, costume trois pièces bordeaux sur mesure, cravate dorée, badge doré rectangulaire « DIRECTEUR » épinglé sur la poitrine avec sa mini-caméra ronde noire au point rouge : sa main serre enfin le trousseau de clés dorées. Gros plan sur le badge doré « DIRECTEUR » épinglé sur le costume bordeaux, son petit point rouge allumé. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : DIRECTEUR · 300 EMPLOYÉS. Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Philippe tend les clés et le badge à Maxime. Bruitage : feu qui crépite.\n[0.3-1.6s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, doux) dit en français : « Oublie-la, Maxime. »\n[1.8-4.0s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, fier) dit en français : « Ce soir, tu prends la place de son neveu. »\n[3-6s] Il épingle le badge DIRECTEUR sur le costume de Maxime. Caméra : lent travelling avant vers le visage.\n[4.2-6.4s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, solennel) dit en français : « Directeur du palace. Trois cents employés sous tes ordres. »\n[6-8s] Maxime essuie une larme et prend les clés.\n[6.6-8.4s] PHILIPPE (voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais, grave) dit en français : « Tu as les clés. Fais-moi honneur. »\n[8-10s] Ils se serrent la main devant la baie vitrée. Bruitage : petit ding.\n[8.8-9.8s] MAXIME (voix de jeune homme de 22 ans, douce et sincère, qui monte dans les aigus quand il panique, ému, la voix qui tremble) dit en français : « On a réussi, monsieur. »\nAmbiance sonore : feu qui crépite, horloge ancienne, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 10,
+      "duree": 6,
+      "role": "cliff",
+      "titre": "Porte de service · TGP",
+      "dialogues": [
+        {
+          "t": "0.3-2.0",
+          "qui": "Maxime",
+          "texte": "Madame. Vous avez perdu ça."
+        },
+        {
+          "t": "2.3-4.6",
+          "qui": "Maxime",
+          "texte": "Un pauvre, ça rend tout, madame."
+        }
+      ],
+      "replique": "Madame. Vous avez perdu ça. Un pauvre, ça rend tout, madame.",
+      "parle": "maxime",
+      "texte_ecran": "FIN",
+      "image": "Image 10 : très gros plan sur le visage, les yeux remplissent le cadre, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : arrière du palace la nuit sous la pluie, porte de service métallique ouverte sur le couloir des cuisines carrelé, poubelles alignées, flaque sous un néon, personnel en uniforme massé dans l'embrasure. Lumière : lumière grise d'orage, éclairs par la fenêtre. Maxime, jeune castor de 22 ans au pelage brun chocolat, grandes incisives orange légèrement écartées, épi de poils rebelle sur le front, grands yeux noisette sincères, large queue plate, costume trois pièces bordeaux sur mesure, cravate dorée, badge doré rectangulaire « DIRECTEUR » épinglé sur la poitrine avec sa mini-caméra ronde noire au point rouge : sous un parapluie, tend une boucle d'oreille en diamant dans sa paume ouverte, regard calme et digne. Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant, robe longue pailletée argent, étole en plumes blanches, diadème en diamants : trempée sur le trottoir, le maquillage coulé, regarde la boucle d'oreille, bouche bée. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics). Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Maxime tend la boucle d'oreille à Corinne sous la pluie. Caméra : ralenti dramatique d'une seconde puis reprise à vitesse normale. Bruitage : pluie.\n[0.3-2.0s] MAXIME (voix de jeune homme de 22 ans, douce et sincère, qui monte dans les aigus quand il panique, calme, poli) dit en français : « Madame. Vous avez perdu ça. »\n[2.3-4.6s] MAXIME (voix de jeune homme de 22 ans, douce et sincère, qui monte dans les aigus quand il panique, digne, sans colère) dit en français : « Un pauvre, ça rend tout, madame. »\n[3-6s] Il tourne les talons et rentre dans le palace, Corinne reste seule. Bruitage : porte qui claque.\nAmbiance sonore : pluie battante, néon qui grésille, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    }
+  ],
+  "titre_couverture": "« C'est de l'IA ! » Vraiment ?",
+  "publication": "Elle a juré que la vidéo était fausse… sauf qu'il y en avait une deuxième 😏 Fin de l'histoire du bagagiste honnête.\n\n#partie3 #histoire #palace #animaux #ia #karma",
+  "commentaire": "La fin parfaite ? 🔥 Oui, elle a eu ce qu'elle méritait / 😇 Maxime est trop gentil de rendre la boucle",
+  "texte_accroche": "Ce soir, la voleuse tombe",
+  "hooks_alternatifs": [
+    "À mon mari, qui ne voit jamais rien. Il a tout vu.",
+    "Elle a crié « c'est de l'IA ». Il avait une deuxième vidéo.",
+    "Elle a traité le bagagiste de voleur. Ce soir, il devient directeur."
+  ],
+  "question_milieu": {
+    "plan": 6,
+    "texte": "Tu l'avais vu venir, le coup du badge ? 🦁"
+  },
+  "duree_totale": 80,
+  "adaptation": {
+    "source": "7631645319159172374",
+    "vues": null,
+    "lien": "https://www.tiktok.com/@onlyfrubidi_off/video/7631645319159172374",
+    "transposition": "Partie 3 : l'agonie de la femme devient sa chute en public au gala ; le patron qui regarde sur ses écrans devient le patron qui projette la vidéo du badge caché ; la promotion (directeur, clés, chiffres) est gardée telle quelle ; le kicker amer « le silence est lourd » est remplacé par la boucle d'oreille rendue.",
+    "ameliorations": [
+      "Karma sans meurtre : démasquée devant 200 invités, collier saisi, sortie par la porte de service sous les applaudissements",
+      "Double twist : « Et celle-là aussi, c'est l'IA, chérie ? » + Philippe l'avait crue exprès pour la piéger",
+      "Callback final : Maxime rend une boucle d'oreille à Corinne, « Un pauvre, ça rend tout, madame »",
+      "Gros chiffres lisibles : collier 180 000 €, badge DIRECTEUR, 300 employés"
+    ],
+    "coupees": [
+      "r1",
+      "r13"
+    ],
+    "lignes": [
+      {
+        "n": 1,
+        "qui": "Corinne",
+        "texte": "À mon mari, qui ne voit jamais rien !",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 1,
+        "qui": "Corinne",
+        "texte": "Et au personnel : un pauvre, ça garde tout !",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 2,
+        "qui": "Philippe",
+        "texte": "Ce soir, je nomme le nouveau directeur du palace.",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 2,
+        "qui": "Corinne",
+        "texte": "Mon neveu, évidemment.",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 2,
+        "qui": "Philippe",
+        "texte": "Mais d'abord, un petit film.",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 2,
+        "qui": "Maxime",
+        "texte": "Le film de mon badge ?!",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 3,
+        "qui": "Corinne",
+        "texte": "Qu'est-ce que c'est que ça ?!",
+        "original": "Qu'est-ce qui m'arrive ?",
+        "qui_original": "femme",
+        "r": "r2"
+      },
+      {
+        "n": 3,
+        "qui": "Corinne",
+        "texte": "C'est la fausse vidéo ! C'est de l'IA !",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 4,
+        "qui": "Philippe",
+        "texte": "Et celle-là aussi, c'est l'IA, chérie ?",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 4,
+        "qui": "Corinne",
+        "texte": "Le vieux lion a tout gobé !",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 4,
+        "qui": "Corinne",
+        "texte": "Ce vieux lion ne verra jamais rien.",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 4,
+        "qui": "Martine",
+        "texte": "Oh, la vipère !",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 4,
+        "qui": "Philippe",
+        "texte": "Il a tout vu, le vieux lion.",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 5,
+        "qui": "Corinne",
+        "texte": "Aidez-moi ! Dites-lui que c'est faux !",
+        "original": "Quelqu'un, aidez-moi !",
+        "qui_original": "femme",
+        "r": "r3"
+      },
+      {
+        "n": 5,
+        "qui": "Philippe",
+        "texte": "Tu te croyais plus maligne que moi ?",
+        "original": "Elle pensait être plus maligne que nous.",
+        "qui_original": "patron",
+        "r": "r4"
+      },
+      {
+        "n": 5,
+        "qui": "Corinne",
+        "texte": "Mon chat...",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 6,
+        "qui": "Philippe",
+        "texte": "J'ai cru Maxime dès la première seconde.",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 6,
+        "qui": "Philippe",
+        "texte": "Je t'ai crue une semaine. Pour voir jusqu'où tu irais.",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 6,
+        "qui": "Philippe",
+        "texte": "Ces diamants, tu les as payés avec mon coffre.",
+        "original": "Elle meurt dans le luxe qu'elle nous a volé.",
+        "qui_original": "patron",
+        "r": "r5"
+      },
+      {
+        "n": 6,
+        "qui": "Corinne",
+        "texte": "Philippe, je...",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 7,
+        "qui": "Philippe",
+        "texte": "Ce soir, tu repars seule.",
+        "original": "Mais elle meurt seule.",
+        "qui_original": "patron",
+        "r": "r6"
+      },
+      {
+        "n": 7,
+        "qui": "Martine",
+        "texte": "Le collier reste au palace, madame.",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 7,
+        "qui": "Corinne",
+        "texte": "Mes diamants !",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 8,
+        "qui": "Philippe",
+        "texte": "C'est fini, Corinne.",
+        "original": "C'est fini.",
+        "qui_original": "patron",
+        "r": "r7"
+      },
+      {
+        "n": 8,
+        "qui": "Corinne",
+        "texte": "Vous allez le regretter, tous !",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 8,
+        "qui": "Martine",
+        "texte": "La porte de service, c'est par là, madame.",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 9,
+        "qui": "Philippe",
+        "texte": "Oublie-la, Maxime.",
+        "original": "Oublie-la.",
+        "qui_original": "patron",
+        "r": "r8"
+      },
+      {
+        "n": 9,
+        "qui": "Philippe",
+        "texte": "Ce soir, tu prends la place de son neveu.",
+        "original": "Aujourd'hui, prends sa place.",
+        "qui_original": "patron",
+        "r": "r9"
+      },
+      {
+        "n": 9,
+        "qui": "Philippe",
+        "texte": "Directeur du palace. Trois cents employés sous tes ordres.",
+        "original": "Cinq millions de capital, mille ouvriers sous tes ordres.",
+        "qui_original": "patron",
+        "r": "r10"
+      },
+      {
+        "n": 9,
+        "qui": "Philippe",
+        "texte": "Tu as les clés. Fais-moi honneur.",
+        "original": "La mine est à toi. Ne déçois pas.",
+        "qui_original": "patron",
+        "r": "r11"
+      },
+      {
+        "n": 9,
+        "qui": "Maxime",
+        "texte": "On a réussi, monsieur.",
+        "original": "On a gagné, patron.",
+        "qui_original": "banane",
+        "r": "r12"
+      },
+      {
+        "n": 10,
+        "qui": "Maxime",
+        "texte": "Madame. Vous avez perdu ça.",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      },
+      {
+        "n": 10,
+        "qui": "Maxime",
+        "texte": "Un pauvre, ça rend tout, madame.",
+        "original": "",
+        "qui_original": "",
+        "r": "ajout"
+      }
+    ]
+  }
+}

@@ -123,5 +123,70 @@
     ],
     "resume": "Maxime montre la vidéo de son badge : on entend Corinne garder les 5 000 €. Mais Corinne crie à la fausse vidéo faite avec l'IA, et Philippe semble la croire : il garde le badge et condamne Maxime à servir au gala en tablier. Le soir, Corinne se moque de son mari au téléphone et prévoit de vider le coffre. Elle ne voit pas que le badge de Maxime est caché dans le cadre du coffre et la filme.",
     "fin": "Corinne jure que le vieux lion ne verra jamais rien ; zoom sur le badge de Maxime caché dans le cadre du coffre, point rouge allumé."
+  },
+  {
+    "numero": 3,
+    "titre": "Le gala",
+    "format": "évènement public",
+    "accroche_type": "insulte choc",
+    "cliff_type": "twist final",
+    "centre": "philippe",
+    "lieu_principal": "salle_gala",
+    "lieux": [
+      "bureau",
+      "porte_service",
+      "salle_gala"
+    ],
+    "fils_avances": [
+      "faux_semblant",
+      "coffre_vide",
+      "test_enveloppe"
+    ],
+    "revele": [
+      "faux_semblant"
+    ],
+    "temps_parole": {
+      "corinne": 12,
+      "philippe": 14,
+      "maxime": 4,
+      "martine": 3
+    },
+    "repliques": [
+      "À mon mari, qui ne voit jamais rien !",
+      "Et au personnel : un pauvre, ça garde tout !",
+      "Ce soir, je nomme le nouveau directeur du palace.",
+      "Mon neveu, évidemment.",
+      "Mais d'abord, un petit film.",
+      "Le film de mon badge ?!",
+      "Qu'est-ce que c'est que ça ?!",
+      "C'est la fausse vidéo ! C'est de l'IA !",
+      "Et celle-là aussi, c'est l'IA, chérie ?",
+      "Le vieux lion a tout gobé !",
+      "Ce vieux lion ne verra jamais rien.",
+      "Oh, la vipère !",
+      "Il a tout vu, le vieux lion.",
+      "Aidez-moi ! Dites-lui que c'est faux !",
+      "Tu te croyais plus maligne que moi ?",
+      "Mon chat...",
+      "J'ai cru Maxime dès la première seconde.",
+      "Je t'ai crue une semaine. Pour voir jusqu'où tu irais.",
+      "Ces diamants, tu les as payés avec mon coffre.",
+      "Philippe, je...",
+      "Ce soir, tu repars seule.",
+      "Le collier reste au palace, madame.",
+      "Mes diamants !",
+      "C'est fini, Corinne.",
+      "Vous allez le regretter, tous !",
+      "La porte de service, c'est par là, madame.",
+      "Oublie-la, Maxime.",
+      "Ce soir, tu prends la place de son neveu.",
+      "Directeur du palace. Trois cents employés sous tes ordres.",
+      "Tu as les clés. Fais-moi honneur.",
+      "On a réussi, monsieur.",
+      "Madame. Vous avez perdu ça.",
+      "Un pauvre, ça rend tout, madame."
+    ],
+    "resume": "Au gala, Corinne trinque à son mari « qui ne voit jamais rien » et humilie Maxime, serveur en tablier. Philippe projette la vidéo du badge ; Corinne crie à l'IA. « Et celle-là aussi, c'est l'IA, chérie ? » : la vidéo du coffre, filmée par le badge caché, la montre se moquer de lui. Philippe avait cru Maxime dès le début. Corinne perd son collier, sort par la porte de service sous les applaudissements, et Maxime devient directeur. Sous la pluie, il lui rend sa boucle d'oreille : « Un pauvre, ça rend tout, madame. »",
+    "fin": "Sous la pluie, Maxime, directeur, rend sa boucle d'oreille à Corinne : « Un pauvre, ça rend tout, madame. »"
   }
 ]
