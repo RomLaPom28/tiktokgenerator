@@ -17,6 +17,7 @@ Pour chaque vidéo, crée analyses/<id>/ :
 import argparse
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -64,11 +65,34 @@ def telecharger(url):
     return mp4, (json.loads(info.read_text(encoding="utf-8")) if info else {})
 
 
+def coupes_en_fondu(mp4, seuil=15, ecart=15):
+    """Compare chaque image à celle d'il y a 0,5 s : un pic = un fondu enchaîné entre deux plans."""
+    import numpy as np
+    w, h = 36, 64
+    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(mp4), "-vf", f"scale={w}:{h},format=gray",
+                          "-f", "rawvideo", "-"], capture_output=True).stdout
+    fps = 30.0
+    out = run(["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries", "stream=r_frame_rate", "-of", "csv=p=0", str(mp4)])
+    a_, _, b_ = out.strip().splitlines()[0].partition("/")
+    fps = float(a_) / float(b_ or 1)
+    a = np.frombuffer(raw, np.uint8).reshape(-1, h, w).astype(float)
+    d = np.zeros(len(a))
+    d[ecart:] = np.abs(a[ecart:] - a[:-ecart]).mean(axis=(1, 2))
+    coupes, der = [], -10 ** 9
+    for i in range(1, len(d) - 1):
+        if d[i] >= seuil and d[i] == d[max(0, i - ecart):i + ecart + 1].max() and i - der > fps:
+            coupes.append(round((i - ecart / 2) / fps, 2))
+            der = i
+    return coupes
+
+
 def detecter_plans(mp4, total):
     out = run(["ffmpeg", "-hide_banner", "-i", str(mp4), "-vf",
                "select='gt(scene,0.28)',showinfo", "-an", "-f", "null", "-"])
     coupes = [float(t) for t in re.findall(r"pts_time:([\d.]+)", out)]
     coupes = [c for i, c in enumerate(coupes) if c > 0.3 and (i == 0 or c - coupes[i - 1] > 0.4)]
+    if len(coupes) < total / 12:  # montage en fondus (0,3-0,8 s) : invisible pour le filtre scene
+        coupes = coupes_en_fondu(mp4)
     bornes = [0.0] + coupes + [total]
     plans = [{"n": i + 1, "debut": round(a, 2), "fin": round(b, 2), "duree": round(b - a, 2)}
              for i, (a, b) in enumerate(zip(bornes, bornes[1:])) if b - a > 0.2]
@@ -134,7 +158,11 @@ def analyser(url):
     if a_un_son(mp4):
         wav = dos / "_audio.wav"
         run(["ffmpeg", "-hide_banner", "-y", "-i", str(mp4), "-ac", "1", "-ar", "16000", str(wav)])
-        tr = whisper(wav)
+        try:
+            tr = whisper(wav)
+        except ImportError:  # cloud sans faster-whisper : découpage et planches quand même
+            print("   (faster-whisper absent : transcription à faire depuis les sous-titres incrustés)")
+            tr = {"langue": None, "phrases": [], "mots": [], "manquante": True}
         wav.unlink()
     else:
         tr = {"langue": None, "phrases": [], "mots": []}

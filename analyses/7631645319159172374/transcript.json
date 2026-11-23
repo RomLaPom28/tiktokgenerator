@@ -1,0 +1,398 @@
+{
+  "langue": "fr",
+  "origine": "sous-titres incrustés lus image par image (pas de whisper)",
+  "phrases": [
+    {
+      "debut": 0.5,
+      "fin": 1.7,
+      "texte": "J'ai le corps qui brûle."
+    },
+    {
+      "debut": 8.5,
+      "fin": 9.6,
+      "texte": "Qu'est-ce qui m'arrive ?"
+    },
+    {
+      "debut": 9.7,
+      "fin": 11.5,
+      "texte": "Quelqu'un, aidez-moi !"
+    },
+    {
+      "debut": 18.5,
+      "fin": 20.4,
+      "texte": "Elle pensait être plus maligne que nous."
+    },
+    {
+      "debut": 21.8,
+      "fin": 24.0,
+      "texte": "Elle meurt dans le luxe qu'elle nous a volé."
+    },
+    {
+      "debut": 24.3,
+      "fin": 25.5,
+      "texte": "Mais elle meurt seule."
+    },
+    {
+      "debut": 30.9,
+      "fin": 31.6,
+      "texte": "C'est fini."
+    },
+    {
+      "debut": 32.3,
+      "fin": 32.8,
+      "texte": "Oublie-la."
+    },
+    {
+      "debut": 33.3,
+      "fin": 34.4,
+      "texte": "Aujourd'hui, prends sa place."
+    },
+    {
+      "debut": 35.0,
+      "fin": 37.9,
+      "texte": "Cinq millions de capital, mille ouvriers sous tes ordres."
+    },
+    {
+      "debut": 38.7,
+      "fin": 40.3,
+      "texte": "La mine est à toi. Ne déçois pas."
+    },
+    {
+      "debut": 47.5,
+      "fin": 48.8,
+      "texte": "On a gagné, patron."
+    },
+    {
+      "debut": 49.3,
+      "fin": 50.8,
+      "texte": "Mais le silence est lourd."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.5,
+      "fin": 0.74,
+      "mot": "J'ai"
+    },
+    {
+      "debut": 0.74,
+      "fin": 0.98,
+      "mot": "le"
+    },
+    {
+      "debut": 0.98,
+      "fin": 1.22,
+      "mot": "corps"
+    },
+    {
+      "debut": 1.22,
+      "fin": 1.46,
+      "mot": "qui"
+    },
+    {
+      "debut": 1.46,
+      "fin": 1.7,
+      "mot": "brûle."
+    },
+    {
+      "debut": 8.5,
+      "fin": 8.78,
+      "mot": "Qu'est-ce"
+    },
+    {
+      "debut": 8.78,
+      "fin": 9.05,
+      "mot": "qui"
+    },
+    {
+      "debut": 9.05,
+      "fin": 9.32,
+      "mot": "m'arrive"
+    },
+    {
+      "debut": 9.32,
+      "fin": 9.6,
+      "mot": "?"
+    },
+    {
+      "debut": 9.7,
+      "fin": 10.3,
+      "mot": "Quelqu'un,"
+    },
+    {
+      "debut": 10.3,
+      "fin": 10.9,
+      "mot": "aidez-moi"
+    },
+    {
+      "debut": 10.9,
+      "fin": 11.5,
+      "mot": "!"
+    },
+    {
+      "debut": 18.5,
+      "fin": 18.77,
+      "mot": "Elle"
+    },
+    {
+      "debut": 18.77,
+      "fin": 19.04,
+      "mot": "pensait"
+    },
+    {
+      "debut": 19.04,
+      "fin": 19.31,
+      "mot": "être"
+    },
+    {
+      "debut": 19.31,
+      "fin": 19.59,
+      "mot": "plus"
+    },
+    {
+      "debut": 19.59,
+      "fin": 19.86,
+      "mot": "maligne"
+    },
+    {
+      "debut": 19.86,
+      "fin": 20.13,
+      "mot": "que"
+    },
+    {
+      "debut": 20.13,
+      "fin": 20.4,
+      "mot": "nous."
+    },
+    {
+      "debut": 21.8,
+      "fin": 22.04,
+      "mot": "Elle"
+    },
+    {
+      "debut": 22.04,
+      "fin": 22.29,
+      "mot": "meurt"
+    },
+    {
+      "debut": 22.29,
+      "fin": 22.53,
+      "mot": "dans"
+    },
+    {
+      "debut": 22.53,
+      "fin": 22.78,
+      "mot": "le"
+    },
+    {
+      "debut": 22.78,
+      "fin": 23.02,
+      "mot": "luxe"
+    },
+    {
+      "debut": 23.02,
+      "fin": 23.27,
+      "mot": "qu'elle"
+    },
+    {
+      "debut": 23.27,
+      "fin": 23.51,
+      "mot": "nous"
+    },
+    {
+      "debut": 23.51,
+      "fin": 23.76,
+      "mot": "a"
+    },
+    {
+      "debut": 23.76,
+      "fin": 24.0,
+      "mot": "volé."
+    },
+    {
+      "debut": 24.3,
+      "fin": 24.6,
+      "mot": "Mais"
+    },
+    {
+      "debut": 24.6,
+      "fin": 24.9,
+      "mot": "elle"
+    },
+    {
+      "debut": 24.9,
+      "fin": 25.2,
+      "mot": "meurt"
+    },
+    {
+      "debut": 25.2,
+      "fin": 25.5,
+      "mot": "seule."
+    },
+    {
+      "debut": 30.9,
+      "fin": 31.25,
+      "mot": "C'est"
+    },
+    {
+      "debut": 31.25,
+      "fin": 31.6,
+      "mot": "fini."
+    },
+    {
+      "debut": 32.3,
+      "fin": 32.8,
+      "mot": "Oublie-la."
+    },
+    {
+      "debut": 33.3,
+      "fin": 33.57,
+      "mot": "Aujourd'hui,"
+    },
+    {
+      "debut": 33.57,
+      "fin": 33.85,
+      "mot": "prends"
+    },
+    {
+      "debut": 33.85,
+      "fin": 34.12,
+      "mot": "sa"
+    },
+    {
+      "debut": 34.12,
+      "fin": 34.4,
+      "mot": "place."
+    },
+    {
+      "debut": 35.0,
+      "fin": 35.32,
+      "mot": "Cinq"
+    },
+    {
+      "debut": 35.32,
+      "fin": 35.64,
+      "mot": "millions"
+    },
+    {
+      "debut": 35.64,
+      "fin": 35.97,
+      "mot": "de"
+    },
+    {
+      "debut": 35.97,
+      "fin": 36.29,
+      "mot": "capital,"
+    },
+    {
+      "debut": 36.29,
+      "fin": 36.61,
+      "mot": "mille"
+    },
+    {
+      "debut": 36.61,
+      "fin": 36.93,
+      "mot": "ouvriers"
+    },
+    {
+      "debut": 36.93,
+      "fin": 37.26,
+      "mot": "sous"
+    },
+    {
+      "debut": 37.26,
+      "fin": 37.58,
+      "mot": "tes"
+    },
+    {
+      "debut": 37.58,
+      "fin": 37.9,
+      "mot": "ordres."
+    },
+    {
+      "debut": 38.7,
+      "fin": 38.9,
+      "mot": "La"
+    },
+    {
+      "debut": 38.9,
+      "fin": 39.1,
+      "mot": "mine"
+    },
+    {
+      "debut": 39.1,
+      "fin": 39.3,
+      "mot": "est"
+    },
+    {
+      "debut": 39.3,
+      "fin": 39.5,
+      "mot": "à"
+    },
+    {
+      "debut": 39.5,
+      "fin": 39.7,
+      "mot": "toi."
+    },
+    {
+      "debut": 39.7,
+      "fin": 39.9,
+      "mot": "Ne"
+    },
+    {
+      "debut": 39.9,
+      "fin": 40.1,
+      "mot": "déçois"
+    },
+    {
+      "debut": 40.1,
+      "fin": 40.3,
+      "mot": "pas."
+    },
+    {
+      "debut": 47.5,
+      "fin": 47.83,
+      "mot": "On"
+    },
+    {
+      "debut": 47.83,
+      "fin": 48.15,
+      "mot": "a"
+    },
+    {
+      "debut": 48.15,
+      "fin": 48.47,
+      "mot": "gagné,"
+    },
+    {
+      "debut": 48.47,
+      "fin": 48.8,
+      "mot": "patron."
+    },
+    {
+      "debut": 49.3,
+      "fin": 49.6,
+      "mot": "Mais"
+    },
+    {
+      "debut": 49.6,
+      "fin": 49.9,
+      "mot": "le"
+    },
+    {
+      "debut": 49.9,
+      "fin": 50.2,
+      "mot": "silence"
+    },
+    {
+      "debut": 50.2,
+      "fin": 50.5,
+      "mot": "est"
+    },
+    {
+      "debut": 50.5,
+      "fin": 50.8,
+      "mot": "lourd."
+    }
+  ]
+}

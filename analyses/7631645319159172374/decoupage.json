@@ -1,0 +1,209 @@
+{
+  "id": "7631645319159172374",
+  "meta": {
+    "id": "7631645319159172374",
+    "url": "https://www.tiktok.com/@onlyfrubidi_off/video/7631645319159172374",
+    "compte": "onlyfrubidi_off",
+    "description": null,
+    "vues": null,
+    "likes": null,
+    "commentaires": null,
+    "partages": null,
+    "date": null,
+    "duree": 64.5,
+    "musique": null
+  },
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 1.73,
+      "duree": 1.73,
+      "repliques": [
+        {
+          "r": "r1",
+          "t": "0.5-1.7",
+          "texte": "J'ai le corps qui brûle."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "debut": 1.73,
+      "fin": 4.02,
+      "duree": 2.29,
+      "repliques": []
+    },
+    {
+      "n": 3,
+      "debut": 4.02,
+      "fin": 7.31,
+      "duree": 3.29,
+      "repliques": []
+    },
+    {
+      "n": 4,
+      "debut": 7.31,
+      "fin": 13.4,
+      "duree": 6.09,
+      "repliques": [
+        {
+          "r": "r2",
+          "t": "8.5-9.6",
+          "texte": "Qu'est-ce qui m'arrive ?"
+        },
+        {
+          "r": "r3",
+          "t": "9.7-11.5",
+          "texte": "Quelqu'un, aidez-moi !"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "debut": 13.4,
+      "fin": 17.98,
+      "duree": 4.58,
+      "repliques": []
+    },
+    {
+      "n": 6,
+      "debut": 17.98,
+      "fin": 27.44,
+      "duree": 9.46,
+      "repliques": [
+        {
+          "r": "r4",
+          "t": "18.5-20.4",
+          "texte": "Elle pensait être plus maligne que nous."
+        },
+        {
+          "r": "r5",
+          "t": "21.8-24.0",
+          "texte": "Elle meurt dans le luxe qu'elle nous a volé."
+        },
+        {
+          "r": "r6",
+          "t": "24.3-25.5",
+          "texte": "Mais elle meurt seule."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "debut": 27.44,
+      "fin": 29.77,
+      "duree": 2.33,
+      "repliques": []
+    },
+    {
+      "n": 8,
+      "debut": 29.77,
+      "fin": 34.81,
+      "duree": 5.04,
+      "repliques": [
+        {
+          "r": "r7",
+          "t": "30.9-31.6",
+          "texte": "C'est fini."
+        },
+        {
+          "r": "r8",
+          "t": "32.3-32.8",
+          "texte": "Oublie-la."
+        },
+        {
+          "r": "r9",
+          "t": "33.3-34.4",
+          "texte": "Aujourd'hui, prends sa place."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "debut": 34.81,
+      "fin": 39.56,
+      "duree": 4.75,
+      "repliques": [
+        {
+          "r": "r10",
+          "t": "35.0-37.9",
+          "texte": "Cinq millions de capital, mille ouvriers sous tes ordres."
+        },
+        {
+          "r": "r11",
+          "t": "38.7-40.3",
+          "texte": "La mine est à toi. Ne déçois pas."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "debut": 39.56,
+      "fin": 42.31,
+      "duree": 2.75,
+      "repliques": []
+    },
+    {
+      "n": 11,
+      "debut": 42.31,
+      "fin": 44.23,
+      "duree": 1.92,
+      "repliques": []
+    },
+    {
+      "n": 12,
+      "debut": 44.23,
+      "fin": 45.35,
+      "duree": 1.12,
+      "repliques": []
+    },
+    {
+      "n": 13,
+      "debut": 45.35,
+      "fin": 47.19,
+      "duree": 1.84,
+      "repliques": []
+    },
+    {
+      "n": 14,
+      "debut": 47.19,
+      "fin": 48.4,
+      "duree": 1.21,
+      "repliques": [
+        {
+          "r": "r12",
+          "t": "47.5-48.8",
+          "texte": "On a gagné, patron."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "debut": 48.4,
+      "fin": 53.69,
+      "duree": 5.29,
+      "repliques": [
+        {
+          "r": "r13",
+          "t": "49.3-50.8",
+          "texte": "Mais le silence est lourd."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "debut": 53.69,
+      "fin": 60.69,
+      "duree": 7.0,
+      "repliques": []
+    },
+    {
+      "n": 17,
+      "debut": 60.69,
+      "fin": 64.54,
+      "duree": 3.85,
+      "repliques": []
+    }
+  ]
+}

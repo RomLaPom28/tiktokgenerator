@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "id": "7631273993353301270",
+    "url": "https://www.tiktok.com/@onlyfrubidi_off/video/7631273993353301270",
+    "compte": "onlyfrubidi_off",
+    "description": null,
+    "vues": null,
+    "likes": null,
+    "commentaires": null,
+    "partages": null,
+    "date": null,
+    "duree": 64.2,
+    "musique": null
+  },
+  "langue": "fr",
+  "texte_complet": "Ma femme m'a juré que t'avais gardé l'argent pour toi, Banane. Elle m'a dit que t'étais qu'un p'tit voleur. Elle vous a bien baladé, patron. C'est elle, la vraie michto. Regardez mon téléphone. Cette fois-ci, vous allez voir qu'elle vous a menti. Cet argent est pour moi. Je dirai qu'il n'a rien rendu du tout. Elle a cru qu'elle allait m'entuber pour s'acheter des bijoux. Cette michto a oublié à qui elle parlait. On va lui faire une surprise qu'elle n'oubliera jamais. Oui patron. Personne ne ment au patron. On ne lui laisse aucune issue. Elle doit sentir le froid avant de sentir la douleur. Qu'est-ce qui m'arrive ? J'ai le corps qui brûle.",
+  "accroche_3s": "Ma femme m'a juré que t'avais gardé l'argent pour toi, Banane.",
+  "fin_5s": "",
+  "mots_par_seconde": 1.78,
+  "premier_mot_a": 0.1,
+  "nombre_plans": 16,
+  "duree_moyenne_plan": 4.01,
+  "phrases": [
+    {
+      "debut": 0.1,
+      "fin": 2.3,
+      "texte": "Ma femme m'a juré que t'avais gardé l'argent pour toi, Banane."
+    },
+    {
+      "debut": 3.0,
+      "fin": 4.6,
+      "texte": "Elle m'a dit que t'étais qu'un p'tit voleur."
+    },
+    {
+      "debut": 5.3,
+      "fin": 6.6,
+      "texte": "Elle vous a bien baladé, patron."
+    },
+    {
+      "debut": 7.3,
+      "fin": 8.4,
+      "texte": "C'est elle, la vraie michto."
+    },
+    {
+      "debut": 9.1,
+      "fin": 11.2,
+      "texte": "Regardez mon téléphone. Cette fois-ci, vous allez voir qu'elle vous a menti."
+    },
+    {
+      "debut": 12.2,
+      "fin": 13.3,
+      "texte": "Cet argent est pour moi."
+    },
+    {
+      "debut": 13.7,
+      "fin": 15.4,
+      "texte": "Je dirai qu'il n'a rien rendu du tout."
+    },
+    {
+      "debut": 20.0,
+      "fin": 22.2,
+      "texte": "Elle a cru qu'elle allait m'entuber pour s'acheter des bijoux."
+    },
+    {
+      "debut": 23.1,
+      "fin": 25.0,
+      "texte": "Cette michto a oublié à qui elle parlait."
+    },
+    {
+      "debut": 25.7,
+      "fin": 28.2,
+      "texte": "On va lui faire une surprise qu'elle n'oubliera jamais."
+    },
+    {
+      "debut": 28.5,
+      "fin": 31.0,
+      "texte": "Oui patron. Personne ne ment au patron."
+    },
+    {
+      "debut": 40.6,
+      "fin": 42.2,
+      "texte": "On ne lui laisse aucune issue."
+    },
+    {
+      "debut": 42.5,
+      "fin": 45.1,
+      "texte": "Elle doit sentir le froid avant de sentir la douleur."
+    },
+    {
+      "debut": 49.8,
+      "fin": 51.0,
+      "texte": "Qu'est-ce qui m'arrive ?"
+    },
+    {
+      "debut": 51.9,
+      "fin": 53.1,
+      "texte": "J'ai le corps qui brûle."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 4.52,
+      "duree": 4.52
+    },
+    {
+      "n": 2,
+      "debut": 4.52,
+      "fin": 11.73,
+      "duree": 7.21
+    },
+    {
+      "n": 3,
+      "debut": 11.73,
+      "fin": 16.44,
+      "duree": 4.71
+    },
+    {
+      "n": 4,
+      "debut": 16.44,
+      "fin": 19.35,
+      "duree": 2.91
+    },
+    {
+      "n": 5,
+      "debut": 19.35,
+      "fin": 25.15,
+      "duree": 5.8
+    },
+    {
+      "n": 6,
+      "debut": 25.15,
+      "fin": 31.27,
+      "duree": 6.12
+    },
+    {
+      "n": 7,
+      "debut": 31.27,
+      "fin": 32.31,
+      "duree": 1.04
+    },
+    {
+      "n": 8,
+      "debut": 32.31,
+      "fin": 35.81,
+      "duree": 3.5
+    },
+    {
+      "n": 9,
+      "debut": 35.81,
+      "fin": 37.94,
+      "duree": 2.13
+    },
+    {
+      "n": 10,
+      "debut": 37.94,
+      "fin": 40.6,
+      "duree": 2.66
+    },
+    {
+      "n": 11,
+      "debut": 40.6,
+      "fin": 49.44,
+      "duree": 8.84
+    },
+    {
+      "n": 12,
+      "debut": 49.44,
+      "fin": 52.98,
+      "duree": 3.54
+    },
+    {
+      "n": 13,
+      "debut": 52.98,
+      "fin": 55.23,
+      "duree": 2.25
+    },
+    {
+      "n": 14,
+      "debut": 55.23,
+      "fin": 58.6,
+      "duree": 3.37
+    },
+    {
+      "n": 15,
+      "debut": 58.6,
+      "fin": 60.35,
+      "duree": 1.75
+    },
+    {
+      "n": 16,
+      "debut": 60.35,
+      "fin": 64.21,
+      "duree": 3.86
+    }
+  ]
+}

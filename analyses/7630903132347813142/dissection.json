@@ -1,0 +1,349 @@
+{
+  "source": {
+    "id": "7630903132347813142",
+    "lien": "https://www.tiktok.com/@onlyfrubidi_off/video/7630903132347813142",
+    "compte": "onlyfrubidi_off",
+    "partie": 1,
+    "serie": [
+      "7630903132347813142",
+      "7631273993353301270",
+      "7631645319159172374"
+    ],
+    "vues": null,
+    "taux_likes": null,
+    "duree": 64.4,
+    "plans": 15,
+    "transcription": "sous-titres incrustés lus image par image"
+  },
+  "personnages": [
+    {
+      "id": "banane",
+      "nom_source": "Banane",
+      "animal_ou_fruit": "banane",
+      "role": "heros",
+      "look": "homme-banane tacheté, salopette en jean usée, casque de mineur orange ; en partie 3 costume rayé de directeur",
+      "voix": "humble, inquiète",
+      "caractere": "ouvrier pauvre et honnête, famille qui a faim, maison en ruine",
+      "nb_repliques": 6,
+      "plans": [
+        2,
+        5,
+        12,
+        14
+      ]
+    },
+    {
+      "id": "patron",
+      "nom_source": "Le patron",
+      "animal_ou_fruit": "grenade",
+      "role": "allie",
+      "look": "homme à tête de grenade rouge sombre, costume trois pièces gris puis noir, gants rouges ; en partie 2 blouson de cuir noir",
+      "voix": "grave, froide",
+      "caractere": "riche patron de mine, teste l'honnêteté de ses ouvriers, impitoyable avec les traîtres",
+      "nb_repliques": 7,
+      "plans": [
+        1,
+        3,
+        9,
+        10,
+        11,
+        13
+      ]
+    },
+    {
+      "id": "femme",
+      "nom_source": "(femme du patron)",
+      "animal_ou_fruit": "myrtille",
+      "role": "mechant",
+      "look": "femme à tête de myrtille bleue, robe de soirée en satin rouge puis bleu nuit pailletée, colliers de perles",
+      "voix": "mielleuse puis cassante",
+      "caractere": "cupide, méprise les ouvriers, vole l'argent rendu et accuse l'ouvrier",
+      "nb_repliques": 6,
+      "plans": [
+        4,
+        6,
+        7,
+        9
+      ]
+    }
+  ],
+  "decors": [
+    {
+      "id": "mine",
+      "desc": "galerie de mine éclairée de lanternes, table en bois couverte de liasses et d'enveloppes « PAIEMENT », file d'ouvriers-bananes casqués",
+      "textes_lisibles": [
+        "PAIEMENT"
+      ]
+    },
+    {
+      "id": "cabane",
+      "desc": "cabane en planches délabrée, fenêtre cassée, nuit bleutée",
+      "textes_lisibles": []
+    },
+    {
+      "id": "salon",
+      "desc": "salon de manoir, cheminée, fauteuils chesterfield rouges, verre de whisky, lustre",
+      "textes_lisibles": []
+    },
+    {
+      "id": "perron",
+      "desc": "perron du manoir la nuit, grande porte en bois, lanternes, mosaïque au sol",
+      "textes_lisibles": []
+    },
+    {
+      "id": "coffre",
+      "desc": "bureau lambrissé, tableau doré du patron pivoté qui révèle un coffre-fort plein de liasses",
+      "textes_lisibles": []
+    },
+    {
+      "id": "bureau",
+      "desc": "bureau du patron : bibliothèque, lampe verte, mur d'écrans de vidéosurveillance, téléphone à cadran, carafe",
+      "textes_lisibles": [
+        "LIVE FEED CAM 01 BEDROOM",
+        "DIRECTOR",
+        "OFFSHORE GLOBAL HOLDINGS €500,000,000"
+      ]
+    },
+    {
+      "id": "tour",
+      "desc": "appartement en haut d'une tour, baie vitrée sur la ville de nuit",
+      "textes_lisibles": []
+    },
+    {
+      "id": "chambre",
+      "desc": "chambre luxueuse, lit à baldaquin bleu nuit, piano, fenêtres en arc",
+      "textes_lisibles": []
+    }
+  ],
+  "noms_a_eviter": [
+    "Banane",
+    "michto",
+    "Offshore Global Holdings",
+    "onlyfrubidi"
+  ],
+  "repliques": [
+    {
+      "r": "r1",
+      "t": "0.4-4.4",
+      "plan": 1,
+      "qui": "patron",
+      "fonction": "info",
+      "texte": "Le jour de paye est arrivé. Rassemblez-vous pour recevoir vos salaires."
+    },
+    {
+      "r": "r2",
+      "t": "5.5-9.0",
+      "plan": 2,
+      "qui": "banane",
+      "fonction": "aveu",
+      "texte": "Le patron a dû se tromper. Il y a trop d'argent."
+    },
+    {
+      "r": "r3",
+      "t": "10.1-13.7",
+      "plan": 2,
+      "qui": "banane",
+      "fonction": "aveu",
+      "texte": "Je devrais lui rendre. Mais ma famille a faim et ma maison tombe en ruine."
+    },
+    {
+      "r": "r4",
+      "t": "14.0-17.2",
+      "plan": 3,
+      "qui": "patron",
+      "fonction": "revelation",
+      "texte": "Chérie, j'ai laissé trop d'argent exprès dans le salaire d'un ouvrier."
+    },
+    {
+      "r": "r5",
+      "t": "17.3-23.6",
+      "plan": 3,
+      "qui": "patron",
+      "fonction": "promesse",
+      "texte": "S'il revient le rendre, je changerai sa vie et je le nommerai directeur."
+    },
+    {
+      "r": "r6",
+      "t": "24.5-27.2",
+      "plan": 4,
+      "qui": "femme",
+      "fonction": "attaque",
+      "texte": "Tu rêves. Vu leur misère, il va garder chaque centime."
+    },
+    {
+      "r": "r7",
+      "t": "27.6-30.3",
+      "plan": 5,
+      "qui": "banane",
+      "fonction": "aveu",
+      "texte": "Madame, le patron m'a donné trop d'argent. Je viens le rendre."
+    },
+    {
+      "r": "r8",
+      "t": "30.4-31.8",
+      "plan": 6,
+      "qui": "femme",
+      "fonction": "mensonge",
+      "texte": "Donne-le-moi. Je vais lui remettre."
+    },
+    {
+      "r": "r9",
+      "t": "32.2-33.9",
+      "plan": 6,
+      "qui": "femme",
+      "fonction": "mensonge",
+      "texte": "Ne t'inquiète pas, je lui dirai que c'est toi."
+    },
+    {
+      "r": "r10",
+      "t": "34.5-35.8",
+      "plan": 7,
+      "qui": "femme",
+      "fonction": "aveu",
+      "texte": "Cet argent est pour moi."
+    },
+    {
+      "r": "r11",
+      "t": "36.2-38.2",
+      "plan": 7,
+      "qui": "femme",
+      "fonction": "menace",
+      "texte": "Je dirai qu'il n'a rien rendu du tout."
+    },
+    {
+      "r": "r12",
+      "t": "42.4-44.2",
+      "plan": 9,
+      "qui": "patron",
+      "fonction": "info",
+      "texte": "Alors, quelqu'un est venu ?"
+    },
+    {
+      "r": "r13",
+      "t": "44.7-46.5",
+      "plan": 9,
+      "qui": "femme",
+      "fonction": "mensonge",
+      "texte": "Non mon chéri, personne n'est venu."
+    },
+    {
+      "r": "r14",
+      "t": "47.0-49.3",
+      "plan": 10,
+      "qui": "patron",
+      "fonction": "attaque",
+      "texte": "Rends-moi ce que tu me dois et disparais de ma mine."
+    },
+    {
+      "r": "r15",
+      "t": "49.7-50.9",
+      "plan": 11,
+      "qui": "patron",
+      "fonction": "attaque",
+      "texte": "Je ne veux pas de voleur ici."
+    },
+    {
+      "r": "r16",
+      "t": "51.2-53.8",
+      "plan": 12,
+      "qui": "banane",
+      "fonction": "riposte",
+      "texte": "Mais je ne suis pas un voleur ! S'il te plaît, laisse-moi t'expliquer."
+    },
+    {
+      "r": "r17",
+      "t": "54.3-55.6",
+      "plan": 13,
+      "qui": "patron",
+      "fonction": "attaque",
+      "texte": "Assez de mensonges. Dehors !"
+    },
+    {
+      "r": "r18",
+      "t": "56.1-58.2",
+      "plan": 14,
+      "qui": "banane",
+      "fonction": "riposte",
+      "texte": "Mais patron, j'ai tout rendu à votre femme."
+    },
+    {
+      "r": "r19",
+      "t": "58.7-60.3",
+      "plan": 14,
+      "qui": "banane",
+      "fonction": "revelation",
+      "texte": "Regardez ça. Elle vous ment."
+    }
+  ],
+  "temps_forts": [
+    {
+      "t": "0.4",
+      "type": "accroche",
+      "quoi": "jour de paye à la mine, le patron distribue les enveloppes"
+    },
+    {
+      "t": "5.5",
+      "type": "injustice",
+      "quoi": "l'ouvrier découvre trop d'argent, tenté car sa famille a faim"
+    },
+    {
+      "t": "14.0",
+      "type": "revelation",
+      "quoi": "le patron avoue à sa femme : c'est un test, s'il rend l'argent il sera directeur"
+    },
+    {
+      "t": "27.6",
+      "type": "retournement",
+      "quoi": "l'ouvrier rend l'argent... à la femme, qui le garde pour elle"
+    },
+    {
+      "t": "42.4",
+      "type": "humiliation",
+      "quoi": "elle ment au patron, l'ouvrier est traité de voleur et viré"
+    },
+    {
+      "t": "58.7",
+      "type": "cliff",
+      "quoi": "« Regardez ça » : il sort son téléphone, coupure"
+    }
+  ],
+  "moteur": {
+    "desir": "l'ouvrier veut nourrir sa famille sans trahir",
+    "injustice": "il rend l'argent honnêtement et c'est lui qu'on traite de voleur",
+    "antagoniste": "la femme du patron, cupide et menteuse",
+    "enjeu": "un poste de directeur promis vs sa réputation et son travail",
+    "force_cachee": "il a tout filmé",
+    "payoff": "la femme est démasquée par sa propre phrase filmée, l'ouvrier devient directeur",
+    "kicker": "« le silence est lourd » (fin amère)"
+  },
+  "format": {
+    "duree": 64.4,
+    "mots_s": 2.62,
+    "plan_moyen": 4.3,
+    "parties_conseillees": 1
+  },
+  "pourquoi": [
+    "Test d'honnêteté posé à 14-23 s (P1) : « s'il rend l'argent, je le nomme directeur ». Le spectateur connaît la règle et la récompense, il attend de voir s'il la mérite.",
+    "Ironie dramatique à 34 s (P1) : la femme vole seule face au coffre, on sait, le patron non. Chaque réplique suivante fait monter la rage.",
+    "Injustice maximale à 47-55 s (P1) : l'ouvrier honnête est traité de voleur et chassé. Tout le monde veut commenter « c'est sa femme ! ».",
+    "Preuve-objet en cliff (P1 58 s → P2 9 s) : le téléphone. La 2e partie rejoue mot pour mot la phrase volée (« Cet argent est pour moi »), c'est le payoff par la propre phrase de la méchante.",
+    "Promesse tenue + gros chiffres (P3 33-48 s) : directeur, « 5 millions », « 1 000 ouvriers », clé de la mine, 500 000 000 € à l'écran. Ascension sociale = satisfaction maximale.",
+    "Format trilogie de 64 s : chaque partie coupe au pire moment (téléphone sorti, corps qui brûle), avec un carton « le karma arrive, partie 3 bientôt »."
+  ],
+  "faiblesses": [
+    "P1 0-5 s : accroche plate (« le jour de paye est arrivé »), aucune tension avant 5 s.",
+    "P1 58-60 s : cliff confus (« Regardez ça »), on ne comprend pas qu'il a filmé.",
+    "P2 31-40 s et P3 11-18 s, 40-47 s : 7 à 9 s sans parole (voiture, regards), la rétention chute.",
+    "Il manque LA scène attendue : la confrontation patron/femme devant la vidéo. Le karma se fait à distance.",
+    "Karma = empoisonnement et mort (« elle est morte en appelant à l'aide ») : violence réelle, risque de modération TikTok et ton glauque qui casse la satisfaction.",
+    "« michto » (insulte) ×2 : mot à risque, et l'ouvrier devient complice d'un meurtre, ce qui salit le héros."
+  ],
+  "ameliorations": [
+    "Hook P1 : ouvrir sur l'enveloppe qui déborde + « Il y a 5 000 € de trop... » à 0,3 s, puis le patron « C'est un test » en 2e plan.",
+    "Cliff P1 net : « J'ai tout filmé, patron. » + gros plan sur l'écran du téléphone.",
+    "Ajouter la scène attendue en P2 : confrontation publique, la vidéo projetée devant tous (personnel, invités), la femme se décompose, sa phrase « Je dirai qu'il n'a rien rendu » lui revient en pleine face (callback).",
+    "Karma sans meurtre : elle perd tout en public (bijoux saisis, chassée du domaine par la porte de service, le personnel qu'elle méprisait applaudit). Même satisfaction, zéro risque de modération, héros propre.",
+    "Combler les silences par des répliques courtes (témoins qui réagissent « QUOI ?! », chuchotements du personnel).",
+    "Chiffres lisibles dans le décor à chaque partie (montant de l'enveloppe, compteur, badge DIRECTEUR) + commentaire épinglé binaire « Il aurait dû garder l'argent 💰 / Il a eu raison de le rendre 🙌 »."
+  ]
+}

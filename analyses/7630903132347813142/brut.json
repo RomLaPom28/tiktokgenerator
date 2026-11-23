@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "id": "7630903132347813142",
+    "url": "https://www.tiktok.com/@onlyfrubidi_off/video/7630903132347813142",
+    "compte": "onlyfrubidi_off",
+    "description": null,
+    "vues": null,
+    "likes": null,
+    "commentaires": null,
+    "partages": null,
+    "date": null,
+    "duree": 64.4,
+    "musique": null
+  },
+  "langue": "fr",
+  "texte_complet": "Le jour de paye est arrivé. Rassemblez-vous pour recevoir vos salaires. Le patron a dû se tromper. Il y a trop d'argent. Je devrais lui rendre. Mais ma famille a faim et ma maison tombe en ruine. Chérie, j'ai laissé trop d'argent exprès dans le salaire d'un ouvrier. S'il revient le rendre, je changerai sa vie et je le nommerai directeur. Tu rêves. Vu leur misère, il va garder chaque centime. Madame, le patron m'a donné trop d'argent. Je viens le rendre. Donne-le-moi. Je vais lui remettre. Ne t'inquiète pas, je lui dirai que c'est toi. Cet argent est pour moi. Je dirai qu'il n'a rien rendu du tout. Alors, quelqu'un est venu ? Non mon chéri, personne n'est venu. Rends-moi ce que tu me dois et disparais de ma mine. Je ne veux pas de voleur ici. Mais je ne suis pas un voleur ! S'il te plaît, laisse-moi t'expliquer. Assez de mensonges. Dehors ! Mais patron, j'ai tout rendu à votre femme. Regardez ça. Elle vous ment.",
+  "accroche_3s": "Le jour de paye est arrivé. Rassemblez-vous pour",
+  "fin_5s": "vous ment.",
+  "mots_par_seconde": 2.62,
+  "premier_mot_a": 0.4,
+  "nombre_plans": 15,
+  "duree_moyenne_plan": 4.29,
+  "phrases": [
+    {
+      "debut": 0.4,
+      "fin": 4.4,
+      "texte": "Le jour de paye est arrivé. Rassemblez-vous pour recevoir vos salaires."
+    },
+    {
+      "debut": 5.5,
+      "fin": 9.0,
+      "texte": "Le patron a dû se tromper. Il y a trop d'argent."
+    },
+    {
+      "debut": 10.1,
+      "fin": 13.7,
+      "texte": "Je devrais lui rendre. Mais ma famille a faim et ma maison tombe en ruine."
+    },
+    {
+      "debut": 14.0,
+      "fin": 17.2,
+      "texte": "Chérie, j'ai laissé trop d'argent exprès dans le salaire d'un ouvrier."
+    },
+    {
+      "debut": 17.3,
+      "fin": 23.6,
+      "texte": "S'il revient le rendre, je changerai sa vie et je le nommerai directeur."
+    },
+    {
+      "debut": 24.5,
+      "fin": 27.2,
+      "texte": "Tu rêves. Vu leur misère, il va garder chaque centime."
+    },
+    {
+      "debut": 27.6,
+      "fin": 30.3,
+      "texte": "Madame, le patron m'a donné trop d'argent. Je viens le rendre."
+    },
+    {
+      "debut": 30.4,
+      "fin": 31.8,
+      "texte": "Donne-le-moi. Je vais lui remettre."
+    },
+    {
+      "debut": 32.2,
+      "fin": 33.9,
+      "texte": "Ne t'inquiète pas, je lui dirai que c'est toi."
+    },
+    {
+      "debut": 34.5,
+      "fin": 35.8,
+      "texte": "Cet argent est pour moi."
+    },
+    {
+      "debut": 36.2,
+      "fin": 38.2,
+      "texte": "Je dirai qu'il n'a rien rendu du tout."
+    },
+    {
+      "debut": 42.4,
+      "fin": 44.2,
+      "texte": "Alors, quelqu'un est venu ?"
+    },
+    {
+      "debut": 44.7,
+      "fin": 46.5,
+      "texte": "Non mon chéri, personne n'est venu."
+    },
+    {
+      "debut": 47.0,
+      "fin": 49.3,
+      "texte": "Rends-moi ce que tu me dois et disparais de ma mine."
+    },
+    {
+      "debut": 49.7,
+      "fin": 50.9,
+      "texte": "Je ne veux pas de voleur ici."
+    },
+    {
+      "debut": 51.2,
+      "fin": 53.8,
+      "texte": "Mais je ne suis pas un voleur ! S'il te plaît, laisse-moi t'expliquer."
+    },
+    {
+      "debut": 54.3,
+      "fin": 55.6,
+      "texte": "Assez de mensonges. Dehors !"
+    },
+    {
+      "debut": 56.1,
+      "fin": 58.2,
+      "texte": "Mais patron, j'ai tout rendu à votre femme."
+    },
+    {
+      "debut": 58.7,
+      "fin": 60.3,
+      "texte": "Regardez ça. Elle vous ment."
+    }
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 5.32,
+      "duree": 5.32
+    },
+    {
+      "n": 2,
+      "debut": 5.32,
+      "fin": 13.68,
+      "duree": 8.36
+    },
+    {
+      "n": 3,
+      "debut": 13.68,
+      "fin": 23.72,
+      "duree": 10.04
+    },
+    {
+      "n": 4,
+      "debut": 23.72,
+      "fin": 27.58,
+      "duree": 3.86
+    },
+    {
+      "n": 5,
+      "debut": 27.58,
+      "fin": 30.35,
+      "duree": 2.77
+    },
+    {
+      "n": 6,
+      "debut": 30.35,
+      "fin": 33.95,
+      "duree": 3.6
+    },
+    {
+      "n": 7,
+      "debut": 33.95,
+      "fin": 38.95,
+      "duree": 5.0
+    },
+    {
+      "n": 8,
+      "debut": 38.95,
+      "fin": 41.68,
+      "duree": 2.73
+    },
+    {
+      "n": 9,
+      "debut": 41.68,
+      "fin": 47.05,
+      "duree": 5.37
+    },
+    {
+      "n": 10,
+      "debut": 47.05,
+      "fin": 49.55,
+      "duree": 2.5
+    },
+    {
+      "n": 11,
+      "debut": 49.55,
+      "fin": 51.48,
+      "duree": 1.93
+    },
+    {
+      "n": 12,
+      "debut": 51.48,
+      "fin": 54.02,
+      "duree": 2.54
+    },
+    {
+      "n": 13,
+      "debut": 54.02,
+      "fin": 56.12,
+      "duree": 2.1
+    },
+    {
+      "n": 14,
+      "debut": 56.12,
+      "fin": 60.32,
+      "duree": 4.2
+    },
+    {
+      "n": 15,
+      "debut": 60.32,
+      "fin": 64.37,
+      "duree": 4.05
+    }
+  ]
+}
