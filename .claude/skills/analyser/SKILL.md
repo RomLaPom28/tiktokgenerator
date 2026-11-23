@@ -26,6 +26,13 @@ Lire `brut.json` (texte, temps, plans, vues) et regarder `planche.jpg`. Écrire 
 ## 3. Synthèse : `bible/recettes.md`
 Mettre à jour la section « Appris des vidéos analysées » : liste de recettes classées par force (pondérer par vues et taux de commentaires), chacune en une ligne avec la preuve (« vue dans 4 vidéos sur 6, moyenne 2,1 M vues »). Fusionner les doublons, garder le fichier court (40 lignes max).
 
+## 3 ter. Banque d'histoires : `bible/histoires.json`
+Pour chaque vidéo à 1 M+ vues, lire `transcript.json` en entier puis :
+- si son histoire n'est pas déjà un squelette : ajouter un `squelette` (même forme : premisse, image_choc, mechant, faute, scene_attendue, retournement, payoff, source avec id et vues) ;
+- si c'est une suite ou un remake d'un squelette existant : ajouter seulement la source à ce squelette ;
+- si elle apporte une brique transplantable nouvelle (twist, contrainte, règle du monde, type de coupure) : ajouter une `greffe` avec sa source.
+Décrire les mécaniques avec nos mots, jamais leurs répliques.
+
 ## 3 bis. Renvoyer au téléphone
 - Pour chaque tendance traitée : `update` du doc `tendances/<id>` (avec `if_version`) : `fiche` = la fiche en 6 lignes (accroche, structure, pourquoi on reste, visuel, interaction, mécaniques à reprendre), `vues`, `statut: "analyse"`.
 - Si une mécanique est nouvelle et vue dans plusieurs vidéos à fort score : l'ajouter à `bible/concepts.json` (même forme, avec la preuve chiffrée), puis `set` du doc `bible/concepts` sur la page. Les recettes d'une série précise vont dans sa bible (`series/<id>` champ `bible.recettes.texte`, ou `bible/recettes` pour La Ferme). Les recettes et concepts de `bible/` servent à TOUS les nouveaux projets créés par /creer.

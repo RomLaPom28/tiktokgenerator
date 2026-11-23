@@ -48,7 +48,7 @@ Classées par force (vues × commentaires) :
 2. **Test d'amour déguisé** (faux pauvre/moche/gros/chauve, la famille humilie, coupure sur « vous voulez voir ? »). 12 vidéos, 9 > 1 M, médiane 1,6 M, 0,11 % de com.
 3. **Humilié → transformation** (glow-up promis, montré à mi-partie 2). 9 vidéos, moyenne 5 M (record 22,9 M).
 4. **Sous-estimé à force cachée** (handicap imposé ou promesse de ne pas frapper). 14 vidéos, 0,21 % de com (×2 la moyenne).
-5. **Principe de transposition** : on reprend les HISTOIRES HUMAINES telles quelles (test d'amour, faux pauvre, belle-famille, revanche, caïd humilié) ; les animaux ne sont que le casting, ils vivent comme des humains. Ce qui marche chez les fruits, c'est le drame humain, pas le fruit. L'animal sert au look et au caractère (taureau = fierté, renard = escroc), jamais de ressort d'intrigue basé sur sa biologie.
+5. **Principe de transposition** : on reprend les HISTOIRES HUMAINES (test d'amour, faux pauvre, belle-famille, revanche, caïd humilié) ; les animaux sont le casting et vivent comme des humains. L'animal sert au look et au caractère (taureau = fierté, renard = escroc). **Règle assouplie (23/11/2026)** : la nature de l'animal PEUT servir de ressort si le drame reste humain et que ça donne une image choc lisible en 1 s (bébé d'une espèce impossible = soupçon de tromperie, 13,7 M). Jamais une blague de biologie sans enjeu humain.
 6. **Témoin choqué après chaque réplique-choc** (plan de 1 s, il dit ce que pense le spectateur). Présent dans les 7 vidéos à plus de 0,2 % de com.
 7. **Style « cinéma muet »** : 3-5 s d'image muette tendue, plans 2-3 s, 1 mot géant à l'écran → 13,9 % de likes et 0,23 % de com (×3 le style bavard).
 8. **Gros chiffre lisible à l'écran** (1 000 000 €, 150 kg, QI 167). Vu dans 20 vidéos sur 69.
@@ -72,6 +72,9 @@ guides de prompts Grok Imagine (fal.ai, Replicate, Morphic). Chiffres = consensu
 - **Hooks A/B** : 3 hooks de rechange par vidéo ; si < 2 000 vues en 2 h, on refait seulement le plan 1 et on reposte.
 - **Univers étendu** : mêmes clubs/familles fictifs d'une vidéo à l'autre = le public reconnaît la « marque ».
 
+
+## Banque d'histoires (23/11/2026)
+Les pitchs de /creer sont des REMIX : un squelette prouvé + 1-2 greffes d'autres vidéos + un nouveau domaine, notés avec la grille « GROS » (image choc, enjeu vital, faute grave du méchant, scène attendue, retournement de camp, preuve). Tout est dans `bible/histoires.json`.
 
 ## Moteur d'histoire (obligatoire, retour utilisateur 22/11/2026 : « pas intéressant »)
 Une suite de gags ne tient pas. Ce qui tient 75 s : le spectateur VEUT voir quelque chose arriver.

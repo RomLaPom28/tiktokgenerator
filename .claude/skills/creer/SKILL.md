@@ -13,16 +13,37 @@ Si l'utilisateur ne l'a pas dit : `AskUserQuestion` avec 2 choix :
 - **Vidéo unique** : histoire complète en ~70 s, hook fort, chute finale qui pousse à commenter.
 - **Nouvelle série** : épisode 1 + plan de saison, fin sur cliffhanger « Partie 2 ? ».
 
-## Étape 2 · Choisir le sujet ensemble
-Lire d'abord (obligatoire) :
-- `bible/recettes.md` (mécaniques virales apprises), `bible/concepts.json` (concepts prouvés, archétypes, situations, `regles_generiques` : prénoms modernes, univers 100 % inventé, histoires humaines).
-- Les 5 `analyses/*/fiche.md` les plus vues (champ vues dans `meta.json`).
-- `bible/conformite.json` (règles TikTok).
+## Étape 2 · Choisir le sujet ensemble (REMIX de ce qui a déjà marché)
+On n'invente pas une histoire à partir de règles : on **remixe des histoires prouvées**.
 
-Proposer **4 sujets** (autour du thème donné s'il y en a un), chacun en 3 lignes :
-`titre` · concept de `concepts.json` utilisé · **hook** (la 1re réplique exacte) · **fin** (chute ou cliffhanger) · pourquoi ça va faire commenter.
-Varier les concepts entre les 4. Recommander un des 4. Puis `AskUserQuestion` (4 sujets ; « Other » permet d'en donner un autre ou d'en mixer deux).
-**C'est la seule validation.** Ensuite tout est généré d'une traite.
+Lire d'abord (obligatoire) :
+- `bible/histoires.json` : `squelettes` (histoires à 1 M+ décomposées), `greffes` (briques transplantables), `grille_gros`.
+- Pour les 2-3 squelettes envisagés : leur `analyses/<id>/transcript.json` (le vrai déroulé, pour sentir le rythme et la cruauté du méchant).
+- `bible/recettes.md`, `bible/concepts.json` (`regles_generiques` : prénoms, univers inventé), `bible/conformite.json`.
+- `projets/*/projet.json` : les univers déjà faits (ne pas refaire le même domaine que l'un des 3 derniers).
+
+**2a · Fabriquer 12 pitchs EN INTERNE (non montrés).** Chaque pitch =
+`squelette` (1, de la banque) + `greffes` (1 ou 2, d'AUTRES vidéos) + **nouveau domaine** (`grille_gros.domaines_universels`) + casting d'animaux.
+- Garder le moteur du squelette (secret, faute du méchant, scène attendue) ; changer l'univers, les personnages, l'objet, le chiffre.
+- Pousser chaque curseur au MAX : la faute du méchant doit être grave (trahir, voler la place, enfermer, empoisonner, faire chanter), l'enjeu vital (amour, enfant, mariage, héritage à 6 chiffres+), l'image absurde.
+- Le foot est un domaine parmi d'autres, jamais le défaut. Au moins 8 des 12 pitchs hors sport.
+- Le thème donné par l'utilisateur, s'il y en a un, est respecté par les 12.
+
+**2b · Noter chaque pitch avec `grille_gros`** (6 critères, 1 point chacun). Jeter tout pitch < 5/6 ou qui rate un critère éliminatoire (image_choc, enjeu_vital, faute_grave) ou qui tombe dans `interdits_pitch`. S'il en reste moins de 4, refaire des pitchs.
+
+**2c · Montrer les 4 meilleurs**, de 4 squelettes différents, chacun sous cette forme :
+```
+**Titre** (note /6)
+Pitch : 1 phrase « [héros] [secret/situation], mais [méchant] [faute grave] ; [enjeu chiffré]. »
+Image choc (1 s, sans le son) : …
+Hook : « 1re réplique exacte »
+La scène qu'on attend : …
+Retournement : …
+Fin : payoff + kicker (ou cliffhanger)
+Remix : squelette <id> (X M) + greffe <id> (source Y M)
+```
+Recommander un des 4 (le plus haut, à égalité celui dont les sources ont le plus de vues). Puis `AskUserQuestion` (4 sujets ; « Other » permet d'en donner un autre ou d'en mixer deux).
+**C'est la seule validation.** Ensuite tout est généré d'une traite. Noter dans `projet.json` le champ `remix: {squelette, greffes[], note}`.
 
 ## Étape 3 · Générer le projet `projets/<id>/`
 `<id>` = slug court du titre (minuscules, tirets). S'il existe déjà, ajouter `-2`.

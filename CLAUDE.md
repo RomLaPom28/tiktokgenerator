@@ -4,6 +4,7 @@ Mode d'emploi complet : `MODE-EMPLOI.md`. Commandes : `/creer`, `/episode`, `/mo
 
 ## Règles permanentes (validées par l'utilisateur)
 - **Toujours de zéro** : toute nouvelle vidéo passe par `/creer` (1. unique ou série → 2. sujet choisi ensemble → 3. tout générer → 4. prompts ChatGPT + Grok). Aucun personnage/décor repris d'un autre projet. `/episode` sert seulement à continuer une série existante. Ne jamais supprimer un ancien projet.
+- **Sujets = remix de ce qui a marché** : `/creer` part de `bible/histoires.json` (squelette prouvé + greffes + nouveau domaine), note 12 pitchs avec la grille « GROS » et n'en montre que 4. Le foot n'est pas le domaine par défaut.
 - **Histoire = moteur d'émotion** : remplir `moteur` (désir, injustice, antagoniste, enjeu chiffré, force cachée, payoff, callback, kicker) avant les plans. Un méchant qu'on déteste, une humiliation injuste, payoff par sa propre phrase (callback). Pas une suite de gags. Dialogues en clashs (attaque → riposte, 4+), parole continue.
 - **Style** : animation 3D cartoon stylisée (grands yeux, expressions exagérées, couleurs saturées, décors pleins de figurants, textes/chiffres fictifs dans le décor). Jamais photoréaliste. Plans de 6 et 10 s (image de fin pour les 10 s), dialogues timecodés, ping-pong, rupture toutes les 2-3 s. Modèle : `projets/faux-joueur-district/episodes/ep001/episode.json`.
 - **Prénoms** : majorité de prénoms français classiques adaptés à l'âge (Lucas, Hugo, Chloé, Manon, Sandrine…), au maximum UN prénom d'origine étrangère par casting.

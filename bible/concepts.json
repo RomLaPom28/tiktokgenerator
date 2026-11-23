@@ -23,7 +23,18 @@
       "le témoin commère",
       "la belle-mère toxique",
       "l'escroc qui revient",
-      "le bon copain drôle"
+      "le bon copain drôle",
+      "le fiancé charmeur hypocrite",
+      "la belle-mère qui offre de l'argent pour qu'on disparaisse",
+      "la meilleure amie usurpatrice",
+      "le frère jaloux tricheur",
+      "le parent qui a un chouchou",
+      "le patron qui juge sur l'apparence",
+      "le caïd du lycée qui rackette",
+      "le milliardaire déguisé",
+      "le parrain du quartier",
+      "la mamie milliardaire qui manipule ses héritiers",
+      "l'ex qui humilie au mariage"
     ]
   },
   "concepts": [
@@ -190,7 +201,8 @@
     "Le concept tient en une phrase et se comprend sans avoir vu les épisodes précédents.",
     "Un personnage visuellement très distinct par rôle (couleur dominante, accessoire signature), sinon le spectateur les confond en 1 s.",
     "PRÉNOMS : prénoms français COURANTS qu'on entend partout en France, adaptés à l'ÂGE du personnage. Par défaut, prénoms français classiques et populaires : 15-35 ans → Lucas, Hugo, Théo, Léo, Jules, Nathan, Tom, Maxime, Louis, Arthur, Enzo, Mathis, Kevin, Dylan, Quentin ; Chloé, Manon, Léa, Emma, Camille, Jade, Louise, Clara, Lola, Inès, Sarah, Océane, Laura, Marine, Julie. 40-60 ans → Sandrine, Nathalie, Valérie, Isabelle, Céline, Christophe, Stéphane, Thierry, Laurent, Frédéric, Olivier. 60 ans et plus → Gérard, Bernard, Michel, Monique, Josiane, Martine. Varier les origines comme dans la vraie vie : AU MAXIMUM un prénom d'origine maghrébine ou étrangère par casting, et seulement si l'histoire s'y prête (jamais tout le casting). Jamais de jeu de mots sur l'animal (Taurito, Poulina). Jamais le nom d'une vraie célébrité. Deux personnages d'un même casting ne commencent jamais par la même lettre.",
-    "HISTOIRES HUMAINES : on reprend des drames humains (test d'amour, faux pauvre, belle-famille, revanche, caïd humilié) ; les animaux sont seulement le casting et vivent comme des humains. Leur espèce sert au look et au caractère, jamais au ressort d'intrigue."
+    "HISTOIRES HUMAINES : on reprend des drames humains (test d'amour, faux pauvre, belle-famille, revanche, caïd humilié) ; les animaux sont le casting et vivent comme des humains. Leur espèce sert au look et au caractère ; elle peut servir de ressort d'intrigue seulement si le drame reste humain et que ça crée une image choc (voir recettes.md, règle 5).",
+    "DOMAINES : le foot n'est qu'un univers parmi d'autres. Par défaut, viser les domaines universels de bible/histoires.json (couple, mariage, belle-famille, parents/enfants, héritage, lycée, travail, quartier, argent, survie)."
   ],
   "situations": {
     "foot": [
@@ -208,6 +220,22 @@
       "banc de touche",
       "infirmerie",
       "remise de trophée"
+    ],
+    "general": [
+      "matin du mariage",
+      "dîner chez la belle-famille",
+      "lecture du testament",
+      "soirée de gala de l'entreprise",
+      "cantine du lycée",
+      "test de paternité",
+      "premier rendez-vous au resto",
+      "fête d'anniversaire",
+      "repas de famille du dimanche",
+      "entretien d'embauche",
+      "maternité",
+      "enterrement",
+      "croisière en famille",
+      "porte d'entrée, enfant seul"
     ]
   }
 }
