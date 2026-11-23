@@ -65,5 +65,63 @@
     ],
     "resume": "Philippe, propriétaire du palace, glisse 5 000 € de trop dans la paye de Maxime pour tester son honnêteté : s'il les rend, il deviendra directeur. Maxime, fauché, les rapporte, mais c'est Corinne qui les prend, les garde pour ses bijoux et jure que personne n'est venu. Philippe chasse Maxime devant tout le hall… jusqu'à ce que Maxime lève son badge : il filme tout.",
     "fin": "Dans le hall, Maxime décroche son badge et le tend à Philippe : « Il filme tout. Même chez votre femme. » Corinne pâlit."
+  },
+  {
+    "numero": 2,
+    "titre": "Fausse vidéo",
+    "format": "piège",
+    "accroche_type": "objet révélateur",
+    "cliff_type": "objet découvert",
+    "centre": "corinne",
+    "lieu_principal": "hall",
+    "lieux": [
+      "bureau",
+      "hall",
+      "suite",
+      "vestiaire"
+    ],
+    "fils_avances": [
+      "badge_camera",
+      "coffre_vide"
+    ],
+    "revele": [],
+    "temps_parole": {
+      "philippe": 5,
+      "maxime": 6,
+      "martine": 4,
+      "corinne": 13
+    },
+    "repliques": [
+      "Ma femme jure que tu n'es jamais monté.",
+      "Alors regardez ce que mon badge a filmé.",
+      "Branchez-le !",
+      "Cinq mille euros... pour mes boucles d'oreilles.",
+      "Et ce garçon n'a jamais frappé à ma porte.",
+      "QUOI ?!",
+      "Vous voyez ? C'est elle, la voleuse.",
+      "C'est de l'IA, mon chat !",
+      "Il a fabriqué ma voix sur son téléphone !",
+      "Aujourd'hui, une vidéo, ça se truque.",
+      "Monsieur, c'est sa vraie voix !",
+      "Je te l'avais dit : un petit tricheur.",
+      "Je garde le badge. Comme preuve.",
+      "Samedi, tu serviras au gala. Pour rembourser.",
+      "En tablier, le porte-valises !",
+      "Oui... monsieur.",
+      "Allô ma chérie ? Le vieux lion a tout gobé !",
+      "Un pauvre, ça garde tout, et lui, il croit tout.",
+      "Samedi, il nomme mon neveu directeur. Et on vide le coffre.",
+      "Elle t'a traité de tricheur devant tout le monde.",
+      "Il ne m'a même pas regardé, Martine.",
+      "Si. Il a mis ton badge dans sa poche. Pas à la poubelle.",
+      "Ça veut dire quoi ?",
+      "Tu as bien fait, mon chat.",
+      "Samedi, j'ai une surprise pour toi.",
+      "Vieux fossile.",
+      "Ce vieux lion ne verra jamais rien.",
+      "Ni lui, ni personne."
+    ],
+    "resume": "Maxime montre la vidéo de son badge : on entend Corinne garder les 5 000 €. Mais Corinne crie à la fausse vidéo faite avec l'IA, et Philippe semble la croire : il garde le badge et condamne Maxime à servir au gala en tablier. Le soir, Corinne se moque de son mari au téléphone et prévoit de vider le coffre. Elle ne voit pas que le badge de Maxime est caché dans le cadre du coffre et la filme.",
+    "fin": "Corinne jure que le vieux lion ne verra jamais rien ; zoom sur le badge de Maxime caché dans le cadre du coffre, point rouge allumé."
   }
 ]
