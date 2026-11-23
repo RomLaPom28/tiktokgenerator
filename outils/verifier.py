@@ -313,8 +313,10 @@ def verifier_adaptation(b, ep, adapt):
                 copies.append(f"« {d['texte'][:40]} » ≈ {', '.join(d['source'])} ({round(100 * ratio)} %)")
     ok(not copies, "Anti-copier-coller : aucune réplique à 70 %+ identique à l'original", "; ".join(copies) or "oui")
     interdits = [x for x in dis.get("noms_a_eviter", []) if len(x) > 2]
-    for pe in dis.get("personnages", []):
-        interdits += [w for w in re.split(r"[ /,]+", pe.get("nom_source", "")) if len(w) > 2]
+    for pe in dis.get("personnages", []):  # prénoms seulement (mots à majuscule), pas « (le patron) »
+        nom = pe.get("nom_source", "")
+        if not nom.startswith("("):
+            interdits += [w for w in re.split(r"[ /,]+", nom) if len(w) > 2 and w[:1].isupper() and w not in ("Les", "Le", "La")]
     textes = " ".join([d["texte"] for d in lignes] + [str(ep.get(k, "")) for k in ("titre", "legende", "titre_couverture")]
                       + [str(p.get("texte_decor", "")) for p in ep["plans"]])
     t = " " + norm(textes) + " "

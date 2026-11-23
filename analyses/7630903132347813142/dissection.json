@@ -34,7 +34,7 @@
     },
     {
       "id": "patron",
-      "nom_source": "Le patron",
+      "nom_source": "(le patron, sans prénom)",
       "animal_ou_fruit": "grenade",
       "role": "allie",
       "look": "homme à tête de grenade rouge sombre, costume trois pièces gris puis noir, gants rouges ; en partie 2 blouson de cuir noir",
@@ -52,7 +52,7 @@
     },
     {
       "id": "femme",
-      "nom_source": "(femme du patron)",
+      "nom_source": "(la femme du patron, sans prénom)",
       "animal_ou_fruit": "myrtille",
       "role": "mechant",
       "look": "femme à tête de myrtille bleue, robe de soirée en satin rouge puis bleu nuit pailletée, colliers de perles",

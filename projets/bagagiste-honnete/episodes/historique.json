@@ -1,0 +1,69 @@
+[
+  {
+    "numero": 1,
+    "titre": "L'enveloppe piégée",
+    "format": "test / mise à l'épreuve",
+    "accroche_type": "argent",
+    "cliff_type": "révélation coupée",
+    "centre": "maxime",
+    "lieu_principal": "bureau",
+    "lieux": [
+      "bureau",
+      "couloir",
+      "hall",
+      "studio",
+      "suite",
+      "vestiaire"
+    ],
+    "fils_avances": [
+      "test_enveloppe",
+      "badge_camera"
+    ],
+    "revele": [
+      "badge_camera"
+    ],
+    "temps_parole": {
+      "philippe": 10,
+      "maxime": 11,
+      "corinne": 10,
+      "martine": 2
+    },
+    "repliques": [
+      "C'est la paye ! Et une enveloppe est piégée.",
+      "Chacun la sienne. Au suivant.",
+      "Cinq mille de trop ?! Il s'est trompé.",
+      "Je dois les rendre demain matin.",
+      "Mais le frigo est vide... et le toit fuit.",
+      "Non. C'est pas à moi.",
+      "Chérie, j'ai glissé cinq mille de trop à un bagagiste.",
+      "Tu perds la tête ?",
+      "Exprès.",
+      "S'il me les rapporte, demain il dirige mon palace.",
+      "Tu rêves, mon chat. Un pauvre, ça garde tout.",
+      "On verra demain matin.",
+      "Madame, il y a cinq mille de trop dans ma paye.",
+      "Je viens les rendre.",
+      "Donne. Mon mari est occupé.",
+      "Je lui dirai que tu es un garçon honnête.",
+      "Merci, madame.",
+      "Cinq mille euros... pour mes boucles d'oreilles.",
+      "Un bagagiste directeur ? Jamais de la vie.",
+      "Et ce garçon n'a jamais frappé à ma porte.",
+      "Alors ? Mon bagagiste est monté ?",
+      "Personne, mon chat. Je t'avais prévenu.",
+      "Toi. Rends mes cinq mille et ton badge.",
+      "Pas de voleur dans mon palace.",
+      "QUOI ?!",
+      "J'ai rien volé ! Monsieur, écoutez-moi deux secondes !",
+      "Menteur, en plus.",
+      "Plus un mot. Porte de service !",
+      "C'est votre femme qui a l'enveloppe !",
+      "Madame Corinne ?!",
+      "Mon badge, monsieur ? Il filme tout.",
+      "Quoi ?",
+      "Même chez votre femme."
+    ],
+    "resume": "Philippe, propriétaire du palace, glisse 5 000 € de trop dans la paye de Maxime pour tester son honnêteté : s'il les rend, il deviendra directeur. Maxime, fauché, les rapporte, mais c'est Corinne qui les prend, les garde pour ses bijoux et jure que personne n'est venu. Philippe chasse Maxime devant tout le hall… jusqu'à ce que Maxime lève son badge : il filme tout.",
+    "fin": "Dans le hall, Maxime décroche son badge et le tend à Philippe : « Il filme tout. Même chez votre femme. » Corinne pâlit."
+  }
+]

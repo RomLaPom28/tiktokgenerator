@@ -1,0 +1,72 @@
+{
+  "_lisez_moi": "ADN = description copiée MOT POUR MOT dans chaque prompt image où le personnage apparaît. voix = copiée mot pour mot dans chaque prompt Grok.",
+  "style": "Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure et plumes douces stylisées, vêtements stylisés. Couleurs saturées et chaudes, lumière dorée et contre-jours dramatiques. Décors d'un palace parisien fictif, le Grand Hôtel Valrose : marbre, dorures, lustres, sous-sols du personnel, remplis de figurants animaux (grooms, femmes de chambre, cuisiniers, clients chics).",
+  "personnages": [
+    {
+      "id": "maxime",
+      "nom": "Maxime",
+      "animal": "castor",
+      "adn": "Maxime, jeune castor de 22 ans au pelage brun chocolat, grandes incisives orange légèrement écartées, épi de poils rebelle sur le front, grands yeux noisette sincères, large queue plate",
+      "tenues": {
+        "base": "uniforme de bagagiste bordeaux à boutons dorés un peu trop grand, petit calot bordeaux, badge doré rectangulaire « MAXIME » épinglé sur la poitrine avec une mini-caméra ronde noire et un minuscule point rouge allumé",
+        "maison": "vieux t-shirt gris troué et gilet en laine reprisé"
+      },
+      "voix": "voix de jeune homme de 22 ans, douce et sincère, qui monte dans les aigus quand il panique",
+      "caractere": "honnête jusqu'au bout, timide, travailleur, soutient sa mère malade",
+      "objectif": "garder son travail et nourrir sa mère sans jamais voler",
+      "secret": "il ne sait pas que son badge du personnel filme en continu",
+      "tics": ["serre son calot contre sa poitrine quand il a peur", "tapote ses incisives du bout du doigt quand il réfléchit", "redresse son badge doré avant de parler à un client"],
+      "replique_fetiche": "C'est pas à moi, monsieur.",
+      "ref": "refs/maxime.png"
+    },
+    {
+      "id": "philippe",
+      "nom": "Philippe",
+      "animal": "lion",
+      "adn": "Philippe, grand lion de 60 ans à la crinière argentée coiffée en arrière, fines lunettes rondes dorées sur le museau, regard perçant ambré, chevalière en or gravée d'un V",
+      "tenues": {
+        "base": "costume trois pièces bleu nuit, chaîne de montre à gousset dorée, pochette de soie bordeaux"
+      },
+      "voix": "voix grave et posée d'homme de 60 ans, autoritaire, qui ne crie presque jamais",
+      "caractere": "propriétaire exigeant, juste mais impitoyable avec le mensonge, aveugle sur sa femme",
+      "objectif": "trouver un directeur honnête pour son palace",
+      "secret": "il teste ses employés avec des enveloppes piégées",
+      "tics": ["remonte ses lunettes du bout d'une griffe", "fait tourner sa chevalière", "parle sans jamais hausser la voix, puis frappe une seule fois sur la table"],
+      "replique_fetiche": "Ici, on ne ment pas au patron.",
+      "ref": "refs/philippe.png"
+    },
+    {
+      "id": "corinne",
+      "nom": "Corinne",
+      "animal": "flamant rose",
+      "adn": "Corinne, flamant rose de 48 ans au plumage rose fuchsia éclatant, long cou gracieux, bec noir et rose verni, faux cils immenses, collier de diamants à trois rangs et grosses boucles d'oreilles en diamant",
+      "tenues": {
+        "base": "robe fourreau en satin émeraude, étole en fourrure blanche",
+        "matin": "peignoir en soie dorée et lunettes de soleil sur le front"
+      },
+      "voix": "voix de femme de 48 ans, mielleuse et chantante, qui devient sèche et cassante d'un coup",
+      "caractere": "cupide, méprise le personnel, vide le coffre du palace pour ses bijoux",
+      "objectif": "garder le train de vie et empêcher qu'un employé prenne de l'importance",
+      "secret": "elle se sert dans le coffre du palace depuis des mois",
+      "tics": ["tapote son collier de diamants", "se tient sur une seule patte quand elle ment", "appelle son mari « mon chat »"],
+      "replique_fetiche": "Un pauvre, ça garde tout.",
+      "ref": "refs/corinne.png"
+    },
+    {
+      "id": "martine",
+      "nom": "Martine",
+      "animal": "oie",
+      "adn": "Martine, oie blanche de 62 ans au plumage blanc impeccable, chignon de plumes grises tiré en arrière, petites lunettes en demi-lune au bout d'une chaînette, bec orange",
+      "tenues": {
+        "base": "tailleur noir de gouvernante générale, col blanc, trousseau de clés dorées à la ceinture"
+      },
+      "voix": "voix de femme de 62 ans, aiguë, qui s'étrangle de surprise",
+      "caractere": "gouvernante générale, sévère mais juste, adore Maxime, voit tout",
+      "objectif": "protéger son personnel",
+      "secret": "elle sait que le coffre se vide depuis des mois",
+      "tics": ["fait tinter son trousseau de clés", "regarde par-dessus ses lunettes", "plaque une aile sur son bec quand elle est choquée"],
+      "replique_fetiche": "Pas dans mon hall.",
+      "ref": "refs/martine.png"
+    }
+  ]
+}

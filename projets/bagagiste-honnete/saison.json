@@ -1,0 +1,14 @@
+{
+  "_lisez_moi": "Adaptation /copier d'une trilogie : chaque épisode copie une vidéo source (champ source) réplique par réplique, avec les améliorations du projet. /episode suit ce plan.",
+  "enjeu": "Maxime a rendu les 5 000 € mais Corinne les a gardés et l'a fait passer pour un voleur. Son badge a tout filmé : prouvera-t-il son honnêteté avant d'être chassé, et deviendra-t-il le directeur promis ?",
+  "episodes": [
+    {"n": 1, "format": "test / mise à l'épreuve", "source": "7630903132347813142", "repliques": "r1-r19", "pitch": "Enveloppe piégée : 5 000 € de trop. Philippe promet à Corinne que l'honnête deviendra directeur. Maxime rapporte l'argent, Corinne le garde, ment, et Philippe chasse Maxime devant tout le hall. Cliff : « Mon badge filme tout. »"},
+    {"n": 2, "format": "évènement public", "source": "7631273993353301270", "repliques": "r1-r15", "pitch": "Philippe regarde la vidéo du badge : la phrase de Corinne rejouée mot pour mot. Le coffre vide révèle des mois de vols. Philippe et Maxime préparent un piège pour le gala du soir. Cliff : au gala, la vidéo se lance sur l'écran géant devant 200 invités."},
+    {"n": 3, "format": "trahison ultime", "source": "7631645319159172374", "repliques": "r1-r13", "pitch": "Corinne démasquée devant tous par sa propre phrase. Elle perd tout : bijoux saisis, divorce, chassée par la porte de service sous les applaudissements du personnel. Maxime nommé directeur : badge DIRECTEUR, clés du palace, 300 employés sous ses ordres. Kicker : « Un pauvre, ça rend tout, madame. »"}
+  ],
+  "fils": [
+    {"id": "test_enveloppe", "statut": "ouvert", "texte": "Philippe teste ses employés avec une enveloppe piégée : l'honnête deviendra directeur."},
+    {"id": "badge_camera", "statut": "cache", "texte": "Le badge du personnel filme en continu : Maxime ne le sait pas."},
+    {"id": "coffre_vide", "statut": "cache", "texte": "Corinne vide le coffre du palace depuis des mois pour ses bijoux ; Martine s'en doute."}
+  ]
+}

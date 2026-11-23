@@ -1,0 +1,11 @@
+{
+  "_lisez_moi": "desc = recopiée mot pour mot dans chaque prompt image ; son = ambiance des prompts Grok.",
+  "lieux": [
+    {"id": "vestiaire", "nom": "Vestiaire du personnel au sous-sol", "desc": "vestiaire du personnel au sous-sol du palace, rangée de casiers métalliques bordeaux, néons, longue table en bois couverte d'enveloppes de paye en papier kraft, file d'employés animaux en uniforme (grooms, femmes de chambre, cuisiniers en toque)", "son": "brouhaha du personnel, casiers qui claquent"},
+    {"id": "studio", "nom": "Studio de Maxime", "desc": "minuscule studio sous les toits, papier peint qui se décolle, bassine sous une fuite du plafond, frigo ouvert presque vide avec un seul pot de yaourt, matelas posé au sol, photo encadrée de sa mère sur une caisse", "son": "goutte d'eau qui tombe dans une bassine, pluie sur le toit"},
+    {"id": "bureau", "nom": "Bureau de Philippe au dernier étage", "desc": "bureau du propriétaire au dernier étage du palace, boiseries acajou, cheminée allumée, fauteuils chesterfield bordeaux, bureau massif avec un verre de jus de raisin en cristal, grande baie vitrée sur Paris la nuit et la tour Eiffel au loin", "son": "feu qui crépite, horloge ancienne"},
+    {"id": "couloir", "nom": "Couloir de l'appartement privé", "desc": "couloir privé au dernier étage, moquette rouge à motifs dorés, double porte dorée de l'appartement privé avec une plaque « PRIVÉ », appliques en cristal", "son": "ascenseur qui tinte au loin, moquette étouffée"},
+    {"id": "suite", "nom": "Appartement privé de Corinne", "desc": "dressing luxueux de Corinne, vitrines éclairées pleines de bijoux, grand miroir doré, portrait géant de Corinne qui pivote sur un coffre-fort ouvert rempli de liasses de billets", "son": "musique de salon douce, bijoux qui tintent"},
+    {"id": "hall", "nom": "Hall du Grand Hôtel Valrose", "desc": "hall monumental du palace, sol en marbre blanc veiné d'or, escalier double, lustre de cristal géant, comptoir de réception en bois verni, clients chics animaux avec des valises, personnel en uniforme bordeaux aligné", "son": "piano dans le hall, clochette de réception, murmures"}
+  ]
+}
