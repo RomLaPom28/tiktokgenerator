@@ -9,12 +9,13 @@ import re
 import sys
 import unicodedata
 from collections import Counter
+from difflib import SequenceMatcher
 from itertools import groupby
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from bible import Bible  # noqa: E402
-from commun import args_projet, compat_plan, dialogues, duree_plan, lire_json  # noqa: E402
+from commun import ANALYSES, args_projet, compat_plan, dialogues, duree_plan, lire_json  # noqa: E402
 
 PROCHES = {"TGP", "GP", "PR"}
 
@@ -43,8 +44,15 @@ def verifier(projet, nom):
         res.append(("OK" if cond else niveau, regle, mesure))
 
     r = b.real
+    # Adaptation (/copier) : on suit le rythme et la structure de la vidéo source, donc les règles de
+    # format de /creer deviennent des avertissements (À VOIR) ; le contrôle anti-copie s'ajoute à la fin.
+    adapt = b.projet.get("adaptation")
+    souple = "À VOIR" if adapt else "ÉCHEC"
     # ---------- structure ----------
-    ok(12 <= len(plans) <= 16, "12 à 16 plans", len(plans))
+    if adapt:
+        ok(4 <= len(plans) <= 40, "4 à 40 plans (adaptation : suit la source)", len(plans))
+    else:
+        ok(12 <= len(plans) <= 16, "12 à 16 plans", len(plans))
     erreurs = []
     for p in plans:
         for champ, table in (("lieu", b.lieux), ("lumiere", r["lumieres"]), ("cadrage", r["cadrages"]),
@@ -66,17 +74,18 @@ def verifier(projet, nom):
             erreurs.append(f"plan {p['n']} mouvement vide")
     ok(not erreurs, "Codes valides (bible, réalisation)", "; ".join(erreurs) or "oui")
 
+    maxi = 18 if adapt else 12
     longs = [f"{p['n']}:{len(d['texte'].split())}" for p in plans for d in dialogues(p)
-             if not 1 <= len(d["texte"].split()) <= 12]
-    ok(not longs, "Chaque réplique de 1 à 12 mots (punchy)", ", ".join(longs) or "oui")
+             if not 1 <= len(d["texte"].split()) <= maxi]
+    ok(not longs, f"Chaque réplique de 1 à {maxi} mots (punchy)", ", ".join(longs) or "oui")
 
     # ---------- dynamisme TikTok (durées, timecodes, ping-pong) ----------
     durees = [duree_plan(p) for p in plans]
     ok(all(d in (6, 10) for d in durees), "Durées Grok valides (6 ou 10 s)", durees)
     ok(durees.count(10) >= 2 and durees.count(6) >= 4, "Durées variées : 2+ plans de 10 s ET 4+ de 6 s",
-       f"{durees.count(6)}×6 s, {durees.count(10)}×10 s")
+       f"{durees.count(6)}×6 s, {durees.count(10)}×10 s", souple)
     tot = sum(durees)
-    ok(68 <= tot <= 92, "Rush total 68 à 92 s (≈ 61-75 s après montage)", f"{tot} s")
+    ok(68 <= tot <= 92, "Rush total 68 à 92 s (≈ 61-75 s après montage)", f"{tot} s", souple)
     sans_fin = [p["n"] for p in plans if duree_plan(p) == 10 and not p.get("fin")]
     ok(not sans_fin, "Chaque plan de 10 s a une image de fin (fin)", sans_fin or "oui")
     hors, debit, lents = [], [], []
@@ -113,11 +122,11 @@ def verifier(projet, nom):
     ok(sans == 0, "Chaque réplique a une fonction (jamais « info »)", dict(fonctions))
     clash = sum(1 for p in bruts for a_, b_ in zip(dialogues(p), dialogues(p)[1:])
                 if a_.get("fonction") in ("attaque", "menace") and b_.get("fonction") == "riposte" and a_["parle"] != b_["parle"])
-    ok(clash >= 4, "4+ clashs attaque → riposte", clash)
+    ok(clash >= 4, "4+ clashs attaque → riposte", clash, souple)
     if mo.get("callback"):
         cb = norm(mo["callback"])
         n_cb = sum(1 for p in bruts for d in dialogues(p) if cb and cb in norm(d["texte"]))
-        ok(n_cb >= 2, "La phrase-signature du méchant revient au payoff (callback 2 fois)", n_cb)
+        ok(n_cb >= 2, "La phrase-signature du méchant revient au payoff (callback 2 fois)", n_cb, souple)
     mous, trous = [], []
     for p in bruts:
         ds = dialogues(p)
@@ -164,12 +173,12 @@ def verifier(projet, nom):
     ok(len(angles) >= 3, "Au moins 3 angles différents", len(angles))
     lieux = [p["lieu"] for p in plans]
     huis_clos = "huis clos" in ep.get("format", "")
-    ok(len(set(lieux)) >= (1 if huis_clos else 3), "Au moins 3 lieux (sauf huis clos)", len(set(lieux)))
+    ok(len(set(lieux)) >= (1 if huis_clos else 3), "Au moins 3 lieux (sauf huis clos)", len(set(lieux)), souple)
     ok(len({p["lumiere"] for p in plans}) >= 2, "Au moins 2 lumières", len({p["lumiere"] for p in plans}))
     parleurs = [d["parle"] for p in plans for d in dialogues(p)]
     suite = max((sum(1 for _ in g) for _, g in groupby(parleurs)), default=0)
     ok(suite <= 4, "Même personnage 4 répliques d'affilée max", suite)
-    ok(len(set(parleurs)) >= 3, "Au moins 3 personnages parlent", len(set(parleurs)))
+    ok(len(set(parleurs)) >= 3, "Au moins 3 personnages parlent", len(set(parleurs)), souple)
     tous = {pe["id"] for p in plans for pe in p["persos"] + p.get("fin", {}).get("persos", [])}
     ok(len(tous) <= 6, "6 personnages max dans l'épisode", len(tous))
 
@@ -212,10 +221,10 @@ def verifier(projet, nom):
     ok(bool(ta) and len(ta.split()) <= 7, "Texte d'accroche à l'écran (7 mots max)", ta or "—")
     qm = ep.get("question_milieu") or {}
     ok(bool(qm.get("texte")) and 5 <= int(qm.get("plan", 0)) <= 8, "Question au milieu de la vidéo (plans 5 à 8)",
-       f"plan {qm.get('plan')} : {qm.get('texte', '—')}")
+       f"plan {qm.get('plan')} : {qm.get('texte', '—')}", souple)
     ret = [p["n"] for p in plans if p.get("role") == "retournement"]
     ok(any(3 <= n <= 6 for n in ret) and any(7 <= n <= 11 for n in ret),
-       "Retournement avant 35 s ET avant 65 s", ret or "aucun")
+       "Retournement avant 35 s ET avant 65 s", ret or "aucun", souple)
     if b.serie:
         ok(f"#partie{ep['numero']}" in [h.lower() for h in ep.get("hashtags", [])], "Hashtag #partieN", ep.get("hashtags"))
 
@@ -258,6 +267,62 @@ def verifier(projet, nom):
                     and norm(x["replique_fetiche"]) != norm((ep.get("moteur") or {}).get("callback", ""))):
                 fet[pid] += 1
     ok(max(fet.values(), default=0) <= 2, "Réplique fétiche 2 fois max par personnage", dict(fet) or 0, "À VOIR")
+    if adapt:
+        res += verifier_adaptation(b, ep, adapt)
+    return res
+
+
+def plage(txt):
+    """"r1-r32" -> [1..32]."""
+    a, _, z = str(txt).replace("r", "").partition("-")
+    return list(range(int(a), int(z or a) + 1))
+
+
+def verifier_adaptation(b, ep, adapt):
+    """Fidélité à la source (chaque réplique source est reprise) ET distance (aucune réplique recopiée)."""
+    res = []
+
+    def ok(cond, regle, mesure, niveau="ÉCHEC"):
+        res.append(("OK" if cond else niveau, regle, mesure))
+
+    f = ANALYSES / str(adapt.get("source")) / "dissection.json"
+    if not f.exists():
+        ok(False, "Dissection de la source présente", f"{f} introuvable (lancer /copier)")
+        return res
+    dis = lire_json(f)
+    src = {x["r"]: x["texte"] for x in dis.get("repliques", [])}
+    lignes = [d for p in ep["plans"] for d in dialogues(p)]
+    sans = [d["texte"][:30] for d in lignes if "source" not in d]
+    ok(not sans, "Chaque réplique indique sa source (liste de rN, [] si ajoutée)", "; ".join(sans) or "oui")
+    vise = {f"r{i}" for i in plage(adapt.get("repliques", f"1-{len(src)}"))}
+    pris = {r for d in lignes for r in d.get("source") or []}
+    coupees = set(adapt.get("coupees", []))
+    couv = len((pris | coupees) & vise) / max(1, len(vise))
+    manquent = sorted(vise - pris - coupees, key=lambda x: int(x[1:]))
+    ok(couv >= 0.9, "Fidélité : 90 %+ des répliques source reprises (ou coupées exprès dans adaptation.coupees)",
+       f"{round(100 * couv)} %" + (f", oubliées : {', '.join(manquent)}" if manquent else ""))
+    ajouts = sum(1 for d in lignes if d.get("source") == [])
+    ok(ajouts <= max(2, len(lignes) * 0.3), "Ajouts limités (30 % max de répliques inventées)",
+       f"{ajouts}/{len(lignes)}", "À VOIR")
+    copies = []
+    for d in lignes:
+        orig = " ".join(src.get(r, "") for r in d.get("source") or [])
+        if orig and len(norm(d["texte"]).split()) > 3:
+            ratio = SequenceMatcher(None, norm(d["texte"]), norm(orig)).ratio()
+            if ratio >= 0.7:
+                copies.append(f"« {d['texte'][:40]} » ≈ {', '.join(d['source'])} ({round(100 * ratio)} %)")
+    ok(not copies, "Anti-copier-coller : aucune réplique à 70 %+ identique à l'original", "; ".join(copies) or "oui")
+    interdits = [x for x in dis.get("noms_a_eviter", []) if len(x) > 2]
+    for pe in dis.get("personnages", []):
+        interdits += [w for w in re.split(r"[ /,]+", pe.get("nom_source", "")) if len(w) > 2]
+    textes = " ".join([d["texte"] for d in lignes] + [str(ep.get(k, "")) for k in ("titre", "legende", "titre_couverture")]
+                      + [str(p.get("texte_decor", "")) for p in ep["plans"]])
+    t = " " + norm(textes) + " "
+    repris = sorted({x for x in interdits if f" {norm(x)} " in t})
+    ok(not repris, "Aucun nom propre de la source (personnages, lieux, marques)", ", ".join(repris) or "oui")
+    persos_src = {pe.get("animal_ou_fruit", "").lower() for pe in dis.get("personnages", [])} - {""}
+    nos = {x.get("animal", "").lower() for x in b.persos.values()}
+    ok(not (persos_src & nos), "Espèces différentes de la source", ", ".join(persos_src & nos) or "oui", "À VOIR")
     return res
 
 

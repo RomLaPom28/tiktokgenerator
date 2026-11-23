@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from commun import ANALYSES, SOURCES, duree, ecrire_json, run, whisper, a_un_son  # noqa: E402
+from commun import ANALYSES, SOURCES, duree, ecrire_json, police, run, whisper, a_un_son  # noqa: E402
 
 VIDEOS = SOURCES / "videos"
 YTDLP = [sys.executable, "-m", "yt_dlp", "--no-warnings", "--quiet"]
@@ -76,7 +76,7 @@ def detecter_plans(mp4, total):
 
 
 def planche(mp4, plans, sortie):
-    from PIL import Image, ImageDraw, ImageFont
+    from PIL import Image, ImageDraw
     tmp = sortie.parent / "_frames"
     tmp.mkdir(exist_ok=True)
     choisis = plans if len(plans) <= 30 else plans[:: max(1, len(plans) // 30)][:30]
@@ -94,7 +94,7 @@ def planche(mp4, plans, sortie):
     rows = (len(vignettes) + cols - 1) // cols
     img = Image.new("RGB", (cols * w, rows * (h + 34)), "white")
     d = ImageDraw.Draw(img)
-    font = ImageFont.truetype("C:/Windows/Fonts/arialbd.ttf", 20)
+    font = police(20)
     for i, (p, v) in enumerate(vignettes):
         x, y = (i % cols) * w, (i // cols) * (h + 34)
         img.paste(v.resize((w, h)), (x, y + 34))

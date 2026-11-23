@@ -1,0 +1,470 @@
+{
+  "source": {
+    "id": "7682147381017611552",
+    "lien": "https://www.tiktok.com/@une.histoire.ia2/video/7682147381017611552",
+    "compte": "une.histoire.ia2",
+    "vues": 22900000,
+    "taux_likes": 11.35,
+    "duree": 74.4,
+    "plans": 11,
+    "suites": {
+      "partie2": "7682857082701352225 (8,2 M)",
+      "partie3": "7683248229797973281 (2,7 M)",
+      "partie4": "7683616000197102880 (5,7 M)"
+    }
+  },
+  "personnages": [
+    {
+      "id": "fraise",
+      "nom_source": "Fraise",
+      "animal_ou_fruit": "fraise",
+      "role": "heros",
+      "look": "jeune femme fraise très maigre, peau rouge piquetée de graines, longs cheveux rouges, feuilles vertes sur la tête, crop top blanc à fraise, jogging gris",
+      "voix": "douce, hésitante, puis déterminée",
+      "caractere": "amoureuse, naïve, veut lui plaire",
+      "nb_repliques": 20,
+      "plans": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "kiwi",
+      "nom_source": "Kiwi",
+      "animal_ou_fruit": "kiwi",
+      "role": "mechant",
+      "look": "étudiant bodybuilder, peau vert kiwi tachetée, cheveux bruns bouclés, débardeur blanc « KIWI », collier rondelle de kiwi",
+      "voix": "assurée, moqueuse",
+      "caractere": "hypocrite, flatte devant, humilie derrière, garde sa copine faible pour la contrôler",
+      "nb_repliques": 9,
+      "plans": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "pote_raisin",
+      "nom_source": "(pote raisin)",
+      "animal_ou_fruit": "raisin",
+      "role": "temoin",
+      "look": "costaud violet à tête de grappe de raisin, lunettes de soleil",
+      "voix": "rigolard",
+      "caractere": "suiveur",
+      "nb_repliques": 1,
+      "plans": [
+        2
+      ]
+    },
+    {
+      "id": "pote_peche",
+      "nom_source": "(pote pêche)",
+      "animal_ou_fruit": "pêche",
+      "role": "temoin",
+      "look": "costaud orangé cheveux roux",
+      "voix": "rigolard",
+      "caractere": "suiveur",
+      "nb_repliques": 1,
+      "plans": [
+        2
+      ]
+    }
+  ],
+  "decors": [
+    {
+      "id": "campus",
+      "desc": "parvis d'université ensoleillé, bannières à blason fraise « Université Fruitsia », étudiants-fruits en fond",
+      "plans": [
+        1,
+        9
+      ],
+      "textes_lisibles": [
+        "UNIVERSITÉ FRUITSIA"
+      ]
+    },
+    {
+      "id": "salle_sport_campus",
+      "desc": "salle de musculation lumineuse du campus, haltères, bannières « TEAM FRUITSIA »",
+      "plans": [
+        2,
+        6,
+        7,
+        8,
+        10
+      ],
+      "textes_lisibles": [
+        "TEAM FRUITSIA",
+        "DISCIPLINE AUJOURD'HUI RÉSULTATS DEMAIN"
+      ]
+    },
+    {
+      "id": "cafeteria",
+      "desc": "cafétéria du campus, table bois, assiette vide pour elle, assiette de poulet-légumes pour lui, livre « NUTRITION », téléphone posé",
+      "plans": [
+        3,
+        4,
+        5,
+        11
+      ],
+      "textes_lisibles": [
+        "Toujours plus forte demain",
+        "groupe « Les Bras » avec messages lisibles"
+      ]
+    }
+  ],
+  "noms_a_eviter": [
+    "Fruitsia",
+    "Kiwi",
+    "Fraise",
+    "Les Bras",
+    "KIWI"
+  ],
+  "repliques": [
+    {
+      "r": "r1",
+      "t": "0.0-2.6",
+      "plan": 1,
+      "qui": "fraise",
+      "fonction": "aveu",
+      "texte": "Mon cœur, j'ai envie de me mettre au sport et de mieux manger."
+    },
+    {
+      "r": "r2",
+      "t": "2.8-4.1",
+      "plan": 1,
+      "qui": "kiwi",
+      "fonction": "mensonge",
+      "texte": "Mais arrête avec ça, tu es la plus belle comme ça,"
+    },
+    {
+      "r": "r3",
+      "t": "4.1-6.0",
+      "plan": 1,
+      "qui": "kiwi",
+      "fonction": "mensonge",
+      "texte": "je n'ai jamais vu une fille aussi belle que toi, et j'aime quand on voit tes os."
+    },
+    {
+      "r": "r4",
+      "t": "6.2-6.8",
+      "plan": 1,
+      "qui": "fraise",
+      "fonction": "reaction",
+      "texte": "Oh mon chéri."
+    },
+    {
+      "r": "r5",
+      "t": "7.1-7.5",
+      "plan": 1,
+      "qui": "fraise",
+      "fonction": "reaction",
+      "texte": "Je t'aime."
+    },
+    {
+      "r": "r6",
+      "t": "8.2-10.0",
+      "plan": 2,
+      "qui": "kiwi",
+      "fonction": "attaque",
+      "texte": "Regardez-la, elle est tellement mince."
+    },
+    {
+      "r": "r7",
+      "t": "10.1-12.7",
+      "plan": 2,
+      "qui": "pote_raisin",
+      "fonction": "attaque",
+      "texte": "Ses os, c'est trop rigolo, le pire c'est qu'elle pense qu'elle est fraîche."
+    },
+    {
+      "r": "r8",
+      "t": "13.1-14.7",
+      "plan": 2,
+      "qui": "pote_peche",
+      "fonction": "attaque",
+      "texte": "Un jour, tu vas briser ses os à force."
+    },
+    {
+      "r": "r9",
+      "t": "16.9-19.4",
+      "plan": 3,
+      "qui": "fraise",
+      "fonction": "promesse",
+      "texte": "Mon cœur, je peux prendre un petit morceau dans ton assiette."
+    },
+    {
+      "r": "r10",
+      "t": "19.5-21.0",
+      "plan": 3,
+      "qui": "kiwi",
+      "fonction": "attaque",
+      "texte": "Hors de question, j'ai besoin de protéines moi,"
+    },
+    {
+      "r": "r11",
+      "t": "21.1-23.2",
+      "plan": 3,
+      "qui": "kiwi",
+      "fonction": "mensonge",
+      "texte": "mais je t'ai déjà dit que tu es la plus belle, comme ça arrête de te prendre la tête."
+    },
+    {
+      "r": "r12",
+      "t": "23.4-24.3",
+      "plan": 3,
+      "qui": "fraise",
+      "fonction": "reaction",
+      "texte": "Merci de m'aimer chéri."
+    },
+    {
+      "r": "r13",
+      "t": "26.0-29.4",
+      "plan": 4,
+      "qui": "fraise",
+      "fonction": "info",
+      "texte": "Il a oublié son téléphone, je vais le prendre et aller lui rendre."
+    },
+    {
+      "r": "r14",
+      "t": "32.5-34.4",
+      "plan": 5,
+      "qui": "fraise",
+      "fonction": "revelation",
+      "texte": "Il se moque de moi avec ses potes."
+    },
+    {
+      "r": "r15",
+      "t": "34.5-37.8",
+      "plan": 5,
+      "qui": "fraise",
+      "fonction": "revelation",
+      "texte": "Et il fait l'hypocrite avec moi en me disant qu'il me trouve belle et que je ne dois pas changer."
+    },
+    {
+      "r": "r16",
+      "t": "38.0-39.4",
+      "plan": 5,
+      "qui": "fraise",
+      "fonction": "menace",
+      "texte": "Il m'a trahi, il va me le payer."
+    },
+    {
+      "r": "r17",
+      "t": "40.0-42.7",
+      "plan": 6,
+      "qui": "fraise",
+      "fonction": "attaque",
+      "texte": "C'est quoi ces messages ? Alors comme ça je suis trop mince ?"
+    },
+    {
+      "r": "r18",
+      "t": "42.7-43.9",
+      "plan": 7,
+      "qui": "kiwi",
+      "fonction": "riposte",
+      "texte": "Mais rend moi mon téléphone déjà."
+    },
+    {
+      "r": "r19",
+      "t": "44.0-45.6",
+      "plan": 7,
+      "qui": "kiwi",
+      "fonction": "attaque",
+      "texte": "Et de toute façon tu le vois toi-même que tu n'es pas normal,"
+    },
+    {
+      "r": "r20",
+      "t": "45.7-46.8",
+      "plan": 7,
+      "qui": "kiwi",
+      "fonction": "attaque",
+      "texte": "tu n'es pas comme les autres, moi j'y peux rien."
+    },
+    {
+      "r": "r21",
+      "t": "47.0-48.8",
+      "plan": 7,
+      "qui": "fraise",
+      "fonction": "riposte",
+      "texte": "Tu m'as toujours dit que j'étais la plus belle à tes yeux."
+    },
+    {
+      "r": "r22",
+      "t": "48.9-49.9",
+      "plan": 7,
+      "qui": "kiwi",
+      "fonction": "aveu",
+      "texte": "J'ai menti haha."
+    },
+    {
+      "r": "r23",
+      "t": "51.7-52.0",
+      "plan": 8,
+      "qui": "kiwi",
+      "fonction": "reaction",
+      "texte": "Attends."
+    },
+    {
+      "r": "r24",
+      "t": "52.9-55.4",
+      "plan": 9,
+      "qui": "fraise_voix_off",
+      "fonction": "promesse",
+      "texte": "Je vais tout faire pour changer, et pas pour lui plaire."
+    },
+    {
+      "r": "r25",
+      "t": "55.8-57.3",
+      "plan": 9,
+      "qui": "fraise_voix_off",
+      "fonction": "aveu",
+      "texte": "Depuis tout ce temps, je ne mangeais rien pour lui."
+    },
+    {
+      "r": "r26",
+      "t": "57.5-59.6",
+      "plan": 9,
+      "qui": "fraise_voix_off",
+      "fonction": "promesse",
+      "texte": "Je voulais qu'il me trouve belle, mais maintenant je vais le faire pour moi."
+    },
+    {
+      "r": "r27",
+      "t": "59.9-61.5",
+      "plan": 9,
+      "qui": "fraise_voix_off",
+      "fonction": "promesse",
+      "texte": "Je vais tout faire pour m'aimer moi en premier."
+    },
+    {
+      "r": "r28",
+      "t": "62.6-64.0",
+      "plan": 10,
+      "qui": "fraise_voix_off",
+      "fonction": "promesse",
+      "texte": "On commence par le sport."
+    },
+    {
+      "r": "r29",
+      "t": "64.3-66.1",
+      "plan": 10,
+      "qui": "fraise_voix_off",
+      "fonction": "promesse",
+      "texte": "Trois séances par semaine, je donne tout."
+    },
+    {
+      "r": "r30",
+      "t": "68.4-69.7",
+      "plan": 11,
+      "qui": "fraise_voix_off",
+      "fonction": "reaction",
+      "texte": "Enfin je peux manger à ma faim."
+    },
+    {
+      "r": "r31",
+      "t": "69.9-71.7",
+      "plan": 11,
+      "qui": "fraise_voix_off",
+      "fonction": "reaction",
+      "texte": "Et je commence à me sentir mieux dans mon corps."
+    },
+    {
+      "r": "r32",
+      "t": "72.1-73.8",
+      "plan": 11,
+      "qui": "fraise_voix_off",
+      "fonction": "menace",
+      "texte": "L'heure de ma revanche va bientôt sonner."
+    }
+  ],
+  "temps_forts": [
+    {
+      "t": "0.0",
+      "type": "accroche",
+      "quoi": "elle veut faire du sport et mieux manger, il l'en dissuade avec des compliments trop appuyés"
+    },
+    {
+      "t": "8.2",
+      "type": "injustice",
+      "quoi": "il se moque d'elle avec ses potes en montrant sa photo : on sait qu'il ment, elle non"
+    },
+    {
+      "t": "19.5",
+      "type": "humiliation",
+      "quoi": "il refuse de partager son assiette (« j'ai besoin de protéines ») tout en jurant qu'elle est parfaite"
+    },
+    {
+      "t": "26.0",
+      "type": "revelation",
+      "quoi": "téléphone oublié, elle lit le groupe de messages où ils se moquent d'elle"
+    },
+    {
+      "t": "40.0",
+      "type": "retournement",
+      "quoi": "confrontation, il assume : « tu n'es pas normale »"
+    },
+    {
+      "t": "48.9",
+      "type": "humiliation",
+      "quoi": "« J'ai menti haha » : pic de haine contre lui"
+    },
+    {
+      "t": "52.9",
+      "type": "retournement",
+      "quoi": "elle décide de changer pour elle, montage de transformation (sport, repas)"
+    },
+    {
+      "t": "72.1",
+      "type": "cliff",
+      "quoi": "« L'heure de ma revanche va bientôt sonner » : appel à la partie 2"
+    }
+  ],
+  "moteur": {
+    "desir": "être aimée telle qu'elle est et se sentir bien",
+    "injustice": "son copain la flatte en face et l'humilie derrière, il l'empêche même de manger",
+    "antagoniste": "Kiwi, beau gosse musclé hypocrite",
+    "enjeu": "sa santé et sa dignité",
+    "force_cachee": "sa volonté une fois libérée de lui",
+    "payoff": "glow-up (promis, montré dans les parties suivantes)",
+    "kicker": "« l'heure de ma revanche va sonner »"
+  },
+  "pourquoi": [
+    "Ironie dramatique dès 8 s : le spectateur découvre le mensonge AVANT elle, il veut qu'elle sache (8.2 s).",
+    "Méchant détestable par un geste concret et mesquin : refuser une bouchée de son assiette tout en disant qu'elle est parfaite (19.5 s).",
+    "Révélation par un objet du quotidien lisible à l'écran : le téléphone oublié et les messages du groupe (26-40 s).",
+    "Aveu cynique « J'ai menti haha » (48.9 s) : réplique-choc courte qui déclenche la colère et les commentaires.",
+    "Bascule positive et promesse de revanche (52-74 s) : on veut voir la suite, la série a fait 8,2 M en partie 2. Likes à 11,35 % : thème universel (regard du couple sur le corps)."
+  ],
+  "faiblesses": [
+    "0-8 s : accroche douce, aucune image choc ni drame annoncé ; c'est le pouvoir du thème qui retient.",
+    "24-31 s : plan 4 lent (une seule réplique explicative).",
+    "52-74 s : monologue voix off sans antagoniste ni clash, le rythme retombe.",
+    "Aucun chiffre ni texte fort à l'écran pour la miniature.",
+    "Thème maigreur + « je ne mangeais rien » : zone sensible TikTok (troubles alimentaires), risque de portée réduite."
+  ],
+  "ameliorations": [
+    "Hook : ouvrir sur un écran de téléphone lisible avec le message moqueur + sa voix « Tu es parfaite » par-dessus (ironie dès 0,5 s).",
+    "Chiffre à l'écran : le message moqueur affiche un compteur (ex. « 47 rires ») pour la miniature et l'humiliation.",
+    "Remettre le méchant dans le dernier tiers : il la voit commencer et ricane « Elle tiendra trois jours » (nouvelle injustice + callback pour la partie 2).",
+    "Callback : sa phrase « Ne change rien, t'es parfaite » devient la phrase qu'elle lui renverra au payoff.",
+    "Remplacer le thème corps/nourriture par un autre « défaut » qu'il entretient pour la garder sous contrôle (voix, études, talent) : même mécanique, sans risque de modération.",
+    "Commentaire épinglé binaire : « Elle le quitte tout de suite 💔 / Elle lui fait regretter d'abord 🔥 »."
+  ],
+  "format": {
+    "duree": 74.4,
+    "mots_s": 4.38,
+    "plan_moyen": 6.76,
+    "parties_conseillees": 1
+  }
+}

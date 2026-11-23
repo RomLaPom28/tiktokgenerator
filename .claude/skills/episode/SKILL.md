@@ -20,6 +20,7 @@ La page est la source de vérité de ce projet :
 - `projets/<projet>/ton.md`, `personnages.json`, `lieux.json`, `saison.json` (pitch prévu pour ce numéro, fils ouverts/cachés).
 - `projets/<projet>/episodes/historique.json` : l'épisode reprend EXACTEMENT la fin du précédent.
 - Idée donnée ou vote gagnant : l'intégrer, quitte à adapter le pitch de saison.
+- **Projet `/copier`** (`projet.json` a `adaptation`) : lire `analyses/<source>/dissection.json` et la plage `repliques` de cet épisode dans `saison.json` ; écrire avec les règles de `.claude/skills/copier/SKILL.md` étape 5 (réplique par réplique, champ `source`), mettre à jour `adaptation.repliques` dans `projet.json` avant `verifier.py`.
 
 ## 2. Écrire
 Mêmes règles que `/creer` étape 4 (lire `.claude/skills/creer/SKILL.md` étape 4 : format timeline + dialogues timecodés, plans de 6 et 10 s avec image de fin, ping-pong, rupture toutes les 2-3 s, hooks de rechange, texte dans le décor, style cartoon), plus :

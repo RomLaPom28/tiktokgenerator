@@ -1,5 +1,16 @@
 # Studio : mode d'emploi
 
+## Copier une vidéo qui a percé (le plus rapide)
+1. **`/copier <lien TikTok>`** (ou l'id d'une vidéo déjà dans `analyses/`).
+2. L'outil découpe tout : plans, personnages (combien, qui, look), décors, transcription attribuée à chaque perso.
+3. Il explique pourquoi la vidéo marche, ses faiblesses, et ce qu'on peut améliorer pour la viralité.
+   Tout est écrit dans `analyses/<id>/dissection.md` (avec un brief collable dans `/creer`).
+4. Il propose 3 transpositions (nouvel univers, nouveaux animaux). Tu en choisis une.
+5. Il réécrit l'histoire réplique par réplique (même rôle, même place, autres mots) et sort `pack.html` :
+   en haut, le tableau **Original → notre version**, puis tous les prompts ChatGPT + Grok.
+   Le contrôle qualité refuse toute réplique trop proche de l'original et tout nom propre repris.
+   Vidéo source de plus de 95 s : découpée en parties (série), la suite avec `/episode <id>`.
+
 ## Créer une vidéo (toujours de zéro)
 1. **`/creer`** (ou `/creer` + un thème, ex. `/creer foot`).
 2. Tu choisis : **vidéo unique** ou **nouvelle série**.
