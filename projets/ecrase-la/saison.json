@@ -1,0 +1,24 @@
+{
+  "_lisez_moi": "Plan de la saison : chaque épisode a un FORMAT différent et fait avancer au moins un fil. /episode suit ce plan mais peut l'ajuster selon les votes des commentaires (champ vote_gagnant).",
+  "enjeu": "Qui conduisait la Falco GT qui a renversé Jade ? Lucas a 30 jours avant la saisie de la casse et une course contre Dylan pour le prouver.",
+  "episodes": [
+    {"n": 1, "format": "révélation en cascade", "pitch": "La Falco arrive à la casse, Dylan paie 100 000 € pour qu'on l'écrase, Michel accepte. Lucas a sauvé la vraie voiture et la caméra : ce n'est pas Dylan qui conduit."},
+    {"n": 2, "format": "confrontation en huis clos", "pitch": "Dans l'atelier, Lucas zoome sur la vidéo : une chevalière en or sur le volant. Michel la reconnaît et refuse de dire à qui elle appartient."},
+    {"n": 3, "format": "POV vidéo d'un témoin", "pitch": "Nathalie montre ce qu'elle a filmé la nuit de l'accident : la Falco passe devant le snack… avec deux silhouettes et une troisième sur un scooter rose qui la suit."},
+    {"n": 4, "format": "test / mise à l'épreuve", "pitch": "Le glow-up : Lucas reconstruit la Falco en 6 jours pour la course. Dylan vient saboter l'atelier de nuit et tombe sur Jade, sortie de l'hôpital."},
+    {"n": 5, "format": "évènement public", "pitch": "Soirée de gala chez Prestige Delmas : Christophe annonce devant toute la ville qu'il rachète la casse. Lucas arrive au volant d'une des supercars exposées… qu'il a construite lui-même."},
+    {"n": 6, "format": "flashback", "pitch": "La nuit de l'accident, du point de vue de Jade : elle allait rejoindre Dylan en cachette."},
+    {"n": 7, "format": "trahison ultime", "pitch": "Michel signe en secret la vente de la casse à Christophe pour payer les soins de Jade."},
+    {"n": 8, "format": "course contre la montre", "pitch": "La course de nuit sur la route de l'accident : si Lucas perd, la casse est à Christophe. Dylan triche."},
+    {"n": 9, "format": "appel téléphonique", "pitch": "Dylan, sous le choc après la course, appelle son père : tout est enregistré par la Falco."},
+    {"n": 10, "format": "procès / chez l'avocat", "pitch": "Face à face final : la carte mémoire, la chevalière, le témoignage de Jade. Christophe broyé par sa propre phrase."}
+  ],
+  "fils": [
+    {"id": "conducteur", "statut": "cache", "texte": "C'est Christophe, le père de Dylan, qui conduisait la Falco ; Dylan était passager et couvre son père."},
+    {"id": "jade_sait", "statut": "cache", "texte": "Jade se souvient de tout : elle allait rejoindre Dylan en cachette, elle se tait pour le protéger."},
+    {"id": "lucas_constructeur", "statut": "cache", "texte": "Les trois supercars « d'occasion » vendues chez Prestige Delmas ont été reconstruites par Lucas."},
+    {"id": "dette", "statut": "ouvert", "texte": "La casse doit 80 000 €, saisie dans 30 jours ; Michel a pris les 100 000 € de Dylan."},
+    {"id": "duel", "statut": "ouvert", "texte": "Course sur la route de l'accident : si Lucas perd, la casse est à Christophe ; s'il gagne, Dylan dit tout."},
+    {"id": "carte_memoire", "statut": "ouvert", "texte": "Lucas a la carte mémoire de la caméra de bord ; les Delmas veulent la récupérer."}
+  ]
+}

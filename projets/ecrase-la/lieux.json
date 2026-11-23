@@ -1,0 +1,35 @@
+{
+  "_lisez_moi": "desc = recopiée mot pour mot dans chaque prompt image ; son = ambiance des prompts Grok.",
+  "lieux": [
+    {
+      "id": "casse",
+      "nom": "La casse de Michel",
+      "desc": "immense casse automobile en plein air, montagnes de carcasses de voitures rouillées empilées sur cinq étages, grue à pince jaune, presse hydraulique géante au centre, grande enseigne néon orange à moitié grillée « CASSE MICHEL & FILS », flaques d'huile, chiens de garde animaux au loin",
+      "son": "grincement de métal, grue hydraulique, chiens qui aboient au loin"
+    },
+    {
+      "id": "atelier",
+      "nom": "L'atelier caché de Lucas",
+      "desc": "hangar-atelier en tôle au fond de la casse, établi couvert d'outils, lampes baladeuses pendues au plafond, pièces de moteur rangées au millimètre, vieux canapé troué, une voiture cachée sous une grande bâche grise",
+      "son": "néon qui grésille, goutte d'huile, radio lointaine"
+    },
+    {
+      "id": "hopital",
+      "nom": "Chambre de Jade à l'hôpital",
+      "desc": "chambre d'hôpital lumineuse, lit à barreaux blancs, moniteur cardiaque qui bipe, dessins d'enfants scotchés au mur, ballons dégonflés, tableau blanc au mur, fenêtre sur la ville",
+      "son": "bip régulier du moniteur, couloir d'hôpital"
+    },
+    {
+      "id": "snack",
+      "nom": "Le snack « Chez Nathalie »",
+      "desc": "petit snack de bord de route en face de la casse, comptoir en formica rouge, néons roses, menu lumineux de frites et kebabs aux prix fictifs, tabourets chromés, figurants animaux qui mangent, vitre qui donne sur l'enseigne de la casse",
+      "son": "friteuse qui crépite, vieux juke-box, conversations"
+    },
+    {
+      "id": "concession",
+      "nom": "Show-room Prestige Delmas",
+      "desc": "show-room de supercars en marbre noir et doré, supercars fictives alignées sous des spots, immense écran au mur avec le slogan « PRESTIGE DELMAS – N°1 DE LA RÉGION », bureau en verre au fond",
+      "son": "musique lounge, pas sur le marbre, climatisation"
+    }
+  ]
+}

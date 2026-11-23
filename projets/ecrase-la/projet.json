@@ -1,0 +1,13 @@
+{
+  "id": "ecrase-la",
+  "type": "serie",
+  "titre": "Écrase-la",
+  "sujet": "Trois semaines après le délit de fuite qui a envoyé sa petite sœur à l'hôpital, la voiture du chauffard est déposée en pleine nuit à la casse de Lucas pour y être détruite. Le fils du roi des concessions paie 100 000 € pour qu'on l'écrase. Le grand-père, criblé de dettes, accepte.",
+  "concept": "histoire originale (ADN de epave_tresor : épave méprisée → glow-up → course où le perdant donne tout)",
+  "remix": {
+    "squelette": "original",
+    "greffes": ["epave_tresor", "crime_vu_par_le_spectateur", "proposition_indecente", "gentil_qui_ment", "aveu_miroir", "callback_rival"],
+    "note": "6/6 : image choc (rétroviseur rose dans la calandre, supercar sous la presse), enjeu vital (sœur à l'hôpital, casse familiale, 100 000 €), faute grave (délit de fuite + destruction de preuve), scène attendue (qui conduisait ?), retournement (le grand-père accepte l'argent ; ce n'est pas Dylan qui conduisait), preuve (épave 1 M + crime vu 1,8 M + proposition chiffrée 2 M)"
+  },
+  "cree": "2026-11-23"
+}

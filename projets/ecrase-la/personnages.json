@@ -1,0 +1,126 @@
+{
+  "_lisez_moi": "ADN = description copiée MOT POUR MOT dans chaque prompt image où le personnage apparaît. voix = copiée mot pour mot dans chaque prompt Grok.",
+  "style": "Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux.",
+  "personnages": [
+    {
+      "id": "lucas",
+      "nom": "Lucas",
+      "animal": "raton laveur",
+      "adn": "Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues",
+      "tenues": {
+        "base": "salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture"
+      },
+      "voix": "voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie",
+      "caractere": "génie de la mécanique, taiseux, encaisse puis frappe avec une phrase",
+      "objectif": "trouver qui a renversé sa petite sœur et le faire payer",
+      "secret": "il a reconstruit en cachette trois supercars vendues sous un faux nom, sans savoir à qui",
+      "tics": [
+        "fait tourner une clé de 12 entre ses doigts",
+        "remonte ses lunettes de soudeur quand il se met en colère",
+        "sourire en coin vers la caméra quand on le sous-estime"
+      ],
+      "replique_fetiche": "Tout se répare. Presque tout.",
+      "ref": "refs/lucas.png"
+    },
+    {
+      "id": "jade",
+      "nom": "Jade",
+      "animal": "lapine",
+      "adn": "Jade, lapine blanche de 16 ans aux très longues oreilles dont une bandée, grands yeux bleus, plâtre rose au bras droit couvert de dessins au feutre",
+      "tenues": {
+        "base": "blouse d'hôpital bleu ciel à petits motifs, bracelet d'hôpital au poignet"
+      },
+      "voix": "voix de jeune fille de 16 ans, douce et fatiguée, hésitante",
+      "caractere": "douce, drôle avant l'accident, aujourd'hui silencieuse",
+      "objectif": "que son frère arrête de chercher",
+      "secret": "elle se souvient de tout : elle allait rejoindre Dylan en cachette ce soir-là",
+      "tics": [
+        "tire sur son oreille bandée quand elle ment",
+        "évite le regard de Lucas",
+        "serre son plâtre contre elle"
+      ],
+      "replique_fetiche": "Je me souviens de rien.",
+      "ref": "refs/jade.png"
+    },
+    {
+      "id": "michel",
+      "nom": "Michel",
+      "animal": "ours brun",
+      "adn": "Michel, vieil ours brun massif de 68 ans, barbe grise broussailleuse, casquette de mécano bleue usée, cure-dent au coin de la bouche, gros ventre",
+      "tenues": {
+        "base": "salopette bleue délavée rapiécée aux genoux, chemise à carreaux rouge aux manches retroussées"
+      },
+      "voix": "voix d'homme de 68 ans, rocailleuse et lente, accent du sud-ouest",
+      "caractere": "bourru et tendre, a tout donné pour élever ses petits-enfants, à bout",
+      "objectif": "sauver la casse familiale",
+      "secret": "la casse a 80 000 € de dettes, saisie dans 30 jours",
+      "tics": [
+        "mâchonne son cure-dent",
+        "s'essuie les pattes sur un vieux chiffon",
+        "le cure-dent tombe quand il est choqué"
+      ],
+      "replique_fetiche": "On a jamais rien jeté, ici.",
+      "ref": "refs/michel.png"
+    },
+    {
+      "id": "dylan",
+      "nom": "Dylan",
+      "animal": "lévrier afghan",
+      "adn": "Dylan, lévrier afghan de 21 ans au long pelage doré brushé comme une coiffure de star, museau fin relevé, lunettes de soleil miroir, grosse chaîne en or",
+      "tenues": {
+        "base": "veste en cuir blanc immaculé, tee-shirt noir, jean clair, baskets blanches de luxe"
+      },
+      "voix": "voix de jeune homme de 21 ans, traînante et méprisante, rire nasal",
+      "caractere": "fils à papa, méprise les pauvres, lâche dès qu'il a peur",
+      "objectif": "faire disparaître la voiture et tout ce qu'elle contient",
+      "secret": "il était dans la voiture ce soir-là, mais il ne conduisait pas",
+      "tics": [
+        "baisse ses lunettes miroir pour regarder de haut",
+        "essuie sa veste blanche quand il frôle quelque chose de sale",
+        "rire nasal court"
+      ],
+      "replique_fetiche": "Ce qui est cassé, on l'écrase.",
+      "ref": "refs/dylan.png"
+    },
+    {
+      "id": "christophe",
+      "nom": "Christophe",
+      "animal": "taureau",
+      "adn": "Christophe, taureau noir massif de 52 ans, cornes polies et brillantes, anneau doré au museau, grosse chevalière en or à la main droite",
+      "tenues": {
+        "base": "costume trois pièces bordeaux sur mesure, cravate dorée, montre en or"
+      },
+      "voix": "voix d'homme de 52 ans, très grave, lente, calme qui fait peur",
+      "caractere": "roi des concessions de la région et adjoint au maire, sourit en menaçant",
+      "objectif": "racheter la casse et enterrer l'affaire",
+      "secret": "c'est lui qui conduisait la voiture, ce soir-là",
+      "tics": [
+        "tourne sa chevalière autour de son doigt",
+        "souffle par les naseaux avant de parler",
+        "ajuste sa cravate en souriant"
+      ],
+      "replique_fetiche": "Tout s'achète, mon garçon.",
+      "ref": "refs/christophe.png"
+    },
+    {
+      "id": "nathalie",
+      "nom": "Nathalie",
+      "animal": "pie",
+      "adn": "Nathalie, pie de 47 ans au plumage noir et blanc à reflets bleus, gros bigoudis roses sur la tête, longues boucles d'oreilles en plastique, téléphone toujours à la main",
+      "tenues": {
+        "base": "tablier à grosses fleurs jaunes sur un pull violet, chaussons fourrés"
+      },
+      "voix": "voix de femme de 47 ans, aiguë et rapide, adore les potins",
+      "caractere": "tient le snack en face de la casse, voit tout, filme tout, répète tout",
+      "objectif": "être la première à savoir",
+      "secret": "elle a filmé la Falco GT passer devant son snack la nuit de l'accident",
+      "tics": [
+        "lève son téléphone pour filmer",
+        "plaque une aile sur son bec",
+        "fait claquer sa langue"
+      ],
+      "replique_fetiche": "Moi, j'ai rien vu… mais j'ai filmé.",
+      "ref": "refs/nathalie.png"
+    }
+  ]
+}

@@ -1,0 +1,954 @@
+{
+ "numero": 1,
+ "titre": "Écrase-la",
+ "format": "révélation en cascade",
+ "accroche_type": "aveu",
+ "cliff_type": "révélation coupée",
+ "centre": "lucas",
+ "texte_accroche": "Elle a renversé ma sœur",
+ "question_milieu": {
+  "plan": 6,
+  "texte": "Papy a eu raison d'accepter ? 🤔"
+ },
+ "vote_question": "Qui conduisait, d'après toi ?",
+ "fils_avances": [
+  "dette",
+  "carte_memoire",
+  "duel"
+ ],
+ "revele": [],
+ "reprend": "",
+ "moteur": {
+  "desir": "Lucas veut savoir qui a renversé sa petite sœur Jade et s'est enfui",
+  "injustice": "trois semaines après, le chauffard fait déposer sa voiture à la casse pour la faire disparaître, et Dylan paie le grand-père de Lucas pour qu'il détruise la preuve devant lui",
+  "antagoniste": "Dylan Delmas, fils à papa qui méprise les pauvres, achète la destruction de la preuve et menace de faire saisir la casse",
+  "enjeu_chiffre": "100 000 € pour écraser la voiture ; 80 000 € de dettes ; Jade à l'hôpital depuis 21 jours",
+  "force_cachee": "Lucas arrache la caméra de bord sous la presse et avait déjà échangé la vraie voiture contre une épave",
+  "payoff": "Lucas renvoie à Dylan sa propre phrase en promettant de réparer la Falco pour la course",
+  "callback": "Ce qui est cassé, on l'écrase.",
+  "kicker": "sur la vidéo, Dylan est passager : quelqu'un d'autre conduisait, avec une chevalière en or"
+ },
+ "hooks_alternatifs": [
+  "Ils m'ont payé 100 000 € pour écraser cette voiture.",
+  "Cette voiture a renversé ma sœur. Mon grand-père l'a vendue.",
+  "Le chauffard a déposé sa voiture chez moi. Pour la détruire."
+ ],
+ "resume": "Trois semaines après le délit de fuite qui a envoyé Jade à l'hôpital, la Falco GT du chauffard arrive à la casse de Michel. Dylan Delmas, fils du roi des concessions, paie 100 000 € pour qu'on l'écrase ; Michel, criblé de dettes, accepte. Lucas arrache la carte mémoire de la caméra de bord sous la presse. Le père de Dylan s'inquiète de la caméra. Dylan défie Lucas : course samedi, la casse en jeu. Mais Lucas avait échangé la vraie Falco contre une épave : il va la réparer. Sur la vidéo, Dylan est passager.",
+ "fin": "Sur la vidéo de la caméra de bord, Dylan est côté passager ; au volant, une patte avec une chevalière en or. « Alors qui conduisait… ? » Coupure.",
+ "recettes_utilisees": [
+  "Aveu-prémisse à 0 s",
+  "Témoin choqué après chaque réplique-choc",
+  "Gros chiffre lisible à l'écran",
+  "Moteur d'histoire : injustice → payoff par callback",
+  "Ironie dramatique (le spectateur voit la chevalière)"
+ ],
+ "titre_couverture": "Ils l'ont payé 100 000 € pour l'écraser 😳",
+ "legende": "La voiture qui a renversé sa sœur arrive dans sa casse… pour être détruite. Partie 1. Qui conduisait, d'après toi ?",
+ "hashtags": [
+  "#partie1",
+  "#histoire",
+  "#voiture",
+  "#animaux",
+  "#ia",
+  "#drama"
+ ],
+ "commentaire_epingle": "Qui conduisait la Falco ? 🐂 Le père de Dylan / 🐕 Dylan ment, c'était lui",
+ "plans": [
+  {
+   "n": 1,
+   "role": "accroche",
+   "duree": 6,
+   "lieu": "casse",
+   "lumiere": "nuit_lune",
+   "cadrage": "TGP",
+   "angle": "face",
+   "camera": "crash_zoom",
+   "persos": [
+    {
+     "id": "lucas",
+     "jeu": "face caméra, un rétroviseur de scooter rose arraché dans la patte, mâchoire serrée, yeux brillants de rage"
+    }
+   ],
+   "detail_image": "derrière lui, une supercar fictive orange, la Falco GT, capot enfoncé et pare-brise étoilé, suspendue à la pince de la grue ; un éclat de plastique rose coincé dans sa calandre",
+   "texte_decor": "papier scotché sur le pare-brise : « À ÉCRASER – PAYÉ »",
+   "timeline": [
+    {
+     "t": "0-2",
+     "action": "Lucas se tourne d'un coup vers la caméra en levant le rétroviseur rose",
+     "camera": "crash_zoom",
+     "son": "whoosh"
+    },
+    {
+     "t": "2-4",
+     "action": "la grue lâche la Falco au sol derrière lui dans un fracas de tôle",
+     "son": "fracas métallique"
+    },
+    {
+     "t": "4-6",
+     "action": "Lucas serre le rétroviseur, regard noir vers l'objectif",
+     "camera": "secousse",
+     "son": "note grave"
+    }
+   ],
+   "dialogues": [
+    {
+     "t": "0.1-2.4",
+     "parle": "lucas",
+     "fonction": "aveu",
+     "emotion": "froid, à voix basse",
+     "texte": "Cette voiture a renversé ma petite sœur."
+    },
+    {
+     "t": "2.6-4.0",
+     "parle": "lucas",
+     "fonction": "aveu",
+     "emotion": "sec",
+     "texte": "Elle est arrivée cette nuit."
+    },
+    {
+     "t": "4.2-5.9",
+     "parle": "lucas",
+     "fonction": "promesse",
+     "emotion": "glacial, regard caméra",
+     "texte": "Pour se faire écraser."
+    }
+   ],
+   "texte_ecran": "ELLE A RENVERSÉ MA SŒUR"
+  },
+  {
+   "n": 2,
+   "role": "developpement",
+   "duree": 6,
+   "lieu": "hopital",
+   "lumiere": "jour",
+   "cadrage": "PR",
+   "angle": "plongee",
+   "camera": "travelling_avant",
+   "persos": [
+    {
+     "id": "jade",
+     "jeu": "allongée, oreille bandée, détourne les yeux, tire sur son oreille"
+    },
+    {
+     "id": "michel",
+     "jeu": "assis au bord du lit, casquette à la main, épaules voûtées"
+    },
+    {
+     "id": "lucas",
+     "jeu": "debout près de la fenêtre, bras croisés, fixe sa sœur"
+    }
+   ],
+   "texte_decor": "tableau blanc au mur : « JADE, 16 ANS – JOUR 21 »",
+   "timeline": [
+    {
+     "t": "0-3",
+     "action": "Michel tourne sa casquette entre ses pattes, regard vers le moniteur",
+     "son": "bip du moniteur"
+    },
+    {
+     "t": "3-6",
+     "action": "Jade tire sur son oreille bandée et évite le regard de Lucas",
+     "camera": "travelling_avant"
+    }
+   ],
+   "dialogues": [
+    {
+     "t": "0.2-2.6",
+     "parle": "michel",
+     "fonction": "revelation",
+     "emotion": "las, rocailleux",
+     "texte": "Vingt et un jours. Et la police a rien."
+    },
+    {
+     "t": "2.8-4.0",
+     "parle": "jade",
+     "fonction": "aveu",
+     "emotion": "petite voix, ment",
+     "texte": "Je me souviens de rien."
+    },
+    {
+     "t": "4.1-5.9",
+     "parle": "lucas",
+     "fonction": "promesse",
+     "emotion": "doux mais ferme",
+     "texte": "Moi, je vais me souvenir pour toi."
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "role": "developpement",
+   "duree": 10,
+   "lieu": "casse",
+   "lumiere": "matin",
+   "cadrage": "PA",
+   "angle": "contre_plongee",
+   "camera": "travelling_lateral",
+   "persos": [
+    {
+     "id": "dylan",
+     "jeu": "descend d'un SUV blanc rutilant, mallette argentée à la main, lunettes miroir baissées, sourire méprisant"
+    },
+    {
+     "id": "lucas",
+     "jeu": "face à lui, clé de 12 qui tourne entre ses doigts, regard fixe"
+    },
+    {
+     "id": "nathalie",
+     "jeu": "au fond, plateau de frites à la main, bec grand ouvert"
+    }
+   ],
+   "texte_decor": "mallette ouverte pleine de billets avec un bandeau géant « 100 000 € »",
+   "fin": {
+    "cadrage": "PR",
+    "persos": [
+     {
+      "id": "michel",
+      "jeu": "arrive en courant, yeux exorbités devant la mallette, le cure-dent tombe de sa bouche"
+     },
+     {
+      "id": "lucas",
+      "jeu": "poings serrés, lunettes de soudeur remontées d'un coup"
+     }
+    ]
+   },
+   "timeline": [
+    {
+     "t": "0-3",
+     "action": "Dylan claque la portière de son SUV blanc et essuie sa veste",
+     "camera": "travelling_lateral",
+     "son": "portière qui claque"
+    },
+    {
+     "t": "3-5",
+     "action": "il ouvre la mallette d'un coup sec : des liasses de billets",
+     "camera": "crash_zoom",
+     "son": "clic de serrure"
+    },
+    {
+     "t": "5-7",
+     "action": "Nathalie lâche son plateau de frites",
+     "camera": "whip_pan",
+     "son": "fracas de plateau"
+    },
+    {
+     "t": "7-10",
+     "action": "Michel accourt, son cure-dent tombe devant la mallette",
+     "son": "note de suspense"
+    }
+   ],
+   "dialogues": [
+    {
+     "t": "0.2-1.8",
+     "parle": "dylan",
+     "fonction": "attaque",
+     "emotion": "traînant, méprisant",
+     "texte": "C'est toi, le ferrailleur ?"
+    },
+    {
+     "t": "2.0-3.2",
+     "parle": "lucas",
+     "fonction": "riposte",
+     "emotion": "calme, glacial",
+     "texte": "C'est toi, le chauffard ?"
+    },
+    {
+     "t": "3.4-4.0",
+     "parle": "nathalie",
+     "fonction": "reaction",
+     "emotion": "cri aigu",
+     "texte": "QUOI ?!"
+    },
+    {
+     "t": "4.3-6.6",
+     "parle": "dylan",
+     "fonction": "attaque",
+     "emotion": "sourire faux, ouvre la mallette",
+     "texte": "Cent mille euros. Tu l'écrases devant moi."
+    },
+    {
+     "t": "6.9-9.6",
+     "parle": "dylan",
+     "fonction": "attaque",
+     "emotion": "regarde Lucas de haut en bas",
+     "texte": "Ce qui est cassé, on l'écrase."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "role": "retournement",
+   "duree": 6,
+   "lieu": "casse",
+   "lumiere": "matin",
+   "cadrage": "GP",
+   "angle": "face",
+   "camera": "whip_pan",
+   "persos": [
+    {
+     "id": "michel",
+     "jeu": "la patte posée sur la mallette, n'ose pas regarder Lucas, voix brisée"
+    },
+    {
+     "id": "lucas",
+     "jeu": "se retourne vers son grand-père, yeux exorbités, oreilles plaquées"
+    }
+   ],
+   "timeline": [
+    {
+     "t": "0-2",
+     "action": "Michel referme la mallette et serre la patte de Dylan",
+     "camera": "whip_pan",
+     "son": "claquement de mallette"
+    },
+    {
+     "t": "2-4",
+     "action": "Lucas se retourne d'un bond vers lui",
+     "son": "whoosh"
+    },
+    {
+     "t": "4-6",
+     "action": "Michel baisse les yeux, mâchonne son cure-dent",
+     "camera": "crash_zoom",
+     "son": "note grave"
+    }
+   ],
+   "dialogues": [
+    {
+     "t": "0.2-1.6",
+     "parle": "michel",
+     "fonction": "revelation",
+     "emotion": "sourd, sans regarder Lucas",
+     "texte": "Marché conclu, petit."
+    },
+    {
+     "t": "1.8-3.6",
+     "parle": "lucas",
+     "fonction": "attaque",
+     "emotion": "hurlé, trahi",
+     "texte": "Papy ?! C'est la voiture de Jade."
+    },
+    {
+     "t": "3.8-5.8",
+     "parle": "michel",
+     "fonction": "riposte",
+     "emotion": "brisé, presque en pleurs",
+     "texte": "On a quatre-vingt mille euros de dettes."
+    }
+   ],
+   "texte_ecran": "PAPY ACCEPTE 😱"
+  },
+  {
+   "n": 5,
+   "role": "temoin",
+   "duree": 6,
+   "lieu": "casse",
+   "lumiere": "fin_journee",
+   "cadrage": "ECRAN",
+   "angle": "profil",
+   "camera": "epaule",
+   "persos": [
+    {
+     "id": "nathalie",
+     "jeu": "filme avec son téléphone, aile plaquée sur le bec"
+    },
+    {
+     "id": "dylan",
+     "jeu": "bras croisés devant la presse, tape du pied, impatient"
+    },
+    {
+     "id": "lucas",
+     "jeu": "planté entre la Falco et la presse, défie Dylan du regard"
+    }
+   ],
+   "detail_image": "la Falco GT orange posée sur le plateau de la presse hydraulique géante",
+   "timeline": [
+    {
+     "t": "0-3",
+     "action": "la Falco est poussée sur le plateau de la presse",
+     "camera": "epaule",
+     "son": "moteur hydraulique qui démarre"
+    },
+    {
+     "t": "3-6",
+     "action": "Lucas se plante devant Dylan, nez à nez",
+     "camera": "crash_zoom",
+     "son": "grondement"
+    }
+   ],
+   "dialogues": [
+    {
+     "t": "0.2-1.4",
+     "parle": "nathalie",
+     "fonction": "reaction",
+     "emotion": "chuchoté, excité",
+     "texte": "Il va vraiment l'écraser ?!"
+    },
+    {
+     "t": "1.6-3.4",
+     "parle": "dylan",
+     "fonction": "attaque",
+     "emotion": "agacé, claque des doigts",
+     "texte": "Appuie, papy. Je paie pas pour regarder."
+    },
+    {
+     "t": "3.6-5.9",
+     "parle": "lucas",
+     "fonction": "riposte",
+     "emotion": "sec, nez à nez",
+     "texte": "T'as peur de quoi, Dylan ? D'une voiture ?"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "role": "developpement",
+   "duree": 10,
+   "lieu": "casse",
+   "lumiere": "fin_journee",
+   "cadrage": "PE",
+   "angle": "plongee",
+   "camera": "ralenti",
+   "persos": [
+    {
+     "id": "michel",
+     "jeu": "la patte sur le levier de la presse, hurle"
+    },
+    {
+     "id": "lucas",
+     "jeu": "plonge sous le plateau de la presse, bras tendu vers le pare-brise"
+    },
+    {
+     "id": "nathalie",
+     "jeu": "téléphone levé, bec ouvert"
+    },
+    {
+     "id": "dylan",
+     "jeu": "recule d'un pas, sourire figé"
+    }
+   ],
+   "texte_decor": "sur la presse, en lettres jaunes géantes : « PRESSE 300 TONNES »",
+   "fin": {
+    "cadrage": "PR",
+    "persos": [
+     {
+      "id": "lucas",
+      "jeu": "à genoux dans la poussière, une minuscule carte mémoire entre deux doigts, sourire en coin"
+     },
+     {
+      "id": "dylan",
+      "jeu": "lunettes miroir qui glissent du nez, visage pâle"
+     }
+    ],
+    "detail_image": "derrière eux, la Falco réduite en cube de métal"
+   },
+   "timeline": [
+    {
+     "t": "0-2",
+     "action": "Michel abaisse le levier, la presse descend",
+     "camera": "choc",
+     "son": "sifflement hydraulique"
+    },
+    {
+     "t": "2-4",
+     "action": "Lucas plonge sous le plateau et arrache un petit boîtier du pare-brise",
+     "camera": "ralenti",
+     "son": "verre qui éclate"
+    },
+    {
+     "t": "4-6",
+     "action": "il roule hors de la presse au dernier moment",
+     "camera": "whip_pan",
+     "son": "roulade dans la poussière"
+    },
+    {
+     "t": "6-8",
+     "action": "la presse écrase la Falco en cube",
+     "camera": "secousse",
+     "son": "énorme craquement de tôle"
+    },
+    {
+     "t": "8-10",
+     "action": "Lucas se relève, carte mémoire entre les doigts",
+     "camera": "crash_zoom"
+    }
+   ],
+   "dialogues": [
+    {
+     "t": "0.2-1.2",
+     "parle": "michel",
+     "fonction": "menace",
+     "emotion": "hurlé",
+     "texte": "Recule, Lucas !"
+    },
+    {
+     "t": "1.5-2.8",
+     "parle": "lucas",
+     "fonction": "riposte",
+     "emotion": "crié, en plongeant",
+     "texte": "Deux secondes, papy !"
+    },
+    {
+     "t": "3.0-3.6",
+     "parle": "nathalie",
+     "fonction": "reaction",
+     "emotion": "hurlé",
+     "texte": "NON !"
+    },
+    {
+     "t": "4.0-6.0",
+     "parle": "dylan",
+     "fonction": "attaque",
+     "emotion": "ricane, nerveux",
+     "texte": "Laisse-le, s'il veut finir en cube."
+    },
+    {
+     "t": "6.2-7.8",
+     "parle": "lucas",
+     "fonction": "riposte",
+     "emotion": "se relève, glacial",
+     "texte": "Personne écrase ma sœur deux fois."
+    },
+    {
+     "t": "8.0-9.6",
+     "parle": "dylan",
+     "fonction": "reaction",
+     "emotion": "la voix qui déraille",
+     "texte": "Il a pris quoi, là ?"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "role": "developpement",
+   "duree": 6,
+   "lieu": "concession",
+   "lumiere": "neon",
+   "cadrage": "PR",
+   "angle": "contre_plongee",
+   "camera": "panoramique",
+   "persos": [
+    {
+     "id": "christophe",
+     "jeu": "debout devant l'écran géant, téléphone à l'oreille, tourne lentement sa chevalière, souffle par les naseaux"
+    }
+   ],
+   "timeline": [
+    {
+     "t": "0-3",
+     "action": "Christophe tourne sa chevalière en écoutant, le visage se ferme",
+     "camera": "panoramique",
+     "son": "musique lounge"
+    },
+    {
+     "t": "3-6",
+     "action": "il s'arrête net, naseaux qui fument",
+     "camera": "crash_zoom",
+     "son": "souffle grave"
+    }
+   ],
+   "dialogues": [
+    {
+     "t": "0.2-2.0",
+     "parle": "dylan",
+     "fonction": "aveu",
+     "emotion": "au téléphone, soulagé",
+     "texte": "Papa, c'est fait. Elle est écrasée.",
+     "hors_champ": true
+    },
+    {
+     "t": "2.2-3.8",
+     "parle": "christophe",
+     "fonction": "revelation",
+     "emotion": "très calme, menaçant",
+     "texte": "Et la caméra de bord ?"
+    },
+    {
+     "t": "4.0-5.8",
+     "parle": "dylan",
+     "fonction": "reaction",
+     "emotion": "au téléphone, la voix qui tremble",
+     "texte": "Quelle caméra ?",
+     "hors_champ": true
+    }
+   ],
+   "texte_ecran": "QUELLE CAMÉRA ?"
+  },
+  {
+   "n": 8,
+   "role": "developpement",
+   "duree": 6,
+   "lieu": "atelier",
+   "lumiere": "nuit_lampe",
+   "cadrage": "GP",
+   "angle": "debullee",
+   "camera": "orbite",
+   "persos": [
+    {
+     "id": "michel",
+     "jeu": "assis sur le vieux canapé, mallette sur les genoux, yeux humides"
+    },
+    {
+     "id": "lucas",
+     "jeu": "debout face à lui, lunettes de soudeur remontées, furieux"
+    }
+   ],
+   "timeline": [
+    {
+     "t": "0-3",
+     "action": "Michel pose la mallette sur l'établi d'une main tremblante",
+     "camera": "orbite",
+     "son": "clic de serrure"
+    },
+    {
+     "t": "3-6",
+     "action": "Lucas frappe l'établi du plat de la patte",
+     "camera": "choc",
+     "son": "outils qui sautent"
+    }
+   ],
+   "dialogues": [
+    {
+     "t": "0.2-2.4",
+     "parle": "michel",
+     "fonction": "aveu",
+     "emotion": "bas, honteux",
+     "texte": "Avec ça, on garde la casse. On garde tout."
+    },
+    {
+     "t": "2.6-4.0",
+     "parle": "lucas",
+     "fonction": "attaque",
+     "emotion": "rage contenue",
+     "texte": "Tu as vendu Jade, papy."
+    },
+    {
+     "t": "4.2-5.9",
+     "parle": "michel",
+     "fonction": "riposte",
+     "emotion": "se lève, blessé",
+     "texte": "J'ai sauvé ce qui restait."
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "role": "retournement",
+   "duree": 10,
+   "lieu": "atelier",
+   "lumiere": "nuit_lampe",
+   "cadrage": "PA",
+   "angle": "contre_plongee",
+   "camera": "travelling_arriere",
+   "persos": [
+    {
+     "id": "lucas",
+     "jeu": "tient le coin d'une grande bâche grise, sourire en coin vers la caméra"
+    },
+    {
+     "id": "michel",
+     "jeu": "se retourne, intrigué, sourcils froncés"
+    }
+   ],
+   "texte_decor": "sur l'établi, une plaque d'immatriculation dévissée marquée « ÉPAVE N°47 »",
+   "fin": {
+    "cadrage": "PE",
+    "persos": [
+     {
+      "id": "michel",
+      "jeu": "bouche bée, cure-dent qui tombe, pattes sur la casquette"
+     },
+     {
+      "id": "lucas",
+      "jeu": "appuyé sur la Falco, bras croisés, fier"
+     }
+    ],
+    "detail_image": "sous la bâche tombée, la vraie Falco GT orange, capot enfoncé, intacte sous les lampes"
+   },
+   "timeline": [
+    {
+     "t": "0-2",
+     "action": "Lucas attrape la bâche",
+     "camera": "travelling_arriere",
+     "son": "froissement"
+    },
+    {
+     "t": "2-4",
+     "action": "il tire d'un coup sec, la bâche s'envole",
+     "camera": "ralenti",
+     "son": "whoosh"
+    },
+    {
+     "t": "4-7",
+     "action": "la Falco orange apparaît sous les lampes, Michel recule d'un pas",
+     "camera": "crash_zoom",
+     "son": "note épique"
+    },
+    {
+     "t": "7-10",
+     "action": "Lucas jette la plaque « ÉPAVE N°47 » sur l'établi",
+     "son": "clang métallique"
+    }
+   ],
+   "dialogues": [
+    {
+     "t": "0.2-1.8",
+     "parle": "lucas",
+     "fonction": "revelation",
+     "emotion": "malicieux, à voix basse",
+     "texte": "Tu veux un secret, papy ?"
+    },
+    {
+     "t": "2.0-3.0",
+     "parle": "michel",
+     "fonction": "reaction",
+     "emotion": "bougon",
+     "texte": "Quoi encore ?"
+    },
+    {
+     "t": "3.8-5.6",
+     "parle": "lucas",
+     "fonction": "revelation",
+     "emotion": "sourire en coin",
+     "texte": "Dylan a payé pour une épave."
+    },
+    {
+     "t": "5.8-7.2",
+     "parle": "michel",
+     "fonction": "reaction",
+     "emotion": "souffle coupé",
+     "texte": "C'est… c'est la vraie ?!"
+    },
+    {
+     "t": "7.5-9.6",
+     "parle": "lucas",
+     "fonction": "aveu",
+     "emotion": "fier, calme",
+     "texte": "J'ai changé les plaques cette nuit."
+    }
+   ],
+   "texte_ecran": "LA VRAIE EST LÀ 😳"
+  },
+  {
+   "n": 10,
+   "role": "developpement",
+   "duree": 10,
+   "lieu": "snack",
+   "lumiere": "neon",
+   "cadrage": "AMORCE",
+   "angle": "face",
+   "camera": "whip_pan",
+   "persos": [
+    {
+     "id": "dylan",
+     "jeu": "penché au-dessus du comptoir, essuie sa veste, lunettes baissées, menaçant"
+    },
+    {
+     "id": "lucas",
+     "jeu": "assis sur un tabouret, mange une frite, impassible"
+    },
+    {
+     "id": "nathalie",
+     "jeu": "derrière le comptoir, téléphone levé, filme"
+    }
+   ],
+   "fin": {
+    "cadrage": "PR",
+    "persos": [
+     {
+      "id": "lucas",
+      "jeu": "sourire en coin vers la caméra, clé de 12 qui tourne"
+     },
+     {
+      "id": "dylan",
+      "jeu": "claque la paume sur le comptoir, frites qui volent"
+     }
+    ]
+   },
+   "timeline": [
+    {
+     "t": "0-3",
+     "action": "Dylan entre et se plante au-dessus de Lucas",
+     "camera": "whip_pan",
+     "son": "porte du snack qui claque"
+    },
+    {
+     "t": "3-5",
+     "action": "Nathalie lève son téléphone",
+     "camera": "crash_zoom",
+     "son": "friteuse qui crépite"
+    },
+    {
+     "t": "5-8",
+     "action": "Dylan pointe Lucas du doigt, nez à nez",
+     "son": "silence tendu puis note grave"
+    },
+    {
+     "t": "8-10",
+     "action": "Dylan claque le comptoir, les frites volent",
+     "camera": "secousse",
+     "son": "claquement"
+    }
+   ],
+   "dialogues": [
+    {
+     "t": "0.2-1.9",
+     "parle": "dylan",
+     "fonction": "attaque",
+     "emotion": "sifflé entre les dents",
+     "texte": "T'as ramassé quoi sous la presse ?"
+    },
+    {
+     "t": "2.0-3.3",
+     "parle": "lucas",
+     "fonction": "riposte",
+     "emotion": "en mâchant une frite",
+     "texte": "Des miettes de ta voiture."
+    },
+    {
+     "t": "3.5-4.1",
+     "parle": "nathalie",
+     "fonction": "reaction",
+     "emotion": "aigu",
+     "texte": "OH !"
+    },
+    {
+     "t": "4.4-7.0",
+     "parle": "dylan",
+     "fonction": "menace",
+     "emotion": "glacial",
+     "texte": "Course samedi. Tu perds, la casse est à mon père."
+    },
+    {
+     "t": "7.2-8.4",
+     "parle": "lucas",
+     "fonction": "riposte",
+     "emotion": "calme",
+     "texte": "Et si je gagne ?"
+    },
+    {
+     "t": "8.5-9.8",
+     "parle": "dylan",
+     "fonction": "attaque",
+     "emotion": "rire nasal",
+     "texte": "T'as même plus de voiture."
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "role": "climax",
+   "duree": 6,
+   "lieu": "atelier",
+   "lumiere": "nuit_lampe",
+   "cadrage": "PR",
+   "angle": "contre_plongee",
+   "camera": "orbite",
+   "persos": [
+    {
+     "id": "lucas",
+     "jeu": "debout devant la Falco cabossée, remonte ses lunettes de soudeur, regard de tueur"
+    },
+    {
+     "id": "michel",
+     "jeu": "à côté de lui, lui tend une clé à molette"
+    }
+   ],
+   "timeline": [
+    {
+     "t": "0-3",
+     "action": "Lucas prend la clé à molette des pattes de Michel",
+     "camera": "orbite",
+     "son": "clang métallique"
+    },
+    {
+     "t": "3-6",
+     "action": "il allume la lampe baladeuse au-dessus du moteur",
+     "camera": "crash_zoom",
+     "son": "étincelles de soudure"
+    }
+   ],
+   "dialogues": [
+    {
+     "t": "0.2-2.1",
+     "parle": "lucas",
+     "fonction": "riposte",
+     "emotion": "imite Dylan, ironique",
+     "texte": "Ce qui est cassé, on l'écrase ?"
+    },
+    {
+     "t": "2.3-3.5",
+     "parle": "michel",
+     "fonction": "reaction",
+     "emotion": "bougon, ému",
+     "texte": "Tu vas faire quoi ?"
+    },
+    {
+     "t": "3.6-6.0",
+     "parle": "lucas",
+     "fonction": "promesse",
+     "emotion": "glacial, regard caméra",
+     "texte": "Ce qui est cassé, je le répare. Samedi, elle roule."
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "role": "cliff",
+   "duree": 6,
+   "lieu": "atelier",
+   "lumiere": "tele",
+   "cadrage": "INSERT",
+   "angle": "face",
+   "camera": "zoom_dramatique",
+   "persos": [
+    {
+     "id": "lucas",
+     "jeu": "visage éclairé par l'écran d'un vieil ordinateur, la carte mémoire enfoncée dedans, yeux qui s'écarquillent"
+    },
+    {
+     "id": "michel",
+     "jeu": "penché par-dessus son épaule, cure-dent figé"
+    }
+   ],
+   "detail_image": "sur l'écran, la vidéo de la caméra de bord en noir et blanc : Dylan assis côté passager, et sur le volant une grosse patte noire avec une chevalière en or",
+   "timeline": [
+    {
+     "t": "0-3",
+     "action": "la vidéo de la caméra de bord démarre à l'écran",
+     "camera": "zoom_dramatique",
+     "son": "bip de lecture"
+    },
+    {
+     "t": "3-6",
+     "action": "l'image se fige sur la patte au volant, coupure noire",
+     "son": "coupure sèche"
+    }
+   ],
+   "dialogues": [
+    {
+     "t": "0.2-1.4",
+     "parle": "michel",
+     "fonction": "reaction",
+     "emotion": "pressé, à voix basse",
+     "texte": "On voit Dylan ?"
+    },
+    {
+     "t": "1.6-3.6",
+     "parle": "lucas",
+     "fonction": "revelation",
+     "emotion": "lent, incrédule",
+     "texte": "Dylan est à droite. Passager."
+    },
+    {
+     "t": "3.8-5.8",
+     "parle": "lucas",
+     "fonction": "revelation",
+     "emotion": "souffle coupé",
+     "texte": "Alors qui conduisait… ?"
+    }
+   ],
+   "texte_ecran": "QUI CONDUISAIT ?"
+  }
+ ]
+}
