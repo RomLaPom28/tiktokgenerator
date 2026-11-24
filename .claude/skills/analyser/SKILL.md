@@ -86,6 +86,7 @@ Pour chaque vidéo à 1 M+ vues, lire `transcript.json` en entier puis :
 - si c'est une suite ou un remake d'un squelette existant : ajouter seulement la source à ce squelette ;
 - si elle apporte une brique transplantable nouvelle : ajouter une `greffe` avec sa source et, si elle correspond à une mécanique, son id dans `mecanique`.
 Les squelettes sont des ÉVÉNEMENTS (histoires) ; les mécaniques sont dans `bible/mecaniques.json`. Décrire avec nos mots, jamais leurs répliques.
+Nouveau squelette ou nouvelle greffe : le rattacher à son moteur narratif dans `bible/editorial.json` (`squelettes` / `greffes` du moteur ; nouveau moteur seulement si aucun ne convient). Puis `python3 outils/creer.py dossier` pour que /creer voie la mise à jour.
 
 ## 6. Renvoyer au téléphone
 - Pour chaque tendance traitée : `update` du doc `tendances/<id>` (avec `if_version`) : `fiche` = 6 lignes (hook, structure, rétention, visuel, interaction, mécaniques avec id et confiance), `vues`, `statut: "analyse"`.

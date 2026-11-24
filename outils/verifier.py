@@ -48,9 +48,22 @@ def verifier(projet, nom):
     # format de /creer deviennent des avertissements (À VOIR) ; le contrôle anti-copie s'ajoute à la fin.
     adapt = ep.get("adaptation") or b.projet.get("adaptation")  # série source : une vidéo par épisode
     souple = "À VOIR" if adapt else "ÉCHEC"
+    # /creer v3 (projet.json « creer »: 3) : les techniques de rythme (témoin, ping-pong, parole continue, clashs,
+    # callback, positions des retournements, cliff) sont des outils, pas des obligations -> À VOIR. Restent bloquants :
+    # codes, durées Grok, timecodes, débit, image de fin, conformité TikTok, et l'histoire validée à l'étape B.
+    v3 = (b.projet.get("creer") or 0) >= 3
+    style = "À VOIR" if (adapt or v3) else "ÉCHEC"
+    if v3 and not adapt:
+        h = b.dossier / "histoire.json"
+        hist_ok = h.exists() and bool(lire_json(h).get("choix"))
+        ok(hist_ok, "Étape B : histoire validée par l'utilisateur (histoire.json, champ choix)",
+           "oui" if hist_ok else "absente ou non validée : refaire l'étape B")
     # ---------- structure ----------
     if adapt:
         ok(4 <= len(plans) <= 40, "4 à 40 plans (adaptation : suit la source)", len(plans))
+    elif v3:
+        ok(8 <= len(plans) <= 20, "8 à 20 plans", len(plans))
+        ok(10 <= len(plans) <= 16, "10 à 16 plans conseillés", len(plans), "À VOIR")
     else:
         ok(12 <= len(plans) <= 16, "12 à 16 plans", len(plans))
     erreurs = []
@@ -106,27 +119,36 @@ def verifier(projet, nom):
             lents.append(f"{p['n']}:{len(p.get('timeline') or [])}/{-(-d // 3)}")
     ok(not hors, "Timecodes valides et dans la durée du plan", ", ".join(hors) or "oui")
     ok(not debit, "Débit parlé tenable (4,2 mots/s max, rythme des vidéos virales analysées)", "; ".join(debit) or "oui")
-    ok(not lents, "Un nouveau temps fort toutes les 3 s max (timeline)", ", ".join(lents) or "oui")
+    ok(not lents, "Un nouveau temps fort toutes les 3 s max (timeline)", ", ".join(lents) or "oui", style)
     pingpong = sum(1 for p in plans if len({d["parle"] for d in dialogues(p)}) >= 2)
-    ok(pingpong >= 4, "4+ plans en ping-pong (2 personnages se répondent)", pingpong)
+    ok(pingpong >= 4, "4+ plans en ping-pong (2 personnages se répondent)", pingpong, style)
     d1 = dialogues(bruts[0])
-    ok(bool(d1) and float(str(d1[0]["t"]).split("-")[0]) <= 0.5, "1re réplique dès 0,5 s max",
-       d1[0]["t"] if d1 else "—")
+    if v3 and not d1 and bruts[0].get("muet"):
+        ok(True, "Plan 1 muet volontaire (image choc)", bruts[0]["muet"])
+    else:
+        ok(bool(d1) and float(str(d1[0]["t"]).split("-")[0]) <= 0.5, "1re réplique dès 0,5 s max",
+           d1[0]["t"] if d1 else "—")
     # ---------- moteur d'histoire et dialogues (recettes.md) ----------
     mo = ep.get("moteur") or {}
-    manque = [k for k in ("desir", "injustice", "antagoniste", "enjeu_chiffre", "force_cachee", "payoff", "callback", "kicker")
-              if not mo.get(k)]
-    ok(not manque, "Moteur d'histoire complet (injustice, antagoniste, enjeu, payoff, callback…)", manque or "oui")
+    if v3:  # socle de toute histoire ; force cachée, callback et kicker seulement s'ils servent l'histoire
+        socle = {"desir": ("desir",), "conflit": ("conflit", "injustice"), "antagoniste": ("antagoniste", "obstacle"),
+                 "enjeu": ("enjeu", "enjeu_chiffre"), "payoff": ("payoff", "fin")}
+        manque = [k for k, alts in socle.items() if not any(mo.get(a) for a in alts)]
+        ok(not manque, "Moteur d'histoire : désir, conflit, antagoniste ou obstacle, enjeu, payoff", manque or "oui")
+    else:
+        manque = [k for k in ("desir", "injustice", "antagoniste", "enjeu_chiffre", "force_cachee", "payoff", "callback", "kicker")
+                  if not mo.get(k)]
+        ok(not manque, "Moteur d'histoire complet (injustice, antagoniste, enjeu, payoff, callback…)", manque or "oui")
     fonctions = Counter(d.get("fonction", "?") for p in bruts for d in dialogues(p))
     sans = fonctions.get("?", 0) + fonctions.get("info", 0)
     ok(sans == 0, "Chaque réplique a une fonction (jamais « info »)", dict(fonctions))
     clash = sum(1 for p in bruts for a_, b_ in zip(dialogues(p), dialogues(p)[1:])
                 if a_.get("fonction") in ("attaque", "menace") and b_.get("fonction") == "riposte" and a_["parle"] != b_["parle"])
-    ok(clash >= 4, "4+ clashs attaque → riposte", clash, souple)
+    ok(clash >= 4, "4+ clashs attaque → riposte", clash, style)
     if mo.get("callback"):
         cb = norm(mo["callback"])
         n_cb = sum(1 for p in bruts for d in dialogues(p) if cb and cb in norm(d["texte"]))
-        ok(n_cb >= 2, "La phrase-signature du méchant revient au payoff (callback 2 fois)", n_cb, souple)
+        ok(n_cb >= 2, "La phrase-signature du méchant revient au payoff (callback 2 fois)", n_cb, style)
     mous, trous = [], []
     for p in bruts:
         ds = dialogues(p)
@@ -139,21 +161,31 @@ def verifier(projet, nom):
         gaps = [iv[0][0]] + [b2[0] - a2[1] for a2, b2 in zip(iv, iv[1:])]
         if max(gaps) > 1.5:
             trous.append(f"{p['n']}:{max(gaps):.1f}s")
-    ok(not mous, "Parole sur 55 %+ de chaque plan parlé", ", ".join(mous) or "oui")
-    ok(not trous, "Jamais plus de 1,5 s de silence dans un plan parlé", ", ".join(trous) or "oui")
+    ok(not mous, "Parole sur 55 %+ de chaque plan parlé", ", ".join(mous) or "oui", style)
+    ok(not trous, "Jamais plus de 1,5 s de silence dans un plan parlé", ", ".join(trous) or "oui", style)
     ok(len(ep.get("hooks_alternatifs", [])) >= 3, "3 hooks de rechange (A/B test)", len(ep.get("hooks_alternatifs", [])))
     ok(any(p.get("texte_decor") for p in plans), "Au moins un gros chiffre/texte lisible dans le décor",
        sum(1 for p in plans if p.get("texte_decor")), "À VOIR")
-    muets = sum(1 for p in plans if not p.get("replique"))
-    ok(muets <= 1, "Au plus 1 plan muet", muets)
+    if v3:  # un plan muet est permis s'il porte une tension ou une émotion : champ « muet » = pourquoi
+        sans_raison = [p["n"] for p in bruts if not dialogues(p) and not p.get("muet")]
+        ok(not sans_raison, "Plan muet seulement volontaire (champ « muet » : la tension qu'il porte)", sans_raison or "oui")
+        ok(sum(1 for p in bruts if not dialogues(p)) <= max(2, len(plans) // 3), "Muets minoritaires (le dialogue reste la base du style)",
+           sum(1 for p in bruts if not dialogues(p)), "À VOIR")
+    else:
+        muets = sum(1 for p in plans if not p.get("replique"))
+        ok(muets <= 1, "Au plus 1 plan muet", muets)
 
     p1 = plans[0]
     h1 = (dialogues(bruts[0]) or [{"texte": ""}])[0]["texte"]
-    ok(bool(h1) and len(h1.split()) <= 12, "1re réplique d'accroche, 12 mots max", h1 or "—")
+    if not (v3 and not h1 and bruts[0].get("muet")):
+        ok(bool(h1) and len(h1.split()) <= 12, "1re réplique d'accroche, 12 mots max", h1 or "—")
     ok(p1["cadrage"] in PROCHES | {"ECRAN", "INSERT"}, "Plan 1 serré (visage, écran ou objet)", p1["cadrage"])
     ok(ep.get("accroche_type") in r["accroches"], "Type d'accroche déclaré", ep.get("accroche_type"))
     ok(ep.get("cliff_type") in r["cliffhangers"], "Type de cliffhanger déclaré", ep.get("cliff_type"))
-    ok(plans[-1].get("role") == "cliff", "Dernier plan = cliffhanger", plans[-1].get("role"))
+    if v3 and not b.serie:
+        ok(plans[-1].get("role") in ("cliff", "fin", "climax"), "Dernier plan = fin (payoff, chute, fin ouverte ou cliff)", plans[-1].get("role"))
+    else:
+        ok(plans[-1].get("role") == "cliff", "Dernier plan = cliffhanger", plans[-1].get("role"))
     ce = ep.get("commentaire_epingle", "")
     ok("/" in ce or "?" in ce, "Question de vote en commentaire épinglé", ce or "—")
 
@@ -178,7 +210,7 @@ def verifier(projet, nom):
     parleurs = [d["parle"] for p in plans for d in dialogues(p)]
     suite = max((sum(1 for _ in g) for _, g in groupby(parleurs)), default=0)
     ok(suite <= 4, "Même personnage 4 répliques d'affilée max", suite)
-    ok(len(set(parleurs)) >= 3, "Au moins 3 personnages parlent", len(set(parleurs)), souple)
+    ok(len(set(parleurs)) >= 3, "Au moins 3 personnages parlent", len(set(parleurs)), style)
     tous = {pe["id"] for p in plans for pe in p["persos"] + p.get("fin", {}).get("persos", [])}
     ok(len(tous) <= 6, "6 personnages max dans l'épisode", len(tous))
 
@@ -221,10 +253,10 @@ def verifier(projet, nom):
     ok(bool(ta) and len(ta.split()) <= 7, "Texte d'accroche à l'écran (7 mots max)", ta or "—")
     qm = ep.get("question_milieu") or {}
     ok(bool(qm.get("texte")) and 5 <= int(qm.get("plan", 0)) <= 8, "Question au milieu de la vidéo (plans 5 à 8)",
-       f"plan {qm.get('plan')} : {qm.get('texte', '—')}", souple)
+       f"plan {qm.get('plan')} : {qm.get('texte', '—')}", style)
     ret = [p["n"] for p in plans if p.get("role") == "retournement"]
     ok(any(3 <= n <= 6 for n in ret) and any(7 <= n <= 11 for n in ret),
-       "Retournement avant 35 s ET avant 65 s", ret or "aucun", souple)
+       "Retournement avant 35 s ET avant 65 s", ret or "aucun", style)
     if b.serie:
         ok(f"#partie{ep['numero']}" in [h.lower() for h in ep.get("hashtags", [])], "Hashtag #partieN", ep.get("hashtags"))
 

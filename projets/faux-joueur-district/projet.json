@@ -4,5 +4,7 @@
   "titre": "Le faux joueur de district",
   "sujet": "Un crack à 80 millions se fait passer pour un joueur de district raté pour tester sa copine. Sa belle-famille l'humilie, jusqu'au match du dimanche.",
   "concept": "secret_au_miroir + test_amour",
-  "cree": "2026-11-22"
+  "cree": "2026-11-22",
+  "moteur_narratif": "test_deguise",
+  "domaine": "sport"
 }

@@ -5,7 +5,11 @@
   "sujet": "Le propriétaire d'un palace glisse exprès 5 000 € de trop dans la paye de son bagagiste pour tester son honnêteté : s'il les rend, il deviendra directeur. Le bagagiste les rapporte, mais c'est la femme du patron qui les prend, les garde et le fait passer pour un voleur. Il ne sait pas encore que son badge a tout filmé.",
   "concept": "adaptation /copier de la trilogie onlyfrubidi_off (test d'honnêteté, argent volé par la femme, preuve vidéo, promotion), karma sans meurtre",
   "adaptation": {
-    "sources": ["7630903132347813142", "7631273993353301270", "7631645319159172374"],
+    "sources": [
+      "7630903132347813142",
+      "7631273993353301270",
+      "7631645319159172374"
+    ],
     "transposition": "Mine → palace, ouvrier-banane → bagagiste castor, patron grenade → propriétaire lion, femme myrtille → épouse flamant rose ; vidéo du téléphone → caméra du badge du personnel ; empoisonnement → démasquée en public au gala et chassée par la porte de service.",
     "ameliorations": [
       "Hook : « une enveloppe est piégée » dès 0,3 s + 5 000 € lisibles à l'écran",
@@ -15,5 +19,7 @@
       "Karma sans meurtre : confrontation publique au gala (épisode 2), elle perd tout (épisode 3)"
     ]
   },
-  "cree": "2026-11-23"
+  "cree": "2026-11-23",
+  "moteur_narratif": "faux_coupable",
+  "domaine": "travail"
 }

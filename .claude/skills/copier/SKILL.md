@@ -43,7 +43,7 @@ Puis proposer **3 transpositions**, chacune : nouvel univers (pas le même domai
 `AskUserQuestion` (3 transpositions recommandée en 1re ; « Other » = la sienne).
 
 ## 4 · Générer le projet `projets/<id>/`
-Mêmes fichiers et mêmes règles que `/creer` étape 3 (`projet.json`, `personnages.json`, `lieux.json`, `ton.md`, `saison.json` si série ; style 3D cartoon de `CLAUDE.md`). En plus dans `projet.json` :
+Mêmes fichiers et mêmes règles que `/creer` étape C (fichiers du projet) (`projet.json`, `personnages.json`, `lieux.json`, `ton.md`, `saison.json` si série ; style 3D cartoon de `CLAUDE.md`). En plus dans `projet.json` :
 ```
 "adaptation": {source:<id vidéo>, lien, vues, transposition:"1 phrase", repliques:"r1-r32" (partie couverte par cet épisode),
                coupees:[rN coupées exprès], ameliorations:[...appliquées]}
@@ -52,7 +52,7 @@ Série : `saison.json.episodes[]` = une partie par entrée avec sa plage `repliq
 **Série source (plusieurs liens)** : disséquer CHAQUE vidéo (étape 2) avant de transposer, pour que la transposition tienne sur toute la série (personnages et objets des parties 2-3 prévus dès le casting). `projet.json` : `type: "serie"`, `adaptation.sources: [id1, id2, id3]`. Chaque `episode.json` porte son propre `adaptation: {source, lien, vues, repliques, coupees, ameliorations}` (prioritaire sur celui du projet). `saison.json.episodes[n].source` = id de la vidéo copiée. Fin de chaque épisode = même coupure que la source (cliff).
 
 ## 5 · Écrire `episodes/ep001/episode.json` : transposition réplique par réplique
-Format EXACT de `/creer` étape 4 (plans 6/10 s, `fin` pour les 10 s, `timeline`, `dialogues` timecodés avec `fonction`, `moteur`, hooks, publication). Règles propres à l'adaptation :
+Format EXACT de `/creer` étape C (`episode.json`) (plans 6/10 s, `fin` pour les 10 s, `timeline`, `dialogues` timecodés avec `fonction`, `moteur`, hooks, publication). Règles propres à l'adaptation :
 - **Même ordre, même fonction, même position.** Chaque réplique source de la plage a sa réplique à nous, au même moment de l'histoire, avec la même fonction et une longueur proche (±30 %). Chaque dialogue porte `"source": ["r12"]` (plusieurs si fusion, `[]` si ajout).
 - **Réécrire, jamais traduire mot à mot.** Autres mots, autre image, même coup. Ex. « J'ai menti haha » → « Belle ? J'étais poli. » Le vérificateur refuse toute réplique à 70 %+ identique à l'original et tout nom propre de la source.
 - **Plans** : un plan source ≈ un plan à nous ; plan source de plus de 7 s → un plan de 10 s ; de moins de 7 s → 6 s ; deux plans source très courts consécutifs peuvent fusionner. Garder les cadrages forts de la source (écran de téléphone lisible, gros plan larmes…).

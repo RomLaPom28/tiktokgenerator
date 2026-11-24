@@ -23,7 +23,7 @@ La page est la source de vérité de ce projet :
 - **Projet `/copier`** (`projet.json` a `adaptation`) : lire `analyses/<source>/dissection.json` (source = `saison.json.episodes[n].source` si série source, sinon `adaptation.source`) et la plage `repliques` de cet épisode ; écrire avec les règles de `.claude/skills/copier/SKILL.md` étape 5 (réplique par réplique, champ `source`), mettre `adaptation` (source, repliques…) dans l'`episode.json` avant `verifier.py`.
 
 ## 2. Écrire
-Mêmes règles que `/creer` étape 4 (lire `.claude/skills/creer/SKILL.md` étape 4 : format timeline + dialogues timecodés, plans de 6 et 10 s avec image de fin, ping-pong, rupture toutes les 2-3 s, hooks de rechange, texte dans le décor, style cartoon), plus :
+Mêmes règles que `/creer` étape C (lire `.claude/skills/creer/SKILL.md` étape C : format timeline + dialogues timecodés, plans de 6 et 10 s avec image de fin, hooks de rechange, style cartoon ; les techniques de rythme sont des outils, pas des quotas). Projet `creer: 3` : relire `histoire.json` (variante validée, `saison`) ; le vérificateur applique les règles souples. Anciens projets : règles d'origine. En plus :
 - `reprend` : comment le plan 1 enchaîne sur la fin précédente. Plan 2 : contexte en une phrase pour les nouveaux.
 - `centre` différent de l'épisode précédent ; format, accroche et cliff différents des derniers (le vérificateur contrôle).
 - Fait avancer au moins un fil (`fils_avances`), révèle au plus un secret caché (`revele`). `#partieN` dans les hashtags.

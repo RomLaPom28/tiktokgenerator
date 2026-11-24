@@ -1,113 +1,117 @@
 ---
 name: creer
-description: Crée une vidéo IA de zéro dans le studio (studio-animaux) : vidéo unique complète OU nouvelle série. On choisit ensemble le type et le sujet, puis tout est généré (casting d'animaux humanisés, décors, histoire, plans, dialogues, hook, cliffhanger) à partir des analyses virales, et les prompts ChatGPT (images) et Grok (vidéo) sortent dans une page avec boutons Copier. Use when the user runs /creer, asks to create a new video, a new series, or "une vidéo de zéro".
+description: Crée une vidéo IA de zéro dans le studio (studio-animaux) : vidéo unique complète OU nouvelle série, en trois validations. A) 8 à 10 concepts aux moteurs narratifs différents, tirés de toutes les analyses (mécaniques documentées, associations, angles peu exploités), avec preuves, score éditorial et faisabilité ; B) l'histoire complète (1 ou 2 variantes) ; C) personnages, décors, plans, dialogues et prompts ChatGPT (images) + Grok (vidéo). Use when the user runs /creer, asks to create a new video, a new series, or "une vidéo de zéro".
 ---
 
 # /creer [idée ou thème facultatif]
 
-Studio : racine de ce dépôt (commandes lancées depuis la racine).
-Chaque création part de ZÉRO : nouveau dossier `projets/<id>/`, aucun personnage ni décor repris d'un autre projet.
+Studio : racine de ce dépôt. Chaque création part de ZÉRO : nouveau dossier `projets/<id>/`, aucun personnage ni décor repris d'un autre projet.
 
-## Étape 1 · Vidéo unique ou série ?
-Si l'utilisateur ne l'a pas dit : `AskUserQuestion` avec 2 choix :
-- **Vidéo unique** : histoire complète en ~70 s, hook fort, chute finale qui pousse à commenter.
-- **Nouvelle série** : épisode 1 + plan de saison, fin sur cliffhanger « Partie 2 ? ».
+**Trois étapes, trois validations. Ne jamais enchaîner A → B ou B → C sans la réponse de l'utilisateur.**
 
-## Étape 2 · Choisir le sujet ensemble (REMIX de ce qui a déjà marché)
-On n'invente pas une histoire à partir de règles : on **remixe des histoires prouvées**.
+Principes (lire avant tout) :
+- Les analyses informent, elles n'obligent pas. Une mécanique s'utilise quand elle sert l'histoire. Aucune n'est une cause démontrée de vues (pas de test A/B) : dire « associée à », « présente chez », jamais « fait des vues ».
+- Ne jamais inventer une preuve. Les références affichées sont produites par `outils/creer.py` à partir des données ; une idée sans preuve s'écrit `{"hypothese": "…"}` et s'annonce comme telle.
+- Les concepts diffèrent par leur **moteur narratif** (ce qui fait avancer l'histoire et la question que se pose le spectateur), pas par le décor ou l'espèce.
+- Faux pauvre, test amoureux, humiliation-revanche : **saturés** (décision utilisateur). Deux concepts au plus par proposition, et seulement avec un angle neuf.
 
-Lire d'abord (obligatoire) :
-- `bible/histoires.json` : `squelettes` (histoires à 1 M+ décomposées), `greffes` (briques transplantables), `grille_gros`.
-- Pour les 2-3 squelettes envisagés : leur `analyses/<id>/transcript.json` (le vrai déroulé, pour sentir le rythme et la cruauté du méchant).
-- `bible/recettes.md` : section générée « Bibliothèque des mécaniques » (socle / à tester / dépend du contexte / à éviter) puis « Règles de fabrication ». `bible/concepts.json` (`regles_generiques` : prénoms, univers inventé ; `mecaniques_ids` de chaque concept), `bible/conformite.json`.
-- `bible/mecaniques.json` : pour chaque mécanique retenue, lire `effet`, `fonctionnement`, `conditions`, `erreurs` et `preuves.niveau`. Partir du socle ; pour une mécanique « dépend du contexte », vérifier que l'histoire remplit ses conditions (et la `decision` de la contradiction liée). Ne jamais présenter une mécanique comme « ce qui fait les vues » : ce sont des corrélations.
-- `projets/*/projet.json` : les univers déjà faits (ne pas refaire le même domaine que l'un des 3 derniers).
+## Étape 0 · Unique ou série ?
+Si l'utilisateur ne l'a pas dit : `AskUserQuestion` (Vidéo unique : histoire complète ~70 s / Nouvelle série : épisode 1 + plan de saison).
 
-**2a · Fabriquer 12 pitchs EN INTERNE (non montrés).** Chaque pitch =
-`squelette` (1, de la banque) + `greffes` (1 ou 2, d'AUTRES vidéos) + **nouveau domaine** (`grille_gros.domaines_universels`) + casting d'animaux.
-- Garder le moteur du squelette (secret, faute du méchant, scène attendue) ; changer l'univers, les personnages, l'objet, le chiffre.
-- Pousser chaque curseur au MAX : la faute du méchant doit être grave (trahir, voler la place, enfermer, empoisonner, faire chanter), l'enjeu vital (amour, enfant, mariage, héritage à 6 chiffres+), l'image absurde.
-- Le foot est un domaine parmi d'autres, jamais le défaut. Au moins 8 des 12 pitchs hors sport.
-- Le thème donné par l'utilisateur, s'il y en a un, est respecté par les 12.
+## Étape A · Concepts (attendre le choix)
 
-**2b · Noter chaque pitch avec `grille_gros`** (6 critères, 1 point chacun). Jeter tout pitch < 5/6 ou qui rate un critère éliminatoire (image_choc, enjeu_vital, faute_grave) ou qui tombe dans `interdits_pitch`. S'il en reste moins de 4, refaire des pitchs.
+### A1. Lire la connaissance (obligatoire, dans cet ordre)
+1. `python3 outils/creer.py dossier` puis lire **en entier** `bible/dossier_editorial.md` : mécaniques par rubrique (socle, à tester, dépend du contexte) avec conditions et décisions des contradictions ; associations éprouvées, rares et jamais observées ; comparaisons forte/faible dans un même compte (les vidéos moins vues comptent) ; moteurs narratifs saturés ou peu exploités ; domaines rares ; greffes inutilisées ; limites.
+2. `bible/editorial.json` : moteurs narratifs, émotions, grilles de score et de faisabilité, `capacites_generation`.
+3. `bible/histoires.json` (squelettes et greffes) ; pour les 3-4 squelettes ou vidéos qui inspirent un concept, lire `analyses/<id>/fiche.md` (et `transcript.json` si besoin de sentir le rythme). Inclure au moins une vidéo **sous la médiane de son compte** dans la réflexion (section 3 du dossier) : qu'est-ce qui lui manquait ?
+4. `bible/mecaniques.json` : pour chaque mécanique envisagée, `effet`, `fonctionnement`, `conditions`, `erreurs`. Une mécanique « dépend du contexte » n'est utilisée que si l'histoire remplit ses conditions (ex. `epreuve_verdict` adossée à une identité révélée ou une force cachée).
+5. `bible/concepts.json` (`regles_generiques` : prénoms, univers inventé), `bible/conformite.json`.
 
-**2c · Montrer les 4 meilleurs**, de 4 squelettes différents, chacun sous cette forme :
+### A2. Fabriquer les concepts EN INTERNE
+Partir des moteurs narratifs, pas des personnages. Viser un mélange :
+- 2-3 concepts sur des **combinaisons éprouvées** (paires « éprouvée » du dossier) mais avec un moteur non saturé ;
+- 3-4 **associations nouvelles** de mécaniques connues (paires « rare » ou « jamais observées », justifiées par ce que chaque mécanique fait) ;
+- 1-3 **hypothèses créatives** (moteur jamais observé, domaine candidat, mécanique à tester) : assumées comme tests.
+
+Contraintes : 8 à 10 concepts ; moteurs narratifs tous différents ; 2 moteurs saturés au plus ; 4 émotions dominantes différentes au moins ; 5 domaines au moins (sauf thème imposé) ; le foot n'est jamais le défaut ; le thème de l'utilisateur, s'il y en a un, est respecté par tous. Éviter le moteur des 3 derniers projets.
+
+Écrire `propositions/AAAA-MM-JJ-<slug-du-theme-ou-libre>.json` :
+```json
+{"date": "AAAA-MM-JJ", "type": "unique|serie", "theme": null,
+ "concepts": [{
+   "id": "c1", "titre": "…", "pitch": "1-2 phrases", "hook": "réplique ou image exacte de la 1re seconde",
+   "conflit": "…", "emotion": "une valeur de editorial.json emotions", "curiosite": "la question qu'on veut voir tranchée",
+   "retournement": "…", "fin": "…", "debat": "la question qui divise les commentaires",
+   "moteur_narratif": "id de editorial.json", "domaine": "code de domaine (editorial.json domaines)",
+   "mecaniques": [{"id": "ironie_dramatique", "role": "ce qu'elle fait ICI"}, {"hypothese": "nom court", "role": "…"}],
+   "histoires": ["squelette ou greffe de histoires.json qui inspire (facultatif)"],
+   "pourquoi_combinaison": "pourquoi ces mécaniques ensemble servent CE moteur",
+   "score": {"hook": 0, "curiosite": 0, "emotion": 0, "originalite": 0, "discussion": 0, "visuel": 0},
+   "justif_score": "une ligne",
+   "faisabilite": {"comprehension": 1, "actions": 1, "compat_generation": 1, "nb_personnages": 4, "nb_decors": 3,
+                   "risques": ["ce que l'IA risque de rater"]}}]}
 ```
-**Titre** (note /6)
-Pitch : 1 phrase « [héros] [secret/situation], mais [méchant] [faute grave] ; [enjeu chiffré]. »
-Image choc (1 s, sans le son) : …
-Hook : « 1re réplique exacte »
-La scène qu'on attend : …
-Retournement : …
-Fin : payoff + kicker (ou cliffhanger)
-Remix : squelette <id> (X M) + greffe <id> (source Y M)
+- `refs` (facultatif) dans une mécanique = ids de vidéos d'`analyses/` ; l'outil refuse toute vidéo qui n'est pas codée avec cette mécanique. Sans `refs`, l'outil choisit lui-même les références dans les données.
+- Score éditorial (/100 : hook 20, curiosité 20, émotion 20, originalité 15, discussion 15, visuel 10) : comparer les concepts entre eux, honnêtement ; 90+ doit être rare. Ce n'est pas une prédiction de vues.
+- Faisabilité : `compat_generation` se juge sur `capacites_generation` (combat, foule, transformation, plus de 3 personnages qui parlent ensemble = difficile).
+
+### A3. Contrôler et montrer
+`python3 outils/creer.py concepts propositions/<fichier>.json` → corriger chaque ÉCHEC et relancer jusqu'à 0. Lire les À VOIR. L'outil calcule total, faisabilité, statut de preuve (combinaison déjà observée / association nouvelle / hypothèse), références, recommandation (meilleur score parmi les faisabilités ≥ 60), et écrit le `.md` à côté.
+
+Montrer dans la réponse le contenu du `.md` (tableau puis une fiche par concept : titre, pitch, hook, conflit, émotion, curiosité, retournement, fin, débat, mécaniques avec statut et références, pourquoi la combinaison, score détaillé, faisabilité). Dire en une ligne la recommandation et, s'il diffère, le concept le plus ambitieux et pourquoi il n'est pas recommandé d'office.
+Puis `AskUserQuestion` : les 4 concepts les mieux classés en options (le recommandé en premier), « Other » pour un autre numéro ou un mélange. **Fin de l'étape A : attendre.**
+
+## Étape B · Histoire complète (attendre la validation)
+1. `<id>` = slug court du titre (s'il existe, ajouter `-2`). Créer `projets/<id>/projet.json` :
+   `{id, type, titre, sujet, concept, moteur_narratif, domaine, creer: 3, etape: "histoire", proposition: {fichier, id}, mecaniques_prevues: [...], cree}`.
+2. Écrire `projets/<id>/histoire.json` :
+```json
+{"titre": "…", "moteur_narratif": "…", "concept": {"fichier": "propositions/….json", "id": "c4"},
+ "variantes": [{"id": "A", "nom": "…", "logline": "1 phrase",
+   "debut": "…", "conflit": "…",
+   "motivations": [{"perso": "rôle (animal)", "veut": "…", "cache": "facultatif"}],
+   "progression": ["étape 1", "…"], "retournements": ["…"], "climax": "…", "fin": "…",
+   "emotions": ["0-10 s : curiosité", "…"], "personnages": ["…"], "decors": ["…"],
+   "difference": "ce qui change vraiment par rapport à l'autre variante"}],
+ "choix": null, "valide": null, "notes_utilisateur": ""}
 ```
-Recommander un des 4 (le plus haut, à égalité celui dont les sources ont le plus de vues). Puis `AskUserQuestion` (4 sujets ; « Other » permet d'en donner un autre ou d'en mixer deux).
-**C'est la seule validation.** Ensuite tout est généré d'une traite. Noter dans `projet.json` le champ `remix: {squelette, greffes[], note}`.
+   - Deux variantes seulement si elles diffèrent **réellement** (autre retournement, autre fin, autre camp pour le spectateur), pas une variation de détail. Sinon une seule.
+   - Motivations crédibles pour chaque personnage important, y compris l'antagoniste (pourquoi il agit, de son point de vue).
+   - Série : ajouter `saison` (enjeu, 8-12 pitchs d'épisodes aux formats différents, 2 secrets cachés).
+3. `python3 outils/creer.py histoire <id>` → 0 ÉCHEC. Montrer le `.md` produit. `AskUserQuestion` : « Variante A / Variante B / Modifier » (ou « Valider / Modifier » si une seule). **Fin de l'étape B : attendre.**
+4. Réponse reçue : écrire `choix`, `valide` (date) et `notes_utilisateur` (les retouches demandées) dans `histoire.json`, appliquer les retouches, `etape: "production"` dans `projet.json`. Une modification importante = remontrer l'histoire avant l'étape C.
 
-## Étape 3 · Générer le projet `projets/<id>/`
-`<id>` = slug court du titre (minuscules, tirets). S'il existe déjà, ajouter `-2`.
+## Étape C · Production (seulement après validation)
+L'histoire validée est la référence : on ne change pas la fin, les retournements ni les motivations sans le dire.
 
-**`projet.json`** : `{id, type: "unique"|"serie", titre, sujet, concept, cree: "AAAA-MM-JJ"}`.
+**Fichiers du projet** (formats inchangés) :
+- `personnages.json` (modèle `projets/faux-joueur-district/personnages.json`) : `style` = animation 3D cartoon stylisée (jamais photoréaliste) : animaux anthropomorphes aux proportions cartoon, grands yeux expressifs, expressions exagérées, couleurs saturées, décors riches pleins de figurants. 3 à 6 personnages : `id, nom, animal, adn, tenues{base,…}, voix, caractere, objectif, secret, tics[3], replique_fetiche, ref: "refs/<id>.png"`. `adn` = phrase visuelle unique et très distincte, recopiée mot pour mot dans les prompts. Prénoms : règle PRÉNOMS de `concepts.json` (majorité de prénoms français classiques adaptés à l'âge, un prénom d'origine étrangère au plus, jamais deux initiales identiques).
+- `lieux.json` : `{id, nom, desc, son}`. `ton.md` : 10 lignes max (ton, humour, insultes maison, zéro mot rouge).
+- Série : `saison.json` (modèle `projets/la-ferme/saison.json`).
 
-**`personnages.json`** (modèle : `projets/la-ferme/personnages.json`) :
-- `style` : ANIMATION 3D CARTOON STYLISÉE (pas photoréaliste) façon long-métrage d'animation premium : animaux anthropomorphes aux proportions cartoon (tête un peu grosse, grands yeux expressifs, sourcils très mobiles), expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés, couleurs saturées et chaudes, lumière dorée/contre-jour dramatique, décors riches pleins de figurants animaux. Adapter l'univers au sujet (stade, vestiaire, villa…). Exemple validé par l'utilisateur : `projets/faux-joueur-district/personnages.json`.
-- 3 à 6 personnages. Chacun : `id, nom, animal, adn, tenues{base, + autres si besoin}, voix, caractere, objectif, secret, tics[3], replique_fetiche, ref: "refs/<id>.png"`.
-- `adn` = phrase visuelle unique et TRÈS distincte (espèce, couleur dominante, signe particulier, accessoire signature), recopiée mot pour mot dans les prompts : rien d'autre ne décrit le personnage.
-- Prénoms français courants adaptés à l'âge (règle PRÉNOMS de `concepts.json`) : majorité de prénoms français classiques (Lucas, Hugo, Chloé, Manon, Sandrine…), AU MAXIMUM un prénom d'origine maghrébine/étrangère par casting. Jamais un casting entier du même registre. Espèce choisie pour le look et le caractère.
+**`episodes/ep001/episode.json`** : format exact de `projets/faux-joueur-district/episodes/ep001/episode.json` (plans `{n, role, duree: 6|10, lieu, lumiere, cadrage, angle, camera, persos[{id, tenue?, jeu}], detail_image?, texte_decor?, fin? (obligatoire pour 10 s), timeline[{t, action, camera?, son?}], dialogues[{t, parle, emotion, fonction, texte}], son?, texte_ecran?}`), plus :
+- `moteur` : `desir, conflit, antagoniste` (ou obstacle), `enjeu, payoff` obligatoires ; `force_cachee, callback, kicker` seulement s'ils servent l'histoire.
+- `mecaniques_utilisees` : ids de `bible/mecaniques.json` réellement utilisés (ceux de l'étape A) ; une mécanique « à tester » est assumée comme test.
+- Hook : plan 1 serré, `texte_accroche` (7 mots max), 3 `hooks_alternatifs`. Plan 1 muet possible si l'image est le hook (`muet: "pourquoi"`).
+- Publication : `titre_couverture`, `legende`, 4 à 7 `hashtags`, `commentaire_epingle` (vraie question d'opinion), `vote_question`. `question_milieu` si elle sert.
+- Codes uniquement de `bible/realisation.json` et du projet. Ne pas écrire les prompts : `pack.py` les assemble.
 
-**`lieux.json`** : 3 à 6 lieux `{id, nom, desc, son}` (desc = phrase visuelle précise, son = ambiance).
+**Écriture : des outils, pas des quotas.**
+- Toujours : dialogues naturels, parlés, expressifs, qui portent le conflit ; chaque réplique a une `fonction` (attaque, riposte, revelation, reaction, menace, promesse, aveu) ; débit 4,2 mots/s max ; actions simples pour Grok (`capacites_generation`) ; plans de 6 et 10 s ; variété de cadrages, caméras, angles, lumières ; style cartoon exagéré.
+- Quand ça sert l'histoire, pas par défaut : témoin qui réagit, clash attaque → riposte en rafale, callback de la phrase du méchant, gros chiffre dans le décor, boucle de fin, retournement à position fixe, coupure au pire moment.
+- Le dialogue reste la base. Un plan muet est permis s'il porte une tension ou une émotion précise (face-à-face, menace physique, découverte) : champ `muet` = ce qu'il porte. Pas de plan muet par paresse.
+- Vidéo unique : dernier plan `role` = `fin`, `climax` ou `cliff` (payoff, chute, fin ouverte). Série : `cliff` + `#partieN`.
 
-**`ton.md`** : 10 lignes max : le ton, ce qui est drôle, insultes maison propres au sujet (zéro mot rouge).
+**Contrôle** : `python3 outils/verifier.py <id>` → 0 ÉCHEC (bloquants : histoire validée, codes, durées, image de fin, timecodes, débit, moteur, conformité TikTok). Lire chaque À VOIR et décider : corriger, ou garder parce que c'est un choix d'histoire (le dire dans la réponse). Relire soi-même : le hook arrête-t-il le pouce ? chaque réplique sonne-t-elle parlée ? la fin donne-t-elle envie de commenter ?
 
-**Série seulement, `saison.json`** (modèle : `projets/la-ferme/saison.json`) : `enjeu`, 8 à 12 `episodes[{n, format, pitch}]` (formats tous différents, valeurs de `realisation.json`), `fils[{id, statut: ouvert|cache, texte}]` (2 secrets cachés minimum).
+**Prompts** : `python3 outils/pack.py <id>` → `episodes/ep001/pack.html` + `pack.json` (portraits, ouverture ChatGPT, Image N début/fin → ChatGPT, Vidéo N → Grok, légende, commentaire épinglé).
+- PC : ouvrir `pack.html` avec `Start-Process` et donner le chemin.
+- Cloud / téléphone : afficher les prompts prêts à copier depuis `pack.json` (portraits, ouverture, puis Image N / Vidéo N, légende, commentaire épinglé), puis commit + push de la branche.
 
-## Étape 4 · Écrire `projets/<id>/episodes/ep001/episode.json`
-Modèle EXACT du nouveau format : `projets/faux-joueur-district/episodes/ep001/episode.json`. Lire aussi la section « Machine virale v2 » de `bible/recettes.md`.
+**Réponse finale (courte)** : titre · casting (nom = animal, rôle) · hook · fin · À VOIR gardés volontairement · chemin de `pack.html`. Ensuite : `/monter <id>` (PC) ; série : `/episode <id>`.
 
-**Chaque plan** :
-```
-{n, role: accroche|developpement|retournement|temoin|climax|cliff, duree: 6|10, lieu, lumiere, cadrage, angle, camera,
- persos:[{id, tenue?, jeu}],            // = IMAGE DE DÉBUT
- detail_image?, texte_decor?,           // texte_decor = texte lisible DANS le décor (tableau d'affichage, banderole, chiffre géant)
- fin?: {cadrage?, angle?, persos:[{id, jeu}], detail_image?},   // OBLIGATOIRE si duree 10 = IMAGE DE FIN
- timeline:[{t:"0-2", action, camera?, son?}],                   // un temps fort toutes les 3 s max
- dialogues:[{t:"0.3-1.8", parle, emotion, texte}],              // timecodes en secondes, 4,2 mots/s max
- son?, texte_ecran?}                                             // texte_ecran = gros mot affiché au montage
-```
-**Avant les plans, écrire `moteur`** (section « Moteur d'histoire » de `recettes.md`, OBLIGATOIRE) :
-`{desir, injustice, antagoniste, enjeu_chiffre, force_cachee, payoff, callback, kicker}` — `callback` = phrase-signature EXACTE du méchant, dite une 1re fois par lui et renvoyée contre lui au payoff.
-Tester l'histoire en 4 phrases : « On aime X parce que… Y l'humilie injustement en… On attend que… Ça paie quand… ». Si une phrase est faible, changer l'histoire avant d'écrire.
-Chaque dialogue a `fonction` : attaque | riposte | revelation | reaction | menace | promesse | aveu (jamais info). 4+ clashs attaque → riposte. Parole sur 55 %+ de chaque plan, jamais 1,5 s de silence.
-
-Règles d'écriture (HYPER DYNAMIQUE) :
-- **12 à 16 plans**, mélange de 6 s (punch) et 10 s (scènes clés), au moins 2 × 10 s et 4 × 6 s, rush total 68-92 s.
-- **Rupture toutes les 2-3 s** : action → réplique → réaction → coup de caméra (`whip_pan`, `crash_zoom`, `ralenti`, `secousse`…) → bruitage.
-- **Ping-pong** : 4+ plans où 2 personnages se répondent ; répliques de 1 à 12 mots, parlées, françaises, qui claquent ; un **témoin** qui réagit en 1 mot (« QUOI ?! ») après chaque réplique-choc.
-- **Hook (plan 1)** : 1re réplique à 0-0,5 s, dit le drame/le secret, cadrage serré. `texte_accroche` 7 mots max. `hooks_alternatifs` : 3 autres premières répliques possibles.
-- **Plan 2** : contexte en une phrase. **Retournements** plans 3-6 ET 7-11. **`question_milieu`** {plan 5-8, texte}.
-- **Dernier plan** `role: "cliff"` : série = coupé au pire moment + `#partieN` ; vidéo unique = `twist final` / `fin ouverte au vote` / `boucle` (la dernière réplique doit pouvoir s'enchaîner avec la première → revisionnages).
-- **Gros chiffre / texte lisible** dans au moins un `texte_decor` (score, prix, « 80 M€ »), noms 100 % fictifs.
-- **Varier** : jamais 2 cadrages identiques d'affilée, 5 cadrages et 4 caméras min, 3 angles, 3 lieux (sauf huis clos), 2 lumières.
-- **Jeu** : expressions cartoon EXAGÉRÉES (yeux exorbités, mâchoire qui tombe, oreilles qui se plaquent), tics de la fiche, au moins un contraste comique.
-- Actions Grok simples et lisibles (pointer, se lever d'un bond, claquer, lancer un objet, s'effondrer à genoux) : l'histoire passe par les dialogues.
-- `mecaniques_utilisees` : au moins 3 ids de `bible/mecaniques.json`, du socle d'abord ; au plus une mécanique « à tester », assumée comme test (le vérificateur la signale). Ne plus écrire `recettes_utilisees` (texte libre, gardé seulement dans les anciens épisodes).
-- Publication : `titre_couverture`, `legende`, 4 à 7 `hashtags`, `commentaire_epingle` = question binaire avec 2 émojis et un « / », `vote_question`.
-- Codes (`lieu, lumiere, cadrage, angle, camera, format, accroche_type, cliff_type`) : uniquement des valeurs de `bible/realisation.json` et du projet. Ne PAS écrire les prompts : `pack.py` les assemble.
-
-## Étape 5 · Contrôle qualité
-`python outils/verifier.py <id>` (ou `<id> ep001`) → corriger chaque ÉCHEC, relancer jusqu'à 0. Relire les « À VOIR ».
-Relire soi-même : le hook arrête-t-il le pouce en 1 s ? Chaque réplique sonne-t-elle parlée ? La fin donne-t-elle envie de commenter ? Sinon, réécrire.
-
-## Étape 6 · Prompts
-`python outils/pack.py <id>` → `projets/<id>/episodes/ep001/pack.html` (et `pack.json`) :
-0. Portraits de référence → ChatGPT (une fois par personnage, à enregistrer dans `projets/<id>/refs/`)
-1. Message d'ouverture → nouvelle conversation ChatGPT (+ portraits joints)
-2. Pour chaque plan : « Image N début » (+ « Image N fin » pour les 10 s) → ChatGPT, puis dans Grok : image(s) + « Vidéo N », durée réglée sur 6 ou 10 s
-3. Légende + hashtags, commentaire épinglé
-Ouvrir la page : `start "" "projets/<id>/episodes/ep001/pack.html"` (PowerShell : `Start-Process`).
-
-## Étape 7 · Répondre (court)
-Titre · casting en une ligne (nom = animal, rôle) · hook · fin. Ouvrir `pack.html` dans le navigateur de l'utilisateur avec `Start-Process` (les prompts y sont affichés en clair avec boutons Copier) et donner le chemin complet.
-Ensuite : clips Grok dans Téléchargements → `/monter <id>` ; série → épisode suivant avec `/episode <id>`.
+## Reprendre en cours de route
+- `propositions/*.json` sans projet : l'utilisateur répond plus tard → étape B avec le concept choisi.
+- `projet.json` `etape: "histoire"` et `histoire.json` sans `choix` : remontrer l'histoire, attendre la validation.
+- `etape: "production"` : étape C.
+- Anciens projets (sans `creer: 3`) : inchangés, contrôlés avec les anciennes règles.

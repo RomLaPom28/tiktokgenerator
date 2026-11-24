@@ -2,7 +2,7 @@
 
 > Trois parties, sans redite :
 > 1. **Bibliothèque des mécaniques** (générée) : ce que disent les analyses, avec le niveau de preuve. Observations, pas obligations.
-> 2. **Règles de fabrication** : choix éditoriaux validés par l'utilisateur, appliqués par /creer et contrôlés par `outils/verifier.py`. Ce sont des décisions, pas des preuves ; les ids entre crochets renvoient aux mécaniques qui les fondent.
+> 2. **Règles de fabrication** : choix éditoriaux validés par l'utilisateur, appliqués par /creer et contrôlés par `outils/verifier.py` (depuis /creer v3, le 24/11/2026, les techniques de rythme sont des outils à utiliser quand elles servent l'histoire ; le vérificateur les signale en « À VOIR » pour les projets `creer: 3`). Ce sont des décisions, pas des preuves ; les ids entre crochets renvoient aux mécaniques qui les fondent.
 > 3. **Conformité** et **repères externes** (presse, guides : non mesurés par nos analyses).
 > On garde les MÉCANIQUES, jamais le texte des autres.
 
@@ -52,10 +52,11 @@ Aucune mécanique fortement documentée : les codages viennent surtout des fiche
 ### Principe de transposition
 Histoires HUMAINES (test d'amour, faux pauvre, belle-famille, revanche, caïd humilié) ; les animaux sont le casting et vivent comme des humains.
 L'espèce sert au look et au caractère. **Assoupli le 23/11/2026** : la nature de l'animal peut servir de ressort si le drame reste humain et donne une image choc lisible en 1 s (bébé d'une espèce impossible = soupçon de tromperie). Jamais une blague de biologie sans enjeu humain.
-Les pitchs de /creer sont des REMIX (squelette prouvé + 1-2 greffes + nouveau domaine, grille « GROS ») : `bible/histoires.json`.
+Les concepts de /creer (v3, 24/11/2026) partent des moteurs narratifs de `bible/editorial.json` et de `bible/dossier_editorial.md` (calculé depuis toutes les analyses) ; `bible/histoires.json` reste la banque de squelettes et de greffes où puiser. L'ancienne grille « GROS » (12 pitchs, 4 montrés) est remplacée par le score éditorial et la faisabilité de `outils/creer.py`.
 
-### Moteur d'histoire (obligatoire, retour utilisateur 22/11/2026 : « pas intéressant »)
+### Moteur d'histoire (retour utilisateur 22/11/2026 : « pas intéressant » ; assoupli le 24/11/2026)
 Une suite de gags ne tient pas. Ce qui tient 75 s : le spectateur VEUT voir quelque chose arriver.
+**Obligatoire** : un désir, un conflit, un antagoniste ou un obstacle, un enjeu, un payoff. **Boîte à outils** (les points ci-dessous) : la forme « revanche » en est un cas fréquent, pas le seul ; un dilemme, une enquête, un mensonge qui enfle ou un mentor incompris n'ont pas besoin d'humiliation ni de callback.
 1. **Injustice dans les 10 premières secondes** : le héros (qu'on aime) se fait humilier, voler, écraser par un antagoniste odieux et puissant. [`humiliation_injuste`]
 2. **Ironie dramatique** : le spectateur sait le secret du héros, les méchants non. [`ironie_dramatique`]
 3. **Antagoniste à détester** : il humilie EN PUBLIC, triche, méprise, et a une réplique-signature arrogante qui reviendra contre lui.
@@ -66,14 +67,15 @@ Une suite de gags ne tient pas. Ce qui tient 75 s : le spectateur VEUT voir quel
 8. **Kicker final** : une dernière info qui relance + question de vote morale (« il avait le droit ? »). [`question_au_spectateur`]
 
 ### Écriture des dialogues
+Dialogues naturels et expressifs, toujours au service du conflit. Les points marqués (outil) s'emploient quand ils servent la scène, jamais comme quota.
 - Chaque réplique a une FONCTION : attaque, riposte, revelation, reaction, menace, promesse, aveu. Jamais « info ».
-- **Clash** : attaque → riposte immédiate. La riposte doit être meilleure que l'attaque.
+- **Clash** (outil) : attaque → riposte immédiate. La riposte doit être meilleure que l'attaque.
 - Phrases parlées, courtes, rythmées, qu'on a envie de citer en commentaire. Sous-texte > explication.
-- Le méchant a une phrase-signature → le héros la lui renvoie au payoff.
-- Témoin qui dit tout haut ce que pense le spectateur, 1-3 mots, juste après la réplique-choc. [`temoin_reaction`]
-- Parole quasi continue : au moins 55 % de chaque plan parlé, jamais plus de 1,5 s de silence, sauf plan muet volontaire (menace physique, face-à-face : voir la contradiction « parole_vs_muet »).
+- (outil) Le méchant a une phrase-signature → le héros la lui renvoie au payoff.
+- (outil, à tester) Témoin qui dit tout haut ce que pense le spectateur, 1-3 mots, juste après une réplique-choc, pas après chacune. [`temoin_reaction`]
+- Parole quasi continue par défaut : au moins 55 % de chaque plan parlé, jamais plus de 1,5 s de silence, sauf plan muet volontaire (champ `muet` : menace physique, face-à-face, découverte ; voir la contradiction « parole_vs_muet »).
 
-### Structure de rétention
+### Structure de rétention (repère, pas un gabarit : les positions des retournements suivent l'histoire)
 | Temps | Plan | Rôle |
 |---|---|---|
 | 0-2 s | 1 | Réplique-choc au cœur du conflit + texte d'accroche à l'écran (7 mots max). Jamais de contexte avant. |
@@ -85,8 +87,8 @@ Une suite de gags ne tient pas. Ce qui tient 75 s : le spectateur VEUT voir quel
 | fin | — | Question de vote, commentaire épinglé identique ; « Partie N+1 ? » seulement si une suite est prévue. L'épisode suivant reprend le choix gagnant et le DIT. |
 
 ### Machine virale v2 (réalisation Grok, 22/11/2026)
-- **Rupture toutes les 2-3 s** : un plan Grok = plusieurs temps forts timecodés (action, réaction, coup de caméra, bruitage). Jamais une seule action molle sur 6 s.
-- **Ping-pong** : 2 personnages se répondent dans le même plan (attaque → réplique → réaction du témoin). Répliques de 1 à 12 mots.
+- **Plans vivants** : un plan Grok = plusieurs temps forts timecodés (action, réaction, coup de caméra, bruitage). Jamais une action molle sur 6 s ; un silence tendu voulu n'est pas une action molle.
+- **Ping-pong** (outil) : 2 personnages se répondent dans le même plan. Répliques de 1 à 12 mots.
 - **Durées variées** : plans de 6 s (punch) et de 10 s (révélation, humiliation, climax) avec image de DÉBUT + image de FIN.
 - **Grok** : segments timecodés « [0-2s] … », décrire le son autant que l'image (il génère voix + bruitages), 1-2 phrases par réplique. Actions simples et lisibles (pointer, se lever, claquer une porte) : Grok anime mal les actions complexes, l'histoire passe par les dialogues.
 - **Style cartoon 3D stylisé** (jamais photoréaliste) : lisible sur téléphone, émotions en 0,5 s. Étiquette « généré par IA » activée.

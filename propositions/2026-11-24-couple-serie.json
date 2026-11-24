@@ -1,0 +1,517 @@
+{
+  "date": "2026-11-24",
+  "type": "serie",
+  "theme": "couple",
+  "concepts": [
+    {
+      "id": "s1",
+      "titre": "Le message effacé",
+      "pitch": "La meilleure amie de Chloé efface sur son téléphone le message où Maxime lui demande de le rejoindre pour la demande en mariage ; Maxime attend seul, humilié devant tout le restaurant.",
+      "hook": "Il ne saura jamais qu'elle l'a lu.",
+      "hook_image": "Gros plan : un pouce appuie sur « Supprimer » ; à l'écran, « Ce soir 20 h. J'ai une question à te poser. 💍 ».",
+      "conflit": "L'amie veut Maxime pour elle ; elle console chacun des deux en racontant à l'autre qu'il a été abandonné.",
+      "emotion": "indignation",
+      "curiosite": "Comment et quand Chloé va-t-elle découvrir le message effacé ?",
+      "retournement": "Maxime retrouve la notification sur la montre connectée de Chloé, avec l'heure exacte de suppression.",
+      "fin": "Partie 1 : l'amie arrive au restaurant à la place de Chloé, en robe blanche. Cliff : Chloé est derrière la vitre.",
+      "debat": "Tu pardonnes à ta meilleure amie si elle avoue tout de suite ?",
+      "moteur_narratif": "crime_secret",
+      "domaine": "couple",
+      "mecaniques": [
+        {
+          "id": "ironie_dramatique",
+          "role": "on voit l'effacement à 0 s"
+        },
+        {
+          "id": "humiliation_injuste",
+          "role": "Maxime seul avec la bague, les clients qui chuchotent"
+        },
+        {
+          "id": "coupure_avant_payoff",
+          "role": "Chloé derrière la vitre"
+        }
+      ],
+      "histoires": [
+        "crime_vu_par_le_spectateur",
+        "telephone_oublie"
+      ],
+      "pourquoi_combinaison": "Les trois paires sont éprouvées (10 comptes chacune) ; la nouveauté est la faute minuscule (un clic) aux conséquences énormes, idéale pour une série où le mensonge s'étend.",
+      "score": {
+        "hook": 17,
+        "curiosite": 17,
+        "emotion": 17,
+        "originalite": 9,
+        "discussion": 13,
+        "visuel": 7
+      },
+      "justif_score": "Solide et lisible, peu original dans sa structure.",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 5,
+        "compat_generation": 4,
+        "nb_personnages": 3,
+        "nb_decors": 3,
+        "risques": [
+          "texte du message à verrouiller dans l'image de début"
+        ]
+      },
+      "calcul": {
+        "score": 80,
+        "faisabilite": 96,
+        "notes_auto": {
+          "personnages": 5,
+          "decors": 5
+        },
+        "preuve": "combinaison déjà observée plusieurs fois",
+        "paires_nouvelles": []
+      }
+    },
+    {
+      "id": "s2",
+      "titre": "La vidéo du parking",
+      "pitch": "Hugo reçoit une vidéo : sa femme a accroché une voiture et s'est enfuie. Le propriétaire, son propre patron, cherche le coupable et promet 10 000 € à qui le dénonce.",
+      "hook": "C'est ta femme, sur la vidéo. Tu dis rien ?",
+      "hook_image": "Écran de téléphone : un parking, une voiture rose qui recule dans une berline noire.",
+      "conflit": "Se taire, c'est mentir à son patron et risquer son poste ; parler, c'est livrer sa femme.",
+      "emotion": "culpabilité",
+      "curiosite": "Va-t-il parler ? Qui lui a envoyé la vidéo ?",
+      "retournement": "La vidéo vient de sa femme elle-même : elle teste s'il la protège avant de lui avouer pire.",
+      "fin": "Cliff : « Il y a autre chose dans le coffre. »",
+      "debat": "Tu protèges ta femme ou tu dis la vérité ?",
+      "moteur_narratif": "dilemme",
+      "domaine": "couple",
+      "mecaniques": [
+        {
+          "id": "epreuve_verdict",
+          "role": "parler ou non, tranché à la fin, adossé au retournement de la femme"
+        },
+        {
+          "id": "question_au_spectateur",
+          "role": "le dilemme est la question"
+        },
+        {
+          "id": "coupure_avant_payoff",
+          "role": "le coffre"
+        },
+        {
+          "hypothese": "le spectateur doit choisir avant le héros",
+          "role": "pause sur la question à mi-vidéo"
+        }
+      ],
+      "histoires": [
+        "ultimatum_public"
+      ],
+      "pourquoi_combinaison": "Un dilemme donne la question de commentaire ; la coupure sur un second secret relance la série sans répéter la même question.",
+      "score": {
+        "hook": 15,
+        "curiosite": 16,
+        "emotion": 15,
+        "originalite": 12,
+        "discussion": 15,
+        "visuel": 6
+      },
+      "justif_score": "Débat fort, image modeste.",
+      "faisabilite": {
+        "comprehension": 4,
+        "actions": 5,
+        "compat_generation": 4,
+        "nb_personnages": 3,
+        "nb_decors": 3,
+        "risques": [
+          "la vidéo dans le téléphone : la montrer en plan ECRAN fixe"
+        ]
+      },
+      "calcul": {
+        "score": 79,
+        "faisabilite": 92,
+        "notes_auto": {
+          "personnages": 5,
+          "decors": 5
+        },
+        "preuve": "hypothèse créative à tester",
+        "paires_nouvelles": [
+          "`epreuve_verdict`+`question_au_spectateur` (1 vidéo ensemble)"
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "titre": "Le contrat d'un an",
+      "pitch": "La future belle-mère fait signer à Jade un contrat secret : 500 000 € si elle quitte son fils dans un an jour pour jour. Jade signe.",
+      "hook": "500 000 €. Dans un an, tu disparais.",
+      "hook_image": "Un contrat glissé sur la nappe blanche, le chiffre entouré au stylo rouge.",
+      "conflit": "Jade a besoin de l'argent pour son père malade ; elle tombe vraiment amoureuse ; le compteur avance à chaque épisode.",
+      "emotion": "suspense",
+      "curiosite": "Va-t-elle partir le jour J ? Pourquoi la belle-mère est-elle si pressée ?",
+      "retournement": "La belle-mère n'est pas riche : elle est ruinée et veut l'argent de l'assurance du mariage.",
+      "fin": "Cliff : le fils trouve le contrat signé, J-30.",
+      "debat": "Elle a eu raison de signer ?",
+      "moteur_narratif": "pacte_contrat",
+      "domaine": "couple",
+      "mecaniques": [
+        {
+          "id": "regle_du_monde",
+          "role": "pacte posé à 0 s"
+        },
+        {
+          "id": "chiffre_ecran",
+          "role": "500 000 € et compte à rebours J-365"
+        },
+        {
+          "id": "ironie_dramatique",
+          "role": "le fils ignore le contrat"
+        }
+      ],
+      "histoires": [
+        "argent_pour_disparaitre",
+        "compte_a_rebours"
+      ],
+      "pourquoi_combinaison": "Les trois paires sont éprouvées (4-5 comptes) ; le compte à rebours en jours donne une structure de série naturelle.",
+      "score": {
+        "hook": 16,
+        "curiosite": 17,
+        "emotion": 15,
+        "originalite": 10,
+        "discussion": 13,
+        "visuel": 7
+      },
+      "justif_score": "Promesse claire et durable ; proche d'une greffe connue.",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 5,
+        "compat_generation": 4,
+        "nb_personnages": 4,
+        "nb_decors": 3,
+        "risques": []
+      },
+      "calcul": {
+        "score": 78,
+        "faisabilite": 92,
+        "notes_auto": {
+          "personnages": 4,
+          "decors": 5
+        },
+        "preuve": "combinaison déjà observée plusieurs fois",
+        "paires_nouvelles": []
+      }
+    },
+    {
+      "id": "s4",
+      "titre": "Ma femme de location",
+      "pitch": "Pour toucher l'héritage de sa grand-mère, Lucas a inventé une épouse. Mamie débarque : il paie une inconnue 2 000 € pour jouer sa femme une semaine.",
+      "hook": "Mamie arrive dans une heure. Tu t'appelles Julie, on est mariés.",
+      "hook_image": "Il tend une alliance en plastique à une inconnue dans un café.",
+      "conflit": "La fausse épouse improvise de pire en pire ; la cousine jalouse flaire le mensonge.",
+      "emotion": "rire",
+      "curiosite": "Jusqu'où le mensonge va-t-il tenir ?",
+      "retournement": "Mamie a engagé la même actrice la veille pour tester Lucas.",
+      "fin": "Cliff : la vraie Julie, l'ex de Lucas, sonne à la porte.",
+      "debat": "Mentir à sa grand-mère pour l'héritage, c'est pardonnable ?",
+      "moteur_narratif": "mensonge_qui_enfle",
+      "domaine": "couple",
+      "mecaniques": [
+        {
+          "id": "ironie_dramatique",
+          "role": "le spectateur connaît la supercherie"
+        },
+        {
+          "id": "chiffre_ecran",
+          "role": "2 000 € et l'héritage"
+        },
+        {
+          "id": "double_retournement",
+          "role": "mamie savait (à tester)"
+        }
+      ],
+      "histoires": [
+        "heritage_du_pere"
+      ],
+      "pourquoi_combinaison": "La comédie du mensonge qui grossit est peu présente dans le corpus (ton comique : 12 vidéos) ; le double retournement est la mécanique à tester de ce concept.",
+      "score": {
+        "hook": 15,
+        "curiosite": 15,
+        "emotion": 11,
+        "originalite": 12,
+        "discussion": 10,
+        "visuel": 7
+      },
+      "justif_score": "Drôle, enjeu émotionnel faible.",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 4,
+        "compat_generation": 4,
+        "nb_personnages": 4,
+        "nb_decors": 3,
+        "risques": []
+      },
+      "calcul": {
+        "score": 70,
+        "faisabilite": 88,
+        "notes_auto": {
+          "personnages": 4,
+          "decors": 5
+        },
+        "preuve": "hypothèse créative à tester",
+        "paires_nouvelles": [
+          "`ironie_dramatique`+`double_retournement` (1 vidéo ensemble)",
+          "`chiffre_ecran`+`double_retournement` (1 vidéo ensemble)"
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "titre": "Qui a projeté la photo ?",
+      "pitch": "Aux fiançailles de Léa et Arthur, une photo anonyme apparaît sur l'écran géant : Arthur embrassant une autre. Quatre suspects dans la salle.",
+      "hook": "Qui a mis ça sur l'écran ?!",
+      "hook_image": "L'écran géant de la salle des fêtes, la photo floue, 80 invités figés.",
+      "conflit": "Chaque suspect avait une raison ; Arthur jure que la photo est truquée.",
+      "emotion": "curiosité",
+      "curiosite": "Qui a envoyé la photo, et est-elle vraie ?",
+      "retournement": "La photo est vraie, mais la femme embrassée est la sœur jumelle de Léa.",
+      "fin": "Cliff : le téléphone de la mère de Léa vibre : « Photo envoyée ✔ ».",
+      "debat": "Ton suspect ?",
+      "moteur_narratif": "enquete",
+      "domaine": "couple",
+      "mecaniques": [
+        {
+          "id": "humiliation_injuste",
+          "role": "humiliation publique devant 80 invités"
+        },
+        {
+          "id": "question_au_spectateur",
+          "role": "deviner le coupable"
+        },
+        {
+          "id": "coupure_avant_payoff",
+          "role": "le téléphone qui vibre"
+        },
+        {
+          "hypothese": "énigme à suspects",
+          "role": "le spectateur enquête en commentaire"
+        }
+      ],
+      "histoires": [],
+      "pourquoi_combinaison": "Aucun « qui a fait ça ? » dans le corpus : hypothèse. La question de commentaire est naturelle (chacun donne son suspect).",
+      "score": {
+        "hook": 16,
+        "curiosite": 18,
+        "emotion": 13,
+        "originalite": 11,
+        "discussion": 14,
+        "visuel": 8
+      },
+      "justif_score": "Excellent hook et curiosité ; foule à gérer.",
+      "faisabilite": {
+        "comprehension": 4,
+        "actions": 4,
+        "compat_generation": 3,
+        "nb_personnages": 6,
+        "nb_decors": 2,
+        "risques": [
+          "foule d'invités : en fond seulement",
+          "6 personnages : beaucoup de portraits"
+        ]
+      },
+      "calcul": {
+        "score": 80,
+        "faisabilite": 72,
+        "notes_auto": {
+          "personnages": 2,
+          "decors": 5
+        },
+        "preuve": "hypothèse créative à tester",
+        "paires_nouvelles": [
+          "`humiliation_injuste`+`question_au_spectateur` (1 vidéo ensemble)"
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "titre": "La belle-mère en haillons",
+      "pitch": "Sandrine, riche et méfiante, se déguise en sans-abri devant le restaurant où son fils présente sa fiancée, pour voir comment elle traite les pauvres.",
+      "hook": "Si elle me donne une pièce, elle épouse mon fils.",
+      "hook_image": "Une dame en haillons, bague en diamant cachée sous un gant troué.",
+      "conflit": "La fiancée l'ignore ; la serveuse l'aide ; le fils ne reconnaît pas sa propre mère.",
+      "emotion": "satisfaction",
+      "curiosite": "Comment réagira la fiancée quand elle saura ?",
+      "retournement": "La fiancée l'a reconnue tout de suite et joue la méchante exprès : elle ne veut pas de ce mariage.",
+      "fin": "Cliff : la fiancée retire sa bague devant Sandrine : « Votre fils, gardez-le. »",
+      "debat": "Tester la fiancée de son fils comme ça, c'est normal ?",
+      "moteur_narratif": "test_deguise",
+      "domaine": "belle-famille",
+      "mecaniques": [
+        {
+          "id": "epreuve_verdict",
+          "role": "le test, adossé à l'identité révélée de la mère"
+        },
+        {
+          "id": "ironie_dramatique",
+          "role": "on connaît le déguisement"
+        },
+        {
+          "id": "renversement_statut",
+          "role": "la serveuse aidante gagne la confiance de la mère"
+        }
+      ],
+      "histoires": [
+        "test_amour_belle_famille",
+        "gentil_qui_ment"
+      ],
+      "pourquoi_combinaison": "Moteur saturé, angle inversé : c'est la belle-mère qui teste, et la testée retourne le test. Paires éprouvées, mais un test d'amour seul est moins vu dans son compte (×0,74).",
+      "score": {
+        "hook": 15,
+        "curiosite": 14,
+        "emotion": 14,
+        "originalite": 8,
+        "discussion": 13,
+        "visuel": 8
+      },
+      "justif_score": "Efficace mais déjà vu.",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 5,
+        "compat_generation": 4,
+        "nb_personnages": 4,
+        "nb_decors": 2,
+        "risques": []
+      },
+      "calcul": {
+        "score": 72,
+        "faisabilite": 92,
+        "notes_auto": {
+          "personnages": 4,
+          "decors": 5
+        },
+        "preuve": "combinaison déjà observée plusieurs fois",
+        "paires_nouvelles": []
+      }
+    },
+    {
+      "id": "s7",
+      "titre": "Deux oui",
+      "pitch": "Le même soir, Manon a dit oui à deux demandes en mariage, à deux hommes qui ne se connaissent pas. Les deux veulent la présenter à leur famille dimanche.",
+      "hook": "J'ai dit oui. Deux fois.",
+      "hook_image": "Deux bagues différentes, une à chaque main.",
+      "conflit": "Elle doit choisir avant dimanche ; les deux familles se croisent au même restaurant.",
+      "emotion": "rire",
+      "curiosite": "Lequel choisira-t-elle ?",
+      "retournement": "Les deux hommes sont frères et ne se parlent plus depuis dix ans.",
+      "fin": "Cliff : les deux frères face à face, la même bague de grand-mère dans la main.",
+      "debat": "Team Romain ou team Bastien ?",
+      "moteur_narratif": "rivalite_triangle",
+      "domaine": "couple",
+      "mecaniques": [
+        {
+          "id": "ironie_dramatique",
+          "role": "aveu au spectateur à 0 s"
+        },
+        {
+          "id": "question_au_spectateur",
+          "role": "choisir un camp"
+        },
+        {
+          "id": "coupure_avant_payoff",
+          "role": "face-à-face des frères"
+        }
+      ],
+      "histoires": [
+        "aveu_miroir"
+      ],
+      "pourquoi_combinaison": "Triangle jamais observé dans le corpus mais construit sur trois mécaniques éprouvées ensemble ; « team A ou team B » est la question de commentaire la plus simple qui existe.",
+      "score": {
+        "hook": 16,
+        "curiosite": 15,
+        "emotion": 12,
+        "originalite": 12,
+        "discussion": 15,
+        "visuel": 7
+      },
+      "justif_score": "Hook immédiat, débat garanti ; enjeu léger.",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 5,
+        "compat_generation": 4,
+        "nb_personnages": 5,
+        "nb_decors": 3,
+        "risques": []
+      },
+      "calcul": {
+        "score": 77,
+        "faisabilite": 88,
+        "notes_auto": {
+          "personnages": 3,
+          "decors": 5
+        },
+        "preuve": "association nouvelle de mécaniques connues",
+        "paires_nouvelles": [
+          "moteur narratif jamais observé"
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "titre": "12 %",
+      "pitch": "Dans ce monde, chaque couple a son pourcentage d'amour affiché au-dessus de la tête. Le jour de son mariage, celui du marié affiche 12 %.",
+      "hook": "Douze pour cent. Et elle dit oui quand même.",
+      "hook_image": "Devant l'autel, au-dessus de la mariée « 98 % », au-dessus du marié « 12 % ».",
+      "conflit": "Les invités se moquent, la famille de la mariée exige l'annulation ; le marié jure qu'il l'aime.",
+      "emotion": "curiosité",
+      "curiosite": "Pourquoi 12 % ? Le chiffre ment-il ?",
+      "retournement": "Le chiffre mesure la confiance en soi, pas l'amour : il ne s'aime pas lui-même.",
+      "fin": "Cliff : le chiffre de la mariée chute à 40 % quand elle découvre ce qu'il lui cachait.",
+      "debat": "Tu épouserais quelqu'un à 12 % ?",
+      "moteur_narratif": "regle_absurde",
+      "domaine": "mariage",
+      "mecaniques": [
+        {
+          "id": "regle_du_monde",
+          "role": "valeur affichée sur chacun (chiffre social)"
+        },
+        {
+          "id": "chiffre_ecran",
+          "role": "12 % / 98 %"
+        },
+        {
+          "id": "humiliation_injuste",
+          "role": "moqueries des invités"
+        }
+      ],
+      "histoires": [
+        "valeur_sur_le_front",
+        "chiffre_sur_le_front"
+      ],
+      "pourquoi_combinaison": "Paires éprouvées (3 à 5 comptes) ; la variante chiffre social est la plus associée aux vues de sa mécanique. Risque : trop proche du squelette chiffre_sur_le_front, d'où la règle nouvelle (amour, pas QI).",
+      "score": {
+        "hook": 18,
+        "curiosite": 17,
+        "emotion": 14,
+        "originalite": 11,
+        "discussion": 14,
+        "visuel": 10
+      },
+      "justif_score": "Image la plus forte du lot, compréhension muette.",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 5,
+        "compat_generation": 3,
+        "nb_personnages": 4,
+        "nb_decors": 2,
+        "risques": [
+          "chiffres flottants : les poser dans l'image de début, pas animés"
+        ]
+      },
+      "calcul": {
+        "score": 84,
+        "faisabilite": 88,
+        "notes_auto": {
+          "personnages": 4,
+          "decors": 5
+        },
+        "preuve": "combinaison déjà observée plusieurs fois",
+        "paires_nouvelles": []
+      }
+    }
+  ],
+  "recommande": "s8",
+  "controle": "2026-11-24 13:41"
+}

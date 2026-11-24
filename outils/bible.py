@@ -112,7 +112,8 @@ def prompt_grok(b, plan):
     d = duree_plan(plan)
     lignes = [f"Vidéo verticale 9:16 de {d} secondes à partir de l'image jointe"
               + (" (l'image de fin jointe est la dernière image à atteindre)" if plan.get("fin") else "")
-              + ". Animation 3D cartoon, rythme très nerveux, aucun temps mort."]
+              + (". Animation 3D cartoon, silence volontaire et tendu : " + _phrase(plan["muet"]).rstrip(".") + "."
+                 if plan.get("muet") else ". Animation 3D cartoon, rythme très nerveux, aucun temps mort.")]
     evts = []
     tl = plan.get("timeline") or [{"t": f"0-{d}", "action": plan.get("mouvement", "")}]
     for e in tl:

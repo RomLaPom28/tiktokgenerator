@@ -1,8 +1,8 @@
 {
-  "_lisez_moi": "Banque d'histoires PROUVÉES, extraites des transcriptions de analyses/ (vidéos à 1 M de vues et plus). /creer fabrique ses pitchs en REMIXANT : 1 squelette + 1 ou 2 greffes + un nouveau décor, puis note chaque pitch avec la grille. On garde les mécaniques, jamais le texte ni les personnages des autres. /analyser ajoute ici chaque nouvelle vidéo à 1 M+ qui apporte un squelette ou une greffe absente.",
+  "_lisez_moi": "Banque d'histoires PROUVÉES, extraites des transcriptions de analyses/ (vidéos à 1 M de vues et plus). /creer v3 y puise squelettes et greffes (rattachés aux moteurs narratifs de bible/editorial.json) ; la grille GROS ci-dessous n'est plus utilisée pour les nouveaux concepts. On garde les mécaniques, jamais le texte ni les personnages des autres. /analyser ajoute ici chaque nouvelle vidéo à 1 M+ qui apporte un squelette ou une greffe absente.",
 
   "grille_gros": {
-    "_regle": "Chaque pitch est noté sur 6 (1 point par critère). Moins de 5 = jeté sans être montré. Les critères 1, 2 et 3 sont éliminatoires.",
+    "_regle": "ANCIENNE GRILLE (avant /creer v3 du 24/11/2026, gardée pour les anciens projets ; remplacée par score_editorial et faisabilite de bible/editorial.json). Chaque pitch est noté sur 6 (1 point par critère). Moins de 5 = jeté sans être montré. Les critères 1, 2 et 3 sont éliminatoires.",
     "criteres": [
       {"id": "image_choc", "texte": "Une IMAGE absurde ou violente comprise en 1 s SANS le son (chaussures de 100 kg, mariée gonflée enfermée, prix affiché sur le front, masque horrible, bébé de la mauvaise espèce, enfant poussé d'un bateau). Un dialogue seul ne compte pas."},
       {"id": "enjeu_vital", "texte": "Ce qu'on peut perdre est énorme et universel : l'amour, un enfant, un mariage, la famille, la liberté, la vie, ou une somme à 6 chiffres minimum. Une carrière sportive ou un poste seuls ne suffisent pas."},
