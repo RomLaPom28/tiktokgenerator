@@ -16,7 +16,10 @@
 2. Tu choisis : **vidéo unique** ou **nouvelle série**.
 3. **Étape A** : Claude lit le dossier éditorial (toutes les analyses : mécaniques documentées, à tester, associations, vidéos fortes et faibles d'un même compte, formats saturés, angles peu exploités) et propose **8 à 10 concepts** aux moteurs narratifs différents. Chacun : titre, pitch, hook, conflit, émotion, curiosité, retournement, fin, débat, mécaniques avec leurs références d'analyses (jamais inventées), statut (observé / association nouvelle / hypothèse), score éditorial /100 et faisabilité /100. Tu choisis.
 4. **Étape B** : l'histoire complète (début, conflit, motivations, progression, retournements, climax, fin), en 1 ou 2 variantes vraiment différentes. Tu valides ou tu modifies.
-5. **Étape C** : personnages, décors, plans, dialogues, hook, fin, publication. Contrôle qualité (codes, durées, conformité TikTok bloquants ; techniques de rythme signalées en « À VOIR », jamais imposées).
+5. **Étape C** : personnages, décors, plans, dialogues, hook, fin, publication. Contrôle qualité en deux verdicts :
+   - **technique** (bloquant) : fichiers lisibles, personnages et décors connus, timecodes, durées 6/10 s, débit, conformité TikTok, prompts assemblables ;
+   - **éditorial** : le **Script Doctor** relit l'épisode sans avoir participé à l'écriture, note 11 critères (hook, raison de rester, désir, conflit, enjeux, motivations, retournements, dialogues, scènes visuelles, climax, fin) et propose des corrections précises. Tu choisis : corriger, produire tel quel, modifier.
+   Le rapport affiche : erreurs bloquantes, améliorations recommandées, points forts, risques de production, verdict éditorial. Les préférences de rythme (silences, ping-pong, nombre de retournements…) sont signalées, jamais imposées.
 6. Une page `pack.html` s'ouvre avec des boutons Copier :
    - **0. Portraits** → ChatGPT, une fois par personnage (enregistre-les dans `projets/<id>/refs/`).
    - **1. Ouverture** → nouvelle conversation ChatGPT, portraits joints.
@@ -36,7 +39,10 @@
 - `analyses/`, `sources/` : vidéos TikTok analysées. `outils/` : scripts. `musique/` : mp3 libres de droits.
 
 ## Commandes manuelles
-- `python outils/verifier.py <id> [epNNN]` : contrôle qualité.
+- `python outils/verifier.py <id> [epNNN] [--detail]` : contrôle qualité (verdict technique + verdict éditorial ; `--detail` liste chaque contrôle).
+- `/doctor <id> [epNNN]` : critique éditoriale (Script Doctor) d'un épisode, même ancien. `python3 outils/doctor.py <id> [epNNN]` : ses indices automatiques seuls.
+- `python3 -m unittest discover -s tests` : tests du contrôle qualité (tous les projets existants doivent rester valides).
+- `bible/controles.json` : liste des contrôles, leur nature (technique / editorial / preference) et leurs seuils.
 - `python outils/pack.py <id> [epNNN]` : régénère les prompts.
 - `python3 outils/creer.py dossier` : recalcule le dossier éditorial ; `concepts propositions/<fichier>.json` : contrôle des concepts (étape A) ; `histoire <id>` : contrôle de l'histoire (étape B).
 - `propositions/` : les lots de concepts proposés par /creer (`.json` + `.md` lisible), gardés pour y revenir plus tard.

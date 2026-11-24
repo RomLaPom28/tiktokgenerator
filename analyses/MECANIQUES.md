@@ -65,7 +65,7 @@ Conditions retenues : Le groupe « peu de paroles » a plus de commentaires et d
 
 Limites : mots/s inclut les silences ; intensité émotionnelle et qualité visuelle pas encore codées (champs contexte « intensite » et « qualite_visuelle » des fiches v2).
 
-Décision : Pas de style par défaut : silence pour la menace physique, parole continue pour les conflits sociaux ; la règle « 55 % de parole par plan » reste sauf plan muet volontaire.
+Décision : Pas de style par défaut : silence pour la menace physique, parole continue pour les conflits sociaux ; « 55 % de parole par plan » est une préférence de réalisation (bible/controles.json), jamais un quota : un silence qui porte la tension est un choix assumé.
 
 ### L'épreuve (test, concours) est partout mais moins vue dans son compte : faut-il l'éviter ? (`frequent_mais_moins_vu`)
 

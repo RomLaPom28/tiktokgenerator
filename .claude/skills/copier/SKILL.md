@@ -61,9 +61,10 @@ Format EXACT de `/creer` étape C (`episode.json`) (plans 6/10 s, `fin` pour les
 - Ne pas écrire les prompts : `pack.py` les assemble.
 
 ## 6 · Contrôle et prompts
-1. `python outils/verifier.py <id>` → 0 ÉCHEC (en adaptation, les règles de format de /creer deviennent des « À VOIR » : on suit la source ; la fidélité 90 %, l'anti-copie et les noms propres sont bloquants).
-2. `python outils/pack.py <id>` → `pack.html` avec, en haut, la section **Adaptation** (améliorations + tableau Original → notre version), puis portraits, ouverture, Image/Vidéo N, publication.
-3. PC : ouvrir `pack.html` (`Start-Process`). Cloud : afficher les prompts prêts à copier depuis `pack.json` (règle de `CLAUDE.md`), puis commit + push.
+1. `python outils/verifier.py <id>` → 0 erreur bloquante (la fidélité 90 %, l'anti-copie et les noms propres sont bloquants ; le rythme et la structure suivent la source et ne sont que des recommandations).
+2. Script Doctor (`.claude/skills/doctor/SKILL.md`, en sous-agent) : il juge aussi si nos améliorations tiennent leurs promesses. Montrer le rapport, `AskUserQuestion` si le verdict n'est pas `solide`.
+3. `python outils/pack.py <id>` → `pack.html` avec, en haut, la section **Adaptation** (améliorations + tableau Original → notre version), puis portraits, ouverture, Image/Vidéo N, publication.
+4. PC : ouvrir `pack.html` (`Start-Process`). Cloud : afficher les prompts prêts à copier depuis `pack.json` (règle de `CLAUDE.md`), puis commit + push.
 
 ## 7 · Répondre (court)
 Titre · casting (nom = animal, rôle) · 3 lignes original → notre version des moments clés · améliorations appliquées · chemin de `pack.html`. Série : « partie suivante : `/episode <id>` ».

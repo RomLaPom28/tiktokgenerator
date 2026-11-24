@@ -2,7 +2,7 @@
 
 > Trois parties, sans redite :
 > 1. **Bibliothèque des mécaniques** (générée) : ce que disent les analyses, avec le niveau de preuve. Observations, pas obligations.
-> 2. **Règles de fabrication** : choix éditoriaux validés par l'utilisateur, appliqués par /creer et contrôlés par `outils/verifier.py` (depuis /creer v3, le 24/11/2026, les techniques de rythme sont des outils à utiliser quand elles servent l'histoire ; le vérificateur les signale en « À VOIR » pour les projets `creer: 3`). Ce sont des décisions, pas des preuves ; les ids entre crochets renvoient aux mécaniques qui les fondent.
+> 2. **Règles de fabrication** : choix éditoriaux validés par l'utilisateur, appliqués par /creer et contrôlés par `outils/verifier.py`. Chaque contrôle a une nature déclarée dans `bible/controles.json` : **technique** (bloquant : casse le pack, Grok, ChatGPT ou la conformité), **editorial** (recommandation), **preference** (préférence de réalisation, informative). Les techniques de rythme sont des outils à utiliser quand elles servent l'histoire, jamais des quotas ; une recommandation écartée exprès se déclare dans `choix_creatifs`. Le Script Doctor (`/doctor`) juge l'histoire elle-même (grille narrative en 11 critères). Ce sont des décisions, pas des preuves ; les ids entre crochets renvoient aux mécaniques qui les fondent.
 > 3. **Conformité** et **repères externes** (presse, guides : non mesurés par nos analyses).
 > On garde les MÉCANIQUES, jamais le texte des autres.
 
@@ -30,7 +30,7 @@
 
 ### Dépend du contexte
 - **Une question binaire posée tôt, tranchée à la fin** (`epreuve_verdict`, retention) — récurrente (confiance moyenne), 17 vidéos, 10 comptes · moins vue dans son compte (×0,69, 6 comptes), mais s'inverse en vidéo unique ×1,19. Garder l'épreuve comme moteur mais l'adosser à une identité révélée ou une force cachée ; jamais seule.
-- **Tension muette, plans courts, peu de mots** (`style_muet`, montage) — récurrente (confiance moyenne), 8 vidéos, 2 comptes · effet sur les vues non mesurable (moins de 2 comptes où comparer). Pas de style par défaut : silence pour la menace physique, parole continue pour les conflits sociaux ; la règle « 55 % de parole par plan » reste sauf plan muet volontaire.
+- **Tension muette, plans courts, peu de mots** (`style_muet`, montage) — récurrente (confiance moyenne), 8 vidéos, 2 comptes · effet sur les vues non mesurable (moins de 2 comptes où comparer). Pas de style par défaut : silence pour la menace physique, parole continue pour les conflits sociaux ; « 55 % de parole par plan » est une préférence de réalisation (bible/controles.json), jamais un quota : un silence qui porte la tension est un choix assumé.
 - Ton « drame » — 14 comptes · plus vue dans son compte (×1,51, 11 comptes), écart non net en partie 1 ×2,55, vidéo unique ×1, hors ton noir ×1,02.
 - Ton « noir » — 8 comptes · moins vue dans son compte (×0,54, 8 comptes), écart non net en vidéo unique ×0,99.
 - Ton « horreur » — 2 comptes · plus vue dans son compte (×1,86, 2 comptes), écart non net en hors ton noir ×1,06.
@@ -73,7 +73,7 @@ Dialogues naturels et expressifs, toujours au service du conflit. Les points mar
 - Phrases parlées, courtes, rythmées, qu'on a envie de citer en commentaire. Sous-texte > explication.
 - (outil) Le méchant a une phrase-signature → le héros la lui renvoie au payoff.
 - (outil, à tester) Témoin qui dit tout haut ce que pense le spectateur, 1-3 mots, juste après une réplique-choc, pas après chacune. [`temoin_reaction`]
-- Parole quasi continue par défaut : au moins 55 % de chaque plan parlé, jamais plus de 1,5 s de silence, sauf plan muet volontaire (champ `muet` : menace physique, face-à-face, découverte ; voir la contradiction « parole_vs_muet »).
+- (préférence) Parole dense dans les conflits sociaux : repère ≈ 55 % de chaque plan parlé et pas plus de 1,5 s de silence. Un silence qui porte la tension (menace physique, face-à-face, découverte) se déclare (`muet` sur le plan, ou `choix_creatifs`) ; ne jamais le combler par une réplique de remplissage.
 
 ### Structure de rétention (repère, pas un gabarit : les positions des retournements suivent l'histoire)
 | Temps | Plan | Rôle |
@@ -88,14 +88,14 @@ Dialogues naturels et expressifs, toujours au service du conflit. Les points mar
 
 ### Machine virale v2 (réalisation Grok, 22/11/2026)
 - **Plans vivants** : un plan Grok = plusieurs temps forts timecodés (action, réaction, coup de caméra, bruitage). Jamais une action molle sur 6 s ; un silence tendu voulu n'est pas une action molle.
-- **Ping-pong** (outil) : 2 personnages se répondent dans le même plan. Répliques de 1 à 12 mots.
-- **Durées variées** : plans de 6 s (punch) et de 10 s (révélation, humiliation, climax) avec image de DÉBUT + image de FIN.
+- **Ping-pong** (outil) : 2 personnages se répondent dans le même plan. Répliques courtes (repère : 12 mots).
+- **Durées** : 6 ou 10 s (technique, Grok) ; un plan de 10 s a une image de DÉBUT + une image de FIN (technique). Le mélange 6 s / 10 s suit le rythme de l'histoire (préférence : 10 s pour révélation, humiliation, climax).
 - **Grok** : segments timecodés « [0-2s] … », décrire le son autant que l'image (il génère voix + bruitages), 1-2 phrases par réplique. Actions simples et lisibles (pointer, se lever, claquer une porte) : Grok anime mal les actions complexes, l'histoire passe par les dialogues.
 - **Style cartoon 3D stylisé** (jamais photoréaliste) : lisible sur téléphone, émotions en 0,5 s. Étiquette « généré par IA » activée.
 - **Texte dans le décor** : tableau, banderole, maillot avec noms fictifs = contexte compris sans voix off.
 - **Hooks A/B** : 3 hooks de rechange par vidéo ; si < 2 000 vues en 2 h, refaire seulement le plan 1 et reposter. Noter le résultat dans `tests_ab` de la mécanique testée.
 - **Univers étendu** : mêmes familles et clubs fictifs d'une vidéo à l'autre.
-- **Durée** : 61 à 75 s (au-delà d'1 min = éligible aux Récompenses Créateurs).
+- **Durée** : 61 à 75 s visés (au-delà d'1 min = éligible aux Récompenses Créateurs) ; préférence, l'histoire passe avant.
 
 ## Conformité (cause probable des 2 vidéos bannies)
 La bible imposait « espèce de bâtard » et les épisodes contenaient « garce », « trop con » : TikTok transcrit les voix et

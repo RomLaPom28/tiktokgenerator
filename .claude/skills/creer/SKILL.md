@@ -94,6 +94,7 @@ L'histoire validée est la référence : on ne change pas la fin, les retourneme
 - `mecaniques_utilisees` : ids de `bible/mecaniques.json` réellement utilisés (ceux de l'étape A) ; une mécanique « à tester » est assumée comme test.
 - Hook : plan 1 serré, `texte_accroche` (7 mots max), 3 `hooks_alternatifs`. Plan 1 muet possible si l'image est le hook (`muet: "pourquoi"`).
 - Publication : `titre_couverture`, `legende`, 4 à 7 `hashtags`, `commentaire_epingle` (vraie question d'opinion), `vote_question`. `question_milieu` si elle sert.
+- `"controle": 2` (épisode soumis aux règles actuelles : moteur et fonctions obligatoires). `choix_creatifs` : `{"<id de bible/controles.json>": "pourquoi"}` pour chaque recommandation écartée volontairement.
 - Codes uniquement de `bible/realisation.json` et du projet. Ne pas écrire les prompts : `pack.py` les assemble.
 
 **Écriture : des outils, pas des quotas.**
@@ -102,16 +103,19 @@ L'histoire validée est la référence : on ne change pas la fin, les retourneme
 - Le dialogue reste la base. Un plan muet est permis s'il porte une tension ou une émotion précise (face-à-face, menace physique, découverte) : champ `muet` = ce qu'il porte. Pas de plan muet par paresse.
 - Vidéo unique : dernier plan `role` = `fin`, `climax` ou `cliff` (payoff, chute, fin ouverte). Série : `cliff` + `#partieN`.
 
-**Contrôle** : `python3 outils/verifier.py <id>` → 0 ÉCHEC (bloquants : histoire validée, codes, durées, image de fin, timecodes, débit, moteur, conformité TikTok). Lire chaque À VOIR et décider : corriger, ou garder parce que c'est un choix d'histoire (le dire dans la réponse). Relire soi-même : le hook arrête-t-il le pouce ? chaque réplique sonne-t-elle parlée ? la fin donne-t-elle envie de commenter ?
+**Contrôle en deux temps** (registre : `bible/controles.json`) :
+1. **Technique** : `python3 outils/verifier.py <id>` → 0 erreur bloquante (JSON, champs, codes, personnages et lieux, durées, image de fin, timecodes, débit, moteur, fonctions, conformité TikTok, assemblage réel des prompts par pack.py). Les recommandations (`editorial`) et préférences de réalisation (`preference`) ne bloquent jamais. Une préférence non suivie ne se corrige que si la scène y gagne : **jamais de réplique de remplissage pour combler un silence, jamais de témoin, de clash ou de retournement ajouté pour un compteur** ; sinon la déclarer dans `choix_creatifs`.
+2. **Éditorial · Script Doctor** : lancer un sous-agent (outil `Agent`, `general-purpose`) avec seulement : « Applique `.claude/skills/doctor/SKILL.md` à `<id>` `ep001` ». Il écrit `revue.json` (grille narrative en 11 critères, faiblesses, corrections précises) sans toucher à l'épisode. Sans outil Agent : appliquer le skill soi-même, `independant: false`.
+3. **Validation finale** : montrer le rapport de `verifier.py` (verdict technique, verdict éditorial, erreurs bloquantes, améliorations, points forts, risques de production), puis `AskUserQuestion` : appliquer les corrections (toutes / lesquelles) · produire tel quel · modifier. Verdict `faible` = techniquement valide mais éditorialement à retravailler : ne pas lancer `pack.py` sans cette réponse. Corrections appliquées → nouvelle revue.
 
 **Prompts** : `python3 outils/pack.py <id>` → `episodes/ep001/pack.html` + `pack.json` (portraits, ouverture ChatGPT, Image N début/fin → ChatGPT, Vidéo N → Grok, légende, commentaire épinglé).
 - PC : ouvrir `pack.html` avec `Start-Process` et donner le chemin.
 - Cloud / téléphone : afficher les prompts prêts à copier depuis `pack.json` (portraits, ouverture, puis Image N / Vidéo N, légende, commentaire épinglé), puis commit + push de la branche.
 
-**Réponse finale (courte)** : titre · casting (nom = animal, rôle) · hook · fin · À VOIR gardés volontairement · chemin de `pack.html`. Ensuite : `/monter <id>` (PC) ; série : `/episode <id>`.
+**Réponse finale (courte)** : titre · casting (nom = animal, rôle) · hook · fin · verdict éditorial · choix créatifs assumés · chemin de `pack.html`. Ensuite : `/monter <id>` (PC) ; série : `/episode <id>`.
 
 ## Reprendre en cours de route
 - `propositions/*.json` sans projet : l'utilisateur répond plus tard → étape B avec le concept choisi.
 - `projet.json` `etape: "histoire"` et `histoire.json` sans `choix` : remontrer l'histoire, attendre la validation.
 - `etape: "production"` : étape C.
-- Anciens projets (sans `creer: 3`) : inchangés, contrôlés avec les anciennes règles.
+- Anciens projets (sans `creer: 3`) : même vérificateur ; leurs épisodes écrits sans `moteur` ni `fonction` reçoivent ces deux contrôles en recommandation au lieu de bloquer.

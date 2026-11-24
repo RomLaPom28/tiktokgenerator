@@ -82,7 +82,7 @@
 - **`style_muet`** (montage) Tension muette, plans courts, peu de mots — récurrente, 8 vidéos, 2 comptes, 4 histoires, 0 vérifiées · effet sur les vues non mesurable (moins de 2 comptes où comparer).
   - Effet : Tension physique ; les réactions font le travail.
   - Conditions : Voir la contradiction « parole_vs_muet ».
-  - Contradiction « parole_vs_muet » → décision : Pas de style par défaut : silence pour la menace physique, parole continue pour les conflits sociaux ; la règle « 55 % de parole par plan » reste sauf plan muet volontaire.
+  - Contradiction « parole_vs_muet » → décision : Pas de style par défaut : silence pour la menace physique, parole continue pour les conflits sociaux ; « 55 % de parole par plan » est une préférence de réalisation (bible/controles.json), jamais un quota : un silence qui porte la tension est un choix assumé.
   - Références : 7700600747846749472 (clip.drama.ia, 2,9 M, ×19,67 son compte) ; 7700285444197518624 (clip.drama.ia, 1,9 M, ×12,89 son compte) · limite (présente mais sous la médiane de son compte) : 7709574908862303510 (fruitdeguerre, 272 k, ×0,66 son compte)
 
 ## 2. Associations de mécaniques
@@ -164,6 +164,6 @@ Tons du corpus : drame 43, noir 14, comique 12, horreur 2, triste 1.
 - 68 vidéos sur 72 ont un codage rétro (fiches v1, `verifie: false`) : les comptes de mécaniques sont approximatifs.
 - Aucune mécanique n'est fortement documentée. Aucune n'a de test A/B : rien n'est une cause démontrée.
 - Les suites font 30 à 70 % des vues de leur partie 1 : comparer une suite à une vidéo unique n'a pas de sens.
-- **Dialogue continu ou séquences muettes ?** → Pas de style par défaut : silence pour la menace physique, parole continue pour les conflits sociaux ; la règle « 55 % de parole par plan » reste sauf plan muet volontaire. Limites : mots/s inclut les silences ; intensité émotionnelle et qualité visuelle pas encore codées (champs contexte « intensite » et « qualite_visuelle » des fiches v2).
+- **Dialogue continu ou séquences muettes ?** → Pas de style par défaut : silence pour la menace physique, parole continue pour les conflits sociaux ; « 55 % de parole par plan » est une préférence de réalisation (bible/controles.json), jamais un quota : un silence qui porte la tension est un choix assumé. Limites : mots/s inclut les silences ; intensité émotionnelle et qualité visuelle pas encore codées (champs contexte « intensite » et « qualite_visuelle » des fiches v2).
 - **L'épreuve (test, concours) est partout mais moins vue dans son compte : faut-il l'éviter ?** → Garder l'épreuve comme moteur mais l'adosser à une identité révélée ou une force cachée ; jamais seule. Limites : 6 comptes de contraste ; codage rétro des fiches v1.
 - **Numéroter « Partie 1 » fait-il des vues ?** → Non démontré : ne pas numéroter pour faire des vues ; numéroter seulement quand une suite est prévue. Limites : Impossible de savoir, sur des vidéos déjà publiées, si « Partie 1 » était dans le titre dès la publication.

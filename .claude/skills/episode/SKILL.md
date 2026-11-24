@@ -30,8 +30,11 @@ Mêmes règles que `/creer` étape C (lire `.claude/skills/creer/SKILL.md` étap
 - Un personnage ou un lieu nouveau : l'ajouter d'abord à `personnages.json` / `lieux.json` du projet.
 Fichier : `projets/<projet>/episodes/epNNN/episode.json`.
 
+Tout nouvel épisode porte `"controle": 2` et un `moteur` (désir, conflit, antagoniste ou obstacle, enjeu, payoff), même dans une ancienne série.
+
 ## 3. Contrôle et prompts
-1. `python outils/verifier.py <projet> epNNN` → 0 échec, relire les « À VOIR ».
-2. `python outils/pack.py <projet> epNNN` → `pack.html` + `historique.json` mis à jour.
-3. Mettre à jour `saison.json` si un fil change de statut.
-4. Répondre en 3 lignes : titre, hook, question de fin + chemin de `pack.html`.
+1. `python outils/verifier.py <projet> epNNN` → 0 erreur bloquante. Recommandations et préférences : corriger seulement si la scène y gagne, sinon `choix_creatifs` (jamais de réplique de remplissage ni de témoin pour un compteur).
+2. Script Doctor : sous-agent (outil `Agent`, `general-purpose`) « Applique `.claude/skills/doctor/SKILL.md` à `<projet>` `epNNN` » → `revue.json`. Montrer le rapport de `verifier.py` (deux verdicts, améliorations, points forts, risques de production) et `AskUserQuestion` (appliquer les corrections / produire tel quel / modifier). Verdict `faible` : pas de pack sans réponse. Demande venue du téléphone sans personne pour répondre : produire, mais écrire le verdict et les corrections dans la réponse et dans le doc `episodes/epNNN` (champ `revue`).
+3. `python outils/pack.py <projet> epNNN` → `pack.html` + `historique.json` mis à jour.
+4. Mettre à jour `saison.json` si un fil change de statut.
+5. Répondre en 4 lignes : titre, hook, question de fin, verdict éditorial + chemin de `pack.html`.
