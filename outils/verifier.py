@@ -228,6 +228,23 @@ def verifier(projet, nom):
     if b.serie:
         ok(f"#partie{ep['numero']}" in [h.lower() for h in ep.get("hashtags", [])], "Hashtag #partieN", ep.get("hashtags"))
 
+    # ---------- mécaniques citées (bible/mecaniques.json) : facultatif, absent des épisodes d'avant le 24/11/2026 ----------
+    if ep.get("mecaniques_utilisees"):
+        from mecaniques import infos
+        inconnues, eviter, a_tester = [], [], []
+        for mid in ep["mecaniques_utilisees"]:
+            i = infos(mid)
+            if i is None:
+                inconnues.append(mid)
+            elif i[2] == "a_eviter":
+                eviter.append(mid)
+            elif i[1] == "a_tester":
+                a_tester.append(mid)
+        ok(not inconnues, "Mécaniques citées connues de bible/mecaniques.json", inconnues or "oui")
+        ok(not eviter, "Aucune mécanique de la rubrique « à éviter »", eviter or "oui", "À VOIR")
+        if a_tester:
+            res.append(("À VOIR", "Mécaniques encore « à tester » : noter le résultat dans leur tests_ab après publication", a_tester))
+
     # ---------- conformité TikTok (bible/conformite.json) ----------
     c = b.conf
 

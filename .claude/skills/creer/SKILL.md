@@ -19,8 +19,8 @@ On n'invente pas une histoire à partir de règles : on **remixe des histoires p
 Lire d'abord (obligatoire) :
 - `bible/histoires.json` : `squelettes` (histoires à 1 M+ décomposées), `greffes` (briques transplantables), `grille_gros`.
 - Pour les 2-3 squelettes envisagés : leur `analyses/<id>/transcript.json` (le vrai déroulé, pour sentir le rythme et la cruauté du méchant).
-- `bible/recettes.md`, `bible/concepts.json` (`regles_generiques` : prénoms, univers inventé), `bible/conformite.json`.
-- `bible/mecaniques.json` : mécaniques consolidées avec confiance et signal (`preuves`). Privilégier celles de confiance élevée ; ne jamais présenter une mécanique comme « ce qui fait les vues » (corrélation seulement).
+- `bible/recettes.md` : section générée « Bibliothèque des mécaniques » (socle / à tester / dépend du contexte / à éviter) puis « Règles de fabrication ». `bible/concepts.json` (`regles_generiques` : prénoms, univers inventé ; `mecaniques_ids` de chaque concept), `bible/conformite.json`.
+- `bible/mecaniques.json` : pour chaque mécanique retenue, lire `effet`, `fonctionnement`, `conditions`, `erreurs` et `preuves.niveau`. Partir du socle ; pour une mécanique « dépend du contexte », vérifier que l'histoire remplit ses conditions (et la `decision` de la contradiction liée). Ne jamais présenter une mécanique comme « ce qui fait les vues » : ce sont des corrélations.
 - `projets/*/projet.json` : les univers déjà faits (ne pas refaire le même domaine que l'un des 3 derniers).
 
 **2a · Fabriquer 12 pitchs EN INTERNE (non montrés).** Chaque pitch =
@@ -92,7 +92,7 @@ Règles d'écriture (HYPER DYNAMIQUE) :
 - **Varier** : jamais 2 cadrages identiques d'affilée, 5 cadrages et 4 caméras min, 3 angles, 3 lieux (sauf huis clos), 2 lumières.
 - **Jeu** : expressions cartoon EXAGÉRÉES (yeux exorbités, mâchoire qui tombe, oreilles qui se plaquent), tics de la fiche, au moins un contraste comique.
 - Actions Grok simples et lisibles (pointer, se lever d'un bond, claquer, lancer un objet, s'effondrer à genoux) : l'histoire passe par les dialogues.
-- `recettes_utilisees` : au moins 3 recettes de `recettes.md`.
+- `mecaniques_utilisees` : au moins 3 ids de `bible/mecaniques.json`, du socle d'abord ; au plus une mécanique « à tester », assumée comme test (le vérificateur la signale). Ne plus écrire `recettes_utilisees` (texte libre, gardé seulement dans les anciens épisodes).
 - Publication : `titre_couverture`, `legende`, 4 à 7 `hashtags`, `commentaire_epingle` = question binaire avec 2 émojis et un « / », `vote_question`.
 - Codes (`lieu, lumiere, cadrage, angle, camera, format, accroche_type, cliff_type`) : uniquement des valeurs de `bible/realisation.json` et du projet. Ne PAS écrire les prompts : `pack.py` les assemble.
 

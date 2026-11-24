@@ -57,7 +57,7 @@ Format EXACT de `/creer` étape 4 (plans 6/10 s, `fin` pour les 10 s, `timeline`
 - **Réécrire, jamais traduire mot à mot.** Autres mots, autre image, même coup. Ex. « J'ai menti haha » → « Belle ? J'étais poli. » Le vérificateur refuse toute réplique à 70 %+ identique à l'original et tout nom propre de la source.
 - **Plans** : un plan source ≈ un plan à nous ; plan source de plus de 7 s → un plan de 10 s ; de moins de 7 s → 6 s ; deux plans source très courts consécutifs peuvent fusionner. Garder les cadrages forts de la source (écran de téléphone lisible, gros plan larmes…).
 - **Améliorations** : seulement celles validées, chacune visible (ex. réplique ajoutée `source: []`, texte_decor chiffré, kicker final). 30 % de répliques ajoutées maximum.
-- `moteur` repris de la dissection et transposé ; `recettes_utilisees` : au moins 3.
+- `moteur` repris de la dissection et transposé ; `mecaniques_utilisees` : au moins 3 ids de `bible/mecaniques.json` (celles de la vidéo source, codées dans `analyses/<id>/mecaniques.json`).
 - Ne pas écrire les prompts : `pack.py` les assemble.
 
 ## 6 · Contrôle et prompts

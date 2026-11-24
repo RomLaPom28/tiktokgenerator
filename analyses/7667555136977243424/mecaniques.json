@@ -20,6 +20,18 @@
       "variante": "arrivee_annoncee",
       "t": null,
       "preuve": ""
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "appel_suite",
+      "t": "légende",
+      "preuve": "légende : « Trahison entre meilleures amies 💔 Republie cette vidéo et abonne toi si tu as apprécié cet »"
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "appel_repost",
+      "t": "légende",
+      "preuve": "légende : « Trahison entre meilleures amies 💔 Republie cette vidéo et abonne toi si tu as apprécié cet »"
     }
   ]
 }

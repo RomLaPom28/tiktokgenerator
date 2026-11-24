@@ -8,5 +8,12 @@
     "format": "unique",
     "serie": null
   },
-  "mecaniques": []
+  "mecaniques": [
+    {
+      "id": "question_au_spectateur",
+      "variante": "appel_suite",
+      "t": "légende",
+      "preuve": "légende : « Demande en mariage refusée pour Banane, pour une histoire de bagues ?? Attendez de voir la »"
+    }
+  ]
 }

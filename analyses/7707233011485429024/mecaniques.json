@@ -6,7 +6,9 @@
     "domaine": "couple",
     "ton": "drame",
     "format": "partie_1",
-    "serie": "cine-masque"
+    "serie": "cine-masque",
+    "intensite": 3,
+    "qualite_visuelle": 3
   },
   "mecaniques": [
     {

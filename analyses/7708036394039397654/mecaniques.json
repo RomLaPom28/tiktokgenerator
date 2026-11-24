@@ -32,6 +32,18 @@
       "variante": "arrivee_annoncee",
       "t": null,
       "preuve": ""
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "question_legende",
+      "t": "légende",
+      "preuve": "légende : « Kaïs contre Ilyes… qui gagne ? 👀 Partie 3 ? #fruitstory #histoireia #boxe #lycee #partie2 »"
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "appel_suite",
+      "t": "légende",
+      "preuve": "légende : « Kaïs contre Ilyes… qui gagne ? 👀 Partie 3 ? #fruitstory #histoireia #boxe #lycee #partie2 »"
     }
   ]
 }

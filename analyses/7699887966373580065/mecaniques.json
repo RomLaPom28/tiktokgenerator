@@ -20,6 +20,12 @@
       "variante": "arrivee_annoncee",
       "t": null,
       "preuve": ""
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "question_legende",
+      "t": "légende",
+      "preuve": "légende : « Elle se retrouve seule, chez elle, face à un inconnu. Sa mère et la police sont en route.  »"
     }
   ]
 }

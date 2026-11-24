@@ -1,29 +1,214 @@
 {
-  "_lisez_moi": "Registre UNIQUE des mécaniques consolidées. Une mécanique = un principe transférable (pas un événement d'histoire). Les événements restent dans analyses/<id>/fiche.md et bible/histoires.json. Chaque vidéo pointe vers ces ids dans analyses/<id>/mecaniques.json ; un id inconnu est refusé par outils/mecaniques.py. Le bloc « preuves » de chaque mécanique est RÉÉCRIT par `python3 outils/mecaniques.py` : ne pas l'éditer à la main.",
+  "_lisez_moi": "Bibliothèque des mécaniques éditoriales : synthèse de toutes les vidéos analysées. Une mécanique = un principe transférable, jamais un événement d'histoire (les événements sont dans analyses/<id>/fiche.md et bible/histoires.json). Partie ÉCRITE À LA MAIN : id, nom, categorie, description, effet, fonctionnement, conditions, variantes, erreurs, alias, tests_ab, et la liste contradictions (question, groupes, conditions, limites, decision). Partie CALCULÉE par `python3 outils/mecaniques.py` (ne pas éditer) : « preuves » (niveau, usage, sources, comptes, performance, date) et « mesures » des contradictions. Lecture rapide : section générée « Bibliothèque des mécaniques » de bible/recettes.md.",
+  "version": 3,
   "_regles": [
-    "Avant d'ajouter une mécanique : vérifier si c'est une VARIANTE d'une mécanique existante (même fonction dans l'histoire, autre habillage). Si oui, ajouter seulement la variante.",
-    "Une mécanique vraiment nouvelle entre avec statut « candidate ». Elle passe « consolidee » quand elle est vue chez au moins 2 comptes différents. Les candidates ne vont pas dans recettes.md.",
-    "Types : narrative (principe d'histoire), realisation (technique d'image, de son ou de montage), format (facteur de distribution : durée, suite, compilation). Le ton (noir, comique, triste) et le domaine (couple, lycée…) sont du CONTEXTE, déclarés dans chaque mecaniques.json, jamais des mécaniques.",
-    "Confiance (calculée) = récurrence : faible = 1 compte ; moyen = 2-3 comptes ; élevé = 4 comptes ou plus ET 4 histoires indépendantes ou plus. Elle ne dit RIEN de la causalité.",
-    "Signal de performance (calculé) = comparaison DANS un même compte (vidéos avec la mécanique contre vidéos sans), hors suites et compilations. Indéterminé sous 2 comptes de contraste. C'est une corrélation.",
-    "Causalité : seulement par nos propres tests A/B (champ tests_ab : même histoire publiée avec et sans la mécanique)."
+    "AVANT D'AJOUTER : chercher une mécanique de même FONCTION (même effet sur le spectateur au même moment). Même fonction, autre habillage = une variante. Deux mécaniques qui se révèlent identiques = fusion : garder un id, mettre l'autre dans « alias » (les fiches qui citent l'ancien id restent valides, leurs sources sont conservées).",
+    "Niveaux (calculés) : « a_tester » = moins de 2 comptes ou moins de 3 histoires indépendantes ; « recurrente » = 2 comptes et 3 histoires ou plus ; « fortement_documentee » = 4 comptes, 6 histoires, 3 vidéos vérifiées (fiche v2) dans 2 comptes, et une mesure de performance sur 4 comptes ou plus. Les parties d'une même série = une histoire.",
+    "Aucune mécanique n'est une règle obligatoire parce qu'elle apparaît dans une vidéo virale : le niveau mesure la récurrence, la « performance » une corrélation. Causalité seulement par tests_ab (même histoire publiée avec et sans la mécanique, vues à 48 h).",
+    "Contradiction entre observations : ne pas trancher. L'ajouter à « contradictions » avec deux groupes mesurables ; le script compare leurs conditions (format, domaine, ton, durée, rythme, révélation, intensité, qualité visuelle) et l'on écrit les conditions qui expliquent l'écart."
   ],
+  "categories": {
+    "hook": "ce qui arrête le défilement dans les 3 premières secondes",
+    "narration": "construction de l'histoire, circulation de l'information",
+    "emotion": "ce que le spectateur ressent pour les personnages",
+    "retention": "questions ouvertes qui font rester jusqu'à la fin",
+    "interaction": "ce qui pousse à commenter, partager, republier",
+    "realisation": "image et son d'un plan",
+    "montage": "rythme, ordre et durée des plans, silences",
+    "format": "durée, découpage en parties, compilation"
+  },
   "mecaniques": [
+    {
+      "id": "regle_du_monde",
+      "nom": "Une règle absurde du monde annoncée à 0 s",
+      "categorie": "hook",
+      "description": "L'univers a une règle simple et visible (valeur chiffrée sur le front, pacte, rite) qui produit le conflit toute seule.",
+      "effet": "Surprise et curiosité immédiates : « et s'il triche ? », « et s'il refuse ? ».",
+      "fonctionnement": "Règle posée en 0-5 s par l'image ou une phrase, puis exploitée ou contournée par les personnages. Pour l'appliquer : inventer une règle sociale chiffrée ou un contrat absurde dont le héros est victime.",
+      "conditions": [
+        "Souvent associée au ton noir dans le corpus : la règle seule ne suffit pas sans héros à défendre.",
+        "La variante « chiffre_social » recoupe chiffre_ecran (mêmes vidéos) : même preuve, ne pas l'additionner."
+      ],
+      "variantes": [
+        {
+          "id": "chiffre_social",
+          "nom": "La valeur de chacun est affichée (front, écran)"
+        },
+        {
+          "id": "pacte",
+          "nom": "Pacte ou contrat absurde (argent illimité, 100 M€ contre…)"
+        },
+        {
+          "id": "rite",
+          "nom": "Rite ou loi du village"
+        }
+      ],
+      "erreurs": [
+        "Reprendre la règle d'une source (chiffre de valeur sur le front).",
+        "Règle qui demande plus de 2 phrases d'explication."
+      ],
+      "preuves": {
+        "maj": "2026-11-24",
+        "niveau": "recurrente",
+        "manque": [
+          "fiches v2 vérifiées 0/3 dans 0/2 comptes"
+        ],
+        "usage": "socle",
+        "videos": 11,
+        "verifiees": 0,
+        "comptes": 6,
+        "histoires": 9,
+        "sources": [
+          {
+            "id": "7698021502721019158",
+            "compte": "histoiredefruitofficiel0",
+            "vues": 2500000,
+            "variante": "chiffre_social",
+            "verifie": false
+          },
+          {
+            "id": "7689486330698517793",
+            "compte": "fruitwist.tv",
+            "vues": 2400000,
+            "variante": "chiffre_social",
+            "verifie": false
+          },
+          {
+            "id": "7704788743026117920",
+            "compte": "une.histoire.ia2",
+            "vues": 2000000,
+            "variante": "pacte",
+            "verifie": false
+          },
+          {
+            "id": "7695385522419567904",
+            "compte": "skibifruit3d",
+            "vues": 1200000,
+            "variante": "pacte",
+            "verifie": false
+          },
+          {
+            "id": "7698736229222845728",
+            "compte": "fruitystoryfr_",
+            "vues": 893000,
+            "variante": "chiffre_social",
+            "verifie": false
+          },
+          {
+            "id": "7695793920978029857",
+            "compte": "skibifruit3d",
+            "vues": 793800,
+            "variante": "pacte",
+            "verifie": false
+          },
+          {
+            "id": "7706853457071836448",
+            "compte": "skibifruit3d",
+            "vues": 791500,
+            "variante": "rite",
+            "verifie": false
+          },
+          {
+            "id": "7689796721815063840",
+            "compte": "fruitwist.tv",
+            "vues": 708100,
+            "variante": "chiffre_social",
+            "verifie": false
+          },
+          {
+            "id": "7707615935888231713",
+            "compte": "skibifruit3d",
+            "vues": 667500,
+            "variante": "rite",
+            "verifie": false
+          },
+          {
+            "id": "7697232064172625174",
+            "compte": "les.storytv",
+            "vues": 505700,
+            "variante": "chiffre_social",
+            "verifie": false
+          },
+          {
+            "id": "7699134658486799638",
+            "compte": "histoiredefruitofficiel0",
+            "vues": 379500,
+            "variante": null,
+            "verifie": false
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 1200000,
+          "taux_commentaires_median": 0.039,
+          "signal": "neutre",
+          "ratio": 1.56,
+          "comptes_contraste": 4,
+          "robustesse": "sans objet",
+          "sous_groupes": []
+        },
+        "contexte": {
+          "domaines": {
+            "fantastique": 4,
+            "famille": 3,
+            "prison": 2,
+            "argent": 1,
+            "couple": 1
+          },
+          "tons": {
+            "drame": 5,
+            "noir": 4,
+            "comique": 2
+          },
+          "formats": {
+            "suite": 4,
+            "episode_long": 4,
+            "partie_1": 2,
+            "unique": 1
+          }
+        },
+        "contradictions": [],
+        "causalite": "non établie (observationnel)",
+        "variantes": {
+          "chiffre_social": {
+            "videos": 5,
+            "comptes": 4,
+            "signal": "positif",
+            "ratio": 5.95,
+            "comptes_contraste": 2
+          },
+          "pacte": {
+            "videos": 3,
+            "comptes": 2,
+            "signal": "neutre",
+            "ratio": 0.8,
+            "comptes_contraste": 2
+          },
+          "rite": {
+            "videos": 2,
+            "comptes": 1,
+            "signal": "indéterminé",
+            "ratio": 0.61,
+            "comptes_contraste": 1
+          }
+        },
+        "notes": []
+      }
+    },
     {
       "id": "ironie_dramatique",
       "nom": "Le spectateur sait, les personnages non",
-      "type": "narrative",
-      "statut": "consolidee",
-      "description": "Le spectateur reçoit tôt une information décisive (secret, vraie identité, complot) que les autres personnages ignorent. Chaque scène devient une attente : quand vont-ils l'apprendre et comment vont-ils réagir ?",
-      "fonction": "Transformer chaque humiliation ou mensonge en suspense : le spectateur attend la révélation au lieu de subir des scènes.",
-      "moment": "0-10 s (l'information doit être donnée avant la première scène qui l'exploite).",
-      "pourquoi": "Hypothèse : le spectateur se sent complice et supérieur aux personnages ; la question « quand vont-ils savoir ? » reste ouverte jusqu'à la fin, ce qui tient la rétention.",
-      "transposer": "Choisir un écart entre apparence et réalité (statut, argent, capacité, intention) et le livrer au spectateur dès l'ouverture, puis construire des scènes où les autres agissent sur la fausse apparence.",
-      "ne_pas_copier": "Le secret lui-même (masque, faux poids, faux pauvre) et sa formulation « ils croient que… en vrai… » mot pour mot.",
+      "categorie": "narration",
+      "description": "Le spectateur reçoit tôt une information décisive (secret, vraie identité, complot) que les autres personnages ignorent.",
+      "effet": "Complicité et attente : chaque scène devient « quand vont-ils savoir ? ».",
+      "fonctionnement": "Information donnée avant la première scène qui l'exploite (0-10 s), puis scènes où les autres agissent sur la fausse apparence, révélation retardée. Pour l'appliquer : choisir un écart apparence/réalité (statut, argent, capacité, intention).",
+      "conditions": [
+        "Ne marche que si la révélation est promise puis retardée ; un secret banal ou révélé trop tôt ne crée pas d'attente.",
+        "La variante « identite_cachee » (statut montré en image) est plus associée aux vues que l'aveu parlé à 0 s."
+      ],
       "variantes": [
         {
           "id": "aveu_0s",
-          "nom": "Le héros dit son secret au spectateur dans la 1re phrase (souvent seul, face caméra ou miroir)"
+          "nom": "Le héros dit son secret au spectateur dans la 1re phrase"
         },
         {
           "id": "complot_montre",
@@ -31,56 +216,279 @@
         },
         {
           "id": "identite_cachee",
-          "nom": "Statut caché montré en image (propriétaire du lieu, milliardaire, champion) sans aveu parlé"
+          "nom": "Statut caché montré en image (propriétaire, milliardaire, champion)"
         }
       ],
-      "limites": "Si le secret est trop banal ou trop vite révélé, l'attente s'effondre. Ne marche que si la révélation est promise et retardée.",
-      "contradictions": "",
-      "tests_ab": [],
+      "erreurs": [
+        "Copier le secret d'une source ou la formule « ils croient que… en vrai… » mot pour mot.",
+        "Révéler le secret aux autres personnages avant le dernier tiers."
+      ],
       "preuves": {
         "maj": "2026-11-24",
+        "niveau": "recurrente",
+        "manque": [
+          "fiches v2 vérifiées 2/3 dans 2/2 comptes"
+        ],
+        "usage": "socle",
         "videos": 30,
         "verifiees": 2,
         "comptes": 13,
         "histoires": 26,
-        "domaines": {
-          "couple": 12,
-          "famille": 9,
-          "argent": 2,
-          "travail": 1,
-          "mariage": 1,
-          "sport": 1,
-          "prison": 1,
-          "quartier": 1,
-          "lycee": 1,
-          "belle-famille": 1
-        },
-        "tons": {
-          "drame": 19,
-          "noir": 7,
-          "comique": 4
-        },
-        "formats": {
-          "partie_1": 13,
-          "unique": 9,
-          "suite": 5,
-          "episode_long": 2,
-          "compilation": 1
-        },
-        "vues_mediane_hors_suites": 1900000,
-        "confiance": "élevé",
-        "signal_intra_compte": {
-          "verdict": "positif",
+        "sources": [
+          {
+            "id": "7682147381017611552",
+            "compte": "une.histoire.ia2",
+            "vues": 22900000,
+            "variante": "complot_montre",
+            "verifie": false
+          },
+          {
+            "id": "7633384322225016087",
+            "compte": "7vizory7",
+            "vues": 13700000,
+            "variante": "aveu_0s",
+            "verifie": false
+          },
+          {
+            "id": "7638960492395924769",
+            "compte": "7vizory7",
+            "vues": 7000000,
+            "variante": "complot_montre",
+            "verifie": false
+          },
+          {
+            "id": "7696553790274686241",
+            "compte": "sans_pepin",
+            "vues": 5000000,
+            "variante": "identite_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7634869807560609046",
+            "compte": "7vizory7",
+            "vues": 4900000,
+            "variante": "complot_montre",
+            "verifie": false
+          },
+          {
+            "id": "7707350401875594529",
+            "compte": "squishh92",
+            "vues": 3200000,
+            "variante": "aveu_0s",
+            "verifie": false
+          },
+          {
+            "id": "7683248229797973281",
+            "compte": "une.histoire.ia2",
+            "vues": 2700000,
+            "variante": "identite_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7707233011485429024",
+            "compte": "cine_fruit1",
+            "vues": 2600000,
+            "variante": "aveu_0s",
+            "verifie": true
+          },
+          {
+            "id": "7667555136977243424",
+            "compte": "histoiresfruite",
+            "vues": 2500000,
+            "variante": "complot_montre",
+            "verifie": false
+          },
+          {
+            "id": "7698021502721019158",
+            "compte": "histoiredefruitofficiel0",
+            "vues": 2500000,
+            "variante": "identite_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7689486330698517793",
+            "compte": "fruitwist.tv",
+            "vues": 2400000,
+            "variante": "complot_montre",
+            "verifie": false
+          },
+          {
+            "id": "7702822247525911841",
+            "compte": "cine_fruit1",
+            "vues": 2000000,
+            "variante": "aveu_0s",
+            "verifie": false
+          },
+          {
+            "id": "7704788743026117920",
+            "compte": "une.histoire.ia2",
+            "vues": 2000000,
+            "variante": "complot_montre",
+            "verifie": false
+          },
+          {
+            "id": "7700285444197518624",
+            "compte": "clip.drama.ia",
+            "vues": 1900000,
+            "variante": "identite_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7708424399854046496",
+            "compte": "squishh92",
+            "vues": 1900000,
+            "variante": "aveu_0s",
+            "verifie": false
+          },
+          {
+            "id": "7630867229751381270",
+            "compte": "7vizory7",
+            "vues": 1800000,
+            "variante": "aveu_0s",
+            "verifie": false
+          },
+          {
+            "id": "7707668885406878998",
+            "compte": "fruitdeguerre",
+            "vues": 1800000,
+            "variante": "identite_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7706610639619247393",
+            "compte": "ldtfuit",
+            "vues": 1500000,
+            "variante": "aveu_0s",
+            "verifie": false
+          },
+          {
+            "id": "7700130298238979360",
+            "compte": "ldtfuit",
+            "vues": 1400000,
+            "variante": "complot_montre",
+            "verifie": false
+          },
+          {
+            "id": "7703990613775060257",
+            "compte": "ldtfuit",
+            "vues": 1400000,
+            "variante": "complot_montre",
+            "verifie": false
+          },
+          {
+            "id": "7701722649281465632",
+            "compte": "ldtfuit",
+            "vues": 1300000,
+            "variante": "complot_montre",
+            "verifie": false
+          },
+          {
+            "id": "7693592059696958752",
+            "compte": "sans_pepin",
+            "vues": 1100000,
+            "variante": "identite_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7697420705805126944",
+            "compte": "fruitystoryfr_",
+            "vues": 992200,
+            "variante": "complot_montre",
+            "verifie": false
+          },
+          {
+            "id": "7698736229222845728",
+            "compte": "fruitystoryfr_",
+            "vues": 893000,
+            "variante": "identite_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7708031979580607776",
+            "compte": "squishh92",
+            "vues": 714400,
+            "variante": "aveu_0s",
+            "verifie": false
+          },
+          {
+            "id": "7647211838609968416",
+            "compte": "histoiresfruite",
+            "vues": 257500,
+            "variante": "identite_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7701109760023743766",
+            "compte": "histoiredefruitofficiel0",
+            "vues": 150200,
+            "variante": "identite_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7699566615335046432",
+            "compte": "clip.drama.ia",
+            "vues": 147400,
+            "variante": "complot_montre",
+            "verifie": false
+          },
+          {
+            "id": "7698434924696587552",
+            "compte": "clip.drama.ia",
+            "vues": 101100,
+            "variante": "complot_montre",
+            "verifie": false
+          },
+          {
+            "id": "7630903132347813142",
+            "compte": "onlyfrubidi_off",
+            "vues": null,
+            "variante": "complot_montre",
+            "verifie": true
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 1900000,
+          "taux_commentaires_median": 0.086,
+          "signal": "positif",
+          "ratio": 1.82,
           "comptes_contraste": 9,
-          "ratio_median": 1.82,
-          "robustesse": "fragile : s'inverse en partie_1 ×0,84"
+          "robustesse": "fragile",
+          "sous_groupes": [
+            "partie 1 ×0,84"
+          ]
         },
+        "contexte": {
+          "domaines": {
+            "couple": 12,
+            "famille": 9,
+            "argent": 2,
+            "travail": 1,
+            "mariage": 1,
+            "sport": 1,
+            "prison": 1,
+            "quartier": 1,
+            "lycee": 1,
+            "belle-famille": 1
+          },
+          "tons": {
+            "drame": 19,
+            "noir": 7,
+            "comique": 4
+          },
+          "formats": {
+            "partie_1": 13,
+            "unique": 9,
+            "suite": 5,
+            "episode_long": 2,
+            "compilation": 1
+          }
+        },
+        "contradictions": [],
         "causalite": "non établie (observationnel)",
         "variantes": {
           "aveu_0s": {
             "videos": 8,
             "comptes": 4,
-            "confiance": "élevé",
             "signal": "neutre",
             "ratio": 1.07,
             "comptes_contraste": 3
@@ -88,7 +496,6 @@
           "complot_montre": {
             "videos": 13,
             "comptes": 8,
-            "confiance": "élevé",
             "signal": "neutre",
             "ratio": 0.99,
             "comptes_contraste": 5
@@ -96,123 +503,140 @@
           "identite_cachee": {
             "videos": 9,
             "comptes": 7,
-            "confiance": "élevé",
             "signal": "positif",
             "ratio": 2.66,
             "comptes_contraste": 4
           }
         },
-        "notes": [
-          "vue dans 10 domaines"
-        ]
+        "notes": []
       }
     },
     {
-      "id": "epreuve_verdict",
-      "nom": "Une question binaire posée tôt, tranchée à la fin",
-      "type": "narrative",
-      "statut": "consolidee",
-      "description": "Une épreuve explicite ouvre l'histoire (m'aime-t-il vraiment ? rendra-t-il l'argent ? va-t-il gagner ?). Chaque scène est un indice vers le verdict.",
-      "fonction": "Donner au spectateur une raison précise de rester : connaître le verdict.",
-      "moment": "Posée dans les 10 premières secondes, tranchée au climax ou coupée juste avant.",
-      "pourquoi": "Hypothèse : une question fermée crée une tension mesurable (oui/non) et pousse à parier en commentaire.",
-      "transposer": "Formuler l'épreuve en une phrase avec un critère observable (choisir entre poste et femme, rendre ou garder, finir ou abandonner).",
-      "ne_pas_copier": "Le type de test précis d'une vidéo source (masque, faux crâne, chaussures lestées).",
+      "id": "retenue_volontaire",
+      "nom": "Le héros pourrait riposter mais s'en empêche",
+      "categorie": "narration",
+      "description": "Une raison explicite (promesse, test en cours, handicap imposé) interdit au héros de montrer sa valeur.",
+      "effet": "Le spectateur trouve le héros fort et non passif ; la tension s'accumule.",
+      "fonctionnement": "Raison dite tôt (souvent avec l'aveu), rappelée au pic de l'humiliation, levée au climax (souvent par un proche en danger).",
+      "conditions": [
+        "Utile seulement quand le héros encaisse plusieurs humiliations."
+      ],
       "variantes": [
         {
-          "id": "test_amour",
-          "nom": "Test d'amour déguisé (fausse laideur, faux pauvre, faux poids)"
+          "id": "promesse",
+          "nom": "Promesse faite à un proche"
         },
         {
-          "id": "test_honnetete",
-          "nom": "Test d'honnêteté (argent en trop, objet trouvé)"
+          "id": "test_en_cours",
+          "nom": "Le test n'est pas fini"
         },
         {
-          "id": "concours",
-          "nom": "Concours ou défi chiffré (1 M€ à la clé) contre un rival"
+          "id": "handicap_impose",
+          "nom": "Contrainte physique imposée (poids, objet lesté)"
         }
       ],
-      "limites": "S'épuise sur les suites : une fois le verdict connu, l'épisode suivant doit poser une nouvelle question.",
-      "contradictions": "Très fréquente mais signal intra-compte négatif (test d'amour ×0,74) : l'ancienne recette « test d'amour 9/12 > 1 M » venait du biais de sélection.",
-      "tests_ab": [],
+      "erreurs": [
+        "Ne pas dire la raison : le héros paraît faible ou idiot."
+      ],
       "preuves": {
         "maj": "2026-11-24",
-        "videos": 17,
-        "verifiees": 2,
-        "comptes": 10,
-        "histoires": 15,
-        "domaines": {
-          "couple": 6,
-          "concours": 5,
-          "argent": 2,
-          "travail": 1,
-          "mariage": 1,
-          "fantastique": 1,
-          "belle-famille": 1
+        "niveau": "recurrente",
+        "manque": [
+          "1 compte(s) de plus",
+          "3 histoire(s) de plus",
+          "fiches v2 vérifiées 1/3 dans 1/2 comptes",
+          "performance mesurée sur 3/4 comptes"
+        ],
+        "usage": "socle",
+        "videos": 3,
+        "verifiees": 1,
+        "comptes": 3,
+        "histoires": 3,
+        "sources": [
+          {
+            "id": "7696553790274686241",
+            "compte": "sans_pepin",
+            "vues": 5000000,
+            "variante": "handicap_impose",
+            "verifie": false
+          },
+          {
+            "id": "7707233011485429024",
+            "compte": "cine_fruit1",
+            "vues": 2600000,
+            "variante": "test_en_cours",
+            "verifie": true
+          },
+          {
+            "id": "7698439705938890006",
+            "compte": "les.storytv",
+            "vues": 65100,
+            "variante": "handicap_impose",
+            "verifie": false
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 2600000,
+          "taux_commentaires_median": 0.179,
+          "signal": "neutre",
+          "ratio": 1.02,
+          "comptes_contraste": 3,
+          "robustesse": "sans objet",
+          "sous_groupes": []
         },
-        "tons": {
-          "drame": 9,
-          "comique": 7,
-          "horreur": 1
+        "contexte": {
+          "domaines": {
+            "sport": 2,
+            "couple": 1
+          },
+          "tons": {
+            "drame": 3
+          },
+          "formats": {
+            "partie_1": 2,
+            "unique": 1
+          }
         },
-        "formats": {
-          "partie_1": 7,
-          "unique": 4,
-          "suite": 3,
-          "episode_long": 3
-        },
-        "vues_mediane_hors_suites": 1500000,
-        "confiance": "élevé",
-        "signal_intra_compte": {
-          "verdict": "négatif",
-          "comptes_contraste": 6,
-          "ratio_median": 0.69,
-          "robustesse": "fragile : s'inverse en unique/long ×1,19"
-        },
+        "contradictions": [],
         "causalite": "non établie (observationnel)",
         "variantes": {
-          "test_amour": {
-            "videos": 8,
-            "comptes": 5,
-            "confiance": "élevé",
-            "signal": "négatif",
-            "ratio": 0.74,
-            "comptes_contraste": 3
-          },
-          "test_honnetete": {
-            "videos": 1,
-            "comptes": 1,
-            "confiance": "faible",
+          "promesse": {
+            "videos": 0,
+            "comptes": 0,
             "signal": "indéterminé",
             "ratio": null,
             "comptes_contraste": 0
           },
-          "concours": {
-            "videos": 8,
-            "comptes": 6,
-            "confiance": "élevé",
+          "test_en_cours": {
+            "videos": 1,
+            "comptes": 1,
+            "signal": "indéterminé",
+            "ratio": 1.02,
+            "comptes_contraste": 1
+          },
+          "handicap_impose": {
+            "videos": 2,
+            "comptes": 2,
             "signal": "neutre",
-            "ratio": 0.86,
-            "comptes_contraste": 6
+            "ratio": 2.46,
+            "comptes_contraste": 2
           }
         },
         "notes": [
-          "vue dans 7 domaines",
-          "contradiction : fréquente mais sous-performe dans ses propres comptes"
+          "sur-représentée dans le ton « drame » (3/3 contre 43/72 dans le corpus)"
         ]
       }
     },
     {
       "id": "humiliation_injuste",
       "nom": "Injustice publique contre le héros qu'on aime",
-      "type": "narrative",
-      "statut": "consolidee",
-      "description": "Un antagoniste plus puissant humilie, accuse ou méprise le héros devant témoins, pour une raison injuste (apparence, pauvreté, taille, préférence d'un parent).",
-      "fonction": "Créer le désir de revanche et l'indignation qui alimente les commentaires.",
-      "moment": "Premier tiers, puis escalade (chaque humiliation plus grave que la précédente).",
-      "pourquoi": "Hypothèse : l'injustice déclenche une réaction morale (« il ne mérite pas ça ») qui pousse à rester pour la réparation et à commenter.",
-      "transposer": "Mettre le héros face à un juge social (patron, belle-famille, caïd, parent) qui le rabaisse sur un critère que le spectateur sait faux.",
-      "ne_pas_copier": "Les insultes des sources ; vérifier conformite.json (insulte dégradante = risque de retrait).",
+      "categorie": "emotion",
+      "description": "Un antagoniste plus puissant humilie, accuse ou méprise le héros devant témoins, pour une raison que le spectateur sait fausse.",
+      "effet": "Indignation morale, désir de revanche, envie de commenter.",
+      "fonctionnement": "Premier tiers, puis escalade : chaque humiliation plus grave que la précédente, devant les témoins qui verront le payoff.",
+      "conditions": [
+        "Sans payoff ou promesse de payoff, l'humiliation seule fait décrocher."
+      ],
       "variantes": [
         {
           "id": "mepris_apparence",
@@ -231,52 +655,212 @@
           "nom": "Un parent préfère ouvertement un autre enfant"
         }
       ],
-      "limites": "Sans payoff ou promesse de payoff, l'humiliation seule est pénible et fait décrocher.",
-      "contradictions": "",
-      "tests_ab": [],
+      "erreurs": [
+        "Insultes dégradantes (conformite.json).",
+        "Reprendre les insultes des sources."
+      ],
       "preuves": {
         "maj": "2026-11-24",
+        "niveau": "recurrente",
+        "manque": [
+          "fiches v2 vérifiées 2/3 dans 2/2 comptes"
+        ],
+        "usage": "socle",
         "videos": 21,
         "verifiees": 2,
         "comptes": 13,
         "histoires": 20,
-        "domaines": {
-          "couple": 9,
-          "sport": 3,
-          "lycee": 2,
-          "travail": 1,
-          "famille": 1,
-          "argent": 1,
-          "quartier": 1,
-          "concours": 1,
-          "fantastique": 1,
-          "belle-famille": 1
-        },
-        "tons": {
-          "drame": 16,
-          "comique": 4,
-          "triste": 1
-        },
-        "formats": {
-          "partie_1": 12,
-          "unique": 6,
-          "episode_long": 2,
-          "suite": 1
-        },
-        "vues_mediane_hors_suites": 1900000,
-        "confiance": "élevé",
-        "signal_intra_compte": {
-          "verdict": "positif",
+        "sources": [
+          {
+            "id": "7682147381017611552",
+            "compte": "une.histoire.ia2",
+            "vues": 22900000,
+            "variante": "mepris_apparence",
+            "verifie": false
+          },
+          {
+            "id": "7682857082701352225",
+            "compte": "une.histoire.ia2",
+            "vues": 8200000,
+            "variante": "mepris_apparence",
+            "verifie": false
+          },
+          {
+            "id": "7696553790274686241",
+            "compte": "sans_pepin",
+            "vues": 5000000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7707350401875594529",
+            "compte": "squishh92",
+            "vues": 3200000,
+            "variante": "mepris_apparence",
+            "verifie": false
+          },
+          {
+            "id": "7705747056354233632",
+            "compte": "cine_fruit1",
+            "vues": 3100000,
+            "variante": "mepris_apparence",
+            "verifie": false
+          },
+          {
+            "id": "7700600747846749472",
+            "compte": "clip.drama.ia",
+            "vues": 2900000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7707233011485429024",
+            "compte": "cine_fruit1",
+            "vues": 2600000,
+            "variante": "mepris_apparence",
+            "verifie": true
+          },
+          {
+            "id": "7698021502721019158",
+            "compte": "histoiredefruitofficiel0",
+            "vues": 2500000,
+            "variante": "mepris_argent",
+            "verifie": false
+          },
+          {
+            "id": "7689486330698517793",
+            "compte": "fruitwist.tv",
+            "vues": 2400000,
+            "variante": "chouchou_parent",
+            "verifie": false
+          },
+          {
+            "id": "7700285444197518624",
+            "compte": "clip.drama.ia",
+            "vues": 1900000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7708424399854046496",
+            "compte": "squishh92",
+            "vues": 1900000,
+            "variante": "mepris_apparence",
+            "verifie": false
+          },
+          {
+            "id": "7707668885406878998",
+            "compte": "fruitdeguerre",
+            "vues": 1800000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7663872870568791329",
+            "compte": "7vizory7",
+            "vues": 1700000,
+            "variante": "mepris_apparence",
+            "verifie": false
+          },
+          {
+            "id": "7666065365742456096",
+            "compte": "skibifruit3d",
+            "vues": 1200000,
+            "variante": "chouchou_parent",
+            "verifie": false
+          },
+          {
+            "id": "7699134987509026080",
+            "compte": "fruitystoryfr_",
+            "vues": 1000000,
+            "variante": "mepris_argent",
+            "verifie": false
+          },
+          {
+            "id": "7704060756077169952",
+            "compte": "fruitystoryfr_",
+            "vues": 1000000,
+            "variante": "mepris_apparence",
+            "verifie": false
+          },
+          {
+            "id": "7697420705805126944",
+            "compte": "fruitystoryfr_",
+            "vues": 992200,
+            "variante": "mepris_apparence",
+            "verifie": false
+          },
+          {
+            "id": "7706853457071836448",
+            "compte": "skibifruit3d",
+            "vues": 791500,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7698058367893261590",
+            "compte": "les.storytv",
+            "vues": 101000,
+            "variante": "mepris_apparence",
+            "verifie": false
+          },
+          {
+            "id": "7698439705938890006",
+            "compte": "les.storytv",
+            "vues": 65100,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7630903132347813142",
+            "compte": "onlyfrubidi_off",
+            "vues": null,
+            "variante": "accusation_a_tort",
+            "verifie": true
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 1900000,
+          "taux_commentaires_median": 0.082,
+          "signal": "positif",
+          "ratio": 1.94,
           "comptes_contraste": 10,
-          "ratio_median": 1.94,
-          "robustesse": "fragile : s'inverse en unique/long ×0,94"
+          "robustesse": "fragile",
+          "sous_groupes": [
+            "vidéo unique ×0,94"
+          ]
         },
+        "contexte": {
+          "domaines": {
+            "couple": 9,
+            "sport": 3,
+            "lycee": 2,
+            "travail": 1,
+            "famille": 1,
+            "argent": 1,
+            "quartier": 1,
+            "concours": 1,
+            "fantastique": 1,
+            "belle-famille": 1
+          },
+          "tons": {
+            "drame": 16,
+            "comique": 4,
+            "triste": 1
+          },
+          "formats": {
+            "partie_1": 12,
+            "unique": 6,
+            "episode_long": 2,
+            "suite": 1
+          }
+        },
+        "contradictions": [],
         "causalite": "non établie (observationnel)",
         "variantes": {
           "mepris_apparence": {
             "videos": 10,
             "comptes": 6,
-            "confiance": "élevé",
             "signal": "neutre",
             "ratio": 0.87,
             "comptes_contraste": 5
@@ -284,7 +868,6 @@
           "mepris_argent": {
             "videos": 2,
             "comptes": 2,
-            "confiance": "moyen",
             "signal": "neutre",
             "ratio": 5.22,
             "comptes_contraste": 2
@@ -292,7 +875,6 @@
           "accusation_a_tort": {
             "videos": 1,
             "comptes": 1,
-            "confiance": "faible",
             "signal": "indéterminé",
             "ratio": null,
             "comptes_contraste": 0
@@ -300,32 +882,29 @@
           "chouchou_parent": {
             "videos": 2,
             "comptes": 2,
-            "confiance": "moyen",
             "signal": "positif",
             "ratio": 1.98,
             "comptes_contraste": 2
           }
         },
-        "notes": [
-          "vue dans 10 domaines"
-        ]
+        "notes": []
       }
     },
     {
       "id": "renversement_statut",
       "nom": "Le méprisé se révèle supérieur devant ceux qui l'ont méprisé",
-      "type": "narrative",
-      "statut": "consolidee",
+      "categorie": "emotion",
       "description": "Payoff : la vraie valeur du héros éclate en public et le rapport de force s'inverse.",
-      "fonction": "Récompenser l'attente créée par l'injustice et l'ironie dramatique.",
-      "moment": "Climax (dernières 15 s) ou début de la partie suivante si la fin coupe avant.",
-      "pourquoi": "Hypothèse : satisfaction de justice ; c'est le moment que les gens revoient et partagent.",
-      "transposer": "Faire révéler la valeur par une preuve visible (visage, chiffre, geste, document) devant les mêmes témoins que l'humiliation.",
-      "ne_pas_copier": "La forme précise de la révélation (enlever un masque, enlever des chaussures).",
+      "effet": "Satisfaction de justice ; moment revu et partagé.",
+      "fonctionnement": "Climax (dernières 15 s) ou début de la partie suivante. Preuve visible (visage, chiffre, geste, document) devant les mêmes témoins que l'humiliation.",
+      "conditions": [
+        "Force cachée et identité révélée sont plus associées aux vues que le glow-up montré par un montage d'entraînement.",
+        "Sans témoins, peu d'effet."
+      ],
       "variantes": [
         {
           "id": "transformation",
-          "nom": "Glow-up : la transformation est montrée (entraînement, relooking)"
+          "nom": "Glow-up : la transformation est montrée"
         },
         {
           "id": "force_cachee",
@@ -340,52 +919,233 @@
           "nom": "Le méchant est puni par sa propre phrase ou sa propre preuve"
         }
       ],
-      "limites": "Payoff trop rapide ou sans témoins = peu d'effet. Payoff coupé sans suite = frustration si la partie 2 tarde.",
-      "contradictions": "",
-      "tests_ab": [],
+      "erreurs": [
+        "Copier la forme précise de la révélation (enlever un masque, des chaussures).",
+        "Payoff expédié en une réplique."
+      ],
       "preuves": {
         "maj": "2026-11-24",
+        "niveau": "recurrente",
+        "manque": [
+          "fiches v2 vérifiées 2/3 dans 1/2 comptes"
+        ],
+        "usage": "socle",
         "videos": 24,
         "verifiees": 2,
         "comptes": 12,
         "histoires": 20,
-        "domaines": {
-          "couple": 8,
-          "famille": 3,
-          "travail": 2,
-          "sport": 2,
-          "lycee": 2,
-          "concours": 2,
-          "prison": 1,
-          "argent": 1,
-          "quartier": 1,
-          "fantastique": 1,
-          "belle-famille": 1
-        },
-        "tons": {
-          "drame": 19,
-          "comique": 5
-        },
-        "formats": {
-          "suite": 11,
-          "partie_1": 5,
-          "unique": 5,
-          "episode_long": 3
-        },
-        "vues_mediane_hors_suites": 1000000,
-        "confiance": "élevé",
-        "signal_intra_compte": {
-          "verdict": "positif",
+        "sources": [
+          {
+            "id": "7682147381017611552",
+            "compte": "une.histoire.ia2",
+            "vues": 22900000,
+            "variante": "transformation",
+            "verifie": false
+          },
+          {
+            "id": "7682857082701352225",
+            "compte": "une.histoire.ia2",
+            "vues": 8200000,
+            "variante": "transformation",
+            "verifie": false
+          },
+          {
+            "id": "7683616000197102880",
+            "compte": "une.histoire.ia2",
+            "vues": 5700000,
+            "variante": "callback",
+            "verifie": false
+          },
+          {
+            "id": "7705747056354233632",
+            "compte": "cine_fruit1",
+            "vues": 3100000,
+            "variante": "force_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7700600747846749472",
+            "compte": "clip.drama.ia",
+            "vues": 2900000,
+            "variante": "force_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7705849595842055456",
+            "compte": "cine_fruit1",
+            "vues": 2800000,
+            "variante": "force_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7698021502721019158",
+            "compte": "histoiredefruitofficiel0",
+            "vues": 2500000,
+            "variante": "identite_revelee",
+            "verifie": false
+          },
+          {
+            "id": "7689486330698517793",
+            "compte": "fruitwist.tv",
+            "vues": 2400000,
+            "variante": "identite_revelee",
+            "verifie": false
+          },
+          {
+            "id": "7700285444197518624",
+            "compte": "clip.drama.ia",
+            "vues": 1900000,
+            "variante": "identite_revelee",
+            "verifie": false
+          },
+          {
+            "id": "7707325113615568160",
+            "compte": "cine_fruit1",
+            "vues": 1800000,
+            "variante": "identite_revelee",
+            "verifie": false
+          },
+          {
+            "id": "7696932719464353056",
+            "compte": "sans_pepin",
+            "vues": 1700000,
+            "variante": "force_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7707588023797501216",
+            "compte": "squishh92",
+            "vues": 1100000,
+            "variante": "transformation",
+            "verifie": false
+          },
+          {
+            "id": "7699134987509026080",
+            "compte": "fruitystoryfr_",
+            "vues": 1000000,
+            "variante": "transformation",
+            "verifie": false
+          },
+          {
+            "id": "7704060756077169952",
+            "compte": "fruitystoryfr_",
+            "vues": 1000000,
+            "variante": "transformation",
+            "verifie": false
+          },
+          {
+            "id": "7697420705805126944",
+            "compte": "fruitystoryfr_",
+            "vues": 992200,
+            "variante": "transformation",
+            "verifie": false
+          },
+          {
+            "id": "7698736229222845728",
+            "compte": "fruitystoryfr_",
+            "vues": 893000,
+            "variante": "identite_revelee",
+            "verifie": false
+          },
+          {
+            "id": "7708036394039397654",
+            "compte": "fruitdeguerre",
+            "vues": 840500,
+            "variante": "force_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7706853457071836448",
+            "compte": "skibifruit3d",
+            "vues": 791500,
+            "variante": "transformation",
+            "verifie": false
+          },
+          {
+            "id": "7708730994051943712",
+            "compte": "squishh92",
+            "vues": 742800,
+            "variante": "identite_revelee",
+            "verifie": false
+          },
+          {
+            "id": "7706253225418165526",
+            "compte": "histoiredefruitofficiel0",
+            "vues": 674700,
+            "variante": "force_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7694321678767164705",
+            "compte": "fruitwist.tv",
+            "vues": 649200,
+            "variante": "transformation",
+            "verifie": false
+          },
+          {
+            "id": "7698439705938890006",
+            "compte": "les.storytv",
+            "vues": 65100,
+            "variante": "force_cachee",
+            "verifie": false
+          },
+          {
+            "id": "7631273993353301270",
+            "compte": "onlyfrubidi_off",
+            "vues": null,
+            "variante": "callback",
+            "verifie": true
+          },
+          {
+            "id": "7631645319159172374",
+            "compte": "onlyfrubidi_off",
+            "vues": null,
+            "variante": null,
+            "verifie": true
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 1000000,
+          "taux_commentaires_median": 0.049,
+          "signal": "positif",
+          "ratio": 1.37,
           "comptes_contraste": 8,
-          "ratio_median": 1.37,
-          "robustesse": "fragile : s'inverse en unique/long ×0,77"
+          "robustesse": "fragile",
+          "sous_groupes": [
+            "vidéo unique ×0,77"
+          ]
         },
+        "contexte": {
+          "domaines": {
+            "couple": 8,
+            "famille": 3,
+            "travail": 2,
+            "sport": 2,
+            "lycee": 2,
+            "concours": 2,
+            "prison": 1,
+            "argent": 1,
+            "quartier": 1,
+            "fantastique": 1,
+            "belle-famille": 1
+          },
+          "tons": {
+            "drame": 19,
+            "comique": 5
+          },
+          "formats": {
+            "suite": 11,
+            "partie_1": 5,
+            "unique": 5,
+            "episode_long": 3
+          }
+        },
+        "contradictions": [],
         "causalite": "non établie (observationnel)",
         "variantes": {
           "transformation": {
             "videos": 8,
             "comptes": 5,
-            "confiance": "élevé",
             "signal": "négatif",
             "ratio": 0.71,
             "comptes_contraste": 4
@@ -393,7 +1153,6 @@
           "force_cachee": {
             "videos": 7,
             "comptes": 6,
-            "confiance": "élevé",
             "signal": "positif",
             "ratio": 1.95,
             "comptes_contraste": 4
@@ -401,7 +1160,6 @@
           "identite_revelee": {
             "videos": 6,
             "comptes": 6,
-            "confiance": "élevé",
             "signal": "positif",
             "ratio": 9.44,
             "comptes_contraste": 3
@@ -409,113 +1167,24 @@
           "callback": {
             "videos": 2,
             "comptes": 2,
-            "confiance": "moyen",
             "signal": "indéterminé",
             "ratio": null,
             "comptes_contraste": 0
           }
         },
-        "notes": [
-          "vue dans 11 domaines"
-        ]
-      }
-    },
-    {
-      "id": "retenue_volontaire",
-      "nom": "Le héros pourrait riposter mais s'en empêche",
-      "type": "narrative",
-      "statut": "consolidee",
-      "description": "Une raison explicite (promesse, test en cours, handicap imposé) interdit au héros de montrer sa valeur. Elle justifie qu'il encaisse.",
-      "fonction": "Rendre crédible le retard de la révélation et accumuler la tension.",
-      "moment": "Énoncée tôt (souvent avec l'aveu), rappelée au pic de l'humiliation.",
-      "pourquoi": "Hypothèse : sans cette raison le spectateur trouve le héros passif ou idiot ; avec elle, chaque humiliation charge le ressort.",
-      "transposer": "Donner une règle claire au héros (« encore un jour de test », « j'ai promis de ne pas frapper ») et la mettre sous pression.",
-      "ne_pas_copier": "La promesse précise d'une source.",
-      "variantes": [
-        {
-          "id": "promesse",
-          "nom": "Promesse faite à un proche"
-        },
-        {
-          "id": "test_en_cours",
-          "nom": "Le test n'est pas fini"
-        },
-        {
-          "id": "handicap_impose",
-          "nom": "Contrainte physique imposée (poids, objet lesté)"
-        }
-      ],
-      "limites": "Si la raison n'est pas dite, le héros paraît faible.",
-      "contradictions": "",
-      "tests_ab": [],
-      "preuves": {
-        "maj": "2026-11-24",
-        "videos": 3,
-        "verifiees": 1,
-        "comptes": 3,
-        "histoires": 3,
-        "domaines": {
-          "sport": 2,
-          "couple": 1
-        },
-        "tons": {
-          "drame": 3
-        },
-        "formats": {
-          "partie_1": 2,
-          "unique": 1
-        },
-        "vues_mediane_hors_suites": 2600000,
-        "confiance": "moyen",
-        "signal_intra_compte": {
-          "verdict": "neutre",
-          "comptes_contraste": 3,
-          "ratio_median": 1.02,
-          "robustesse": "sans objet"
-        },
-        "causalite": "non établie (observationnel)",
-        "variantes": {
-          "promesse": {
-            "videos": 0,
-            "comptes": 0,
-            "confiance": "aucune preuve",
-            "signal": "indéterminé",
-            "ratio": null,
-            "comptes_contraste": 0
-          },
-          "test_en_cours": {
-            "videos": 1,
-            "comptes": 1,
-            "confiance": "faible",
-            "signal": "indéterminé",
-            "ratio": 1.02,
-            "comptes_contraste": 1
-          },
-          "handicap_impose": {
-            "videos": 2,
-            "comptes": 2,
-            "confiance": "moyen",
-            "signal": "neutre",
-            "ratio": 2.46,
-            "comptes_contraste": 2
-          }
-        },
-        "notes": [
-          "concentrée sur le ton « drame » : effet du contexte possible"
-        ]
+        "notes": []
       }
     },
     {
       "id": "proche_en_danger",
       "nom": "Un tiers vulnérable fait monter l'enjeu",
-      "type": "narrative",
-      "statut": "consolidee",
+      "categorie": "emotion",
       "description": "L'enjeu passe du héros à quelqu'un qui ne peut pas se défendre (petit frère, enfant, parent âgé).",
-      "fonction": "Rendre l'enjeu vital et lever la retenue du héros.",
-      "moment": "Milieu ou fin d'épisode, souvent comme cliffhanger.",
-      "pourquoi": "Hypothèse : l'empathie protectrice est plus forte que l'empathie pour un adulte.",
-      "transposer": "Lier l'antagoniste à une menace sur un proche que l'on a montré aimant dans une scène courte.",
-      "ne_pas_copier": "Violence montrée sur enfant : couper avant (conformite.json).",
+      "effet": "Empathie protectrice, plus forte que pour un adulte ; lève la retenue du héros.",
+      "fonctionnement": "Proche montré aimant dans une scène courte, puis menacé par l'antagoniste, souvent en cliffhanger.",
+      "conditions": [
+        "Peut basculer dans le malaisant ; à doser."
+      ],
       "variantes": [
         {
           "id": "frere_menace",
@@ -526,44 +1195,110 @@
           "nom": "Enfant seul face au danger"
         }
       ],
-      "limites": "Peut basculer dans le malaisant ; à doser.",
-      "contradictions": "",
-      "tests_ab": [],
+      "erreurs": [
+        "Montrer la violence sur un enfant : couper avant (conformite.json)."
+      ],
       "preuves": {
         "maj": "2026-11-24",
+        "niveau": "recurrente",
+        "manque": [
+          "fiches v2 vérifiées 0/3 dans 0/2 comptes"
+        ],
+        "usage": "socle",
         "videos": 8,
         "verifiees": 0,
         "comptes": 5,
         "histoires": 6,
-        "domaines": {
-          "famille": 4,
-          "lycee": 4
-        },
-        "tons": {
-          "drame": 5,
-          "noir": 2,
-          "horreur": 1
-        },
-        "formats": {
-          "suite": 3,
-          "unique": 2,
-          "partie_1": 2,
-          "episode_long": 1
-        },
-        "vues_mediane_hors_suites": 1800000,
-        "confiance": "élevé",
-        "signal_intra_compte": {
-          "verdict": "neutre",
+        "sources": [
+          {
+            "id": "7699887966373580065",
+            "compte": "sans_pepin",
+            "vues": 2600000,
+            "variante": "enfant_seul",
+            "verifie": false
+          },
+          {
+            "id": "7630867229751381270",
+            "compte": "7vizory7",
+            "vues": 1800000,
+            "variante": "frere_menace",
+            "verifie": false
+          },
+          {
+            "id": "7707668885406878998",
+            "compte": "fruitdeguerre",
+            "vues": 1800000,
+            "variante": "frere_menace",
+            "verifie": false
+          },
+          {
+            "id": "7706253225418165526",
+            "compte": "histoiredefruitofficiel0",
+            "vues": 674700,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7708390297289411862",
+            "compte": "fruitdeguerre",
+            "vues": 410500,
+            "variante": "frere_menace",
+            "verifie": false
+          },
+          {
+            "id": "7709574908862303510",
+            "compte": "fruitdeguerre",
+            "vues": 271800,
+            "variante": "frere_menace",
+            "verifie": false
+          },
+          {
+            "id": "7698434924696587552",
+            "compte": "clip.drama.ia",
+            "vues": 101100,
+            "variante": "enfant_seul",
+            "verifie": false
+          },
+          {
+            "id": "7695450029741411617",
+            "compte": "clip.drama.ia",
+            "vues": 87000,
+            "variante": "frere_menace",
+            "verifie": false
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 1800000,
+          "taux_commentaires_median": 0.05,
+          "signal": "neutre",
+          "ratio": 1.3,
           "comptes_contraste": 4,
-          "ratio_median": 1.3,
-          "robustesse": "sans objet"
+          "robustesse": "sans objet",
+          "sous_groupes": []
         },
+        "contexte": {
+          "domaines": {
+            "famille": 4,
+            "lycee": 4
+          },
+          "tons": {
+            "drame": 5,
+            "noir": 2,
+            "horreur": 1
+          },
+          "formats": {
+            "suite": 3,
+            "unique": 2,
+            "partie_1": 2,
+            "episode_long": 1
+          }
+        },
+        "contradictions": [],
         "causalite": "non établie (observationnel)",
         "variantes": {
           "frere_menace": {
             "videos": 5,
             "comptes": 3,
-            "confiance": "moyen",
             "signal": "indéterminé",
             "ratio": 0.23,
             "comptes_contraste": 1
@@ -571,7 +1306,6 @@
           "enfant_seul": {
             "videos": 2,
             "comptes": 2,
-            "confiance": "moyen",
             "signal": "neutre",
             "ratio": 1.21,
             "comptes_contraste": 2
@@ -581,108 +1315,239 @@
       }
     },
     {
-      "id": "regle_du_monde",
-      "nom": "Une règle absurde du monde annoncée à 0 s",
-      "type": "narrative",
-      "statut": "consolidee",
-      "description": "L'univers a une règle simple et visible (chiffre sur le front, pacte, rite tous les 7 ans) qui produit le conflit toute seule.",
-      "fonction": "Concept compris en une seconde, différent de tout le reste du fil.",
-      "moment": "0-5 s.",
-      "pourquoi": "Hypothèse : la nouveauté de la règle arrête le défilement ; la règle génère des questions (« et s'il triche ? »).",
-      "transposer": "Inventer une règle sociale chiffrée ou un contrat absurde et laisser les personnages l'exploiter ou la contourner.",
-      "ne_pas_copier": "La règle d'une source (chiffre de valeur sur le front).",
+      "id": "epreuve_verdict",
+      "nom": "Une question binaire posée tôt, tranchée à la fin",
+      "categorie": "retention",
+      "description": "Une épreuve explicite ouvre l'histoire (m'aime-t-il vraiment ? rendra-t-il l'argent ? va-t-il gagner ?). Chaque scène est un indice vers le verdict.",
+      "effet": "Raison précise de rester : connaître le verdict ; envie de parier en commentaire.",
+      "fonctionnement": "Question dans les 10 premières secondes avec un critère observable ; verdict au climax, idéalement par un choix coûteux imposé par l'antagoniste.",
+      "conditions": [
+        "Voir la contradiction « frequent_mais_moins_vu ».",
+        "S'épuise sur les suites : une fois le verdict connu, poser une nouvelle question."
+      ],
       "variantes": [
         {
-          "id": "chiffre_social",
-          "nom": "La valeur de chacun est affichée (front, écran)"
+          "id": "test_amour",
+          "nom": "Test d'amour déguisé (fausse laideur, faux pauvre, faux poids)"
         },
         {
-          "id": "pacte",
-          "nom": "Pacte ou contrat absurde (argent illimité, 100 M€ contre…)"
+          "id": "test_honnetete",
+          "nom": "Test d'honnêteté (argent en trop, objet trouvé)"
         },
         {
-          "id": "rite",
-          "nom": "Rite ou loi du village"
+          "id": "concours",
+          "nom": "Concours ou défi chiffré contre un rival"
         }
       ],
-      "limites": "Associée au ton noir dans le corpus, qui sous-performe : la règle seule ne suffit pas sans héros à défendre.",
-      "contradictions": "",
-      "tests_ab": [],
+      "erreurs": [
+        "Reprendre le déguisement d'une source (masque, faux crâne, chaussures lestées).",
+        "Verdict sans prix à payer."
+      ],
       "preuves": {
         "maj": "2026-11-24",
-        "videos": 11,
-        "verifiees": 0,
-        "comptes": 6,
-        "histoires": 9,
-        "domaines": {
-          "fantastique": 4,
-          "famille": 3,
-          "prison": 2,
-          "argent": 1,
-          "couple": 1
-        },
-        "tons": {
-          "drame": 5,
-          "noir": 4,
-          "comique": 2
-        },
-        "formats": {
-          "suite": 4,
-          "episode_long": 4,
-          "partie_1": 2,
-          "unique": 1
-        },
-        "vues_mediane_hors_suites": 1200000,
-        "confiance": "élevé",
-        "signal_intra_compte": {
-          "verdict": "neutre",
-          "comptes_contraste": 4,
-          "ratio_median": 1.56,
-          "robustesse": "sans objet"
-        },
-        "causalite": "non établie (observationnel)",
-        "variantes": {
-          "chiffre_social": {
-            "videos": 5,
-            "comptes": 4,
-            "confiance": "élevé",
-            "signal": "positif",
-            "ratio": 5.95,
-            "comptes_contraste": 2
+        "niveau": "recurrente",
+        "manque": [
+          "fiches v2 vérifiées 2/3 dans 2/2 comptes"
+        ],
+        "usage": "contexte",
+        "videos": 17,
+        "verifiees": 2,
+        "comptes": 10,
+        "histoires": 15,
+        "sources": [
+          {
+            "id": "7707350401875594529",
+            "compte": "squishh92",
+            "vues": 3200000,
+            "variante": "test_amour",
+            "verifie": false
           },
-          "pacte": {
-            "videos": 3,
-            "comptes": 2,
-            "confiance": "moyen",
-            "signal": "neutre",
-            "ratio": 0.8,
-            "comptes_contraste": 2
+          {
+            "id": "7705747056354233632",
+            "compte": "cine_fruit1",
+            "vues": 3100000,
+            "variante": "concours",
+            "verifie": false
           },
-          "rite": {
-            "videos": 2,
-            "comptes": 1,
-            "confiance": "faible",
-            "signal": "indéterminé",
-            "ratio": 0.61,
-            "comptes_contraste": 1
+          {
+            "id": "7705849595842055456",
+            "compte": "cine_fruit1",
+            "vues": 2800000,
+            "variante": "concours",
+            "verifie": false
+          },
+          {
+            "id": "7707233011485429024",
+            "compte": "cine_fruit1",
+            "vues": 2600000,
+            "variante": "test_amour",
+            "verifie": true
+          },
+          {
+            "id": "7702822247525911841",
+            "compte": "cine_fruit1",
+            "vues": 2000000,
+            "variante": "test_amour",
+            "verifie": false
+          },
+          {
+            "id": "7698064569696095521",
+            "compte": "ldtfuit",
+            "vues": 1900000,
+            "variante": "concours",
+            "verifie": false
+          },
+          {
+            "id": "7708424399854046496",
+            "compte": "squishh92",
+            "vues": 1900000,
+            "variante": "test_amour",
+            "verifie": false
+          },
+          {
+            "id": "7706610639619247393",
+            "compte": "ldtfuit",
+            "vues": 1500000,
+            "variante": "test_amour",
+            "verifie": false
+          },
+          {
+            "id": "7696550033025535264",
+            "compte": "fruitwist.tv",
+            "vues": 1200000,
+            "variante": "concours",
+            "verifie": false
+          },
+          {
+            "id": "7693592059696958752",
+            "compte": "sans_pepin",
+            "vues": 1100000,
+            "variante": "test_amour",
+            "verifie": false
+          },
+          {
+            "id": "7707588023797501216",
+            "compte": "squishh92",
+            "vues": 1100000,
+            "variante": "test_amour",
+            "verifie": false
+          },
+          {
+            "id": "7699134987509026080",
+            "compte": "fruitystoryfr_",
+            "vues": 1000000,
+            "variante": "concours",
+            "verifie": false
+          },
+          {
+            "id": "7698828978043276577",
+            "compte": "fruitwist.tv",
+            "vues": 978300,
+            "variante": "concours",
+            "verifie": false
+          },
+          {
+            "id": "7706853457071836448",
+            "compte": "skibifruit3d",
+            "vues": 791500,
+            "variante": "concours",
+            "verifie": false
+          },
+          {
+            "id": "7697232064172625174",
+            "compte": "les.storytv",
+            "vues": 505700,
+            "variante": "test_amour",
+            "verifie": false
+          },
+          {
+            "id": "7698155226997591318",
+            "compte": "histoiredefruitofficiel0",
+            "vues": 42800,
+            "variante": "concours",
+            "verifie": false
+          },
+          {
+            "id": "7630903132347813142",
+            "compte": "onlyfrubidi_off",
+            "vues": null,
+            "variante": "test_honnetete",
+            "verifie": true
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 1500000,
+          "taux_commentaires_median": 0.072,
+          "signal": "négatif",
+          "ratio": 0.69,
+          "comptes_contraste": 6,
+          "robustesse": "fragile",
+          "sous_groupes": [
+            "vidéo unique ×1,19"
+          ]
+        },
+        "contexte": {
+          "domaines": {
+            "couple": 6,
+            "concours": 5,
+            "argent": 2,
+            "travail": 1,
+            "mariage": 1,
+            "fantastique": 1,
+            "belle-famille": 1
+          },
+          "tons": {
+            "drame": 9,
+            "comique": 7,
+            "horreur": 1
+          },
+          "formats": {
+            "partie_1": 7,
+            "unique": 4,
+            "suite": 3,
+            "episode_long": 3
           }
         },
-        "notes": [
-          "vue dans 5 domaines"
-        ]
+        "contradictions": [
+          "frequent_mais_moins_vu"
+        ],
+        "causalite": "non établie (observationnel)",
+        "variantes": {
+          "test_amour": {
+            "videos": 8,
+            "comptes": 5,
+            "signal": "négatif",
+            "ratio": 0.74,
+            "comptes_contraste": 3
+          },
+          "test_honnetete": {
+            "videos": 1,
+            "comptes": 1,
+            "signal": "indéterminé",
+            "ratio": null,
+            "comptes_contraste": 0
+          },
+          "concours": {
+            "videos": 8,
+            "comptes": 6,
+            "signal": "neutre",
+            "ratio": 0.86,
+            "comptes_contraste": 6
+          }
+        },
+        "notes": []
       }
     },
     {
       "id": "double_retournement",
       "nom": "L'information change de camp une seconde fois",
-      "type": "narrative",
-      "statut": "candidate",
-      "description": "Après le retournement attendu, un second renverse qui est gentil ou méchant (l'allié ment, la victime manipule).",
-      "fonction": "Relancer l'attention en fin de vidéo et créer un débat.",
-      "moment": "Dernier tiers.",
-      "pourquoi": "Hypothèse : casse la prévisibilité de l'ironie dramatique ; provoque « je l'avais vu venir » en commentaire.",
-      "transposer": "Donner à un personnage sympathique un mobile caché cohérent avec des indices plantés plus tôt.",
-      "ne_pas_copier": "Le mobile précis d'une source.",
+      "categorie": "retention",
+      "description": "Après le retournement attendu, un second renverse qui est gentil ou méchant (l'allié ment, la victime manipulait).",
+      "effet": "Casse la prévisibilité ; « je l'avais vu venir » en commentaire.",
+      "fonctionnement": "Dernier tiers ; mobile caché cohérent avec des indices plantés plus tôt.",
+      "conditions": [
+        "Deux cas, rétro-codés depuis des fiches v1 non vérifiées."
+      ],
       "variantes": [
         {
           "id": "allie_menteur",
@@ -693,41 +1558,65 @@
           "nom": "La victime manipulait"
         }
       ],
-      "limites": "Deux cas, rétro-codés depuis des fiches v1 (non vérifiés) : à relire avant de promouvoir.",
-      "contradictions": "",
-      "tests_ab": [],
+      "erreurs": [
+        "Twist sans indice planté : sentiment de triche."
+      ],
       "preuves": {
         "maj": "2026-11-24",
+        "niveau": "a_tester",
+        "manque": [
+          "1 histoire indépendante de plus"
+        ],
+        "usage": "a_tester",
         "videos": 2,
         "verifiees": 0,
         "comptes": 2,
         "histoires": 2,
-        "domaines": {
-          "famille": 1,
-          "couple": 1
-        },
-        "tons": {
-          "comique": 1,
-          "drame": 1
-        },
-        "formats": {
-          "suite": 1,
-          "partie_1": 1
-        },
-        "vues_mediane_hors_suites": 3200000,
-        "confiance": "moyen",
-        "signal_intra_compte": {
-          "verdict": "indéterminé",
+        "sources": [
+          {
+            "id": "7707350401875594529",
+            "compte": "squishh92",
+            "vues": 3200000,
+            "variante": "allie_menteur",
+            "verifie": false
+          },
+          {
+            "id": "7689796721815063840",
+            "compte": "fruitwist.tv",
+            "vues": 708100,
+            "variante": "victime_manipulatrice",
+            "verifie": false
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 3200000,
+          "taux_commentaires_median": 0.064,
+          "signal": "indéterminé",
+          "ratio": 1.68,
           "comptes_contraste": 1,
-          "ratio_median": 1.68,
-          "robustesse": "sans objet"
+          "robustesse": "sans objet",
+          "sous_groupes": []
         },
+        "contexte": {
+          "domaines": {
+            "famille": 1,
+            "couple": 1
+          },
+          "tons": {
+            "comique": 1,
+            "drame": 1
+          },
+          "formats": {
+            "suite": 1,
+            "partie_1": 1
+          }
+        },
+        "contradictions": [],
         "causalite": "non établie (observationnel)",
         "variantes": {
           "allie_menteur": {
             "videos": 1,
             "comptes": 1,
-            "confiance": "faible",
             "signal": "indéterminé",
             "ratio": 1.68,
             "comptes_contraste": 1
@@ -735,28 +1624,25 @@
           "victime_manipulatrice": {
             "videos": 1,
             "comptes": 1,
-            "confiance": "faible",
             "signal": "indéterminé",
             "ratio": null,
             "comptes_contraste": 0
           }
         },
-        "notes": [
-          "candidate vue chez 2 comptes ou plus : à promouvoir « consolidee » après relecture"
-        ]
+        "notes": []
       }
     },
     {
       "id": "coupure_avant_payoff",
       "nom": "Couper la vidéo au seuil de la révélation",
-      "type": "narrative",
-      "statut": "consolidee",
-      "description": "La vidéo s'arrête quand le payoff est annoncé mais pas montré (« vous voulez voir ? », « regardez qui va sortir »).",
-      "fonction": "Pousser vers la partie suivante, le profil, les commentaires (« partie 2 »).",
-      "moment": "Dernières 3 s.",
-      "pourquoi": "Hypothèse : question ouverte au moment d'attente maximale.",
-      "transposer": "Finir sur une phrase de menace ou de promesse + geste qui commence (main sur le masque, porte qui s'ouvre).",
-      "ne_pas_copier": "La réplique de fin d'une source.",
+      "categorie": "retention",
+      "description": "La vidéo s'arrête quand le payoff est annoncé mais pas montré.",
+      "effet": "Question ouverte au moment d'attente maximale : vers la partie suivante, le profil, les commentaires.",
+      "fonctionnement": "Dernières 3 s : phrase de menace ou de promesse + geste qui commence (main sur le masque, porte qui s'ouvre).",
+      "conditions": [
+        "N'empêche pas l'érosion : les suites font 30 à 70 % des vues de la partie 1.",
+        "La partie 1 doit déjà payer quelque chose (un verdict, une preuve d'amour) avant de couper."
+      ],
       "variantes": [
         {
           "id": "vous_voulez_voir",
@@ -771,52 +1657,217 @@
           "nom": "Quelqu'un arrive (porte, appel)"
         }
       ],
-      "limites": "Les suites perdent 40 à 70 % des vues dans le corpus : la coupure n'empêche pas l'érosion. Contradiction possible avec la satisfaction (fins frustrantes).",
-      "contradictions": "Coupure = moins de satisfaction immédiate ; la règle « chaque partie 1 doit tenir seule » tire dans l'autre sens.",
-      "tests_ab": [],
+      "erreurs": [
+        "Couper sans rien avoir payé dans la vidéo.",
+        "Reprendre la réplique de fin d'une source."
+      ],
       "preuves": {
         "maj": "2026-11-24",
+        "niveau": "recurrente",
+        "manque": [
+          "fiches v2 vérifiées 2/3 dans 2/2 comptes"
+        ],
+        "usage": "socle",
         "videos": 22,
         "verifiees": 2,
         "comptes": 13,
         "histoires": 20,
-        "domaines": {
-          "couple": 7,
-          "lycee": 4,
-          "famille": 3,
-          "sport": 2,
-          "travail": 1,
-          "argent": 1,
-          "mariage": 1,
-          "quartier": 1,
-          "concours": 1,
-          "belle-famille": 1
-        },
-        "tons": {
-          "drame": 18,
-          "noir": 2,
-          "horreur": 1,
-          "comique": 1
-        },
-        "formats": {
-          "partie_1": 11,
-          "unique": 6,
-          "suite": 5
-        },
-        "vues_mediane_hors_suites": 1850000.0,
-        "confiance": "élevé",
-        "signal_intra_compte": {
-          "verdict": "neutre",
+        "sources": [
+          {
+            "id": "7682857082701352225",
+            "compte": "une.histoire.ia2",
+            "vues": 8200000,
+            "variante": "menace_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7696553790274686241",
+            "compte": "sans_pepin",
+            "vues": 5000000,
+            "variante": "vous_voulez_voir",
+            "verifie": false
+          },
+          {
+            "id": "7634869807560609046",
+            "compte": "7vizory7",
+            "vues": 4900000,
+            "variante": "menace_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7705747056354233632",
+            "compte": "cine_fruit1",
+            "vues": 3100000,
+            "variante": "arrivee_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7700600747846749472",
+            "compte": "clip.drama.ia",
+            "vues": 2900000,
+            "variante": "menace_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7683248229797973281",
+            "compte": "une.histoire.ia2",
+            "vues": 2700000,
+            "variante": "arrivee_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7699887966373580065",
+            "compte": "sans_pepin",
+            "vues": 2600000,
+            "variante": "arrivee_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7707233011485429024",
+            "compte": "cine_fruit1",
+            "vues": 2600000,
+            "variante": "vous_voulez_voir",
+            "verifie": true
+          },
+          {
+            "id": "7667555136977243424",
+            "compte": "histoiresfruite",
+            "vues": 2500000,
+            "variante": "arrivee_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7700285444197518624",
+            "compte": "clip.drama.ia",
+            "vues": 1900000,
+            "variante": "arrivee_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7708424399854046496",
+            "compte": "squishh92",
+            "vues": 1900000,
+            "variante": "vous_voulez_voir",
+            "verifie": false
+          },
+          {
+            "id": "7707668885406878998",
+            "compte": "fruitdeguerre",
+            "vues": 1800000,
+            "variante": "vous_voulez_voir",
+            "verifie": false
+          },
+          {
+            "id": "7663872870568791329",
+            "compte": "7vizory7",
+            "vues": 1700000,
+            "variante": "menace_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7706610639619247393",
+            "compte": "ldtfuit",
+            "vues": 1500000,
+            "variante": "vous_voulez_voir",
+            "verifie": false
+          },
+          {
+            "id": "7700130298238979360",
+            "compte": "ldtfuit",
+            "vues": 1400000,
+            "variante": "menace_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7666065365742456096",
+            "compte": "skibifruit3d",
+            "vues": 1200000,
+            "variante": "menace_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7693592059696958752",
+            "compte": "sans_pepin",
+            "vues": 1100000,
+            "variante": "vous_voulez_voir",
+            "verifie": false
+          },
+          {
+            "id": "7704060756077169952",
+            "compte": "fruitystoryfr_",
+            "vues": 1000000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7708036394039397654",
+            "compte": "fruitdeguerre",
+            "vues": 840500,
+            "variante": "arrivee_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7694321678767164705",
+            "compte": "fruitwist.tv",
+            "vues": 649200,
+            "variante": "arrivee_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7695450029741411617",
+            "compte": "clip.drama.ia",
+            "vues": 87000,
+            "variante": "menace_annoncee",
+            "verifie": false
+          },
+          {
+            "id": "7630903132347813142",
+            "compte": "onlyfrubidi_off",
+            "vues": null,
+            "variante": "vous_voulez_voir",
+            "verifie": true
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 1850000.0,
+          "taux_commentaires_median": 0.1555,
+          "signal": "neutre",
+          "ratio": 1.21,
           "comptes_contraste": 10,
-          "ratio_median": 1.21,
-          "robustesse": "sans objet"
+          "robustesse": "sans objet",
+          "sous_groupes": []
         },
+        "contexte": {
+          "domaines": {
+            "couple": 7,
+            "lycee": 4,
+            "famille": 3,
+            "sport": 2,
+            "travail": 1,
+            "argent": 1,
+            "mariage": 1,
+            "quartier": 1,
+            "concours": 1,
+            "belle-famille": 1
+          },
+          "tons": {
+            "drame": 18,
+            "noir": 2,
+            "horreur": 1,
+            "comique": 1
+          },
+          "formats": {
+            "partie_1": 11,
+            "unique": 6,
+            "suite": 5
+          }
+        },
+        "contradictions": [],
         "causalite": "non établie (observationnel)",
         "variantes": {
           "vous_voulez_voir": {
             "videos": 7,
             "comptes": 6,
-            "confiance": "élevé",
             "signal": "neutre",
             "ratio": 1.05,
             "comptes_contraste": 4
@@ -824,7 +1875,6 @@
           "menace_annoncee": {
             "videos": 7,
             "comptes": 5,
-            "confiance": "élevé",
             "signal": "neutre",
             "ratio": 1.22,
             "comptes_contraste": 4
@@ -832,29 +1882,187 @@
           "arrivee_annoncee": {
             "videos": 7,
             "comptes": 7,
-            "confiance": "élevé",
             "signal": "positif",
             "ratio": 2.36,
             "comptes_contraste": 5
           }
         },
-        "notes": [
-          "concentrée sur le ton « drame » : effet du contexte possible",
-          "vue dans 10 domaines"
-        ]
+        "notes": []
+      }
+    },
+    {
+      "id": "question_au_spectateur",
+      "nom": "Une question ou un appel adressé au spectateur",
+      "categorie": "interaction",
+      "description": "La légende ou la fin pose une question au public (« qui gagne ? », « elle aurait dû payer ? ») ou demande une action (commenter « suite », republier).",
+      "effet": "Donne une réponse facile à écrire en commentaire.",
+      "fonctionnement": "Question binaire ou morale dans la légende et au dernier plan, reprise en commentaire épinglé.",
+      "conditions": [
+        "Repérée surtout dans les légendes, où elle peut être ajoutée APRÈS le succès (« Partie 2 ? ») : même risque de causalité inversée que la numérotation.",
+        "L'appel à republier vient d'un seul compte."
+      ],
+      "variantes": [
+        {
+          "id": "question_legende",
+          "nom": "Question morale ou pari dans la légende"
+        },
+        {
+          "id": "appel_suite",
+          "nom": "« Partie 2 ? », « commente suite »"
+        },
+        {
+          "id": "appel_repost",
+          "nom": "« Republie et abonne-toi »"
+        }
+      ],
+      "erreurs": [
+        "Question dont la réponse est évidente (pas de débat).",
+        "« Republie », « abonne-toi », « like si… » : appât interdit (conformite.json, appats_interdits) même si un compte du corpus le fait."
+      ],
+      "preuves": {
+        "maj": "2026-11-24",
+        "niveau": "recurrente",
+        "manque": [
+          "fiches v2 vérifiées 0/3 dans 0/2 comptes"
+        ],
+        "usage": "socle",
+        "videos": 9,
+        "verifiees": 0,
+        "comptes": 6,
+        "histoires": 9,
+        "sources": [
+          {
+            "id": "7699887966373580065",
+            "compte": "sans_pepin",
+            "vues": 2600000,
+            "variante": "question_legende",
+            "verifie": false
+          },
+          {
+            "id": "7667555136977243424",
+            "compte": "histoiresfruite",
+            "vues": 2500000,
+            "variante": "appel_suite",
+            "verifie": false
+          },
+          {
+            "id": "7689486330698517793",
+            "compte": "fruitwist.tv",
+            "vues": 2400000,
+            "variante": "appel_suite",
+            "verifie": false
+          },
+          {
+            "id": "7702822247525911841",
+            "compte": "cine_fruit1",
+            "vues": 2000000,
+            "variante": "question_legende",
+            "verifie": false
+          },
+          {
+            "id": "7708036394039397654",
+            "compte": "fruitdeguerre",
+            "vues": 840500,
+            "variante": "question_legende",
+            "verifie": false
+          },
+          {
+            "id": "7663913893860789536",
+            "compte": "histoiresfruite",
+            "vues": 488100,
+            "variante": "appel_suite",
+            "verifie": false
+          },
+          {
+            "id": "7647211838609968416",
+            "compte": "histoiresfruite",
+            "vues": 257500,
+            "variante": "appel_repost",
+            "verifie": false
+          },
+          {
+            "id": "7696872188548271382",
+            "compte": "les.storytv",
+            "vues": 240200,
+            "variante": "appel_suite",
+            "verifie": false
+          },
+          {
+            "id": "7657487112870071585",
+            "compte": "histoiresfruite",
+            "vues": 124100,
+            "variante": "appel_repost",
+            "verifie": false
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 2200000.0,
+          "taux_commentaires_median": 0.0465,
+          "signal": "positif",
+          "ratio": 2.45,
+          "comptes_contraste": 5,
+          "robustesse": "partiel",
+          "sous_groupes": [
+            "hors ton noir ×1,65"
+          ]
+        },
+        "contexte": {
+          "domaines": {
+            "couple": 4,
+            "famille": 3,
+            "mariage": 1,
+            "lycee": 1
+          },
+          "tons": {
+            "comique": 3,
+            "noir": 3,
+            "drame": 2,
+            "horreur": 1
+          },
+          "formats": {
+            "unique": 5,
+            "suite": 3,
+            "partie_1": 1
+          }
+        },
+        "contradictions": [],
+        "causalite": "non établie (observationnel)",
+        "variantes": {
+          "question_legende": {
+            "videos": 3,
+            "comptes": 3,
+            "signal": "neutre",
+            "ratio": 1.53,
+            "comptes_contraste": 2
+          },
+          "appel_suite": {
+            "videos": 5,
+            "comptes": 4,
+            "signal": "positif",
+            "ratio": 2.89,
+            "comptes_contraste": 3
+          },
+          "appel_repost": {
+            "videos": 4,
+            "comptes": 1,
+            "signal": "indéterminé",
+            "ratio": 10.04,
+            "comptes_contraste": 1
+          }
+        },
+        "notes": []
       }
     },
     {
       "id": "chiffre_ecran",
       "nom": "Un gros chiffre lisible dans l'image",
-      "type": "realisation",
-      "statut": "consolidee",
-      "description": "Un nombre énorme et lisible sur téléphone (1 000 000 €, 150 kg, QI 167) dit l'enjeu sans son.",
-      "fonction": "Compréhension immédiate en lecture muette.",
-      "moment": "Ouverture et climax.",
-      "pourquoi": "Hypothèse : beaucoup regardent sans son ; un chiffre est lu en 0,3 s.",
-      "transposer": "Placer le chiffre dans le décor (banderole, écran, chèque, front) plutôt qu'en sous-titre seul.",
-      "ne_pas_copier": "Le support précis d'une source.",
+      "categorie": "realisation",
+      "description": "Un nombre énorme et lisible sur téléphone (1 000 000 €, 150 kg, QI 167) dit l'enjeu sans le son.",
+      "effet": "Compréhension immédiate en lecture muette.",
+      "fonctionnement": "Ouverture et climax ; chiffre dans le décor (banderole, écran, chèque, front) plutôt qu'en sous-titre seul.",
+      "conditions": [
+        "Sous-compté pour les chiffres de décor (fiches v1 codées surtout via l'étiquette FRONT)."
+      ],
       "variantes": [
         {
           "id": "front",
@@ -865,51 +2073,153 @@
           "nom": "Chiffre sur banderole, écran, chèque"
         }
       ],
-      "limites": "Détecté surtout via l'étiquette FRONT des fiches v1 : sous-compté pour les chiffres de décor.",
-      "contradictions": "",
-      "tests_ab": [],
+      "erreurs": [
+        "Chiffre illisible à la taille d'un téléphone.",
+        "Plusieurs chiffres concurrents dans le même plan."
+      ],
       "preuves": {
         "maj": "2026-11-24",
+        "niveau": "recurrente",
+        "manque": [
+          "fiches v2 vérifiées 1/3 dans 1/2 comptes"
+        ],
+        "usage": "socle",
         "videos": 13,
         "verifiees": 1,
         "comptes": 9,
         "histoires": 12,
-        "domaines": {
-          "famille": 3,
-          "concours": 3,
-          "couple": 2,
-          "travail": 1,
-          "sport": 1,
-          "argent": 1,
-          "mariage": 1,
-          "prison": 1
-        },
-        "tons": {
-          "drame": 6,
-          "comique": 5,
-          "horreur": 1,
-          "noir": 1
-        },
-        "formats": {
-          "suite": 5,
-          "partie_1": 3,
-          "unique": 3,
-          "episode_long": 2
-        },
-        "vues_mediane_hors_suites": 1950000.0,
-        "confiance": "élevé",
-        "signal_intra_compte": {
-          "verdict": "positif",
+        "sources": [
+          {
+            "id": "7705747056354233632",
+            "compte": "cine_fruit1",
+            "vues": 3100000,
+            "variante": "decor",
+            "verifie": false
+          },
+          {
+            "id": "7698021502721019158",
+            "compte": "histoiredefruitofficiel0",
+            "vues": 2500000,
+            "variante": "front",
+            "verifie": false
+          },
+          {
+            "id": "7689486330698517793",
+            "compte": "fruitwist.tv",
+            "vues": 2400000,
+            "variante": "front",
+            "verifie": false
+          },
+          {
+            "id": "7704788743026117920",
+            "compte": "une.histoire.ia2",
+            "vues": 2000000,
+            "variante": "decor",
+            "verifie": false
+          },
+          {
+            "id": "7698064569696095521",
+            "compte": "ldtfuit",
+            "vues": 1900000,
+            "variante": "decor",
+            "verifie": false
+          },
+          {
+            "id": "7696932719464353056",
+            "compte": "sans_pepin",
+            "vues": 1700000,
+            "variante": "decor",
+            "verifie": false
+          },
+          {
+            "id": "7706610639619247393",
+            "compte": "ldtfuit",
+            "vues": 1500000,
+            "variante": "front",
+            "verifie": false
+          },
+          {
+            "id": "7696550033025535264",
+            "compte": "fruitwist.tv",
+            "vues": 1200000,
+            "variante": "decor",
+            "verifie": false
+          },
+          {
+            "id": "7698828978043276577",
+            "compte": "fruitwist.tv",
+            "vues": 978300,
+            "variante": "decor",
+            "verifie": false
+          },
+          {
+            "id": "7698736229222845728",
+            "compte": "fruitystoryfr_",
+            "vues": 893000,
+            "variante": "front",
+            "verifie": false
+          },
+          {
+            "id": "7689796721815063840",
+            "compte": "fruitwist.tv",
+            "vues": 708100,
+            "variante": "front",
+            "verifie": false
+          },
+          {
+            "id": "7697232064172625174",
+            "compte": "les.storytv",
+            "vues": 505700,
+            "variante": "front",
+            "verifie": false
+          },
+          {
+            "id": "7631645319159172374",
+            "compte": "onlyfrubidi_off",
+            "vues": null,
+            "variante": "decor",
+            "verifie": true
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 1950000.0,
+          "taux_commentaires_median": 0.0665,
+          "signal": "positif",
+          "ratio": 1.35,
           "comptes_contraste": 5,
-          "ratio_median": 1.35,
-          "robustesse": "robuste"
+          "robustesse": "robuste",
+          "sous_groupes": []
         },
+        "contexte": {
+          "domaines": {
+            "famille": 3,
+            "concours": 3,
+            "couple": 2,
+            "travail": 1,
+            "sport": 1,
+            "argent": 1,
+            "mariage": 1,
+            "prison": 1
+          },
+          "tons": {
+            "drame": 6,
+            "comique": 5,
+            "horreur": 1,
+            "noir": 1
+          },
+          "formats": {
+            "suite": 5,
+            "partie_1": 3,
+            "unique": 3,
+            "episode_long": 2
+          }
+        },
+        "contradictions": [],
         "causalite": "non établie (observationnel)",
         "variantes": {
           "front": {
             "videos": 6,
             "comptes": 5,
-            "confiance": "élevé",
             "signal": "positif",
             "ratio": 2.45,
             "comptes_contraste": 3
@@ -917,106 +2227,192 @@
           "decor": {
             "videos": 7,
             "comptes": 6,
-            "confiance": "élevé",
             "signal": "neutre",
             "ratio": 1.03,
             "comptes_contraste": 4
           }
         },
-        "notes": [
-          "vue dans 8 domaines"
-        ]
+        "notes": []
       }
     },
     {
       "id": "style_muet",
       "nom": "Tension muette, plans courts, peu de mots",
-      "type": "realisation",
-      "statut": "consolidee",
-      "description": "Plusieurs secondes d'image sans parole en ouverture, plans de 2-3 s, débit bas, gros plans de visages et un mot géant à l'écran.",
-      "fonction": "Créer une tension physique et laisser les réactions faire le travail.",
-      "moment": "Ouverture (3-6 s muettes) puis tout l'épisode.",
-      "pourquoi": "Hypothèse : différence nette avec le fil bavard ; réactions lisibles sur téléphone.",
-      "transposer": "Ouvrir sur une approche silencieuse menaçante, répliques de 1-6 mots, un plan réaction après chaque réplique.",
-      "ne_pas_copier": "Les cadrages et la musique d'un compte précis.",
+      "categorie": "montage",
+      "description": "Plusieurs secondes sans parole en ouverture, plans de 2-3 s, débit bas, gros plans de visages, un mot géant à l'écran.",
+      "effet": "Tension physique ; les réactions font le travail.",
+      "fonctionnement": "Approche silencieuse menaçante, répliques de 1-6 mots, plan réaction après chaque réplique.",
+      "conditions": [
+        "Voir la contradiction « parole_vs_muet »."
+      ],
       "variantes": [],
-      "limites": "Observé chez 2 comptes seulement (clip.drama.ia, fruitdeguerre), tous deux en lycée/rue/bagarre : effet de style et effet de thème confondus.",
-      "contradictions": "Taux d'engagement élevé mais vues médianes plus basses que le style dense.",
-      "tests_ab": [],
+      "erreurs": [
+        "Silence sur une scène sans tension visuelle : temps mort.",
+        "Copier cadrages et musique d'un compte précis."
+      ],
       "preuves": {
         "maj": "2026-11-24",
+        "niveau": "recurrente",
+        "manque": [
+          "2 compte(s) de plus",
+          "2 histoire(s) de plus",
+          "fiches v2 vérifiées 0/3 dans 0/2 comptes",
+          "performance mesurée sur 1/4 comptes"
+        ],
+        "usage": "contexte",
         "videos": 8,
         "verifiees": 0,
         "comptes": 2,
         "histoires": 4,
-        "domaines": {
-          "lycee": 6,
-          "famille": 1,
-          "quartier": 1
-        },
-        "tons": {
-          "drame": 7,
-          "noir": 1
-        },
-        "formats": {
-          "suite": 4,
-          "partie_1": 3,
-          "unique": 1
-        },
-        "vues_mediane_hors_suites": 1850000.0,
-        "confiance": "moyen",
-        "signal_intra_compte": {
-          "verdict": "indéterminé",
+        "sources": [
+          {
+            "id": "7700600747846749472",
+            "compte": "clip.drama.ia",
+            "vues": 2900000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7700285444197518624",
+            "compte": "clip.drama.ia",
+            "vues": 1900000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7707668885406878998",
+            "compte": "fruitdeguerre",
+            "vues": 1800000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7708036394039397654",
+            "compte": "fruitdeguerre",
+            "vues": 840500,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7708390297289411862",
+            "compte": "fruitdeguerre",
+            "vues": 410500,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7709105537840844054",
+            "compte": "fruitdeguerre",
+            "vues": 386100,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7709574908862303510",
+            "compte": "fruitdeguerre",
+            "vues": 271800,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7699566615335046432",
+            "compte": "clip.drama.ia",
+            "vues": 147400,
+            "variante": null,
+            "verifie": false
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 1850000.0,
+          "taux_commentaires_median": 0.2925,
+          "signal": "indéterminé",
+          "ratio": 18.79,
           "comptes_contraste": 1,
-          "ratio_median": 18.79,
-          "robustesse": "sans objet"
+          "robustesse": "sans objet",
+          "sous_groupes": []
         },
+        "contexte": {
+          "domaines": {
+            "lycee": 6,
+            "famille": 1,
+            "quartier": 1
+          },
+          "tons": {
+            "drame": 7,
+            "noir": 1
+          },
+          "formats": {
+            "suite": 4,
+            "partie_1": 3,
+            "unique": 1
+          }
+        },
+        "contradictions": [
+          "parole_vs_muet"
+        ],
         "causalite": "non établie (observationnel)",
         "variantes": {},
         "notes": [
-          "concentrée sur le ton « drame » : effet du contexte possible",
-          "vue dans 3 domaines"
+          "sur-représentée dans le ton « drame » (7/8 contre 43/72 dans le corpus)"
         ]
       }
     },
     {
       "id": "temoin_reaction",
       "nom": "Un témoin réagit juste après la réplique-choc",
-      "type": "realisation",
-      "statut": "candidate",
+      "categorie": "montage",
       "description": "Plan de 1 s sur un témoin choqué qui dit tout haut ce que pense le spectateur.",
-      "fonction": "Valider l'émotion et ponctuer le rythme.",
-      "moment": "Après chaque réplique-choc.",
-      "pourquoi": "Hypothèse : contagion émotionnelle ; donne une réplique à citer en commentaire.",
-      "transposer": "Prévoir 1-2 figurants nommés par scène qui réagissent en 1-3 mots.",
-      "ne_pas_copier": "Les répliques de réaction des sources.",
+      "effet": "Valide l'émotion, ponctue le rythme, fournit une réplique à citer.",
+      "fonctionnement": "1-2 figurants par scène qui réagissent en 1-3 mots après chaque réplique-choc.",
+      "conditions": [
+        "Codé sur une seule vidéo : bonne pratique, pas une preuve."
+      ],
       "variantes": [],
-      "limites": "Non codé dans les fiches v1 : preuves à reconstruire au fil des fiches v2.",
-      "contradictions": "",
-      "tests_ab": [],
+      "erreurs": [
+        "Témoin qui explique au lieu de réagir."
+      ],
       "preuves": {
         "maj": "2026-11-24",
+        "niveau": "a_tester",
+        "manque": [
+          "1 compte de plus",
+          "2 histoires indépendantes de plus"
+        ],
+        "usage": "a_tester",
         "videos": 1,
         "verifiees": 0,
         "comptes": 1,
         "histoires": 1,
-        "domaines": {
-          "lycee": 1
-        },
-        "tons": {
-          "drame": 1
-        },
-        "formats": {
-          "partie_1": 1
-        },
-        "vues_mediane_hors_suites": 2900000,
-        "confiance": "faible",
-        "signal_intra_compte": {
-          "verdict": "indéterminé",
+        "sources": [
+          {
+            "id": "7700600747846749472",
+            "compte": "clip.drama.ia",
+            "vues": 2900000,
+            "variante": null,
+            "verifie": false
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": 2900000,
+          "taux_commentaires_median": 0.424,
+          "signal": "indéterminé",
+          "ratio": 19.67,
           "comptes_contraste": 1,
-          "ratio_median": 19.67,
-          "robustesse": "sans objet"
+          "robustesse": "sans objet",
+          "sous_groupes": []
         },
+        "contexte": {
+          "domaines": {
+            "lycee": 1
+          },
+          "tons": {
+            "drame": 1
+          },
+          "formats": {
+            "partie_1": 1
+          }
+        },
+        "contradictions": [],
         "causalite": "non établie (observationnel)",
         "variantes": {},
         "notes": []
@@ -1025,113 +2421,499 @@
     {
       "id": "suite_partie_n",
       "nom": "Série en parties avec reprise exacte de la fin",
-      "type": "format",
-      "statut": "consolidee",
+      "categorie": "format",
       "description": "La partie N+1 reprend la dernière réplique de N puis paye la promesse dans les premières secondes.",
-      "fonction": "Récupérer l'audience de la partie précédente.",
-      "moment": "0-5 s de la suite.",
-      "pourquoi": "Hypothèse : continuité pour ceux qui arrivent de la partie 1.",
-      "transposer": "Ouvrir la suite sur la même image et la même phrase, payer en 5 s, poser une nouvelle question.",
-      "ne_pas_copier": "",
+      "effet": "Continuité pour ceux qui arrivent de la partie précédente.",
+      "fonctionnement": "Même image et même phrase à 0 s, payoff en 5 s, nouvelle question.",
+      "conditions": [
+        "Les suites font 30 à 70 % des vues de la partie 1 (6 séries). Chaque partie 1 doit tenir seule."
+      ],
       "variantes": [
         {
           "id": "reprise_exacte",
           "nom": "Même réplique, même image"
         }
       ],
-      "limites": "Les suites font 30 à 70 % des vues de la partie 1 dans le corpus (6 séries : kiwi, masque, combinaison, chauve, chaussures, QI).",
-      "contradictions": "",
-      "tests_ab": [],
+      "erreurs": [
+        "Résumé lent de la partie précédente."
+      ],
       "preuves": {
         "maj": "2026-11-24",
+        "niveau": "recurrente",
+        "manque": [
+          "fiches v2 vérifiées 2/3 dans 1/2 comptes",
+          "performance mesurée sur 0/4 comptes"
+        ],
+        "usage": "socle",
         "videos": 20,
         "verifiees": 2,
         "comptes": 11,
         "histoires": 13,
-        "domaines": {
-          "couple": 7,
-          "lycee": 5,
-          "travail": 2,
-          "famille": 2,
-          "argent": 1,
-          "fantastique": 1,
-          "sport": 1,
-          "belle-famille": 1
-        },
-        "tons": {
-          "drame": 16,
-          "noir": 3,
-          "comique": 1
-        },
-        "formats": {
-          "suite": 20
-        },
-        "vues_mediane_hors_suites": null,
-        "confiance": "élevé",
-        "signal_intra_compte": {
-          "verdict": "indéterminé",
+        "sources": [
+          {
+            "id": "7682857082701352225",
+            "compte": "une.histoire.ia2",
+            "vues": 8200000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7683616000197102880",
+            "compte": "une.histoire.ia2",
+            "vues": 5700000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7634869807560609046",
+            "compte": "7vizory7",
+            "vues": 4900000,
+            "variante": "reprise_exacte",
+            "verifie": false
+          },
+          {
+            "id": "7683248229797973281",
+            "compte": "une.histoire.ia2",
+            "vues": 2700000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7707325113615568160",
+            "compte": "cine_fruit1",
+            "vues": 1800000,
+            "variante": "reprise_exacte",
+            "verifie": false
+          },
+          {
+            "id": "7696932719464353056",
+            "compte": "sans_pepin",
+            "vues": 1700000,
+            "variante": "reprise_exacte",
+            "verifie": false
+          },
+          {
+            "id": "7707588023797501216",
+            "compte": "squishh92",
+            "vues": 1100000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7708036394039397654",
+            "compte": "fruitdeguerre",
+            "vues": 840500,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7695793920978029857",
+            "compte": "skibifruit3d",
+            "vues": 793800,
+            "variante": "reprise_exacte",
+            "verifie": false
+          },
+          {
+            "id": "7708730994051943712",
+            "compte": "squishh92",
+            "vues": 742800,
+            "variante": "reprise_exacte",
+            "verifie": false
+          },
+          {
+            "id": "7708031979580607776",
+            "compte": "squishh92",
+            "vues": 714400,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7689796721815063840",
+            "compte": "fruitwist.tv",
+            "vues": 708100,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7663913893860789536",
+            "compte": "histoiresfruite",
+            "vues": 488100,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7708390297289411862",
+            "compte": "fruitdeguerre",
+            "vues": 410500,
+            "variante": "reprise_exacte",
+            "verifie": false
+          },
+          {
+            "id": "7709105537840844054",
+            "compte": "fruitdeguerre",
+            "vues": 386100,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7709574908862303510",
+            "compte": "fruitdeguerre",
+            "vues": 271800,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7657487112870071585",
+            "compte": "histoiresfruite",
+            "vues": 124100,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7695450029741411617",
+            "compte": "clip.drama.ia",
+            "vues": 87000,
+            "variante": null,
+            "verifie": false
+          },
+          {
+            "id": "7631273993353301270",
+            "compte": "onlyfrubidi_off",
+            "vues": null,
+            "variante": "reprise_exacte",
+            "verifie": true
+          },
+          {
+            "id": "7631645319159172374",
+            "compte": "onlyfrubidi_off",
+            "vues": null,
+            "variante": null,
+            "verifie": true
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": null,
+          "taux_commentaires_median": null,
+          "signal": "indéterminé",
+          "ratio": null,
           "comptes_contraste": 0,
-          "ratio_median": null,
-          "robustesse": "sans objet"
+          "robustesse": "sans objet",
+          "sous_groupes": []
         },
+        "contexte": {
+          "domaines": {
+            "couple": 7,
+            "lycee": 5,
+            "travail": 2,
+            "famille": 2,
+            "argent": 1,
+            "fantastique": 1,
+            "sport": 1,
+            "belle-famille": 1
+          },
+          "tons": {
+            "drame": 16,
+            "noir": 3,
+            "comique": 1
+          },
+          "formats": {
+            "suite": 20
+          }
+        },
+        "contradictions": [],
         "causalite": "non établie (observationnel)",
         "variantes": {
           "reprise_exacte": {
             "videos": 7,
             "comptes": 7,
-            "confiance": "élevé",
             "signal": "indéterminé",
             "ratio": null,
             "comptes_contraste": 0
           }
         },
-        "notes": [
-          "concentrée sur le ton « drame » : effet du contexte possible",
-          "vue dans 8 domaines"
-        ]
+        "notes": []
       }
     },
     {
       "id": "compilation_film",
       "nom": "Compilation « le film » d'une série terminée",
-      "type": "format",
-      "statut": "candidate",
+      "categorie": "format",
       "description": "Toutes les parties montées en une vidéo longue.",
-      "fonction": "Seconde vie d'une série déjà connue.",
-      "moment": "Après la fin de la série.",
-      "pourquoi": "Hypothèse : l'audience connaît déjà les personnages ; une seule vidéo à finir.",
-      "transposer": "Publier un montage complet quand une série a fini avec au moins une partie forte.",
-      "ne_pas_copier": "",
+      "effet": "Seconde vie d'une série déjà connue : une seule vidéo à finir.",
+      "fonctionnement": "Après la fin d'une série avec au moins une partie forte.",
+      "conditions": [
+        "Un seul cas (7 M). Les « épisodes complets » inédits de 5-10 min font surtout moins de 0,7 M."
+      ],
       "variantes": [],
-      "limites": "Les films longs inédits (épisode complet de 5-10 min sans série connue) font surtout moins de 0,7 M dans le corpus.",
-      "contradictions": "7 M pour une compilation de série connue contre 0,04-0,67 M pour la plupart des « épisodes complets » inédits.",
-      "tests_ab": [],
+      "erreurs": [
+        "Publier un film long inédit en pensant obtenir le même effet."
+      ],
       "preuves": {
         "maj": "2026-11-24",
+        "niveau": "a_tester",
+        "manque": [
+          "1 compte de plus",
+          "2 histoires indépendantes de plus"
+        ],
+        "usage": "a_tester",
         "videos": 1,
         "verifiees": 0,
         "comptes": 1,
         "histoires": 1,
-        "domaines": {
-          "argent": 1
-        },
-        "tons": {
-          "drame": 1
-        },
-        "formats": {
-          "compilation": 1
-        },
-        "vues_mediane_hors_suites": null,
-        "confiance": "faible",
-        "signal_intra_compte": {
-          "verdict": "indéterminé",
+        "sources": [
+          {
+            "id": "7638960492395924769",
+            "compte": "7vizory7",
+            "vues": 7000000,
+            "variante": null,
+            "verifie": false
+          }
+        ],
+        "performance": {
+          "vues_mediane_hors_suites": null,
+          "taux_commentaires_median": null,
+          "signal": "indéterminé",
+          "ratio": null,
           "comptes_contraste": 0,
-          "ratio_median": null,
-          "robustesse": "sans objet"
+          "robustesse": "sans objet",
+          "sous_groupes": []
         },
+        "contexte": {
+          "domaines": {
+            "argent": 1
+          },
+          "tons": {
+            "drame": 1
+          },
+          "formats": {
+            "compilation": 1
+          }
+        },
+        "contradictions": [],
         "causalite": "non établie (observationnel)",
         "variantes": {},
         "notes": []
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "parole_vs_muet",
+      "question": "Dialogue continu ou séquences muettes ?",
+      "groupes": {
+        "peu_de_paroles": {
+          "mots_par_seconde": [
+            null,
+            2.6
+          ]
+        },
+        "parole_continue": {
+          "mots_par_seconde": [
+            3.5,
+            null
+          ]
+        }
+      },
+      "mecaniques": [
+        "style_muet"
+      ],
+      "conditions": [
+        "Le groupe « peu de paroles » a plus de commentaires et de likes par vue, mais il est fait en majorité de SUITES (public déjà conquis) et d'histoires de lycée/bagarre : l'écart d'engagement vient au moins en partie du format et du thème.",
+        "Le groupe « parole continue » fait plus de vues brutes et contient plus de parties 1 et d'histoires de couple.",
+        "Hypothèse : le silence porte quand l'image contient la tension (menace physique, face-à-face), la parole quand le conflit est social (humiliation, test, argent)."
+      ],
+      "limites": "mots/s inclut les silences ; intensité émotionnelle et qualité visuelle pas encore codées (champs contexte « intensite » et « qualite_visuelle » des fiches v2).",
+      "decision": "Pas de style par défaut : silence pour la menace physique, parole continue pour les conflits sociaux ; la règle « 55 % de parole par plan » reste sauf plan muet volontaire.",
+      "mesures": {
+        "maj": "2026-11-24",
+        "peu_de_paroles": {
+          "videos": 19,
+          "comptes": 9,
+          "vues": 840500,
+          "vues_hors_suites": 1800000,
+          "taux_likes": 8.923,
+          "taux_commentaires": 0.177,
+          "taux_commentaires_hors_suites": 0.072,
+          "taux_partages": 0.1,
+          "part_suites": 53,
+          "formats": "suite 10, partie_1 4, unique 3",
+          "domaines": "lycee 6, famille 4, couple 3",
+          "tons": "drame 13, noir 3, triste 1",
+          "duree": 68.6,
+          "plan_moyen": 4.92,
+          "mots_par_seconde": 1.83,
+          "revelation": 32,
+          "intensite": "non disponible (0 codées)",
+          "qualite_visuelle": "non disponible (0 codées)"
+        },
+        "parole_continue": {
+          "videos": 41,
+          "comptes": 12,
+          "vues": 1200000,
+          "vues_hors_suites": 1200000.0,
+          "taux_likes": 9.186,
+          "taux_commentaires": 0.059,
+          "taux_commentaires_hors_suites": 0.0495,
+          "taux_partages": 0.092,
+          "part_suites": 29,
+          "formats": "partie_1 12, suite 12, unique 12",
+          "domaines": "couple 16, famille 8, argent 4",
+          "tons": "drame 25, comique 10, noir 5",
+          "duree": 70.1,
+          "plan_moyen": 7.78,
+          "mots_par_seconde": 4.28,
+          "revelation": 34,
+          "intensite": "3 (1 codées)",
+          "qualite_visuelle": "3 (1 codées)"
+        },
+        "meme_compte": {
+          "comptes": 5,
+          "ratio_vues": 1.07,
+          "ratio_commentaires": 0.67,
+          "lecture": "peu_de_paroles ÷ parole_continue, hors suites, comptes qui ont les deux"
+        }
+      }
+    },
+    {
+      "id": "frequent_mais_moins_vu",
+      "question": "L'épreuve (test, concours) est partout mais moins vue dans son compte : faut-il l'éviter ?",
+      "groupes": {
+        "avec_epreuve": {
+          "mecanique": "epreuve_verdict"
+        },
+        "sans_epreuve": {
+          "sans_mecanique": "epreuve_verdict"
+        }
+      },
+      "mecaniques": [
+        "epreuve_verdict"
+      ],
+      "conditions": [
+        "Moins vue en partie 1, neutre en vidéo unique : dépend du format.",
+        "Les concours tirent vers le bas (domaine concours plus faible dans ses comptes)."
+      ],
+      "limites": "6 comptes de contraste ; codage rétro des fiches v1.",
+      "decision": "Garder l'épreuve comme moteur mais l'adosser à une identité révélée ou une force cachée ; jamais seule.",
+      "mesures": {
+        "maj": "2026-11-24",
+        "avec_epreuve": {
+          "videos": 17,
+          "comptes": 10,
+          "vues": 1350000.0,
+          "vues_hors_suites": 1500000,
+          "taux_likes": 9.481,
+          "taux_commentaires": 0.07899999999999999,
+          "taux_commentaires_hors_suites": 0.072,
+          "taux_partages": 0.0775,
+          "part_suites": 18,
+          "formats": "partie_1 7, unique 4, suite 3",
+          "domaines": "couple 6, concours 5, argent 2",
+          "tons": "drame 9, comique 7, horreur 1",
+          "duree": 67.6,
+          "plan_moyen": 7.51,
+          "mots_par_seconde": 3.67,
+          "revelation": 29,
+          "intensite": "3 (1 codées)",
+          "qualite_visuelle": "3 (1 codées)"
+        },
+        "sans_epreuve": {
+          "videos": 55,
+          "comptes": 15,
+          "vues": 1000000,
+          "vues_hors_suites": 1200000,
+          "taux_likes": 8.479,
+          "taux_commentaires": 0.065,
+          "taux_commentaires_hors_suites": 0.05,
+          "taux_partages": 0.094,
+          "part_suites": 38,
+          "formats": "suite 21, unique 17, partie_1 11",
+          "domaines": "couple 16, famille 15, lycee 7",
+          "tons": "drame 34, noir 14, comique 5",
+          "duree": 70.1,
+          "plan_moyen": 6.04,
+          "mots_par_seconde": 3.8,
+          "revelation": 35,
+          "intensite": "non disponible (0 codées)",
+          "qualite_visuelle": "non disponible (0 codées)"
+        },
+        "meme_compte": {
+          "comptes": 6,
+          "ratio_vues": 0.69,
+          "ratio_commentaires": 0.83,
+          "lecture": "avec_epreuve ÷ sans_epreuve, hors suites, comptes qui ont les deux"
+        }
+      }
+    },
+    {
+      "id": "numerotation",
+      "question": "Numéroter « Partie 1 » fait-il des vues ?",
+      "groupes": {
+        "partie_1": {
+          "contexte.format": [
+            "partie_1"
+          ]
+        },
+        "video_unique": {
+          "contexte.format": [
+            "unique"
+          ]
+        }
+      },
+      "mecaniques": [],
+      "conditions": [
+        "Les parties 1 font environ 2 fois plus de vues que les vidéos uniques du même compte.",
+        "Causalité probablement inversée : un créateur fait une suite quand une vidéo perce, et elle devient « partie 1 » après coup."
+      ],
+      "limites": "Impossible de savoir, sur des vidéos déjà publiées, si « Partie 1 » était dans le titre dès la publication.",
+      "decision": "Non démontré : ne pas numéroter pour faire des vues ; numéroter seulement quand une suite est prévue.",
+      "mesures": {
+        "maj": "2026-11-24",
+        "partie_1": {
+          "videos": 18,
+          "comptes": 11,
+          "vues": 1900000,
+          "vues_hors_suites": 1900000,
+          "taux_likes": 9.058,
+          "taux_commentaires": 0.11,
+          "taux_commentaires_hors_suites": 0.11,
+          "taux_partages": 0.094,
+          "part_suites": 0,
+          "formats": "partie_1 18",
+          "domaines": "couple 7, sport 2, famille 2",
+          "tons": "drame 13, noir 3, comique 2",
+          "duree": 67.1,
+          "plan_moyen": 7.645,
+          "mots_par_seconde": 3.69,
+          "revelation": 28,
+          "intensite": "3 (1 codées)",
+          "qualite_visuelle": "3 (1 codées)"
+        },
+        "video_unique": {
+          "videos": 21,
+          "comptes": 10,
+          "vues": 1000000,
+          "vues_hors_suites": 1000000,
+          "taux_likes": 7.471,
+          "taux_commentaires": 0.045,
+          "taux_commentaires_hors_suites": 0.045,
+          "taux_partages": 0.087,
+          "part_suites": 0,
+          "formats": "unique 21",
+          "domaines": "famille 8, couple 7, concours 2",
+          "tons": "noir 7, comique 7, drame 5",
+          "duree": 70.0,
+          "plan_moyen": 6.04,
+          "mots_par_seconde": 4.01,
+          "revelation": 24,
+          "intensite": "non disponible (0 codées)",
+          "qualite_visuelle": "non disponible (0 codées)"
+        },
+        "meme_compte": {
+          "comptes": 7,
+          "ratio_vues": 2.45,
+          "ratio_commentaires": 1.11,
+          "lecture": "partie_1 ÷ video_unique, hors suites, comptes qui ont les deux"
+        }
       }
     }
   ]

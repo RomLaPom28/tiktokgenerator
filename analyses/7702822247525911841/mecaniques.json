@@ -20,6 +20,12 @@
       "variante": "test_amour",
       "t": null,
       "preuve": ""
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "question_legende",
+      "t": "légende",
+      "preuve": "légende : « Il est milliardaire mais il se fait passer pour un pauvre 💰😏 Elle aurait dû payer ? #fruit »"
     }
   ]
 }

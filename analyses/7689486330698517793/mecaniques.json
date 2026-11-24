@@ -38,6 +38,12 @@
       "variante": "identite_revelee",
       "t": null,
       "preuve": ""
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "appel_suite",
+      "t": "légende",
+      "preuve": "légende : « Partie 2 ? #fruitstory #iafruit  »"
     }
   ]
 }

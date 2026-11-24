@@ -14,6 +14,12 @@
       "variante": "identite_cachee",
       "t": null,
       "preuve": ""
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "appel_repost",
+      "t": "légende",
+      "preuve": "légende : « Il se déguise pour séduire son meilleur ami 🍓 Republie la vidéo et abonne toi si tu as app »"
     }
   ]
 }

@@ -92,16 +92,15 @@ Lecture : taux de commentaires 0,29 % (×2,8 la moyenne du corpus, 0,10 % ; ×4 
    - Ne pas copier : « vous voulez voir mon vrai visage ».
 
 ## G. Comparaison au corpus (généré)
-- `ironie_dramatique/aveu_0s` : mécanique déjà observée (29 vidéos, 13 comptes) ; même variante : 7 vidéos, 4 comptes ; confirmée par un autre compte → confiance globale élevé
-- `epreuve_verdict/test_amour` : mécanique déjà observée (16 vidéos, 10 comptes) ; même variante : 7 vidéos, 5 comptes ; confirmée par un autre compte → confiance globale élevé
-- `retenue_volontaire/test_en_cours` : mécanique déjà observée (2 vidéos, 2 comptes) ; variante « test_en_cours » nouvelle ; confirmée par un autre compte → confiance globale moyen
-- `humiliation_injuste/mepris_apparence` : mécanique déjà observée (20 vidéos, 13 comptes) ; même variante : 9 vidéos, 6 comptes ; confirmée par un autre compte → confiance globale élevé
-- `coupure_avant_payoff/vous_voulez_voir` : mécanique déjà observée (21 vidéos, 13 comptes) ; même variante : 6 vidéos, 5 comptes ; confirmée par un autre compte → confiance globale élevé
-- Fréquentes ailleurs, absentes ici : `renversement_statut`, `proche_en_danger`, `regle_du_monde`, `chiffre_ecran`
+- `ironie_dramatique/aveu_0s` : mécanique déjà observée (29 vidéos, 13 comptes) ; même variante : 7 vidéos, 4 comptes ; confirmée par un autre compte → recurrente, rubrique socle
+- `epreuve_verdict/test_amour` : mécanique déjà observée (16 vidéos, 10 comptes) ; même variante : 7 vidéos, 5 comptes ; confirmée par un autre compte → recurrente, rubrique contexte
+- `retenue_volontaire/test_en_cours` : mécanique déjà observée (2 vidéos, 2 comptes) ; variante « test_en_cours » nouvelle ; confirmée par un autre compte → recurrente, rubrique socle
+- `humiliation_injuste/mepris_apparence` : mécanique déjà observée (20 vidéos, 13 comptes) ; même variante : 9 vidéos, 6 comptes ; confirmée par un autre compte → recurrente, rubrique socle
+- `coupure_avant_payoff/vous_voulez_voir` : mécanique déjà observée (21 vidéos, 13 comptes) ; même variante : 6 vidéos, 5 comptes ; confirmée par un autre compte → recurrente, rubrique socle
+- Récurrentes ailleurs, absentes ici : `regle_du_monde`, `renversement_statut`, `proche_en_danger`, `question_au_spectateur`, `chiffre_ecran`, `style_muet`
 - Performance dans son compte : ×1 (médiane des 5 vidéos analysées du compte (sélection par vues : biaisée vers le haut))
 
-
 **Conclusions et confiance**
-- Le combo aveu-test + humiliation publique + coupure est la norme du corpus (confiance élevée sur la récurrence) ; cette vidéo n'apporte pas de mécanique nouvelle, seulement la variante « test_en_cours » de la retenue (confiance faible) et une forme du verdict (choix coûteux imposé).
+- Le combo aveu-test + humiliation publique + coupure est la norme du corpus (niveau « récurrente » : 10 à 13 comptes chacune, mais faute de fiches v2 vérifiées, aucune n'est encore « fortement documentée ») ; cette vidéo n'apporte pas de mécanique nouvelle, seulement la variante « test_en_cours » de la retenue (vue une seule fois : à tester) et une forme du verdict (choix coûteux imposé).
 - Son taux de commentaires élevé est compatible avec l'injustice au travail et le choix du mari, mais rien ne permet d'isoler la cause (une seule vidéo, pas de version sans ces éléments).
 - Absences notables : aucun chiffre à l'écran, pas de plan témoin court après les répliques-choc. Pistes d'amélioration pour nous, pas des preuves.
