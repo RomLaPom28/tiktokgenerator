@@ -1,6 +1,6 @@
 # Recettes virales (apprises des analyses)
 
-> /analyser complète ce fichier après chaque lot de vidéos analysées.
+> /analyser complète ce fichier après chaque lot de vidéos analysées (section « Mécaniques consolidées », tirée de `bible/mecaniques.json`).
 > On garde les MÉCANIQUES (structure, rythme, types d'accroche), jamais le texte des autres.
 
 ## Base de départ (avant analyses)
@@ -42,19 +42,40 @@ La bible imposait « espèce de bâtard » et les épisodes contenaient « garce
 classe les insultes dégradantes en harcèlement. Tout est maintenant filtré par `conformite.json` (rouge = bloqué, orange = 2 max).
 
 
-## Appris des vidéos analysées (69 vidéos, 14 comptes, 22/11/2026 — détail : `analyses/TENDANCE-2026-11-22.md`)
-Classées par force (vues × commentaires) :
-1. **Aveu-prémisse à 0 s** : le héros dit son secret humain (argent caché, faux physique, double vie) au spectateur dans la 1re phrase (« ils croient que…, en vrai… »). 13 vidéos sur 13 > 1 M, médiane 2,5 M.
-2. **Test d'amour déguisé** (faux pauvre/moche/gros/chauve, la famille humilie, coupure sur « vous voulez voir ? »). 12 vidéos, 9 > 1 M, médiane 1,6 M, 0,11 % de com.
-3. **Humilié → transformation** (glow-up promis, montré à mi-partie 2). 9 vidéos, moyenne 5 M (record 22,9 M).
-4. **Sous-estimé à force cachée** (handicap imposé ou promesse de ne pas frapper). 14 vidéos, 0,21 % de com (×2 la moyenne).
-5. **Principe de transposition** : on reprend les HISTOIRES HUMAINES (test d'amour, faux pauvre, belle-famille, revanche, caïd humilié) ; les animaux sont le casting et vivent comme des humains. L'animal sert au look et au caractère (taureau = fierté, renard = escroc). **Règle assouplie (23/11/2026)** : la nature de l'animal PEUT servir de ressort si le drame reste humain et que ça donne une image choc lisible en 1 s (bébé d'une espèce impossible = soupçon de tromperie, 13,7 M). Jamais une blague de biologie sans enjeu humain.
-6. **Témoin choqué après chaque réplique-choc** (plan de 1 s, il dit ce que pense le spectateur). Présent dans les 7 vidéos à plus de 0,2 % de com.
-7. **Style « cinéma muet »** : 3-5 s d'image muette tendue, plans 2-3 s, 1 mot géant à l'écran → 13,9 % de likes et 0,23 % de com (×3 le style bavard).
-8. **Gros chiffre lisible à l'écran** (1 000 000 €, 150 kg, QI 167). Vu dans 20 vidéos sur 69.
-9. **Partie N+1 = même réplique que la fin de N**, payoff dans les 5 premières secondes. Les suites perdent 40 à 70 % des vues : chaque partie 1 doit tenir seule.
-10. **Compilation « Le film »** d'une saison terminée : 7 M (7vizory7).
-À éviter : humour noir sans image forte (0,1 M), dialogue en continu sans plan de réaction (87 k), copie tardive d'une mécanique (65 k), vidéos de plus de 2 min hors compilation (médiane 675 k).
+## Mécaniques consolidées (24/11/2026 — registre `bible/mecaniques.json`, rapport `analyses/MECANIQUES.md`)
+72 vidéos, 15 comptes, tout en « fruit drama » FR. Regénéré par `python3 outils/mecaniques.py` ; cette section le résume.
+**Lire avant d'utiliser** : *confiance* = récurrence sur des comptes indépendants (faible 1 · moyen 2-3 · élevé 4+).
+*Signal* = vues avec ÷ sans la mécanique dans le même compte, hors suites ; *fragile* = s'inverse en partie 1 seule,
+en vidéos uniques seules ou hors ton noir. Tout est corrélation : aucune mécanique n'est prouvée CAUSE de vues.
+
+Récurrence élevée (le genre les utilise partout : les respecter est le minimum, pas un avantage) :
+1. **Ironie dramatique** (`ironie_dramatique`) — élevé, 13 comptes · signal fragile. Donner le secret au spectateur avant 10 s. Variante la plus associée aux vues : statut caché montré (`identite_cachee`, ×2,7, 4 comptes). L'aveu parlé à 0 s n'a pas d'effet mesurable (×1,07).
+2. **Injustice publique** (`humiliation_injuste`) — élevé, 13 comptes · signal fragile. Humilier le héros devant témoins avant 15 s, escalade. Limite : seule, sans promesse de revanche, elle ne tient pas.
+3. **Renversement de statut** (`renversement_statut`) — élevé, 12 comptes · signal fragile. Payer devant les mêmes témoins. Variantes associées à plus de vues : force cachée (×2,0) et identité révélée ; le glow-up montré est en dessous (×0,71, 4 comptes).
+4. **Coupure au seuil du payoff** (`coupure_avant_payoff`) — élevé, 13 comptes · signal neutre. Utile pour la suite, mais les suites ne font que 30 à 70 % des vues de la partie 1 (6 séries).
+5. **Gros chiffre dans l'image** (`chiffre_ecran`) — élevé, 9 comptes · **seul signal positif robuste** (×1,35, 5 comptes). Le moins cher à appliquer : un chiffre énorme lisible dans le décor ou sur le personnage.
+6. **Règle absurde du monde à 0 s** (`regle_du_monde`) — élevé, 6 comptes · neutre. La variante « valeur chiffrée affichée » recoupe le n° 5.
+7. **Proche vulnérable en danger** (`proche_en_danger`) — élevé, 5 comptes · neutre. Lève la retenue du héros ; ne pas montrer la violence.
+
+Récurrence moyenne ou faible (à tester, pas à imposer) :
+8. **Retenue volontaire** (`retenue_volontaire`) — moyen, 3 comptes. Une phrase qui explique pourquoi le héros encaisse.
+9. **Style muet** (`style_muet`) — moyen, 2 comptes (clip.drama.ia, fruitdeguerre), tous deux lycée/rue/bagarre : style et thème confondus. Engagement élevé, vues plus faibles.
+10. **Témoin qui réagit** (`temoin_reaction`) — faible : codé sur 1 vidéo. Bonne pratique de réalisation, pas une preuve.
+11. **Compilation « le film »** (`compilation_film`) — faible : 1 cas (7 M). Les « épisodes complets » inédits de 5-10 min sont faibles (médiane 0,67 M).
+
+Contradictions et pièges :
+- **Épreuve / test d'amour** (`epreuve_verdict`) : très fréquent (10 comptes) mais signal NÉGATIF (×0,69, test d'amour ×0,74). Corrige l'ancienne recette « test d'amour 9/12 > 1 M » : ce chiffre venait d'un corpus fait du top de chaque compte. Le test reste un bon moteur s'il est combiné à une identité révélée, pas seul.
+- **« Partie 1 » ×2,05 contre « unique » ×0,41** : causalité probablement inversée (une vidéo qui perce DEVIENT une partie 1 parce que le créateur fait une suite). Ne pas en déduire qu'il faut numéroter.
+- La plupart des signaux positifs disparaissent quand on sépare partie 1 et vidéos uniques : le format et le ton expliquent une bonne part des écarts. Seul le gros chiffre à l'écran tient dans tous les sous-groupes.
+- Anciennes affirmations retirées faute de preuve : « 13/13 > 1 M » pour l'aveu (biais de sélection), « témoin présent dans les 7 vidéos à 0,2 % de com » (1 seule vidéo codée).
+
+Facteurs de contexte :
+- Ton **noir** : signal négatif robuste (×0,54, 8 comptes). Le drame humain reste la base.
+- Domaine **famille** (souvent associé au ton noir dans le corpus) : ×0,51, 8 comptes. **Couple** : ×1,38 mais fragile.
+- Suites : 30 à 70 % des vues de la partie 1. Chaque partie 1 doit tenir seule.
+- Le principe de transposition reste : histoires HUMAINES, animaux = casting. **Règle assouplie (23/11/2026)** : la nature de l'animal PEUT servir de ressort si le drame reste humain et que ça donne une image choc lisible en 1 s. Jamais une blague de biologie sans enjeu humain.
+
+Prochaine étape pour passer de corrélation à cause : nos tests A/B (même histoire, avec et sans chiffre à l'écran ; avec identité révélée contre glow-up), notés dans `tests_ab` du registre.
 
 
 ## Machine virale v2 (recherche 22/11/2026 + retours utilisateur)

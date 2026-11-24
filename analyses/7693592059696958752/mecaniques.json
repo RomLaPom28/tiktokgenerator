@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "couple",
+    "ton": "drame",
+    "format": "partie_1",
+    "serie": null
+  },
+  "mecaniques": [
+    {
+      "id": "ironie_dramatique",
+      "variante": "identite_cachee",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "epreuve_verdict",
+      "variante": "test_amour",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "coupure_avant_payoff",
+      "variante": "vous_voulez_voir",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "famille",
+    "ton": "comique",
+    "format": "partie_1",
+    "serie": "fruitwist-qi"
+  },
+  "mecaniques": [
+    {
+      "id": "regle_du_monde",
+      "variante": "chiffre_social",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "chiffre_ecran",
+      "variante": "front",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "humiliation_injuste",
+      "variante": "chouchou_parent",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "ironie_dramatique",
+      "variante": "complot_montre",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "renversement_statut",
+      "variante": "identite_revelee",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "famille",
+    "ton": "noir",
+    "format": "suite",
+    "serie": "histoiresfruite-moustiques"
+  },
+  "mecaniques": [
+    {
+      "id": "suite_partie_n",
+      "variante": null,
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

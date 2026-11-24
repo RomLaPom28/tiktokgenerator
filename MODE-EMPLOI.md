@@ -31,7 +31,7 @@
 ## Dossiers
 - `projets/<id>/` : un projet = une vidéo unique ou une série (personnages, décors, saison, épisodes, prompts, vidéo finale).
   `projets/la-ferme/` = la 1re série (Gérard, Vanessa…), avec sa page téléphone (`/studio`).
-- `bible/` : commun à tous les projets : `histoires.json` (banque d'histoires à 1 M+ que /creer remixe), `recettes.md` + `concepts.json` (analyses), `conformite.json` (règles TikTok),
+- `bible/` : commun à tous les projets : `histoires.json` (banque d'histoires à 1 M+ que /creer remixe), `recettes.md` + `concepts.json` (analyses), `mecaniques.json` (registre des mécaniques consolidées avec preuves, confiance et limites ; rapport `analyses/MECANIQUES.md` régénéré par `python3 outils/mecaniques.py`), `conformite.json` (règles TikTok),
   `realisation.json` (cadrages, caméras, lumières, types d'accroche et de fin).
 - `analyses/`, `sources/` : vidéos TikTok analysées. `outils/` : scripts. `musique/` : mp3 libres de droits.
 

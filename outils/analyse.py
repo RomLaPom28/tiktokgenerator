@@ -6,6 +6,7 @@ Usage :
 
 Un lien de vidéo (…/video/123) = cette vidéo.
 Un lien de compte (…/@nom) = ses 5 vidéos les plus vues (option --top N).
+    python outils/analyse.py --releve-comptes   # relève les vues récentes des comptes déjà analysés
 
 Pour chaque vidéo, crée analyses/<id>/ :
     meta.json        vues, likes, commentaires, partages, durée, description
@@ -13,18 +14,22 @@ Pour chaque vidéo, crée analyses/<id>/ :
     plans.json       temps de chaque coupe, durée moyenne des plans
     planche.jpg      une image par plan, numérotée, avec son temps
     brut.json        tout réuni pour la fiche d'analyse
+Et analyses/_comptes/<compte>.json : vues des 60 dernières vidéos du compte (performance relative).
+Ensuite : Claude écrit fiche.md + mecaniques.json, puis `python3 outils/mecaniques.py` (voir /analyser).
 """
 import argparse
 import json
 import re
 import subprocess
 import sys
+from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from commun import ANALYSES, SOURCES, duree, ecrire_json, police, run, whisper, a_un_son  # noqa: E402
 
 VIDEOS = SOURCES / "videos"
+COMPTES = ANALYSES / "_comptes"
 YTDLP = [sys.executable, "-m", "yt_dlp", "--no-warnings", "--quiet"]
 
 
@@ -39,11 +44,28 @@ def lister_liens(args):
             if l.strip() and not l.strip().startswith("#")]
 
 
-def depuis_compte(url, top):
-    """Renvoie les URLs des vidéos les plus vues d'un compte."""
+def releve_compte(url):
+    """Vues des 60 dernières vidéos d'un compte -> analyses/_comptes/<compte>.json (référence de performance relative).
+    Sans ce relevé, mecaniques.py compare seulement aux vidéos analysées du compte (top vues : biaisé)."""
     out = run(YTDLP + ["--flat-playlist", "-J", "--playlist-end", "60", url])
     data = json.loads(out[out.index("{"):])
     entrees = [e for e in data.get("entries", []) if e]
+    vues = sorted(e["view_count"] for e in entrees if e.get("view_count") is not None)
+    compte = (data.get("uploader") or data.get("channel") or url.rstrip("/").split("@")[-1]).lstrip("@")
+    if vues:
+        COMPTES.mkdir(parents=True, exist_ok=True)
+        ecrire_json(COMPTES / f"{compte}.json", {
+            "compte": compte, "date": date.today().isoformat(), "n": len(vues),
+            "mediane_vues": vues[len(vues) // 2] if len(vues) % 2 else (vues[len(vues) // 2 - 1] + vues[len(vues) // 2]) / 2,
+            "abonnes": data.get("channel_follower_count"),
+            "videos": [{"id": e.get("id"), "vues": e.get("view_count")} for e in entrees],
+        })
+    return entrees
+
+
+def depuis_compte(url, top):
+    """Renvoie les URLs des vidéos les plus vues d'un compte (et enregistre son relevé de vues)."""
+    entrees = releve_compte(url)
     entrees.sort(key=lambda e: e.get("view_count") or 0, reverse=True)
     return [e.get("url") or e.get("webpage_url") for e in entrees[:top]]
 
@@ -147,13 +169,21 @@ def analyser(url):
         "description": info.get("description") or info.get("title"),
         "vues": info.get("view_count"), "likes": info.get("like_count"),
         "commentaires": info.get("comment_count"), "partages": info.get("repost_count"),
+        "favoris": info.get("save_count"),  # absent selon la version de yt-dlp : reste null, jamais estimé
+        "abonnes": info.get("channel_follower_count"),
         "date": info.get("upload_date"), "duree": round(total, 1),
         "musique": info.get("track") or info.get("artist"),
     }
     if meta["vues"]:
-        meta["taux_likes"] = round((meta["likes"] or 0) / meta["vues"] * 100, 2)
-        meta["taux_commentaires"] = round((meta["commentaires"] or 0) / meta["vues"] * 100, 3)
+        for k in ("likes", "commentaires", "partages", "favoris"):  # donnée absente = pas de taux
+            if meta[k] is not None:
+                meta[f"taux_{k}"] = round(meta[k] / meta["vues"] * 100, 2 if k == "likes" else 3)
     ecrire_json(dos / "meta.json", meta)
+    if meta["compte"] and not (COMPTES / f"{meta['compte']}.json").exists():
+        try:  # référence de performance relative ; facultatif
+            releve_compte(f"https://www.tiktok.com/@{meta['compte']}")
+        except (SystemExit, ValueError):
+            print(f"   (relevé du compte {meta['compte']} impossible : performance relative sur le corpus seulement)")
 
     if a_un_son(mp4):
         wav = dos / "_audio.wav"
@@ -196,7 +226,18 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("urls", nargs="*")
     ap.add_argument("--top", type=int, default=5, help="vidéos par compte")
+    ap.add_argument("--releve-comptes", action="store_true",
+                    help="relève les vues récentes de chaque compte déjà analysé (référence de performance relative)")
     args = ap.parse_args()
+    if args.releve_comptes:
+        comptes = sorted({json.loads(f.read_text(encoding="utf-8")).get("compte") for f in ANALYSES.glob("*/meta.json")} - {None})
+        for c in comptes:
+            try:
+                n = len(releve_compte(f"https://www.tiktok.com/@{c}"))
+                print(f"compte {c} : {n} vidéos relevées")
+            except (SystemExit, ValueError):
+                print(f"compte {c} : relevé impossible")
+        return
     liens = []
     for u in lister_liens(args):
         if "/video/" in u or "vm.tiktok" in u or "vt.tiktok" in u:

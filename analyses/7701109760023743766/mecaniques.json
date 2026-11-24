@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "famille",
+    "ton": "drame",
+    "format": "episode_long",
+    "serie": null
+  },
+  "mecaniques": [
+    {
+      "id": "ironie_dramatique",
+      "variante": "identite_cachee",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "sport",
+    "ton": "drame",
+    "format": "partie_1",
+    "serie": null
+  },
+  "mecaniques": [
+    {
+      "id": "humiliation_injuste",
+      "variante": "chouchou_parent",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "coupure_avant_payoff",
+      "variante": "menace_annoncee",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

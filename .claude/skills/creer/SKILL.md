@@ -20,6 +20,7 @@ Lire d'abord (obligatoire) :
 - `bible/histoires.json` : `squelettes` (histoires à 1 M+ décomposées), `greffes` (briques transplantables), `grille_gros`.
 - Pour les 2-3 squelettes envisagés : leur `analyses/<id>/transcript.json` (le vrai déroulé, pour sentir le rythme et la cruauté du méchant).
 - `bible/recettes.md`, `bible/concepts.json` (`regles_generiques` : prénoms, univers inventé), `bible/conformite.json`.
+- `bible/mecaniques.json` : mécaniques consolidées avec confiance et signal (`preuves`). Privilégier celles de confiance élevée ; ne jamais présenter une mécanique comme « ce qui fait les vues » (corrélation seulement).
 - `projets/*/projet.json` : les univers déjà faits (ne pas refaire le même domaine que l'un des 3 derniers).
 
 **2a · Fabriquer 12 pitchs EN INTERNE (non montrés).** Chaque pitch =

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "fantastique",
+    "ton": "noir",
+    "format": "partie_1",
+    "serie": "skibi-diable"
+  },
+  "mecaniques": [
+    {
+      "id": "regle_du_monde",
+      "variante": "pacte",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "verifie": true,
+  "source": "fiche v2 (transcription complète + planche), 24/11/2026",
+  "contexte": {
+    "domaine": "couple",
+    "ton": "drame",
+    "format": "partie_1",
+    "serie": "cine-masque"
+  },
+  "mecaniques": [
+    {
+      "id": "ironie_dramatique",
+      "variante": "aveu_0s",
+      "t": "0-11 s",
+      "preuve": "Image 0 s : elle tient le masque, belle, lui dort derrière ; 1re phrase = le secret et le but du test."
+    },
+    {
+      "id": "epreuve_verdict",
+      "variante": "test_amour",
+      "t": "6-9 s puis 80-89 s",
+      "preuve": "Question « m'aime-t-il pour ce que je suis ? » posée à 6 s, tranchée à 85 s quand il choisit sa femme contre le poste."
+    },
+    {
+      "id": "retenue_volontaire",
+      "variante": "test_en_cours",
+      "t": "9-15 s",
+      "preuve": "« Encore une journée de test » : justifie qu'elle encaisse les insultes."
+    },
+    {
+      "id": "humiliation_injuste",
+      "variante": "mepris_apparence",
+      "t": "49-92 s",
+      "preuve": "Patron et assistante l'humilient en public, escalade jusqu'à l'ultimatum."
+    },
+    {
+      "id": "coupure_avant_payoff",
+      "variante": "vous_voulez_voir",
+      "t": "99-104 s",
+      "preuve": "Mains sur le masque, « vous allez le regretter », coupure ; la suite (7707325113615568160) paye à 0 s."
+    }
+  ],
+  "absentes_notables": [
+    {
+      "id": "chiffre_ecran",
+      "note": "aucun chiffre : l'enjeu (promotion) reste abstrait"
+    },
+    {
+      "id": "temoin_reaction",
+      "note": "l'assistante réagit (75 s) mais pas de plan témoin court après chaque réplique-choc"
+    }
+  ]
+}

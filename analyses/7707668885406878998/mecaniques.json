@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "lycee",
+    "ton": "drame",
+    "format": "partie_1",
+    "serie": "fdg-kais"
+  },
+  "mecaniques": [
+    {
+      "id": "style_muet",
+      "variante": null,
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "ironie_dramatique",
+      "variante": "identite_cachee",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "proche_en_danger",
+      "variante": "frere_menace",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "humiliation_injuste",
+      "variante": null,
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "coupure_avant_payoff",
+      "variante": "vous_voulez_voir",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

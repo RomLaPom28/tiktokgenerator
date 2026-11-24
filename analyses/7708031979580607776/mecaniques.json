@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "couple",
+    "ton": "drame",
+    "format": "suite",
+    "serie": "squishh-combinaison"
+  },
+  "mecaniques": [
+    {
+      "id": "suite_partie_n",
+      "variante": null,
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "ironie_dramatique",
+      "variante": "aveu_0s",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

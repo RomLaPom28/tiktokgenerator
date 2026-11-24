@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "verifie": true,
+  "source": "dissection.md (lecture complète)",
+  "contexte": {
+    "domaine": "travail",
+    "ton": "drame",
+    "format": "suite",
+    "serie": "onlyfrubidi-ouvrier"
+  },
+  "mecaniques": [
+    {
+      "id": "suite_partie_n",
+      "variante": "reprise_exacte",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "renversement_statut",
+      "variante": "callback",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

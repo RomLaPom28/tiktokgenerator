@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "fantastique",
+    "ton": "drame",
+    "format": "episode_long",
+    "serie": null
+  },
+  "mecaniques": [
+    {
+      "id": "regle_du_monde",
+      "variante": "rite",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "humiliation_injuste",
+      "variante": null,
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "renversement_statut",
+      "variante": "transformation",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "epreuve_verdict",
+      "variante": "concours",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}
