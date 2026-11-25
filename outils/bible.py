@@ -58,11 +58,14 @@ REGLES_GROK = ("Règles : animation 3D cartoon identique à l'image (mêmes pers
                "visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique.")
 
 
-def _texte(plan):
+def _texte(plan, b=None):
+    reels = bool(b and b.projet.get("maillots_reels"))  # projet.json : vrais maillots/écussons validés par l'utilisateur
+    logos = ("seuls logos autorisés : ceux des vrais maillots et du club décrits ci-dessus." if reels
+             else "aucun vrai logo.")
     if plan.get("texte_decor"):
         return (f"Seul texte visible, écrit lisiblement et sans faute dans le décor : {plan['texte_decor']}. "
-                "Aucun sous-titre, aucune bulle, aucun vrai logo.")
-    return "Aucun texte, aucun sous-titre, aucune bulle, aucun logo."
+                f"Aucun sous-titre, aucune bulle, {logos}")
+    return f"Aucun texte, aucun sous-titre, aucune bulle, {logos if reels else 'aucun logo.'}"
 
 
 def _persos(b, persos):
@@ -89,7 +92,7 @@ def prompt_image(b, plan, fin=False):
         morceaux.append(_phrase(src["detail_image"]).rstrip(".") + ".")
     morceaux += [f"STYLE : {b.style}", QUALITE_IMAGE,
                  "Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de "
-                 "référence et les images précédentes. Format vertical 9:16.", _texte(plan)]
+                 "référence et les images précédentes. Format vertical 9:16.", _texte(plan, b)]
     return " ".join(morceaux)
 
 
@@ -154,7 +157,8 @@ def ouverture_chatgpt(b, ep):
             "Aucun sous-titre ni bulle ; le seul texte autorisé est celui que je décris dans le décor "
             "(tableau d'affichage, banderole, maillot), écrit sans faute.\n\n"
             f"STYLE : {b.style}\n\n"
-            f"PERSONNAGES DE CET ÉPISODE (looks fixes) :\n{fiches}\n\n"
+            + (f"MAILLOTS : {b.projet['maillots_reels']}\n\n" if b.projet.get("maillots_reels") else "")
+            + f"PERSONNAGES DE CET ÉPISODE (looks fixes) :\n{fiches}\n\n"
             "Si je joins des images de référence, ce sont ces personnages : respecte-les à la lettre.\n"
             "Je vais t'envoyer \"Image 1 : …\", \"Image 2 : …\". Pour chaque message, génère uniquement l'image "
             "demandée, sans commentaire. Réponds juste OK à ce message."), refs
@@ -168,4 +172,5 @@ def prompt_portrait(b, pid):
             f"expression typique de son caractère ({x.get('caractere', '')}), fond uni dégradé chaud, lumière studio douce. "
             f"Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux "
             f"brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. "
-            f"STYLE : {b.style} Vertical 9:16, aucun texte, aucun logo.")
+            f"STYLE : {b.style} Vertical 9:16, aucun texte"
+            + (" en dehors des écussons et sponsors des vrais maillots." if b.projet.get("maillots_reels") else ", aucun logo."))

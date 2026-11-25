@@ -8,6 +8,7 @@
     9,
     9
   ],
-  "exceptions": "Validé par l'utilisateur : le PSG est nommé dans les dialogues et « PARIS » dans le décor. Jamais d'écusson, de sponsor, de logo ni de vrai joueur : maillot ressemblant (bleu marine à bande rouge centrale) mais sans aucun signe officiel.",
-  "cree": "2026-11-25"
+  "exceptions": "Validé par l'utilisateur le 25/11/2026 : vrais maillots, écusson et sponsor du Paris Saint-Germain (risque de demande de retrait par le club expliqué et accepté). Jamais de vrai joueur ni de vrai dirigeant : personnages inventés. L'US Pont-Rouge reste un club inventé.",
+  "cree": "2026-11-25",
+  "maillots_reels": "Le club de Paris est le vrai Paris Saint-Germain. Avant la première image, fais une recherche sur le maillot domicile actuel du PSG et reproduis-le fidèlement à chaque fois : bleu marine avec la bande verticale rouge bordée de blanc au centre, l'écusson officiel du PSG sur le cœur, le logo de l'équipementier et le sponsor maillot actuel. Même chose pour le survêtement officiel du staff et la doudoune officielle du club. L'US Pont-Rouge est un club amateur inventé : maillot vert bouteille délavé sans sponsor, avec juste « US PONT-ROUGE » brodé."
 }

@@ -1,6 +1,6 @@
 {
   "_lisez_moi": "ADN = description copiée MOT POUR MOT dans chaque prompt image où le personnage apparaît. voix = copiée mot pour mot dans chaque prompt Grok.",
-  "style": "Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers du foot français d'aujourd'hui : centre de formation ultra-moderne de Paris aux couleurs bleu marine et rouge, petit club de banlieue boueux en vert délavé, abribus sous la pluie, remplis de figurants animaux. Tenues sans aucun écusson, sponsor ni logo.",
+  "style": "Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers du foot français d'aujourd'hui : centre de formation ultra-moderne du Paris Saint-Germain avec les vrais maillots et écussons du PSG, petit club de banlieue boueux en vert délavé, abribus sous la pluie, remplis de figurants animaux. Le PSG porte ses vrais maillots officiels (écusson, équipementier, sponsor) ; l'US Pont-Rouge est un club inventé sans sponsor.",
   "personnages": [
     {
       "id": "nathan",
@@ -9,7 +9,7 @@
       "adn": "Nathan, jeune loup de 17 ans au pelage gris clair, oreille gauche entaillée en V, yeux ambre perçants, fin bracelet en fil rouge au poignet droit",
       "tenues": {
         "base": "survêtement gris délavé trop grand, vieilles baskets blanches rafistolées au scotch",
-        "essai": "chasuble jaune fluo avec un grand numéro 47 noir sur un t-shirt blanc, short noir, vieux crampons noirs recousus",
+        "essai": "chasuble d'entraînement jaune fluo du centre de formation du PSG avec un petit écusson du PSG et un grand numéro 47 noir, t-shirt blanc, short noir, vieux crampons noirs recousus",
         "pont_rouge": "maillot vert bouteille délavé de l'US Pont-Rouge numéro 47, trop grand, short blanc taché de boue"
       },
       "voix": "voix de garçon de 17 ans, grave pour son âge, calme et tranchante, léger accent de banlieue parisienne",
@@ -30,7 +30,7 @@
       "animal": "loup",
       "adn": "Stéphane, grand loup de 48 ans au pelage noir aux tempes argentées, yeux ambre perçants, mâchoire carrée, fine cicatrice blanche en travers du museau, vieux bracelet en fil rouge usé au poignet droit",
       "tenues": {
-        "base": "long manteau bleu marine, polo bleu marine à fine bande rouge sans logo, badge plastifié « DIRECTEUR » autour du cou, montre dorée"
+        "base": "long manteau bleu marine officiel du PSG avec l'écusson du PSG sur la poitrine, survêtement officiel du staff du Paris Saint-Germain, badge plastifié « DIRECTEUR » autour du cou, montre dorée"
       },
       "voix": "voix d'homme de 48 ans, grave et glaciale, détache chaque syllabe, ne crie que pour humilier",
       "caractere": "directeur tout-puissant du centre de formation, méprisant, ne montre jamais une émotion en public",
@@ -50,8 +50,8 @@
       "animal": "lion",
       "adn": "Dylan, jeune lion de 17 ans au pelage blanc crème, crinière blonde gominée en crête, petit diamant à l'oreille droite, sourire arrogant",
       "tenues": {
-        "base": "maillot bleu marine avec une large bande verticale rouge au centre, bordée de deux fines bandes blanches, col rond bleu marine, sans écusson, sans sponsor, sans aucun logo, grand numéro 10 blanc dans le dos, short bleu marine, chaîne en or",
-        "ville": "doudoune courte bleu marine brillante sans logo, casquette blanche, chaîne en or"
+        "base": "vrai maillot domicile actuel du Paris Saint-Germain (bleu marine, bande verticale rouge bordée de blanc, écusson du PSG, équipementier et sponsor officiels) floqué « DYLAN » et numéro 10, short bleu marine du PSG, chaîne en or",
+        "ville": "doudoune officielle bleu marine du Paris Saint-Germain avec l'écusson du PSG, casquette blanche, chaîne en or"
       },
       "voix": "voix d'ado de 17 ans, traînante et moqueuse, rire nasal",
       "caractere": "la star du centre de formation, chambreur, lâche quand il est seul",
