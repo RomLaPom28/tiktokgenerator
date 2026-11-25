@@ -1,0 +1,766 @@
+{
+  "numero": 1,
+  "titre": "Le club racheté",
+  "format": "arrivée d'un nouveau",
+  "accroche_type": "insulte choc",
+  "cliff_type": "choix impossible",
+  "centre": "leo",
+  "texte_accroche": "Un influenceur rachète leur club",
+  "question_milieu": {
+    "plan": 5,
+    "texte": "Team Jordan ou team Léo ? 🦊 / ⚽"
+  },
+  "vote_question": "Inès, on peut lui faire confiance ?",
+  "moteur": {
+    "desir": "Léo, capitaine de l'AS Les Hirondelles, veut garder son club et le terrain où il a grandi.",
+    "injustice": "Jordan, influenceur à 8,4 M d'abonnés, rachète le club, le renomme JORDAN FC, vire le coach Patrick en direct, donne le brassard à son neveu nul, puis renie son propre défi après la lucarne de Léo et le vire.",
+    "antagoniste": "Jordan, renard influenceur qui parle à sa caméra, traite les gamins de figurants et ne tient jamais parole.",
+    "enjeu_chiffre": "8,4 M d'abonnés, 200 000 en live, 30 ans de club, démolition samedi.",
+    "force_cachee": "La lucarne de Léo devant 200 000 personnes (victoire au milieu) ; le chat du live est de son côté ; Inès change de camp.",
+    "payoff": "Épisode 3 : Léo bat Jordan FC devant son propre live et lui renvoie « figurant ». Dès l'épisode 1, Inès retourne le mot contre lui.",
+    "callback": "figurant",
+    "kicker": "Jordan veut raser le terrain samedi pour un padel, et c'est sa propre camerawoman qui le balance."
+  },
+  "fils_avances": [
+    "padel",
+    "defi"
+  ],
+  "revele": [],
+  "reprend": "",
+  "resume": "Jordan, influenceur à 8,4 M d'abonnés, rachète en live le club de la cité, le renomme JORDAN FC, vire le coach Patrick et donne le brassard à son neveu Mathis. Léo met une lucarne pour récupérer le brassard, Jordan renie sa parole et le vire. Inès, sa camerawoman, révèle qu'il va raser le terrain samedi pour un padel. Léo le défie : match samedi.",
+  "fin": "Devant la pelleteuse, Jordan en live : « Et si vous perdez ? »",
+  "recettes_utilisees": [
+    "Montée puis chute (lucarne puis renvoi)",
+    "Antagoniste à détester avec phrase-signature (figurant)",
+    "Témoin choqué après la réplique-choc",
+    "Gros chiffre lisible à l'écran",
+    "Question au milieu",
+    "Le succès qui tourne en live (chat du live)"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "role": "accroche",
+      "duree": 6,
+      "lieu": "terrain_cite",
+      "lumiere": "jour",
+      "cadrage": "TGP",
+      "angle": "contre_plongee",
+      "camera": "crash_zoom",
+      "persos": [
+        {
+          "id": "jordan",
+          "jeu": "se filme en gros plan avec sa perche à selfie, sourire éclatant et méprisant, lunettes dorées sur la tête"
+        },
+        {
+          "id": "leo",
+          "jeu": "juste derrière lui, bras croisés, brassard jaune de capitaine au bras, un sourcil levé"
+        },
+        {
+          "id": "sofiane",
+          "jeu": "à côté de Léo, sandwich à la patte, bouche grande ouverte"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Jordan se filme et pointe les gamins derrière lui du pouce",
+          "camera": "crash_zoom",
+          "son": "notification de live"
+        },
+        {
+          "t": "2-4",
+          "action": "Léo se penche dans le champ de la caméra de Jordan",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "4-6",
+          "action": "Sofiane manque de s'étouffer de rire avec son sandwich",
+          "camera": "secousse",
+          "son": "« ouhhh » de la foule"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.6",
+          "parle": "jordan",
+          "emotion": "mielleux puis cinglant, face à sa caméra",
+          "texte": "Le club est à moi. Vous, vous êtes des figurants.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.8-5.0",
+          "parle": "leo",
+          "emotion": "calme, un sourcil levé",
+          "texte": "Figurant ? Même ton filtre joue mieux que toi.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "5.1-5.9",
+          "parle": "sofiane",
+          "emotion": "hilare",
+          "texte": "La dinguerie !",
+          "fonction": "reaction"
+        }
+      ],
+      "texte_ecran": "VOUS ÊTES DES FIGURANTS"
+    },
+    {
+      "n": 2,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "terrain_cite",
+      "lumiere": "jour",
+      "cadrage": "PE",
+      "angle": "face",
+      "camera": "travelling_lateral",
+      "persos": [
+        {
+          "id": "jordan",
+          "jeu": "tire d'un coup sec sur une corde, le vieux panneau du club tombe, il se filme en riant"
+        },
+        {
+          "id": "patrick",
+          "jeu": "accourt furieux, sifflet rouge dans la gueule, bajoues qui tremblent"
+        }
+      ],
+      "texte_decor": "le vieux panneau « AS LES HIRONDELLES · DEPUIS 1994 » tombe et révèle une banderole dorée « JORDAN FC · 8,4 M D'ABONNÉS »",
+      "fin": {
+        "cadrage": "PR",
+        "persos": [
+          {
+            "id": "patrick",
+            "jeu": "sifflet qui tombe de sa gueule, bajoues pendantes, sonné"
+          },
+          {
+            "id": "jordan",
+            "jeu": "claque des doigts devant le museau de Patrick, sourire de vainqueur"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Jordan tire sur la corde, le vieux panneau du club tombe dans un nuage de poussière",
+          "son": "fracas de bois"
+        },
+        {
+          "t": "3-5",
+          "action": "Patrick arrive en courant et lui crie dessus",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "5-7",
+          "action": "Jordan lui répond sans lâcher sa caméra",
+          "camera": "suivi_course"
+        },
+        {
+          "t": "7-10",
+          "action": "Jordan claque des doigts devant le museau de Patrick, la foule fait « OHHH »",
+          "camera": "crash_zoom",
+          "son": "claquement de doigts, « OHHH »"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.3",
+          "parle": "patrick",
+          "emotion": "rauque, hors de lui",
+          "texte": "Trente ans que j'entraîne ici gratuit !",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.5-4.3",
+          "parle": "jordan",
+          "emotion": "faussement désolé",
+          "texte": "Gratuit ? Voilà pourquoi t'as rien.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "4.5-6.2",
+          "parle": "patrick",
+          "emotion": "grogne",
+          "texte": "Ici c'est des gamins, pas des likes.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "6.4-8.0",
+          "parle": "jordan",
+          "emotion": "tout sourire",
+          "texte": "Les gamins, ça fait des likes.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "8.2-9.8",
+          "parle": "jordan",
+          "emotion": "sec, à sa caméra",
+          "texte": "Patrick, t'es viré. En direct.",
+          "fonction": "menace"
+        }
+      ],
+      "texte_ecran": "VIRÉ EN DIRECT"
+    },
+    {
+      "n": 3,
+      "role": "retournement",
+      "duree": 6,
+      "lieu": "terrain_cite",
+      "lumiere": "jour",
+      "cadrage": "PA",
+      "angle": "plongee",
+      "camera": "whip_pan",
+      "persos": [
+        {
+          "id": "jordan",
+          "jeu": "retire le brassard jaune du bras de Léo et l'enfile sur Mathis, en se filmant"
+        },
+        {
+          "id": "mathis",
+          "jeu": "minuscule, brassard qui glisse jusqu'au poignet, regarde son oncle avec des yeux énormes"
+        },
+        {
+          "id": "leo",
+          "jeu": "laisse faire, mâchoire serrée, un sourcil levé"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Jordan arrache le brassard de Léo et le passe à Mathis",
+          "camera": "whip_pan",
+          "son": "scratch de velcro"
+        },
+        {
+          "t": "3-6",
+          "action": "le brassard glisse du bras de Mathis jusqu'à son poignet, Léo soupire",
+          "camera": "crash_zoom",
+          "son": "petit « bloop » comique"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "parle": "jordan",
+          "emotion": "fier, à sa caméra",
+          "texte": "Le brassard, c'est pour mon neveu.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "1.9-3.6",
+          "parle": "mathis",
+          "emotion": "naïf, tout petit",
+          "texte": "Je le mets à quel pied ?",
+          "fonction": "reaction"
+        },
+        {
+          "t": "3.7-5.8",
+          "parle": "leo",
+          "emotion": "pince-sans-rire",
+          "texte": "Au bras, Mathis. Comme une montre.",
+          "fonction": "riposte"
+        }
+      ],
+      "texte_ecran": "LE NEVEU CAPITAINE 😭"
+    },
+    {
+      "n": 4,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "terrain_cite",
+      "lumiere": "fin_journee",
+      "cadrage": "PE",
+      "angle": "dos",
+      "camera": "ralenti",
+      "persos": [
+        {
+          "id": "leo",
+          "jeu": "de dos au premier plan, pose le ballon face au but, pinceaux des oreilles dressés"
+        },
+        {
+          "id": "mathis",
+          "jeu": "dans les buts, gants trop grands, genoux qui tremblent"
+        },
+        {
+          "id": "jordan",
+          "jeu": "au bord, se filme avec la perche, sourire narquois"
+        }
+      ],
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {
+            "id": "sofiane",
+            "jeu": "derrière le grillage, bras levés, hurle de joie, sandwich qui vole"
+          },
+          {
+            "id": "mathis",
+            "jeu": "au fond, à plat ventre du mauvais côté, le ballon dans la lucarne derrière lui"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Léo pose le ballon et fixe Jordan",
+          "son": "ballon qui tape le sol"
+        },
+        {
+          "t": "3-5",
+          "action": "Jordan accepte le défi devant sa caméra",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "5-7",
+          "action": "Léo frappe, le ballon file en pleine lucarne",
+          "camera": "ralenti",
+          "son": "frappe sèche, filet qui claque"
+        },
+        {
+          "t": "7-10",
+          "action": "Mathis plonge du mauvais côté, Sofiane explose de joie derrière le grillage",
+          "camera": "secousse",
+          "son": "« OHHH » de toute la cité"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.2",
+          "parle": "leo",
+          "emotion": "tranquille",
+          "texte": "Un tir. Lucarne, je garde le brassard.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.4-4.4",
+          "parle": "jordan",
+          "emotion": "ricane",
+          "texte": "Deal. Devant deux cent mille personnes.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "4.6-5.6",
+          "parle": "mathis",
+          "emotion": "terrifié",
+          "texte": "Tonton…",
+          "fonction": "reaction"
+        },
+        {
+          "t": "7.0-8.0",
+          "parle": "sofiane",
+          "emotion": "hurle",
+          "texte": "LUCARNE !",
+          "fonction": "reaction"
+        },
+        {
+          "t": "8.2-9.8",
+          "parle": "sofiane",
+          "emotion": "plié de rire",
+          "texte": "Mathis plonge… dans l'autre sens !",
+          "fonction": "attaque"
+        }
+      ],
+      "texte_ecran": "LUCARNE"
+    },
+    {
+      "n": 5,
+      "role": "temoin",
+      "duree": 6,
+      "lieu": "van_jordan",
+      "lumiere": "neon",
+      "cadrage": "GP",
+      "angle": "profil",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "jordan",
+          "jeu": "assis devant ses écrans, remet ses lunettes dorées, refuse de regarder Léo"
+        },
+        {
+          "id": "leo",
+          "jeu": "dans l'encadrement de la porte coulissante, tend la patte pour récupérer le brassard"
+        }
+      ],
+      "texte_decor": "sur les écrans du van : « 200 000 EN LIVE » et un chat qui défile « LÉO A RAISON » « RENDS LE BRASSARD »",
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Léo ouvre la porte du van d'un coup",
+          "camera": "whip_pan",
+          "son": "porte coulissante qui claque"
+        },
+        {
+          "t": "3-6",
+          "action": "Jordan remet ses lunettes dorées, le chat défile en rafale derrière lui",
+          "camera": "crash_zoom",
+          "son": "notifications en rafale"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "parle": "leo",
+          "emotion": "calme, la patte tendue",
+          "texte": "Lucarne. Le brassard, il est à moi.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.1-4.1",
+          "parle": "jordan",
+          "emotion": "sans le regarder",
+          "texte": "J'ai dit deal. J'ai pas dit oui.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "4.3-5.9",
+          "parle": "leo",
+          "emotion": "un sourcil levé",
+          "texte": "T'es un menteur en direct, frérot.",
+          "fonction": "attaque"
+        }
+      ],
+      "texte_ecran": "IL RENIE SA PAROLE"
+    },
+    {
+      "n": 6,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "van_jordan",
+      "lumiere": "neon",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "panoramique",
+      "persos": [
+        {
+          "id": "jordan",
+          "jeu": "se lève, se plante devant Léo, sourire glacial"
+        },
+        {
+          "id": "leo",
+          "jeu": "ne recule pas, pinceaux des oreilles dressés"
+        },
+        {
+          "id": "ines",
+          "jeu": "au fond du van, caméra à l'épaule, filme sans un mot"
+        }
+      ],
+      "texte_decor": "sur l'écran principal, un gros bouton rouge « BANNIR » sous le nom « LÉO »",
+      "fin": {
+        "cadrage": "TGP",
+        "persos": [
+          {
+            "id": "jordan",
+            "jeu": "appuie sur le bouton rouge avec un sourire de vainqueur"
+          },
+          {
+            "id": "ines",
+            "jeu": "baisse lentement sa caméra, regard dur vers Jordan"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Jordan se lève et se plante devant Léo",
+          "son": "grincement du canapé"
+        },
+        {
+          "t": "3-5",
+          "action": "Léo répond sans reculer",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "5-7",
+          "action": "Jordan pointe l'écran derrière lui",
+          "camera": "panoramique"
+        },
+        {
+          "t": "7-10",
+          "action": "Jordan claque des doigts vers Inès, Inès baisse lentement sa caméra",
+          "camera": "crash_zoom",
+          "son": "claquement de doigts, bip"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.1",
+          "parle": "jordan",
+          "emotion": "glacial",
+          "texte": "Je suis pas menteur. Je suis propriétaire.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "2.3-3.9",
+          "parle": "leo",
+          "emotion": "moqueur",
+          "texte": "Propriétaire d'un ring light, ouais.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "4.1-5.9",
+          "parle": "jordan",
+          "emotion": "triomphant",
+          "texte": "Et du club. Et de ton terrain.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "6.2-7.8",
+          "parle": "jordan",
+          "emotion": "claque des doigts",
+          "texte": "Léo, t'es viré. Bannis-le, Inès.",
+          "fonction": "menace"
+        },
+        {
+          "t": "8.0-9.0",
+          "parle": "ines",
+          "emotion": "à voix basse",
+          "texte": "…Sérieux ?",
+          "fonction": "reaction"
+        }
+      ],
+      "texte_ecran": "LÉO VIRÉ"
+    },
+    {
+      "n": 7,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "vestiaire_cite",
+      "lumiere": "nuit_lampe",
+      "cadrage": "AMORCE",
+      "angle": "face",
+      "camera": "fixe",
+      "persos": [
+        {
+          "id": "patrick",
+          "jeu": "range les coupes en plastique dans un carton, dos voûté"
+        },
+        {
+          "id": "leo",
+          "tenue": "ville",
+          "jeu": "en amorce, sac sur l'épaule, regard dur"
+        },
+        {
+          "id": "sofiane",
+          "jeu": "assis sur le banc, gants énormes sur les genoux, mange un paquet de chips, yeux humides"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Patrick pose la dernière coupe dans le carton",
+          "son": "néon qui grésille"
+        },
+        {
+          "t": "3-6",
+          "action": "Sofiane renifle bruyamment et tend un chips à Patrick",
+          "camera": "whip_pan",
+          "son": "craquement de chips"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "parle": "patrick",
+          "emotion": "voix cassée",
+          "texte": "C'est fini, les gars. Il a gagné.",
+          "fonction": "aveu"
+        },
+        {
+          "t": "2.2-3.8",
+          "parle": "leo",
+          "emotion": "ferme",
+          "texte": "Toi, tu lâches jamais. Jamais.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "4.0-5.8",
+          "parle": "sofiane",
+          "emotion": "renifle, la bouche pleine",
+          "texte": "Et qui va m'engueuler le samedi ?",
+          "fonction": "reaction"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "vestiaire_cite",
+      "lumiere": "nuit_lampe",
+      "cadrage": "GP",
+      "angle": "debullee",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "ines",
+          "jeu": "dans l'encadrement de la porte, caméra baissée, tend une tablette"
+        },
+        {
+          "id": "leo",
+          "tenue": "ville",
+          "jeu": "se retourne d'un coup, méfiant"
+        },
+        {
+          "id": "sofiane",
+          "jeu": "se lève du banc, chips à la patte"
+        }
+      ],
+      "texte_decor": "sur la tablette, un plan d'architecte « JORDAN PADEL ARENA » posé sur le terrain, et en rouge « DÉMOLITION : SAMEDI »",
+      "fin": {
+        "cadrage": "TGP",
+        "persos": [
+          {
+            "id": "sofiane",
+            "jeu": "mâchoire qui tombe jusqu'au sol, paquet de chips qui explose en l'air"
+          },
+          {
+            "id": "leo",
+            "jeu": "regard dur, pinceaux des oreilles dressés"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Inès entre sans bruit et tend la tablette",
+          "son": "porte qui grince"
+        },
+        {
+          "t": "3-5",
+          "action": "Léo et Sofiane se penchent sur l'écran",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "5-7",
+          "action": "gros plan sur le mot DÉMOLITION",
+          "camera": "zoom_dramatique",
+          "son": "battement de cœur"
+        },
+        {
+          "t": "7-10",
+          "action": "le paquet de chips de Sofiane explose en l'air",
+          "camera": "secousse",
+          "son": "explosion de chips"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-1.9",
+          "parle": "ines",
+          "emotion": "à voix basse",
+          "texte": "Il s'en fiche du foot.",
+          "fonction": "revelation"
+        },
+        {
+          "t": "2.1-3.6",
+          "parle": "ines",
+          "emotion": "sèche",
+          "texte": "Il veut votre terrain.",
+          "fonction": "revelation"
+        },
+        {
+          "t": "3.8-5.0",
+          "parle": "sofiane",
+          "emotion": "choqué",
+          "texte": "Pour faire quoi ?!",
+          "fonction": "reaction"
+        },
+        {
+          "t": "5.2-6.4",
+          "parle": "ines",
+          "emotion": "glaciale",
+          "texte": "Du padel. Samedi.",
+          "fonction": "revelation"
+        },
+        {
+          "t": "6.6-7.8",
+          "parle": "leo",
+          "emotion": "méfiant",
+          "texte": "Pourquoi tu nous aides ?",
+          "fonction": "attaque"
+        },
+        {
+          "t": "8.0-9.8",
+          "parle": "ines",
+          "emotion": "regard droit",
+          "texte": "Moi aussi, je suis une figurante.",
+          "fonction": "riposte"
+        }
+      ],
+      "texte_ecran": "DÉMOLITION SAMEDI"
+    },
+    {
+      "n": 9,
+      "role": "cliff",
+      "duree": 6,
+      "lieu": "terrain_cite",
+      "lumiere": "nuit_lune",
+      "cadrage": "PT",
+      "angle": "face",
+      "camera": "plongee_drone",
+      "persos": [
+        {
+          "id": "jordan",
+          "jeu": "en live devant une pelleteuse jaune garée sur le terrain, perche à selfie, sourire carnassier"
+        },
+        {
+          "id": "leo",
+          "jeu": "entre dans le cadre derrière lui, poings serrés, pinceaux des oreilles dressés"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Jordan se filme devant la pelleteuse, phares allumés",
+          "camera": "plongee_drone",
+          "son": "moteur de pelleteuse"
+        },
+        {
+          "t": "3-6",
+          "action": "Léo entre dans le champ, Jordan se retourne lentement en souriant, coupure sèche",
+          "camera": "crash_zoom",
+          "son": "silence net"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "parle": "jordan",
+          "emotion": "à sa caméra, ravi",
+          "texte": "Samedi, on rase tout. En live.",
+          "fonction": "menace"
+        },
+        {
+          "t": "2.2-4.0",
+          "parle": "leo",
+          "emotion": "froid",
+          "texte": "Samedi, match. On gagne, tu dégages.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "4.2-5.8",
+          "parle": "jordan",
+          "emotion": "sourire carnassier",
+          "texte": "Et si vous perdez ?",
+          "fonction": "riposte"
+        }
+      ],
+      "texte_ecran": "PARTIE 2 ?"
+    }
+  ],
+  "titre_couverture": "VOUS ÊTES DES FIGURANTS",
+  "legende": "Un influenceur à 8,4 M rachète le club de la cité… et veut raser le terrain 😤 Partie 1",
+  "hashtags": [
+    "#partie1",
+    "#foot",
+    "#cité",
+    "#influenceur",
+    "#histoire",
+    "#animation"
+  ],
+  "commentaire_epingle": "Inès, on peut lui faire confiance ? 🤝 oui / 🐍 non",
+  "hooks_alternatifs": [
+    "Ton club ? Je l'ai acheté ce matin. Entre deux stories.",
+    "Trente ans de club. Je l'ai payé moins cher que ma montre.",
+    "À partir d'aujourd'hui, le capitaine, c'est mon neveu."
+  ]
+}

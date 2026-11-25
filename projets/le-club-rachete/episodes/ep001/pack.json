@@ -1,0 +1,378 @@
+{
+  "id": "ep001",
+  "numero": 1,
+  "titre": "Le club racheté",
+  "resume": "Jordan, influenceur à 8,4 M d'abonnés, rachète en live le club de la cité, le renomme JORDAN FC, vire le coach Patrick et donne le brassard à son neveu Mathis. Léo met une lucarne pour récupérer le brassard, Jordan renie sa parole et le vire. Inès, sa camerawoman, révèle qu'il va raser le terrain samedi pour un padel. Léo le défie : match samedi.",
+  "projet": "le-club-rachete",
+  "projet_titre": "Le club racheté",
+  "type": "serie",
+  "portraits": [
+    {
+      "id": "leo",
+      "nom": "Léo",
+      "ref": "refs/leo.png",
+      "prompt": "Fiche de référence personnage : Léo, jeune lynx de 17 ans au pelage gris clair, oreilles terminées par des pinceaux noirs, yeux verts perçants, fine cicatrice au sourcil gauche, maillot bleu ciel délavé de l'AS Les Hirondelles avec une hirondelle brodée, short blanc, chaussettes bleu ciel, numéro 10. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (capitaine calme, répartie qui tue, protège les petits du club), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "jordan",
+      "nom": "Jordan",
+      "ref": "refs/jordan.png",
+      "prompt": "Fiche de référence personnage : Jordan, renard roux de 33 ans au sourire aux dents blanches éclatantes, fine moustache taillée, lunettes de soleil dorées remontées sur la tête, perche à selfie toujours à la patte, survêtement en velours doré brodé « JORDAN » dans le dos, grosse chaîne dorée, baskets blanches immaculées. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (influenceur milliardaire, parle à sa caméra en permanence, achète tout, ne tient jamais parole), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "sofiane",
+      "nom": "Sofiane",
+      "ref": "refs/sofiane.png",
+      "prompt": "Fiche de référence personnage : Sofiane, jeune hippopotame de 17 ans gris rosé, énorme sourire avec les dents du bonheur, bandeau éponge rouge sur le front, maillot de gardien vert fluo trop serré, gants de gardien énormes, short blanc. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (gardien gourmand et drôle, dit tout haut ce que tout le monde pense, fidèle à Léo), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "patrick",
+      "nom": "Patrick",
+      "ref": "refs/patrick.png",
+      "prompt": "Fiche de référence personnage : Patrick, vieux bouledogue de 62 ans aux grosses bajoues tombantes, sourcils gris broussailleux, casquette bleu ciel délavée, sifflet rouge autour du cou, vieux survêtement bleu ciel des années 90 brodé d'une hirondelle, usé aux coudes. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (coach bénévole depuis 30 ans, bourru au cœur tendre), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "mathis",
+      "nom": "Mathis",
+      "ref": "refs/mathis.png",
+      "prompt": "Fiche de référence personnage : Mathis, minuscule chihuahua de 15 ans aux yeux énormes et humides, appareil dentaire, oreilles géantes, maillot doré brillant « JORDAN FC » trois tailles trop grand, crampons fluo orange trop grands, gants de gardien. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (neveu de Jordan, gentil, nul au foot, ne comprend rien), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "ines",
+      "nom": "Inès",
+      "ref": "refs/ines.png",
+      "prompt": "Fiche de référence personnage : Inès, jeune chatte siamoise de 26 ans au pelage crème et masque brun, carré noir lisse, grands yeux bleus, casque audio autour du cou, sweat noir « STAFF JORDAN » en lettres dorées, grosse caméra professionnelle sur l'épaule. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (camerawoman de Jordan, voit tout, ne dit rien, jusqu'à ce soir), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Vertical 9:16, aucun texte, aucun logo."
+    }
+  ],
+  "ouverture": "Tu vas générer les images d'une vidéo. Toutes les images : format vertical 9:16, même style, mêmes personnages avec EXACTEMENT les mêmes visages, couleurs et accessoires d'une image à l'autre. Aucun sous-titre ni bulle ; le seul texte autorisé est celui que je décris dans le décor (tableau d'affichage, banderole, maillot), écrit sans faute.\n\nSTYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo.\n\nPERSONNAGES DE CET ÉPISODE (looks fixes) :\n- Léo, jeune lynx de 17 ans au pelage gris clair, oreilles terminées par des pinceaux noirs, yeux verts perçants, fine cicatrice au sourcil gauche. Tenues : maillot bleu ciel délavé de l'AS Les Hirondelles avec une hirondelle brodée, short blanc, chaussettes bleu ciel, numéro 10 / sweat à capuche gris, sac de sport sur l'épaule.\n- Jordan, renard roux de 33 ans au sourire aux dents blanches éclatantes, fine moustache taillée, lunettes de soleil dorées remontées sur la tête, perche à selfie toujours à la patte. Tenue : survêtement en velours doré brodé « JORDAN » dans le dos, grosse chaîne dorée, baskets blanches immaculées.\n- Sofiane, jeune hippopotame de 17 ans gris rosé, énorme sourire avec les dents du bonheur, bandeau éponge rouge sur le front. Tenue : maillot de gardien vert fluo trop serré, gants de gardien énormes, short blanc.\n- Patrick, vieux bouledogue de 62 ans aux grosses bajoues tombantes, sourcils gris broussailleux, casquette bleu ciel délavée, sifflet rouge autour du cou. Tenue : vieux survêtement bleu ciel des années 90 brodé d'une hirondelle, usé aux coudes.\n- Mathis, minuscule chihuahua de 15 ans aux yeux énormes et humides, appareil dentaire, oreilles géantes. Tenue : maillot doré brillant « JORDAN FC » trois tailles trop grand, crampons fluo orange trop grands, gants de gardien.\n- Inès, jeune chatte siamoise de 26 ans au pelage crème et masque brun, carré noir lisse, grands yeux bleus, casque audio autour du cou. Tenue : sweat noir « STAFF JORDAN » en lettres dorées, grosse caméra professionnelle sur l'épaule.\n\nSi je joins des images de référence, ce sont ces personnages : respecte-les à la lettre.\nJe vais t'envoyer \"Image 1 : …\", \"Image 2 : …\". Pour chaque message, génère uniquement l'image demandée, sans commentaire. Réponds juste OK à ce message.",
+  "refs": [
+    "refs/jordan.png",
+    "refs/leo.png",
+    "refs/sofiane.png",
+    "refs/patrick.png",
+    "refs/mathis.png",
+    "refs/ines.png"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "duree": 6,
+      "role": "accroche",
+      "titre": "Terrain de la cité · TGP",
+      "dialogues": [
+        {
+          "t": "0.2-2.6",
+          "qui": "Jordan",
+          "texte": "Le club est à moi. Vous, vous êtes des figurants."
+        },
+        {
+          "t": "2.8-5.0",
+          "qui": "Léo",
+          "texte": "Figurant ? Même ton filtre joue mieux que toi."
+        },
+        {
+          "t": "5.1-5.9",
+          "qui": "Sofiane",
+          "texte": "La dinguerie !"
+        }
+      ],
+      "replique": "Le club est à moi. Vous, vous êtes des figurants. Figurant ? Même ton filtre joue mieux que toi. La dinguerie !",
+      "parle": "jordan",
+      "texte_ecran": "VOUS ÊTES DES FIGURANTS",
+      "image": "Image 1 : très gros plan sur le visage, les yeux remplissent le cadre, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : petit terrain synthétique usé au pied de hautes tours de cité, grillage tordu, buts aux filets troués, vieux panneau peint à la main « AS LES HIRONDELLES · DEPUIS 1994 », ring lights et drones d'influenceur installés au bord, une foule de gamins et de voisins animaux aux balcons et derrière le grillage qui filment avec leurs téléphones. Lumière : lumière naturelle de jour, ombres nettes. Jordan, renard roux de 33 ans au sourire aux dents blanches éclatantes, fine moustache taillée, lunettes de soleil dorées remontées sur la tête, perche à selfie toujours à la patte, survêtement en velours doré brodé « JORDAN » dans le dos, grosse chaîne dorée, baskets blanches immaculées : se filme en gros plan avec sa perche à selfie, sourire éclatant et méprisant, lunettes dorées sur la tête. Léo, jeune lynx de 17 ans au pelage gris clair, oreilles terminées par des pinceaux noirs, yeux verts perçants, fine cicatrice au sourcil gauche, maillot bleu ciel délavé de l'AS Les Hirondelles avec une hirondelle brodée, short blanc, chaussettes bleu ciel, numéro 10 : juste derrière lui, bras croisés, brassard jaune de capitaine au bras, un sourcil levé. Sofiane, jeune hippopotame de 17 ans gris rosé, énorme sourire avec les dents du bonheur, bandeau éponge rouge sur le front, maillot de gardien vert fluo trop serré, gants de gardien énormes, short blanc : à côté de Léo, sandwich à la patte, bouche grande ouverte. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Jordan se filme et pointe les gamins derrière lui du pouce. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : notification de live.\n[0.2-2.6s] JORDAN (voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe, mielleux puis cinglant, face à sa caméra) dit en français : « Le club est à moi. Vous, vous êtes des figurants. »\n[2-4s] Léo se penche dans le champ de la caméra de Jordan. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant.\n[2.8-5.0s] LÉO (voix de garçon de 17 ans, posée et piquante, accent de banlieue parisienne, ne crie jamais, calme, un sourcil levé) dit en français : « Figurant ? Même ton filtre joue mieux que toi. »\n[4-6s] Sofiane manque de s'étouffer de rire avec son sandwich. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : « ouhhh » de la foule.\n[5.1-5.9s] SOFIANE (voix de garçon de 17 ans, grave et tonitruante, rit fort, accent de banlieue parisienne, hilare) dit en français : « La dinguerie ! »\nAmbiance sonore : cris d'enfants, drone qui bourdonne, rires des balcons, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 2,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Terrain de la cité · PE",
+      "dialogues": [
+        {
+          "t": "0.3-2.3",
+          "qui": "Patrick",
+          "texte": "Trente ans que j'entraîne ici gratuit !"
+        },
+        {
+          "t": "2.5-4.3",
+          "qui": "Jordan",
+          "texte": "Gratuit ? Voilà pourquoi t'as rien."
+        },
+        {
+          "t": "4.5-6.2",
+          "qui": "Patrick",
+          "texte": "Ici c'est des gamins, pas des likes."
+        },
+        {
+          "t": "6.4-8.0",
+          "qui": "Jordan",
+          "texte": "Les gamins, ça fait des likes."
+        },
+        {
+          "t": "8.2-9.8",
+          "qui": "Jordan",
+          "texte": "Patrick, t'es viré. En direct."
+        }
+      ],
+      "replique": "Trente ans que j'entraîne ici gratuit ! Gratuit ? Voilà pourquoi t'as rien. Ici c'est des gamins, pas des likes. Les gamins, ça fait des likes. Patrick, t'es viré. En direct.",
+      "parle": "patrick",
+      "texte_ecran": "VIRÉ EN DIRECT",
+      "image": "Image 2 : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra à hauteur des yeux. Décor : petit terrain synthétique usé au pied de hautes tours de cité, grillage tordu, buts aux filets troués, vieux panneau peint à la main « AS LES HIRONDELLES · DEPUIS 1994 », ring lights et drones d'influenceur installés au bord, une foule de gamins et de voisins animaux aux balcons et derrière le grillage qui filment avec leurs téléphones. Lumière : lumière naturelle de jour, ombres nettes. Jordan, renard roux de 33 ans au sourire aux dents blanches éclatantes, fine moustache taillée, lunettes de soleil dorées remontées sur la tête, perche à selfie toujours à la patte, survêtement en velours doré brodé « JORDAN » dans le dos, grosse chaîne dorée, baskets blanches immaculées : tire d'un coup sec sur une corde, le vieux panneau du club tombe, il se filme en riant. Patrick, vieux bouledogue de 62 ans aux grosses bajoues tombantes, sourcils gris broussailleux, casquette bleu ciel délavée, sifflet rouge autour du cou, vieux survêtement bleu ciel des années 90 brodé d'une hirondelle, usé aux coudes : accourt furieux, sifflet rouge dans la gueule, bajoues qui tremblent. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : le vieux panneau « AS LES HIRONDELLES · DEPUIS 1994 » tombe et révèle une banderole dorée « JORDAN FC · 8,4 M D'ABONNÉS ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 2 FIN (dernière image du plan, quelques secondes plus tard) : plan rapproché, de la tête à la poitrine, caméra à hauteur des yeux. Décor : petit terrain synthétique usé au pied de hautes tours de cité, grillage tordu, buts aux filets troués, vieux panneau peint à la main « AS LES HIRONDELLES · DEPUIS 1994 », ring lights et drones d'influenceur installés au bord, une foule de gamins et de voisins animaux aux balcons et derrière le grillage qui filment avec leurs téléphones. Lumière : lumière naturelle de jour, ombres nettes. Patrick, vieux bouledogue de 62 ans aux grosses bajoues tombantes, sourcils gris broussailleux, casquette bleu ciel délavée, sifflet rouge autour du cou, vieux survêtement bleu ciel des années 90 brodé d'une hirondelle, usé aux coudes : sifflet qui tombe de sa gueule, bajoues pendantes, sonné. Jordan, renard roux de 33 ans au sourire aux dents blanches éclatantes, fine moustache taillée, lunettes de soleil dorées remontées sur la tête, perche à selfie toujours à la patte, survêtement en velours doré brodé « JORDAN » dans le dos, grosse chaîne dorée, baskets blanches immaculées : claque des doigts devant le museau de Patrick, sourire de vainqueur. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : le vieux panneau « AS LES HIRONDELLES · DEPUIS 1994 » tombe et révèle une banderole dorée « JORDAN FC · 8,4 M D'ABONNÉS ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Jordan tire sur la corde, le vieux panneau du club tombe dans un nuage de poussière. Bruitage : fracas de bois.\n[0.3-2.3s] PATRICK (voix d'homme de 62 ans, rauque et forte, phrases courtes comme des coups de sifflet, rauque, hors de lui) dit en français : « Trente ans que j'entraîne ici gratuit ! »\n[2.5-4.3s] JORDAN (voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe, faussement désolé) dit en français : « Gratuit ? Voilà pourquoi t'as rien. »\n[3-5s] Patrick arrive en courant et lui crie dessus. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant.\n[4.5-6.2s] PATRICK (voix d'homme de 62 ans, rauque et forte, phrases courtes comme des coups de sifflet, grogne) dit en français : « Ici c'est des gamins, pas des likes. »\n[5-7s] Jordan lui répond sans lâcher sa caméra. Caméra : caméra qui court au ras du sol avec le personnage.\n[6.4-8.0s] JORDAN (voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe, tout sourire) dit en français : « Les gamins, ça fait des likes. »\n[7-10s] Jordan claque des doigts devant le museau de Patrick, la foule fait « OHHH ». Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : claquement de doigts, « OHHH ».\n[8.2-9.8s] JORDAN (voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe, sec, à sa caméra) dit en français : « Patrick, t'es viré. En direct. »\nAmbiance sonore : cris d'enfants, drone qui bourdonne, rires des balcons, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 3,
+      "duree": 6,
+      "role": "retournement",
+      "titre": "Terrain de la cité · PA",
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "qui": "Jordan",
+          "texte": "Le brassard, c'est pour mon neveu."
+        },
+        {
+          "t": "1.9-3.6",
+          "qui": "Mathis",
+          "texte": "Je le mets à quel pied ?"
+        },
+        {
+          "t": "3.7-5.8",
+          "qui": "Léo",
+          "texte": "Au bras, Mathis. Comme une montre."
+        }
+      ],
+      "replique": "Le brassard, c'est pour mon neveu. Je le mets à quel pied ? Au bras, Mathis. Comme une montre.",
+      "parle": "jordan",
+      "texte_ecran": "LE NEVEU CAPITAINE 😭",
+      "image": "Image 3 : plan américain, de la tête aux genoux, caméra en plongée, au-dessus, qui écrase le personnage. Décor : petit terrain synthétique usé au pied de hautes tours de cité, grillage tordu, buts aux filets troués, vieux panneau peint à la main « AS LES HIRONDELLES · DEPUIS 1994 », ring lights et drones d'influenceur installés au bord, une foule de gamins et de voisins animaux aux balcons et derrière le grillage qui filment avec leurs téléphones. Lumière : lumière naturelle de jour, ombres nettes. Jordan, renard roux de 33 ans au sourire aux dents blanches éclatantes, fine moustache taillée, lunettes de soleil dorées remontées sur la tête, perche à selfie toujours à la patte, survêtement en velours doré brodé « JORDAN » dans le dos, grosse chaîne dorée, baskets blanches immaculées : retire le brassard jaune du bras de Léo et l'enfile sur Mathis, en se filmant. Mathis, minuscule chihuahua de 15 ans aux yeux énormes et humides, appareil dentaire, oreilles géantes, maillot doré brillant « JORDAN FC » trois tailles trop grand, crampons fluo orange trop grands, gants de gardien : minuscule, brassard qui glisse jusqu'au poignet, regarde son oncle avec des yeux énormes. Léo, jeune lynx de 17 ans au pelage gris clair, oreilles terminées par des pinceaux noirs, yeux verts perçants, fine cicatrice au sourcil gauche, maillot bleu ciel délavé de l'AS Les Hirondelles avec une hirondelle brodée, short blanc, chaussettes bleu ciel, numéro 10 : laisse faire, mâchoire serrée, un sourcil levé. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Jordan arrache le brassard de Léo et le passe à Mathis. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : scratch de velcro.\n[0.2-1.8s] JORDAN (voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe, fier, à sa caméra) dit en français : « Le brassard, c'est pour mon neveu. »\n[1.9-3.6s] MATHIS (voix de garçon de 15 ans, aiguë et tremblante, sincèrement naïf, naïf, tout petit) dit en français : « Je le mets à quel pied ? »\n[3-6s] Le brassard glisse du bras de Mathis jusqu'à son poignet, Léo soupire. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : petit « bloop » comique.\n[3.7-5.8s] LÉO (voix de garçon de 17 ans, posée et piquante, accent de banlieue parisienne, ne crie jamais, pince-sans-rire) dit en français : « Au bras, Mathis. Comme une montre. »\nAmbiance sonore : cris d'enfants, drone qui bourdonne, rires des balcons, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 4,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Terrain de la cité · PE",
+      "dialogues": [
+        {
+          "t": "0.3-2.2",
+          "qui": "Léo",
+          "texte": "Un tir. Lucarne, je garde le brassard."
+        },
+        {
+          "t": "2.4-4.4",
+          "qui": "Jordan",
+          "texte": "Deal. Devant deux cent mille personnes."
+        },
+        {
+          "t": "4.6-5.6",
+          "qui": "Mathis",
+          "texte": "Tonton…"
+        },
+        {
+          "t": "7.0-8.0",
+          "qui": "Sofiane",
+          "texte": "LUCARNE !"
+        },
+        {
+          "t": "8.2-9.8",
+          "qui": "Sofiane",
+          "texte": "Mathis plonge… dans l'autre sens !"
+        }
+      ],
+      "replique": "Un tir. Lucarne, je garde le brassard. Deal. Devant deux cent mille personnes. Tonton… LUCARNE ! Mathis plonge… dans l'autre sens !",
+      "parle": "leo",
+      "texte_ecran": "LUCARNE",
+      "image": "Image 4 : plan d'ensemble qui montre tout le décor et les personnages en pied, personnage vu de dos. Décor : petit terrain synthétique usé au pied de hautes tours de cité, grillage tordu, buts aux filets troués, vieux panneau peint à la main « AS LES HIRONDELLES · DEPUIS 1994 », ring lights et drones d'influenceur installés au bord, une foule de gamins et de voisins animaux aux balcons et derrière le grillage qui filment avec leurs téléphones. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Léo, jeune lynx de 17 ans au pelage gris clair, oreilles terminées par des pinceaux noirs, yeux verts perçants, fine cicatrice au sourcil gauche, maillot bleu ciel délavé de l'AS Les Hirondelles avec une hirondelle brodée, short blanc, chaussettes bleu ciel, numéro 10 : de dos au premier plan, pose le ballon face au but, pinceaux des oreilles dressés. Mathis, minuscule chihuahua de 15 ans aux yeux énormes et humides, appareil dentaire, oreilles géantes, maillot doré brillant « JORDAN FC » trois tailles trop grand, crampons fluo orange trop grands, gants de gardien : dans les buts, gants trop grands, genoux qui tremblent. Jordan, renard roux de 33 ans au sourire aux dents blanches éclatantes, fine moustache taillée, lunettes de soleil dorées remontées sur la tête, perche à selfie toujours à la patte, survêtement en velours doré brodé « JORDAN » dans le dos, grosse chaîne dorée, baskets blanches immaculées : au bord, se filme avec la perche, sourire narquois. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 4 FIN (dernière image du plan, quelques secondes plus tard) : gros plan sur le visage et le haut des épaules, personnage vu de dos. Décor : petit terrain synthétique usé au pied de hautes tours de cité, grillage tordu, buts aux filets troués, vieux panneau peint à la main « AS LES HIRONDELLES · DEPUIS 1994 », ring lights et drones d'influenceur installés au bord, une foule de gamins et de voisins animaux aux balcons et derrière le grillage qui filment avec leurs téléphones. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Sofiane, jeune hippopotame de 17 ans gris rosé, énorme sourire avec les dents du bonheur, bandeau éponge rouge sur le front, maillot de gardien vert fluo trop serré, gants de gardien énormes, short blanc : derrière le grillage, bras levés, hurle de joie, sandwich qui vole. Mathis, minuscule chihuahua de 15 ans aux yeux énormes et humides, appareil dentaire, oreilles géantes, maillot doré brillant « JORDAN FC » trois tailles trop grand, crampons fluo orange trop grands, gants de gardien : au fond, à plat ventre du mauvais côté, le ballon dans la lucarne derrière lui. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Léo pose le ballon et fixe Jordan. Bruitage : ballon qui tape le sol.\n[0.3-2.2s] LÉO (voix de garçon de 17 ans, posée et piquante, accent de banlieue parisienne, ne crie jamais, tranquille) dit en français : « Un tir. Lucarne, je garde le brassard. »\n[2.4-4.4s] JORDAN (voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe, ricane) dit en français : « Deal. Devant deux cent mille personnes. »\n[3-5s] Jordan accepte le défi devant sa caméra. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant.\n[4.6-5.6s] MATHIS (voix de garçon de 15 ans, aiguë et tremblante, sincèrement naïf, terrifié) dit en français : « Tonton… »\n[5-7s] Léo frappe, le ballon file en pleine lucarne. Caméra : ralenti dramatique d'une seconde puis reprise à vitesse normale. Bruitage : frappe sèche, filet qui claque.\n[7-10s] Mathis plonge du mauvais côté, Sofiane explose de joie derrière le grillage. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : « OHHH » de toute la cité.\n[7.0-8.0s] SOFIANE (voix de garçon de 17 ans, grave et tonitruante, rit fort, accent de banlieue parisienne, hurle) dit en français : « LUCARNE ! »\n[8.2-9.8s] SOFIANE (voix de garçon de 17 ans, grave et tonitruante, rit fort, accent de banlieue parisienne, plié de rire) dit en français : « Mathis plonge… dans l'autre sens ! »\nAmbiance sonore : cris d'enfants, drone qui bourdonne, rires des balcons, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 5,
+      "duree": 6,
+      "role": "temoin",
+      "titre": "Van doré de Jordan · GP",
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "qui": "Léo",
+          "texte": "Lucarne. Le brassard, il est à moi."
+        },
+        {
+          "t": "2.1-4.1",
+          "qui": "Jordan",
+          "texte": "J'ai dit deal. J'ai pas dit oui."
+        },
+        {
+          "t": "4.3-5.9",
+          "qui": "Léo",
+          "texte": "T'es un menteur en direct, frérot."
+        }
+      ],
+      "replique": "Lucarne. Le brassard, il est à moi. J'ai dit deal. J'ai pas dit oui. T'es un menteur en direct, frérot.",
+      "parle": "leo",
+      "texte_ecran": "IL RENIE SA PAROLE",
+      "image": "Image 5 : gros plan sur le visage et le haut des épaules, personnage de profil. Décor : intérieur d'un van doré transformé en studio de live, anneau lumineux, trois écrans où défile un chat de commentaires, mur en velours doré avec « JORDAN » en lettres lumineuses, canapé blanc, porte coulissante ouverte sur la cité. Lumière : néons froids avec touches de couleur. Jordan, renard roux de 33 ans au sourire aux dents blanches éclatantes, fine moustache taillée, lunettes de soleil dorées remontées sur la tête, perche à selfie toujours à la patte, survêtement en velours doré brodé « JORDAN » dans le dos, grosse chaîne dorée, baskets blanches immaculées : assis devant ses écrans, remet ses lunettes dorées, refuse de regarder Léo. Léo, jeune lynx de 17 ans au pelage gris clair, oreilles terminées par des pinceaux noirs, yeux verts perçants, fine cicatrice au sourcil gauche, maillot bleu ciel délavé de l'AS Les Hirondelles avec une hirondelle brodée, short blanc, chaussettes bleu ciel, numéro 10 : dans l'encadrement de la porte coulissante, tend la patte pour récupérer le brassard. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur les écrans du van : « 200 000 EN LIVE » et un chat qui défile « LÉO A RAISON » « RENDS LE BRASSARD ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Léo ouvre la porte du van d'un coup. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : porte coulissante qui claque.\n[0.2-2.0s] LÉO (voix de garçon de 17 ans, posée et piquante, accent de banlieue parisienne, ne crie jamais, calme, la patte tendue) dit en français : « Lucarne. Le brassard, il est à moi. »\n[2.1-4.1s] JORDAN (voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe, sans le regarder) dit en français : « J'ai dit deal. J'ai pas dit oui. »\n[3-6s] Jordan remet ses lunettes dorées, le chat défile en rafale derrière lui. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : notifications en rafale.\n[4.3-5.9s] LÉO (voix de garçon de 17 ans, posée et piquante, accent de banlieue parisienne, ne crie jamais, un sourcil levé) dit en français : « T'es un menteur en direct, frérot. »\nAmbiance sonore : notifications en rafale, ventilateur d'ordinateur, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 6,
+      "duree": 10,
+      "role": "retournement",
+      "titre": "Van doré de Jordan · PR",
+      "dialogues": [
+        {
+          "t": "0.3-2.1",
+          "qui": "Jordan",
+          "texte": "Je suis pas menteur. Je suis propriétaire."
+        },
+        {
+          "t": "2.3-3.9",
+          "qui": "Léo",
+          "texte": "Propriétaire d'un ring light, ouais."
+        },
+        {
+          "t": "4.1-5.9",
+          "qui": "Jordan",
+          "texte": "Et du club. Et de ton terrain."
+        },
+        {
+          "t": "6.2-7.8",
+          "qui": "Jordan",
+          "texte": "Léo, t'es viré. Bannis-le, Inès."
+        },
+        {
+          "t": "8.0-9.0",
+          "qui": "Inès",
+          "texte": "…Sérieux ?"
+        }
+      ],
+      "replique": "Je suis pas menteur. Je suis propriétaire. Propriétaire d'un ring light, ouais. Et du club. Et de ton terrain. Léo, t'es viré. Bannis-le, Inès. …Sérieux ?",
+      "parle": "jordan",
+      "texte_ecran": "LÉO VIRÉ",
+      "image": "Image 6 : plan rapproché, de la tête à la poitrine, caméra à hauteur des yeux. Décor : intérieur d'un van doré transformé en studio de live, anneau lumineux, trois écrans où défile un chat de commentaires, mur en velours doré avec « JORDAN » en lettres lumineuses, canapé blanc, porte coulissante ouverte sur la cité. Lumière : néons froids avec touches de couleur. Jordan, renard roux de 33 ans au sourire aux dents blanches éclatantes, fine moustache taillée, lunettes de soleil dorées remontées sur la tête, perche à selfie toujours à la patte, survêtement en velours doré brodé « JORDAN » dans le dos, grosse chaîne dorée, baskets blanches immaculées : se lève, se plante devant Léo, sourire glacial. Léo, jeune lynx de 17 ans au pelage gris clair, oreilles terminées par des pinceaux noirs, yeux verts perçants, fine cicatrice au sourcil gauche, maillot bleu ciel délavé de l'AS Les Hirondelles avec une hirondelle brodée, short blanc, chaussettes bleu ciel, numéro 10 : ne recule pas, pinceaux des oreilles dressés. Inès, jeune chatte siamoise de 26 ans au pelage crème et masque brun, carré noir lisse, grands yeux bleus, casque audio autour du cou, sweat noir « STAFF JORDAN » en lettres dorées, grosse caméra professionnelle sur l'épaule : au fond du van, caméra à l'épaule, filme sans un mot. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur l'écran principal, un gros bouton rouge « BANNIR » sous le nom « LÉO ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 6 FIN (dernière image du plan, quelques secondes plus tard) : très gros plan sur le visage, les yeux remplissent le cadre, caméra à hauteur des yeux. Décor : intérieur d'un van doré transformé en studio de live, anneau lumineux, trois écrans où défile un chat de commentaires, mur en velours doré avec « JORDAN » en lettres lumineuses, canapé blanc, porte coulissante ouverte sur la cité. Lumière : néons froids avec touches de couleur. Jordan, renard roux de 33 ans au sourire aux dents blanches éclatantes, fine moustache taillée, lunettes de soleil dorées remontées sur la tête, perche à selfie toujours à la patte, survêtement en velours doré brodé « JORDAN » dans le dos, grosse chaîne dorée, baskets blanches immaculées : appuie sur le bouton rouge avec un sourire de vainqueur. Inès, jeune chatte siamoise de 26 ans au pelage crème et masque brun, carré noir lisse, grands yeux bleus, casque audio autour du cou, sweat noir « STAFF JORDAN » en lettres dorées, grosse caméra professionnelle sur l'épaule : baisse lentement sa caméra, regard dur vers Jordan. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur l'écran principal, un gros bouton rouge « BANNIR » sous le nom « LÉO ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Jordan se lève et se plante devant Léo. Bruitage : grincement du canapé.\n[0.3-2.1s] JORDAN (voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe, glacial) dit en français : « Je suis pas menteur. Je suis propriétaire. »\n[2.3-3.9s] LÉO (voix de garçon de 17 ans, posée et piquante, accent de banlieue parisienne, ne crie jamais, moqueur) dit en français : « Propriétaire d'un ring light, ouais. »\n[3-5s] Léo répond sans reculer. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant.\n[4.1-5.9s] JORDAN (voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe, triomphant) dit en français : « Et du club. Et de ton terrain. »\n[5-7s] Jordan pointe l'écran derrière lui. Caméra : panoramique qui passe d'un personnage à l'autre.\n[6.2-7.8s] JORDAN (voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe, claque des doigts) dit en français : « Léo, t'es viré. Bannis-le, Inès. »\n[7-10s] Jordan claque des doigts vers Inès, Inès baisse lentement sa caméra. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : claquement de doigts, bip.\n[8.0-9.0s] INÈS (voix de femme de 26 ans, calme et sèche, parle bas, à voix basse) dit en français : « …Sérieux ? »\nAmbiance sonore : notifications en rafale, ventilateur d'ordinateur, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 7,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Vestiaire de l'AS Les Hirondelles · AMORCE",
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "qui": "Patrick",
+          "texte": "C'est fini, les gars. Il a gagné."
+        },
+        {
+          "t": "2.2-3.8",
+          "qui": "Léo",
+          "texte": "Toi, tu lâches jamais. Jamais."
+        },
+        {
+          "t": "4.0-5.8",
+          "qui": "Sofiane",
+          "texte": "Et qui va m'engueuler le samedi ?"
+        }
+      ],
+      "replique": "C'est fini, les gars. Il a gagné. Toi, tu lâches jamais. Jamais. Et qui va m'engueuler le samedi ?",
+      "parle": "patrick",
+      "texte_ecran": "",
+      "image": "Image 7 : plan par-dessus l'épaule d'un personnage flou au premier plan, vers celui qui parle, caméra à hauteur des yeux. Décor : petit vestiaire en béton peint bleu ciel écaillé, photos d'équipes encadrées depuis 1994 au mur, coupes en plastique sur une étagère, maillots bleu ciel suspendus, néon qui clignote. Lumière : nuit, une seule lampe chaude, fortes ombres. Patrick, vieux bouledogue de 62 ans aux grosses bajoues tombantes, sourcils gris broussailleux, casquette bleu ciel délavée, sifflet rouge autour du cou, vieux survêtement bleu ciel des années 90 brodé d'une hirondelle, usé aux coudes : range les coupes en plastique dans un carton, dos voûté. Léo, jeune lynx de 17 ans au pelage gris clair, oreilles terminées par des pinceaux noirs, yeux verts perçants, fine cicatrice au sourcil gauche, sweat à capuche gris, sac de sport sur l'épaule : en amorce, sac sur l'épaule, regard dur. Sofiane, jeune hippopotame de 17 ans gris rosé, énorme sourire avec les dents du bonheur, bandeau éponge rouge sur le front, maillot de gardien vert fluo trop serré, gants de gardien énormes, short blanc : assis sur le banc, gants énormes sur les genoux, mange un paquet de chips, yeux humides. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Patrick pose la dernière coupe dans le carton. Bruitage : néon qui grésille.\n[0.2-2.0s] PATRICK (voix d'homme de 62 ans, rauque et forte, phrases courtes comme des coups de sifflet, voix cassée) dit en français : « C'est fini, les gars. Il a gagné. »\n[2.2-3.8s] LÉO (voix de garçon de 17 ans, posée et piquante, accent de banlieue parisienne, ne crie jamais, ferme) dit en français : « Toi, tu lâches jamais. Jamais. »\n[3-6s] Sofiane renifle bruyamment et tend un chips à Patrick. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : craquement de chips.\n[4.0-5.8s] SOFIANE (voix de garçon de 17 ans, grave et tonitruante, rit fort, accent de banlieue parisienne, renifle, la bouche pleine) dit en français : « Et qui va m'engueuler le samedi ? »\nAmbiance sonore : néon qui grésille, robinet qui goutte, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 8,
+      "duree": 10,
+      "role": "retournement",
+      "titre": "Vestiaire de l'AS Les Hirondelles · GP",
+      "dialogues": [
+        {
+          "t": "0.3-1.9",
+          "qui": "Inès",
+          "texte": "Il s'en fiche du foot."
+        },
+        {
+          "t": "2.1-3.6",
+          "qui": "Inès",
+          "texte": "Il veut votre terrain."
+        },
+        {
+          "t": "3.8-5.0",
+          "qui": "Sofiane",
+          "texte": "Pour faire quoi ?!"
+        },
+        {
+          "t": "5.2-6.4",
+          "qui": "Inès",
+          "texte": "Du padel. Samedi."
+        },
+        {
+          "t": "6.6-7.8",
+          "qui": "Léo",
+          "texte": "Pourquoi tu nous aides ?"
+        },
+        {
+          "t": "8.0-9.8",
+          "qui": "Inès",
+          "texte": "Moi aussi, je suis une figurante."
+        }
+      ],
+      "replique": "Il s'en fiche du foot. Il veut votre terrain. Pour faire quoi ?! Du padel. Samedi. Pourquoi tu nous aides ? Moi aussi, je suis une figurante.",
+      "parle": "ines",
+      "texte_ecran": "DÉMOLITION SAMEDI",
+      "image": "Image 8 : gros plan sur le visage et le haut des épaules, cadre légèrement penché pour le malaise. Décor : petit vestiaire en béton peint bleu ciel écaillé, photos d'équipes encadrées depuis 1994 au mur, coupes en plastique sur une étagère, maillots bleu ciel suspendus, néon qui clignote. Lumière : nuit, une seule lampe chaude, fortes ombres. Inès, jeune chatte siamoise de 26 ans au pelage crème et masque brun, carré noir lisse, grands yeux bleus, casque audio autour du cou, sweat noir « STAFF JORDAN » en lettres dorées, grosse caméra professionnelle sur l'épaule : dans l'encadrement de la porte, caméra baissée, tend une tablette. Léo, jeune lynx de 17 ans au pelage gris clair, oreilles terminées par des pinceaux noirs, yeux verts perçants, fine cicatrice au sourcil gauche, sweat à capuche gris, sac de sport sur l'épaule : se retourne d'un coup, méfiant. Sofiane, jeune hippopotame de 17 ans gris rosé, énorme sourire avec les dents du bonheur, bandeau éponge rouge sur le front, maillot de gardien vert fluo trop serré, gants de gardien énormes, short blanc : se lève du banc, chips à la patte. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur la tablette, un plan d'architecte « JORDAN PADEL ARENA » posé sur le terrain, et en rouge « DÉMOLITION : SAMEDI ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 8 FIN (dernière image du plan, quelques secondes plus tard) : très gros plan sur le visage, les yeux remplissent le cadre, cadre légèrement penché pour le malaise. Décor : petit vestiaire en béton peint bleu ciel écaillé, photos d'équipes encadrées depuis 1994 au mur, coupes en plastique sur une étagère, maillots bleu ciel suspendus, néon qui clignote. Lumière : nuit, une seule lampe chaude, fortes ombres. Sofiane, jeune hippopotame de 17 ans gris rosé, énorme sourire avec les dents du bonheur, bandeau éponge rouge sur le front, maillot de gardien vert fluo trop serré, gants de gardien énormes, short blanc : mâchoire qui tombe jusqu'au sol, paquet de chips qui explose en l'air. Léo, jeune lynx de 17 ans au pelage gris clair, oreilles terminées par des pinceaux noirs, yeux verts perçants, fine cicatrice au sourcil gauche, sweat à capuche gris, sac de sport sur l'épaule : regard dur, pinceaux des oreilles dressés. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur la tablette, un plan d'architecte « JORDAN PADEL ARENA » posé sur le terrain, et en rouge « DÉMOLITION : SAMEDI ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Inès entre sans bruit et tend la tablette. Bruitage : porte qui grince.\n[0.3-1.9s] INÈS (voix de femme de 26 ans, calme et sèche, parle bas, à voix basse) dit en français : « Il s'en fiche du foot. »\n[2.1-3.6s] INÈS (voix de femme de 26 ans, calme et sèche, parle bas, sèche) dit en français : « Il veut votre terrain. »\n[3-5s] Léo et Sofiane se penchent sur l'écran. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant.\n[3.8-5.0s] SOFIANE (voix de garçon de 17 ans, grave et tonitruante, rit fort, accent de banlieue parisienne, choqué) dit en français : « Pour faire quoi ?! »\n[5-7s] Gros plan sur le mot DÉMOLITION. Caméra : zoom rapide et court sur le visage au moment de la révélation (une seule fois par épisode maximum). Bruitage : battement de cœur.\n[5.2-6.4s] INÈS (voix de femme de 26 ans, calme et sèche, parle bas, glaciale) dit en français : « Du padel. Samedi. »\n[6.6-7.8s] LÉO (voix de garçon de 17 ans, posée et piquante, accent de banlieue parisienne, ne crie jamais, méfiant) dit en français : « Pourquoi tu nous aides ? »\n[7-10s] Le paquet de chips de Sofiane explose en l'air. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : explosion de chips.\n[8.0-9.8s] INÈS (voix de femme de 26 ans, calme et sèche, parle bas, regard droit) dit en français : « Moi aussi, je suis une figurante. »\nAmbiance sonore : néon qui grésille, robinet qui goutte, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 9,
+      "duree": 6,
+      "role": "cliff",
+      "titre": "Terrain de la cité · PT",
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "qui": "Jordan",
+          "texte": "Samedi, on rase tout. En live."
+        },
+        {
+          "t": "2.2-4.0",
+          "qui": "Léo",
+          "texte": "Samedi, match. On gagne, tu dégages."
+        },
+        {
+          "t": "4.2-5.8",
+          "qui": "Jordan",
+          "texte": "Et si vous perdez ?"
+        }
+      ],
+      "replique": "Samedi, on rase tout. En live. Samedi, match. On gagne, tu dégages. Et si vous perdez ?",
+      "parle": "jordan",
+      "texte_ecran": "PARTIE 2 ?",
+      "image": "Image 9 : plan taille, caméra à hauteur des yeux. Décor : petit terrain synthétique usé au pied de hautes tours de cité, grillage tordu, buts aux filets troués, vieux panneau peint à la main « AS LES HIRONDELLES · DEPUIS 1994 », ring lights et drones d'influenceur installés au bord, une foule de gamins et de voisins animaux aux balcons et derrière le grillage qui filment avec leurs téléphones. Lumière : nuit bleutée au clair de lune. Jordan, renard roux de 33 ans au sourire aux dents blanches éclatantes, fine moustache taillée, lunettes de soleil dorées remontées sur la tête, perche à selfie toujours à la patte, survêtement en velours doré brodé « JORDAN » dans le dos, grosse chaîne dorée, baskets blanches immaculées : en live devant une pelleteuse jaune garée sur le terrain, perche à selfie, sourire carnassier. Léo, jeune lynx de 17 ans au pelage gris clair, oreilles terminées par des pinceaux noirs, yeux verts perçants, fine cicatrice au sourcil gauche, maillot bleu ciel délavé de l'AS Les Hirondelles avec une hirondelle brodée, short blanc, chaussettes bleu ciel, numéro 10 : entre dans le cadre derrière lui, poings serrés, pinceaux des oreilles dressés. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Jordan se filme devant la pelleteuse, phares allumés. Caméra : plan aérien qui plonge vers la scène. Bruitage : moteur de pelleteuse.\n[0.2-2.0s] JORDAN (voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe, à sa caméra, ravi) dit en français : « Samedi, on rase tout. En live. »\n[2.2-4.0s] LÉO (voix de garçon de 17 ans, posée et piquante, accent de banlieue parisienne, ne crie jamais, froid) dit en français : « Samedi, match. On gagne, tu dégages. »\n[3-6s] Léo entre dans le champ, Jordan se retourne lentement en souriant, coupure sèche. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : silence net.\n[4.2-5.8s] JORDAN (voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe, sourire carnassier) dit en français : « Et si vous perdez ? »\nAmbiance sonore : cris d'enfants, drone qui bourdonne, rires des balcons, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    }
+  ],
+  "titre_couverture": "VOUS ÊTES DES FIGURANTS",
+  "publication": "Un influenceur à 8,4 M rachète le club de la cité… et veut raser le terrain 😤 Partie 1\n\n#partie1 #foot #cité #influenceur #histoire #animation",
+  "commentaire": "Inès, on peut lui faire confiance ? 🤝 oui / 🐍 non",
+  "texte_accroche": "Un influenceur rachète leur club",
+  "hooks_alternatifs": [
+    "Ton club ? Je l'ai acheté ce matin. Entre deux stories.",
+    "Trente ans de club. Je l'ai payé moins cher que ma montre.",
+    "À partir d'aujourd'hui, le capitaine, c'est mon neveu."
+  ],
+  "question_milieu": {
+    "plan": 5,
+    "texte": "Team Jordan ou team Léo ? 🦊 / ⚽"
+  },
+  "duree_totale": 70
+}
