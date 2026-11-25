@@ -1,0 +1,62 @@
+[
+  {
+    "numero": 1,
+    "titre": "Le concours de la frappe",
+    "format": "test / mise à l'épreuve",
+    "accroche_type": "objet révélateur",
+    "cliff_type": "coup qui part",
+    "centre": "tom",
+    "lieu_principal": "stade_frappe",
+    "lieux": [
+      "chantier",
+      "couloir_stade",
+      "rue_affiche",
+      "stade_frappe",
+      "stand_inscription"
+    ],
+    "fils_avances": [
+      "radar",
+      "moqueurs"
+    ],
+    "revele": [],
+    "temps_parole": {
+      "jules": 7,
+      "tom": 8,
+      "lea": 2,
+      "kevin": 3,
+      "christophe": 5,
+      "maxime": 2
+    },
+    "repliques": [
+      "Wesh, attends… t'as tapé à combien, là ?",
+      "J'sais pas. J'ai pas fait exprès.",
+      "Frérot, il a traversé le mur.",
+      "Frérot, t'es vraiment pas normal, toi.",
+      "Bah quoi ? J'ai juste renvoyé un ballon.",
+      "Après cette matinée, j'ai une dalle de malade.",
+      "Attends… regarde là-bas.",
+      "Wesh… dix millions ?",
+      "Dix millions d'euros ?!",
+      "On s'inscrit.",
+      "Vous voulez vraiment participer ?",
+      "Lui, il va tous les éclater.",
+      "Très bien. Rendez-vous au stade.",
+      "On va chercher les dix millions.",
+      "C'est toi le participant ? T'es tout maigre !",
+      "Profite de rire maintenant.",
+      "J'ai hâte de voir ça.",
+      "Mesdames et messieurs, installez-vous !",
+      "Le spectacle va bientôt commencer !",
+      "Alors c'est vous, mes adversaires ?",
+      "Vous pensez me battre avec ça ?",
+      "T'inquiète. Tu vas vite comprendre.",
+      "Épreuve numéro 1 !",
+      "Frapper à plus de 120 km/h.",
+      "Et croyez-moi… vous êtes pas prêts pour la suite.",
+      "Vas-y, le maigre. Fais-nous rire.",
+      "J'vais faire doucement."
+    ],
+    "resume": "Tom, minuscule souris ouvrière, renvoie un ballon à travers un mur sans s'en rendre compte. Avec son pote Jules, il tombe sur l'affiche du Concours de la frappe à 10 M€ et s'inscrit. Kévin et Maxime se moquent du « maigre ». Épreuve 1 : plus de 120 km/h. Tom pose le ballon, radar à 0.",
+    "fin": "Tom pose le ballon devant le radar à 0 km/h : « J'vais faire doucement. » Coupé."
+  }
+]

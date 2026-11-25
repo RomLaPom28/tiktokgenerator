@@ -1,0 +1,666 @@
+{
+  "numero": 1,
+  "titre": "Le concours de la frappe",
+  "format": "test / mise à l'épreuve",
+  "accroche_type": "objet révélateur",
+  "cliff_type": "coup qui part",
+  "centre": "tom",
+  "texte_accroche": "Il tape trop fort sans le savoir",
+  "question_milieu": {
+    "plan": 5,
+    "texte": "Il va gagner les 10 M€ ? 💰 / 😂"
+  },
+  "vote_question": "Tom va gagner les 10 millions ?",
+  "moteur": {
+    "desir": "Tom, minuscule ouvrier de chantier, veut gagner les 10 M€ pour quitter le chantier.",
+    "injustice": "Kévin et Maxime, monstres de muscles, se moquent de lui (« t'es tout maigre ») avant même qu'il ait tapé.",
+    "antagoniste": "Kévin, taureau bodybuildé moqueur, et Maxime, rhinocéros champion invaincu.",
+    "enjeu_chiffre": "10 000 000 € ; épreuve 1 à 120 km/h ; le mur traversé.",
+    "force_cachee": "Dès la 1re seconde, le ballon de Tom a traversé un mur : le spectateur sait, les moqueurs non.",
+    "payoff": "Partie 3 : le radar affiche « ERREUR » puis 412 km/h ; le « maigre » bat le champion.",
+    "callback": "maigre",
+    "kicker": "« J'vais faire doucement. » Coupé au moment du tir."
+  },
+  "fils_avances": [
+    "radar",
+    "moqueurs"
+  ],
+  "revele": [],
+  "reprend": "",
+  "resume": "Tom, minuscule souris ouvrière, renvoie un ballon à travers un mur sans s'en rendre compte. Avec son pote Jules, il tombe sur l'affiche du Concours de la frappe à 10 M€ et s'inscrit. Kévin et Maxime se moquent du « maigre ». Épreuve 1 : plus de 120 km/h. Tom pose le ballon, radar à 0.",
+  "fin": "Tom pose le ballon devant le radar à 0 km/h : « J'vais faire doucement. » Coupé.",
+  "recettes_utilisees": [
+    "Force cachée prouvée par l'image à 0 s",
+    "Prix géant sur une affiche",
+    "Présentateur-arbitre avec micro",
+    "Témoin choqué après la réplique-choc",
+    "Gros chiffre lisible à l'écran"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "role": "accroche",
+      "duree": 6,
+      "lieu": "chantier",
+      "lumiere": "matin",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "crash_zoom",
+      "persos": [
+        {
+          "id": "tom",
+          "jeu": "minuscule, le pied encore levé après avoir tapé, tête penchée, l'air de rien"
+        },
+        {
+          "id": "jules",
+          "jeu": "à côté de lui, les deux mains sur la tête, yeux exorbités"
+        }
+      ],
+      "detail_image": "derrière eux, un trou parfaitement rond dans un mur de parpaings, et au loin le ballon encastré dans la façade de la tour d'en face",
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Jules regarde le trou dans le mur puis Tom, bouche ouverte",
+          "camera": "crash_zoom",
+          "son": "écho d'un énorme BOUM, parpaings qui tombent"
+        },
+        {
+          "t": "3-6",
+          "action": "Tom se gratte l'oreille, pas du tout impressionné",
+          "camera": "whip_pan",
+          "son": "petit « ding »"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.3",
+          "parle": "jules",
+          "emotion": "sous le choc",
+          "texte": "Wesh, attends… t'as tapé à combien, là ?",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.4-3.9",
+          "parle": "tom",
+          "emotion": "tranquille",
+          "texte": "J'sais pas. J'ai pas fait exprès.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "4.1-5.7",
+          "parle": "jules",
+          "emotion": "les mains sur la tête",
+          "texte": "Frérot, il a traversé le mur.",
+          "fonction": "reaction"
+        }
+      ],
+      "texte_ecran": "IL A TRAVERSÉ LE MUR"
+    },
+    {
+      "n": 2,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "chantier",
+      "lumiere": "matin",
+      "cadrage": "PA",
+      "angle": "profil",
+      "camera": "fixe",
+      "persos": [
+        {
+          "id": "jules",
+          "jeu": "assis sur une pile de parpaings, regarde Tom de travers, sandwich géant à la patte"
+        },
+        {
+          "id": "tom",
+          "jeu": "assis à côté, croque tranquillement un petit sandwich, haussement d'épaules"
+        }
+      ],
+      "fin": {
+        "cadrage": "PR",
+        "persos": [
+          {
+            "id": "jules",
+            "jeu": "se lève en se tenant le ventre, affamé"
+          },
+          {
+            "id": "tom",
+            "jeu": "se lève aussi, sourire tranquille"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Jules fixe Tom en mâchant",
+          "son": "bétonnière au loin"
+        },
+        {
+          "t": "3-5",
+          "action": "Tom hausse les épaules, bouche pleine",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "5-7",
+          "action": "le ventre de Jules gargouille très fort",
+          "camera": "secousse",
+          "son": "gargouillis comique"
+        },
+        {
+          "t": "7-10",
+          "action": "ils se lèvent et partent vers la rue",
+          "camera": "travelling_lateral"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.6",
+          "parle": "jules",
+          "emotion": "incrédule",
+          "texte": "Frérot, t'es vraiment pas normal, toi.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.9-5.0",
+          "parle": "tom",
+          "emotion": "la bouche pleine, innocent",
+          "texte": "Bah quoi ? J'ai juste renvoyé un ballon.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "5.4-8.2",
+          "parle": "jules",
+          "emotion": "se tient le ventre",
+          "texte": "Après cette matinée, j'ai une dalle de malade.",
+          "fonction": "reaction"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "retournement",
+      "duree": 6,
+      "lieu": "rue_affiche",
+      "lumiere": "jour",
+      "cadrage": "PE",
+      "angle": "contre_plongee",
+      "camera": "travelling_arriere",
+      "persos": [
+        {
+          "id": "jules",
+          "jeu": "s'arrête net, pointe l'affiche du doigt, mâchoire qui tombe"
+        },
+        {
+          "id": "tom",
+          "jeu": "minuscule à côté de lui, lève les yeux vers l'affiche, oreilles dressées"
+        }
+      ],
+      "texte_decor": "affiche géante lumineuse « CONCOURS DE LA FRAPPE · 10 000 000 € AU GAGNANT »",
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Jules s'arrête net et pointe l'affiche",
+          "camera": "travelling_arriere",
+          "son": "klaxons"
+        },
+        {
+          "t": "3-6",
+          "action": "Tom lève les yeux, le chiffre brille en énorme",
+          "camera": "crash_zoom",
+          "son": "« ding » de caisse enregistreuse"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-1.4",
+          "parle": "jules",
+          "emotion": "intrigué",
+          "texte": "Attends… regarde là-bas.",
+          "fonction": "revelation"
+        },
+        {
+          "t": "1.6-2.8",
+          "parle": "tom",
+          "emotion": "les yeux ronds",
+          "texte": "Wesh… dix millions ?",
+          "fonction": "reaction"
+        },
+        {
+          "t": "3.0-4.4",
+          "parle": "jules",
+          "emotion": "hurle",
+          "texte": "Dix millions d'euros ?!",
+          "fonction": "reaction"
+        },
+        {
+          "t": "4.7-5.6",
+          "parle": "tom",
+          "emotion": "calme, décidé",
+          "texte": "On s'inscrit.",
+          "fonction": "promesse"
+        }
+      ],
+      "texte_ecran": "10 000 000 €"
+    },
+    {
+      "n": 4,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "stand_inscription",
+      "lumiere": "jour",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "panoramique",
+      "persos": [
+        {
+          "id": "lea",
+          "jeu": "derrière la table, baisse ses lunettes et regarde Tom de haut en bas, se retient de rire"
+        },
+        {
+          "id": "jules",
+          "jeu": "pose une main énorme sur l'épaule de Tom, fier"
+        },
+        {
+          "id": "tom",
+          "jeu": "dépasse à peine de la table, sourire tranquille"
+        }
+      ],
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {
+            "id": "tom",
+            "jeu": "sourire tranquille, regard déterminé"
+          },
+          {
+            "id": "jules",
+            "jeu": "derrière lui, poing levé"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Léa baisse ses lunettes vers Tom",
+          "son": "brouhaha de la file"
+        },
+        {
+          "t": "3-5",
+          "action": "Jules tape fièrement l'épaule de Tom",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "5-7",
+          "action": "Léa tamponne le registre",
+          "camera": "crash_zoom",
+          "son": "coup de tampon"
+        },
+        {
+          "t": "7-10",
+          "action": "Tom et Jules partent vers le stade",
+          "camera": "travelling_avant"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.4",
+          "parle": "lea",
+          "emotion": "faussement polie",
+          "texte": "Vous voulez vraiment participer ?",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.6-4.3",
+          "parle": "jules",
+          "emotion": "fier",
+          "texte": "Lui, il va tous les éclater.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "4.6-6.6",
+          "parle": "lea",
+          "emotion": "retient un rire",
+          "texte": "Très bien. Rendez-vous au stade.",
+          "fonction": "reaction"
+        },
+        {
+          "t": "7.0-9.2",
+          "parle": "tom",
+          "emotion": "tranquille",
+          "texte": "On va chercher les dix millions.",
+          "fonction": "promesse"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "temoin",
+      "duree": 6,
+      "lieu": "couloir_stade",
+      "lumiere": "neon",
+      "cadrage": "GP",
+      "angle": "plongee",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "kevin",
+          "jeu": "se penche au-dessus de Tom, biceps gonflés, rit à gorge déployée"
+        },
+        {
+          "id": "tom",
+          "jeu": "lève la tête vers lui, petit sourire tranquille"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Kévin se penche sur Tom en riant",
+          "son": "rire gras qui résonne"
+        },
+        {
+          "t": "3-6",
+          "action": "Tom sourit tranquillement, Kévin s'arrête de rire une seconde",
+          "camera": "crash_zoom"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.4",
+          "parle": "kevin",
+          "emotion": "hilare",
+          "texte": "C'est toi le participant ? T'es tout maigre !",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.6-4.0",
+          "parle": "tom",
+          "emotion": "calme",
+          "texte": "Profite de rire maintenant.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "4.3-5.6",
+          "parle": "kevin",
+          "emotion": "moqueur",
+          "texte": "J'ai hâte de voir ça.",
+          "fonction": "menace"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "stade_frappe",
+      "lumiere": "fete",
+      "cadrage": "PE",
+      "angle": "plongee",
+      "camera": "plongee_drone",
+      "persos": [
+        {
+          "id": "christophe",
+          "jeu": "au centre de l'arène, micro doré levé au ciel, bras écartés vers la foule"
+        }
+      ],
+      "texte_decor": "radar géant lumineux au-dessus du but : « 0 KM/H »",
+      "fin": {
+        "cadrage": "PT",
+        "persos": [
+          {
+            "id": "christophe",
+            "jeu": "souffle dans son sifflet doré, la foule explose derrière lui"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "plongée sur l'arène pleine à craquer",
+          "camera": "plongee_drone",
+          "son": "foule en délire"
+        },
+        {
+          "t": "3-5",
+          "action": "Christophe lève le micro au ciel",
+          "camera": "crash_zoom"
+        },
+        {
+          "t": "5-7",
+          "action": "les projecteurs balaient la foule",
+          "camera": "panoramique",
+          "son": "tambours"
+        },
+        {
+          "t": "7-10",
+          "action": "Christophe souffle dans son sifflet doré",
+          "camera": "secousse",
+          "son": "coup de sifflet"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-3.2",
+          "parle": "christophe",
+          "emotion": "tonitruant",
+          "texte": "Mesdames et messieurs, installez-vous !",
+          "fonction": "revelation"
+        },
+        {
+          "t": "3.4-6.4",
+          "parle": "christophe",
+          "emotion": "fait monter le suspense",
+          "texte": "Le spectacle va bientôt commencer !",
+          "fonction": "promesse"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "stade_frappe",
+      "lumiere": "fete",
+      "cadrage": "AMORCE",
+      "angle": "contre_plongee",
+      "camera": "epaule",
+      "persos": [
+        {
+          "id": "maxime",
+          "jeu": "en amorce, immense, fait craquer sa nuque et regarde Tom de très haut"
+        },
+        {
+          "id": "tom",
+          "jeu": "minuscule face à lui, se gratte l'oreille, pas impressionné"
+        },
+        {
+          "id": "kevin",
+          "jeu": "derrière Maxime, bras croisés, ricane"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Maxime se penche lentement vers Tom",
+          "son": "souffle de naseaux"
+        },
+        {
+          "t": "3-6",
+          "action": "Tom répond sans bouger, Kévin arrête de ricaner",
+          "camera": "crash_zoom"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "parle": "maxime",
+          "emotion": "très grave, lent",
+          "texte": "Alors c'est vous, mes adversaires ?",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.0-3.7",
+          "parle": "maxime",
+          "emotion": "méprisant",
+          "texte": "Vous pensez me battre avec ça ?",
+          "fonction": "attaque"
+        },
+        {
+          "t": "3.8-5.6",
+          "parle": "tom",
+          "emotion": "tranquille",
+          "texte": "T'inquiète. Tu vas vite comprendre.",
+          "fonction": "riposte"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "stade_frappe",
+      "lumiere": "fete",
+      "cadrage": "PT",
+      "angle": "face",
+      "camera": "orbite",
+      "persos": [
+        {
+          "id": "christophe",
+          "jeu": "devant le radar géant, micro à la main, pointe le chiffre"
+        },
+        {
+          "id": "kevin",
+          "jeu": "derrière, gonfle les biceps vers la foule"
+        },
+        {
+          "id": "maxime",
+          "jeu": "derrière, fait craquer sa nuque"
+        }
+      ],
+      "texte_decor": "panneau lumineux géant : « ÉPREUVE N° 1 · 120 KM/H »",
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {
+            "id": "christophe",
+            "jeu": "regard malicieux vers la caméra, sourire immense"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Christophe pointe le panneau « 120 KM/H »",
+          "camera": "orbite",
+          "son": "roulement de tambour"
+        },
+        {
+          "t": "3-5",
+          "action": "Kévin gonfle les biceps, la foule hurle",
+          "camera": "whip_pan",
+          "son": "cris de la foule"
+        },
+        {
+          "t": "5-7",
+          "action": "Maxime fait craquer sa nuque",
+          "camera": "crash_zoom",
+          "son": "craquement"
+        },
+        {
+          "t": "7-10",
+          "action": "Christophe se tourne vers la caméra, sourire malicieux",
+          "camera": "travelling_avant"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.0",
+          "parle": "christophe",
+          "emotion": "tonitruant",
+          "texte": "Épreuve numéro 1 !",
+          "fonction": "revelation"
+        },
+        {
+          "t": "2.3-4.6",
+          "parle": "christophe",
+          "emotion": "roule les R",
+          "texte": "Frapper à plus de 120 km/h.",
+          "fonction": "revelation"
+        },
+        {
+          "t": "5.0-8.4",
+          "parle": "christophe",
+          "emotion": "mystérieux",
+          "texte": "Et croyez-moi… vous êtes pas prêts pour la suite.",
+          "fonction": "menace"
+        }
+      ],
+      "texte_ecran": "120 KM/H"
+    },
+    {
+      "n": 9,
+      "role": "cliff",
+      "duree": 6,
+      "lieu": "stade_frappe",
+      "lumiere": "fete",
+      "cadrage": "GP",
+      "angle": "dos",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "tom",
+          "jeu": "de dos, minuscule, pose le ballon devant le but géant"
+        },
+        {
+          "id": "kevin",
+          "jeu": "sur le côté, plié de rire, pointe Tom du doigt"
+        }
+      ],
+      "texte_decor": "radar géant au-dessus du but : « 0 KM/H »",
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Tom pose le ballon, la foule se tait",
+          "son": "silence, un seul toussotement"
+        },
+        {
+          "t": "3-6",
+          "action": "Tom recule d'un petit pas, coupure sèche au moment où il va frapper",
+          "camera": "crash_zoom",
+          "son": "coupure nette"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.2",
+          "parle": "kevin",
+          "emotion": "moqueur",
+          "texte": "Vas-y, le maigre. Fais-nous rire.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.4-4.0",
+          "parle": "tom",
+          "emotion": "tout bas, tranquille",
+          "texte": "J'vais faire doucement.",
+          "fonction": "promesse"
+        }
+      ],
+      "texte_ecran": "PARTIE 2 ?"
+    }
+  ],
+  "titre_couverture": "IL TAPE TROP FORT 😳",
+  "legende": "Il a traversé un mur avec un ballon… et il croit que c'est normal 😳 Concours de la frappe à 10 millions. Partie 1",
+  "hashtags": [
+    "#partie1",
+    "#foot",
+    "#concours",
+    "#histoire",
+    "#animation",
+    "#ia"
+  ],
+  "commentaire_epingle": "Tom va gagner les 10 M€ ? 💰 oui / 😂 non",
+  "hooks_alternatifs": [
+    "Wesh, il a mis le ballon dans la tour d'en face.",
+    "Frérot, le mur… il est où le mur ?",
+    "Il a renvoyé un ballon. Le mur a pas survécu."
+  ]
+}

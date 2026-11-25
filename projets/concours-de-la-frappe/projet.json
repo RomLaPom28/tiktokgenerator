@@ -1,0 +1,13 @@
+{
+  "id": "concours-de-la-frappe",
+  "type": "serie",
+  "titre": "Le concours de la frappe",
+  "sujet": "Tom, minuscule souris ouvrière de chantier, tape dans un ballon plus fort que n'importe qui sans le savoir. Il s'inscrit au Concours de la frappe à 10 millions d'euros contre des monstres de muscles qui se moquent de lui.",
+  "concept": "concours_absurde + sous-estimé à force cachée (copie de structure de « concours de force », .dramatik.fruit)",
+  "modele": "analyses/7689765310181821728, 7690099270732516641, 7690309136998780193 : mêmes fonctions de répliques, même rythme (~3 mots/s), présentateur, chiffre qui monte à chaque partie.",
+  "nb_plans": [
+    9,
+    9
+  ],
+  "cree": "2026-11-25"
+}
