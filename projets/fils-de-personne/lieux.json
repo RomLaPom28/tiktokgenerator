@@ -28,8 +28,14 @@
     {
       "id": "voiture_stephane",
       "nom": "Berline noire de Stéphane",
-      "desc": "intérieur en cuir noir d'une grosse berline noire aux vitres teintées, garée au bord du terrain boueux de Pont-Rouge, tableau de bord lumineux bleu, le petit terrain vert et boueux visible par la vitre conducteur",
+      "desc": "intérieur en cuir noir d'une grosse berline noire aux vitres teintées, garée la nuit en bas d'une cité de banlieue, tableau de bord lumineux bleu, tours d'immeubles aux fenêtres éclairées visibles par la vitre conducteur",
       "son": "moteur au ralenti, cuir qui craque, vitre électrique"
+    },
+    {
+      "id": "cuisine_celine",
+      "nom": "Cuisine de Céline",
+      "desc": "petite cuisine d'appartement HLM, toile cirée à carreaux, frigo couvert de magnets et de photos de Nathan enfant en maillot, lettre « RELANCE LOYER » sur la table, pelote de fil rouge dans un bol, fenêtre sur les tours la nuit",
+      "son": "frigo qui ronronne, télé du voisin à travers le mur"
     },
     {
       "id": "bureau_directeur",

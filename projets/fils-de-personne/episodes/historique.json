@@ -9,15 +9,15 @@
     "lieu_principal": "terrain_essai",
     "lieux": [
       "arret_bus",
-      "terrain_boue",
+      "cuisine_celine",
       "terrain_essai",
-      "vestiaire_pont_rouge",
       "voiture_stephane"
     ],
     "fils_avances": [
       "pere",
+      "bracelet",
       "expres",
-      "coupe"
+      "video_virale"
     ],
     "revele": [
       "pere"
@@ -26,10 +26,9 @@
       "stephane": 8,
       "nathan": 12,
       "dylan": 6,
-      "michel": 3,
-      "yanis": 1,
       "lucas": 2,
-      "celine": 3
+      "michel": 3,
+      "celine": 5
     },
     "repliques": [
       "Dégage d'ici, fils de… fils de personne.",
@@ -39,7 +38,7 @@
       "Moins que ton coiffeur, frérot.",
       "Non… non non non !",
       "Relève-toi. La place est prise.",
-      "Non… ces yeux-là…",
+      "Ce bracelet… c'est pas possible.",
       "Il m'a ridiculisé. Tu le prends ?",
       "Dix-neuf sur vingt…",
       "Refusé. Ici, c'est moi qui note.",
@@ -48,27 +47,28 @@
       "Avec qui ? T'as même pas d'équipe.",
       "J'en trouverai une. Et je vous sortirai.",
       "Rêve pas, fils de personne.",
-      "Maman fait trois ménages pour payer mes crampons.",
-      "Je peux pas lui dire. Pas ce soir.",
+      "Frère, ta daronne t'appelle encore.",
+      "Elle fait trois ménages pour moi.",
+      "T'as écrit OUI ?!",
+      "Laisse.",
       "Tu vas pleurer longtemps, gamin ?",
       "Vous êtes qui, le vieux ?",
       "Celui qui fouille les poubelles du PSG.",
       "Votre club, il a gagné quoi ?",
       "Rien. Avec toi, on va battre Paris.",
-      "Le déchet du PSG ? Ici on recycle pas.",
-      "Zéro victoire. Le déchet, c'est qui ?",
-      "Aïe aïe aïe !",
-      "Michel m'a appelée. Tu m'as menti.",
-      "Le directeur m'a jeté comme un chien !",
-      "Le directeur… Stéphane ?",
-      "Tu le connais ?!",
+      "Ta vidéo tourne dans toute la cité !",
+      "Il m'a humilié devant tout le monde !",
+      "Tu m'as menti, Nathan.",
+      "Ce directeur… il a un bracelet rouge ?",
+      "Comment tu sais ça ?",
+      "Je vous les ai tressés. À tous les deux.",
+      "Tous les deux ?!",
       "Nathan… c'est ton père.",
-      "QUOI ?!",
       "Pourquoi on surveille ce fils de personne ?",
       "C'est pas personne.",
       "C'est mon fils. Et je l'ai jeté exprès."
     ],
-    "resume": "À l'essai du centre de formation du PSG, Nathan met Dylan par terre d'un petit pont et obtient 19/20. Le directeur Stéphane le refuse quand même, le traite de « fils de personne » et jette son 47 à la poubelle. Sous la pluie, Nathan ment à sa mère. Michel, coach du pire club d'Île-de-France, a ramassé le 47. À Pont-Rouge, le capitaine Yanis le traite de déchet. Au téléphone, sa mère lâche : « C'est ton père. » Dans sa berline, Stéphane avoue : il l'a jeté exprès.",
+    "resume": "À l'essai du centre de formation du PSG, Nathan met Dylan à terre d'un petit pont et obtient 19/20. Le directeur Stéphane, qui a reconnu son bracelet rouge, le refuse, le traite de « fils de personne » et jette son 47 à la poubelle. Lucas filme. Sous la pluie, Nathan ment à sa mère ; Michel, coach du pire club d'Île-de-France, a ramassé le 47. La vidéo de Lucas fait 412 000 vues : Céline voit le bracelet du directeur et avoue : « C'est ton père. » En bas de la cité, Stéphane : « Je l'ai jeté exprès. »",
     "fin": "Dans la berline noire, Stéphane remonte la vitre teintée : « C'est mon fils. Et je l'ai jeté exprès. »"
   }
 ]

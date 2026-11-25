@@ -5,5 +5,6 @@
 - Le spectateur doit avoir la rage pour Nathan : humiliation publique, téléphones qui filment, fiche 19/20 refusée.
 - Mépris par le TON (glacial, sans regarder), pas par les gros mots. Zéro mot rouge, 2 mots orange max par épisode.
 - Insultes maison : « fils de personne », « déchet de Paris », « chasuble jaune », « plot de chantier », « pied carré », « RER B ».
+- Langue de la cité (wesh, frérot, daronne) dans la bouche de Nathan et Lucas ; Stéphane parle un français froid et parfait.
 - Témoin (Lucas, les candidats) après chaque réplique-choc : « QUOI ?! », « Aïe aïe aïe ! ».
 - Chaque épisode finit sur une phrase qui fait poser une question : jamais de fin fermée.

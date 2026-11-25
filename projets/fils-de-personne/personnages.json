@@ -28,7 +28,7 @@
       "id": "stephane",
       "nom": "Stéphane",
       "animal": "loup",
-      "adn": "Stéphane, grand loup de 48 ans au pelage noir aux tempes argentées, yeux ambre perçants, mâchoire carrée, fine cicatrice blanche en travers du museau",
+      "adn": "Stéphane, grand loup de 48 ans au pelage noir aux tempes argentées, yeux ambre perçants, mâchoire carrée, fine cicatrice blanche en travers du museau, vieux bracelet en fil rouge usé au poignet droit",
       "tenues": {
         "base": "long manteau bleu marine, polo bleu marine à fine bande rouge sans logo, badge plastifié « DIRECTEUR » autour du cou, montre dorée"
       },
@@ -37,7 +37,7 @@
       "objectif": "garder Nathan loin du centre, et loin de lui",
       "secret": "il est le père de Nathan, l'a reconnu à l'essai et l'a jeté exprès",
       "tics": [
-        "fait tourner sa montre dorée quand il juge",
+        "tourne son bracelet rouge quand il est troublé",
         "parle sans regarder la personne",
         "sa cicatrice blanchit quand il se retient"
       ],
@@ -109,18 +109,19 @@
       "id": "lucas",
       "nom": "Lucas",
       "animal": "ours",
-      "adn": "Lucas, gros ours brun de 18 ans aux joues rondes, petits yeux rieurs, pansement en croix sur le nez",
+      "adn": "Lucas, gros ours brun de 17 ans aux joues rondes, petits yeux rieurs, pansement en croix sur le nez",
       "tenues": {
-        "base": "maillot de gardien orange fluo trop petit qui laisse voir son ventre, gants de gardien dépareillés, bonnet vert"
+        "base": "doudoune noire sans logo ouverte sur un sweat gris, sacoche en bandoulière, bonnet vert",
+        "gardien": "maillot de gardien orange fluo trop petit qui laisse voir son ventre, gants de gardien dépareillés, bonnet vert"
       },
-      "voix": "voix de jeune homme de 18 ans, aiguë et chaleureuse, s'étrangle quand il est choqué",
-      "caractere": "gardien superstitieux et gourmand, le bon copain, dit tout haut ce que tout le monde pense",
-      "objectif": "être ami avec la future star",
-      "secret": "il a filmé en cachette tout ce qui se passe au club",
+      "voix": "voix de garçon de 17 ans, aiguë et chaleureuse, accent de banlieue parisienne, s'étrangle quand il est choqué",
+      "caractere": "meilleur pote de Nathan depuis la maternelle, gourmand, filme tout, dit tout haut ce que tout le monde pense",
+      "objectif": "que son frère de cité devienne pro, et devenir gardien avec lui",
+      "secret": "c'est lui qui a posté la vidéo de l'humiliation, elle a explosé",
       "tics": [
         "mange toujours quelque chose",
-        "s'étouffe quand il est choqué",
-        "fait le signe de croix avec ses gants avant chaque match"
+        "filme tout avec son téléphone",
+        "s'étouffe quand il est choqué"
       ],
       "replique_fetiche": "Aïe aïe aïe !",
       "ref": "refs/lucas.png"
@@ -136,9 +137,9 @@
       "voix": "voix de femme de 41 ans, douce et fatiguée, devient tranchante quand elle a peur",
       "caractere": "mère seule, fait trois ménages par jour, protège son fils plus que tout",
       "objectif": "que Nathan réussisse sans jamais croiser Stéphane",
-      "secret": "elle a fait promettre à Stéphane de ne jamais approcher Nathan",
+      "secret": "elle a tressé le même bracelet rouge pour Stéphane et pour Nathan ; elle a fait promettre à Stéphane de ne jamais approcher son fils",
       "tics": [
-        "frotte ses mains abîmées",
+        "tresse un fil rouge entre ses doigts quand elle s'inquiète",
         "regarde par la fenêtre quand elle ment",
         "dit « mon grand » quand elle s'inquiète"
       ],

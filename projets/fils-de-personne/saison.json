@@ -1,21 +1,21 @@
 {
-  "_lisez_moi": "Saison courte en 3 épisodes (choix utilisateur : les suites perdent 40-70 % des vues). Chaque épisode tient seul : hook agressif, contexte en une phrase au plan 2. 9 plans par épisode : 5 × 6 s + 4 × 10 s = 70 s de rush.",
+  "_lisez_moi": "Saison courte en 3 épisodes (choix utilisateur). Règle tirée de la série Paris FC / PSG analysée : chaque épisode = une victoire visible au milieu PUIS une nouvelle tuile à la fin. Chaque épisode tient seul : hook agressif, contexte en une phrase au plan 2. 9 plans : 5 × 6 s + 4 × 10 s = 70 s de rush.",
   "enjeu": "Jeté du centre de formation du PSG par son père caché, Nathan peut-il le battre en Coupe de France avec le pire club d'Île-de-France ?",
   "episodes": [
     {
       "n": 1,
       "format": "test / mise à l'épreuve",
-      "pitch": "Essai au centre de formation : Nathan met un petit pont à Dylan, sa fiche dit 19/20, Stéphane le jette (« fils de personne ») et met son 47 à la poubelle. Michel a ramassé le 47. Céline : « C'est ton père. » Dans la berline, Stéphane : « Je l'ai jeté exprès. »"
+      "pitch": "Essai au PSG : petit pont sur Dylan, fiche 19/20, Stéphane le refuse (« fils de personne »), 47 à la poubelle. Lucas filme. Nathan ment à sa mère ; Michel a ramassé le 47. La vidéo tourne dans la cité, Céline voit le bracelet rouge du directeur : « C'est ton père. » Berline : « Je l'ai jeté exprès. »"
     },
     {
       "n": 2,
       "format": "trahison ultime",
-      "pitch": "Reprend : « Je l'ai jeté exprès. » Stéphane débarque à Pont-Rouge et paie Yanis pour casser Nathan à l'entraînement. Premier match : Pont-Rouge gagne enfin grâce au 47. Tirage de la Coupe de France : « US Pont-Rouge – Paris ». Cliff : Dylan à Nathan : « Stéphane m'a élevé. Ton père, c'est le mien maintenant. »"
+      "pitch": "Reprend « Je l'ai jeté exprès ». Applique le vote (Pont-Rouge ou retenter Paris : s'il a voté Paris, Nathan se fait refouler à l'entrée du centre et file à Pont-Rouge). Yanis le méprise, Lucas devient gardien. Premier match : Pont-Rouge gagne enfin grâce au 47 (victoire au milieu). Tirage de la Coupe : « US Pont-Rouge – Paris ». Cliff : Yanis, payé, appelle Dylan : « Je sais ce qui le fait craquer : sa mère. »"
     },
     {
       "n": 3,
       "format": "évènement public",
-      "pitch": "32e de finale au stade de Pont-Rouge. Dylan essaie de le blesser (coupé avant l'impact), Lucas montre sa vidéo de Yanis payé. Dernier penalty : Nathan face à Stéphane sur le banc adverse, « Le fils de personne vient de te sortir. » Kicker : Michel révèle pourquoi Stéphane l'a vraiment jeté. Vote : il lui pardonne ?"
+      "pitch": "32e de finale au stade de Pont-Rouge, Céline en blouse dans la tribune. Dylan l'insulte sur sa mère, Nathan craque presque ; Lucas montre la vidéo de Yanis payé. 2-2, dernier penalty face au banc de Stéphane : « Le fils de personne vient de te sortir. » Kicker : Michel révèle pourquoi Stéphane l'a jeté. Vote : il lui pardonne ?"
     }
   ],
   "fils": [
@@ -25,9 +25,19 @@
       "texte": "Stéphane, directeur du centre de formation, est le père de Nathan (révélé fin de l'épisode 1 par Céline)."
     },
     {
+      "id": "bracelet",
+      "statut": "ouvert",
+      "texte": "Le bracelet en fil rouge : Céline a tressé le même pour Stéphane et pour Nathan. Indice visible dès le plan 2 (Stéphane le reconnaît) et au plan 3 (Stéphane porte le même)."
+    },
+    {
       "id": "expres",
       "statut": "ouvert",
-      "texte": "Stéphane a reconnu Nathan à l'essai et l'a jeté exprès. Pourquoi ? Pour le détruire ou pour le protéger ? (réponse au kicker de l'épisode 3)"
+      "texte": "Stéphane a reconnu Nathan à l'essai et l'a jeté exprès. Pour le détruire ou pour le protéger ? (réponse au kicker de l'épisode 3)"
+    },
+    {
+      "id": "video_virale",
+      "statut": "ouvert",
+      "texte": "Lucas a posté la vidéo « fils de personne » : elle tourne dans toute la cité, Nathan est connu comme « le fils de personne »."
     },
     {
       "id": "dylan_eleve",
@@ -42,7 +52,7 @@
     {
       "id": "yanis_paye",
       "statut": "cache",
-      "texte": "Yanis est payé par Stéphane pour casser Nathan ; Lucas a tout filmé en cachette."
+      "texte": "Yanis est payé pour déstabiliser Nathan ; Lucas a tout filmé en cachette."
     },
     {
       "id": "coupe",

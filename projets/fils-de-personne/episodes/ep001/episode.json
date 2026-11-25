@@ -7,32 +7,36 @@
   "centre": "nathan",
   "texte_accroche": "Jeté du PSG devant tout le monde",
   "question_milieu": {
-    "plan": 5,
-    "texte": "Il aurait dû lui dire la vérité ? 🤥 / 💔"
+    "plan": 6,
+    "texte": "Tu signes chez Michel ou tu retentes Paris ? 🟢 / 🔵"
   },
   "vote_question": "Son père l'a jeté pour le détruire ou pour le protéger ?",
   "moteur": {
     "desir": "Nathan, 17 ans, veut signer au centre de formation du PSG pour sortir sa mère des ménages.",
     "injustice": "Il met Dylan, la star, par terre d'un petit pont et sa fiche dit 19/20 À SIGNER, mais le directeur Stéphane le refuse, le traite de « fils de personne » devant 412 candidats et jette son 47 à la poubelle.",
-    "antagoniste": "Stéphane, directeur glacial du centre (son père caché) ; Dylan, le lion blanc chouchou qui filme l'humiliation ; Yanis, capitaine de Pont-Rouge qui le traite de déchet.",
-    "enjeu_chiffre": "412 candidats, 1 place, 19/20 refusé ; Pont-Rouge : 0 victoire ; trois ménages par jour pour la mère.",
-    "force_cachee": "Le petit pont qui met Dylan sur les fesses, et Michel qui a vu et ramassé le 47 dans la poubelle.",
+    "antagoniste": "Stéphane, directeur glacial du centre (son père caché) ; Dylan, le lion blanc chouchou qui filme l'humiliation.",
+    "enjeu_chiffre": "412 candidats, 1 place, 19/20 refusé ; la vidéo de l'humiliation à 412 000 vues ; trois ménages par jour pour la mère.",
+    "force_cachee": "Le petit pont qui met Dylan à terre (petite victoire au milieu), Michel qui a ramassé le 47, et le bracelet rouge que Stéphane porte aussi.",
     "payoff": "La phrase « fils de personne » se retourne contre Stéphane : il avoue lui-même que ce fils de personne est son fils (épisode 3 : Nathan la lui renvoie en le battant).",
     "callback": "fils de personne",
     "kicker": "« C'est mon fils. Et je l'ai jeté exprès. » Le spectateur ne sait pas pourquoi."
   },
   "fils_avances": [
     "pere",
+    "bracelet",
     "expres",
-    "coupe"
+    "video_virale"
   ],
   "revele": [
     "pere"
   ],
   "reprend": "",
-  "resume": "À l'essai du centre de formation du PSG, Nathan met Dylan par terre d'un petit pont et obtient 19/20. Le directeur Stéphane le refuse quand même, le traite de « fils de personne » et jette son 47 à la poubelle. Sous la pluie, Nathan ment à sa mère. Michel, coach du pire club d'Île-de-France, a ramassé le 47. À Pont-Rouge, le capitaine Yanis le traite de déchet. Au téléphone, sa mère lâche : « C'est ton père. » Dans sa berline, Stéphane avoue : il l'a jeté exprès.",
+  "resume": "À l'essai du centre de formation du PSG, Nathan met Dylan à terre d'un petit pont et obtient 19/20. Le directeur Stéphane, qui a reconnu son bracelet rouge, le refuse, le traite de « fils de personne » et jette son 47 à la poubelle. Lucas filme. Sous la pluie, Nathan ment à sa mère ; Michel, coach du pire club d'Île-de-France, a ramassé le 47. La vidéo de Lucas fait 412 000 vues : Céline voit le bracelet du directeur et avoue : « C'est ton père. » En bas de la cité, Stéphane : « Je l'ai jeté exprès. »",
   "fin": "Dans la berline noire, Stéphane remonte la vitre teintée : « C'est mon fils. Et je l'ai jeté exprès. »",
   "recettes_utilisees": [
+    "Montée puis chute (petite victoire au milieu)",
+    "Secret physique posé tôt (bracelet rouge)",
+    "Le succès/la honte qui tourne partout (vidéo virale dans l'histoire)",
     "Humilié → transformation",
     "Sous-estimé à force cachée",
     "Témoin choqué après la réplique-choc",
@@ -143,7 +147,7 @@
           },
           {
             "id": "stephane",
-            "jeu": "au loin dans la tribune, debout d'un bond, tablette qui glisse de ses pattes, yeux ambre écarquillés"
+            "jeu": "au loin dans la tribune, debout d'un bond, tablette qui glisse de ses pattes, fixe le bracelet rouge au poignet de Nathan"
           }
         ]
       },
@@ -203,7 +207,7 @@
           "t": "8.4-9.8",
           "parle": "stephane",
           "emotion": "murmure, sonné",
-          "texte": "Non… ces yeux-là…",
+          "texte": "Ce bracelet… c'est pas possible.",
           "fonction": "reaction"
         }
       ],
@@ -221,13 +225,14 @@
       "persos": [
         {
           "id": "stephane",
-          "jeu": "griffe posée sur la tablette, fait glisser la fiche de Nathan vers « REFUSÉ », mâchoire serrée, cicatrice qui blanchit"
+          "jeu": "griffe posée sur la tablette, fait glisser la fiche de Nathan vers « REFUSÉ », cache son propre bracelet rouge sous sa manche"
         },
         {
           "id": "dylan",
           "jeu": "penché par-dessus son épaule, se frotte le bas du dos, sourire mauvais qui revient"
         }
       ],
+      "detail_image": "au poignet de Stéphane, un vieux bracelet en fil rouge, exactement le même que celui de Nathan",
       "texte_decor": "sur la tablette : « NATHAN · N° 47 · NOTE 19/20 · À SIGNER » puis un gros tampon rouge « REFUSÉ »",
       "timeline": [
         {
@@ -290,6 +295,10 @@
         {
           "id": "dylan",
           "jeu": "filme la scène avec son téléphone en riant, crinière impeccable"
+        },
+        {
+          "id": "lucas",
+          "jeu": "derrière le grillage, filme aussi avec son téléphone, bouche grande ouverte, choqué"
         }
       ],
       "fin": {
@@ -381,35 +390,53 @@
         {
           "id": "nathan",
           "jeu": "trempé sous l'abribus, regarde son téléphone, une larme qui se mêle à la pluie, oreille entaillée tombante"
+        },
+        {
+          "id": "lucas",
+          "jeu": "collé à son épaule, lit l'écran par-dessus, sandwich à la patte, sourcils levés"
         }
       ],
-      "texte_decor": "sur l'écran du téléphone, message de « Maman ❤️ » : « Alors ?? Ils t'ont pris ?? » puis sa réponse « Oui maman, ils m'ont pris ❤️ »",
+      "texte_decor": "sur l'écran du téléphone, message de « Maman ❤️ » : « Alors ?? Ils t'ont pris ?? » puis la réponse « Oui maman ❤️ »",
       "timeline": [
         {
           "t": "0-3",
-          "action": "le téléphone vibre, Nathan lit le message de sa mère",
+          "action": "le téléphone vibre, Lucas montre l'écran du doigt",
           "son": "vibration, pluie qui martèle"
         },
         {
           "t": "3-6",
-          "action": "il tape « Oui maman, ils m'ont pris » et appuie sur envoyer",
+          "action": "Nathan tape « Oui maman » et envoie, Lucas se prend la tête à deux pattes",
           "camera": "crash_zoom",
           "son": "whoosh d'envoi"
         }
       ],
       "dialogues": [
         {
-          "t": "0.2-2.4",
-          "parle": "nathan",
-          "emotion": "gorge serrée, à voix basse",
-          "texte": "Maman fait trois ménages pour payer mes crampons.",
-          "fonction": "aveu"
+          "t": "0.2-1.8",
+          "parle": "lucas",
+          "emotion": "inquiet, accent de cité",
+          "texte": "Frère, ta daronne t'appelle encore.",
+          "fonction": "attaque"
         },
         {
-          "t": "2.8-5.6",
+          "t": "2.0-3.5",
           "parle": "nathan",
-          "emotion": "brisé, puis dur",
-          "texte": "Je peux pas lui dire. Pas ce soir.",
+          "emotion": "gorge serrée",
+          "texte": "Elle fait trois ménages pour moi.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "3.7-5.0",
+          "parle": "lucas",
+          "emotion": "s'étrangle",
+          "texte": "T'as écrit OUI ?!",
+          "fonction": "reaction"
+        },
+        {
+          "t": "5.1-5.9",
+          "parle": "nathan",
+          "emotion": "sec",
+          "texte": "Laisse.",
           "fonction": "aveu"
         }
       ],
@@ -432,6 +459,10 @@
         {
           "id": "nathan",
           "jeu": "sursaute, oreilles dressées, yeux écarquillés"
+        },
+        {
+          "id": "lucas",
+          "jeu": "au bout du banc, sandwich figé devant la bouche"
         }
       ],
       "texte_decor": "brodé sur l'écharpe de Michel : « US PONT-ROUGE »",
@@ -462,7 +493,7 @@
         },
         {
           "t": "5-7",
-          "action": "Nathan se lève d'un bond, méfiant",
+          "action": "Nathan se lève d'un bond, méfiant, Lucas lâche son sandwich",
           "camera": "secousse"
         },
         {
@@ -515,167 +546,152 @@
       "n": 7,
       "role": "developpement",
       "duree": 6,
-      "lieu": "terrain_boue",
-      "lumiere": "matin",
+      "lieu": "cuisine_celine",
+      "lumiere": "nuit_lampe",
       "cadrage": "PT",
-      "angle": "contre_plongee",
+      "angle": "debullee",
       "camera": "epaule",
       "persos": [
         {
-          "id": "yanis",
-          "jeu": "brassard de capitaine, bloque le passage à Nathan torse contre torse, oreilles immenses dressées, crache par terre"
+          "id": "celine",
+          "jeu": "en blouse de ménage, brandit son téléphone sous le nez de Nathan, yeux verts furieux et brillants"
         },
         {
           "id": "nathan",
-          "tenue": "pont_rouge",
-          "jeu": "maillot vert 47 trop grand, soutient le regard, sourire en coin"
-        },
-        {
-          "id": "lucas",
-          "jeu": "derrière eux dans les buts, mange un sandwich, s'étouffe de surprise"
+          "jeu": "trempé dans l'entrée de la cuisine, oreille entaillée plaquée, poings serrés"
         }
       ],
-      "texte_decor": "grand tableau en bois peint à la main : « US PONT-ROUGE · SAISON : 0 VICTOIRE »",
+      "texte_decor": "sur le téléphone de Céline, une vidéo titrée « FILS DE PERSONNE 😂 · 412 000 vues »",
       "timeline": [
         {
           "t": "0-3",
-          "action": "Yanis bloque Nathan torse contre torse dans la boue",
-          "son": "pas qui claquent dans la boue"
+          "action": "Céline colle l'écran du téléphone sous le museau de Nathan",
+          "camera": "crash_zoom",
+          "son": "rires de la vidéo qui sortent du téléphone"
         },
         {
           "t": "3-6",
-          "action": "Nathan pointe le tableau « 0 VICTOIRE », Lucas s'étouffe avec son sandwich",
-          "camera": "whip_pan",
-          "son": "toux étranglée"
+          "action": "Nathan détourne les yeux et frappe le bord de la table",
+          "camera": "secousse",
+          "son": "coup sourd, bol de fil rouge qui tremble"
         }
       ],
       "dialogues": [
         {
-          "t": "0.2-2.4",
-          "parle": "yanis",
-          "emotion": "agressif, rapide",
-          "texte": "Le déchet du PSG ? Ici on recycle pas.",
+          "t": "0.2-2.3",
+          "parle": "celine",
+          "emotion": "furieuse, voix qui tremble",
+          "texte": "Ta vidéo tourne dans toute la cité !",
           "fonction": "attaque"
         },
         {
-          "t": "2.6-4.6",
+          "t": "2.4-4.4",
           "parle": "nathan",
-          "emotion": "tranquille, en pointant le tableau",
-          "texte": "Zéro victoire. Le déchet, c'est qui ?",
+          "emotion": "explose",
+          "texte": "Il m'a humilié devant tout le monde !",
           "fonction": "riposte"
         },
         {
-          "t": "4.8-5.8",
-          "parle": "lucas",
-          "emotion": "étranglé",
-          "texte": "Aïe aïe aïe !",
-          "fonction": "reaction"
+          "t": "4.6-5.9",
+          "parle": "celine",
+          "emotion": "blessée",
+          "texte": "Tu m'as menti, Nathan.",
+          "fonction": "attaque"
         }
       ],
-      "texte_ecran": "0 VICTOIRE"
+      "texte_ecran": "412 000 VUES"
     },
     {
       "n": 8,
       "role": "retournement",
       "duree": 10,
-      "lieu": "vestiaire_pont_rouge",
-      "lumiere": "neon",
+      "lieu": "cuisine_celine",
+      "lumiere": "nuit_lampe",
       "cadrage": "GP",
-      "angle": "debullee",
+      "angle": "face",
       "camera": "travelling_avant",
       "persos": [
         {
-          "id": "nathan",
-          "tenue": "pont_rouge",
-          "jeu": "assis sur le banc, téléphone à l'oreille, avale sa salive, touche son bracelet rouge"
+          "id": "celine",
+          "jeu": "se fige devant l'écran, zoome sur le poignet du directeur, tresse nerveusement un fil rouge entre ses doigts"
         },
         {
-          "id": "lucas",
-          "jeu": "à côté de lui, tend l'oreille sans aucune gêne, bonnet de travers, sandwich à la patte"
+          "id": "nathan",
+          "jeu": "en face d'elle, sourcils froncés, touche son bracelet rouge sans s'en rendre compte"
         }
       ],
-      "texte_decor": "sur l'écran du téléphone : « Maman ❤️ · appel en cours »",
+      "texte_decor": "sur l'écran du téléphone, image figée de la vidéo : le poignet du directeur avec un bracelet en fil rouge",
       "fin": {
         "cadrage": "TGP",
         "persos": [
           {
             "id": "nathan",
-            "jeu": "yeux ambre exorbités, téléphone qui glisse de sa patte, oreille entaillée plaquée"
+            "jeu": "regarde son propre bracelet rouge, yeux ambre exorbités, oreilles plaquées"
           },
           {
-            "id": "lucas",
-            "jeu": "bouche grande ouverte, sandwich qui tombe dans une flaque"
+            "id": "celine",
+            "jeu": "une larme qui coule, la main sur la bouche"
           }
         ]
       },
       "timeline": [
         {
           "t": "0-3",
-          "action": "Nathan décroche, la voix de sa mère est sèche",
-          "son": "néon qui grésille"
+          "action": "Céline met la vidéo en pause et zoome sur le poignet du directeur",
+          "son": "clic, frigo qui ronronne"
         },
         {
           "t": "3-5",
-          "action": "Nathan se lève d'un bond, furieux",
+          "action": "Nathan se penche, intrigué",
           "camera": "whip_pan"
         },
         {
           "t": "5-7",
-          "action": "il se fige, Lucas se colle à lui pour écouter",
+          "action": "Céline lève les yeux vers lui, livide",
           "camera": "travelling_avant"
         },
         {
           "t": "7-10",
-          "action": "le téléphone glisse de sa patte et tombe dans une flaque",
+          "action": "Nathan baisse les yeux sur son propre bracelet rouge",
           "camera": "zoom_dramatique",
-          "son": "plouf, sifflement aigu"
+          "son": "battement de cœur, sifflement aigu"
         }
       ],
       "dialogues": [
         {
-          "t": "0.3-2.2",
+          "t": "0.3-2.3",
           "parle": "celine",
-          "emotion": "voix au téléphone, sèche et blessée",
-          "texte": "Michel m'a appelée. Tu m'as menti.",
-          "fonction": "attaque",
-          "hors_champ": true
+          "emotion": "voix blanche",
+          "texte": "Ce directeur… il a un bracelet rouge ?",
+          "fonction": "revelation"
         },
         {
-          "t": "2.3-4.3",
+          "t": "2.5-3.8",
           "parle": "nathan",
-          "emotion": "explose",
-          "texte": "Le directeur m'a jeté comme un chien !",
-          "fonction": "riposte"
+          "emotion": "méfiant",
+          "texte": "Comment tu sais ça ?",
+          "fonction": "reaction"
         },
         {
-          "t": "4.4-5.6",
+          "t": "4.0-6.2",
           "parle": "celine",
-          "emotion": "voix au téléphone, qui se brise",
-          "texte": "Le directeur… Stéphane ?",
-          "fonction": "revelation",
-          "hors_champ": true
+          "emotion": "aveu, la voix qui se brise",
+          "texte": "Je vous les ai tressés. À tous les deux.",
+          "fonction": "aveu"
         },
         {
-          "t": "5.8-6.8",
+          "t": "6.4-7.4",
           "parle": "nathan",
           "emotion": "soufflé",
-          "texte": "Tu le connais ?!",
+          "texte": "Tous les deux ?!",
           "fonction": "reaction"
         },
         {
-          "t": "7.0-8.6",
+          "t": "7.7-9.6",
           "parle": "celine",
-          "emotion": "voix au téléphone, à bout",
+          "emotion": "à bout, en larmes",
           "texte": "Nathan… c'est ton père.",
-          "fonction": "revelation",
-          "hors_champ": true
-        },
-        {
-          "t": "8.8-9.8",
-          "parle": "lucas",
-          "emotion": "s'étrangle",
-          "texte": "QUOI ?!",
-          "fonction": "reaction"
+          "fonction": "revelation"
         }
       ],
       "texte_ecran": "C'EST TON PÈRE"
@@ -685,14 +701,14 @@
       "role": "cliff",
       "duree": 6,
       "lieu": "voiture_stephane",
-      "lumiere": "matin",
+      "lumiere": "nuit_lune",
       "cadrage": "AMORCE",
       "angle": "profil",
       "camera": "fixe",
       "persos": [
         {
           "id": "stephane",
-          "jeu": "au volant, vitre teintée à moitié baissée, fixe le terrain boueux, yeux ambre humides, mâchoire serrée"
+          "jeu": "au volant, vitre teintée à moitié baissée, fixe une fenêtre éclairée de la cité, tourne le bracelet rouge à son poignet, yeux ambre humides"
         },
         {
           "id": "dylan",
@@ -703,7 +719,7 @@
       "timeline": [
         {
           "t": "0-3",
-          "action": "par la vitre, au loin, Nathan sort du vestiaire en courant",
+          "action": "par la vitre, une fenêtre éclairée au 4e étage d'une tour",
           "son": "moteur au ralenti"
         },
         {
@@ -740,7 +756,7 @@
     }
   ],
   "titre_couverture": "FILS DE PERSONNE",
-  "legende": "Jeté du centre de formation du PSG devant 412 joueurs… par son propre père. Partie 1",
+  "legende": "Jeté du centre de formation du PSG devant 412 joueurs… par son propre père. Regarde bien les poignets 👀 Partie 1",
   "hashtags": [
     "#partie1",
     "#foot",
