@@ -104,3 +104,15 @@ Une série qui garde ~200 k vues sur 4 parties (pas la chute de 40-70 % habituel
 7. **Vraie langue de la cité** (wesh, frérot, daronne, « joue ta vie ») + **le succès qui « tourne partout »** (la vidéo virale dans l'histoire).
 8. **Vrais clubs et vrais maillots** (PSG, Paris FC, sponsors) : reconnaissance immédiate, pas de retrait constaté sur 4 parties (risque de droit d'auteur non nul).
 9. **Sous-titres de 2-3 mots**, blancs avec 1 mot jaune, ~3,3 mots/s ; fondus enchaînés ; 53-72 s ; carton final « Commente Partie N ».
+
+
+## Appris de la série « concours de force » (.dramatik.fruit, 3 parties : 1,8 M / 500 k / 401 k, 25/11/2026)
+Histoire la plus simple possible, une seule question sur 3 parties : « le petit va-t-il gagner les 67 M€ ? ». Peu de mots (2,8 à 3,7 mots/s).
+1. **Force cachée prouvée PAR L'IMAGE à 0 s**, avec un chiffre écrit (7 sacs « 70 KG » sur le dos) ; le héros ne s'en rend pas compte (« j'ai pas compté »).
+2. **Prix géant sur une affiche** (67 000 000 €) qui déclenche tout, pour un héros pauvre (ouvrier de chantier).
+3. **Présentateur-arbitre avec micro** : il raconte, annonce les règles, rappelle l'enjeu. Contexte gratuit, voix continue.
+4. **Le chiffre de l'épreuve monte à chaque partie** (100 kg → 500 kg → 1 tonne) et **un moqueur tombe par partie** (il pleure).
+5. **Finale d'endurance** (tenir le plus longtemps) : suspense sans action, idéal pour Grok.
+6. **Héros en décalage comique** : il ne sent rien (« c'est la première fois que je sens une charge », « ah, j'avais pas compris »). Jamais de vantardise.
+7. **Boucle finale sur la vie d'avant** (« fini le chantier ») + question « quel concours ensuite ? » → 0,40 % de commentaires.
+Leçon pour nous : nos dialogues trop chargés et nos intrigues à tiroirs cassent l'attente. Une question, des chiffres, des visages.

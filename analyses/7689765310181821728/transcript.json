@@ -1,0 +1,1022 @@
+{
+  "langue": "fr",
+  "phrases": [
+    {
+      "debut": 0.18,
+      "fin": 2.8,
+      "texte": "Wesh, mais attends, tu portes combien de sacs ?"
+    },
+    {
+      "debut": 2.8,
+      "fin": 3.92,
+      "texte": "J'en sais rien, j'ai pas compté."
+    },
+    {
+      "debut": 4.44,
+      "fin": 5.68,
+      "texte": "Fréro, ils font 70 kilos chacun."
+    },
+    {
+      "debut": 8.04,
+      "fin": 9.46,
+      "texte": "Fréro, t'es vraiment normal toi."
+    },
+    {
+      "debut": 10.14,
+      "fin": 11.86,
+      "texte": "Bah quoi ? J'ai juste porté quelques sacs."
+    },
+    {
+      "debut": 12.58,
+      "fin": 14.76,
+      "texte": "Fréro, après cette matinée, j'ai une dalle de malade."
+    },
+    {
+      "debut": 15.16,
+      "fin": 16.0,
+      "texte": "Attends, regarde là-bas."
+    },
+    {
+      "debut": 16.7,
+      "fin": 18.18,
+      "texte": "Wesh, c'est quoi ça ?"
+    },
+    {
+      "debut": 18.88,
+      "fin": 20.34,
+      "texte": "Wesh, 67 millions ?"
+    },
+    {
+      "debut": 20.78,
+      "fin": 23.14,
+      "texte": "Attends, 67 millions d'euros ?"
+    },
+    {
+      "debut": 23.14,
+      "fin": 23.74,
+      "texte": "On s'inscrit."
+    },
+    {
+      "debut": 24.78,
+      "fin": 26.7,
+      "texte": "Vous voulez vraiment participer au concours ?"
+    },
+    {
+      "debut": 26.7,
+      "fin": 28.16,
+      "texte": "Lui, il va tous les écraser."
+    },
+    {
+      "debut": 28.16,
+      "fin": 29.72,
+      "texte": "Très bien, vous êtes inscrits."
+    },
+    {
+      "debut": 29.94,
+      "fin": 30.72,
+      "texte": "Rendez-vous dans la reine."
+    },
+    {
+      "debut": 31.36,
+      "fin": 32.7,
+      "texte": "On va chercher les 67 millions."
+    },
+    {
+      "debut": 33.9,
+      "fin": 35.98,
+      "texte": "C'est toi le particpant ?"
+    },
+    {
+      "debut": 35.98,
+      "fin": 37.68,
+      "texte": "Mettez tout maigre !"
+    },
+    {
+      "debut": 37.68,
+      "fin": 38.82,
+      "texte": "Profite de rire maintenant."
+    },
+    {
+      "debut": 39.32,
+      "fin": 40.58,
+      "texte": "J'ai hâte de voir ça."
+    },
+    {
+      "debut": 42.74,
+      "fin": 43.82,
+      "texte": "Mesdames et messieurs,"
+    },
+    {
+      "debut": 44.76,
+      "fin": 45.82,
+      "texte": "veuillez bien vous installer."
+    },
+    {
+      "debut": 46.56,
+      "fin": 48.06,
+      "texte": "Le spectacle va bientôt commencer."
+    },
+    {
+      "debut": 48.74,
+      "fin": 50.36,
+      "texte": "Alors, c'est vous mes adversaires"
+    },
+    {
+      "debut": 50.36,
+      "fin": 52.5,
+      "texte": "et vous pensez vraiment pouvoir me battre avec ça ?"
+    },
+    {
+      "debut": 52.5,
+      "fin": 53.7,
+      "texte": "T'inquiète pas, tu vas vite comprendre."
+    },
+    {
+      "debut": 56.76,
+      "fin": 57.8,
+      "texte": "Épreuve numéro 1."
+    },
+    {
+      "debut": 58.06,
+      "fin": 59.36,
+      "texte": "100 kilos pour commencer."
+    },
+    {
+      "debut": 60.16,
+      "fin": 62.56,
+      "texte": "Et croyez-moi, vous n'êtes pas prêt pour la suite ?"
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.18,
+      "fin": 0.8,
+      "mot": "Wesh,"
+    },
+    {
+      "debut": 1.2,
+      "fin": 1.38,
+      "mot": "mais"
+    },
+    {
+      "debut": 1.38,
+      "fin": 1.58,
+      "mot": "attends,"
+    },
+    {
+      "debut": 1.66,
+      "fin": 1.74,
+      "mot": "tu"
+    },
+    {
+      "debut": 1.74,
+      "fin": 1.9,
+      "mot": "portes"
+    },
+    {
+      "debut": 1.9,
+      "fin": 2.1,
+      "mot": "combien"
+    },
+    {
+      "debut": 2.1,
+      "fin": 2.22,
+      "mot": "de"
+    },
+    {
+      "debut": 2.22,
+      "fin": 2.52,
+      "mot": "sacs"
+    },
+    {
+      "debut": 2.52,
+      "fin": 2.8,
+      "mot": "?"
+    },
+    {
+      "debut": 2.8,
+      "fin": 2.96,
+      "mot": "J"
+    },
+    {
+      "debut": 2.96,
+      "fin": 3.0,
+      "mot": "'en"
+    },
+    {
+      "debut": 3.0,
+      "fin": 3.1,
+      "mot": "sais"
+    },
+    {
+      "debut": 3.1,
+      "fin": 3.34,
+      "mot": "rien,"
+    },
+    {
+      "debut": 3.42,
+      "fin": 3.46,
+      "mot": "j"
+    },
+    {
+      "debut": 3.46,
+      "fin": 3.48,
+      "mot": "'ai"
+    },
+    {
+      "debut": 3.48,
+      "fin": 3.62,
+      "mot": "pas"
+    },
+    {
+      "debut": 3.62,
+      "fin": 3.92,
+      "mot": "compté."
+    },
+    {
+      "debut": 4.44,
+      "fin": 4.66,
+      "mot": "Fréro,"
+    },
+    {
+      "debut": 4.78,
+      "fin": 4.8,
+      "mot": "ils"
+    },
+    {
+      "debut": 4.8,
+      "fin": 4.9,
+      "mot": "font"
+    },
+    {
+      "debut": 4.9,
+      "fin": 5.24,
+      "mot": "70"
+    },
+    {
+      "debut": 5.24,
+      "fin": 5.44,
+      "mot": "kilos"
+    },
+    {
+      "debut": 5.44,
+      "fin": 5.68,
+      "mot": "chacun."
+    },
+    {
+      "debut": 8.04,
+      "fin": 8.44,
+      "mot": "Fréro,"
+    },
+    {
+      "debut": 8.58,
+      "fin": 8.62,
+      "mot": "t"
+    },
+    {
+      "debut": 8.62,
+      "fin": 8.64,
+      "mot": "'es"
+    },
+    {
+      "debut": 8.64,
+      "fin": 8.88,
+      "mot": "vraiment"
+    },
+    {
+      "debut": 8.88,
+      "fin": 9.2,
+      "mot": "normal"
+    },
+    {
+      "debut": 9.2,
+      "fin": 9.46,
+      "mot": "toi."
+    },
+    {
+      "debut": 10.14,
+      "fin": 10.3,
+      "mot": "Bah"
+    },
+    {
+      "debut": 10.3,
+      "fin": 10.48,
+      "mot": "quoi"
+    },
+    {
+      "debut": 10.48,
+      "fin": 10.82,
+      "mot": "?"
+    },
+    {
+      "debut": 10.82,
+      "fin": 10.9,
+      "mot": "J"
+    },
+    {
+      "debut": 10.9,
+      "fin": 10.94,
+      "mot": "'ai"
+    },
+    {
+      "debut": 10.94,
+      "fin": 11.04,
+      "mot": "juste"
+    },
+    {
+      "debut": 11.04,
+      "fin": 11.32,
+      "mot": "porté"
+    },
+    {
+      "debut": 11.32,
+      "fin": 11.48,
+      "mot": "quelques"
+    },
+    {
+      "debut": 11.48,
+      "fin": 11.86,
+      "mot": "sacs."
+    },
+    {
+      "debut": 12.58,
+      "fin": 12.98,
+      "mot": "Fréro,"
+    },
+    {
+      "debut": 13.14,
+      "fin": 13.26,
+      "mot": "après"
+    },
+    {
+      "debut": 13.26,
+      "fin": 13.46,
+      "mot": "cette"
+    },
+    {
+      "debut": 13.46,
+      "fin": 13.82,
+      "mot": "matinée,"
+    },
+    {
+      "debut": 13.88,
+      "fin": 13.92,
+      "mot": "j"
+    },
+    {
+      "debut": 13.92,
+      "fin": 13.92,
+      "mot": "'ai"
+    },
+    {
+      "debut": 13.92,
+      "fin": 14.06,
+      "mot": "une"
+    },
+    {
+      "debut": 14.06,
+      "fin": 14.26,
+      "mot": "dalle"
+    },
+    {
+      "debut": 14.26,
+      "fin": 14.4,
+      "mot": "de"
+    },
+    {
+      "debut": 14.4,
+      "fin": 14.76,
+      "mot": "malade."
+    },
+    {
+      "debut": 15.16,
+      "fin": 15.4,
+      "mot": "Attends,"
+    },
+    {
+      "debut": 15.54,
+      "fin": 15.72,
+      "mot": "regarde"
+    },
+    {
+      "debut": 15.72,
+      "fin": 15.88,
+      "mot": "là"
+    },
+    {
+      "debut": 15.88,
+      "fin": 16.0,
+      "mot": "-bas."
+    },
+    {
+      "debut": 16.7,
+      "fin": 16.9,
+      "mot": "Wesh,"
+    },
+    {
+      "debut": 17.1,
+      "fin": 17.16,
+      "mot": "c"
+    },
+    {
+      "debut": 17.16,
+      "fin": 17.18,
+      "mot": "'est"
+    },
+    {
+      "debut": 17.18,
+      "fin": 17.3,
+      "mot": "quoi"
+    },
+    {
+      "debut": 17.3,
+      "fin": 17.46,
+      "mot": "ça"
+    },
+    {
+      "debut": 17.46,
+      "fin": 18.18,
+      "mot": "?"
+    },
+    {
+      "debut": 18.88,
+      "fin": 19.28,
+      "mot": "Wesh,"
+    },
+    {
+      "debut": 19.46,
+      "fin": 19.84,
+      "mot": "67"
+    },
+    {
+      "debut": 19.84,
+      "fin": 20.14,
+      "mot": "millions"
+    },
+    {
+      "debut": 20.14,
+      "fin": 20.34,
+      "mot": "?"
+    },
+    {
+      "debut": 20.78,
+      "fin": 21.18,
+      "mot": "Attends,"
+    },
+    {
+      "debut": 21.18,
+      "fin": 21.58,
+      "mot": "67"
+    },
+    {
+      "debut": 21.58,
+      "fin": 21.9,
+      "mot": "millions"
+    },
+    {
+      "debut": 21.9,
+      "fin": 22.08,
+      "mot": "d"
+    },
+    {
+      "debut": 22.08,
+      "fin": 22.24,
+      "mot": "'euros"
+    },
+    {
+      "debut": 22.24,
+      "fin": 23.14,
+      "mot": "?"
+    },
+    {
+      "debut": 23.14,
+      "fin": 23.38,
+      "mot": "On"
+    },
+    {
+      "debut": 23.38,
+      "fin": 23.5,
+      "mot": "s"
+    },
+    {
+      "debut": 23.5,
+      "fin": 23.74,
+      "mot": "'inscrit."
+    },
+    {
+      "debut": 24.78,
+      "fin": 25.04,
+      "mot": "Vous"
+    },
+    {
+      "debut": 25.04,
+      "fin": 25.24,
+      "mot": "voulez"
+    },
+    {
+      "debut": 25.24,
+      "fin": 25.48,
+      "mot": "vraiment"
+    },
+    {
+      "debut": 25.48,
+      "fin": 25.92,
+      "mot": "participer"
+    },
+    {
+      "debut": 25.92,
+      "fin": 26.04,
+      "mot": "au"
+    },
+    {
+      "debut": 26.04,
+      "fin": 26.38,
+      "mot": "concours"
+    },
+    {
+      "debut": 26.38,
+      "fin": 26.7,
+      "mot": "?"
+    },
+    {
+      "debut": 26.7,
+      "fin": 26.94,
+      "mot": "Lui,"
+    },
+    {
+      "debut": 27.2,
+      "fin": 27.26,
+      "mot": "il"
+    },
+    {
+      "debut": 27.26,
+      "fin": 27.4,
+      "mot": "va"
+    },
+    {
+      "debut": 27.4,
+      "fin": 27.56,
+      "mot": "tous"
+    },
+    {
+      "debut": 27.56,
+      "fin": 27.68,
+      "mot": "les"
+    },
+    {
+      "debut": 27.68,
+      "fin": 28.16,
+      "mot": "écraser."
+    },
+    {
+      "debut": 28.16,
+      "fin": 28.78,
+      "mot": "Très"
+    },
+    {
+      "debut": 28.78,
+      "fin": 28.96,
+      "mot": "bien,"
+    },
+    {
+      "debut": 29.18,
+      "fin": 29.22,
+      "mot": "vous"
+    },
+    {
+      "debut": 29.22,
+      "fin": 29.38,
+      "mot": "êtes"
+    },
+    {
+      "debut": 29.38,
+      "fin": 29.72,
+      "mot": "inscrits."
+    },
+    {
+      "debut": 29.94,
+      "fin": 30.18,
+      "mot": "Rendez"
+    },
+    {
+      "debut": 30.18,
+      "fin": 30.24,
+      "mot": "-vous"
+    },
+    {
+      "debut": 30.24,
+      "fin": 30.36,
+      "mot": "dans"
+    },
+    {
+      "debut": 30.36,
+      "fin": 30.48,
+      "mot": "la"
+    },
+    {
+      "debut": 30.48,
+      "fin": 30.72,
+      "mot": "reine."
+    },
+    {
+      "debut": 31.36,
+      "fin": 31.5,
+      "mot": "On"
+    },
+    {
+      "debut": 31.5,
+      "fin": 31.58,
+      "mot": "va"
+    },
+    {
+      "debut": 31.58,
+      "fin": 31.8,
+      "mot": "chercher"
+    },
+    {
+      "debut": 31.8,
+      "fin": 31.98,
+      "mot": "les"
+    },
+    {
+      "debut": 31.98,
+      "fin": 32.42,
+      "mot": "67"
+    },
+    {
+      "debut": 32.42,
+      "fin": 32.7,
+      "mot": "millions."
+    },
+    {
+      "debut": 33.9,
+      "fin": 34.38,
+      "mot": "C"
+    },
+    {
+      "debut": 34.38,
+      "fin": 34.86,
+      "mot": "'est"
+    },
+    {
+      "debut": 34.86,
+      "fin": 35.04,
+      "mot": "toi"
+    },
+    {
+      "debut": 35.04,
+      "fin": 35.16,
+      "mot": "le"
+    },
+    {
+      "debut": 35.16,
+      "fin": 35.68,
+      "mot": "particpant"
+    },
+    {
+      "debut": 35.68,
+      "fin": 35.98,
+      "mot": "?"
+    },
+    {
+      "debut": 35.98,
+      "fin": 36.3,
+      "mot": "Mettez"
+    },
+    {
+      "debut": 36.3,
+      "fin": 36.42,
+      "mot": "tout"
+    },
+    {
+      "debut": 36.42,
+      "fin": 36.76,
+      "mot": "maigre"
+    },
+    {
+      "debut": 36.76,
+      "fin": 37.68,
+      "mot": "!"
+    },
+    {
+      "debut": 37.68,
+      "fin": 38.1,
+      "mot": "Profite"
+    },
+    {
+      "debut": 38.1,
+      "fin": 38.32,
+      "mot": "de"
+    },
+    {
+      "debut": 38.32,
+      "fin": 38.48,
+      "mot": "rire"
+    },
+    {
+      "debut": 38.48,
+      "fin": 38.82,
+      "mot": "maintenant."
+    },
+    {
+      "debut": 39.32,
+      "fin": 39.72,
+      "mot": "J"
+    },
+    {
+      "debut": 39.72,
+      "fin": 39.78,
+      "mot": "'ai"
+    },
+    {
+      "debut": 39.78,
+      "fin": 39.98,
+      "mot": "hâte"
+    },
+    {
+      "debut": 39.98,
+      "fin": 40.16,
+      "mot": "de"
+    },
+    {
+      "debut": 40.16,
+      "fin": 40.32,
+      "mot": "voir"
+    },
+    {
+      "debut": 40.32,
+      "fin": 40.58,
+      "mot": "ça."
+    },
+    {
+      "debut": 42.74,
+      "fin": 43.22,
+      "mot": "Mesdames"
+    },
+    {
+      "debut": 43.22,
+      "fin": 43.44,
+      "mot": "et"
+    },
+    {
+      "debut": 43.44,
+      "fin": 43.82,
+      "mot": "messieurs,"
+    },
+    {
+      "debut": 44.76,
+      "fin": 45.08,
+      "mot": "veuillez"
+    },
+    {
+      "debut": 45.08,
+      "fin": 45.3,
+      "mot": "bien"
+    },
+    {
+      "debut": 45.3,
+      "fin": 45.46,
+      "mot": "vous"
+    },
+    {
+      "debut": 45.46,
+      "fin": 45.82,
+      "mot": "installer."
+    },
+    {
+      "debut": 46.56,
+      "fin": 46.68,
+      "mot": "Le"
+    },
+    {
+      "debut": 46.68,
+      "fin": 47.06,
+      "mot": "spectacle"
+    },
+    {
+      "debut": 47.06,
+      "fin": 47.34,
+      "mot": "va"
+    },
+    {
+      "debut": 47.34,
+      "fin": 47.64,
+      "mot": "bientôt"
+    },
+    {
+      "debut": 47.64,
+      "fin": 48.06,
+      "mot": "commencer."
+    },
+    {
+      "debut": 48.74,
+      "fin": 49.04,
+      "mot": "Alors,"
+    },
+    {
+      "debut": 49.34,
+      "fin": 49.58,
+      "mot": "c"
+    },
+    {
+      "debut": 49.58,
+      "fin": 49.6,
+      "mot": "'est"
+    },
+    {
+      "debut": 49.6,
+      "fin": 49.72,
+      "mot": "vous"
+    },
+    {
+      "debut": 49.72,
+      "fin": 49.84,
+      "mot": "mes"
+    },
+    {
+      "debut": 49.84,
+      "fin": 50.36,
+      "mot": "adversaires"
+    },
+    {
+      "debut": 50.36,
+      "fin": 50.72,
+      "mot": "et"
+    },
+    {
+      "debut": 50.72,
+      "fin": 50.84,
+      "mot": "vous"
+    },
+    {
+      "debut": 50.84,
+      "fin": 51.18,
+      "mot": "pensez"
+    },
+    {
+      "debut": 51.18,
+      "fin": 51.34,
+      "mot": "vraiment"
+    },
+    {
+      "debut": 51.34,
+      "fin": 51.58,
+      "mot": "pouvoir"
+    },
+    {
+      "debut": 51.58,
+      "fin": 51.72,
+      "mot": "me"
+    },
+    {
+      "debut": 51.72,
+      "fin": 51.94,
+      "mot": "battre"
+    },
+    {
+      "debut": 51.94,
+      "fin": 52.08,
+      "mot": "avec"
+    },
+    {
+      "debut": 52.08,
+      "fin": 52.26,
+      "mot": "ça"
+    },
+    {
+      "debut": 52.26,
+      "fin": 52.5,
+      "mot": "?"
+    },
+    {
+      "debut": 52.5,
+      "fin": 52.66,
+      "mot": "T"
+    },
+    {
+      "debut": 52.66,
+      "fin": 52.84,
+      "mot": "'inquiète"
+    },
+    {
+      "debut": 52.84,
+      "fin": 53.02,
+      "mot": "pas,"
+    },
+    {
+      "debut": 53.1,
+      "fin": 53.16,
+      "mot": "tu"
+    },
+    {
+      "debut": 53.16,
+      "fin": 53.24,
+      "mot": "vas"
+    },
+    {
+      "debut": 53.24,
+      "fin": 53.36,
+      "mot": "vite"
+    },
+    {
+      "debut": 53.36,
+      "fin": 53.7,
+      "mot": "comprendre."
+    },
+    {
+      "debut": 56.76,
+      "fin": 57.24,
+      "mot": "Épreuve"
+    },
+    {
+      "debut": 57.24,
+      "fin": 57.38,
+      "mot": "numéro"
+    },
+    {
+      "debut": 57.38,
+      "fin": 57.8,
+      "mot": "1."
+    },
+    {
+      "debut": 58.06,
+      "fin": 58.4,
+      "mot": "100"
+    },
+    {
+      "debut": 58.4,
+      "fin": 58.66,
+      "mot": "kilos"
+    },
+    {
+      "debut": 58.66,
+      "fin": 58.92,
+      "mot": "pour"
+    },
+    {
+      "debut": 58.92,
+      "fin": 59.36,
+      "mot": "commencer."
+    },
+    {
+      "debut": 60.16,
+      "fin": 60.3,
+      "mot": "Et"
+    },
+    {
+      "debut": 60.3,
+      "fin": 60.6,
+      "mot": "croyez"
+    },
+    {
+      "debut": 60.6,
+      "fin": 60.82,
+      "mot": "-moi,"
+    },
+    {
+      "debut": 61.14,
+      "fin": 61.26,
+      "mot": "vous"
+    },
+    {
+      "debut": 61.26,
+      "fin": 61.34,
+      "mot": "n"
+    },
+    {
+      "debut": 61.34,
+      "fin": 61.4,
+      "mot": "'êtes"
+    },
+    {
+      "debut": 61.4,
+      "fin": 61.56,
+      "mot": "pas"
+    },
+    {
+      "debut": 61.56,
+      "fin": 61.76,
+      "mot": "prêt"
+    },
+    {
+      "debut": 61.76,
+      "fin": 61.94,
+      "mot": "pour"
+    },
+    {
+      "debut": 61.94,
+      "fin": 62.04,
+      "mot": "la"
+    },
+    {
+      "debut": 62.04,
+      "fin": 62.26,
+      "mot": "suite"
+    },
+    {
+      "debut": 62.26,
+      "fin": 62.56,
+      "mot": "?"
+    }
+  ]
+}

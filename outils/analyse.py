@@ -94,7 +94,10 @@ def planche(mp4, plans, sortie):
     rows = (len(vignettes) + cols - 1) // cols
     img = Image.new("RGB", (cols * w, rows * (h + 34)), "white")
     d = ImageDraw.Draw(img)
-    font = ImageFont.truetype("C:/Windows/Fonts/arialbd.ttf", 20)
+    try:
+        font = ImageFont.truetype("C:/Windows/Fonts/arialbd.ttf", 20)
+    except OSError:  # Linux (cloud)
+        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 20)
     for i, (p, v) in enumerate(vignettes):
         x, y = (i % cols) * w, (i // cols) * (h + 34)
         img.paste(v.resize((w, h)), (x, y + 34))
