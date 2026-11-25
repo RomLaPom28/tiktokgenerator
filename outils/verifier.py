@@ -44,7 +44,8 @@ def verifier(projet, nom):
 
     r = b.real
     # ---------- structure ----------
-    ok(12 <= len(plans) <= 16, "12 à 16 plans", len(plans))
+    mini, maxi = b.projet.get("nb_plans", [12, 16])  # réglable par projet (projet.json)
+    ok(mini <= len(plans) <= maxi, f"{mini} à {maxi} plans", len(plans))
     erreurs = []
     for p in plans:
         for champ, table in (("lieu", b.lieux), ("lumiere", r["lumieres"]), ("cadrage", r["cadrages"]),

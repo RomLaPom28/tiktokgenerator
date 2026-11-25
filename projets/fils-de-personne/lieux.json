@@ -1,0 +1,47 @@
+{
+  "_lisez_moi": "desc = recopiée mot pour mot dans chaque prompt image ; son = ambiance des prompts Grok.",
+  "lieux": [
+    {
+      "id": "terrain_essai",
+      "nom": "Terrain d'essai du centre de formation de Paris",
+      "desc": "terrain d'entraînement impeccable du centre de formation de Paris, pelouse rayée parfaite, grand bâtiment moderne vitré bleu marine avec l'inscription « CENTRE DE FORMATION · PARIS » en lettres blanches, petite tribune de recruteurs en doudounes bleu marine avec tablettes, une cinquantaine de jeunes candidats animaux en chasubles jaunes numérotées",
+      "son": "crampons sur la pelouse, coups de sifflet, murmures de candidats"
+    },
+    {
+      "id": "arret_bus",
+      "nom": "Abribus sous la pluie",
+      "desc": "abribus de banlieue parisienne la nuit sous une pluie battante, banc métallique, plan de bus rayé, réverbère orange, flaques qui reflètent les phares, tours d'immeubles au loin",
+      "son": "pluie qui martèle le toit en plastique, bus qui passe sans s'arrêter"
+    },
+    {
+      "id": "terrain_boue",
+      "nom": "Terrain de l'US Pont-Rouge",
+      "desc": "petit terrain en herbe boueux de l'US Pont-Rouge, buts rouillés aux filets troués, grillage tordu, préfabriqué blanc en guise de vestiaire, grand tableau en bois peint à la main « US PONT-ROUGE · SAISON : 0 VICTOIRE », une dizaine de joueurs animaux en maillots verts délavés",
+      "son": "pas dans la boue, corbeaux, RER au loin"
+    },
+    {
+      "id": "vestiaire_pont_rouge",
+      "nom": "Vestiaire préfabriqué de Pont-Rouge",
+      "desc": "vestiaire étroit dans un préfabriqué, casiers métalliques cabossés, banc en bois rayé, néon qui grésille, maillots verts délavés suspendus, flaques sur le carrelage",
+      "son": "néon qui grésille, goutte qui tombe, rires étouffés derrière la porte"
+    },
+    {
+      "id": "voiture_stephane",
+      "nom": "Berline noire de Stéphane",
+      "desc": "intérieur en cuir noir d'une grosse berline noire aux vitres teintées, garée au bord du terrain boueux de Pont-Rouge, tableau de bord lumineux bleu, le petit terrain vert et boueux visible par la vitre conducteur",
+      "son": "moteur au ralenti, cuir qui craque, vitre électrique"
+    },
+    {
+      "id": "bureau_directeur",
+      "nom": "Bureau du directeur",
+      "desc": "grand bureau vitré au dernier étage du centre de formation de Paris, mur de trophées dorés, maillots bleu marine à bande rouge encadrés sans logo, baie vitrée sur les terrains, un seul cadre photo retourné face contre le bureau",
+      "son": "climatisation, stylo qui tapote, terrains au loin"
+    },
+    {
+      "id": "stade_coupe",
+      "nom": "Stade de Pont-Rouge un soir de Coupe",
+      "desc": "petit stade de l'US Pont-Rouge transformé pour la Coupe de France, tribunes provisoires en tubes métalliques bondées de 3 000 supporters animaux, fumigènes verts, grande banderole « PONT-ROUGE – PARIS », tableau d'affichage lumineux, projecteurs blancs aveuglants",
+      "son": "chants de supporters, tambours, sifflet de l'arbitre"
+    }
+  ]
+}

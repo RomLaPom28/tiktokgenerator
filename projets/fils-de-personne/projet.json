@@ -1,0 +1,13 @@
+{
+  "id": "fils-de-personne",
+  "type": "serie",
+  "titre": "Fils de personne",
+  "sujet": "Nathan, 17 ans, est jeté de l'essai du centre de formation du PSG par le directeur, qui l'humilie en le traitant de « fils de personne ». Ce directeur est son père caché, et il l'a jeté exprès. Nathan rejoint le pire club d'Île-de-France pour le battre en Coupe de France.",
+  "concept": "outsider_revanche + secret (père caché)",
+  "nb_plans": [
+    9,
+    9
+  ],
+  "exceptions": "Validé par l'utilisateur : le PSG est nommé dans les dialogues et « PARIS » dans le décor. Jamais d'écusson, de sponsor, de logo ni de vrai joueur : maillot ressemblant (bleu marine à bande rouge centrale) mais sans aucun signe officiel.",
+  "cree": "2026-11-25"
+}

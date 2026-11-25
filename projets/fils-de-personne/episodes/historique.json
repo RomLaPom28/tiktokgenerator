@@ -1,0 +1,74 @@
+[
+  {
+    "numero": 1,
+    "titre": "Fils de personne",
+    "format": "test / mise à l'épreuve",
+    "accroche_type": "insulte choc",
+    "cliff_type": "twist final",
+    "centre": "nathan",
+    "lieu_principal": "terrain_essai",
+    "lieux": [
+      "arret_bus",
+      "terrain_boue",
+      "terrain_essai",
+      "vestiaire_pont_rouge",
+      "voiture_stephane"
+    ],
+    "fils_avances": [
+      "pere",
+      "expres",
+      "coupe"
+    ],
+    "revele": [
+      "pere"
+    ],
+    "temps_parole": {
+      "stephane": 8,
+      "nathan": 12,
+      "dylan": 6,
+      "michel": 3,
+      "yanis": 1,
+      "lucas": 2,
+      "celine": 3
+    },
+    "repliques": [
+      "Dégage d'ici, fils de… fils de personne.",
+      "Personne ? Mon père aussi m'a jeté, je connais.",
+      "Il a dit quoi ?!",
+      "Le 47, t'as payé combien pour être là ?",
+      "Moins que ton coiffeur, frérot.",
+      "Non… non non non !",
+      "Relève-toi. La place est prise.",
+      "Non… ces yeux-là…",
+      "Il m'a ridiculisé. Tu le prends ?",
+      "Dix-neuf sur vingt…",
+      "Refusé. Ici, c'est moi qui note.",
+      "Rends ça. Le 47, c'est la poubelle.",
+      "Gardez-le. Je viendrai le reprendre.",
+      "Avec qui ? T'as même pas d'équipe.",
+      "J'en trouverai une. Et je vous sortirai.",
+      "Rêve pas, fils de personne.",
+      "Maman fait trois ménages pour payer mes crampons.",
+      "Je peux pas lui dire. Pas ce soir.",
+      "Tu vas pleurer longtemps, gamin ?",
+      "Vous êtes qui, le vieux ?",
+      "Celui qui fouille les poubelles du PSG.",
+      "Votre club, il a gagné quoi ?",
+      "Rien. Avec toi, on va battre Paris.",
+      "Le déchet du PSG ? Ici on recycle pas.",
+      "Zéro victoire. Le déchet, c'est qui ?",
+      "Aïe aïe aïe !",
+      "Michel m'a appelée. Tu m'as menti.",
+      "Le directeur m'a jeté comme un chien !",
+      "Le directeur… Stéphane ?",
+      "Tu le connais ?!",
+      "Nathan… c'est ton père.",
+      "QUOI ?!",
+      "Pourquoi on surveille ce fils de personne ?",
+      "C'est pas personne.",
+      "C'est mon fils. Et je l'ai jeté exprès."
+    ],
+    "resume": "À l'essai du centre de formation du PSG, Nathan met Dylan par terre d'un petit pont et obtient 19/20. Le directeur Stéphane le refuse quand même, le traite de « fils de personne » et jette son 47 à la poubelle. Sous la pluie, Nathan ment à sa mère. Michel, coach du pire club d'Île-de-France, a ramassé le 47. À Pont-Rouge, le capitaine Yanis le traite de déchet. Au téléphone, sa mère lâche : « C'est ton père. » Dans sa berline, Stéphane avoue : il l'a jeté exprès.",
+    "fin": "Dans la berline noire, Stéphane remonte la vitre teintée : « C'est mon fils. Et je l'ai jeté exprès. »"
+  }
+]

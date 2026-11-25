@@ -1,0 +1,53 @@
+{
+  "_lisez_moi": "Saison courte en 3 épisodes (choix utilisateur : les suites perdent 40-70 % des vues). Chaque épisode tient seul : hook agressif, contexte en une phrase au plan 2. 9 plans par épisode : 5 × 6 s + 4 × 10 s = 70 s de rush.",
+  "enjeu": "Jeté du centre de formation du PSG par son père caché, Nathan peut-il le battre en Coupe de France avec le pire club d'Île-de-France ?",
+  "episodes": [
+    {
+      "n": 1,
+      "format": "test / mise à l'épreuve",
+      "pitch": "Essai au centre de formation : Nathan met un petit pont à Dylan, sa fiche dit 19/20, Stéphane le jette (« fils de personne ») et met son 47 à la poubelle. Michel a ramassé le 47. Céline : « C'est ton père. » Dans la berline, Stéphane : « Je l'ai jeté exprès. »"
+    },
+    {
+      "n": 2,
+      "format": "trahison ultime",
+      "pitch": "Reprend : « Je l'ai jeté exprès. » Stéphane débarque à Pont-Rouge et paie Yanis pour casser Nathan à l'entraînement. Premier match : Pont-Rouge gagne enfin grâce au 47. Tirage de la Coupe de France : « US Pont-Rouge – Paris ». Cliff : Dylan à Nathan : « Stéphane m'a élevé. Ton père, c'est le mien maintenant. »"
+    },
+    {
+      "n": 3,
+      "format": "évènement public",
+      "pitch": "32e de finale au stade de Pont-Rouge. Dylan essaie de le blesser (coupé avant l'impact), Lucas montre sa vidéo de Yanis payé. Dernier penalty : Nathan face à Stéphane sur le banc adverse, « Le fils de personne vient de te sortir. » Kicker : Michel révèle pourquoi Stéphane l'a vraiment jeté. Vote : il lui pardonne ?"
+    }
+  ],
+  "fils": [
+    {
+      "id": "pere",
+      "statut": "cache",
+      "texte": "Stéphane, directeur du centre de formation, est le père de Nathan (révélé fin de l'épisode 1 par Céline)."
+    },
+    {
+      "id": "expres",
+      "statut": "ouvert",
+      "texte": "Stéphane a reconnu Nathan à l'essai et l'a jeté exprès. Pourquoi ? Pour le détruire ou pour le protéger ? (réponse au kicker de l'épisode 3)"
+    },
+    {
+      "id": "dylan_eleve",
+      "statut": "cache",
+      "texte": "Stéphane élève Dylan comme son fils depuis ses 5 ans : Dylan a peur que Nathan lui prenne sa place."
+    },
+    {
+      "id": "michel_sait",
+      "statut": "cache",
+      "texte": "Michel a entraîné Stéphane à 17 ans et connaît Céline : il était à l'essai exprès et sait tout depuis le début."
+    },
+    {
+      "id": "yanis_paye",
+      "statut": "cache",
+      "texte": "Yanis est payé par Stéphane pour casser Nathan ; Lucas a tout filmé en cachette."
+    },
+    {
+      "id": "coupe",
+      "statut": "ouvert",
+      "texte": "Le parcours en Coupe de France jusqu'au PSG (« US Pont-Rouge – Paris »)."
+    }
+  ]
+}
