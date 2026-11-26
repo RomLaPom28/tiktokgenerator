@@ -28,8 +28,21 @@
 
 ## Ensuite
 - **`/monter <id>`** : monte les clips Grok (pris dans Téléchargements) en vidéo finale 9:16 sous-titrée.
+- **`/suivi`** : après publication, donne les chiffres de TikTok Studio (voir « Suivre les performances »).
 - **`/episode <id>`** : épisode suivant d'une série (reprend la fin du précédent).
 - **`/analyser`** + liens TikTok : apprend des vidéos virales. Ça nourrit tous les futurs `/creer`.
+
+## Suivre les performances de tes vidéos
+1. **Relever** dans TikTok Studio → Analyse de la vidéo, de préférence à **J+2** et **J+7** (J+30 si elle vit encore) : vues, likes, commentaires, partages, favoris, temps moyen de visionnage, taux de complétion (« a regardé la vidéo en entier »), nouveaux abonnés, revenus. Ce que tu n'as pas : laisse vide, rien n'est estimé.
+2. **Saisir**, au choix :
+   - dans le chat (PC ou téléphone) : `/suivi prodige-34-ans publiée le 20/11, relevé du 27/11 : 12 400 vues, 830 likes, 95 commentaires, complétion 41 %` ;
+   - dans Excel : `suivi/stats.csv`, une ligne par relevé (séparateur « ; », dates AAAA-MM-JJ ou JJ/MM/AAAA), puis `python outils/suivi.py verifier` ;
+   - en commande : `python outils/suivi.py ajouter prodige-34-ans --publie 2026-11-20 --releve 2026-11-27 --vues 12400 --likes 830 --commentaires 95 --completion 41`.
+   Le concept, le moteur, les mécaniques, le hook, la fin et le format sont lus dans le projet : rien à ressaisir. Pour comparer par mécanique, l'épisode doit avoir `mecaniques_utilisees` (`/suivi` le propose et te le fait valider).
+3. **Rapport** (toutes les 2 à 4 semaines) : `/suivi rapport` ou `python outils/suivi.py rapport [--age 7]` → `suivi/rapports/AAAA-MM-JJ.md` : ce qui marche le mieux, moins bien, hypothèses, mécaniques à réutiliser, à retravailler, prochaines expériences.
+   Lecture : « ×1,8 » = 1,8 fois la médiane des autres vidéos au même âge. « Hypothèse » = 1 vidéo ou moins de 3 projets. « Signal répété » = 3 projets concordants sans variable confondue. Ce n'est jamais une preuve de cause.
+4. **Test A/B** (le seul qui approche une cause) : même épisode republié avec un autre hook (`hooks_alternatifs`), colonnes `test` (même nom pour les deux) et `variante` (A, B), relevés à J+2.
+5. Comparer deux vidéos : `python outils/suivi.py liste` puis `python outils/suivi.py comparer <pubA> <pubB>`.
 
 ## Dossiers
 - `projets/<id>/` : un projet = une vidéo unique ou une série (personnages, décors, saison, épisodes, prompts, vidéo finale).
@@ -41,7 +54,8 @@
 ## Commandes manuelles
 - `python outils/verifier.py <id> [epNNN] [--detail]` : contrôle qualité (verdict technique + verdict éditorial ; `--detail` liste chaque contrôle).
 - `/doctor <id> [epNNN]` : critique éditoriale (Script Doctor) d'un épisode, même ancien. `python3 outils/doctor.py <id> [epNNN]` : ses indices automatiques seuls.
-- `python3 -m unittest discover -s tests` : tests du contrôle qualité (tous les projets existants doivent rester valides).
+- `python3 -m unittest discover -s tests` : tests (contrôle qualité, suivi des performances ; tous les projets existants doivent rester valides).
+- `suivi/stats.csv` : relevés de nos vidéos publiées ; `suivi/rapports/` : rapports de performances.
 - `bible/controles.json` : liste des contrôles, leur nature (technique / editorial / preference) et leurs seuils.
 - `python outils/pack.py <id> [epNNN]` : régénère les prompts.
 - `python3 outils/creer.py dossier` : recalcule le dossier éditorial ; `concepts propositions/<fichier>.json` : contrôle des concepts (étape A) ; `histoire <id>` : contrôle de l'histoire (étape B).

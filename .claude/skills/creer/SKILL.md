@@ -26,6 +26,7 @@ Si l'utilisateur ne l'a pas dit : `AskUserQuestion` (Vidéo unique : histoire co
 3. `bible/histoires.json` (squelettes et greffes) ; pour les 3-4 squelettes ou vidéos qui inspirent un concept, lire `analyses/<id>/fiche.md` (et `transcript.json` si besoin de sentir le rythme). Inclure au moins une vidéo **sous la médiane de son compte** dans la réflexion (section 3 du dossier) : qu'est-ce qui lui manquait ?
 4. `bible/mecaniques.json` : pour chaque mécanique envisagée, `effet`, `fonctionnement`, `conditions`, `erreurs`. Une mécanique « dépend du contexte » n'est utilisée que si l'histoire remplit ses conditions (ex. `epreuve_verdict` adossée à une identité révélée ou une force cachée).
 5. `bible/concepts.json` (`regles_generiques` : prénoms, univers inventé), `bible/conformite.json`.
+6. Nos propres résultats, s'ils existent : le dernier `suivi/rapports/*.md` et le bloc `resultats_propres` des mécaniques. Ils pèsent comme le reste : une hypothèse (1 vidéo, moins de 3 projets) peut inspirer un concept « à tester », jamais l'imposer ni en écarter un. Citer le niveau de confiance quand on s'en sert.
 
 ### A2. Fabriquer les concepts EN INTERNE
 Partir des moteurs narratifs, pas des personnages. Viser un mélange :
@@ -91,7 +92,7 @@ L'histoire validée est la référence : on ne change pas la fin, les retourneme
 
 **`episodes/ep001/episode.json`** : format exact de `projets/faux-joueur-district/episodes/ep001/episode.json` (plans `{n, role, duree: 6|10, lieu, lumiere, cadrage, angle, camera, persos[{id, tenue?, jeu}], detail_image?, texte_decor?, fin? (obligatoire pour 10 s), timeline[{t, action, camera?, son?}], dialogues[{t, parle, emotion, fonction, texte}], son?, texte_ecran?}`), plus :
 - `moteur` : `desir, conflit, antagoniste` (ou obstacle), `enjeu, payoff` obligatoires ; `force_cachee, callback, kicker` seulement s'ils servent l'histoire.
-- `mecaniques_utilisees` : ids de `bible/mecaniques.json` réellement utilisés (ceux de l'étape A) ; une mécanique « à tester » est assumée comme test.
+- `mecaniques_utilisees` : ids de `bible/mecaniques.json` réellement utilisés (ceux de l'étape A) ; une mécanique « à tester » est assumée comme test. Sans ce champ, la vidéo publiée ne pourra pas être comparée par mécanique (`/suivi`).
 - Hook : plan 1 serré, `texte_accroche` (7 mots max), 3 `hooks_alternatifs`. Plan 1 muet possible si l'image est le hook (`muet: "pourquoi"`).
 - Publication : `titre_couverture`, `legende`, 4 à 7 `hashtags`, `commentaire_epingle` (vraie question d'opinion), `vote_question`. `question_milieu` si elle sert.
 - `"controle": 2` (épisode soumis aux règles actuelles : moteur et fonctions obligatoires). `choix_creatifs` : `{"<id de bible/controles.json>": "pourquoi"}` pour chaque recommandation écartée volontairement.
