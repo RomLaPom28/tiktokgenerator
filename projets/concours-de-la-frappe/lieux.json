@@ -30,6 +30,18 @@
       "nom": "Arène du concours",
       "desc": "stade plein à craquer de spectateurs animaux, projecteurs, fumée dorée, un but géant au centre, un radar géant lumineux au-dessus du but qui affiche la vitesse en KM/H, banderoles « 10 000 000 € »",
       "son": "foule en délire, tambours, sifflet"
+    },
+    {
+      "id": "zone_tir",
+      "nom": "Zone de tir",
+      "desc": "point de tir doré au centre de l'arène, ballon posé sur une ligne dorée lumineuse, but géant derrière, radar géant lumineux au-dessus du but qui affiche la vitesse en KM/H, tribunes pleines à craquer de spectateurs animaux juste derrière un grillage doré",
+      "son": "foule qui retient son souffle, tambours"
+    },
+    {
+      "id": "banc_candidats",
+      "nom": "Banc des candidats",
+      "desc": "banc doré des candidats au bord de l'arène, serviettes, bouteilles d'eau, seau de glace, projecteurs en contre-jour, foule floue derrière",
+      "son": "foule au loin, glaçons qui tintent"
     }
   ]
 }

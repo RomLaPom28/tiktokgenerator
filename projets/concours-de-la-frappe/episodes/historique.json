@@ -58,5 +58,73 @@
     ],
     "resume": "Tom, minuscule souris ouvrière, renvoie un ballon à travers un mur sans s'en rendre compte. Avec son pote Jules, il tombe sur l'affiche du Concours de la frappe à 10 M€ et s'inscrit. Kévin et Maxime se moquent du « maigre ». Épreuve 1 : plus de 120 km/h. Tom pose le ballon, radar à 0.",
     "fin": "Tom pose le ballon devant le radar à 0 km/h : « J'vais faire doucement. » Coupé."
+  },
+  {
+    "numero": 2,
+    "titre": "Il fait exprès",
+    "format": "évènement public",
+    "accroche_type": "insulte choc",
+    "cliff_type": "choix impossible",
+    "centre": "kevin",
+    "lieu_principal": "zone_tir",
+    "lieux": [
+      "banc_candidats",
+      "couloir_stade",
+      "stade_frappe",
+      "zone_tir"
+    ],
+    "fils_avances": [
+      "radar",
+      "moqueurs",
+      "maxime_comprend",
+      "ballon_beton"
+    ],
+    "revele": [
+      "radar_limite"
+    ],
+    "temps_parole": {
+      "kevin": 7,
+      "tom": 7,
+      "christophe": 6,
+      "maxime": 8,
+      "jules": 3,
+      "lea": 1
+    },
+    "repliques": [
+      "121 ? T'as eu d'la chance, le maigre !",
+      "J'ai fait doucement.",
+      "Doucement ?! Ha ha !",
+      "Concours de la frappe, dix millions en jeu !",
+      "Épreuve 2 : 180 km/h !",
+      "180 ? Je fais ça au petit-déj.",
+      "C'est beaucoup, 180 ?",
+      "AÏE ! Mon pied !",
+      "163 ?! C'est pas possible !",
+      "Ça va, monsieur ?",
+      "Kévin est éliminé !",
+      "Le maigre fera pas mieux !",
+      "Pousse-toi. Je vais te montrer.",
+      "194 km/h ! Sans élan !",
+      "Battre 194 ? Bonne chance, le maigre.",
+      "J'vais essayer d'pas casser le radar.",
+      "Tu dis quoi, là ?",
+      "Frérot, tape pas trop fort !",
+      "T'inquiète, frérot.",
+      "Il tape en marchant ?!",
+      "181 ! Il passe !",
+      "121. 181. Toujours pile.",
+      "Tu fais semblant, hein ?",
+      "À fond, le radar survit pas.",
+      "QUOI ?!",
+      "Mesdames et messieurs, la finale !",
+      "Tom contre Maxime. Dix millions !",
+      "Demain, tape à fond, le maigre.",
+      "Tu l'auras voulu.",
+      "Le ballon du maigre, demain… change-le.",
+      "Mets celui en béton.",
+      "En béton ?!"
+    ],
+    "resume": "Tom passe l'épreuve 1 à 121 km/h « en faisant doucement », Kévin se moque. Épreuve 2 à 180 : Kévin s'explose le pied à 163 et pleure, éliminé. Maxime fait 194 sans élan. Tom tape en marchant : 181, encore pile. Maxime comprend qu'il fait semblant. Finale annoncée, record du radar 250. Dans le couloir, Maxime fait remplacer le ballon de Tom par un ballon en béton, et Léa entend tout.",
+    "fin": "Maxime au téléphone : « Mets celui en béton. » Léa, derrière la porte : « En béton ?! »"
   }
 ]
