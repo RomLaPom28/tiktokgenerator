@@ -209,14 +209,14 @@
       "persos": [
         {
           "id": "kevin",
-          "jeu": "se tient le pied à deux mains, crampon doré éclaté, énormes larmes, bouche grande ouverte"
+          "jeu": "prend un élan énorme, jambe droite tirée loin en arrière, crampons dorés, muscles gonflés, grimace d'effort, devant le ballon"
         },
         {
           "id": "tom",
-          "jeu": "au second plan, grimace gênée"
+          "jeu": "au second plan, regarde en mâchant son sandwich"
         }
       ],
-      "texte_decor": "radar géant : « 163 KM/H · ÉCHEC » en rouge",
+      "detail_image": "le radar géant au-dessus du but est encore éteint",
       "timeline": [
         {
           "t": "0-3",
@@ -226,7 +226,7 @@
         },
         {
           "t": "3-6",
-          "action": "le radar affiche 163 ÉCHEC, Kévin s'effondre en pleurant",
+          "action": "le radar s'allume en rouge, Kévin s'effondre en se tenant le pied et pleure",
           "camera": "secousse",
           "son": "buzzer d'échec, « ohhh » de la foule"
         }
