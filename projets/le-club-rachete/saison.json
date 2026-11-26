@@ -1,0 +1,48 @@
+{
+  "_lisez_moi": "3 épisodes de 9 plans (5 × 6 s + 4 × 10 s). Chaque épisode = une victoire au milieu PUIS une tuile à la fin. Dialogues parlés et drôles, une vanne par réplique, un seul geste de foot par épisode, aucun logo réel.",
+  "enjeu": "Le terrain de la cité : Jordan veut le raser samedi pour un padel. Les gamins peuvent-ils le reprendre sur un match ?",
+  "episodes": [
+    {
+      "n": 1,
+      "format": "arrivée d'un nouveau",
+      "pitch": "Jordan rachète le club en live, le renomme JORDAN FC, vire Patrick, donne le brassard à son neveu Mathis. Léo met une lucarne au défi, Jordan renie sa parole et le vire. Inès révèle le padel de samedi. Léo défie Jordan : « Samedi, match. » Jordan : « Et si vous perdez ? »"
+    },
+    {
+      "n": 2,
+      "format": "trahison ultime",
+      "pitch": "Reprend « Et si vous perdez ? » : perdants = tous figurants de Jordan à vie, gagnants = terrain rendu. Quentin passe chez Jordan pour mille euros par mois. Entraînement sur le parking, la vidéo de Sofiane fait plus de vues que Jordan (victoire au milieu). Cliff : Jordan découvre qu'Inès l'a trahi et la vire… elle sourit : « Tu sais pas encore qui est mon père. »"
+    },
+    {
+      "n": 3,
+      "format": "évènement public",
+      "pitch": "Le match devant le live de Jordan. Jordan FC avec des recrues payées et Quentin. Patrick revient sur le banc, Inès prend le contrôle du live et montre le plan du padel. Léo marque, renvoie « figurant ». Kicker : Patrick révèle qu'il avait viré Jordan à 12 ans « parce qu'il jouait tout seul ». Vote : Jordan peut revenir au club ?"
+    }
+  ],
+  "fils": [
+    {
+      "id": "padel",
+      "statut": "ouvert",
+      "texte": "Jordan veut raser le terrain samedi pour construire la « Jordan Padel Arena »."
+    },
+    {
+      "id": "defi",
+      "statut": "ouvert",
+      "texte": "Le match de samedi : terrain rendu si les gamins gagnent, tous figurants à vie s'ils perdent."
+    },
+    {
+      "id": "ines_fille",
+      "statut": "cache",
+      "texte": "Inès est la fille de Patrick et a joué à l'AS Les Hirondelles."
+    },
+    {
+      "id": "jordan_cite",
+      "statut": "cache",
+      "texte": "Jordan a grandi dans cette cité ; Patrick l'a viré du club à 12 ans. Sa vraie motivation : la revanche."
+    },
+    {
+      "id": "quentin_vendu",
+      "statut": "cache",
+      "texte": "Quentin a donné à Jordan l'adresse du terrain et le nom de Patrick ; il passe chez Jordan FC."
+    }
+  ]
+}

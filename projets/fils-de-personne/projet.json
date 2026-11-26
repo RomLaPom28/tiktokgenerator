@@ -1,0 +1,14 @@
+{
+  "id": "fils-de-personne",
+  "type": "serie",
+  "titre": "Fils de personne",
+  "sujet": "Nathan, 17 ans, est jeté de l'essai du centre de formation du PSG par le directeur, qui l'humilie en le traitant de « fils de personne ». Ce directeur est son père caché, et il l'a jeté exprès. Nathan rejoint le pire club d'Île-de-France pour le battre en Coupe de France.",
+  "concept": "outsider_revanche + secret (père caché)",
+  "nb_plans": [
+    9,
+    9
+  ],
+  "exceptions": "Validé par l'utilisateur le 25/11/2026 : vrais maillots, écusson et sponsor du Paris Saint-Germain (risque de demande de retrait par le club expliqué et accepté). Jamais de vrai joueur ni de vrai dirigeant : personnages inventés. L'US Pont-Rouge reste un club inventé.",
+  "cree": "2026-11-25",
+  "maillots_reels": "Le club de Paris est le vrai Paris Saint-Germain. Avant la première image, fais une recherche sur le maillot domicile actuel du PSG et reproduis-le fidèlement à chaque fois : bleu marine avec la bande verticale rouge bordée de blanc au centre, l'écusson officiel du PSG sur le cœur, le logo de l'équipementier et le sponsor maillot actuel. Même chose pour le survêtement officiel du staff et la doudoune officielle du club. L'US Pont-Rouge est un club amateur inventé : maillot vert bouteille délavé sans sponsor, avec juste « US PONT-ROUGE » brodé."
+}

@@ -1,0 +1,47 @@
+{
+  "_lisez_moi": "desc = recopiée mot pour mot dans chaque prompt image ; son = ambiance des prompts Grok.",
+  "lieux": [
+    {
+      "id": "chantier",
+      "nom": "Chantier",
+      "desc": "chantier d'immeuble en construction en banlieue parisienne, échafaudages, grue jaune, piles de parpaings et de sacs de ciment, bétonnière orange, tours d'immeubles autour, ouvriers animaux en gilets orange",
+      "son": "marteau-piqueur, bétonnière, grue"
+    },
+    {
+      "id": "rue_affiche",
+      "nom": "Avenue de l'affiche",
+      "desc": "grande avenue animée de ville française, terrasses, bus, passants animaux, et sur la façade d'un immeuble une affiche géante lumineuse « CONCOURS DE LA FRAPPE · 10 000 000 € AU GAGNANT » avec un ballon en feu",
+      "son": "circulation, klaxons, foule"
+    },
+    {
+      "id": "stand_inscription",
+      "nom": "Stand d'inscription",
+      "desc": "stand d'inscription doré au pied de l'affiche géante, tapis rouge, barrières dorées, longue file de candidats animaux bodybuildés, table avec un grand registre",
+      "son": "brouhaha de la file, musique de fête au loin"
+    },
+    {
+      "id": "couloir_stade",
+      "nom": "Couloir du stade",
+      "desc": "couloir de stade en béton éclairé au néon, affiches « CONCOURS DE LA FRAPPE » aux murs, porte ouverte au fond sur la lumière aveuglante de l'arène",
+      "son": "grondement de la foule à travers les murs"
+    },
+    {
+      "id": "stade_frappe",
+      "nom": "Arène du concours",
+      "desc": "stade plein à craquer de spectateurs animaux, projecteurs, fumée dorée, un but géant au centre, un radar géant lumineux au-dessus du but qui affiche la vitesse en KM/H, banderoles « 10 000 000 € »",
+      "son": "foule en délire, tambours, sifflet"
+    },
+    {
+      "id": "zone_tir",
+      "nom": "Zone de tir",
+      "desc": "point de tir doré au centre de l'arène, ballon posé sur une ligne dorée lumineuse, but géant derrière, radar géant lumineux au-dessus du but qui affiche la vitesse en KM/H, tribunes pleines à craquer de spectateurs animaux juste derrière un grillage doré",
+      "son": "foule qui retient son souffle, tambours"
+    },
+    {
+      "id": "banc_candidats",
+      "nom": "Banc des candidats",
+      "desc": "banc doré des candidats au bord de l'arène, serviettes, bouteilles d'eau, seau de glace, projecteurs en contre-jour, foule floue derrière",
+      "son": "foule au loin, glaçons qui tintent"
+    }
+  ]
+}

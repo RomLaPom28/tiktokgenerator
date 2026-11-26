@@ -1,0 +1,126 @@
+{
+  "_lisez_moi": "ADN = description copiée MOT POUR MOT dans chaque prompt image où le personnage apparaît. voix = copiée mot pour mot dans chaque prompt Grok.",
+  "style": "Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque.",
+  "personnages": [
+    {
+      "id": "tom",
+      "nom": "Tom",
+      "animal": "souris",
+      "adn": "Tom, minuscule souris grise de 24 ans, grandes oreilles roses, petit museau, yeux noirs ronds et doux, corps fin comme une allumette",
+      "tenues": {
+        "base": "gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité"
+      },
+      "voix": "voix de jeune homme de 24 ans, douce et tranquille, un peu naïve, accent de banlieue parisienne, jamais de cri",
+      "caractere": "ouvrier modeste et naïf, ne se rend absolument pas compte de sa force, ne se vante jamais",
+      "objectif": "gagner de quoi quitter le chantier",
+      "secret": "il casse tout ce qu'il touche depuis tout petit et croit que c'est normal",
+      "tics": [
+        "se gratte l'oreille quand il ne comprend pas",
+        "mange un sandwich à n'importe quel moment",
+        "petit sourire tranquille quand on se moque"
+      ],
+      "replique_fetiche": "J'ai pas fait exprès.",
+      "ref": "refs/tom.png"
+    },
+    {
+      "id": "jules",
+      "nom": "Jules",
+      "animal": "bison",
+      "adn": "Jules, énorme bison brun de 26 ans à la barbe frisée, cornes courtes, gros sourcils, ventre rond",
+      "tenues": {
+        "base": "gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité"
+      },
+      "voix": "voix d'homme de 26 ans, grave et enthousiaste, accent de banlieue parisienne, dit « frérot » tout le temps",
+      "caractere": "pote de chantier, grande gueule, croit en Tom plus que Tom lui-même",
+      "objectif": "voir son pote devenir riche",
+      "secret": "il a inscrit Tom à tous les concours de la ville depuis des années",
+      "tics": [
+        "met une main sur sa tête quand il est choqué",
+        "dit « frérot »",
+        "a toujours faim"
+      ],
+      "replique_fetiche": "Frérot, t'es pas normal.",
+      "ref": "refs/jules.png"
+    },
+    {
+      "id": "lea",
+      "nom": "Léa",
+      "animal": "flamant rose",
+      "adn": "Léa, flamant rose élégant de 28 ans, long cou, grandes lunettes rondes, chignon de plumes",
+      "tenues": {
+        "base": "tailleur doré à épaulettes, badge « ORGANISATION », stylo et registre à la main"
+      },
+      "voix": "voix de femme de 28 ans, polie et légèrement moqueuse",
+      "caractere": "hôtesse d'inscription qui a tout vu, retient un fou rire",
+      "objectif": "inscrire les candidats",
+      "secret": "elle a parié sur le petit",
+      "tics": [
+        "remonte ses lunettes",
+        "se retient de rire",
+        "tapote le registre avec son stylo"
+      ],
+      "replique_fetiche": "Vous êtes sûr ?",
+      "ref": "refs/lea.png"
+    },
+    {
+      "id": "christophe",
+      "nom": "Christophe",
+      "animal": "morse",
+      "adn": "Christophe, gros morse de 50 ans aux longues défenses blanches, moustache énorme, sourire immense",
+      "tenues": {
+        "base": "maillot d'arbitre rayé noir et blanc, sifflet doré autour du cou, micro doré à la main"
+      },
+      "voix": "voix d'homme de 50 ans, tonitruante de présentateur de télé, roule les R, fait monter le suspense",
+      "caractere": "présentateur-arbitre du concours, adore le spectacle",
+      "objectif": "faire le show",
+      "secret": "le radar n'a jamais dépassé 250 km/h",
+      "tics": [
+        "lève le micro au ciel",
+        "souffle dans son sifflet doré",
+        "écarte les bras vers la foule"
+      ],
+      "replique_fetiche": "Mesdames et messieurs !",
+      "ref": "refs/christophe.png"
+    },
+    {
+      "id": "kevin",
+      "nom": "Kévin",
+      "animal": "taureau",
+      "adn": "Kévin, taureau bodybuildé de 30 ans aux muscles énormes huilés, anneau doré dans le nez, grosse chaîne en or, cornes pointues",
+      "tenues": {
+        "base": "débardeur noir moulant, short de sport doré, crampons dorés, bandeaux noirs aux poignets"
+      },
+      "voix": "voix d'homme de 30 ans, rire gras et moqueur, voix forte",
+      "caractere": "culturiste arrogant, se moque de tous les petits",
+      "objectif": "gagner pour sa gloire",
+      "secret": "il n'a jamais tapé au-dessus de 135 km/h",
+      "tics": [
+        "gonfle les biceps quand il parle",
+        "rit fort en se tapant la cuisse",
+        "embrasse sa chaîne en or"
+      ],
+      "replique_fetiche": "T'es tout maigre !",
+      "ref": "refs/kevin.png"
+    },
+    {
+      "id": "maxime",
+      "nom": "Maxime",
+      "animal": "rhinocéros",
+      "adn": "Maxime, rhinocéros géant gris de 35 ans, trois fois plus grand que les autres, corne énorme, cicatrices sur le visage, regard de tueur",
+      "tenues": {
+        "base": "maillot de catcheur noir à ceinture de champion dorée « INVAINCU », crampons noirs géants"
+      },
+      "voix": "voix d'homme de 35 ans, très grave et lente, méprisante",
+      "caractere": "champion invaincu du concours, calme et terrifiant",
+      "objectif": "garder son titre",
+      "secret": "il a peur de perdre devant sa mère dans la tribune",
+      "tics": [
+        "fait craquer sa nuque",
+        "regarde les autres de très haut",
+        "souffle par les naseaux"
+      ],
+      "replique_fetiche": "Vous pensez me battre avec ça ?",
+      "ref": "refs/maxime.png"
+    }
+  ]
+}

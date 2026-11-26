@@ -91,3 +91,28 @@ Une suite de gags ne tient pas. Ce qui tient 75 s : le spectateur VEUT voir quel
 - Le méchant a une phrase-signature (« Les vieux, chez moi, ça finit sur le banc ») → le héros la lui renvoie au payoff.
 - Témoin qui dit tout haut ce que pense le spectateur, 1-3 mots, juste après la réplique-choc.
 - Parole quasi continue : au moins 55 % de chaque plan parlé, jamais plus de 1,5 s de silence (sauf plan muet volontaire).
+
+
+## Appris de la série foot Paris FC / PSG (4 parties, ~200 k vues chacune, 25/11/2026 — fiches `analyses/769*`)
+Une série qui garde ~200 k vues sur 4 parties (pas la chute de 40-70 % habituelle) : chaque partie a sa propre victoire.
+1. **Chaque épisode = montée puis chute** : une victoire visible au milieu (but, signature) puis une nouvelle tuile à la fin (le méchant est choisi, trahison, blessure). Jamais un épisode d'humiliation pure.
+2. **Secret physique posé tôt, payé 2 épisodes plus tard** (genou qui boite en P2 → caché en P3 → vendu par un traître → ciblé en P4). Le spectateur sait, les autres non.
+3. **Enjeu social lisible** : mère seule, loyer, factures « RELANCE », « lundi tu commences à la supérette ». Le rêve coûte de l'argent.
+4. **Hook = quelqu'un nie le rêve du héros à 0 s** (mère, coach, coéquipier, méchant), riposte dans la même seconde.
+5. **Surnoms-insultes répétés** (« le cactus », « le citron », « le p'tit jaune ») et méchants aux noms-jeux de mots : signature de série.
+6. **Le méchant de la P1 revient en face** (choisi par le gros club à la place du héros, puis adversaire du derby) ; un **coéquipier jaloux** vend le secret.
+7. **Vraie langue de la cité** (wesh, frérot, daronne, « joue ta vie ») + **le succès qui « tourne partout »** (la vidéo virale dans l'histoire).
+8. **Vrais clubs et vrais maillots** (PSG, Paris FC, sponsors) : reconnaissance immédiate, pas de retrait constaté sur 4 parties (risque de droit d'auteur non nul).
+9. **Sous-titres de 2-3 mots**, blancs avec 1 mot jaune, ~3,3 mots/s ; fondus enchaînés ; 53-72 s ; carton final « Commente Partie N ».
+
+
+## Appris de la série « concours de force » (.dramatik.fruit, 3 parties : 1,8 M / 500 k / 401 k, 25/11/2026)
+Histoire la plus simple possible, une seule question sur 3 parties : « le petit va-t-il gagner les 67 M€ ? ». Peu de mots (2,8 à 3,7 mots/s).
+1. **Force cachée prouvée PAR L'IMAGE à 0 s**, avec un chiffre écrit (7 sacs « 70 KG » sur le dos) ; le héros ne s'en rend pas compte (« j'ai pas compté »).
+2. **Prix géant sur une affiche** (67 000 000 €) qui déclenche tout, pour un héros pauvre (ouvrier de chantier).
+3. **Présentateur-arbitre avec micro** : il raconte, annonce les règles, rappelle l'enjeu. Contexte gratuit, voix continue.
+4. **Le chiffre de l'épreuve monte à chaque partie** (100 kg → 500 kg → 1 tonne) et **un moqueur tombe par partie** (il pleure).
+5. **Finale d'endurance** (tenir le plus longtemps) : suspense sans action, idéal pour Grok.
+6. **Héros en décalage comique** : il ne sent rien (« c'est la première fois que je sens une charge », « ah, j'avais pas compris »). Jamais de vantardise.
+7. **Boucle finale sur la vie d'avant** (« fini le chantier ») + question « quel concours ensuite ? » → 0,40 % de commentaires.
+Leçon pour nous : nos dialogues trop chargés et nos intrigues à tiroirs cassent l'attente. Une question, des chiffres, des visages.

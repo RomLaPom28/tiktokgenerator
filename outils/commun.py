@@ -83,7 +83,13 @@ def whisper(audio, langue=None, prompt=None):
         except Exception as e:  # noqa: BLE001
             print(f"(GPU indisponible pour whisper : {str(e)[:120]} -> CPU)")
             _modele = WhisperModel("small", device="cpu", compute_type="int8")
-    segs, info = _modele.transcribe(str(audio), language=langue, word_timestamps=True,
+    src = str(audio)
+    if src.endswith(".wav"):  # wav 16 kHz mono : lecture directe (évite un conflit de version PyAV)
+        import wave
+        import numpy as np
+        with wave.open(src, "rb") as wv:
+            src = np.frombuffer(wv.readframes(wv.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+    segs, info = _modele.transcribe(src, language=langue, word_timestamps=True,
                                     initial_prompt=prompt, vad_filter=True)
     mots, phrases = [], []
     for s in segs:

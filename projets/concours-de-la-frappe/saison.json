@@ -1,0 +1,53 @@
+{
+  "_lisez_moi": "Copie de structure de la série « concours de force » (1,8 M / 500 k / 401 k). 3 parties de 9 plans. Une seule question : Tom va-t-il gagner les 10 M€ ? Le chiffre du radar monte à chaque partie, un moqueur tombe par partie.",
+  "enjeu": "Les 10 000 000 € du Concours de la frappe : le minuscule ouvrier peut-il battre les monstres ?",
+  "episodes": [
+    {
+      "n": 1,
+      "format": "test / mise à l'épreuve",
+      "pitch": "Tom renvoie un ballon à travers un mur sans s'en rendre compte. Affiche 10 M€, inscription, Kévin et Maxime se moquent. Épreuve 1 : plus de 120 km/h. Coupé au moment où Tom va frapper, radar à 0."
+    },
+    {
+      "n": 2,
+      "format": "évènement public",
+      "pitch": "Reprend la frappe coupée : Tom tape « doucement », 121 km/h, Kévin se moque. Épreuve 2 à 180 km/h : Kévin s'explose le pied à 163, pleure, éliminé. Maxime 194 sans élan. Tom tape en marchant : 181, encore pile. Maxime comprend qu'il fait semblant. Finale annoncée, record du radar 250. Cliff : Maxime fait remplacer le ballon de Tom par un ballon en béton ; Léa a tout entendu."
+    },
+    {
+      "n": 3,
+      "format": "évènement public",
+      "pitch": "Reprend « Mets celui en béton » : Léa prévient Tom ou se tait (selon le vote). Finale : Maxime 238 km/h avec un ballon normal. Tom tape dans le ballon en béton sans rien sentir : il éclate, radar « ERREUR » puis « 412 KM/H ». « Ah, c'est pour ça qu'il était lourd ? » Le ballon fendu prouve la triche de Maxime, qui pleure. Chèque de 10 M€. Avec Jules : « Fini le chantier, frérot. » Commentaire épinglé : quel concours de foot ensuite ?"
+    }
+  ],
+  "fils": [
+    {
+      "id": "radar",
+      "statut": "ouvert",
+      "texte": "Le radar géant et le chiffre de l'épreuve : 120 → 180 → finale."
+    },
+    {
+      "id": "moqueurs",
+      "statut": "ouvert",
+      "texte": "Kévin et Maxime se moquent du « maigre » ; un moqueur tombe par partie."
+    },
+    {
+      "id": "radar_limite",
+      "statut": "ouvert",
+      "texte": "Le record du radar est 250 km/h (annoncé en partie 2) : il affichera « ERREUR » pour Tom en finale."
+    },
+    {
+      "id": "lea_pari",
+      "statut": "cache",
+      "texte": "Léa, l'hôtesse, a parié sur le petit."
+    },
+    {
+      "id": "ballon_beton",
+      "statut": "ouvert",
+      "texte": "Maxime fait remplacer le ballon de Tom par un ballon en béton pour la finale ; Léa a tout entendu."
+    },
+    {
+      "id": "maxime_comprend",
+      "statut": "ouvert",
+      "texte": "Maxime a compris que Tom tape exprès pile au-dessus de chaque barre."
+    }
+  ]
+}

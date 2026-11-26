@@ -1,0 +1,733 @@
+{
+  "numero": 2,
+  "titre": "Il fait exprès",
+  "format": "évènement public",
+  "accroche_type": "insulte choc",
+  "cliff_type": "choix impossible",
+  "centre": "kevin",
+  "texte_accroche": "Il cache sa vraie frappe",
+  "question_milieu": {
+    "plan": 5,
+    "texte": "La souris passe les 180 ? 🐭 oui / ❌ non"
+  },
+  "vote_question": "Léa doit prévenir Tom ?",
+  "moteur": {
+    "desir": "Tom veut gagner les 10 M€ du concours de la frappe pour quitter le chantier, sans montrer sa vraie force.",
+    "injustice": "Kévin le traite de « maigre » et se moque de son 121 ; Maxime le méprise, puis triche en faisant remplacer son ballon par un ballon en béton.",
+    "antagoniste": "Kévin, taureau moqueur (il tombe dans cette partie), et Maxime, rhinocéros champion qui comprend et triche.",
+    "enjeu_chiffre": "10 000 000 € ; 121 / 180 / 163 / 194 / 181 km/h ; record du radar 250 km/h.",
+    "force_cachee": "Tom passe chaque barre pile au-dessus, exprès, en marchant ; « à fond, le radar survit pas ».",
+    "payoff": "Kévin, qui se moquait du maigre, s'explose le pied et pleure (« le maigre fera pas mieux ») ; Tom passe à 181 en marchant.",
+    "callback": "maigre",
+    "kicker": "Maxime fait mettre un ballon en béton pour la finale, et Léa a tout entendu."
+  },
+  "fils_avances": [
+    "radar",
+    "moqueurs",
+    "maxime_comprend",
+    "ballon_beton"
+  ],
+  "revele": [
+    "radar_limite"
+  ],
+  "reprend": "Plan 1 reprend la frappe coupée de la partie 1 (« J'vais faire doucement ») : Tom tape doucement, le radar affiche 121 pour une barre à 120.",
+  "resume": "Tom passe l'épreuve 1 à 121 km/h « en faisant doucement », Kévin se moque. Épreuve 2 à 180 : Kévin s'explose le pied à 163 et pleure, éliminé. Maxime fait 194 sans élan. Tom tape en marchant : 181, encore pile. Maxime comprend qu'il fait semblant. Finale annoncée, record du radar 250. Dans le couloir, Maxime fait remplacer le ballon de Tom par un ballon en béton, et Léa entend tout.",
+  "fin": "Maxime au téléphone : « Mets celui en béton. » Léa, derrière la porte : « En béton ?! »",
+  "recettes_utilisees": [
+    "Partie N+1 = payoff de la fin de N dans les 5 premières secondes",
+    "Le chiffre de l'épreuve monte et un moqueur tombe par partie",
+    "Présentateur-arbitre avec micro",
+    "Témoin choqué après la réplique-choc",
+    "Gros chiffre lisible à l'écran",
+    "Héros en décalage comique"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "role": "accroche",
+      "duree": 6,
+      "lieu": "zone_tir",
+      "lumiere": "fete",
+      "cadrage": "PR",
+      "angle": "contre_plongee",
+      "camera": "crash_zoom",
+      "persos": [
+        {
+          "id": "tom",
+          "jeu": "minuscule devant le but géant, le pied à peine reposé, l'air innocent, se gratte l'oreille"
+        },
+        {
+          "id": "kevin",
+          "jeu": "derrière lui, plié de rire, pointe le radar du doigt"
+        }
+      ],
+      "texte_decor": "radar géant au-dessus du but : « 121 KM/H », et en dessous un bandeau « ÉPREUVE 1 · 120 KM/H »",
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "le radar affiche 121 en clignotant, Kévin éclate de rire",
+          "camera": "crash_zoom",
+          "son": "bip du radar"
+        },
+        {
+          "t": "3-6",
+          "action": "Tom hausse les épaules, tranquille",
+          "camera": "whip_pan",
+          "son": "rires de la foule"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.4",
+          "parle": "kevin",
+          "emotion": "hilare",
+          "texte": "121 ? T'as eu d'la chance, le maigre !",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.6-3.8",
+          "parle": "tom",
+          "emotion": "tranquille, presque gêné",
+          "texte": "J'ai fait doucement.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "4.0-5.6",
+          "parle": "kevin",
+          "emotion": "se tape la cuisse",
+          "texte": "Doucement ?! Ha ha !",
+          "fonction": "reaction"
+        }
+      ],
+      "texte_ecran": "IL A FAIT DOUCEMENT 🤫"
+    },
+    {
+      "n": 2,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "zone_tir",
+      "lumiere": "fete",
+      "cadrage": "PE",
+      "angle": "plongee",
+      "camera": "plongee_drone",
+      "persos": [
+        {
+          "id": "christophe",
+          "jeu": "au centre, micro doré levé au ciel"
+        },
+        {
+          "id": "kevin",
+          "jeu": "gonfle les biceps vers la foule"
+        },
+        {
+          "id": "maxime",
+          "jeu": "bras croisés, immense, immobile"
+        },
+        {
+          "id": "tom",
+          "jeu": "minuscule entre eux, mange un petit sandwich"
+        }
+      ],
+      "texte_decor": "panneau lumineux géant : « ÉPREUVE 2 · 180 KM/H · 10 000 000 € »",
+      "fin": {
+        "cadrage": "PR",
+        "persos": [
+          {
+            "id": "kevin",
+            "jeu": "embrasse sa chaîne en or, sûr de lui"
+          },
+          {
+            "id": "tom",
+            "jeu": "lève les yeux vers lui, sandwich à la patte, l'air sincèrement curieux"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "plongée sur l'arène, Christophe lève le micro",
+          "camera": "plongee_drone",
+          "son": "foule en délire"
+        },
+        {
+          "t": "3-5",
+          "action": "le panneau passe à 180 KM/H",
+          "camera": "crash_zoom",
+          "son": "roulement de tambour"
+        },
+        {
+          "t": "5-7",
+          "action": "Kévin gonfle les biceps et embrasse sa chaîne",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "7-10",
+          "action": "Tom lève les yeux vers Kévin en mâchant",
+          "camera": "travelling_avant"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-3.0",
+          "parle": "christophe",
+          "emotion": "tonitruant",
+          "texte": "Concours de la frappe, dix millions en jeu !",
+          "fonction": "revelation"
+        },
+        {
+          "t": "3.2-5.6",
+          "parle": "christophe",
+          "emotion": "roule les R",
+          "texte": "Épreuve 2 : 180 km/h !",
+          "fonction": "revelation"
+        },
+        {
+          "t": "5.9-7.6",
+          "parle": "kevin",
+          "emotion": "méprisant",
+          "texte": "180 ? Je fais ça au petit-déj.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "7.8-9.6",
+          "parle": "tom",
+          "emotion": "sincère, bouche pleine",
+          "texte": "C'est beaucoup, 180 ?",
+          "fonction": "riposte"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "retournement",
+      "duree": 6,
+      "lieu": "zone_tir",
+      "lumiere": "fete",
+      "cadrage": "GP",
+      "angle": "face",
+      "camera": "ralenti",
+      "persos": [
+        {
+          "id": "kevin",
+          "jeu": "prend un élan énorme, jambe droite tirée loin en arrière, crampons dorés, muscles gonflés, grimace d'effort, devant le ballon"
+        },
+        {
+          "id": "tom",
+          "jeu": "au second plan, regarde en mâchant son sandwich"
+        }
+      ],
+      "detail_image": "le radar géant au-dessus du but est encore éteint",
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Kévin frappe de toutes ses forces, son crampon doré éclate",
+          "camera": "ralenti",
+          "son": "crac énorme"
+        },
+        {
+          "t": "3-6",
+          "action": "le radar s'allume en rouge, Kévin s'effondre en se tenant le pied et pleure",
+          "camera": "secousse",
+          "son": "buzzer d'échec, « ohhh » de la foule"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-1.5",
+          "parle": "kevin",
+          "emotion": "hurle de douleur",
+          "texte": "AÏE ! Mon pied !",
+          "fonction": "reaction"
+        },
+        {
+          "t": "1.7-3.2",
+          "parle": "kevin",
+          "emotion": "en larmes",
+          "texte": "163 ?! C'est pas possible !",
+          "fonction": "reaction"
+        },
+        {
+          "t": "3.4-5.4",
+          "parle": "tom",
+          "emotion": "gentil, gêné",
+          "texte": "Ça va, monsieur ?",
+          "fonction": "reaction"
+        }
+      ],
+      "texte_ecran": "163… ÉCHEC 😭"
+    },
+    {
+      "n": 4,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "zone_tir",
+      "lumiere": "fete",
+      "cadrage": "PA",
+      "angle": "face",
+      "camera": "panoramique",
+      "persos": [
+        {
+          "id": "christophe",
+          "jeu": "pointe la sortie du doigt, sifflet doré à la bouche"
+        },
+        {
+          "id": "kevin",
+          "jeu": "assis par terre, pied bandé, pointe Tom en pleurant"
+        },
+        {
+          "id": "maxime",
+          "jeu": "s'avance lentement vers le ballon, fait craquer sa nuque"
+        }
+      ],
+      "texte_decor": "radar géant : « 194 KM/H » en vert",
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {
+            "id": "maxime",
+            "jeu": "repose le pied sans même avoir pris d'élan, regard de tueur vers Tom"
+          },
+          {
+            "id": "christophe",
+            "jeu": "bouche grande ouverte, micro qui tremble"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Christophe siffle et pointe la sortie",
+          "son": "coup de sifflet"
+        },
+        {
+          "t": "3-5",
+          "action": "Kévin pointe Tom en pleurant",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "5-7",
+          "action": "Maxime frappe sans élan",
+          "camera": "ralenti",
+          "son": "frappe sourde, filet qui claque"
+        },
+        {
+          "t": "7-10",
+          "action": "le radar affiche 194, la foule explose",
+          "camera": "crash_zoom",
+          "son": "foule en délire"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.3",
+          "parle": "christophe",
+          "emotion": "solennel",
+          "texte": "Kévin est éliminé !",
+          "fonction": "revelation"
+        },
+        {
+          "t": "2.5-4.5",
+          "parle": "kevin",
+          "emotion": "en larmes, rageur",
+          "texte": "Le maigre fera pas mieux !",
+          "fonction": "menace"
+        },
+        {
+          "t": "4.8-6.6",
+          "parle": "maxime",
+          "emotion": "très grave",
+          "texte": "Pousse-toi. Je vais te montrer.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "7.2-9.6",
+          "parle": "christophe",
+          "emotion": "hurle",
+          "texte": "194 km/h ! Sans élan !",
+          "fonction": "reaction"
+        }
+      ],
+      "texte_ecran": "194 SANS ÉLAN"
+    },
+    {
+      "n": 5,
+      "role": "temoin",
+      "duree": 6,
+      "lieu": "banc_candidats",
+      "lumiere": "fete",
+      "cadrage": "AMORCE",
+      "angle": "contre_plongee",
+      "camera": "epaule",
+      "persos": [
+        {
+          "id": "maxime",
+          "jeu": "en amorce, immense, se penche au-dessus de Tom"
+        },
+        {
+          "id": "tom",
+          "jeu": "assis sur le banc, croque son sandwich, pas impressionné"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Maxime se penche au-dessus de Tom",
+          "son": "souffle de naseaux"
+        },
+        {
+          "t": "3-6",
+          "action": "Tom répond la bouche pleine, Maxime fronce les sourcils",
+          "camera": "crash_zoom"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "parle": "maxime",
+          "emotion": "méprisant",
+          "texte": "Battre 194 ? Bonne chance, le maigre.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.2-4.0",
+          "parle": "tom",
+          "emotion": "tranquille, bouche pleine",
+          "texte": "J'vais essayer d'pas casser le radar.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "4.2-5.6",
+          "parle": "maxime",
+          "emotion": "intrigué",
+          "texte": "Tu dis quoi, là ?",
+          "fonction": "reaction"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "zone_tir",
+      "lumiere": "fete",
+      "cadrage": "PT",
+      "angle": "dos",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "tom",
+          "jeu": "de dos, minuscule, avance vers le ballon en marchant tranquillement"
+        },
+        {
+          "id": "jules",
+          "jeu": "derrière le grillage de la tribune, sandwich géant à la patte, mains en porte-voix"
+        }
+      ],
+      "texte_decor": "radar géant : « 181 KM/H »",
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {
+            "id": "tom",
+            "jeu": "repose le pied sans s'arrêter de marcher, se gratte l'oreille"
+          },
+          {
+            "id": "jules",
+            "jeu": "derrière le grillage, bras levés, hurle de joie"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Tom marche vers le ballon, Jules crie depuis la tribune",
+          "son": "foule qui se tait"
+        },
+        {
+          "t": "3-5",
+          "action": "Tom touche le ballon en marchant, sans élan",
+          "camera": "ralenti",
+          "son": "petit « tok »"
+        },
+        {
+          "t": "5-7",
+          "action": "le ballon fuse au fond du but",
+          "camera": "whip_pan",
+          "son": "filet qui claque"
+        },
+        {
+          "t": "7-10",
+          "action": "le radar affiche 181, Jules explose de joie",
+          "camera": "crash_zoom",
+          "son": "bip du radar, foule en délire"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.3",
+          "parle": "jules",
+          "emotion": "hurle depuis la tribune",
+          "texte": "Frérot, tape pas trop fort !",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.5-4.0",
+          "parle": "tom",
+          "emotion": "lève le pouce sans se retourner",
+          "texte": "T'inquiète, frérot.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "4.3-5.8",
+          "parle": "jules",
+          "emotion": "choqué",
+          "texte": "Il tape en marchant ?!",
+          "fonction": "reaction"
+        },
+        {
+          "t": "7.2-8.6",
+          "parle": "jules",
+          "emotion": "fou de joie",
+          "texte": "181 ! Il passe !",
+          "fonction": "reaction"
+        }
+      ],
+      "texte_ecran": "181… ENCORE PILE 🤫"
+    },
+    {
+      "n": 7,
+      "role": "retournement",
+      "duree": 6,
+      "lieu": "banc_candidats",
+      "lumiere": "fete",
+      "cadrage": "TGP",
+      "angle": "debullee",
+      "camera": "fixe",
+      "persos": [
+        {
+          "id": "maxime",
+          "jeu": "visage à quelques centimètres de Tom, yeux plissés, comprend tout"
+        },
+        {
+          "id": "tom",
+          "jeu": "soutient son regard, petit sourire tranquille"
+        },
+        {
+          "id": "kevin",
+          "jeu": "à côté, pied dans un seau de glace, bouche grande ouverte"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Maxime colle son visage contre celui de Tom",
+          "son": "battement de cœur"
+        },
+        {
+          "t": "3-6",
+          "action": "Tom sourit, Kévin manque de tomber du banc",
+          "camera": "crash_zoom",
+          "son": "glaçons qui volent"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "parle": "maxime",
+          "emotion": "à voix basse",
+          "texte": "121. 181. Toujours pile.",
+          "fonction": "attaque"
+        },
+        {
+          "t": "2.0-3.4",
+          "parle": "maxime",
+          "emotion": "menaçant",
+          "texte": "Tu fais semblant, hein ?",
+          "fonction": "menace"
+        },
+        {
+          "t": "3.6-5.1",
+          "parle": "tom",
+          "emotion": "tout bas, sourire tranquille",
+          "texte": "À fond, le radar survit pas.",
+          "fonction": "riposte"
+        },
+        {
+          "t": "5.2-5.9",
+          "parle": "kevin",
+          "emotion": "s'étrangle",
+          "texte": "QUOI ?!",
+          "fonction": "reaction"
+        }
+      ],
+      "texte_ecran": "IL FAIT SEMBLANT"
+    },
+    {
+      "n": 8,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "stade_frappe",
+      "lumiere": "fete",
+      "cadrage": "PE",
+      "angle": "face",
+      "camera": "orbite",
+      "persos": [
+        {
+          "id": "christophe",
+          "jeu": "au centre, bras écartés, micro levé"
+        },
+        {
+          "id": "tom",
+          "jeu": "d'un côté, minuscule, se gratte l'oreille"
+        },
+        {
+          "id": "maxime",
+          "jeu": "de l'autre côté, immense, regard de tueur vers Tom"
+        }
+      ],
+      "texte_decor": "écran géant : « FINALE · TOM CONTRE MAXIME · RECORD DU RADAR : 250 KM/H »",
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {
+            "id": "maxime",
+            "jeu": "pointe Tom du doigt, mâchoire serrée"
+          },
+          {
+            "id": "tom",
+            "jeu": "soutient son regard, calme"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "orbite autour de Christophe, la foule hurle",
+          "camera": "orbite",
+          "son": "foule en délire"
+        },
+        {
+          "t": "3-5",
+          "action": "l'écran géant affiche la finale et le record 250",
+          "camera": "crash_zoom",
+          "son": "roulement de tambour"
+        },
+        {
+          "t": "5-7",
+          "action": "Maxime pointe Tom du doigt",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "7-10",
+          "action": "Tom répond calmement, la foule retient son souffle",
+          "camera": "travelling_avant",
+          "son": "silence"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.6",
+          "parle": "christophe",
+          "emotion": "tonitruant",
+          "texte": "Mesdames et messieurs, la finale !",
+          "fonction": "revelation"
+        },
+        {
+          "t": "2.8-5.0",
+          "parle": "christophe",
+          "emotion": "roule les R",
+          "texte": "Tom contre Maxime. Dix millions !",
+          "fonction": "revelation"
+        },
+        {
+          "t": "5.3-7.4",
+          "parle": "maxime",
+          "emotion": "glacial",
+          "texte": "Demain, tape à fond, le maigre.",
+          "fonction": "menace"
+        },
+        {
+          "t": "7.6-9.4",
+          "parle": "tom",
+          "emotion": "calme",
+          "texte": "Tu l'auras voulu.",
+          "fonction": "riposte"
+        }
+      ],
+      "texte_ecran": "LA FINALE"
+    },
+    {
+      "n": 9,
+      "role": "cliff",
+      "duree": 6,
+      "lieu": "couloir_stade",
+      "lumiere": "neon",
+      "cadrage": "GP",
+      "angle": "profil",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "maxime",
+          "jeu": "dans l'ombre du couloir, téléphone à l'oreille, sourire mauvais"
+        },
+        {
+          "id": "lea",
+          "jeu": "derrière une porte entrouverte, entend tout, aile sur le bec, yeux écarquillés derrière ses lunettes"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Maxime chuchote au téléphone dans l'ombre",
+          "son": "néon qui grésille"
+        },
+        {
+          "t": "3-6",
+          "action": "Léa recule derrière la porte, coupure sèche",
+          "camera": "crash_zoom",
+          "son": "coupure nette"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.2",
+          "parle": "maxime",
+          "emotion": "chuchote",
+          "texte": "Le ballon du maigre, demain… change-le.",
+          "fonction": "menace"
+        },
+        {
+          "t": "2.4-4.0",
+          "parle": "maxime",
+          "emotion": "sourire mauvais",
+          "texte": "Mets celui en béton.",
+          "fonction": "revelation"
+        },
+        {
+          "t": "4.2-5.4",
+          "parle": "lea",
+          "emotion": "chuchote, choquée",
+          "texte": "En béton ?!",
+          "fonction": "reaction"
+        }
+      ],
+      "texte_ecran": "PARTIE 3 ?"
+    }
+  ],
+  "titre_couverture": "IL FAIT EXPRÈS 🤫",
+  "legende": "Il passe chaque épreuve pile au-dessus… exprès 🤫 Le champion a compris, et il triche. Partie 2",
+  "hashtags": [
+    "#partie2",
+    "#foot",
+    "#concours",
+    "#histoire",
+    "#animation",
+    "#ia"
+  ],
+  "commentaire_epingle": "Léa doit prévenir Tom ? ✅ oui / 🤐 non",
+  "hooks_alternatifs": [
+    "Une souris de chantier vient de passer 120 km/h… en faisant doucement.",
+    "121 km/h. Le taureau rigole. Il devrait pas.",
+    "Il tape pile au-dessus de chaque barre. Exprès."
+  ]
+}

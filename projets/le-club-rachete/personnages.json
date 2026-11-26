@@ -1,0 +1,148 @@
+{
+  "_lisez_moi": "ADN = description copiée MOT POUR MOT dans chaque prompt image où le personnage apparaît. voix = copiée mot pour mot dans chaque prompt Grok.",
+  "style": "Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, tenues de foot stylisées. Couleurs saturées, lumière dorée et contre-jours dramatiques. Univers : une cité de banlieue française d'aujourd'hui, son petit terrain synthétique au pied des tours, et le monde doré et clinquant d'un influenceur (ring lights, drones, van doré), remplis de figurants animaux. Clubs, marques et sponsors 100 % inventés, aucun vrai logo.",
+  "personnages": [
+    {
+      "id": "leo",
+      "nom": "Léo",
+      "animal": "lynx",
+      "adn": "Léo, jeune lynx de 17 ans au pelage gris clair, oreilles terminées par des pinceaux noirs, yeux verts perçants, fine cicatrice au sourcil gauche",
+      "tenues": {
+        "base": "maillot bleu ciel délavé de l'AS Les Hirondelles avec une hirondelle brodée, short blanc, chaussettes bleu ciel, numéro 10",
+        "ville": "sweat à capuche gris, sac de sport sur l'épaule"
+      },
+      "voix": "voix de garçon de 17 ans, posée et piquante, accent de banlieue parisienne, ne crie jamais",
+      "caractere": "capitaine calme, répartie qui tue, protège les petits du club",
+      "objectif": "garder son club et son terrain",
+      "secret": "il a refusé un centre de formation pour rester avec son équipe",
+      "tics": [
+        "lève un sourcil avant de vanner",
+        "fait tourner le ballon sur un doigt",
+        "pinceaux des oreilles qui se dressent quand il s'énerve"
+      ],
+      "replique_fetiche": "Ici, on joue. On fait pas semblant.",
+      "ref": "refs/leo.png"
+    },
+    {
+      "id": "jordan",
+      "nom": "Jordan",
+      "animal": "renard",
+      "adn": "Jordan, renard roux de 33 ans au sourire aux dents blanches éclatantes, fine moustache taillée, lunettes de soleil dorées remontées sur la tête, perche à selfie toujours à la patte",
+      "tenues": {
+        "base": "survêtement en velours doré brodé « JORDAN » dans le dos, grosse chaîne dorée, baskets blanches immaculées"
+      },
+      "voix": "voix d'homme de 33 ans, enjouée et mielleuse quand il est en live, sèche et méprisante dès qu'il coupe",
+      "caractere": "influenceur milliardaire, parle à sa caméra en permanence, achète tout, ne tient jamais parole",
+      "objectif": "faire des vues et raser le terrain pour construire son padel",
+      "secret": "il a grandi dans cette cité et Patrick l'a viré du club à 12 ans",
+      "tics": [
+        "parle à son téléphone : « la commu, mettez des cœurs »",
+        "claque des doigts pour qu'on lui obéisse",
+        "remet ses lunettes dorées quand il ment"
+      ],
+      "replique_fetiche": "Vous, vous êtes des figurants.",
+      "ref": "refs/jordan.png"
+    },
+    {
+      "id": "sofiane",
+      "nom": "Sofiane",
+      "animal": "hippopotame",
+      "adn": "Sofiane, jeune hippopotame de 17 ans gris rosé, énorme sourire avec les dents du bonheur, bandeau éponge rouge sur le front",
+      "tenues": {
+        "base": "maillot de gardien vert fluo trop serré, gants de gardien énormes, short blanc"
+      },
+      "voix": "voix de garçon de 17 ans, grave et tonitruante, rit fort, accent de banlieue parisienne",
+      "caractere": "gardien gourmand et drôle, dit tout haut ce que tout le monde pense, fidèle à Léo",
+      "objectif": "garder son équipe et son goûter",
+      "secret": "il garde toutes les vidéos du club depuis 10 ans sur son téléphone",
+      "tics": [
+        "mange toujours quelque chose",
+        "tape dans ses gants énormes",
+        "dit « la dinguerie »"
+      ],
+      "replique_fetiche": "La dinguerie !",
+      "ref": "refs/sofiane.png"
+    },
+    {
+      "id": "patrick",
+      "nom": "Patrick",
+      "animal": "bouledogue",
+      "adn": "Patrick, vieux bouledogue de 62 ans aux grosses bajoues tombantes, sourcils gris broussailleux, casquette bleu ciel délavée, sifflet rouge autour du cou",
+      "tenues": {
+        "base": "vieux survêtement bleu ciel des années 90 brodé d'une hirondelle, usé aux coudes"
+      },
+      "voix": "voix d'homme de 62 ans, rauque et forte, phrases courtes comme des coups de sifflet",
+      "caractere": "coach bénévole depuis 30 ans, bourru au cœur tendre",
+      "objectif": "que ses gamins aient un terrain",
+      "secret": "c'est lui qui a viré Jordan du club quand il avait 12 ans",
+      "tics": [
+        "mâchouille son sifflet",
+        "remonte sa casquette",
+        "grogne avant de parler"
+      ],
+      "replique_fetiche": "Ici, personne joue tout seul.",
+      "ref": "refs/patrick.png"
+    },
+    {
+      "id": "mathis",
+      "nom": "Mathis",
+      "animal": "chihuahua",
+      "adn": "Mathis, minuscule chihuahua de 15 ans aux yeux énormes et humides, appareil dentaire, oreilles géantes",
+      "tenues": {
+        "base": "maillot doré brillant « JORDAN FC » trois tailles trop grand, crampons fluo orange trop grands, gants de gardien"
+      },
+      "voix": "voix de garçon de 15 ans, aiguë et tremblante, sincèrement naïf",
+      "caractere": "neveu de Jordan, gentil, nul au foot, ne comprend rien",
+      "objectif": "que son oncle soit fier de lui",
+      "secret": "il déteste le foot et voudrait faire de la danse",
+      "tics": [
+        "regarde son oncle avant chaque phrase",
+        "s'emmêle dans son maillot trop grand",
+        "tremble des oreilles"
+      ],
+      "replique_fetiche": "Tonton, je fais comment ?",
+      "ref": "refs/mathis.png"
+    },
+    {
+      "id": "ines",
+      "nom": "Inès",
+      "animal": "chatte siamoise",
+      "adn": "Inès, jeune chatte siamoise de 26 ans au pelage crème et masque brun, carré noir lisse, grands yeux bleus, casque audio autour du cou",
+      "tenues": {
+        "base": "sweat noir « STAFF JORDAN » en lettres dorées, grosse caméra professionnelle sur l'épaule"
+      },
+      "voix": "voix de femme de 26 ans, calme et sèche, parle bas",
+      "caractere": "camerawoman de Jordan, voit tout, ne dit rien, jusqu'à ce soir",
+      "objectif": "que Jordan tombe",
+      "secret": "elle est la fille de Patrick et a joué à l'AS Les Hirondelles",
+      "tics": [
+        "baisse lentement sa caméra quand elle juge",
+        "remet son casque sur une oreille",
+        "regard direct vers l'objectif"
+      ],
+      "replique_fetiche": "Moi, je filme. Et je retiens.",
+      "ref": "refs/ines.png"
+    },
+    {
+      "id": "quentin",
+      "nom": "Quentin",
+      "animal": "furet",
+      "adn": "Quentin, furet blanc de 18 ans, mèche décolorée en pointe, sourire fuyant, petite boucle d'oreille dorée",
+      "tenues": {
+        "base": "maillot bleu ciel délavé de l'AS Les Hirondelles avec une hirondelle brodée, short blanc, chaussettes bleu ciel, numéro 7",
+        "jordan": "maillot doré brillant « JORDAN FC » numéro 7, chaîne dorée"
+      },
+      "voix": "voix de garçon de 18 ans, rapide et fuyante, rit nerveusement",
+      "caractere": "vice-capitaine jaloux de Léo, se vend au plus offrant",
+      "objectif": "devenir célèbre dans les vidéos de Jordan",
+      "secret": "il a donné à Jordan le nom de Patrick et l'adresse du terrain",
+      "tics": [
+        "regarde son téléphone quand on lui parle",
+        "rit nerveusement",
+        "tripote sa boucle d'oreille"
+      ],
+      "replique_fetiche": "Mille balles, c'est mille balles.",
+      "ref": "refs/quentin.png"
+    }
+  ]
+}

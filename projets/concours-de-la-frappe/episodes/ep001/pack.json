@@ -1,0 +1,333 @@
+{
+  "id": "ep001",
+  "numero": 1,
+  "titre": "Le concours de la frappe",
+  "resume": "Tom, minuscule souris ouvrière, renvoie un ballon à travers un mur sans s'en rendre compte. Avec son pote Jules, il tombe sur l'affiche du Concours de la frappe à 10 M€ et s'inscrit. Kévin et Maxime se moquent du « maigre ». Épreuve 1 : plus de 120 km/h. Tom pose le ballon, radar à 0.",
+  "projet": "concours-de-la-frappe",
+  "projet_titre": "Le concours de la frappe",
+  "type": "serie",
+  "portraits": [
+    {
+      "id": "tom",
+      "nom": "Tom",
+      "ref": "refs/tom.png",
+      "prompt": "Fiche de référence personnage : Tom, minuscule souris grise de 24 ans, grandes oreilles roses, petit museau, yeux noirs ronds et doux, corps fin comme une allumette, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (ouvrier modeste et naïf, ne se rend absolument pas compte de sa force, ne se vante jamais), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "jules",
+      "nom": "Jules",
+      "ref": "refs/jules.png",
+      "prompt": "Fiche de référence personnage : Jules, énorme bison brun de 26 ans à la barbe frisée, cornes courtes, gros sourcils, ventre rond, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (pote de chantier, grande gueule, croit en Tom plus que Tom lui-même), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "lea",
+      "nom": "Léa",
+      "ref": "refs/lea.png",
+      "prompt": "Fiche de référence personnage : Léa, flamant rose élégant de 28 ans, long cou, grandes lunettes rondes, chignon de plumes, tailleur doré à épaulettes, badge « ORGANISATION », stylo et registre à la main. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (hôtesse d'inscription qui a tout vu, retient un fou rire), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "christophe",
+      "nom": "Christophe",
+      "ref": "refs/christophe.png",
+      "prompt": "Fiche de référence personnage : Christophe, gros morse de 50 ans aux longues défenses blanches, moustache énorme, sourire immense, maillot d'arbitre rayé noir et blanc, sifflet doré autour du cou, micro doré à la main. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (présentateur-arbitre du concours, adore le spectacle), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "kevin",
+      "nom": "Kévin",
+      "ref": "refs/kevin.png",
+      "prompt": "Fiche de référence personnage : Kévin, taureau bodybuildé de 30 ans aux muscles énormes huilés, anneau doré dans le nez, grosse chaîne en or, cornes pointues, débardeur noir moulant, short de sport doré, crampons dorés, bandeaux noirs aux poignets. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (culturiste arrogant, se moque de tous les petits), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "maxime",
+      "nom": "Maxime",
+      "ref": "refs/maxime.png",
+      "prompt": "Fiche de référence personnage : Maxime, rhinocéros géant gris de 35 ans, trois fois plus grand que les autres, corne énorme, cicatrices sur le visage, regard de tueur, maillot de catcheur noir à ceinture de champion dorée « INVAINCU », crampons noirs géants. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (champion invaincu du concours, calme et terrifiant), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Vertical 9:16, aucun texte, aucun logo."
+    }
+  ],
+  "ouverture": "Tu vas générer les images d'une vidéo. Toutes les images : format vertical 9:16, même style, mêmes personnages avec EXACTEMENT les mêmes visages, couleurs et accessoires d'une image à l'autre. Aucun sous-titre ni bulle ; le seul texte autorisé est celui que je décris dans le décor (tableau d'affichage, banderole, maillot), écrit sans faute.\n\nSTYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque.\n\nPERSONNAGES DE CET ÉPISODE (looks fixes) :\n- Tom, minuscule souris grise de 24 ans, grandes oreilles roses, petit museau, yeux noirs ronds et doux, corps fin comme une allumette. Tenue : gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité.\n- Jules, énorme bison brun de 26 ans à la barbe frisée, cornes courtes, gros sourcils, ventre rond. Tenue : gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité.\n- Léa, flamant rose élégant de 28 ans, long cou, grandes lunettes rondes, chignon de plumes. Tenue : tailleur doré à épaulettes, badge « ORGANISATION », stylo et registre à la main.\n- Christophe, gros morse de 50 ans aux longues défenses blanches, moustache énorme, sourire immense. Tenue : maillot d'arbitre rayé noir et blanc, sifflet doré autour du cou, micro doré à la main.\n- Kévin, taureau bodybuildé de 30 ans aux muscles énormes huilés, anneau doré dans le nez, grosse chaîne en or, cornes pointues. Tenue : débardeur noir moulant, short de sport doré, crampons dorés, bandeaux noirs aux poignets.\n- Maxime, rhinocéros géant gris de 35 ans, trois fois plus grand que les autres, corne énorme, cicatrices sur le visage, regard de tueur. Tenue : maillot de catcheur noir à ceinture de champion dorée « INVAINCU », crampons noirs géants.\n\nSi je joins des images de référence, ce sont ces personnages : respecte-les à la lettre.\nJe vais t'envoyer \"Image 1 : …\", \"Image 2 : …\". Pour chaque message, génère uniquement l'image demandée, sans commentaire. Réponds juste OK à ce message.",
+  "refs": [
+    "refs/tom.png",
+    "refs/jules.png",
+    "refs/lea.png",
+    "refs/kevin.png",
+    "refs/christophe.png",
+    "refs/maxime.png"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "duree": 6,
+      "role": "accroche",
+      "titre": "Chantier · PR",
+      "dialogues": [
+        {
+          "t": "0.2-2.3",
+          "qui": "Jules",
+          "texte": "Wesh, attends… t'as tapé à combien, là ?"
+        },
+        {
+          "t": "2.4-3.9",
+          "qui": "Tom",
+          "texte": "J'sais pas. J'ai pas fait exprès."
+        },
+        {
+          "t": "4.1-5.7",
+          "qui": "Jules",
+          "texte": "Frérot, il a traversé le mur."
+        }
+      ],
+      "replique": "Wesh, attends… t'as tapé à combien, là ? J'sais pas. J'ai pas fait exprès. Frérot, il a traversé le mur.",
+      "parle": "jules",
+      "texte_ecran": "IL A TRAVERSÉ LE MUR",
+      "image": "Image 1 : plan rapproché, de la tête à la poitrine, caméra à hauteur des yeux. Décor : chantier d'immeuble en construction en banlieue parisienne, échafaudages, grue jaune, piles de parpaings et de sacs de ciment, bétonnière orange, tours d'immeubles autour, ouvriers animaux en gilets orange. Lumière : lumière dorée et douce du matin. Tom, minuscule souris grise de 24 ans, grandes oreilles roses, petit museau, yeux noirs ronds et doux, corps fin comme une allumette, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : minuscule, le pied encore levé après avoir tapé, tête penchée, l'air de rien. Jules, énorme bison brun de 26 ans à la barbe frisée, cornes courtes, gros sourcils, ventre rond, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : à côté de lui, les deux mains sur la tête, yeux exorbités. Derrière eux, un trou parfaitement rond dans un mur de parpaings, et au loin le ballon encastré dans la façade de la tour d'en face. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Jules regarde le trou dans le mur puis Tom, bouche ouverte. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : écho d'un énorme BOUM, parpaings qui tombent.\n[0.2-2.3s] JULES (voix d'homme de 26 ans, grave et enthousiaste, accent de banlieue parisienne, dit « frérot » tout le temps, sous le choc) dit en français : « Wesh, attends… t'as tapé à combien, là ? »\n[2.4-3.9s] TOM (voix de jeune homme de 24 ans, douce et tranquille, un peu naïve, accent de banlieue parisienne, jamais de cri, tranquille) dit en français : « J'sais pas. J'ai pas fait exprès. »\n[3-6s] Tom se gratte l'oreille, pas du tout impressionné. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : petit « ding ».\n[4.1-5.7s] JULES (voix d'homme de 26 ans, grave et enthousiaste, accent de banlieue parisienne, dit « frérot » tout le temps, les mains sur la tête) dit en français : « Frérot, il a traversé le mur. »\nAmbiance sonore : marteau-piqueur, bétonnière, grue, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 2,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Chantier · PA",
+      "dialogues": [
+        {
+          "t": "0.3-2.6",
+          "qui": "Jules",
+          "texte": "Frérot, t'es vraiment pas normal, toi."
+        },
+        {
+          "t": "2.9-5.0",
+          "qui": "Tom",
+          "texte": "Bah quoi ? J'ai juste renvoyé un ballon."
+        },
+        {
+          "t": "5.4-8.2",
+          "qui": "Jules",
+          "texte": "Après cette matinée, j'ai une dalle de malade."
+        }
+      ],
+      "replique": "Frérot, t'es vraiment pas normal, toi. Bah quoi ? J'ai juste renvoyé un ballon. Après cette matinée, j'ai une dalle de malade.",
+      "parle": "jules",
+      "texte_ecran": "",
+      "image": "Image 2 : plan américain, de la tête aux genoux, personnage de profil. Décor : chantier d'immeuble en construction en banlieue parisienne, échafaudages, grue jaune, piles de parpaings et de sacs de ciment, bétonnière orange, tours d'immeubles autour, ouvriers animaux en gilets orange. Lumière : lumière dorée et douce du matin. Jules, énorme bison brun de 26 ans à la barbe frisée, cornes courtes, gros sourcils, ventre rond, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : assis sur une pile de parpaings, regarde Tom de travers, sandwich géant à la patte. Tom, minuscule souris grise de 24 ans, grandes oreilles roses, petit museau, yeux noirs ronds et doux, corps fin comme une allumette, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : assis à côté, croque tranquillement un petit sandwich, haussement d'épaules. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 2 FIN (dernière image du plan, quelques secondes plus tard) : plan rapproché, de la tête à la poitrine, personnage de profil. Décor : chantier d'immeuble en construction en banlieue parisienne, échafaudages, grue jaune, piles de parpaings et de sacs de ciment, bétonnière orange, tours d'immeubles autour, ouvriers animaux en gilets orange. Lumière : lumière dorée et douce du matin. Jules, énorme bison brun de 26 ans à la barbe frisée, cornes courtes, gros sourcils, ventre rond, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : se lève en se tenant le ventre, affamé. Tom, minuscule souris grise de 24 ans, grandes oreilles roses, petit museau, yeux noirs ronds et doux, corps fin comme une allumette, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : se lève aussi, sourire tranquille. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Jules fixe Tom en mâchant. Bruitage : bétonnière au loin.\n[0.3-2.6s] JULES (voix d'homme de 26 ans, grave et enthousiaste, accent de banlieue parisienne, dit « frérot » tout le temps, incrédule) dit en français : « Frérot, t'es vraiment pas normal, toi. »\n[2.9-5.0s] TOM (voix de jeune homme de 24 ans, douce et tranquille, un peu naïve, accent de banlieue parisienne, jamais de cri, la bouche pleine, innocent) dit en français : « Bah quoi ? J'ai juste renvoyé un ballon. »\n[3-5s] Tom hausse les épaules, bouche pleine. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant.\n[5-7s] Le ventre de Jules gargouille très fort. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : gargouillis comique.\n[5.4-8.2s] JULES (voix d'homme de 26 ans, grave et enthousiaste, accent de banlieue parisienne, dit « frérot » tout le temps, se tient le ventre) dit en français : « Après cette matinée, j'ai une dalle de malade. »\n[7-10s] Ils se lèvent et partent vers la rue. Caméra : travelling latéral qui suit le personnage.\nAmbiance sonore : marteau-piqueur, bétonnière, grue, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 3,
+      "duree": 6,
+      "role": "retournement",
+      "titre": "Avenue de l'affiche · PE",
+      "dialogues": [
+        {
+          "t": "0.2-1.4",
+          "qui": "Jules",
+          "texte": "Attends… regarde là-bas."
+        },
+        {
+          "t": "1.6-2.8",
+          "qui": "Tom",
+          "texte": "Wesh… dix millions ?"
+        },
+        {
+          "t": "3.0-4.4",
+          "qui": "Jules",
+          "texte": "Dix millions d'euros ?!"
+        },
+        {
+          "t": "4.7-5.6",
+          "qui": "Tom",
+          "texte": "On s'inscrit."
+        }
+      ],
+      "replique": "Attends… regarde là-bas. Wesh… dix millions ? Dix millions d'euros ?! On s'inscrit.",
+      "parle": "jules",
+      "texte_ecran": "10 000 000 €",
+      "image": "Image 3 : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : grande avenue animée de ville française, terrasses, bus, passants animaux, et sur la façade d'un immeuble une affiche géante lumineuse « CONCOURS DE LA FRAPPE · 10 000 000 € AU GAGNANT » avec un ballon en feu. Lumière : lumière naturelle de jour, ombres nettes. Jules, énorme bison brun de 26 ans à la barbe frisée, cornes courtes, gros sourcils, ventre rond, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : s'arrête net, pointe l'affiche du doigt, mâchoire qui tombe. Tom, minuscule souris grise de 24 ans, grandes oreilles roses, petit museau, yeux noirs ronds et doux, corps fin comme une allumette, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : minuscule à côté de lui, lève les yeux vers l'affiche, oreilles dressées. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : affiche géante lumineuse « CONCOURS DE LA FRAPPE · 10 000 000 € AU GAGNANT ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Jules s'arrête net et pointe l'affiche. Caméra : travelling arrière qui révèle le décor. Bruitage : klaxons.\n[0.2-1.4s] JULES (voix d'homme de 26 ans, grave et enthousiaste, accent de banlieue parisienne, dit « frérot » tout le temps, intrigué) dit en français : « Attends… regarde là-bas. »\n[1.6-2.8s] TOM (voix de jeune homme de 24 ans, douce et tranquille, un peu naïve, accent de banlieue parisienne, jamais de cri, les yeux ronds) dit en français : « Wesh… dix millions ? »\n[3-6s] Tom lève les yeux, le chiffre brille en énorme. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : « ding » de caisse enregistreuse.\n[3.0-4.4s] JULES (voix d'homme de 26 ans, grave et enthousiaste, accent de banlieue parisienne, dit « frérot » tout le temps, hurle) dit en français : « Dix millions d'euros ?! »\n[4.7-5.6s] TOM (voix de jeune homme de 24 ans, douce et tranquille, un peu naïve, accent de banlieue parisienne, jamais de cri, calme, décidé) dit en français : « On s'inscrit. »\nAmbiance sonore : circulation, klaxons, foule, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 4,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Stand d'inscription · PR",
+      "dialogues": [
+        {
+          "t": "0.3-2.4",
+          "qui": "Léa",
+          "texte": "Vous voulez vraiment participer ?"
+        },
+        {
+          "t": "2.6-4.3",
+          "qui": "Jules",
+          "texte": "Lui, il va tous les éclater."
+        },
+        {
+          "t": "4.6-6.6",
+          "qui": "Léa",
+          "texte": "Très bien. Rendez-vous au stade."
+        },
+        {
+          "t": "7.0-9.2",
+          "qui": "Tom",
+          "texte": "On va chercher les dix millions."
+        }
+      ],
+      "replique": "Vous voulez vraiment participer ? Lui, il va tous les éclater. Très bien. Rendez-vous au stade. On va chercher les dix millions.",
+      "parle": "lea",
+      "texte_ecran": "",
+      "image": "Image 4 : plan rapproché, de la tête à la poitrine, caméra à hauteur des yeux. Décor : stand d'inscription doré au pied de l'affiche géante, tapis rouge, barrières dorées, longue file de candidats animaux bodybuildés, table avec un grand registre. Lumière : lumière naturelle de jour, ombres nettes. Léa, flamant rose élégant de 28 ans, long cou, grandes lunettes rondes, chignon de plumes, tailleur doré à épaulettes, badge « ORGANISATION », stylo et registre à la main : derrière la table, baisse ses lunettes et regarde Tom de haut en bas, se retient de rire. Jules, énorme bison brun de 26 ans à la barbe frisée, cornes courtes, gros sourcils, ventre rond, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : pose une main énorme sur l'épaule de Tom, fier. Tom, minuscule souris grise de 24 ans, grandes oreilles roses, petit museau, yeux noirs ronds et doux, corps fin comme une allumette, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : dépasse à peine de la table, sourire tranquille. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 4 FIN (dernière image du plan, quelques secondes plus tard) : gros plan sur le visage et le haut des épaules, caméra à hauteur des yeux. Décor : stand d'inscription doré au pied de l'affiche géante, tapis rouge, barrières dorées, longue file de candidats animaux bodybuildés, table avec un grand registre. Lumière : lumière naturelle de jour, ombres nettes. Tom, minuscule souris grise de 24 ans, grandes oreilles roses, petit museau, yeux noirs ronds et doux, corps fin comme une allumette, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : sourire tranquille, regard déterminé. Jules, énorme bison brun de 26 ans à la barbe frisée, cornes courtes, gros sourcils, ventre rond, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : derrière lui, poing levé. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Léa baisse ses lunettes vers Tom. Bruitage : brouhaha de la file.\n[0.3-2.4s] LÉA (voix de femme de 28 ans, polie et légèrement moqueuse, faussement polie) dit en français : « Vous voulez vraiment participer ? »\n[2.6-4.3s] JULES (voix d'homme de 26 ans, grave et enthousiaste, accent de banlieue parisienne, dit « frérot » tout le temps, fier) dit en français : « Lui, il va tous les éclater. »\n[3-5s] Jules tape fièrement l'épaule de Tom. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant.\n[4.6-6.6s] LÉA (voix de femme de 28 ans, polie et légèrement moqueuse, retient un rire) dit en français : « Très bien. Rendez-vous au stade. »\n[5-7s] Léa tamponne le registre. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : coup de tampon.\n[7-10s] Tom et Jules partent vers le stade. Caméra : lent travelling avant vers le visage.\n[7.0-9.2s] TOM (voix de jeune homme de 24 ans, douce et tranquille, un peu naïve, accent de banlieue parisienne, jamais de cri, tranquille) dit en français : « On va chercher les dix millions. »\nAmbiance sonore : brouhaha de la file, musique de fête au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 5,
+      "duree": 6,
+      "role": "temoin",
+      "titre": "Couloir du stade · GP",
+      "dialogues": [
+        {
+          "t": "0.2-2.4",
+          "qui": "Kévin",
+          "texte": "C'est toi le participant ? T'es tout maigre !"
+        },
+        {
+          "t": "2.6-4.0",
+          "qui": "Tom",
+          "texte": "Profite de rire maintenant."
+        },
+        {
+          "t": "4.3-5.6",
+          "qui": "Kévin",
+          "texte": "J'ai hâte de voir ça."
+        }
+      ],
+      "replique": "C'est toi le participant ? T'es tout maigre ! Profite de rire maintenant. J'ai hâte de voir ça.",
+      "parle": "kevin",
+      "texte_ecran": "",
+      "image": "Image 5 : gros plan sur le visage et le haut des épaules, caméra en plongée, au-dessus, qui écrase le personnage. Décor : couloir de stade en béton éclairé au néon, affiches « CONCOURS DE LA FRAPPE » aux murs, porte ouverte au fond sur la lumière aveuglante de l'arène. Lumière : néons froids avec touches de couleur. Kévin, taureau bodybuildé de 30 ans aux muscles énormes huilés, anneau doré dans le nez, grosse chaîne en or, cornes pointues, débardeur noir moulant, short de sport doré, crampons dorés, bandeaux noirs aux poignets : se penche au-dessus de Tom, biceps gonflés, rit à gorge déployée. Tom, minuscule souris grise de 24 ans, grandes oreilles roses, petit museau, yeux noirs ronds et doux, corps fin comme une allumette, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : lève la tête vers lui, petit sourire tranquille. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Kévin se penche sur Tom en riant. Bruitage : rire gras qui résonne.\n[0.2-2.4s] KÉVIN (voix d'homme de 30 ans, rire gras et moqueur, voix forte, hilare) dit en français : « C'est toi le participant ? T'es tout maigre ! »\n[2.6-4.0s] TOM (voix de jeune homme de 24 ans, douce et tranquille, un peu naïve, accent de banlieue parisienne, jamais de cri, calme) dit en français : « Profite de rire maintenant. »\n[3-6s] Tom sourit tranquillement, Kévin s'arrête de rire une seconde. Caméra : zoom éclair sur le visage au moment de la réplique-choc.\n[4.3-5.6s] KÉVIN (voix d'homme de 30 ans, rire gras et moqueur, voix forte, moqueur) dit en français : « J'ai hâte de voir ça. »\nAmbiance sonore : grondement de la foule à travers les murs, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 6,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Arène du concours · PE",
+      "dialogues": [
+        {
+          "t": "0.3-3.2",
+          "qui": "Christophe",
+          "texte": "Mesdames et messieurs, installez-vous !"
+        },
+        {
+          "t": "3.4-6.4",
+          "qui": "Christophe",
+          "texte": "Le spectacle va bientôt commencer !"
+        }
+      ],
+      "replique": "Mesdames et messieurs, installez-vous ! Le spectacle va bientôt commencer !",
+      "parle": "christophe",
+      "texte_ecran": "",
+      "image": "Image 6 : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en plongée, au-dessus, qui écrase le personnage. Décor : stade plein à craquer de spectateurs animaux, projecteurs, fumée dorée, un but géant au centre, un radar géant lumineux au-dessus du but qui affiche la vitesse en KM/H, banderoles « 10 000 000 € ». Lumière : lumières colorées de fête, boule à facettes. Christophe, gros morse de 50 ans aux longues défenses blanches, moustache énorme, sourire immense, maillot d'arbitre rayé noir et blanc, sifflet doré autour du cou, micro doré à la main : au centre de l'arène, micro doré levé au ciel, bras écartés vers la foule. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : radar géant lumineux au-dessus du but : « 0 KM/H ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 6 FIN (dernière image du plan, quelques secondes plus tard) : plan taille, caméra en plongée, au-dessus, qui écrase le personnage. Décor : stade plein à craquer de spectateurs animaux, projecteurs, fumée dorée, un but géant au centre, un radar géant lumineux au-dessus du but qui affiche la vitesse en KM/H, banderoles « 10 000 000 € ». Lumière : lumières colorées de fête, boule à facettes. Christophe, gros morse de 50 ans aux longues défenses blanches, moustache énorme, sourire immense, maillot d'arbitre rayé noir et blanc, sifflet doré autour du cou, micro doré à la main : souffle dans son sifflet doré, la foule explose derrière lui. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : radar géant lumineux au-dessus du but : « 0 KM/H ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Plongée sur l'arène pleine à craquer. Caméra : plan aérien qui plonge vers la scène. Bruitage : foule en délire.\n[0.3-3.2s] CHRISTOPHE (voix d'homme de 50 ans, tonitruante de présentateur de télé, roule les R, fait monter le suspense, tonitruant) dit en français : « Mesdames et messieurs, installez-vous ! »\n[3-5s] Christophe lève le micro au ciel. Caméra : zoom éclair sur le visage au moment de la réplique-choc.\n[3.4-6.4s] CHRISTOPHE (voix d'homme de 50 ans, tonitruante de présentateur de télé, roule les R, fait monter le suspense, fait monter le suspense) dit en français : « Le spectacle va bientôt commencer ! »\n[5-7s] Les projecteurs balaient la foule. Caméra : panoramique qui passe d'un personnage à l'autre. Bruitage : tambours.\n[7-10s] Christophe souffle dans son sifflet doré. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : coup de sifflet.\nAmbiance sonore : foule en délire, tambours, sifflet, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 7,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Arène du concours · AMORCE",
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "qui": "Maxime",
+          "texte": "Alors c'est vous, mes adversaires ?"
+        },
+        {
+          "t": "2.0-3.7",
+          "qui": "Maxime",
+          "texte": "Vous pensez me battre avec ça ?"
+        },
+        {
+          "t": "3.8-5.6",
+          "qui": "Tom",
+          "texte": "T'inquiète. Tu vas vite comprendre."
+        }
+      ],
+      "replique": "Alors c'est vous, mes adversaires ? Vous pensez me battre avec ça ? T'inquiète. Tu vas vite comprendre.",
+      "parle": "maxime",
+      "texte_ecran": "",
+      "image": "Image 7 : plan par-dessus l'épaule d'un personnage flou au premier plan, vers celui qui parle, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : stade plein à craquer de spectateurs animaux, projecteurs, fumée dorée, un but géant au centre, un radar géant lumineux au-dessus du but qui affiche la vitesse en KM/H, banderoles « 10 000 000 € ». Lumière : lumières colorées de fête, boule à facettes. Maxime, rhinocéros géant gris de 35 ans, trois fois plus grand que les autres, corne énorme, cicatrices sur le visage, regard de tueur, maillot de catcheur noir à ceinture de champion dorée « INVAINCU », crampons noirs géants : en amorce, immense, fait craquer sa nuque et regarde Tom de très haut. Tom, minuscule souris grise de 24 ans, grandes oreilles roses, petit museau, yeux noirs ronds et doux, corps fin comme une allumette, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : minuscule face à lui, se gratte l'oreille, pas impressionné. Kévin, taureau bodybuildé de 30 ans aux muscles énormes huilés, anneau doré dans le nez, grosse chaîne en or, cornes pointues, débardeur noir moulant, short de sport doré, crampons dorés, bandeaux noirs aux poignets : derrière Maxime, bras croisés, ricane. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Maxime se penche lentement vers Tom. Bruitage : souffle de naseaux.\n[0.2-1.8s] MAXIME (voix d'homme de 35 ans, très grave et lente, méprisante, très grave, lent) dit en français : « Alors c'est vous, mes adversaires ? »\n[2.0-3.7s] MAXIME (voix d'homme de 35 ans, très grave et lente, méprisante, méprisant) dit en français : « Vous pensez me battre avec ça ? »\n[3-6s] Tom répond sans bouger, Kévin arrête de ricaner. Caméra : zoom éclair sur le visage au moment de la réplique-choc.\n[3.8-5.6s] TOM (voix de jeune homme de 24 ans, douce et tranquille, un peu naïve, accent de banlieue parisienne, jamais de cri, tranquille) dit en français : « T'inquiète. Tu vas vite comprendre. »\nAmbiance sonore : foule en délire, tambours, sifflet, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 8,
+      "duree": 10,
+      "role": "retournement",
+      "titre": "Arène du concours · PT",
+      "dialogues": [
+        {
+          "t": "0.3-2.0",
+          "qui": "Christophe",
+          "texte": "Épreuve numéro 1 !"
+        },
+        {
+          "t": "2.3-4.6",
+          "qui": "Christophe",
+          "texte": "Frapper à plus de 120 km/h."
+        },
+        {
+          "t": "5.0-8.4",
+          "qui": "Christophe",
+          "texte": "Et croyez-moi… vous êtes pas prêts pour la suite."
+        }
+      ],
+      "replique": "Épreuve numéro 1 ! Frapper à plus de 120 km/h. Et croyez-moi… vous êtes pas prêts pour la suite.",
+      "parle": "christophe",
+      "texte_ecran": "120 KM/H",
+      "image": "Image 8 : plan taille, caméra à hauteur des yeux. Décor : stade plein à craquer de spectateurs animaux, projecteurs, fumée dorée, un but géant au centre, un radar géant lumineux au-dessus du but qui affiche la vitesse en KM/H, banderoles « 10 000 000 € ». Lumière : lumières colorées de fête, boule à facettes. Christophe, gros morse de 50 ans aux longues défenses blanches, moustache énorme, sourire immense, maillot d'arbitre rayé noir et blanc, sifflet doré autour du cou, micro doré à la main : devant le radar géant, micro à la main, pointe le chiffre. Kévin, taureau bodybuildé de 30 ans aux muscles énormes huilés, anneau doré dans le nez, grosse chaîne en or, cornes pointues, débardeur noir moulant, short de sport doré, crampons dorés, bandeaux noirs aux poignets : derrière, gonfle les biceps vers la foule. Maxime, rhinocéros géant gris de 35 ans, trois fois plus grand que les autres, corne énorme, cicatrices sur le visage, regard de tueur, maillot de catcheur noir à ceinture de champion dorée « INVAINCU », crampons noirs géants : derrière, fait craquer sa nuque. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : panneau lumineux géant : « ÉPREUVE N° 1 · 120 KM/H ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 8 FIN (dernière image du plan, quelques secondes plus tard) : gros plan sur le visage et le haut des épaules, caméra à hauteur des yeux. Décor : stade plein à craquer de spectateurs animaux, projecteurs, fumée dorée, un but géant au centre, un radar géant lumineux au-dessus du but qui affiche la vitesse en KM/H, banderoles « 10 000 000 € ». Lumière : lumières colorées de fête, boule à facettes. Christophe, gros morse de 50 ans aux longues défenses blanches, moustache énorme, sourire immense, maillot d'arbitre rayé noir et blanc, sifflet doré autour du cou, micro doré à la main : regard malicieux vers la caméra, sourire immense. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : panneau lumineux géant : « ÉPREUVE N° 1 · 120 KM/H ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Christophe pointe le panneau « 120 KM/H ». Caméra : caméra qui tourne lentement autour du personnage. Bruitage : roulement de tambour.\n[0.3-2.0s] CHRISTOPHE (voix d'homme de 50 ans, tonitruante de présentateur de télé, roule les R, fait monter le suspense, tonitruant) dit en français : « Épreuve numéro 1 ! »\n[2.3-4.6s] CHRISTOPHE (voix d'homme de 50 ans, tonitruante de présentateur de télé, roule les R, fait monter le suspense, roule les R) dit en français : « Frapper à plus de 120 km/h. »\n[3-5s] Kévin gonfle les biceps, la foule hurle. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : cris de la foule.\n[5-7s] Maxime fait craquer sa nuque. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : craquement.\n[5.0-8.4s] CHRISTOPHE (voix d'homme de 50 ans, tonitruante de présentateur de télé, roule les R, fait monter le suspense, mystérieux) dit en français : « Et croyez-moi… vous êtes pas prêts pour la suite. »\n[7-10s] Christophe se tourne vers la caméra, sourire malicieux. Caméra : lent travelling avant vers le visage.\nAmbiance sonore : foule en délire, tambours, sifflet, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 9,
+      "duree": 6,
+      "role": "cliff",
+      "titre": "Arène du concours · GP",
+      "dialogues": [
+        {
+          "t": "0.2-2.2",
+          "qui": "Kévin",
+          "texte": "Vas-y, le maigre. Fais-nous rire."
+        },
+        {
+          "t": "2.4-4.0",
+          "qui": "Tom",
+          "texte": "J'vais faire doucement."
+        }
+      ],
+      "replique": "Vas-y, le maigre. Fais-nous rire. J'vais faire doucement.",
+      "parle": "kevin",
+      "texte_ecran": "PARTIE 2 ?",
+      "image": "Image 9 : gros plan sur le visage et le haut des épaules, personnage vu de dos. Décor : stade plein à craquer de spectateurs animaux, projecteurs, fumée dorée, un but géant au centre, un radar géant lumineux au-dessus du but qui affiche la vitesse en KM/H, banderoles « 10 000 000 € ». Lumière : lumières colorées de fête, boule à facettes. Tom, minuscule souris grise de 24 ans, grandes oreilles roses, petit museau, yeux noirs ronds et doux, corps fin comme une allumette, gilet orange fluo de chantier sur un débardeur blanc taché, casque de chantier jaune, pantalon de travail gris plein de poussière, grosses chaussures de sécurité : de dos, minuscule, pose le ballon devant le but géant. Kévin, taureau bodybuildé de 30 ans aux muscles énormes huilés, anneau doré dans le nez, grosse chaîne en or, cornes pointues, débardeur noir moulant, short de sport doré, crampons dorés, bandeaux noirs aux poignets : sur le côté, plié de rire, pointe Tom du doigt. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée. Contraste comique énorme entre le minuscule héros et des concurrents aux muscles démesurés. Couleurs très saturées, lumière dorée, projecteurs et paillettes. Univers : chantier de banlieue, grande avenue, arène de stade dorée façon émission télé, remplis de figurants animaux. Chiffres écrits en très gros sur les objets (radar, affiches). Aucun vrai logo, aucune vraie marque. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : radar géant au-dessus du but : « 0 KM/H ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Tom pose le ballon, la foule se tait. Bruitage : silence, un seul toussotement.\n[0.2-2.2s] KÉVIN (voix d'homme de 30 ans, rire gras et moqueur, voix forte, moqueur) dit en français : « Vas-y, le maigre. Fais-nous rire. »\n[2.4-4.0s] TOM (voix de jeune homme de 24 ans, douce et tranquille, un peu naïve, accent de banlieue parisienne, jamais de cri, tout bas, tranquille) dit en français : « J'vais faire doucement. »\n[3-6s] Tom recule d'un petit pas, coupure sèche au moment où il va frapper. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : coupure nette.\nAmbiance sonore : foule en délire, tambours, sifflet, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    }
+  ],
+  "titre_couverture": "IL TAPE TROP FORT 😳",
+  "publication": "Il a traversé un mur avec un ballon… et il croit que c'est normal 😳 Concours de la frappe à 10 millions. Partie 1\n\n#partie1 #foot #concours #histoire #animation #ia",
+  "commentaire": "Tom va gagner les 10 M€ ? 💰 oui / 😂 non",
+  "texte_accroche": "Il tape trop fort sans le savoir",
+  "hooks_alternatifs": [
+    "Wesh, il a mis le ballon dans la tour d'en face.",
+    "Frérot, le mur… il est où le mur ?",
+    "Il a renvoyé un ballon. Le mur a pas survécu."
+  ],
+  "question_milieu": {
+    "plan": 5,
+    "texte": "Il va gagner les 10 M€ ? 💰 / 😂"
+  },
+  "duree_totale": 70
+}

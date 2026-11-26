@@ -1,0 +1,69 @@
+[
+  {
+    "numero": 1,
+    "titre": "Le club racheté",
+    "format": "arrivée d'un nouveau",
+    "accroche_type": "insulte choc",
+    "cliff_type": "choix impossible",
+    "centre": "leo",
+    "lieu_principal": "terrain_cite",
+    "lieux": [
+      "terrain_cite",
+      "van_jordan",
+      "vestiaire_cite"
+    ],
+    "fils_avances": [
+      "padel",
+      "defi"
+    ],
+    "revele": [],
+    "temps_parole": {
+      "jordan": 12,
+      "leo": 9,
+      "sofiane": 5,
+      "patrick": 3,
+      "mathis": 2,
+      "ines": 5
+    },
+    "repliques": [
+      "Le club est à moi. Vous, vous êtes des figurants.",
+      "Figurant ? Même ton filtre joue mieux que toi.",
+      "La dinguerie !",
+      "Trente ans que j'entraîne ici gratuit !",
+      "Gratuit ? Voilà pourquoi t'as rien.",
+      "Ici c'est des gamins, pas des likes.",
+      "Les gamins, ça fait des likes.",
+      "Patrick, t'es viré. En direct.",
+      "Le brassard, c'est pour mon neveu.",
+      "Je le mets à quel pied ?",
+      "Au bras, Mathis. Comme une montre.",
+      "Un tir. Lucarne, je garde le brassard.",
+      "Deal. Devant deux cent mille personnes.",
+      "Tonton…",
+      "LUCARNE !",
+      "Mathis plonge… dans l'autre sens !",
+      "Lucarne. Le brassard, il est à moi.",
+      "J'ai dit deal. J'ai pas dit oui.",
+      "T'es un menteur en direct, frérot.",
+      "Je suis pas menteur. Je suis propriétaire.",
+      "Propriétaire d'un ring light, ouais.",
+      "Et du club. Et de ton terrain.",
+      "Léo, t'es viré. Bannis-le, Inès.",
+      "…Sérieux ?",
+      "C'est fini, les gars. Il a gagné.",
+      "Toi, tu lâches jamais. Jamais.",
+      "Et qui va m'engueuler le samedi ?",
+      "Il s'en fiche du foot.",
+      "Il veut votre terrain.",
+      "Pour faire quoi ?!",
+      "Du padel. Samedi.",
+      "Pourquoi tu nous aides ?",
+      "Moi aussi, je suis une figurante.",
+      "Samedi, on rase tout. En live.",
+      "Samedi, match. On gagne, tu dégages.",
+      "Et si vous perdez ?"
+    ],
+    "resume": "Jordan, influenceur à 8,4 M d'abonnés, rachète en live le club de la cité, le renomme JORDAN FC, vire le coach Patrick et donne le brassard à son neveu Mathis. Léo met une lucarne pour récupérer le brassard, Jordan renie sa parole et le vire. Inès, sa camerawoman, révèle qu'il va raser le terrain samedi pour un padel. Léo le défie : match samedi.",
+    "fin": "Devant la pelleteuse, Jordan en live : « Et si vous perdez ? »"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "_lisez_moi": "desc = recopiée mot pour mot dans chaque prompt image ; son = ambiance des prompts Grok.",
+  "lieux": [
+    {
+      "id": "terrain_cite",
+      "nom": "Terrain de la cité",
+      "desc": "petit terrain synthétique usé au pied de hautes tours de cité, grillage tordu, buts aux filets troués, vieux panneau peint à la main « AS LES HIRONDELLES · DEPUIS 1994 », ring lights et drones d'influenceur installés au bord, une foule de gamins et de voisins animaux aux balcons et derrière le grillage qui filment avec leurs téléphones",
+      "son": "cris d'enfants, drone qui bourdonne, rires des balcons"
+    },
+    {
+      "id": "van_jordan",
+      "nom": "Van doré de Jordan",
+      "desc": "intérieur d'un van doré transformé en studio de live, anneau lumineux, trois écrans où défile un chat de commentaires, mur en velours doré avec « JORDAN » en lettres lumineuses, canapé blanc, porte coulissante ouverte sur la cité",
+      "son": "notifications en rafale, ventilateur d'ordinateur"
+    },
+    {
+      "id": "vestiaire_cite",
+      "nom": "Vestiaire de l'AS Les Hirondelles",
+      "desc": "petit vestiaire en béton peint bleu ciel écaillé, photos d'équipes encadrées depuis 1994 au mur, coupes en plastique sur une étagère, maillots bleu ciel suspendus, néon qui clignote",
+      "son": "néon qui grésille, robinet qui goutte"
+    },
+    {
+      "id": "parking_cite",
+      "nom": "Parking de la cité",
+      "desc": "parking en bas des tours, places tracées effacées, deux poubelles en guise de buts, voitures cabossées, graffitis colorés, lampadaires orange",
+      "son": "scooter au loin, ballon qui tape contre une portière"
+    },
+    {
+      "id": "terrain_match",
+      "nom": "Le terrain un soir de match",
+      "desc": "le petit terrain de la cité transformé pour un match géant : projecteurs loués, tribune provisoire dorée « JORDAN FC », cité entière aux balcons avec banderoles bleu ciel « ON BOUGE PAS », écran géant qui affiche le nombre de spectateurs du live, pelleteuse jaune garée derrière le grillage",
+      "son": "foule, tambours, sifflet"
+    }
+  ]
+}
