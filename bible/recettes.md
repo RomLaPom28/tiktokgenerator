@@ -1,93 +1,108 @@
-# Recettes virales (apprises des analyses)
+# Recettes virales
 
-> /analyser complète ce fichier après chaque lot de vidéos analysées.
-> On garde les MÉCANIQUES (structure, rythme, types d'accroche), jamais le texte des autres.
+> Trois parties, sans redite :
+> 1. **Bibliothèque des mécaniques** (générée) : ce que disent les analyses, avec le niveau de preuve. Observations, pas obligations.
+> 2. **Règles de fabrication** : choix éditoriaux validés par l'utilisateur, appliqués par /creer et contrôlés par `outils/verifier.py`. Chaque contrôle a une nature déclarée dans `bible/controles.json` : **technique** (bloquant : casse le pack, Grok, ChatGPT ou la conformité), **editorial** (recommandation), **preference** (préférence de réalisation, informative). Les techniques de rythme sont des outils à utiliser quand elles servent l'histoire, jamais des quotas ; une recommandation écartée exprès se déclare dans `choix_creatifs`. Le Script Doctor (`/doctor`) juge l'histoire elle-même (grille narrative en 11 critères). Ce sont des décisions, pas des preuves ; les ids entre crochets renvoient aux mécaniques qui les fondent.
+> 3. **Conformité** et **repères externes** (presse, guides : non mesurés par nos analyses).
+> On garde les MÉCANIQUES, jamais le texte des autres.
 
-## Base de départ (avant analyses)
-- Accroche : la 1re réplique dit le drame, pas le contexte. Ex. de mécanique : « Je te trompe depuis 3 ans » dès la 1re seconde.
-- Rythme : un plan toutes les 5 à 6 s (contrainte Grok), une réplique par plan, jamais de silence de plus de 1 s.
-- Retournement : toutes les 15 à 20 s, l'information change de camp.
-- Fin : coupure au moment où quelqu'un va révéler / frapper / ouvrir la porte.
-- Interaction : question binaire en dernier plan et en commentaire épinglé (« Il pardonne ou il part ? »).
+<!-- BIBLIOTHEQUE:DEBUT -->
+## Bibliothèque des mécaniques (générée le 24/11/2026 : 72 vidéos, 15 comptes)
+> Section réécrite par `python3 outils/mecaniques.py` depuis `bible/mecaniques.json` (fiche complète de chaque mécanique : effet, fonctionnement, conditions, variantes, erreurs, sources). Chiffres détaillés : `analyses/MECANIQUES.md`.
+> Niveaux : à tester (1 compte ou moins de 3 histoires) · récurrente (2+ comptes, 3+ histoires) · fortement documentée (4+ comptes, 6+ histoires, 3 fiches v2 vérifiées, performance mesurée sur 4+ comptes). « Plus/moins vue » = dans son propre compte, hors suites : une corrélation, jamais une preuve de cause. Rien ici n'est obligatoire.
 
-## Appris de la recherche (novembre 2026)
-Sources : Fruit Love Island (Ai Cinema, lancé le 13/03/2026, ~10 M de vues par épisode, 3 M d'abonnés en une saison),
-articles NBC / Wired sur les « fruit dramas », guides algorithme TikTok 2026, Règles de la communauté TikTok (24/09/2026).
-- **Concept lisible en 1 seconde** : un objet/animal reconnaissable + un format télé connu (télé-réalité, soap, procès).
-  Chez nous : animaux de ferme + drame de quartier français. Chaque personnage = son animal + accessoires qui disent son caractère.
-- **Thèmes qui marchent** : tromperie, trahison, triangle amoureux, héritage/argent, belle-famille. Absurde assumé.
-- **Format série** : épisodes courts, numérotés « Partie N », fin sur cliffhanger, même casting, playlist sur le profil.
-  Les gens arrivent au milieu de la série : le plan 2 doit redonner le contexte en une phrase.
-- **Vote du public** : une question d'opinion (« Tu es team qui ? ») en fin d'épisode + commentaire épinglé ; l'épisode suivant reprend le choix gagnant et le DIT.
-- **Algorithme** (consensus des guides, pas de chiffres officiels) : 1) taux de complétion / temps de visionnage, 2) revisionnages,
-  3) partages et enregistrements, 4) commentaires, 5) likes. Test sur un petit public puis élargissement si les 1res heures sont bonnes.
-  → tout se joue sur : les 2 premières secondes, AUCUN temps mort, et une fin qui donne envie de revoir / de commenter.
-- **Durée** : 61 à 75 s (au-delà d'1 min = éligible aux Récompenses Créateurs ; 12 plans × 6 s coupés serré).
-- **Discours > animation** : Grok anime mal les actions complexes → l'histoire passe par les DIALOGUES (engueulades, mépris, aveux),
-  avec des actions simples et lisibles (pointer, se lever, claquer une porte, téléphone qui vibre).
+### Ce qu'on retrouve souvent (socle du genre)
+- **Le spectateur sait, les personnages non** (`ironie_dramatique`, narration) — récurrente (confiance moyenne), 30 vidéos, 13 comptes · plus vue dans son compte (×1,82, 9 comptes), mais s'inverse en partie 1 ×0,84.
+- **Injustice publique contre le héros qu'on aime** (`humiliation_injuste`, emotion) — récurrente (confiance moyenne), 21 vidéos, 13 comptes · plus vue dans son compte (×1,94, 10 comptes), mais s'inverse en vidéo unique ×0,94.
+- **Couper la vidéo au seuil de la révélation** (`coupure_avant_payoff`, retention) — récurrente (confiance moyenne), 22 vidéos, 13 comptes · pas d'écart net de vues dans son compte (×1,21, 10 comptes).
+- **Le méprisé se révèle supérieur devant ceux qui l'ont méprisé** (`renversement_statut`, emotion) — récurrente (confiance moyenne), 24 vidéos, 12 comptes · plus vue dans son compte (×1,37, 8 comptes), mais s'inverse en vidéo unique ×0,77.
+- **Série en parties avec reprise exacte de la fin** (`suite_partie_n`, format) — récurrente (confiance moyenne), 20 vidéos, 11 comptes · effet sur les vues non mesurable (moins de 2 comptes où comparer).
+- **Un gros chiffre lisible dans l'image** (`chiffre_ecran`, realisation) — récurrente (confiance moyenne), 13 vidéos, 9 comptes · plus vue dans son compte (×1,35, 5 comptes), stable dans tous les sous-groupes.
+- **Une règle absurde du monde annoncée à 0 s** (`regle_du_monde`, hook) — récurrente (confiance moyenne), 11 vidéos, 6 comptes · pas d'écart net de vues dans son compte (×1,56, 4 comptes).
+- **Une question ou un appel adressé au spectateur** (`question_au_spectateur`, interaction) — récurrente (confiance moyenne), 9 vidéos, 6 comptes · plus vue dans son compte (×2,45, 5 comptes), écart non net en hors ton noir ×1,65.
+- **Un tiers vulnérable fait monter l'enjeu** (`proche_en_danger`, emotion) — récurrente (confiance moyenne), 8 vidéos, 5 comptes · pas d'écart net de vues dans son compte (×1,3, 4 comptes).
+- **Le héros pourrait riposter mais s'en empêche** (`retenue_volontaire`, narration) — récurrente (confiance moyenne), 3 vidéos, 3 comptes · pas d'écart net de vues dans son compte (×1,02, 3 comptes).
 
-## Structure de rétention (appliquée à chaque épisode)
+### Mérite d'être testé
+- **L'information change de camp une seconde fois** (`double_retournement`, retention) — 2 vidéos, 2 comptes · manque 1 histoire indépendante de plus.
+- **Un témoin réagit juste après la réplique-choc** (`temoin_reaction`, montage) — 1 vidéo, 1 compte · manque 1 compte de plus, 2 histoires indépendantes de plus.
+- **Compilation « le film » d'une série terminée** (`compilation_film`, format) — 1 vidéo, 1 compte · manque 1 compte de plus, 2 histoires indépendantes de plus.
+
+### Dépend du contexte
+- **Une question binaire posée tôt, tranchée à la fin** (`epreuve_verdict`, retention) — récurrente (confiance moyenne), 17 vidéos, 10 comptes · moins vue dans son compte (×0,69, 6 comptes), mais s'inverse en vidéo unique ×1,19. Garder l'épreuve comme moteur mais l'adosser à une identité révélée ou une force cachée ; jamais seule.
+- **Tension muette, plans courts, peu de mots** (`style_muet`, montage) — récurrente (confiance moyenne), 8 vidéos, 2 comptes · effet sur les vues non mesurable (moins de 2 comptes où comparer). Pas de style par défaut : silence pour la menace physique, parole continue pour les conflits sociaux ; « 55 % de parole par plan » est une préférence de réalisation (bible/controles.json), jamais un quota : un silence qui porte la tension est un choix assumé.
+- Ton « drame » — 14 comptes · plus vue dans son compte (×1,51, 11 comptes), écart non net en partie 1 ×2,55, vidéo unique ×1, hors ton noir ×1,02.
+- Ton « noir » — 8 comptes · moins vue dans son compte (×0,54, 8 comptes), écart non net en vidéo unique ×0,99.
+- Ton « horreur » — 2 comptes · plus vue dans son compte (×1,86, 2 comptes), écart non net en hors ton noir ×1,06.
+- Domaine « couple » — 10 comptes · plus vue dans son compte (×1,38, 10 comptes), mais s'inverse en partie 1 ×0,84, vidéo unique ×0,94, hors ton noir ×0,87.
+- Domaine « famille » — 8 comptes · moins vue dans son compte (×0,51, 8 comptes), écart non net en hors ton noir ×0,85.
+- Domaine « concours » — 3 comptes · moins vue dans son compte (×0,71, 3 comptes), écart non net en vidéo unique ×0,88.
+- Domaine « sport » — 3 comptes · plus vue dans son compte (×1,52, 3 comptes), écart non net en partie 1 ×3,21.
+- Numéroter « Partie 1 » fait-il des vues ? → Non démontré : ne pas numéroter pour faire des vues ; numéroter seulement quand une suite est prévue.
+
+### À éviter
+- Aucun facteur négatif stable mesuré à ce jour.
+- Erreurs connues : champ `erreurs` de chaque mécanique (`bible/mecaniques.json`) et section « Conformité » de ce fichier.
+
+Aucune mécanique fortement documentée : les codages viennent surtout des fiches v1 non vérifiées. Les plus proches : `ironie_dramatique` (manque fiches v2 vérifiées 2/3 dans 2/2 comptes) ; `humiliation_injuste` (manque fiches v2 vérifiées 2/3 dans 2/2 comptes) ; `coupure_avant_payoff` (manque fiches v2 vérifiées 2/3 dans 2/2 comptes).
+<!-- BIBLIOTHEQUE:FIN -->
+
+## Règles de fabrication (validées par l'utilisateur)
+
+### Principe de transposition
+Histoires HUMAINES (test d'amour, faux pauvre, belle-famille, revanche, caïd humilié) ; les animaux sont le casting et vivent comme des humains.
+L'espèce sert au look et au caractère. **Assoupli le 23/11/2026** : la nature de l'animal peut servir de ressort si le drame reste humain et donne une image choc lisible en 1 s (bébé d'une espèce impossible = soupçon de tromperie). Jamais une blague de biologie sans enjeu humain.
+Les concepts de /creer (v3, 24/11/2026) partent des moteurs narratifs de `bible/editorial.json` et de `bible/dossier_editorial.md` (calculé depuis toutes les analyses) ; `bible/histoires.json` reste la banque de squelettes et de greffes où puiser. L'ancienne grille « GROS » (12 pitchs, 4 montrés) est remplacée par le score éditorial et la faisabilité de `outils/creer.py`.
+
+### Moteur d'histoire (retour utilisateur 22/11/2026 : « pas intéressant » ; assoupli le 24/11/2026)
+Une suite de gags ne tient pas. Ce qui tient 75 s : le spectateur VEUT voir quelque chose arriver.
+**Obligatoire** : un désir, un conflit, un antagoniste ou un obstacle, un enjeu, un payoff. **Boîte à outils** (les points ci-dessous) : la forme « revanche » en est un cas fréquent, pas le seul ; un dilemme, une enquête, un mensonge qui enfle ou un mentor incompris n'ont pas besoin d'humiliation ni de callback.
+1. **Injustice dans les 10 premières secondes** : le héros (qu'on aime) se fait humilier, voler, écraser par un antagoniste odieux et puissant. [`humiliation_injuste`]
+2. **Ironie dramatique** : le spectateur sait le secret du héros, les méchants non. [`ironie_dramatique`]
+3. **Antagoniste à détester** : il humilie EN PUBLIC, triche, méprise, et a une réplique-signature arrogante qui reviendra contre lui.
+4. **Enjeu chiffré qui monte** : un chiffre lisible (contrat 1 M€, 5 000 €, 34 ans) et chaque plan rend la situation pire. [`chiffre_ecran`]
+5. **Force cachée montrée une fois au milieu** : le héros prouve sa valeur, le méchant devient jaloux et triche. [`retenue_volontaire`]
+6. **Retournement = l'info change de camp**, pas un nouveau gag.
+7. **Payoff satisfaisant** : le méchant est puni par SA PROPRE ARME / sa propre réplique (callback), devant tout le monde. [`renversement_statut`]
+8. **Kicker final** : une dernière info qui relance + question de vote morale (« il avait le droit ? »). [`question_au_spectateur`]
+
+### Écriture des dialogues
+Dialogues naturels et expressifs, toujours au service du conflit. Les points marqués (outil) s'emploient quand ils servent la scène, jamais comme quota.
+- Chaque réplique a une FONCTION : attaque, riposte, revelation, reaction, menace, promesse, aveu. Jamais « info ».
+- **Clash** (outil) : attaque → riposte immédiate. La riposte doit être meilleure que l'attaque.
+- Phrases parlées, courtes, rythmées, qu'on a envie de citer en commentaire. Sous-texte > explication.
+- (outil) Le méchant a une phrase-signature → le héros la lui renvoie au payoff.
+- (outil, à tester) Témoin qui dit tout haut ce que pense le spectateur, 1-3 mots, juste après une réplique-choc, pas après chacune. [`temoin_reaction`]
+- (préférence) Parole dense dans les conflits sociaux : repère ≈ 55 % de chaque plan parlé et pas plus de 1,5 s de silence. Un silence qui porte la tension (menace physique, face-à-face, découverte) se déclare (`muet` sur le plan, ou `choix_creatifs`) ; ne jamais le combler par une réplique de remplissage.
+
+### Structure de rétention (repère, pas un gabarit : les positions des retournements suivent l'histoire)
 | Temps | Plan | Rôle |
 |---|---|---|
 | 0-2 s | 1 | Réplique-choc au cœur du conflit + texte d'accroche à l'écran (7 mots max). Jamais de contexte avant. |
-| 6-12 s | 2 | Contexte en une phrase pour les nouveaux (« Depuis qu'il a gagné… »). |
+| 6-12 s | 2 | Contexte en une phrase pour ceux qui arrivent au milieu d'une série. |
 | 12-30 s | 3-5 | Escalade, 1er retournement avant 35 s. |
-| ~30-45 s | 5-8 | **Question au milieu** en texte à l'écran (« Tu la crois, toi ? ») : relance l'attention et les commentaires. |
+| ~30-45 s | 5-8 | Question au milieu en texte à l'écran (« Tu la crois, toi ? »). |
 | 35-60 s | 6-10 | 2e retournement : l'information change de camp. |
-| 60-70 s | 11-12 | Climax puis coupure au pire moment (phrase interrompue, coup qui part, porte qui s'ouvre). |
-| fin | — | Texte « Partie N+1 ? » + question de vote, commentaire épinglé identique. |
+| 60-70 s | 11-12 | Climax puis coupure au pire moment, après avoir payé quelque chose dans la vidéo. [`coupure_avant_payoff`] |
+| fin | — | Question de vote, commentaire épinglé identique ; « Partie N+1 ? » seulement si une suite est prévue. L'épisode suivant reprend le choix gagnant et le DIT. |
+
+### Machine virale v2 (réalisation Grok, 22/11/2026)
+- **Plans vivants** : un plan Grok = plusieurs temps forts timecodés (action, réaction, coup de caméra, bruitage). Jamais une action molle sur 6 s ; un silence tendu voulu n'est pas une action molle.
+- **Ping-pong** (outil) : 2 personnages se répondent dans le même plan. Répliques courtes (repère : 12 mots).
+- **Durées** : 6 ou 10 s (technique, Grok) ; un plan de 10 s a une image de DÉBUT + une image de FIN (technique). Le mélange 6 s / 10 s suit le rythme de l'histoire (préférence : 10 s pour révélation, humiliation, climax).
+- **Grok** : segments timecodés « [0-2s] … », décrire le son autant que l'image (il génère voix + bruitages), 1-2 phrases par réplique. Actions simples et lisibles (pointer, se lever, claquer une porte) : Grok anime mal les actions complexes, l'histoire passe par les dialogues.
+- **Style cartoon 3D stylisé** (jamais photoréaliste) : lisible sur téléphone, émotions en 0,5 s. Étiquette « généré par IA » activée.
+- **Texte dans le décor** : tableau, banderole, maillot avec noms fictifs = contexte compris sans voix off.
+- **Hooks A/B** : 3 hooks de rechange par vidéo ; si < 2 000 vues en 2 h, refaire seulement le plan 1 et reposter. Noter le résultat dans `tests_ab` de la mécanique testée.
+- **Univers étendu** : mêmes familles et clubs fictifs d'une vidéo à l'autre.
+- **Durée** : 61 à 75 s visés (au-delà d'1 min = éligible aux Récompenses Créateurs) ; préférence, l'histoire passe avant.
 
 ## Conformité (cause probable des 2 vidéos bannies)
 La bible imposait « espèce de bâtard » et les épisodes contenaient « garce », « trop con » : TikTok transcrit les voix et
-classe les insultes dégradantes en harcèlement. Tout est maintenant filtré par `conformite.json` (rouge = bloqué, orange = 2 max).
+classe les insultes dégradantes en harcèlement. Tout est filtré par `conformite.json` (rouge = bloqué, orange = 2 max).
 
-
-## Appris des vidéos analysées (69 vidéos, 14 comptes, 22/11/2026 — détail : `analyses/TENDANCE-2026-11-22.md`)
-Classées par force (vues × commentaires) :
-1. **Aveu-prémisse à 0 s** : le héros dit son secret humain (argent caché, faux physique, double vie) au spectateur dans la 1re phrase (« ils croient que…, en vrai… »). 13 vidéos sur 13 > 1 M, médiane 2,5 M.
-2. **Test d'amour déguisé** (faux pauvre/moche/gros/chauve, la famille humilie, coupure sur « vous voulez voir ? »). 12 vidéos, 9 > 1 M, médiane 1,6 M, 0,11 % de com.
-3. **Humilié → transformation** (glow-up promis, montré à mi-partie 2). 9 vidéos, moyenne 5 M (record 22,9 M).
-4. **Sous-estimé à force cachée** (handicap imposé ou promesse de ne pas frapper). 14 vidéos, 0,21 % de com (×2 la moyenne).
-5. **Principe de transposition** : on reprend les HISTOIRES HUMAINES telles quelles (test d'amour, faux pauvre, belle-famille, revanche, caïd humilié) ; les animaux ne sont que le casting, ils vivent comme des humains. Ce qui marche chez les fruits, c'est le drame humain, pas le fruit. L'animal sert au look et au caractère (taureau = fierté, renard = escroc), jamais de ressort d'intrigue basé sur sa biologie.
-6. **Témoin choqué après chaque réplique-choc** (plan de 1 s, il dit ce que pense le spectateur). Présent dans les 7 vidéos à plus de 0,2 % de com.
-7. **Style « cinéma muet »** : 3-5 s d'image muette tendue, plans 2-3 s, 1 mot géant à l'écran → 13,9 % de likes et 0,23 % de com (×3 le style bavard).
-8. **Gros chiffre lisible à l'écran** (1 000 000 €, 150 kg, QI 167). Vu dans 20 vidéos sur 69.
-9. **Partie N+1 = même réplique que la fin de N**, payoff dans les 5 premières secondes. Les suites perdent 40 à 70 % des vues : chaque partie 1 doit tenir seule.
-10. **Compilation « Le film »** d'une saison terminée : 7 M (7vizory7).
-À éviter : humour noir sans image forte (0,1 M), dialogue en continu sans plan de réaction (87 k), copie tardive d'une mécanique (65 k), vidéos de plus de 2 min hors compilation (médiane 675 k).
-
-
-## Machine virale v2 (recherche 22/11/2026 + retours utilisateur)
-Sources : guides algorithme TikTok 2026 (Sendible, eClincher, OpusClip, Socialync), aide TikTok « contenu généré par IA »,
-guides de prompts Grok Imagine (fal.ai, Replicate, Morphic). Chiffres = consensus de blogs, pas de données officielles TikTok.
-- **Signaux** : complétion (~70 % visé) et REVISIONNAGES (le plus fort en 2026 selon plusieurs guides) → fin qui boucle sur le début.
-- **Rupture toutes les 2-3 s** : un plan Grok = plusieurs temps forts timecodés (action, réaction, coup de caméra, bruitage).
-  Jamais une seule action molle sur 6 s.
-- **Ping-pong** : 2 personnages se répondent dans le même plan (attaque → réplique → réaction du témoin). Répliques de 1 à 12 mots.
-- **Durées variées** : plans de 6 s (punch) et de 10 s (scènes clés : révélation, humiliation, climax) avec image de DÉBUT + image de FIN.
-- **Grok** : écrire en segments timecodés « [0-2s] … », décrire le son autant que l'image (il génère voix + bruitages), 1-2 phrases par réplique.
-- **Style cartoon 3D stylisé** (pas photoréaliste) : plus lisible sur téléphone, expressions exagérées = émotions en 0,5 s,
-  et TikTok exige l'étiquette IA surtout pour le contenu RÉALISTE. On active quand même l'étiquette « généré par IA ».
-- **Texte dans le décor** : tableau d'affichage, banderole, maillot avec noms fictifs = contexte compris sans voix off.
-- **Hooks A/B** : 3 hooks de rechange par vidéo ; si < 2 000 vues en 2 h, on refait seulement le plan 1 et on reposte.
-- **Univers étendu** : mêmes clubs/familles fictifs d'une vidéo à l'autre = le public reconnaît la « marque ».
-
-
-## Moteur d'histoire (obligatoire, retour utilisateur 22/11/2026 : « pas intéressant »)
-Une suite de gags ne tient pas. Ce qui tient 75 s : le spectateur VEUT voir quelque chose arriver.
-1. **Injustice dans les 10 premières secondes** : le héros (qu'on aime) se fait humilier/voler/écraser par un antagoniste odieux et puissant.
-2. **Ironie dramatique** : le spectateur sait le secret du héros (aveu à 0 s), les méchants non → il attend la révélation.
-3. **Antagoniste à détester** : il humilie EN PUBLIC, triche, méprise, et a une réplique-signature arrogante qui reviendra contre lui.
-4. **Enjeu chiffré qui monte** : un chiffre lisible (contrat 1 M€, 5 000 €, 34 ans) et chaque plan rend la situation pire.
-5. **Force cachée montrée une fois au milieu** : le héros prouve sa valeur (geste spectaculaire), le méchant devient jaloux et triche.
-6. **Retournement = l'info change de camp**, pas un nouveau gag.
-7. **Payoff satisfaisant** : le méchant est puni par SA PROPRE ARME / sa propre réplique (callback), devant tout le monde.
-8. **Kicker final** : une dernière info qui relance (twist, double secret) + question de vote morale (« il avait le droit ? »).
-
-## Écriture des dialogues
-- Chaque réplique a une FONCTION : attaque, riposte, revelation, reaction, menace, promesse, aveu. Jamais « info ».
-- **Clash** : attaque → riposte immédiate (vanne → contre-vanne). La riposte doit être meilleure que l'attaque.
-- Phrases parlées, courtes, rythmées, qu'on a envie de citer en commentaire. Sous-texte > explication.
-- Le méchant a une phrase-signature (« Les vieux, chez moi, ça finit sur le banc ») → le héros la lui renvoie au payoff.
-- Témoin qui dit tout haut ce que pense le spectateur, 1-3 mots, juste après la réplique-choc.
-- Parole quasi continue : au moins 55 % de chaque plan parlé, jamais plus de 1,5 s de silence (sauf plan muet volontaire).
+## Repères externes (novembre 2026, non mesurés par nos analyses)
+Sources : Fruit Love Island (Ai Cinema, ~10 M de vues par épisode), articles NBC / Wired sur les « fruit dramas », guides algorithme TikTok 2026 (Sendible, eClincher, OpusClip, Socialync), aide TikTok « contenu généré par IA ». Consensus de blogs, pas de données officielles.
+- **Concept lisible en 1 seconde** : un personnage reconnaissable + un format connu (télé-réalité, soap, procès). Chaque personnage = son animal + accessoires qui disent son caractère.
+- **Thèmes cités** : tromperie, trahison, triangle amoureux, héritage/argent, belle-famille. Absurde assumé.
+- **Signaux de l'algorithme** : complétion (~70 % visé) et revisionnages, puis partages et enregistrements, commentaires, likes. Test sur un petit public puis élargissement si les premières heures sont bonnes : les 2 premières secondes et l'absence de temps mort comptent le plus.

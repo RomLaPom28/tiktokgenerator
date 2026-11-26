@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "belle-famille",
+    "ton": "drame",
+    "format": "suite",
+    "serie": "squishh-chauve"
+  },
+  "mecaniques": [
+    {
+      "id": "suite_partie_n",
+      "variante": "reprise_exacte",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "renversement_statut",
+      "variante": "identite_revelee",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "argent",
+    "ton": "drame",
+    "format": "suite",
+    "serie": "7vizory7-framboise"
+  },
+  "mecaniques": [
+    {
+      "id": "suite_partie_n",
+      "variante": "reprise_exacte",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "ironie_dramatique",
+      "variante": "complot_montre",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "coupure_avant_payoff",
+      "variante": "menace_annoncee",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

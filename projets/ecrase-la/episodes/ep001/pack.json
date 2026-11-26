@@ -1,0 +1,470 @@
+{
+  "id": "ep001",
+  "numero": 1,
+  "titre": "Écrase-la",
+  "resume": "Trois semaines après le délit de fuite qui a envoyé Jade à l'hôpital, la Falco GT du chauffard arrive à la casse de Michel. Dylan Delmas, fils du roi des concessions, paie 100 000 € pour qu'on l'écrase ; Michel, criblé de dettes, accepte. Lucas arrache la carte mémoire de la caméra de bord sous la presse. Le père de Dylan s'inquiète de la caméra. Dylan défie Lucas : course samedi, la casse en jeu. Mais Lucas avait échangé la vraie Falco contre une épave : il va la réparer. Sur la vidéo, Dylan est passager.",
+  "projet": "ecrase-la",
+  "projet_titre": "Écrase-la",
+  "type": "serie",
+  "portraits": [
+    {
+      "id": "lucas",
+      "nom": "Lucas",
+      "ref": "refs/lucas.png",
+      "prompt": "Fiche de référence personnage : Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (génie de la mécanique, taiseux, encaisse puis frappe avec une phrase), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "jade",
+      "nom": "Jade",
+      "ref": "refs/jade.png",
+      "prompt": "Fiche de référence personnage : Jade, lapine blanche de 16 ans aux très longues oreilles dont une bandée, grands yeux bleus, plâtre rose au bras droit couvert de dessins au feutre, blouse d'hôpital bleu ciel à petits motifs, bracelet d'hôpital au poignet. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (douce, drôle avant l'accident, aujourd'hui silencieuse), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "michel",
+      "nom": "Michel",
+      "ref": "refs/michel.png",
+      "prompt": "Fiche de référence personnage : Michel, vieil ours brun massif de 68 ans, barbe grise broussailleuse, casquette de mécano bleue usée, cure-dent au coin de la bouche, gros ventre, salopette bleue délavée rapiécée aux genoux, chemise à carreaux rouge aux manches retroussées. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (bourru et tendre, a tout donné pour élever ses petits-enfants, à bout), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "dylan",
+      "nom": "Dylan",
+      "ref": "refs/dylan.png",
+      "prompt": "Fiche de référence personnage : Dylan, lévrier afghan de 21 ans au long pelage doré brushé comme une coiffure de star, museau fin relevé, lunettes de soleil miroir, grosse chaîne en or, veste en cuir blanc immaculé, tee-shirt noir, jean clair, baskets blanches de luxe. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (fils à papa, méprise les pauvres, lâche dès qu'il a peur), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "christophe",
+      "nom": "Christophe",
+      "ref": "refs/christophe.png",
+      "prompt": "Fiche de référence personnage : Christophe, taureau noir massif de 52 ans, cornes polies et brillantes, anneau doré au museau, grosse chevalière en or à la main droite, costume trois pièces bordeaux sur mesure, cravate dorée, montre en or. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (roi des concessions de la région et adjoint au maire, sourit en menaçant), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    },
+    {
+      "id": "nathalie",
+      "nom": "Nathalie",
+      "ref": "refs/nathalie.png",
+      "prompt": "Fiche de référence personnage : Nathalie, pie de 47 ans au plumage noir et blanc à reflets bleus, gros bigoudis roses sur la tête, longues boucles d'oreilles en plastique, téléphone toujours à la main, tablier à grosses fleurs jaunes sur un pull violet, chaussons fourrés. Plan en pied de trois quarts face, pose de personnage de film d'animation pleine d'attitude, expression typique de son caractère (tient le snack en face de la casse, voit tout, filme tout, répète tout), fond uni dégradé chaud, lumière studio douce. Qualité : personnage de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon, grands yeux brillants, silhouette ultra reconnaissable, couleurs saturées, aucun décor ni figurant. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Vertical 9:16, aucun texte, aucun logo."
+    }
+  ],
+  "ouverture": "Tu vas générer les images d'une vidéo. Toutes les images : format vertical 9:16, même style, mêmes personnages avec EXACTEMENT les mêmes visages, couleurs et accessoires d'une image à l'autre. Aucun sous-titre ni bulle ; le seul texte autorisé est celui que je décris dans le décor (tableau d'affichage, banderole, maillot), écrit sans faute.\n\nSTYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux.\n\nPERSONNAGES DE CET ÉPISODE (looks fixes) :\n- Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues. Tenue : salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture.\n- Jade, lapine blanche de 16 ans aux très longues oreilles dont une bandée, grands yeux bleus, plâtre rose au bras droit couvert de dessins au feutre. Tenue : blouse d'hôpital bleu ciel à petits motifs, bracelet d'hôpital au poignet.\n- Michel, vieil ours brun massif de 68 ans, barbe grise broussailleuse, casquette de mécano bleue usée, cure-dent au coin de la bouche, gros ventre. Tenue : salopette bleue délavée rapiécée aux genoux, chemise à carreaux rouge aux manches retroussées.\n- Dylan, lévrier afghan de 21 ans au long pelage doré brushé comme une coiffure de star, museau fin relevé, lunettes de soleil miroir, grosse chaîne en or. Tenue : veste en cuir blanc immaculé, tee-shirt noir, jean clair, baskets blanches de luxe.\n- Christophe, taureau noir massif de 52 ans, cornes polies et brillantes, anneau doré au museau, grosse chevalière en or à la main droite. Tenue : costume trois pièces bordeaux sur mesure, cravate dorée, montre en or.\n- Nathalie, pie de 47 ans au plumage noir et blanc à reflets bleus, gros bigoudis roses sur la tête, longues boucles d'oreilles en plastique, téléphone toujours à la main. Tenue : tablier à grosses fleurs jaunes sur un pull violet, chaussons fourrés.\n\nSi je joins des images de référence, ce sont ces personnages : respecte-les à la lettre.\nJe vais t'envoyer \"Image 1 : …\", \"Image 2 : …\". Pour chaque message, génère uniquement l'image demandée, sans commentaire. Réponds juste OK à ce message.",
+  "refs": [
+    "refs/lucas.png",
+    "refs/jade.png",
+    "refs/michel.png",
+    "refs/dylan.png",
+    "refs/nathalie.png",
+    "refs/christophe.png"
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "duree": 6,
+      "role": "accroche",
+      "titre": "La casse de Michel · TGP",
+      "dialogues": [
+        {
+          "t": "0.1-2.4",
+          "qui": "Lucas",
+          "texte": "Cette voiture a renversé ma petite sœur."
+        },
+        {
+          "t": "2.6-4.0",
+          "qui": "Lucas",
+          "texte": "Elle est arrivée cette nuit."
+        },
+        {
+          "t": "4.2-5.9",
+          "qui": "Lucas",
+          "texte": "Pour se faire écraser."
+        }
+      ],
+      "replique": "Cette voiture a renversé ma petite sœur. Elle est arrivée cette nuit. Pour se faire écraser.",
+      "parle": "lucas",
+      "texte_ecran": "ELLE A RENVERSÉ MA SŒUR",
+      "image": "Image 1 : très gros plan sur le visage, les yeux remplissent le cadre, caméra à hauteur des yeux. Décor : immense casse automobile en plein air, montagnes de carcasses de voitures rouillées empilées sur cinq étages, grue à pince jaune, presse hydraulique géante au centre, grande enseigne néon orange à moitié grillée « CASSE MICHEL & FILS », flaques d'huile, chiens de garde animaux au loin. Lumière : nuit bleutée au clair de lune. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : face caméra, un rétroviseur de scooter rose arraché dans la patte, mâchoire serrée, yeux brillants de rage. Derrière lui, une supercar fictive orange, la Falco GT, capot enfoncé et pare-brise étoilé, suspendue à la pince de la grue ; un éclat de plastique rose coincé dans sa calandre. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : papier scotché sur le pare-brise : « À ÉCRASER – PAYÉ ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Lucas se tourne d'un coup vers la caméra en levant le rétroviseur rose. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : whoosh.\n[0.1-2.4s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, froid, à voix basse) dit en français : « Cette voiture a renversé ma petite sœur. »\n[2-4s] La grue lâche la Falco au sol derrière lui dans un fracas de tôle. Bruitage : fracas métallique.\n[2.6-4.0s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, sec) dit en français : « Elle est arrivée cette nuit. »\n[4-6s] Lucas serre le rétroviseur, regard noir vers l'objectif. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : note grave.\n[4.2-5.9s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, glacial, regard caméra) dit en français : « Pour se faire écraser. »\nAmbiance sonore : grincement de métal, grue hydraulique, chiens qui aboient au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 2,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Chambre de Jade à l'hôpital · PR",
+      "dialogues": [
+        {
+          "t": "0.2-2.6",
+          "qui": "Michel",
+          "texte": "Vingt et un jours. Et la police a rien."
+        },
+        {
+          "t": "2.8-4.0",
+          "qui": "Jade",
+          "texte": "Je me souviens de rien."
+        },
+        {
+          "t": "4.1-5.9",
+          "qui": "Lucas",
+          "texte": "Moi, je vais me souvenir pour toi."
+        }
+      ],
+      "replique": "Vingt et un jours. Et la police a rien. Je me souviens de rien. Moi, je vais me souvenir pour toi.",
+      "parle": "michel",
+      "texte_ecran": "",
+      "image": "Image 2 : plan rapproché, de la tête à la poitrine, caméra en plongée, au-dessus, qui écrase le personnage. Décor : chambre d'hôpital lumineuse, lit à barreaux blancs, moniteur cardiaque qui bipe, dessins d'enfants scotchés au mur, ballons dégonflés, tableau blanc au mur, fenêtre sur la ville. Lumière : lumière naturelle de jour, ombres nettes. Jade, lapine blanche de 16 ans aux très longues oreilles dont une bandée, grands yeux bleus, plâtre rose au bras droit couvert de dessins au feutre, blouse d'hôpital bleu ciel à petits motifs, bracelet d'hôpital au poignet : allongée, oreille bandée, détourne les yeux, tire sur son oreille. Michel, vieil ours brun massif de 68 ans, barbe grise broussailleuse, casquette de mécano bleue usée, cure-dent au coin de la bouche, gros ventre, salopette bleue délavée rapiécée aux genoux, chemise à carreaux rouge aux manches retroussées : assis au bord du lit, casquette à la main, épaules voûtées. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : debout près de la fenêtre, bras croisés, fixe sa sœur. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : tableau blanc au mur : « JADE, 16 ANS – JOUR 21 ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Michel tourne sa casquette entre ses pattes, regard vers le moniteur. Bruitage : bip du moniteur.\n[0.2-2.6s] MICHEL (voix d'homme de 68 ans, rocailleuse et lente, accent du sud-ouest, las, rocailleux) dit en français : « Vingt et un jours. Et la police a rien. »\n[2.8-4.0s] JADE (voix de jeune fille de 16 ans, douce et fatiguée, hésitante, petite voix, ment) dit en français : « Je me souviens de rien. »\n[3-6s] Jade tire sur son oreille bandée et évite le regard de Lucas. Caméra : lent travelling avant vers le visage.\n[4.1-5.9s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, doux mais ferme) dit en français : « Moi, je vais me souvenir pour toi. »\nAmbiance sonore : bip régulier du moniteur, couloir d'hôpital, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 3,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "La casse de Michel · PA",
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "qui": "Dylan",
+          "texte": "C'est toi, le ferrailleur ?"
+        },
+        {
+          "t": "2.0-3.2",
+          "qui": "Lucas",
+          "texte": "C'est toi, le chauffard ?"
+        },
+        {
+          "t": "3.4-4.0",
+          "qui": "Nathalie",
+          "texte": "QUOI ?!"
+        },
+        {
+          "t": "4.3-6.6",
+          "qui": "Dylan",
+          "texte": "Cent mille euros. Tu l'écrases devant moi."
+        },
+        {
+          "t": "6.9-9.6",
+          "qui": "Dylan",
+          "texte": "Ce qui est cassé, on l'écrase."
+        }
+      ],
+      "replique": "C'est toi, le ferrailleur ? C'est toi, le chauffard ? QUOI ?! Cent mille euros. Tu l'écrases devant moi. Ce qui est cassé, on l'écrase.",
+      "parle": "dylan",
+      "texte_ecran": "",
+      "image": "Image 3 : plan américain, de la tête aux genoux, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : immense casse automobile en plein air, montagnes de carcasses de voitures rouillées empilées sur cinq étages, grue à pince jaune, presse hydraulique géante au centre, grande enseigne néon orange à moitié grillée « CASSE MICHEL & FILS », flaques d'huile, chiens de garde animaux au loin. Lumière : lumière dorée et douce du matin. Dylan, lévrier afghan de 21 ans au long pelage doré brushé comme une coiffure de star, museau fin relevé, lunettes de soleil miroir, grosse chaîne en or, veste en cuir blanc immaculé, tee-shirt noir, jean clair, baskets blanches de luxe : descend d'un SUV blanc rutilant, mallette argentée à la main, lunettes miroir baissées, sourire méprisant. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : face à lui, clé de 12 qui tourne entre ses doigts, regard fixe. Nathalie, pie de 47 ans au plumage noir et blanc à reflets bleus, gros bigoudis roses sur la tête, longues boucles d'oreilles en plastique, téléphone toujours à la main, tablier à grosses fleurs jaunes sur un pull violet, chaussons fourrés : au fond, plateau de frites à la main, bec grand ouvert. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : mallette ouverte pleine de billets avec un bandeau géant « 100 000 € ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 3 FIN (dernière image du plan, quelques secondes plus tard) : plan rapproché, de la tête à la poitrine, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : immense casse automobile en plein air, montagnes de carcasses de voitures rouillées empilées sur cinq étages, grue à pince jaune, presse hydraulique géante au centre, grande enseigne néon orange à moitié grillée « CASSE MICHEL & FILS », flaques d'huile, chiens de garde animaux au loin. Lumière : lumière dorée et douce du matin. Michel, vieil ours brun massif de 68 ans, barbe grise broussailleuse, casquette de mécano bleue usée, cure-dent au coin de la bouche, gros ventre, salopette bleue délavée rapiécée aux genoux, chemise à carreaux rouge aux manches retroussées : arrive en courant, yeux exorbités devant la mallette, le cure-dent tombe de sa bouche. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : poings serrés, lunettes de soudeur remontées d'un coup. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : mallette ouverte pleine de billets avec un bandeau géant « 100 000 € ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Dylan claque la portière de son SUV blanc et essuie sa veste. Caméra : travelling latéral qui suit le personnage. Bruitage : portière qui claque.\n[0.2-1.8s] DYLAN (voix de jeune homme de 21 ans, traînante et méprisante, rire nasal, traînant, méprisant) dit en français : « C'est toi, le ferrailleur ? »\n[2.0-3.2s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, calme, glacial) dit en français : « C'est toi, le chauffard ? »\n[3-5s] Il ouvre la mallette d'un coup sec : des liasses de billets. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : clic de serrure.\n[3.4-4.0s] NATHALIE (voix de femme de 47 ans, aiguë et rapide, adore les potins, cri aigu) dit en français : « QUOI ?! »\n[4.3-6.6s] DYLAN (voix de jeune homme de 21 ans, traînante et méprisante, rire nasal, sourire faux, ouvre la mallette) dit en français : « Cent mille euros. Tu l'écrases devant moi. »\n[5-7s] Nathalie lâche son plateau de frites. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : fracas de plateau.\n[6.9-9.6s] DYLAN (voix de jeune homme de 21 ans, traînante et méprisante, rire nasal, regarde Lucas de haut en bas) dit en français : « Ce qui est cassé, on l'écrase. »\n[7-10s] Michel accourt, son cure-dent tombe devant la mallette. Bruitage : note de suspense.\nAmbiance sonore : grincement de métal, grue hydraulique, chiens qui aboient au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 4,
+      "duree": 6,
+      "role": "retournement",
+      "titre": "La casse de Michel · GP",
+      "dialogues": [
+        {
+          "t": "0.2-1.6",
+          "qui": "Michel",
+          "texte": "Marché conclu, petit."
+        },
+        {
+          "t": "1.8-3.6",
+          "qui": "Lucas",
+          "texte": "Papy ?! C'est la voiture de Jade."
+        },
+        {
+          "t": "3.8-5.8",
+          "qui": "Michel",
+          "texte": "On a quatre-vingt mille euros de dettes."
+        }
+      ],
+      "replique": "Marché conclu, petit. Papy ?! C'est la voiture de Jade. On a quatre-vingt mille euros de dettes.",
+      "parle": "michel",
+      "texte_ecran": "PAPY ACCEPTE 😱",
+      "image": "Image 4 : gros plan sur le visage et le haut des épaules, caméra à hauteur des yeux. Décor : immense casse automobile en plein air, montagnes de carcasses de voitures rouillées empilées sur cinq étages, grue à pince jaune, presse hydraulique géante au centre, grande enseigne néon orange à moitié grillée « CASSE MICHEL & FILS », flaques d'huile, chiens de garde animaux au loin. Lumière : lumière dorée et douce du matin. Michel, vieil ours brun massif de 68 ans, barbe grise broussailleuse, casquette de mécano bleue usée, cure-dent au coin de la bouche, gros ventre, salopette bleue délavée rapiécée aux genoux, chemise à carreaux rouge aux manches retroussées : la patte posée sur la mallette, n'ose pas regarder Lucas, voix brisée. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : se retourne vers son grand-père, yeux exorbités, oreilles plaquées. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Michel referme la mallette et serre la patte de Dylan. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : claquement de mallette.\n[0.2-1.6s] MICHEL (voix d'homme de 68 ans, rocailleuse et lente, accent du sud-ouest, sourd, sans regarder Lucas) dit en français : « Marché conclu, petit. »\n[1.8-3.6s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, hurlé, trahi) dit en français : « Papy ?! C'est la voiture de Jade. »\n[2-4s] Lucas se retourne d'un bond vers lui. Bruitage : whoosh.\n[3.8-5.8s] MICHEL (voix d'homme de 68 ans, rocailleuse et lente, accent du sud-ouest, brisé, presque en pleurs) dit en français : « On a quatre-vingt mille euros de dettes. »\n[4-6s] Michel baisse les yeux, mâchonne son cure-dent. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : note grave.\nAmbiance sonore : grincement de métal, grue hydraulique, chiens qui aboient au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 5,
+      "duree": 6,
+      "role": "temoin",
+      "titre": "La casse de Michel · ECRAN",
+      "dialogues": [
+        {
+          "t": "0.2-1.4",
+          "qui": "Nathalie",
+          "texte": "Il va vraiment l'écraser ?!"
+        },
+        {
+          "t": "1.6-3.4",
+          "qui": "Dylan",
+          "texte": "Appuie, papy. Je paie pas pour regarder."
+        },
+        {
+          "t": "3.6-5.9",
+          "qui": "Lucas",
+          "texte": "T'as peur de quoi, Dylan ? D'une voiture ?"
+        }
+      ],
+      "replique": "Il va vraiment l'écraser ?! Appuie, papy. Je paie pas pour regarder. T'as peur de quoi, Dylan ? D'une voiture ?",
+      "parle": "nathalie",
+      "texte_ecran": "",
+      "image": "Image 5 : vue à travers l'écran d'un smartphone qui filme la scène, cadre vertical de téléphone, personnage de profil. Décor : immense casse automobile en plein air, montagnes de carcasses de voitures rouillées empilées sur cinq étages, grue à pince jaune, presse hydraulique géante au centre, grande enseigne néon orange à moitié grillée « CASSE MICHEL & FILS », flaques d'huile, chiens de garde animaux au loin. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Nathalie, pie de 47 ans au plumage noir et blanc à reflets bleus, gros bigoudis roses sur la tête, longues boucles d'oreilles en plastique, téléphone toujours à la main, tablier à grosses fleurs jaunes sur un pull violet, chaussons fourrés : filme avec son téléphone, aile plaquée sur le bec. Dylan, lévrier afghan de 21 ans au long pelage doré brushé comme une coiffure de star, museau fin relevé, lunettes de soleil miroir, grosse chaîne en or, veste en cuir blanc immaculé, tee-shirt noir, jean clair, baskets blanches de luxe : bras croisés devant la presse, tape du pied, impatient. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : planté entre la Falco et la presse, défie Dylan du regard. La Falco GT orange posée sur le plateau de la presse hydraulique géante. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] La Falco est poussée sur le plateau de la presse. Caméra : caméra à l'épaule, légèrement nerveuse. Bruitage : moteur hydraulique qui démarre.\n[0.2-1.4s] NATHALIE (voix de femme de 47 ans, aiguë et rapide, adore les potins, chuchoté, excité) dit en français : « Il va vraiment l'écraser ?! »\n[1.6-3.4s] DYLAN (voix de jeune homme de 21 ans, traînante et méprisante, rire nasal, agacé, claque des doigts) dit en français : « Appuie, papy. Je paie pas pour regarder. »\n[3-6s] Lucas se plante devant Dylan, nez à nez. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : grondement.\n[3.6-5.9s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, sec, nez à nez) dit en français : « T'as peur de quoi, Dylan ? D'une voiture ? »\nAmbiance sonore : grincement de métal, grue hydraulique, chiens qui aboient au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 6,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "La casse de Michel · PE",
+      "dialogues": [
+        {
+          "t": "0.2-1.2",
+          "qui": "Michel",
+          "texte": "Recule, Lucas !"
+        },
+        {
+          "t": "1.5-2.8",
+          "qui": "Lucas",
+          "texte": "Deux secondes, papy !"
+        },
+        {
+          "t": "3.0-3.6",
+          "qui": "Nathalie",
+          "texte": "NON !"
+        },
+        {
+          "t": "4.0-6.0",
+          "qui": "Dylan",
+          "texte": "Laisse-le, s'il veut finir en cube."
+        },
+        {
+          "t": "6.2-7.8",
+          "qui": "Lucas",
+          "texte": "Personne écrase ma sœur deux fois."
+        },
+        {
+          "t": "8.0-9.6",
+          "qui": "Dylan",
+          "texte": "Il a pris quoi, là ?"
+        }
+      ],
+      "replique": "Recule, Lucas ! Deux secondes, papy ! NON ! Laisse-le, s'il veut finir en cube. Personne écrase ma sœur deux fois. Il a pris quoi, là ?",
+      "parle": "michel",
+      "texte_ecran": "",
+      "image": "Image 6 : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en plongée, au-dessus, qui écrase le personnage. Décor : immense casse automobile en plein air, montagnes de carcasses de voitures rouillées empilées sur cinq étages, grue à pince jaune, presse hydraulique géante au centre, grande enseigne néon orange à moitié grillée « CASSE MICHEL & FILS », flaques d'huile, chiens de garde animaux au loin. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Michel, vieil ours brun massif de 68 ans, barbe grise broussailleuse, casquette de mécano bleue usée, cure-dent au coin de la bouche, gros ventre, salopette bleue délavée rapiécée aux genoux, chemise à carreaux rouge aux manches retroussées : la patte sur le levier de la presse, hurle. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : plonge sous le plateau de la presse, bras tendu vers le pare-brise. Nathalie, pie de 47 ans au plumage noir et blanc à reflets bleus, gros bigoudis roses sur la tête, longues boucles d'oreilles en plastique, téléphone toujours à la main, tablier à grosses fleurs jaunes sur un pull violet, chaussons fourrés : téléphone levé, bec ouvert. Dylan, lévrier afghan de 21 ans au long pelage doré brushé comme une coiffure de star, museau fin relevé, lunettes de soleil miroir, grosse chaîne en or, veste en cuir blanc immaculé, tee-shirt noir, jean clair, baskets blanches de luxe : recule d'un pas, sourire figé. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur la presse, en lettres jaunes géantes : « PRESSE 300 TONNES ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 6 FIN (dernière image du plan, quelques secondes plus tard) : plan rapproché, de la tête à la poitrine, caméra en plongée, au-dessus, qui écrase le personnage. Décor : immense casse automobile en plein air, montagnes de carcasses de voitures rouillées empilées sur cinq étages, grue à pince jaune, presse hydraulique géante au centre, grande enseigne néon orange à moitié grillée « CASSE MICHEL & FILS », flaques d'huile, chiens de garde animaux au loin. Lumière : lumière chaude et rasante de fin d'après-midi, longues ombres. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : à genoux dans la poussière, une minuscule carte mémoire entre deux doigts, sourire en coin. Dylan, lévrier afghan de 21 ans au long pelage doré brushé comme une coiffure de star, museau fin relevé, lunettes de soleil miroir, grosse chaîne en or, veste en cuir blanc immaculé, tee-shirt noir, jean clair, baskets blanches de luxe : lunettes miroir qui glissent du nez, visage pâle. Derrière eux, la Falco réduite en cube de métal. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur la presse, en lettres jaunes géantes : « PRESSE 300 TONNES ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Michel abaisse le levier, la presse descend. Caméra : caméra fixe avec une secousse brève au moment de l'impact. Bruitage : sifflement hydraulique.\n[0.2-1.2s] MICHEL (voix d'homme de 68 ans, rocailleuse et lente, accent du sud-ouest, hurlé) dit en français : « Recule, Lucas ! »\n[1.5-2.8s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, crié, en plongeant) dit en français : « Deux secondes, papy ! »\n[2-4s] Lucas plonge sous le plateau et arrache un petit boîtier du pare-brise. Caméra : ralenti dramatique d'une seconde puis reprise à vitesse normale. Bruitage : verre qui éclate.\n[3.0-3.6s] NATHALIE (voix de femme de 47 ans, aiguë et rapide, adore les potins, hurlé) dit en français : « NON ! »\n[4-6s] Il roule hors de la presse au dernier moment. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : roulade dans la poussière.\n[4.0-6.0s] DYLAN (voix de jeune homme de 21 ans, traînante et méprisante, rire nasal, ricane, nerveux) dit en français : « Laisse-le, s'il veut finir en cube. »\n[6-8s] La presse écrase la Falco en cube. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : énorme craquement de tôle.\n[6.2-7.8s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, se relève, glacial) dit en français : « Personne écrase ma sœur deux fois. »\n[8-10s] Lucas se relève, carte mémoire entre les doigts. Caméra : zoom éclair sur le visage au moment de la réplique-choc.\n[8.0-9.6s] DYLAN (voix de jeune homme de 21 ans, traînante et méprisante, rire nasal, la voix qui déraille) dit en français : « Il a pris quoi, là ? »\nAmbiance sonore : grincement de métal, grue hydraulique, chiens qui aboient au loin, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 7,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "Show-room Prestige Delmas · PR",
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "qui": "Dylan",
+          "texte": "Papa, c'est fait. Elle est écrasée."
+        },
+        {
+          "t": "2.2-3.8",
+          "qui": "Christophe",
+          "texte": "Et la caméra de bord ?"
+        },
+        {
+          "t": "4.0-5.8",
+          "qui": "Dylan",
+          "texte": "Quelle caméra ?"
+        }
+      ],
+      "replique": "Papa, c'est fait. Elle est écrasée. Et la caméra de bord ? Quelle caméra ?",
+      "parle": "dylan",
+      "texte_ecran": "QUELLE CAMÉRA ?",
+      "image": "Image 7 : plan rapproché, de la tête à la poitrine, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : show-room de supercars en marbre noir et doré, supercars fictives alignées sous des spots, immense écran au mur avec le slogan « PRESTIGE DELMAS – N°1 DE LA RÉGION », bureau en verre au fond. Lumière : néons froids avec touches de couleur. Christophe, taureau noir massif de 52 ans, cornes polies et brillantes, anneau doré au museau, grosse chevalière en or à la main droite, costume trois pièces bordeaux sur mesure, cravate dorée, montre en or : debout devant l'écran géant, téléphone à l'oreille, tourne lentement sa chevalière, souffle par les naseaux. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Christophe tourne sa chevalière en écoutant, le visage se ferme. Caméra : panoramique qui passe d'un personnage à l'autre. Bruitage : musique lounge.\n[0.2-2.0s] DYLAN (hors champ) (voix de jeune homme de 21 ans, traînante et méprisante, rire nasal, au téléphone, soulagé) dit en français : « Papa, c'est fait. Elle est écrasée. »\n[2.2-3.8s] CHRISTOPHE (voix d'homme de 52 ans, très grave, lente, calme qui fait peur, très calme, menaçant) dit en français : « Et la caméra de bord ? »\n[3-6s] Il s'arrête net, naseaux qui fument. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : souffle grave.\n[4.0-5.8s] DYLAN (hors champ) (voix de jeune homme de 21 ans, traînante et méprisante, rire nasal, au téléphone, la voix qui tremble) dit en français : « Quelle caméra ? »\nAmbiance sonore : musique lounge, pas sur le marbre, climatisation, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 8,
+      "duree": 6,
+      "role": "developpement",
+      "titre": "L'atelier caché de Lucas · GP",
+      "dialogues": [
+        {
+          "t": "0.2-2.4",
+          "qui": "Michel",
+          "texte": "Avec ça, on garde la casse. On garde tout."
+        },
+        {
+          "t": "2.6-4.0",
+          "qui": "Lucas",
+          "texte": "Tu as vendu Jade, papy."
+        },
+        {
+          "t": "4.2-5.9",
+          "qui": "Michel",
+          "texte": "J'ai sauvé ce qui restait."
+        }
+      ],
+      "replique": "Avec ça, on garde la casse. On garde tout. Tu as vendu Jade, papy. J'ai sauvé ce qui restait.",
+      "parle": "michel",
+      "texte_ecran": "",
+      "image": "Image 8 : gros plan sur le visage et le haut des épaules, cadre légèrement penché pour le malaise. Décor : hangar-atelier en tôle au fond de la casse, établi couvert d'outils, lampes baladeuses pendues au plafond, pièces de moteur rangées au millimètre, vieux canapé troué, une voiture cachée sous une grande bâche grise. Lumière : nuit, une seule lampe chaude, fortes ombres. Michel, vieil ours brun massif de 68 ans, barbe grise broussailleuse, casquette de mécano bleue usée, cure-dent au coin de la bouche, gros ventre, salopette bleue délavée rapiécée aux genoux, chemise à carreaux rouge aux manches retroussées : assis sur le vieux canapé, mallette sur les genoux, yeux humides. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : debout face à lui, lunettes de soudeur remontées, furieux. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Michel pose la mallette sur l'établi d'une main tremblante. Caméra : caméra qui tourne lentement autour du personnage. Bruitage : clic de serrure.\n[0.2-2.4s] MICHEL (voix d'homme de 68 ans, rocailleuse et lente, accent du sud-ouest, bas, honteux) dit en français : « Avec ça, on garde la casse. On garde tout. »\n[2.6-4.0s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, rage contenue) dit en français : « Tu as vendu Jade, papy. »\n[3-6s] Lucas frappe l'établi du plat de la patte. Caméra : caméra fixe avec une secousse brève au moment de l'impact. Bruitage : outils qui sautent.\n[4.2-5.9s] MICHEL (voix d'homme de 68 ans, rocailleuse et lente, accent du sud-ouest, se lève, blessé) dit en français : « J'ai sauvé ce qui restait. »\nAmbiance sonore : néon qui grésille, goutte d'huile, radio lointaine, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 9,
+      "duree": 10,
+      "role": "retournement",
+      "titre": "L'atelier caché de Lucas · PA",
+      "dialogues": [
+        {
+          "t": "0.2-1.8",
+          "qui": "Lucas",
+          "texte": "Tu veux un secret, papy ?"
+        },
+        {
+          "t": "2.0-3.0",
+          "qui": "Michel",
+          "texte": "Quoi encore ?"
+        },
+        {
+          "t": "3.8-5.6",
+          "qui": "Lucas",
+          "texte": "Dylan a payé pour une épave."
+        },
+        {
+          "t": "5.8-7.2",
+          "qui": "Michel",
+          "texte": "C'est… c'est la vraie ?!"
+        },
+        {
+          "t": "7.5-9.6",
+          "qui": "Lucas",
+          "texte": "J'ai changé les plaques cette nuit."
+        }
+      ],
+      "replique": "Tu veux un secret, papy ? Quoi encore ? Dylan a payé pour une épave. C'est… c'est la vraie ?! J'ai changé les plaques cette nuit.",
+      "parle": "lucas",
+      "texte_ecran": "LA VRAIE EST LÀ 😳",
+      "image": "Image 9 : plan américain, de la tête aux genoux, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : hangar-atelier en tôle au fond de la casse, établi couvert d'outils, lampes baladeuses pendues au plafond, pièces de moteur rangées au millimètre, vieux canapé troué, une voiture cachée sous une grande bâche grise. Lumière : nuit, une seule lampe chaude, fortes ombres. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : tient le coin d'une grande bâche grise, sourire en coin vers la caméra. Michel, vieil ours brun massif de 68 ans, barbe grise broussailleuse, casquette de mécano bleue usée, cure-dent au coin de la bouche, gros ventre, salopette bleue délavée rapiécée aux genoux, chemise à carreaux rouge aux manches retroussées : se retourne, intrigué, sourcils froncés. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur l'établi, une plaque d'immatriculation dévissée marquée « ÉPAVE N°47 ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "image_fin": "Image 9 FIN (dernière image du plan, quelques secondes plus tard) : plan d'ensemble qui montre tout le décor et les personnages en pied, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : hangar-atelier en tôle au fond de la casse, établi couvert d'outils, lampes baladeuses pendues au plafond, pièces de moteur rangées au millimètre, vieux canapé troué, une voiture cachée sous une grande bâche grise. Lumière : nuit, une seule lampe chaude, fortes ombres. Michel, vieil ours brun massif de 68 ans, barbe grise broussailleuse, casquette de mécano bleue usée, cure-dent au coin de la bouche, gros ventre, salopette bleue délavée rapiécée aux genoux, chemise à carreaux rouge aux manches retroussées : bouche bée, cure-dent qui tombe, pattes sur la casquette. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : appuyé sur la Falco, bras croisés, fier. Sous la bâche tombée, la vraie Falco GT orange, capot enfoncé, intacte sous les lampes. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Seul texte visible, écrit lisiblement et sans faute dans le décor : sur l'établi, une plaque d'immatriculation dévissée marquée « ÉPAVE N°47 ». Aucun sous-titre, aucune bulle, aucun vrai logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-2s] Lucas attrape la bâche. Caméra : travelling arrière qui révèle le décor. Bruitage : froissement.\n[0.2-1.8s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, malicieux, à voix basse) dit en français : « Tu veux un secret, papy ? »\n[2-4s] Il tire d'un coup sec, la bâche s'envole. Caméra : ralenti dramatique d'une seconde puis reprise à vitesse normale. Bruitage : whoosh.\n[2.0-3.0s] MICHEL (voix d'homme de 68 ans, rocailleuse et lente, accent du sud-ouest, bougon) dit en français : « Quoi encore ? »\n[3.8-5.6s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, sourire en coin) dit en français : « Dylan a payé pour une épave. »\n[4-7s] La Falco orange apparaît sous les lampes, Michel recule d'un pas. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : note épique.\n[5.8-7.2s] MICHEL (voix d'homme de 68 ans, rocailleuse et lente, accent du sud-ouest, souffle coupé) dit en français : « C'est… c'est la vraie ?! »\n[7-10s] Lucas jette la plaque « ÉPAVE N°47 » sur l'établi. Bruitage : clang métallique.\n[7.5-9.6s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, fier, calme) dit en français : « J'ai changé les plaques cette nuit. »\nAmbiance sonore : néon qui grésille, goutte d'huile, radio lointaine, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 10,
+      "duree": 10,
+      "role": "developpement",
+      "titre": "Le snack « Chez Nathalie » · AMORCE",
+      "dialogues": [
+        {
+          "t": "0.2-1.9",
+          "qui": "Dylan",
+          "texte": "T'as ramassé quoi sous la presse ?"
+        },
+        {
+          "t": "2.0-3.3",
+          "qui": "Lucas",
+          "texte": "Des miettes de ta voiture."
+        },
+        {
+          "t": "3.5-4.1",
+          "qui": "Nathalie",
+          "texte": "OH !"
+        },
+        {
+          "t": "4.4-7.0",
+          "qui": "Dylan",
+          "texte": "Course samedi. Tu perds, la casse est à mon père."
+        },
+        {
+          "t": "7.2-8.4",
+          "qui": "Lucas",
+          "texte": "Et si je gagne ?"
+        },
+        {
+          "t": "8.5-9.8",
+          "qui": "Dylan",
+          "texte": "T'as même plus de voiture."
+        }
+      ],
+      "replique": "T'as ramassé quoi sous la presse ? Des miettes de ta voiture. OH ! Course samedi. Tu perds, la casse est à mon père. Et si je gagne ? T'as même plus de voiture.",
+      "parle": "dylan",
+      "texte_ecran": "",
+      "image": "Image 10 : plan par-dessus l'épaule d'un personnage flou au premier plan, vers celui qui parle, caméra à hauteur des yeux. Décor : petit snack de bord de route en face de la casse, comptoir en formica rouge, néons roses, menu lumineux de frites et kebabs aux prix fictifs, tabourets chromés, figurants animaux qui mangent, vitre qui donne sur l'enseigne de la casse. Lumière : néons froids avec touches de couleur. Dylan, lévrier afghan de 21 ans au long pelage doré brushé comme une coiffure de star, museau fin relevé, lunettes de soleil miroir, grosse chaîne en or, veste en cuir blanc immaculé, tee-shirt noir, jean clair, baskets blanches de luxe : penché au-dessus du comptoir, essuie sa veste, lunettes baissées, menaçant. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : assis sur un tabouret, mange une frite, impassible. Nathalie, pie de 47 ans au plumage noir et blanc à reflets bleus, gros bigoudis roses sur la tête, longues boucles d'oreilles en plastique, téléphone toujours à la main, tablier à grosses fleurs jaunes sur un pull violet, chaussons fourrés : derrière le comptoir, téléphone levé, filme. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "Image 10 FIN (dernière image du plan, quelques secondes plus tard) : plan rapproché, de la tête à la poitrine, caméra à hauteur des yeux. Décor : petit snack de bord de route en face de la casse, comptoir en formica rouge, néons roses, menu lumineux de frites et kebabs aux prix fictifs, tabourets chromés, figurants animaux qui mangent, vitre qui donne sur l'enseigne de la casse. Lumière : néons froids avec touches de couleur. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : sourire en coin vers la caméra, clé de 12 qui tourne. Dylan, lévrier afghan de 21 ans au long pelage doré brushé comme une coiffure de star, museau fin relevé, lunettes de soleil miroir, grosse chaîne en or, veste en cuir blanc immaculé, tee-shirt noir, jean clair, baskets blanches de luxe : claque la paume sur le comptoir, frites qui volent. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "grok": "Vidéo verticale 9:16 de 10 secondes à partir de l'image jointe (l'image de fin jointe est la dernière image à atteindre). Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Dylan entre et se plante au-dessus de Lucas. Caméra : panoramique filé ultra rapide (whip pan) qui claque vers le personnage suivant. Bruitage : porte du snack qui claque.\n[0.2-1.9s] DYLAN (voix de jeune homme de 21 ans, traînante et méprisante, rire nasal, sifflé entre les dents) dit en français : « T'as ramassé quoi sous la presse ? »\n[2.0-3.3s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, en mâchant une frite) dit en français : « Des miettes de ta voiture. »\n[3-5s] Nathalie lève son téléphone. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : friteuse qui crépite.\n[3.5-4.1s] NATHALIE (voix de femme de 47 ans, aiguë et rapide, adore les potins, aigu) dit en français : « OH ! »\n[4.4-7.0s] DYLAN (voix de jeune homme de 21 ans, traînante et méprisante, rire nasal, glacial) dit en français : « Course samedi. Tu perds, la casse est à mon père. »\n[5-8s] Dylan pointe Lucas du doigt, nez à nez. Bruitage : silence tendu puis note grave.\n[7.2-8.4s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, calme) dit en français : « Et si je gagne ? »\n[8-10s] Dylan claque le comptoir, les frites volent. Caméra : secousse cartoon de la caméra à l'impact. Bruitage : claquement.\n[8.5-9.8s] DYLAN (voix de jeune homme de 21 ans, traînante et méprisante, rire nasal, rire nasal) dit en français : « T'as même plus de voiture. »\nAmbiance sonore : friteuse qui crépite, vieux juke-box, conversations, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 11,
+      "duree": 6,
+      "role": "climax",
+      "titre": "L'atelier caché de Lucas · PR",
+      "dialogues": [
+        {
+          "t": "0.2-2.1",
+          "qui": "Lucas",
+          "texte": "Ce qui est cassé, on l'écrase ?"
+        },
+        {
+          "t": "2.3-3.5",
+          "qui": "Michel",
+          "texte": "Tu vas faire quoi ?"
+        },
+        {
+          "t": "3.6-6.0",
+          "qui": "Lucas",
+          "texte": "Ce qui est cassé, je le répare. Samedi, elle roule."
+        }
+      ],
+      "replique": "Ce qui est cassé, on l'écrase ? Tu vas faire quoi ? Ce qui est cassé, je le répare. Samedi, elle roule.",
+      "parle": "lucas",
+      "texte_ecran": "",
+      "image": "Image 11 : plan rapproché, de la tête à la poitrine, caméra en contre-plongée, en dessous, qui rend le personnage imposant. Décor : hangar-atelier en tôle au fond de la casse, établi couvert d'outils, lampes baladeuses pendues au plafond, pièces de moteur rangées au millimètre, vieux canapé troué, une voiture cachée sous une grande bâche grise. Lumière : nuit, une seule lampe chaude, fortes ombres. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : debout devant la Falco cabossée, remonte ses lunettes de soudeur, regard de tueur. Michel, vieil ours brun massif de 68 ans, barbe grise broussailleuse, casquette de mécano bleue usée, cure-dent au coin de la bouche, gros ventre, salopette bleue délavée rapiécée aux genoux, chemise à carreaux rouge aux manches retroussées : à côté de lui, lui tend une clé à molette. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] Lucas prend la clé à molette des pattes de Michel. Caméra : caméra qui tourne lentement autour du personnage. Bruitage : clang métallique.\n[0.2-2.1s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, imite Dylan, ironique) dit en français : « Ce qui est cassé, on l'écrase ? »\n[2.3-3.5s] MICHEL (voix d'homme de 68 ans, rocailleuse et lente, accent du sud-ouest, bougon, ému) dit en français : « Tu vas faire quoi ? »\n[3-6s] Il allume la lampe baladeuse au-dessus du moteur. Caméra : zoom éclair sur le visage au moment de la réplique-choc. Bruitage : étincelles de soudure.\n[3.6-6.0s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, glacial, regard caméra) dit en français : « Ce qui est cassé, je le répare. Samedi, elle roule. »\nAmbiance sonore : néon qui grésille, goutte d'huile, radio lointaine, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    },
+    {
+      "n": 12,
+      "duree": 6,
+      "role": "cliff",
+      "titre": "L'atelier caché de Lucas · INSERT",
+      "dialogues": [
+        {
+          "t": "0.2-1.4",
+          "qui": "Michel",
+          "texte": "On voit Dylan ?"
+        },
+        {
+          "t": "1.6-3.6",
+          "qui": "Lucas",
+          "texte": "Dylan est à droite. Passager."
+        },
+        {
+          "t": "3.8-5.8",
+          "qui": "Lucas",
+          "texte": "Alors qui conduisait… ?"
+        }
+      ],
+      "replique": "On voit Dylan ? Dylan est à droite. Passager. Alors qui conduisait… ?",
+      "parle": "michel",
+      "texte_ecran": "QUI CONDUISAIT ?",
+      "image": "Image 12 : très gros plan sur un objet ou une main, caméra à hauteur des yeux. Décor : hangar-atelier en tôle au fond de la casse, établi couvert d'outils, lampes baladeuses pendues au plafond, pièces de moteur rangées au millimètre, vieux canapé troué, une voiture cachée sous une grande bâche grise. Lumière : obscurité seulement éclairée par la lueur bleue d'un écran. Lucas, raton laveur de 19 ans au pelage gris argenté, masque noir autour des yeux ambrés, queue rayée noir et gris, lunettes de soudeur relevées sur le front, traces de cambouis sur les joues, salopette orange vif tachée de cambouis, tee-shirt noir, grosse clé à molette accrochée à la ceinture : visage éclairé par l'écran d'un vieil ordinateur, la carte mémoire enfoncée dedans, yeux qui s'écarquillent. Michel, vieil ours brun massif de 68 ans, barbe grise broussailleuse, casquette de mécano bleue usée, cure-dent au coin de la bouche, gros ventre, salopette bleue délavée rapiécée aux genoux, chemise à carreaux rouge aux manches retroussées : penché par-dessus son épaule, cure-dent figé. Sur l'écran, la vidéo de la caméra de bord en noir et blanc : Dylan assis côté passager, et sur le volant une grosse patte noire avec une chevalière en or. STYLE : Animation 3D cartoon stylisée façon long-métrage d'animation premium (pas photoréaliste) : animaux anthropomorphes aux proportions cartoon, tête un peu grosse, grands yeux brillants et expressifs, sourcils très mobiles, expressions et poses exagérées, fourrure douce stylisée, vêtements stylisés. Couleurs saturées et chaudes, néons orange et lumière dorée, contre-jours dramatiques à travers la poussière. Décors riches de France d'aujourd'hui : casse automobile géante pleine de carcasses empilées, show-room de supercars en marbre, snack de bord de route, chambre d'hôpital, remplis de figurants animaux. Qualité : image clé de long-métrage d'animation 3D cartoon haut de gamme, proportions cartoon (tête un peu grosse, grands yeux brillants, sourcils très mobiles), expressions EXAGÉRÉES lisibles en une demi-seconde sur un téléphone, poses dynamiques avec de l'élan, couleurs saturées et chaudes, contre-jour et lumière dorée dramatique, profondeur de champ, décor riche plein de figurants animaux. Mêmes personnages, mêmes visages, mêmes couleurs et mêmes accessoires que les portraits de référence et les images précédentes. Format vertical 9:16. Aucun texte, aucun sous-titre, aucune bulle, aucun logo.",
+      "image_fin": "",
+      "grok": "Vidéo verticale 9:16 de 6 secondes à partir de l'image jointe. Animation 3D cartoon, rythme très nerveux, aucun temps mort.\n[0-3s] La vidéo de la caméra de bord démarre à l'écran. Caméra : zoom rapide et court sur le visage au moment de la révélation (une seule fois par épisode maximum). Bruitage : bip de lecture.\n[0.2-1.4s] MICHEL (voix d'homme de 68 ans, rocailleuse et lente, accent du sud-ouest, pressé, à voix basse) dit en français : « On voit Dylan ? »\n[1.6-3.6s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, lent, incrédule) dit en français : « Dylan est à droite. Passager. »\n[3-6s] L'image se fige sur la patte au volant, coupure noire. Bruitage : coupure sèche.\n[3.8-5.8s] LUCAS (voix de jeune homme de 19 ans, grave et calme, phrases courtes, pointe d'ironie, souffle coupé) dit en français : « Alors qui conduisait… ? »\nAmbiance sonore : néon qui grésille, goutte d'huile, radio lointaine, bruitages cartoon bien appuyés (whoosh, impacts, chocs).\nRègles : animation 3D cartoon identique à l'image (mêmes personnages, mêmes couleurs, même décor), mouvements rapides et pleins d'énergie avec des réactions exagérées façon dessin animé, lèvres synchronisées en français, seul celui qui parle bouge les lèvres, aucune déformation du visage ni des mains, aucun sous-titre ni texte ajouté, aucune musique."
+    }
+  ],
+  "titre_couverture": "Ils l'ont payé 100 000 € pour l'écraser 😳",
+  "publication": "La voiture qui a renversé sa sœur arrive dans sa casse… pour être détruite. Partie 1. Qui conduisait, d'après toi ?\n\n#partie1 #histoire #voiture #animaux #ia #drama",
+  "commentaire": "Qui conduisait la Falco ? 🐂 Le père de Dylan / 🐕 Dylan ment, c'était lui",
+  "texte_accroche": "Elle a renversé ma sœur",
+  "hooks_alternatifs": [
+    "Ils m'ont payé 100 000 € pour écraser cette voiture.",
+    "Cette voiture a renversé ma sœur. Mon grand-père l'a vendue.",
+    "Le chauffard a déposé sa voiture chez moi. Pour la détruire."
+  ],
+  "question_milieu": {
+    "plan": 6,
+    "texte": "Papy a eu raison d'accepter ? 🤔"
+  },
+  "duree_totale": 88
+}

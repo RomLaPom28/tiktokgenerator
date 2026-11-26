@@ -1,0 +1,369 @@
+{
+  "_lisez_moi": "Configuration éditoriale de /creer (v3, 24/11/2026). Écrite à la main, lue par outils/creer.py. Les moteurs narratifs servent à garantir que les concepts proposés diffèrent par leur MÉCANISME D'HISTOIRE, pas par leur décor. `sature` = décision de l'utilisateur (24/11/2026 : « ne pas reproduire systématiquement faux pauvre, test amoureux, humiliation, revanche »). Les grilles de score sont des outils de comparaison éditoriale, jamais des prédictions de vues. Chaque moteur liste ses squelettes et greffes de bible/histoires.json et, au besoin, des vidéos d'analyses/ : creer.py en tire le nombre de vidéos et de comptes où il est observé (0 = hypothèse créative).",
+  "moteurs_narratifs": [
+    {
+      "id": "revanche_humiliation",
+      "nom": "Humilié injustement, puis retour de bâton",
+      "question": "Quand va-t-il leur faire payer ?",
+      "concepts": [
+        "outsider_revanche"
+      ],
+      "sature": true,
+      "squelettes": [
+        "fiance_hypocrite",
+        "nouveau_force_cachee",
+        "transformation_moque",
+        "epave_tresor"
+      ],
+      "greffes": [],
+      "videos": []
+    },
+    {
+      "id": "test_deguise",
+      "nom": "Test déguisé (faux pauvre, faux moche, faux gros)",
+      "question": "Qui l'aime vraiment ?",
+      "concepts": [
+        "test_amour"
+      ],
+      "sature": true,
+      "squelettes": [
+        "test_amour_belle_famille",
+        "masque_promotion",
+        "milliardaire_deguise"
+      ],
+      "greffes": [
+        "test_repetable"
+      ],
+      "videos": []
+    },
+    {
+      "id": "identite_cachee",
+      "nom": "Le méprisé est quelqu'un d'important",
+      "question": "Quand vont-ils découvrir qui il est ?",
+      "concepts": [
+        "secret_au_miroir"
+      ],
+      "sature": false,
+      "squelettes": [
+        "meprise_proprietaire",
+        "fils_du_parrain"
+      ],
+      "greffes": [
+        "identite_par_un_detail",
+        "meprise_possede_le_lieu"
+      ],
+      "videos": []
+    },
+    {
+      "id": "trahison_usurpation",
+      "nom": "Un proche trahit ou prend la place",
+      "question": "Va-t-on le démasquer à temps ?",
+      "concepts": [
+        "soap_famille"
+      ],
+      "sature": false,
+      "squelettes": [
+        "usurpatrice_mariage"
+      ],
+      "greffes": [
+        "gentil_qui_ment"
+      ],
+      "videos": []
+    },
+    {
+      "id": "crime_secret",
+      "nom": "Le spectateur a vu la faute, personne d'autre",
+      "question": "Va-t-il s'en sortir ou être découvert ?",
+      "concepts": [],
+      "sature": false,
+      "squelettes": [
+        "soeur_jalouse_crime"
+      ],
+      "greffes": [
+        "crime_vu_par_le_spectateur"
+      ],
+      "videos": []
+    },
+    {
+      "id": "enquete",
+      "nom": "Qui a fait ça ? (indices, faux suspects)",
+      "question": "Qui est le vrai coupable ?",
+      "concepts": [
+        "proces_tribunal"
+      ],
+      "sature": false,
+      "squelettes": [],
+      "greffes": [],
+      "videos": []
+    },
+    {
+      "id": "faux_coupable",
+      "nom": "Accusé à tort, il doit prouver son innocence",
+      "question": "Comment va-t-il prouver la vérité ?",
+      "concepts": [],
+      "sature": false,
+      "squelettes": [],
+      "greffes": [],
+      "videos": [
+        "7630903132347813142",
+        "7631273993353301270",
+        "7631645319159172374"
+      ],
+      "sources_note": "observé dans la trilogie copiée pour bagagiste-honnete (accusation à tort)"
+    },
+    {
+      "id": "compte_a_rebours",
+      "nom": "Danger ou délai qui se réduit",
+      "question": "Va-t-il y arriver avant la fin ?",
+      "concepts": [],
+      "sature": false,
+      "squelettes": [
+        "danger_temps_reel",
+        "pacte_compte_a_rebours"
+      ],
+      "greffes": [
+        "compte_a_rebours"
+      ],
+      "videos": []
+    },
+    {
+      "id": "pacte_contrat",
+      "nom": "Contrat, pacte ou clause piégée",
+      "question": "Quel est le prix caché ?",
+      "concepts": [
+        "mercato_argent"
+      ],
+      "sature": false,
+      "squelettes": [
+        "pacte_compte_a_rebours",
+        "proposition_indecente"
+      ],
+      "greffes": [],
+      "videos": []
+    },
+    {
+      "id": "dilemme",
+      "nom": "Choix impossible imposé au héros",
+      "question": "Que choisirais-tu à sa place ?",
+      "concepts": [],
+      "sature": false,
+      "squelettes": [],
+      "greffes": [
+        "ultimatum_public",
+        "argent_pour_disparaitre"
+      ],
+      "videos": []
+    },
+    {
+      "id": "arnaque_plan",
+      "nom": "Arnaque, plan, coup monté (alliance improbable)",
+      "question": "Le plan va-t-il marcher ?",
+      "concepts": [],
+      "sature": false,
+      "squelettes": [
+        "bebe_impossible"
+      ],
+      "greffes": [
+        "alliance_victime_arnaqueur",
+        "chantage_famille_chiffre"
+      ],
+      "videos": []
+    },
+    {
+      "id": "mensonge_qui_enfle",
+      "nom": "Un mensonge protecteur qui grossit",
+      "question": "Quand la vérité va-t-elle éclater ?",
+      "concepts": [
+        "soap_famille"
+      ],
+      "sature": false,
+      "squelettes": [
+        "heritage_du_pere"
+      ],
+      "greffes": [],
+      "videos": []
+    },
+    {
+      "id": "regle_absurde",
+      "nom": "Le monde a une règle absurde, quelqu'un la défie",
+      "question": "Et s'il triche ou refuse ?",
+      "concepts": [
+        "et_si"
+      ],
+      "sature": false,
+      "squelettes": [
+        "chiffre_sur_le_front"
+      ],
+      "greffes": [
+        "valeur_sur_le_front"
+      ],
+      "videos": []
+    },
+    {
+      "id": "mentor_incompris",
+      "nom": "Celui qu'on croit cruel protégeait en secret",
+      "question": "Pourquoi fait-il ça ?",
+      "concepts": [],
+      "sature": false,
+      "squelettes": [
+        "contrainte_absurde_mentor"
+      ],
+      "greffes": [
+        "contrainte_date_liberation"
+      ],
+      "videos": []
+    },
+    {
+      "id": "concours_epreuve",
+      "nom": "Concours ou épreuve à gros prix",
+      "question": "Qui va gagner ?",
+      "concepts": [
+        "concours_absurde",
+        "parodie_tele"
+      ],
+      "sature": false,
+      "squelettes": [
+        "concours_absurde_defaut"
+      ],
+      "greffes": [
+        "concours_gros_prix"
+      ],
+      "videos": []
+    },
+    {
+      "id": "rivalite_triangle",
+      "nom": "Rivalité ou triangle (deux camps, un cœur ou un titre)",
+      "question": "Lequel va l'emporter ?",
+      "concepts": [
+        "soap_famille",
+        "choc_epique"
+      ],
+      "sature": false,
+      "squelettes": [],
+      "greffes": [],
+      "videos": []
+    }
+  ],
+  "emotions": [
+    "indignation",
+    "suspense",
+    "curiosité",
+    "compassion",
+    "satisfaction",
+    "rire",
+    "malaise",
+    "émerveillement",
+    "culpabilité",
+    "nostalgie"
+  ],
+  "score_editorial": {
+    "_regle": "Outil de comparaison entre les concepts d'une même proposition, PAS une prédiction de vues. Noter vite et honnêtement : un concept à 90+ doit être rare.",
+    "criteres": {
+      "hook": {
+        "max": 20,
+        "texte": "Force du hook : compris en 1 s, sans contexte, idéalement aussi sans le son."
+      },
+      "curiosite": {
+        "max": 20,
+        "texte": "Curiosité et rétention : une question qu'on veut voir tranchée, des réponses partielles qui en ouvrent d'autres."
+      },
+      "emotion": {
+        "max": 20,
+        "texte": "Intensité émotionnelle : on aime ou on déteste quelqu'un très vite, l'enjeu compte pour le spectateur."
+      },
+      "originalite": {
+        "max": 15,
+        "texte": "Originalité : moteur et combinaison absents de nos projets et peu présents dans le corpus."
+      },
+      "discussion": {
+        "max": 15,
+        "texte": "Potentiel de discussion et de partage : vrai désaccord possible, on tag quelqu'un, on prend parti."
+      },
+      "visuel": {
+        "max": 10,
+        "texte": "Force visuelle : au moins une image mémorable, lisible sur téléphone."
+      }
+    }
+  },
+  "faisabilite": {
+    "_regle": "Note sur 100 = (somme des 5 notes sur 5) × 4. Personnages et décors sont calculés depuis les nombres déclarés. Sous 60 : concept montré mais jamais recommandé d'office.",
+    "seuil_recommandation": 60,
+    "criteres": {
+      "comprehension": "5 = se raconte en une phrase sans contexte ; 1 = demande une explication.",
+      "actions": "5 = actions simples (parler, pointer, se lever, tendre un objet) ; 1 = combat, poursuite, manipulation fine.",
+      "compat_generation": "5 = tout passe par visages, dialogues, objets lisibles ; 1 = repose sur ce que l'IA rate (voir capacites_generation.difficile)."
+    },
+    "personnages": {
+      "3": 5,
+      "4": 4,
+      "5": 3,
+      "6": 2
+    },
+    "decors": {
+      "2": 5,
+      "3": 5,
+      "4": 4,
+      "5": 3,
+      "6": 2
+    }
+  },
+  "capacites_generation": {
+    "_source": "Repères pratiques (recettes.md « Machine virale v2 » et retours de production), pas des mesures. À corriger avec l'expérience.",
+    "facile": [
+      "visages expressifs en gros plan, réactions exagérées",
+      "dialogue entre 2 personnages dans un même plan",
+      "actions simples : pointer, se lever d'un bond, claquer une porte, tendre ou jeter un objet, s'effondrer à genoux",
+      "décor riche fixe avec figurants en fond",
+      "texte ou chiffre lisible dans l'image de début (ChatGPT)",
+      "écran de téléphone montré face caméra"
+    ],
+    "difficile": [
+      "combat, contact physique précis, poursuite rapide",
+      "foule qui agit de façon coordonnée",
+      "transformation d'un objet ou d'un corps à l'écran",
+      "plus de 3 personnages qui parlent dans le même plan",
+      "petit objet qui doit rester identique d'un plan à l'autre",
+      "texte qui change ou bouge pendant la vidéo (Grok le déforme)",
+      "eau, véhicule en mouvement, effets de foule",
+      "enfant ou bébé dans une scène de dispute (interdit, conformite.json)"
+    ]
+  },
+  "diversite": {
+    "_regle": "Contrôlé par outils/creer.py concepts.",
+    "concepts_min": 8,
+    "concepts_max": 10,
+    "moteurs_distincts": true,
+    "max_moteurs_satures": 2,
+    "emotions_distinctes_min": 4,
+    "domaines_distincts_min": 5
+  },
+  "domaines": {
+    "_regle": "Codes de domaine (ceux de analyses/*/mecaniques.json, contexte.domaine). « candidats » = domaines universels jamais ou peu codés dans le corpus : terrain d'originalité, sans preuve.",
+    "corpus": [
+      "couple",
+      "mariage",
+      "belle-famille",
+      "famille",
+      "lycee",
+      "travail",
+      "argent",
+      "sport",
+      "quartier",
+      "prison",
+      "concours",
+      "fantastique"
+    ],
+    "candidats": [
+      "voisinage",
+      "hopital",
+      "voyage",
+      "ecole_primaire",
+      "entreprise_familiale",
+      "survie",
+      "restaurant",
+      "immobilier",
+      "colocation",
+      "maison_de_retraite"
+    ]
+  }
+}

@@ -1,0 +1,682 @@
+{
+  "date": "2026-11-24",
+  "type": "unique",
+  "theme": null,
+  "concepts": [
+    {
+      "id": "c1",
+      "titre": "La procuration",
+      "pitch": "Monique, 78 ans, voit sa belle-fille vider son compte avec sa carte pendant le repas du dimanche ; la belle-fille accuse l'aide à domicile devant toute la famille.",
+      "hook": "Elle ne se souviendra de rien.",
+      "conflit": "La belle-fille a pris l'argent et fait renvoyer l'aide à domicile, la seule qui s'occupe vraiment de Monique ; le fils croit sa femme.",
+      "emotion": "indignation",
+      "curiosite": "Monique a-t-elle vraiment perdu la tête, comme tout le monde le dit ?",
+      "retournement": "Monique fait semblant d'oublier depuis des mois : elle laissait la carte exprès pour savoir qui la volait.",
+      "fin": "Au dessert, elle pose les relevés sur la table et lit la date du premier retrait : le jour du mariage de son fils.",
+      "debat": "Porter plainte contre sa propre belle-fille, ou laver ça en famille ?",
+      "moteur_narratif": "crime_secret",
+      "domaine": "famille",
+      "mecaniques": [
+        {
+          "id": "ironie_dramatique",
+          "role": "on voit le vol à 0 s, la famille non (variante complot montré)"
+        },
+        {
+          "id": "proche_en_danger",
+          "role": "la victime est une personne âgée isolée, l'aide à domicile paie à sa place"
+        },
+        {
+          "id": "chiffre_ecran",
+          "role": "40 000 € lisibles sans le son"
+        },
+        {
+          "id": "double_retournement",
+          "role": "la victime manipulait le piège : l'info change de camp deux fois (à tester)"
+        }
+      ],
+      "histoires": [
+        "soeur_jalouse_crime",
+        "crime_vu_par_le_spectateur"
+      ],
+      "pourquoi_combinaison": "Le crime montré donne au spectateur une longueur d'avance ; une victime vulnérable rend l'injustice insupportable ; le second retournement rend la mamie active au lieu de pitoyable, ce qui manque à beaucoup de vidéos de complot montré (neutres dans leur compte, ×0,99).",
+      "score": {
+        "hook": 17,
+        "curiosite": 17,
+        "emotion": 18,
+        "originalite": 11,
+        "discussion": 12,
+        "visuel": 7
+      },
+      "justif_score": "Hook lisible muet, colère immédiate ; le retournement final est le vrai moteur de partage.",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 4,
+        "compat_generation": 4,
+        "nb_personnages": 4,
+        "nb_decors": 3,
+        "risques": [
+          "écran du distributeur : texte à verrouiller dans l'image de début"
+        ]
+      },
+      "calcul": {
+        "score": 82,
+        "faisabilite": 88,
+        "notes_auto": {
+          "personnages": 4,
+          "decors": 5
+        },
+        "preuve": "hypothèse créative à tester",
+        "paires_nouvelles": [
+          "`ironie_dramatique`+`double_retournement` (1 vidéo ensemble)",
+          "`proche_en_danger`+`chiffre_ecran` (0 vidéo ensemble)",
+          "`proche_en_danger`+`double_retournement` (0 vidéo ensemble)",
+          "`chiffre_ecran`+`double_retournement` (1 vidéo ensemble)"
+        ]
+      },
+      "hook_image": "La belle-fille glisse la carte de mamie dans sa manche ; écran du distributeur « RETRAIT : 40 000 € »."
+    },
+    {
+      "id": "c2",
+      "titre": "Le seul compatible",
+      "pitch": "Hugo apprend qu'il est le seul donneur compatible pour sauver son petit frère Théo, celui qui lui a volé sa fiancée il y a deux ans.",
+      "hook": "Vous êtes le seul compatible. Avec votre frère.",
+      "conflit": "Sauver celui qui l'a trahi, ou refuser ; la mère le supplie, la fiancée volée vient lui demander de refuser.",
+      "emotion": "suspense",
+      "curiosite": "Va-t-il signer ? Et pourquoi la fiancée veut-elle qu'il refuse ?",
+      "retournement": "La fiancée veut que Théo meure : l'assurance-vie de 300 000 € est à son nom.",
+      "fin": "Hugo signe, entre au bloc ; dernier plan : il a glissé une enveloppe à son frère avec la preuve contre elle.",
+      "debat": "Tu donnes un rein à celui qui t'a pris la femme de ta vie ?",
+      "moteur_narratif": "dilemme",
+      "domaine": "hopital",
+      "mecaniques": [
+        {
+          "id": "proche_en_danger",
+          "role": "le frère va mourir sans lui : l'enjeu vital est concret"
+        },
+        {
+          "id": "epreuve_verdict",
+          "role": "question binaire posée à 2 s (signer ou non), tranchée à la fin ; adossée au retournement de la fiancée, pas seule"
+        },
+        {
+          "id": "question_au_spectateur",
+          "role": "le dilemme est la question de commentaire"
+        },
+        {
+          "id": "coupure_avant_payoff",
+          "role": "la porte du bloc se ferme sur l'enveloppe"
+        }
+      ],
+      "histoires": [
+        "ultimatum_public"
+      ],
+      "pourquoi_combinaison": "Un dilemme moral donne la question de commentaire la plus facile à écrire ; le tiers en danger rend chaque seconde d'hésitation coupable ; `epreuve_verdict` dépend du contexte et n'est gardée que parce qu'un retournement de camp la soutient. `proche_en_danger` et `epreuve_verdict` n'ont jamais été observées ensemble.",
+      "score": {
+        "hook": 16,
+        "curiosite": 16,
+        "emotion": 18,
+        "originalite": 12,
+        "discussion": 15,
+        "visuel": 6
+      },
+      "justif_score": "Débat maximal, émotion forte ; image moins spectaculaire (hôpital).",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 5,
+        "compat_generation": 4,
+        "nb_personnages": 4,
+        "nb_decors": 3,
+        "risques": [
+          "pas de scène d'opération : on coupe à la porte du bloc"
+        ]
+      },
+      "calcul": {
+        "score": 83,
+        "faisabilite": 92,
+        "notes_auto": {
+          "personnages": 4,
+          "decors": 5
+        },
+        "preuve": "association nouvelle de mécaniques connues",
+        "paires_nouvelles": [
+          "`proche_en_danger`+`epreuve_verdict` (0 vidéo ensemble)",
+          "`proche_en_danger`+`question_au_spectateur` (1 vidéo ensemble)",
+          "`epreuve_verdict`+`question_au_spectateur` (1 vidéo ensemble)"
+        ]
+      },
+      "hook_image": "Le médecin tend le dossier ; derrière la vitre, le petit frère sous oxygène."
+    },
+    {
+      "id": "c3",
+      "titre": "Quarante minutes",
+      "pitch": "La PDG qui a licencié 300 personnes ce matin se retrouve coincée dans l'ascenseur avec l'agent d'entretien qu'elle a viré en premier ; la climatisation coupe dans 40 minutes.",
+      "hook": "Faites quelque chose, vous !",
+      "conflit": "Lui seul sait ouvrir la trappe ; il pose une condition : réembaucher les 300.",
+      "emotion": "satisfaction",
+      "curiosite": "Va-t-elle céder ? Va-t-elle tenir parole une fois sortie ?",
+      "retournement": "Dehors, elle nie tout devant les journalistes ; mais l'interphone de secours enregistrait.",
+      "fin": "L'enregistrement passe sur les haut-parleurs du hall pendant sa conférence de presse.",
+      "debat": "Il avait le droit de la faire chanter, ou c'est du chantage pur ?",
+      "moteur_narratif": "compte_a_rebours",
+      "domaine": "survie",
+      "mecaniques": [
+        {
+          "id": "chiffre_ecran",
+          "role": "compte à rebours 40:00 et « 300 licenciés » lisibles"
+        },
+        {
+          "id": "renversement_statut",
+          "role": "le méprisé a le pouvoir dans la cabine (force cachée : il connaît le bâtiment)"
+        },
+        {
+          "id": "humiliation_injuste",
+          "role": "le licenciement du matin, montré en 3 s de flashback"
+        },
+        {
+          "hypothese": "huis clos à deux sous compte à rebours",
+          "role": "aucune vidéo du corpus n'enferme deux ennemis avec un délai"
+        }
+      ],
+      "histoires": [
+        "danger_temps_reel",
+        "compte_a_rebours"
+      ],
+      "pourquoi_combinaison": "Le délai lisible tient la rétention, le renversement de pouvoir dans un espace fermé remplace le glow-up (variante transformation ×0,71 dans son compte) par une force cachée (×1,95).",
+      "score": {
+        "hook": 15,
+        "curiosite": 17,
+        "emotion": 15,
+        "originalite": 11,
+        "discussion": 13,
+        "visuel": 7
+      },
+      "justif_score": "Situation claire et tendue, deux personnages ; le payoff reste attendu.",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 4,
+        "compat_generation": 3,
+        "nb_personnages": 3,
+        "nb_decors": 2,
+        "risques": [
+          "compte à rebours qui change : le montrer par plans séparés, pas animé par Grok",
+          "trappe : action à garder simple"
+        ]
+      },
+      "calcul": {
+        "score": 78,
+        "faisabilite": 88,
+        "notes_auto": {
+          "personnages": 5,
+          "decors": 5
+        },
+        "preuve": "hypothèse créative à tester",
+        "paires_nouvelles": []
+      },
+      "hook_image": "Écran de l'ascenseur : « PANNE · VENTILATION 40:00 », la PDG tambourine sur la porte."
+    },
+    {
+      "id": "c4",
+      "titre": "La 300e sauce",
+      "pitch": "Le chef Thierry fait refaire la même sauce 299 fois à son apprenti Lucas, l'humilie devant la brigade ; Lucas craque et part la veille du concours national.",
+      "hook": "299. Recommence.",
+      "conflit": "Lucas croit être harcelé ; la brigade se moque ; le sous-chef pousse Lucas à partir pour prendre sa place.",
+      "emotion": "compassion",
+      "curiosite": "Pourquoi le chef s'acharne-t-il seulement sur lui ?",
+      "retournement": "Le chef perd le goût depuis un an ; Lucas est le seul qu'il forme, il a déjà signé le restaurant à son nom.",
+      "fin": "Lucas revient goûter la 300e sauce ; le chef, qui ne sent plus rien, lui demande : « Elle est bonne ? » Lucas ment pour la première fois : « Parfaite. »",
+      "debat": "Méthode de génie ou harcèlement ? Tu aurais tenu 300 sauces ?",
+      "moteur_narratif": "mentor_incompris",
+      "domaine": "restaurant",
+      "mecaniques": [
+        {
+          "id": "humiliation_injuste",
+          "role": "humiliation apparente, en public, devant la brigade"
+        },
+        {
+          "id": "renversement_statut",
+          "role": "l'apprenti méprisé hérite du restaurant"
+        },
+        {
+          "id": "chiffre_ecran",
+          "role": "compteur de sauces sur l'ardoise"
+        },
+        {
+          "id": "retenue_volontaire",
+          "role": "le chef pourrait tout expliquer mais se tait"
+        }
+      ],
+      "histoires": [
+        "contrainte_absurde_mentor"
+      ],
+      "pourquoi_combinaison": "Inverse le camp du méchant : l'humiliation qu'on croyait injuste devient un sacrifice. La retenue passe du héros au mentor, ce que le corpus n'a jamais montré avec un chiffre à l'écran.",
+      "score": {
+        "hook": 14,
+        "curiosite": 15,
+        "emotion": 17,
+        "originalite": 13,
+        "discussion": 14,
+        "visuel": 7
+      },
+      "justif_score": "Fin émouvante et débat fort ; hook moins choquant que les autres.",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 4,
+        "compat_generation": 4,
+        "nb_personnages": 3,
+        "nb_decors": 2,
+        "risques": [
+          "gestes de cuisine : rester sur verser, goûter, jeter"
+        ]
+      },
+      "calcul": {
+        "score": 80,
+        "faisabilite": 92,
+        "notes_auto": {
+          "personnages": 5,
+          "decors": 5
+        },
+        "preuve": "association nouvelle de mécaniques connues",
+        "paires_nouvelles": [
+          "`renversement_statut`+`retenue_volontaire` (1 vidéo ensemble)",
+          "`chiffre_ecran`+`retenue_volontaire` (0 vidéo ensemble)"
+        ]
+      },
+      "hook_image": "Le chef verse la sauce à la poubelle ; sur l'ardoise, le compteur passe à 300."
+    },
+    {
+      "id": "c5",
+      "titre": "Les papis contre-attaquent",
+      "pitch": "Trois retraités arnaqués de 3 000 € chacun par un faux propriétaire montent une contre-arnaque : ils se font passer pour des investisseurs milliardaires.",
+      "hook": "Il nous a volé 9 000 €. Ce soir, on lui prend 90 000.",
+      "conflit": "L'escroc est malin et méfiant ; un des papis a un trou de mémoire au pire moment.",
+      "emotion": "rire",
+      "curiosite": "Le plan va-t-il tenir jusqu'à la signature ?",
+      "retournement": "L'escroc avait tout compris ; mais le papi « distrait » jouait la comédie depuis le début.",
+      "fin": "L'escroc signe la vente de son propre appartement pour 1 €.",
+      "debat": "Arnaquer un arnaqueur, c'est la justice ou c'est pareil ?",
+      "moteur_narratif": "arnaque_plan",
+      "domaine": "maison_de_retraite",
+      "mecaniques": [
+        {
+          "id": "ironie_dramatique",
+          "role": "on connaît le plan, l'escroc non"
+        },
+        {
+          "id": "chiffre_ecran",
+          "role": "9 000 € puis 90 000 € puis 1 €"
+        },
+        {
+          "id": "renversement_statut",
+          "role": "les vieux qu'on prenait pour des proies gagnent"
+        },
+        {
+          "id": "double_retournement",
+          "role": "l'escroc savait, le papi savait qu'il savait (à tester)"
+        }
+      ],
+      "histoires": [
+        "alliance_victime_arnaqueur"
+      ],
+      "pourquoi_combinaison": "Le plan connu du spectateur transforme l'ironie dramatique en complicité joyeuse ; le double retournement est la seule façon de surprendre un public qui connaît le plan.",
+      "score": {
+        "hook": 13,
+        "curiosite": 16,
+        "emotion": 13,
+        "originalite": 12,
+        "discussion": 11,
+        "visuel": 8
+      },
+      "justif_score": "Drôle et original, mais l'arnaque demande des explications.",
+      "faisabilite": {
+        "comprehension": 3,
+        "actions": 3,
+        "compat_generation": 3,
+        "nb_personnages": 4,
+        "nb_decors": 4,
+        "risques": [
+          "plan d'arnaque à expliquer vite",
+          "déguisements : une tenue de plus par papi"
+        ]
+      },
+      "calcul": {
+        "score": 73,
+        "faisabilite": 68,
+        "notes_auto": {
+          "personnages": 4,
+          "decors": 4
+        },
+        "preuve": "hypothèse créative à tester",
+        "paires_nouvelles": [
+          "`ironie_dramatique`+`double_retournement` (1 vidéo ensemble)",
+          "`chiffre_ecran`+`double_retournement` (1 vidéo ensemble)",
+          "`renversement_statut`+`double_retournement` (0 vidéo ensemble)"
+        ]
+      },
+      "hook_image": "Trois papis en costume de milliardaire devant un miroir de vestiaire."
+    },
+    {
+      "id": "c6",
+      "titre": "Le badge en or",
+      "pitch": "Dans cette entreprise, la couleur du badge affiche ton salaire et décide de tout ; Manon, badge rouge à 1 400 €, trouve un badge or perdu et le porte une journée.",
+      "hook": "Aujourd'hui, je suis elle.",
+      "conflit": "Avec le badge or, tout le monde l'adore ; sous ses yeux, sa meilleure amie badge rouge est humiliée et Manon ne dit rien.",
+      "emotion": "culpabilité",
+      "curiosite": "À qui est le badge ? Va-t-elle défendre son amie ?",
+      "retournement": "Le badge appartient à la DRH qui a organisé l'humiliation ; elle reconnaît Manon.",
+      "fin": "Devant tout le monde, Manon retourne le badge et l'accroche au cou de son amie.",
+      "debat": "Tu aurais rendu le badge ou profité encore un peu ?",
+      "moteur_narratif": "regle_absurde",
+      "domaine": "travail",
+      "mecaniques": [
+        {
+          "id": "regle_du_monde",
+          "role": "valeur affichée sur chacun (variante chiffre social, la plus associée aux vues de la mécanique)"
+        },
+        {
+          "id": "chiffre_ecran",
+          "role": "les salaires lisibles sur les badges"
+        },
+        {
+          "id": "humiliation_injuste",
+          "role": "l'amie humiliée sous les yeux de l'héroïne"
+        }
+      ],
+      "histoires": [
+        "chiffre_sur_le_front",
+        "valeur_sur_le_front"
+      ],
+      "pourquoi_combinaison": "Combinaison éprouvée (règle + chiffre + humiliation, ensemble dans 3 comptes) mais le spectateur est mis dans la peau de celle qui profite, pas de la victime : la culpabilité remplace l'indignation. La question finale vient de l'histoire, pas d'une mécanique ajoutée.",
+      "score": {
+        "hook": 16,
+        "curiosite": 15,
+        "emotion": 15,
+        "originalite": 10,
+        "discussion": 13,
+        "visuel": 9
+      },
+      "justif_score": "Image forte et lisible ; règle proche d'un squelette existant.",
+      "faisabilite": {
+        "comprehension": 4,
+        "actions": 5,
+        "compat_generation": 3,
+        "nb_personnages": 4,
+        "nb_decors": 3,
+        "risques": [
+          "chiffres des badges à garder identiques d'un plan à l'autre"
+        ]
+      },
+      "calcul": {
+        "score": 78,
+        "faisabilite": 84,
+        "notes_auto": {
+          "personnages": 4,
+          "decors": 5
+        },
+        "preuve": "combinaison déjà observée plusieurs fois",
+        "paires_nouvelles": []
+      },
+      "hook_image": "Gros plan sur deux badges : « 1 400 € » rouge, « 38 000 € » or."
+    },
+    {
+      "id": "c7",
+      "titre": "La galette du père",
+      "pitch": "Le boulanger léguera sa boutique à celle de ses deux filles dont la galette gagnera le vote du quartier ; l'aînée triche, la cadette refuse de tricher.",
+      "hook": "Une boutique. Deux filles. Le quartier vote dimanche.",
+      "conflit": "L'aînée achète des votes ; la cadette perd du terrain à chaque plan.",
+      "emotion": "suspense",
+      "curiosite": "Qui va gagner ? Le père voit-il la triche ?",
+      "retournement": "Le père a goûté les deux galettes à l'aveugle : il avait déjà choisi, le vote était un test de loyauté.",
+      "fin": "Le tableau affiche 212 contre 211 pour l'aînée ; le père déchire le résultat.",
+      "debat": "Ton camp : l'aînée ou la cadette ?",
+      "moteur_narratif": "rivalite_triangle",
+      "domaine": "entreprise_familiale",
+      "mecaniques": [
+        {
+          "id": "epreuve_verdict",
+          "role": "le vote est la question, adossée au retournement du père"
+        },
+        {
+          "id": "chiffre_ecran",
+          "role": "compteur de votes"
+        },
+        {
+          "id": "question_au_spectateur",
+          "role": "choisir un camp en commentaire"
+        }
+      ],
+      "histoires": [
+        "concours_gros_prix"
+      ],
+      "pourquoi_combinaison": "Le vote donne un camp à chaque spectateur ; risque connu : l'épreuve est moins vue dans son compte (×0,69), d'où le retournement qui change la nature du vote.",
+      "score": {
+        "hook": 12,
+        "curiosite": 14,
+        "emotion": 13,
+        "originalite": 11,
+        "discussion": 14,
+        "visuel": 7
+      },
+      "justif_score": "Débat naturel mais enjeu moins viscéral.",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 4,
+        "compat_generation": 4,
+        "nb_personnages": 4,
+        "nb_decors": 3,
+        "risques": []
+      },
+      "calcul": {
+        "score": 71,
+        "faisabilite": 88,
+        "notes_auto": {
+          "personnages": 4,
+          "decors": 5
+        },
+        "preuve": "association nouvelle de mécaniques connues",
+        "paires_nouvelles": [
+          "`epreuve_verdict`+`question_au_spectateur` (1 vidéo ensemble)",
+          "`chiffre_ecran`+`question_au_spectateur` (1 vidéo ensemble)",
+          "moteur narratif jamais observé"
+        ]
+      },
+      "hook_image": "Le père tape sur le comptoir entre ses deux filles qui se fusillent du regard."
+    },
+    {
+      "id": "c8",
+      "titre": "Le faux chirurgien",
+      "pitch": "Depuis 5 ans, Kevin fait croire à ses parents qu'il est chirurgien ; il est livreur de pizza. Ce soir, ils débarquent à « son » hôpital pour une remise de prix.",
+      "hook": "Mes parents croient que je suis chirurgien. Ils sont dans le hall.",
+      "conflit": "Son coloc, vrai interne, joue le jeu à contrecœur ; la mère fait un malaise et réclame que « son fils » l'examine.",
+      "emotion": "rire",
+      "curiosite": "Jusqu'où le mensonge va-t-il tenir ?",
+      "retournement": "Le père savait depuis le début : il était venu lui dire qu'il est fier du livreur.",
+      "fin": "Kevin avoue devant tout le hall ; le père sort une photo de lui sur son scooter, gardée dans son portefeuille.",
+      "debat": "Mentir à ses parents pour les rendre fiers, c'est grave ?",
+      "moteur_narratif": "mensonge_qui_enfle",
+      "domaine": "hopital",
+      "mecaniques": [
+        {
+          "id": "ironie_dramatique",
+          "role": "aveu face caméra à 0 s"
+        },
+        {
+          "id": "coupure_avant_payoff",
+          "role": "le moment où on lui tend le stéthoscope"
+        },
+        {
+          "hypothese": "mensonge qui grossit plan après plan",
+          "role": "chaque scène oblige un mensonge plus gros"
+        }
+      ],
+      "histoires": [
+        "heritage_du_pere",
+        "aveu_miroir"
+      ],
+      "pourquoi_combinaison": "L'aveu parlé à 0 s n'est pas plus vu seul (×1,07) : il est soutenu ici par une escalade comique et une fin tendre qui retourne le camp du père.",
+      "score": {
+        "hook": 16,
+        "curiosite": 15,
+        "emotion": 12,
+        "originalite": 12,
+        "discussion": 11,
+        "visuel": 8
+      },
+      "justif_score": "Drôle et rapide, émotion plus faible.",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 4,
+        "compat_generation": 3,
+        "nb_personnages": 4,
+        "nb_decors": 3,
+        "risques": [
+          "décor médical : pas de geste médical précis"
+        ]
+      },
+      "calcul": {
+        "score": 74,
+        "faisabilite": 84,
+        "notes_auto": {
+          "personnages": 4,
+          "decors": 5
+        },
+        "preuve": "hypothèse créative à tester",
+        "paires_nouvelles": []
+      },
+      "hook_image": "En blouse volée, il se cache derrière un chariot ; ses parents au fond du couloir avec un bouquet."
+    },
+    {
+      "id": "c9",
+      "titre": "Le loyer à 1 €",
+      "pitch": "Une veuve richissime loue un appartement de luxe 1 € par mois à Chloé, étudiante ; une clause : dîner avec elle chaque soir et ne jamais ouvrir la porte du fond.",
+      "hook": "C'est quoi, le piège ?",
+      "conflit": "Le neveu de la veuve veut faire fuir Chloé et tente de lui faire ouvrir la porte pour casser le bail.",
+      "emotion": "curiosité",
+      "curiosite": "Qu'y a-t-il derrière la porte ?",
+      "retournement": "Derrière la porte, la chambre intacte de la fille disparue de la veuve : Chloé lui ressemble trait pour trait.",
+      "fin": "La veuve lui tend un second contrat : l'adoption, et 8 millions. « Tu n'as qu'à signer. »",
+      "debat": "Tu signerais ?",
+      "moteur_narratif": "pacte_contrat",
+      "domaine": "immobilier",
+      "mecaniques": [
+        {
+          "id": "regle_du_monde",
+          "role": "clause absurde posée à 0 s (variante pacte)"
+        },
+        {
+          "id": "chiffre_ecran",
+          "role": "1 € puis 8 000 000 €"
+        },
+        {
+          "id": "coupure_avant_payoff",
+          "role": "la main sur la poignée de la porte"
+        }
+      ],
+      "histoires": [
+        "proposition_indecente",
+        "pacte_compte_a_rebours"
+      ],
+      "pourquoi_combinaison": "La règle `pacte` est neutre seule (×0,8) et souvent noire ; ici la clause sert une vraie question (la porte) et une héroïne à défendre. `regle_du_monde` et `coupure_avant_payoff` n'ont jamais été observées ensemble.",
+      "score": {
+        "hook": 15,
+        "curiosite": 18,
+        "emotion": 14,
+        "originalite": 13,
+        "discussion": 12,
+        "visuel": 8
+      },
+      "justif_score": "Curiosité maximale (la porte), émotion qui monte tard.",
+      "faisabilite": {
+        "comprehension": 4,
+        "actions": 5,
+        "compat_generation": 4,
+        "nb_personnages": 3,
+        "nb_decors": 3,
+        "risques": []
+      },
+      "calcul": {
+        "score": 80,
+        "faisabilite": 92,
+        "notes_auto": {
+          "personnages": 5,
+          "decors": 5
+        },
+        "preuve": "association nouvelle de mécaniques connues",
+        "paires_nouvelles": [
+          "`regle_du_monde`+`coupure_avant_payoff` (0 vidéo ensemble)",
+          "`chiffre_ecran`+`coupure_avant_payoff` (2 vidéos ensemble)"
+        ]
+      },
+      "hook_image": "Le bail sur la table, en gros : « LOYER : 1 € »."
+    },
+    {
+      "id": "c10",
+      "titre": "L'entretien",
+      "pitch": "Vingt ans après, l'ancien caïd du lycée passe un entretien d'embauche ; le recruteur est le garçon qu'il rackettait. Lui ne le reconnaît pas.",
+      "hook": "Gérald Morel. Lycée Jean-Moulin.",
+      "conflit": "Le recruteur peut l'humilier à son tour ; le caïd a trois enfants et plus un sou.",
+      "emotion": "malaise",
+      "curiosite": "Va-t-il se venger ? Le caïd va-t-il le reconnaître ?",
+      "retournement": "Le caïd l'avait reconnu dès l'entrée et vient s'excuser, pas chercher un poste.",
+      "fin": "Le recruteur l'embauche… au poste qu'il occupait, lui, à 16 ans : il lui tend un balai et un sourire.",
+      "debat": "Tu l'aurais embauché ?",
+      "moteur_narratif": "revanche_humiliation",
+      "domaine": "travail",
+      "mecaniques": [
+        {
+          "id": "ironie_dramatique",
+          "role": "on sait qui est le recruteur, le caïd semble l'ignorer"
+        },
+        {
+          "id": "renversement_statut",
+          "role": "le rapport de force s'est inversé avant même la vidéo"
+        },
+        {
+          "id": "retenue_volontaire",
+          "role": "le recruteur pourrait se venger et s'en empêche"
+        },
+        {
+          "id": "question_au_spectateur",
+          "role": "la question morale finale"
+        }
+      ],
+      "histoires": [
+        "callback_rival"
+      ],
+      "pourquoi_combinaison": "Moteur saturé, angle neuf : la revanche est déjà acquise, la question devient morale (se venger ou pardonner). `retenue_volontaire` et `question_au_spectateur` n'ont jamais été observées ensemble.",
+      "score": {
+        "hook": 15,
+        "curiosite": 14,
+        "emotion": 16,
+        "originalite": 10,
+        "discussion": 15,
+        "visuel": 5
+      },
+      "justif_score": "Très discutable donc très commentable ; peu d'images fortes (bureau).",
+      "faisabilite": {
+        "comprehension": 5,
+        "actions": 5,
+        "compat_generation": 5,
+        "nb_personnages": 3,
+        "nb_decors": 2,
+        "risques": []
+      },
+      "calcul": {
+        "score": 75,
+        "faisabilite": 100,
+        "notes_auto": {
+          "personnages": 5,
+          "decors": 5
+        },
+        "preuve": "association nouvelle de mécaniques connues",
+        "paires_nouvelles": [
+          "`ironie_dramatique`+`retenue_volontaire` (2 vidéos ensemble)",
+          "`renversement_statut`+`retenue_volontaire` (1 vidéo ensemble)",
+          "`renversement_statut`+`question_au_spectateur` (2 vidéos ensemble)",
+          "`retenue_volontaire`+`question_au_spectateur` (0 vidéo ensemble)"
+        ]
+      },
+      "hook_image": "Le recruteur lit le CV, sourire figé ; insert sur une vieille photo de classe dans son tiroir."
+    }
+  ],
+  "recommande": "c2",
+  "controle": "2026-11-24 13:41"
+}

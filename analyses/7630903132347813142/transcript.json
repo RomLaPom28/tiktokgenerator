@@ -1,0 +1,948 @@
+{
+  "langue": "fr",
+  "origine": "sous-titres incrustés lus image par image (pas de whisper)",
+  "phrases": [
+    {
+      "debut": 0.4,
+      "fin": 4.4,
+      "texte": "Le jour de paye est arrivé. Rassemblez-vous pour recevoir vos salaires."
+    },
+    {
+      "debut": 5.5,
+      "fin": 9.0,
+      "texte": "Le patron a dû se tromper. Il y a trop d'argent."
+    },
+    {
+      "debut": 10.1,
+      "fin": 13.7,
+      "texte": "Je devrais lui rendre. Mais ma famille a faim et ma maison tombe en ruine."
+    },
+    {
+      "debut": 14.0,
+      "fin": 17.2,
+      "texte": "Chérie, j'ai laissé trop d'argent exprès dans le salaire d'un ouvrier."
+    },
+    {
+      "debut": 17.3,
+      "fin": 23.6,
+      "texte": "S'il revient le rendre, je changerai sa vie et je le nommerai directeur."
+    },
+    {
+      "debut": 24.5,
+      "fin": 27.2,
+      "texte": "Tu rêves. Vu leur misère, il va garder chaque centime."
+    },
+    {
+      "debut": 27.6,
+      "fin": 30.3,
+      "texte": "Madame, le patron m'a donné trop d'argent. Je viens le rendre."
+    },
+    {
+      "debut": 30.4,
+      "fin": 31.8,
+      "texte": "Donne-le-moi. Je vais lui remettre."
+    },
+    {
+      "debut": 32.2,
+      "fin": 33.9,
+      "texte": "Ne t'inquiète pas, je lui dirai que c'est toi."
+    },
+    {
+      "debut": 34.5,
+      "fin": 35.8,
+      "texte": "Cet argent est pour moi."
+    },
+    {
+      "debut": 36.2,
+      "fin": 38.2,
+      "texte": "Je dirai qu'il n'a rien rendu du tout."
+    },
+    {
+      "debut": 42.4,
+      "fin": 44.2,
+      "texte": "Alors, quelqu'un est venu ?"
+    },
+    {
+      "debut": 44.7,
+      "fin": 46.5,
+      "texte": "Non mon chéri, personne n'est venu."
+    },
+    {
+      "debut": 47.0,
+      "fin": 49.3,
+      "texte": "Rends-moi ce que tu me dois et disparais de ma mine."
+    },
+    {
+      "debut": 49.7,
+      "fin": 50.9,
+      "texte": "Je ne veux pas de voleur ici."
+    },
+    {
+      "debut": 51.2,
+      "fin": 53.8,
+      "texte": "Mais je ne suis pas un voleur ! S'il te plaît, laisse-moi t'expliquer."
+    },
+    {
+      "debut": 54.3,
+      "fin": 55.6,
+      "texte": "Assez de mensonges. Dehors !"
+    },
+    {
+      "debut": 56.1,
+      "fin": 58.2,
+      "texte": "Mais patron, j'ai tout rendu à votre femme."
+    },
+    {
+      "debut": 58.7,
+      "fin": 60.3,
+      "texte": "Regardez ça. Elle vous ment."
+    }
+  ],
+  "mots": [
+    {
+      "debut": 0.4,
+      "fin": 0.76,
+      "mot": "Le"
+    },
+    {
+      "debut": 0.76,
+      "fin": 1.13,
+      "mot": "jour"
+    },
+    {
+      "debut": 1.13,
+      "fin": 1.49,
+      "mot": "de"
+    },
+    {
+      "debut": 1.49,
+      "fin": 1.85,
+      "mot": "paye"
+    },
+    {
+      "debut": 1.85,
+      "fin": 2.22,
+      "mot": "est"
+    },
+    {
+      "debut": 2.22,
+      "fin": 2.58,
+      "mot": "arrivé."
+    },
+    {
+      "debut": 2.58,
+      "fin": 2.95,
+      "mot": "Rassemblez-vous"
+    },
+    {
+      "debut": 2.95,
+      "fin": 3.31,
+      "mot": "pour"
+    },
+    {
+      "debut": 3.31,
+      "fin": 3.67,
+      "mot": "recevoir"
+    },
+    {
+      "debut": 3.67,
+      "fin": 4.04,
+      "mot": "vos"
+    },
+    {
+      "debut": 4.04,
+      "fin": 4.4,
+      "mot": "salaires."
+    },
+    {
+      "debut": 5.5,
+      "fin": 5.82,
+      "mot": "Le"
+    },
+    {
+      "debut": 5.82,
+      "fin": 6.14,
+      "mot": "patron"
+    },
+    {
+      "debut": 6.14,
+      "fin": 6.45,
+      "mot": "a"
+    },
+    {
+      "debut": 6.45,
+      "fin": 6.77,
+      "mot": "dû"
+    },
+    {
+      "debut": 6.77,
+      "fin": 7.09,
+      "mot": "se"
+    },
+    {
+      "debut": 7.09,
+      "fin": 7.41,
+      "mot": "tromper."
+    },
+    {
+      "debut": 7.41,
+      "fin": 7.73,
+      "mot": "Il"
+    },
+    {
+      "debut": 7.73,
+      "fin": 8.05,
+      "mot": "y"
+    },
+    {
+      "debut": 8.05,
+      "fin": 8.36,
+      "mot": "a"
+    },
+    {
+      "debut": 8.36,
+      "fin": 8.68,
+      "mot": "trop"
+    },
+    {
+      "debut": 8.68,
+      "fin": 9.0,
+      "mot": "d'argent."
+    },
+    {
+      "debut": 10.1,
+      "fin": 10.34,
+      "mot": "Je"
+    },
+    {
+      "debut": 10.34,
+      "fin": 10.58,
+      "mot": "devrais"
+    },
+    {
+      "debut": 10.58,
+      "fin": 10.82,
+      "mot": "lui"
+    },
+    {
+      "debut": 10.82,
+      "fin": 11.06,
+      "mot": "rendre."
+    },
+    {
+      "debut": 11.06,
+      "fin": 11.3,
+      "mot": "Mais"
+    },
+    {
+      "debut": 11.3,
+      "fin": 11.54,
+      "mot": "ma"
+    },
+    {
+      "debut": 11.54,
+      "fin": 11.78,
+      "mot": "famille"
+    },
+    {
+      "debut": 11.78,
+      "fin": 12.02,
+      "mot": "a"
+    },
+    {
+      "debut": 12.02,
+      "fin": 12.26,
+      "mot": "faim"
+    },
+    {
+      "debut": 12.26,
+      "fin": 12.5,
+      "mot": "et"
+    },
+    {
+      "debut": 12.5,
+      "fin": 12.74,
+      "mot": "ma"
+    },
+    {
+      "debut": 12.74,
+      "fin": 12.98,
+      "mot": "maison"
+    },
+    {
+      "debut": 12.98,
+      "fin": 13.22,
+      "mot": "tombe"
+    },
+    {
+      "debut": 13.22,
+      "fin": 13.46,
+      "mot": "en"
+    },
+    {
+      "debut": 13.46,
+      "fin": 13.7,
+      "mot": "ruine."
+    },
+    {
+      "debut": 14.0,
+      "fin": 14.29,
+      "mot": "Chérie,"
+    },
+    {
+      "debut": 14.29,
+      "fin": 14.58,
+      "mot": "j'ai"
+    },
+    {
+      "debut": 14.58,
+      "fin": 14.87,
+      "mot": "laissé"
+    },
+    {
+      "debut": 14.87,
+      "fin": 15.16,
+      "mot": "trop"
+    },
+    {
+      "debut": 15.16,
+      "fin": 15.45,
+      "mot": "d'argent"
+    },
+    {
+      "debut": 15.45,
+      "fin": 15.75,
+      "mot": "exprès"
+    },
+    {
+      "debut": 15.75,
+      "fin": 16.04,
+      "mot": "dans"
+    },
+    {
+      "debut": 16.04,
+      "fin": 16.33,
+      "mot": "le"
+    },
+    {
+      "debut": 16.33,
+      "fin": 16.62,
+      "mot": "salaire"
+    },
+    {
+      "debut": 16.62,
+      "fin": 16.91,
+      "mot": "d'un"
+    },
+    {
+      "debut": 16.91,
+      "fin": 17.2,
+      "mot": "ouvrier."
+    },
+    {
+      "debut": 17.3,
+      "fin": 17.78,
+      "mot": "S'il"
+    },
+    {
+      "debut": 17.78,
+      "fin": 18.27,
+      "mot": "revient"
+    },
+    {
+      "debut": 18.27,
+      "fin": 18.75,
+      "mot": "le"
+    },
+    {
+      "debut": 18.75,
+      "fin": 19.24,
+      "mot": "rendre,"
+    },
+    {
+      "debut": 19.24,
+      "fin": 19.72,
+      "mot": "je"
+    },
+    {
+      "debut": 19.72,
+      "fin": 20.21,
+      "mot": "changerai"
+    },
+    {
+      "debut": 20.21,
+      "fin": 20.69,
+      "mot": "sa"
+    },
+    {
+      "debut": 20.69,
+      "fin": 21.18,
+      "mot": "vie"
+    },
+    {
+      "debut": 21.18,
+      "fin": 21.66,
+      "mot": "et"
+    },
+    {
+      "debut": 21.66,
+      "fin": 22.15,
+      "mot": "je"
+    },
+    {
+      "debut": 22.15,
+      "fin": 22.63,
+      "mot": "le"
+    },
+    {
+      "debut": 22.63,
+      "fin": 23.12,
+      "mot": "nommerai"
+    },
+    {
+      "debut": 23.12,
+      "fin": 23.6,
+      "mot": "directeur."
+    },
+    {
+      "debut": 24.5,
+      "fin": 24.77,
+      "mot": "Tu"
+    },
+    {
+      "debut": 24.77,
+      "fin": 25.04,
+      "mot": "rêves."
+    },
+    {
+      "debut": 25.04,
+      "fin": 25.31,
+      "mot": "Vu"
+    },
+    {
+      "debut": 25.31,
+      "fin": 25.58,
+      "mot": "leur"
+    },
+    {
+      "debut": 25.58,
+      "fin": 25.85,
+      "mot": "misère,"
+    },
+    {
+      "debut": 25.85,
+      "fin": 26.12,
+      "mot": "il"
+    },
+    {
+      "debut": 26.12,
+      "fin": 26.39,
+      "mot": "va"
+    },
+    {
+      "debut": 26.39,
+      "fin": 26.66,
+      "mot": "garder"
+    },
+    {
+      "debut": 26.66,
+      "fin": 26.93,
+      "mot": "chaque"
+    },
+    {
+      "debut": 26.93,
+      "fin": 27.2,
+      "mot": "centime."
+    },
+    {
+      "debut": 27.6,
+      "fin": 27.85,
+      "mot": "Madame,"
+    },
+    {
+      "debut": 27.85,
+      "fin": 28.09,
+      "mot": "le"
+    },
+    {
+      "debut": 28.09,
+      "fin": 28.34,
+      "mot": "patron"
+    },
+    {
+      "debut": 28.34,
+      "fin": 28.58,
+      "mot": "m'a"
+    },
+    {
+      "debut": 28.58,
+      "fin": 28.83,
+      "mot": "donné"
+    },
+    {
+      "debut": 28.83,
+      "fin": 29.07,
+      "mot": "trop"
+    },
+    {
+      "debut": 29.07,
+      "fin": 29.32,
+      "mot": "d'argent."
+    },
+    {
+      "debut": 29.32,
+      "fin": 29.56,
+      "mot": "Je"
+    },
+    {
+      "debut": 29.56,
+      "fin": 29.81,
+      "mot": "viens"
+    },
+    {
+      "debut": 29.81,
+      "fin": 30.05,
+      "mot": "le"
+    },
+    {
+      "debut": 30.05,
+      "fin": 30.3,
+      "mot": "rendre."
+    },
+    {
+      "debut": 30.4,
+      "fin": 30.68,
+      "mot": "Donne-le-moi."
+    },
+    {
+      "debut": 30.68,
+      "fin": 30.96,
+      "mot": "Je"
+    },
+    {
+      "debut": 30.96,
+      "fin": 31.24,
+      "mot": "vais"
+    },
+    {
+      "debut": 31.24,
+      "fin": 31.52,
+      "mot": "lui"
+    },
+    {
+      "debut": 31.52,
+      "fin": 31.8,
+      "mot": "remettre."
+    },
+    {
+      "debut": 32.2,
+      "fin": 32.39,
+      "mot": "Ne"
+    },
+    {
+      "debut": 32.39,
+      "fin": 32.58,
+      "mot": "t'inquiète"
+    },
+    {
+      "debut": 32.58,
+      "fin": 32.77,
+      "mot": "pas,"
+    },
+    {
+      "debut": 32.77,
+      "fin": 32.96,
+      "mot": "je"
+    },
+    {
+      "debut": 32.96,
+      "fin": 33.14,
+      "mot": "lui"
+    },
+    {
+      "debut": 33.14,
+      "fin": 33.33,
+      "mot": "dirai"
+    },
+    {
+      "debut": 33.33,
+      "fin": 33.52,
+      "mot": "que"
+    },
+    {
+      "debut": 33.52,
+      "fin": 33.71,
+      "mot": "c'est"
+    },
+    {
+      "debut": 33.71,
+      "fin": 33.9,
+      "mot": "toi."
+    },
+    {
+      "debut": 34.5,
+      "fin": 34.76,
+      "mot": "Cet"
+    },
+    {
+      "debut": 34.76,
+      "fin": 35.02,
+      "mot": "argent"
+    },
+    {
+      "debut": 35.02,
+      "fin": 35.28,
+      "mot": "est"
+    },
+    {
+      "debut": 35.28,
+      "fin": 35.54,
+      "mot": "pour"
+    },
+    {
+      "debut": 35.54,
+      "fin": 35.8,
+      "mot": "moi."
+    },
+    {
+      "debut": 36.2,
+      "fin": 36.45,
+      "mot": "Je"
+    },
+    {
+      "debut": 36.45,
+      "fin": 36.7,
+      "mot": "dirai"
+    },
+    {
+      "debut": 36.7,
+      "fin": 36.95,
+      "mot": "qu'il"
+    },
+    {
+      "debut": 36.95,
+      "fin": 37.2,
+      "mot": "n'a"
+    },
+    {
+      "debut": 37.2,
+      "fin": 37.45,
+      "mot": "rien"
+    },
+    {
+      "debut": 37.45,
+      "fin": 37.7,
+      "mot": "rendu"
+    },
+    {
+      "debut": 37.7,
+      "fin": 37.95,
+      "mot": "du"
+    },
+    {
+      "debut": 37.95,
+      "fin": 38.2,
+      "mot": "tout."
+    },
+    {
+      "debut": 42.4,
+      "fin": 42.76,
+      "mot": "Alors,"
+    },
+    {
+      "debut": 42.76,
+      "fin": 43.12,
+      "mot": "quelqu'un"
+    },
+    {
+      "debut": 43.12,
+      "fin": 43.48,
+      "mot": "est"
+    },
+    {
+      "debut": 43.48,
+      "fin": 43.84,
+      "mot": "venu"
+    },
+    {
+      "debut": 43.84,
+      "fin": 44.2,
+      "mot": "?"
+    },
+    {
+      "debut": 44.7,
+      "fin": 45.0,
+      "mot": "Non"
+    },
+    {
+      "debut": 45.0,
+      "fin": 45.3,
+      "mot": "mon"
+    },
+    {
+      "debut": 45.3,
+      "fin": 45.6,
+      "mot": "chéri,"
+    },
+    {
+      "debut": 45.6,
+      "fin": 45.9,
+      "mot": "personne"
+    },
+    {
+      "debut": 45.9,
+      "fin": 46.2,
+      "mot": "n'est"
+    },
+    {
+      "debut": 46.2,
+      "fin": 46.5,
+      "mot": "venu."
+    },
+    {
+      "debut": 47.0,
+      "fin": 47.21,
+      "mot": "Rends-moi"
+    },
+    {
+      "debut": 47.21,
+      "fin": 47.42,
+      "mot": "ce"
+    },
+    {
+      "debut": 47.42,
+      "fin": 47.63,
+      "mot": "que"
+    },
+    {
+      "debut": 47.63,
+      "fin": 47.84,
+      "mot": "tu"
+    },
+    {
+      "debut": 47.84,
+      "fin": 48.05,
+      "mot": "me"
+    },
+    {
+      "debut": 48.05,
+      "fin": 48.25,
+      "mot": "dois"
+    },
+    {
+      "debut": 48.25,
+      "fin": 48.46,
+      "mot": "et"
+    },
+    {
+      "debut": 48.46,
+      "fin": 48.67,
+      "mot": "disparais"
+    },
+    {
+      "debut": 48.67,
+      "fin": 48.88,
+      "mot": "de"
+    },
+    {
+      "debut": 48.88,
+      "fin": 49.09,
+      "mot": "ma"
+    },
+    {
+      "debut": 49.09,
+      "fin": 49.3,
+      "mot": "mine."
+    },
+    {
+      "debut": 49.7,
+      "fin": 49.87,
+      "mot": "Je"
+    },
+    {
+      "debut": 49.87,
+      "fin": 50.04,
+      "mot": "ne"
+    },
+    {
+      "debut": 50.04,
+      "fin": 50.21,
+      "mot": "veux"
+    },
+    {
+      "debut": 50.21,
+      "fin": 50.39,
+      "mot": "pas"
+    },
+    {
+      "debut": 50.39,
+      "fin": 50.56,
+      "mot": "de"
+    },
+    {
+      "debut": 50.56,
+      "fin": 50.73,
+      "mot": "voleur"
+    },
+    {
+      "debut": 50.73,
+      "fin": 50.9,
+      "mot": "ici."
+    },
+    {
+      "debut": 51.2,
+      "fin": 51.4,
+      "mot": "Mais"
+    },
+    {
+      "debut": 51.4,
+      "fin": 51.6,
+      "mot": "je"
+    },
+    {
+      "debut": 51.6,
+      "fin": 51.8,
+      "mot": "ne"
+    },
+    {
+      "debut": 51.8,
+      "fin": 52.0,
+      "mot": "suis"
+    },
+    {
+      "debut": 52.0,
+      "fin": 52.2,
+      "mot": "pas"
+    },
+    {
+      "debut": 52.2,
+      "fin": 52.4,
+      "mot": "un"
+    },
+    {
+      "debut": 52.4,
+      "fin": 52.6,
+      "mot": "voleur"
+    },
+    {
+      "debut": 52.6,
+      "fin": 52.8,
+      "mot": "!"
+    },
+    {
+      "debut": 52.8,
+      "fin": 53.0,
+      "mot": "S'il"
+    },
+    {
+      "debut": 53.0,
+      "fin": 53.2,
+      "mot": "te"
+    },
+    {
+      "debut": 53.2,
+      "fin": 53.4,
+      "mot": "plaît,"
+    },
+    {
+      "debut": 53.4,
+      "fin": 53.6,
+      "mot": "laisse-moi"
+    },
+    {
+      "debut": 53.6,
+      "fin": 53.8,
+      "mot": "t'expliquer."
+    },
+    {
+      "debut": 54.3,
+      "fin": 54.56,
+      "mot": "Assez"
+    },
+    {
+      "debut": 54.56,
+      "fin": 54.82,
+      "mot": "de"
+    },
+    {
+      "debut": 54.82,
+      "fin": 55.08,
+      "mot": "mensonges."
+    },
+    {
+      "debut": 55.08,
+      "fin": 55.34,
+      "mot": "Dehors"
+    },
+    {
+      "debut": 55.34,
+      "fin": 55.6,
+      "mot": "!"
+    },
+    {
+      "debut": 56.1,
+      "fin": 56.36,
+      "mot": "Mais"
+    },
+    {
+      "debut": 56.36,
+      "fin": 56.62,
+      "mot": "patron,"
+    },
+    {
+      "debut": 56.62,
+      "fin": 56.89,
+      "mot": "j'ai"
+    },
+    {
+      "debut": 56.89,
+      "fin": 57.15,
+      "mot": "tout"
+    },
+    {
+      "debut": 57.15,
+      "fin": 57.41,
+      "mot": "rendu"
+    },
+    {
+      "debut": 57.41,
+      "fin": 57.68,
+      "mot": "à"
+    },
+    {
+      "debut": 57.68,
+      "fin": 57.94,
+      "mot": "votre"
+    },
+    {
+      "debut": 57.94,
+      "fin": 58.2,
+      "mot": "femme."
+    },
+    {
+      "debut": 58.7,
+      "fin": 59.02,
+      "mot": "Regardez"
+    },
+    {
+      "debut": 59.02,
+      "fin": 59.34,
+      "mot": "ça."
+    },
+    {
+      "debut": 59.34,
+      "fin": 59.66,
+      "mot": "Elle"
+    },
+    {
+      "debut": 59.66,
+      "fin": 59.98,
+      "mot": "vous"
+    },
+    {
+      "debut": 59.98,
+      "fin": 60.3,
+      "mot": "ment."
+    }
+  ]
+}

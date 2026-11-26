@@ -4,5 +4,7 @@
   "titre": "Le prodige de 34 ans",
   "sujet": "Viré à 19 ans par un coach qui a pistonné son neveu, Théo revient 15 ans plus tard déguisé en jeune de 19 ans dans l'équipe de ce même coach. Le coach et son fils pistonné l'humilient, trichent pour le faire virer… jusqu'à la révélation.",
   "concept": "secret_au_miroir + outsider_revanche",
-  "cree": "2026-11-22"
+  "cree": "2026-11-22",
+  "moteur_narratif": "revanche_humiliation",
+  "domaine": "sport"
 }

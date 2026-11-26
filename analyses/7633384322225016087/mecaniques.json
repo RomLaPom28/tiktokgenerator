@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "couple",
+    "ton": "drame",
+    "format": "partie_1",
+    "serie": "7vizory7-framboise"
+  },
+  "mecaniques": [
+    {
+      "id": "ironie_dramatique",
+      "variante": "aveu_0s",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "7630903132347813142",
+  "meta": {
+    "id": "7630903132347813142",
+    "url": "https://www.tiktok.com/@onlyfrubidi_off/video/7630903132347813142",
+    "compte": "onlyfrubidi_off",
+    "description": null,
+    "vues": null,
+    "likes": null,
+    "commentaires": null,
+    "partages": null,
+    "date": null,
+    "duree": 64.4,
+    "musique": null
+  },
+  "plans": [
+    {
+      "n": 1,
+      "debut": 0.0,
+      "fin": 5.32,
+      "duree": 5.32,
+      "repliques": [
+        {
+          "r": "r1",
+          "t": "0.4-4.4",
+          "texte": "Le jour de paye est arrivé. Rassemblez-vous pour recevoir vos salaires."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "debut": 5.32,
+      "fin": 13.68,
+      "duree": 8.36,
+      "repliques": [
+        {
+          "r": "r2",
+          "t": "5.5-9.0",
+          "texte": "Le patron a dû se tromper. Il y a trop d'argent."
+        },
+        {
+          "r": "r3",
+          "t": "10.1-13.7",
+          "texte": "Je devrais lui rendre. Mais ma famille a faim et ma maison tombe en ruine."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "debut": 13.68,
+      "fin": 23.72,
+      "duree": 10.04,
+      "repliques": [
+        {
+          "r": "r4",
+          "t": "14.0-17.2",
+          "texte": "Chérie, j'ai laissé trop d'argent exprès dans le salaire d'un ouvrier."
+        },
+        {
+          "r": "r5",
+          "t": "17.3-23.6",
+          "texte": "S'il revient le rendre, je changerai sa vie et je le nommerai directeur."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "debut": 23.72,
+      "fin": 27.58,
+      "duree": 3.86,
+      "repliques": [
+        {
+          "r": "r6",
+          "t": "24.5-27.2",
+          "texte": "Tu rêves. Vu leur misère, il va garder chaque centime."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "debut": 27.58,
+      "fin": 30.35,
+      "duree": 2.77,
+      "repliques": [
+        {
+          "r": "r7",
+          "t": "27.6-30.3",
+          "texte": "Madame, le patron m'a donné trop d'argent. Je viens le rendre."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "debut": 30.35,
+      "fin": 33.95,
+      "duree": 3.6,
+      "repliques": [
+        {
+          "r": "r8",
+          "t": "30.4-31.8",
+          "texte": "Donne-le-moi. Je vais lui remettre."
+        },
+        {
+          "r": "r9",
+          "t": "32.2-33.9",
+          "texte": "Ne t'inquiète pas, je lui dirai que c'est toi."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "debut": 33.95,
+      "fin": 38.95,
+      "duree": 5.0,
+      "repliques": [
+        {
+          "r": "r10",
+          "t": "34.5-35.8",
+          "texte": "Cet argent est pour moi."
+        },
+        {
+          "r": "r11",
+          "t": "36.2-38.2",
+          "texte": "Je dirai qu'il n'a rien rendu du tout."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "debut": 38.95,
+      "fin": 41.68,
+      "duree": 2.73,
+      "repliques": []
+    },
+    {
+      "n": 9,
+      "debut": 41.68,
+      "fin": 47.05,
+      "duree": 5.37,
+      "repliques": [
+        {
+          "r": "r12",
+          "t": "42.4-44.2",
+          "texte": "Alors, quelqu'un est venu ?"
+        },
+        {
+          "r": "r13",
+          "t": "44.7-46.5",
+          "texte": "Non mon chéri, personne n'est venu."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "debut": 47.05,
+      "fin": 49.55,
+      "duree": 2.5,
+      "repliques": [
+        {
+          "r": "r14",
+          "t": "47.0-49.3",
+          "texte": "Rends-moi ce que tu me dois et disparais de ma mine."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "debut": 49.55,
+      "fin": 51.48,
+      "duree": 1.93,
+      "repliques": [
+        {
+          "r": "r15",
+          "t": "49.7-50.9",
+          "texte": "Je ne veux pas de voleur ici."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "debut": 51.48,
+      "fin": 54.02,
+      "duree": 2.54,
+      "repliques": [
+        {
+          "r": "r16",
+          "t": "51.2-53.8",
+          "texte": "Mais je ne suis pas un voleur ! S'il te plaît, laisse-moi t'expliquer."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "debut": 54.02,
+      "fin": 56.12,
+      "duree": 2.1,
+      "repliques": [
+        {
+          "r": "r17",
+          "t": "54.3-55.6",
+          "texte": "Assez de mensonges. Dehors !"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "debut": 56.12,
+      "fin": 60.32,
+      "duree": 4.2,
+      "repliques": [
+        {
+          "r": "r18",
+          "t": "56.1-58.2",
+          "texte": "Mais patron, j'ai tout rendu à votre femme."
+        },
+        {
+          "r": "r19",
+          "t": "58.7-60.3",
+          "texte": "Regardez ça. Elle vous ment."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "debut": 60.32,
+      "fin": 64.37,
+      "duree": 4.05,
+      "repliques": []
+    }
+  ]
+}

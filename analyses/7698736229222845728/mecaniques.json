@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "prison",
+    "ton": "drame",
+    "format": "suite",
+    "serie": null
+  },
+  "mecaniques": [
+    {
+      "id": "regle_du_monde",
+      "variante": "chiffre_social",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "chiffre_ecran",
+      "variante": "front",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "ironie_dramatique",
+      "variante": "identite_cachee",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "renversement_statut",
+      "variante": "identite_revelee",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

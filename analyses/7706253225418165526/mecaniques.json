@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "famille",
+    "ton": "drame",
+    "format": "episode_long",
+    "serie": null
+  },
+  "mecaniques": [
+    {
+      "id": "proche_en_danger",
+      "variante": null,
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "renversement_statut",
+      "variante": "force_cachee",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

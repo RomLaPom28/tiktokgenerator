@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "couple",
+    "ton": "comique",
+    "format": "unique",
+    "serie": null
+  },
+  "mecaniques": [
+    {
+      "id": "ironie_dramatique",
+      "variante": "aveu_0s",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "epreuve_verdict",
+      "variante": "test_amour",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "question_legende",
+      "t": "légende",
+      "preuve": "légende : « Il est milliardaire mais il se fait passer pour un pauvre 💰😏 Elle aurait dû payer ? #fruit »"
+    }
+  ]
+}

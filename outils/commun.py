@@ -20,6 +20,18 @@ MUSIQUE = STUDIO / "musique"
 FONT_BOLD = "C:/Windows/Fonts/ariblk.ttf"
 
 
+def police(taille, gras=True):
+    """Police TrueType : Arial sous Windows, DejaVu sous Linux, sinon police par défaut."""
+    from PIL import ImageFont
+    for f in (("C:/Windows/Fonts/arialbd.ttf" if gras else "C:/Windows/Fonts/arial.ttf"),
+              "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "DejaVuSans-Bold.ttf"):
+        try:
+            return ImageFont.truetype(f, taille)
+        except OSError:
+            continue
+    return ImageFont.load_default()
+
+
 def run(cmd, **kw):
     """Lance une commande, renvoie stdout+stderr, lève une erreur lisible si échec."""
     r = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace", **kw)

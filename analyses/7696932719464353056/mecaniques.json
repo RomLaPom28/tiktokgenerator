@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "sport",
+    "ton": "drame",
+    "format": "suite",
+    "serie": "sans_pepin-chaussures"
+  },
+  "mecaniques": [
+    {
+      "id": "suite_partie_n",
+      "variante": "reprise_exacte",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "renversement_statut",
+      "variante": "force_cachee",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "chiffre_ecran",
+      "variante": "decor",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

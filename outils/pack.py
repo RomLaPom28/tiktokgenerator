@@ -14,7 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from bible import Bible, ouverture_chatgpt, prompt_grok, prompt_image, prompt_portrait  # noqa: E402
-from commun import args_projet, compat_plan, dialogues, duree_plan, ecrire_json, lire_json  # noqa: E402
+from commun import ANALYSES, args_projet, compat_plan, dialogues, duree_plan, ecrire_json, lire_json  # noqa: E402
 
 
 def construire(b, nom):
@@ -46,9 +46,30 @@ def construire(b, nom):
         "hooks_alternatifs": ep.get("hooks_alternatifs", []),
         "question_milieu": ep.get("question_milieu", {}),
         "duree_totale": sum(x["duree"] for x in plans),
+        "adaptation": comparaison(b, ep),
     }
     ecrire_json(b.episodes / nom / "pack.json", pack)
     return ep, pack
+
+
+def comparaison(b, ep):
+    """Projet /copier : réplique originale -> notre réplique, plan par plan."""
+    a = ep.get("adaptation") or b.projet.get("adaptation")
+    if not a:
+        return None
+    f = ANALYSES / str(a.get("source")) / "dissection.json"
+    src = {x["r"]: x for x in lire_json(f).get("repliques", [])} if f.exists() else {}
+    lignes = []
+    for p in ep["plans"]:
+        for d in dialogues(p):
+            o = [src[r] for r in d.get("source") or [] if r in src]
+            lignes.append({"n": p["n"], "qui": b.nom(d["parle"]), "texte": d["texte"],
+                           "original": " ".join(x["texte"] for x in o),
+                           "qui_original": " / ".join(dict.fromkeys(x.get("qui", "") for x in o)),
+                           "r": ", ".join(d.get("source") or []) or "ajout"})
+    return {"source": a.get("source"), "vues": a.get("vues"), "lien": a.get("lien", ""),
+            "transposition": a.get("transposition", ""), "ameliorations": a.get("ameliorations", []),
+            "coupees": a.get("coupees", []), "lignes": lignes}
 
 
 def maj_historique(b, ep):
@@ -92,7 +113,9 @@ h3{margin:0 0 4px;font-size:15px}h3 b{color:var(--acc);margin-right:6px}.r{color
 .tag{font-size:11px;font-weight:800;padding:2px 7px;border-radius:6px;color:#fff;background:var(--gpt)}.tag.k{background:var(--grok);color:var(--bg)}.tag.o{background:var(--acc)}
 pre{margin:0;padding:10px;white-space:pre-wrap;word-break:break-word;font:13px/1.45 ui-monospace,Consolas,monospace;max-height:220px;overflow:auto;flex:1;user-select:all;-webkit-user-select:all}
 button.c{border:0;border-radius:8px;padding:8px 14px;font:700 13px system-ui;background:var(--acc);color:#fff;cursor:pointer;white-space:nowrap}
-button.c.u{background:var(--ok)}button.c.w{background:#b7791f}
+button.c.u{background:var(--ok)}
+table.cmp{border-collapse:collapse;width:100%;font-size:13px;margin-top:8px}.cmp td,.cmp th{border-top:1px solid var(--line);padding:6px;vertical-align:top;text-align:left}.cmp td:nth-child(2){color:var(--mute)}
+summary{cursor:pointer}button.c.w{background:#b7791f}
 """
 
 JS = r"""
@@ -158,6 +181,18 @@ def page_locale(b, nom, pack):
         hooks = ("<h2>Hooks de rechange <small>(si la vidéo plafonne sous 2 000 vues en 2 h, refais SEULEMENT le plan 1 avec un de ceux-là et reposte)</small></h2><section><ul class=dl>"
                  + "".join(f"<li><code>{chr(65 + i)}</code>{esc(h)}</li>" for i, h in enumerate(pack["hooks_alternatifs"]))
                  + "</ul></section>")
+    adapt = ""
+    if pack.get("adaptation"):
+        a = pack["adaptation"]
+        rows = "".join(f"<tr><td>{x['n']}</td><td><small>{esc(x['r'])}</small><br>{esc(x['qui_original'])} : {esc(x['original']) or '—'}</td>"
+                       f"<td><b>{esc(x['qui'])}</b> : {esc(x['texte'])}</td></tr>" for x in a["lignes"])
+        amel = "".join(f"<li>{esc(x)}</li>" for x in a["ameliorations"])
+        adapt = (f"<h2>Adaptation <small>(source {esc(a['source'])}"
+                 f"{' · ' + str(round(a['vues'] / 1e6, 1)) + ' M vues' if a.get('vues') else ''})</small></h2><section>"
+                 f"<p class=r>{esc(a['transposition'])}</p>"
+                 + (f"<p class=r><b>Améliorations par rapport à l'original :</b></p><ul class=dl>{amel}</ul>" if amel else "")
+                 + f"<details><summary><b>Original → notre version, réplique par réplique</b></summary>"
+                 f"<div style='overflow-x:auto'><table class=cmp><tr><th>Plan</th><th>Original</th><th>Notre version</th></tr>{rows}</table></div></details></section>")
     checklist = "".join(f'<li><label><input type="checkbox"> {x}</label></li>' for x in CHECKLIST)
     ep = f" · épisode {pack['numero']}" if pack['type'] == 'serie' else ''
     page = f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -165,6 +200,7 @@ def page_locale(b, nom, pack):
 <h1>{esc(pack['projet_titre'])}{ep} · {esc(pack['titre'])}</h1><p class="res">{esc(pack['resume'])}</p><div class="cast">{cast}</div>
 <div class="tl">{tl}</div><p class="r">{len(pack['plans'])} plans · {pack['duree_totale']} s de rush (≈ {round(pack['duree_totale'] * 0.85)} s après montage serré) · <span style="color:#7c3aed">violet = 10 s</span> · <span style="color:var(--acc)">orange = moment clé</span></p>
 <div class="bar"><div><i></i></div><p></p></div>
+{adapt}
 <h2>Étape 0 · Portraits de référence <small>(ChatGPT, une fois par personnage)</small></h2>
 <section><p class="r">Un prompt = une image. Enregistre chaque portrait sous le nom indiqué : il sert à garder les mêmes visages partout.</p><div class="g">{portraits}</div></section>
 <h2>Étape 1 · Ouverture <small>(nouvelle conversation ChatGPT)</small></h2>

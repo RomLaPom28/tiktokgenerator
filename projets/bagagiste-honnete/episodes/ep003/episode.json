@@ -1,0 +1,855 @@
+{
+  "numero": 3,
+  "titre": "Le gala",
+  "format": "évènement public",
+  "accroche_type": "insulte choc",
+  "cliff_type": "twist final",
+  "centre": "philippe",
+  "adaptation": {
+    "source": "7631645319159172374",
+    "lien": "https://www.tiktok.com/@onlyfrubidi_off/video/7631645319159172374",
+    "vues": null,
+    "repliques": "r1-r13",
+    "coupees": [
+      "r1",
+      "r13"
+    ],
+    "transposition": "Partie 3 : l'agonie de la femme devient sa chute en public au gala ; le patron qui regarde sur ses écrans devient le patron qui projette la vidéo du badge caché ; la promotion (directeur, clés, chiffres) est gardée telle quelle ; le kicker amer « le silence est lourd » est remplacé par la boucle d'oreille rendue.",
+    "ameliorations": [
+      "Karma sans meurtre : démasquée devant 200 invités, collier saisi, sortie par la porte de service sous les applaudissements",
+      "Double twist : « Et celle-là aussi, c'est l'IA, chérie ? » + Philippe l'avait crue exprès pour la piéger",
+      "Callback final : Maxime rend une boucle d'oreille à Corinne, « Un pauvre, ça rend tout, madame »",
+      "Gros chiffres lisibles : collier 180 000 €, badge DIRECTEUR, 300 employés"
+    ]
+  },
+  "moteur": {
+    "desir": "Maxime veut être reconnu comme honnête, Philippe veut la vérité sur sa femme",
+    "injustice": "Corinne humilie encore Maxime devant 200 invités en tablier de serveur",
+    "antagoniste": "Corinne, qui trinque à son mari « qui ne voit jamais rien »",
+    "enjeu_chiffre": "le poste de directeur, 300 employés, un collier de 180 000 €",
+    "force_cachee": "Philippe a caché le badge de Maxime devant le coffre et a tout filmé",
+    "payoff": "la vidéo du coffre passe sur l'écran géant : « Et celle-là aussi, c'est l'IA, chérie ? »",
+    "callback": "Un pauvre, ça garde tout.",
+    "kicker": "Maxime lui rend sa boucle d'oreille : « Un pauvre, ça rend tout, madame. »"
+  },
+  "texte_accroche": "Ce soir, la voleuse tombe",
+  "question_milieu": {
+    "plan": 6,
+    "texte": "Tu l'avais vu venir, le coup du badge ? 🦁"
+  },
+  "vote_question": "Philippe a eu raison de faire semblant ?",
+  "fils_avances": [
+    "faux_semblant",
+    "coffre_vide",
+    "test_enveloppe"
+  ],
+  "revele": [
+    "faux_semblant"
+  ],
+  "reprend": "Au gala, quelques jours après : Corinne ignore toujours que le badge caché dans le cadre du coffre l'a filmée.",
+  "resume": "Au gala, Corinne trinque à son mari « qui ne voit jamais rien » et humilie Maxime, serveur en tablier. Philippe projette la vidéo du badge ; Corinne crie à l'IA. « Et celle-là aussi, c'est l'IA, chérie ? » : la vidéo du coffre, filmée par le badge caché, la montre se moquer de lui. Philippe avait cru Maxime dès le début. Corinne perd son collier, sort par la porte de service sous les applaudissements, et Maxime devient directeur. Sous la pluie, il lui rend sa boucle d'oreille : « Un pauvre, ça rend tout, madame. »",
+  "fin": "Sous la pluie, Maxime, directeur, rend sa boucle d'oreille à Corinne : « Un pauvre, ça rend tout, madame. »",
+  "recettes_utilisees": [
+    "Payoff par la propre phrase du méchant (callback)",
+    "Humiliation publique du méchant devant la foule",
+    "Twist : le juge jouait la comédie",
+    "Gros chiffre lisible à l'écran",
+    "Kicker moral en boucle avec l'épisode 1"
+  ],
+  "titre_couverture": "« C'est de l'IA ! » Vraiment ?",
+  "legende": "Elle a juré que la vidéo était fausse… sauf qu'il y en avait une deuxième 😏 Fin de l'histoire du bagagiste honnête.",
+  "hashtags": [
+    "#partie3",
+    "#histoire",
+    "#palace",
+    "#animaux",
+    "#ia",
+    "#karma"
+  ],
+  "commentaire_epingle": "La fin parfaite ? 🔥 Oui, elle a eu ce qu'elle méritait / 😇 Maxime est trop gentil de rendre la boucle",
+  "hooks_alternatifs": [
+    "À mon mari, qui ne voit jamais rien. Il a tout vu.",
+    "Elle a crié « c'est de l'IA ». Il avait une deuxième vidéo.",
+    "Elle a traité le bagagiste de voleur. Ce soir, il devient directeur."
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "role": "accroche",
+      "duree": 6,
+      "lieu": "salle_gala",
+      "lumiere": "fete",
+      "cadrage": "TGP",
+      "angle": "contre_plongee",
+      "camera": "crash_zoom",
+      "persos": [
+        {
+          "id": "corinne",
+          "tenue": "gala",
+          "jeu": "lève sa coupe bien haut, diadème étincelant, sourire de reine, bec relevé"
+        },
+        {
+          "id": "maxime",
+          "tenue": "serveur",
+          "jeu": "flou au second plan, tient un plateau argenté, tête basse"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Corinne lève sa coupe face aux 200 invités",
+          "camera": "crash_zoom",
+          "son": "cristal qui tinte"
+        },
+        {
+          "t": "2-4",
+          "action": "elle pointe Maxime du bout de l'aile, les invités ricanent"
+        },
+        {
+          "t": "4-6",
+          "action": "Maxime serre son plateau, humilié",
+          "son": "rires"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.6",
+          "parle": "corinne",
+          "emotion": "triomphante",
+          "fonction": "attaque",
+          "texte": "À mon mari, qui ne voit jamais rien !",
+          "source": []
+        },
+        {
+          "t": "2.8-5.3",
+          "parle": "corinne",
+          "emotion": "méprisante, chantante",
+          "fonction": "attaque",
+          "texte": "Et au personnel : un pauvre, ça garde tout !",
+          "source": []
+        }
+      ],
+      "texte_decor": "GALA DU GRAND HÔTEL VALROSE",
+      "texte_ecran": "CE SOIR, ELLE TOMBE"
+    },
+    {
+      "n": 2,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "salle_gala",
+      "lumiere": "fete",
+      "cadrage": "PE",
+      "angle": "plongee",
+      "camera": "panoramique",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "sur la petite scène, au micro, calme, fait tourner sa chevalière"
+        },
+        {
+          "id": "corinne",
+          "tenue": "gala",
+          "jeu": "au premier rang, s'évente, sûre d'elle"
+        },
+        {
+          "id": "maxime",
+          "tenue": "serveur",
+          "jeu": "au bord de la scène, plateau qui tremble"
+        },
+        {
+          "id": "martine",
+          "jeu": "près de la régie, la main sur un ordinateur portable"
+        }
+      ],
+      "fin": {
+        "cadrage": "PR",
+        "persos": [
+          {
+            "id": "philippe",
+            "jeu": "se décale d'un pas, l'écran géant s'allume derrière lui"
+          },
+          {
+            "id": "maxime",
+            "jeu": "bouche bée, plateau penché"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Philippe tapote le micro, la salle se tait",
+          "son": "larsen bref"
+        },
+        {
+          "t": "3-5",
+          "action": "Corinne se penche vers nous, complice",
+          "camera": "panoramique"
+        },
+        {
+          "t": "5-8",
+          "action": "Philippe fait un signe à Martine à la régie"
+        },
+        {
+          "t": "8-10",
+          "action": "l'écran géant derrière la scène s'allume",
+          "son": "grésillement d'écran"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.6",
+          "parle": "philippe",
+          "emotion": "solennel",
+          "fonction": "promesse",
+          "texte": "Ce soir, je nomme le nouveau directeur du palace.",
+          "source": []
+        },
+        {
+          "t": "2.9-4.3",
+          "parle": "corinne",
+          "emotion": "en aparté, ravie",
+          "fonction": "reaction",
+          "texte": "Mon neveu, évidemment.",
+          "source": []
+        },
+        {
+          "t": "4.6-6.4",
+          "parle": "philippe",
+          "emotion": "calme, glacial",
+          "fonction": "menace",
+          "texte": "Mais d'abord, un petit film.",
+          "source": []
+        },
+        {
+          "t": "6.7-8.9",
+          "parle": "maxime",
+          "emotion": "sidéré, tout bas",
+          "fonction": "reaction",
+          "texte": "Le film de mon badge ?!",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "retournement",
+      "duree": 6,
+      "lieu": "salle_gala",
+      "lumiere": "fete",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "whip_pan",
+      "persos": [
+        {
+          "id": "corinne",
+          "tenue": "gala",
+          "jeu": "se lève d'un bond, coupe qui se renverse, plumes hérissées, ricane nerveusement"
+        }
+      ],
+      "detail_image": "derrière elle, sur l'écran géant, l'image du badge : Corinne devant son coffre, des billets plein les plumes",
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Corinne se lève d'un bond, sa coupe se renverse",
+          "camera": "whip_pan",
+          "son": "verre qui se brise"
+        },
+        {
+          "t": "3-6",
+          "action": "elle se tourne vers les invités en riant faux, les ailes ouvertes"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.4",
+          "parle": "corinne",
+          "emotion": "paniquée",
+          "fonction": "reaction",
+          "texte": "Qu'est-ce que c'est que ça ?!",
+          "source": [
+            "r2"
+          ]
+        },
+        {
+          "t": "2.7-5.0",
+          "parle": "corinne",
+          "emotion": "riant faux, criarde",
+          "fonction": "riposte",
+          "texte": "C'est la fausse vidéo ! C'est de l'IA !",
+          "source": []
+        }
+      ],
+      "texte_ecran": "FAUSSE VIDÉO ?"
+    },
+    {
+      "n": 4,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "salle_gala",
+      "lumiere": "fete",
+      "cadrage": "TGP",
+      "angle": "contre_plongee",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "au micro, sourire froid, sort le badge doré de sa poche intérieure"
+        },
+        {
+          "id": "martine",
+          "jeu": "à la régie, appuie sur une touche d'un air vengeur"
+        }
+      ],
+      "detail_image": "le point rouge du badge brille dans la patte de Philippe ; derrière lui, l'écran géant montre Corinne dans sa suite, au téléphone, devant le portrait du coffre",
+      "fin": {
+        "cadrage": "PE",
+        "persos": [
+          {
+            "id": "philippe",
+            "jeu": "bras tendu vers l'écran géant"
+          },
+          {
+            "id": "martine",
+            "jeu": "bec pincé, satisfaite"
+          }
+        ],
+        "detail_image": "200 invités se tournent d'un même mouvement vers Corinne, bouches ouvertes"
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Philippe sort le badge de sa poche et le lève",
+          "camera": "travelling_avant",
+          "son": "bip"
+        },
+        {
+          "t": "3-5",
+          "action": "l'écran géant passe à une autre vidéo : la suite de Corinne filmée depuis le coffre"
+        },
+        {
+          "t": "5-8",
+          "action": "les invités poussent un cri, Martine sourit à la régie",
+          "son": "cri de la foule"
+        },
+        {
+          "t": "8-10",
+          "action": "tous se tournent vers Corinne"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.4",
+          "parle": "philippe",
+          "emotion": "glacial, ironique",
+          "fonction": "attaque",
+          "texte": "Et celle-là aussi, c'est l'IA, chérie ?",
+          "source": []
+        },
+        {
+          "t": "2.7-4.5",
+          "parle": "corinne",
+          "emotion": "voix enregistrée, hilare",
+          "fonction": "aveu",
+          "texte": "Le vieux lion a tout gobé !",
+          "source": [],
+          "hors_champ": true
+        },
+        {
+          "t": "4.8-6.6",
+          "parle": "corinne",
+          "emotion": "voix enregistrée, triomphante",
+          "fonction": "aveu",
+          "texte": "Ce vieux lion ne verra jamais rien.",
+          "source": [],
+          "hors_champ": true
+        },
+        {
+          "t": "6.8-7.8",
+          "parle": "martine",
+          "emotion": "outrée",
+          "fonction": "reaction",
+          "texte": "Oh, la vipère !",
+          "source": []
+        },
+        {
+          "t": "8.0-9.8",
+          "parle": "philippe",
+          "emotion": "calme",
+          "fonction": "riposte",
+          "texte": "Il a tout vu, le vieux lion.",
+          "source": []
+        }
+      ],
+      "texte_ecran": "LE BADGE CACHÉ"
+    },
+    {
+      "n": 5,
+      "role": "climax",
+      "duree": 6,
+      "lieu": "salle_gala",
+      "lumiere": "fete",
+      "cadrage": "GP",
+      "angle": "plongee",
+      "camera": "secousse",
+      "persos": [
+        {
+          "id": "corinne",
+          "tenue": "gala",
+          "jeu": "se jette sur les invités, diadème de travers, cou tordu par la panique"
+        },
+        {
+          "id": "philippe",
+          "jeu": "descend de la scène, lent, implacable"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Corinne attrape le bras d'un invité qui recule",
+          "camera": "secousse",
+          "son": "brouhaha"
+        },
+        {
+          "t": "2-4",
+          "action": "Philippe descend de la scène, la salle s'écarte"
+        },
+        {
+          "t": "4-6",
+          "action": "Corinne recule, le diadème glisse",
+          "son": "silence brutal"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.0",
+          "parle": "corinne",
+          "emotion": "suppliante",
+          "fonction": "reaction",
+          "texte": "Aidez-moi ! Dites-lui que c'est faux !",
+          "source": [
+            "r3"
+          ]
+        },
+        {
+          "t": "2.3-4.4",
+          "parle": "philippe",
+          "emotion": "froid",
+          "fonction": "attaque",
+          "texte": "Tu te croyais plus maligne que moi ?",
+          "source": [
+            "r4"
+          ]
+        },
+        {
+          "t": "4.6-5.6",
+          "parle": "corinne",
+          "emotion": "voix brisée",
+          "fonction": "reaction",
+          "texte": "Mon chat...",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "salle_gala",
+      "lumiere": "fete",
+      "cadrage": "PR",
+      "angle": "profil",
+      "camera": "orbite",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "face à Corinne, à quelques centimètres, regard ambré implacable, remonte ses lunettes"
+        },
+        {
+          "id": "corinne",
+          "tenue": "gala",
+          "jeu": "tremblante, le bec ouvert, une plume tombe"
+        }
+      ],
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {
+            "id": "corinne",
+            "jeu": "se décompose, les cils pleins de larmes de rage"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Philippe s'approche, la caméra tourne autour d'eux",
+          "camera": "orbite"
+        },
+        {
+          "t": "3-6",
+          "action": "il remonte ses lunettes, sourire froid",
+          "son": "murmures de la foule"
+        },
+        {
+          "t": "6-8",
+          "action": "il désigne le collier de diamants d'une griffe"
+        },
+        {
+          "t": "8-10",
+          "action": "Corinne se décompose",
+          "son": "coup sourd"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.8",
+          "parle": "philippe",
+          "emotion": "posé, définitif",
+          "fonction": "revelation",
+          "texte": "J'ai cru Maxime dès la première seconde.",
+          "source": []
+        },
+        {
+          "t": "3.0-5.8",
+          "parle": "philippe",
+          "emotion": "glacial",
+          "fonction": "revelation",
+          "texte": "Je t'ai crue une semaine. Pour voir jusqu'où tu irais.",
+          "source": []
+        },
+        {
+          "t": "6.0-8.4",
+          "parle": "philippe",
+          "emotion": "méprisant",
+          "fonction": "attaque",
+          "texte": "Ces diamants, tu les as payés avec mon coffre.",
+          "source": [
+            "r5"
+          ]
+        },
+        {
+          "t": "8.6-9.7",
+          "parle": "corinne",
+          "emotion": "étranglée",
+          "fonction": "reaction",
+          "texte": "Philippe, je...",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "climax",
+      "duree": 6,
+      "lieu": "salle_gala",
+      "lumiere": "fete",
+      "cadrage": "GP",
+      "angle": "face",
+      "camera": "choc",
+      "persos": [
+        {
+          "id": "martine",
+          "jeu": "décroche le collier de diamants du cou de Corinne d'un geste sec"
+        },
+        {
+          "id": "corinne",
+          "tenue": "gala",
+          "jeu": "porte les ailes à son cou dépouillé de ses diamants, horrifiée"
+        },
+        {
+          "id": "philippe",
+          "jeu": "en retrait, bras croisés"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Martine décroche le collier d'un coup sec",
+          "camera": "choc",
+          "son": "clic du fermoir"
+        },
+        {
+          "t": "3-6",
+          "action": "Corinne porte les ailes à son cou sans bijou, les invités applaudissent",
+          "son": "applaudissements"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.1",
+          "parle": "philippe",
+          "emotion": "sec",
+          "fonction": "menace",
+          "texte": "Ce soir, tu repars seule.",
+          "source": [
+            "r6"
+          ]
+        },
+        {
+          "t": "2.4-4.4",
+          "parle": "martine",
+          "emotion": "ravie, sévère",
+          "fonction": "attaque",
+          "texte": "Le collier reste au palace, madame.",
+          "source": []
+        },
+        {
+          "t": "4.6-5.6",
+          "parle": "corinne",
+          "emotion": "hurlant",
+          "fonction": "reaction",
+          "texte": "Mes diamants !",
+          "source": []
+        }
+      ],
+      "texte_decor": "COLLIER : 180 000 €"
+    },
+    {
+      "n": 8,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "porte_service",
+      "lumiere": "orage",
+      "cadrage": "PE",
+      "angle": "dos",
+      "camera": "travelling_arriere",
+      "persos": [
+        {
+          "id": "corinne",
+          "tenue": "gala",
+          "jeu": "sort sous la pluie par la porte de service, une petite boîte à chaussures dans les ailes, maquillage qui coule"
+        },
+        {
+          "id": "philippe",
+          "jeu": "dans l'embrasure, immobile"
+        },
+        {
+          "id": "martine",
+          "jeu": "tient la porte ouverte, un parapluie fermé sous l'aile"
+        }
+      ],
+      "fin": {
+        "cadrage": "PA",
+        "persos": [
+          {
+            "id": "martine",
+            "jeu": "au milieu du personnel qui applaudit dans le couloir des cuisines"
+          },
+          {
+            "id": "philippe",
+            "jeu": "referme lentement la porte métallique"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Corinne passe la porte de service sous la pluie",
+          "camera": "travelling_arriere",
+          "son": "pluie battante"
+        },
+        {
+          "t": "3-5",
+          "action": "elle se retourne, furieuse, et pointe le personnel"
+        },
+        {
+          "t": "5-8",
+          "action": "le personnel massé dans le couloir applaudit",
+          "son": "applaudissements"
+        },
+        {
+          "t": "8-10",
+          "action": "Philippe referme la porte métallique",
+          "son": "clang"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-1.8",
+          "parle": "philippe",
+          "emotion": "définitif",
+          "fonction": "menace",
+          "texte": "C'est fini, Corinne.",
+          "source": [
+            "r7"
+          ]
+        },
+        {
+          "t": "2.1-4.3",
+          "parle": "corinne",
+          "emotion": "rageuse, trempée",
+          "fonction": "riposte",
+          "texte": "Vous allez le regretter, tous !",
+          "source": []
+        },
+        {
+          "t": "4.6-6.6",
+          "parle": "martine",
+          "emotion": "faussement polie",
+          "fonction": "attaque",
+          "texte": "La porte de service, c'est par là, madame.",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "bureau",
+      "lumiere": "nuit_lampe",
+      "cadrage": "PA",
+      "angle": "face",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "tend un trousseau de clés dorées et un badge « DIRECTEUR », sourire paternel"
+        },
+        {
+          "id": "maxime",
+          "tenue": "directeur",
+          "jeu": "en costume bordeaux neuf, les yeux pleins de larmes, n'ose pas prendre les clés"
+        }
+      ],
+      "fin": {
+        "cadrage": "INSERT",
+        "persos": [
+          {
+            "id": "maxime",
+            "jeu": "sa main serre enfin le trousseau de clés dorées"
+          }
+        ],
+        "detail_image": "gros plan sur le badge doré « DIRECTEUR » épinglé sur le costume bordeaux, son petit point rouge allumé"
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Philippe tend les clés et le badge à Maxime",
+          "son": "feu qui crépite"
+        },
+        {
+          "t": "3-6",
+          "action": "il épingle le badge DIRECTEUR sur le costume de Maxime",
+          "camera": "travelling_avant"
+        },
+        {
+          "t": "6-8",
+          "action": "Maxime essuie une larme et prend les clés"
+        },
+        {
+          "t": "8-10",
+          "action": "ils se serrent la main devant la baie vitrée",
+          "son": "petit ding"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-1.6",
+          "parle": "philippe",
+          "emotion": "doux",
+          "fonction": "promesse",
+          "texte": "Oublie-la, Maxime.",
+          "source": [
+            "r8"
+          ]
+        },
+        {
+          "t": "1.8-4.0",
+          "parle": "philippe",
+          "emotion": "fier",
+          "fonction": "promesse",
+          "texte": "Ce soir, tu prends la place de son neveu.",
+          "source": [
+            "r9"
+          ]
+        },
+        {
+          "t": "4.2-6.4",
+          "parle": "philippe",
+          "emotion": "solennel",
+          "fonction": "promesse",
+          "texte": "Directeur du palace. Trois cents employés sous tes ordres.",
+          "source": [
+            "r10"
+          ]
+        },
+        {
+          "t": "6.6-8.4",
+          "parle": "philippe",
+          "emotion": "grave",
+          "fonction": "promesse",
+          "texte": "Tu as les clés. Fais-moi honneur.",
+          "source": [
+            "r11"
+          ]
+        },
+        {
+          "t": "8.8-9.8",
+          "parle": "maxime",
+          "emotion": "ému, la voix qui tremble",
+          "fonction": "reaction",
+          "texte": "On a réussi, monsieur.",
+          "source": [
+            "r12"
+          ]
+        }
+      ],
+      "texte_decor": "DIRECTEUR · 300 EMPLOYÉS"
+    },
+    {
+      "n": 10,
+      "role": "cliff",
+      "duree": 6,
+      "lieu": "porte_service",
+      "lumiere": "orage",
+      "cadrage": "TGP",
+      "angle": "contre_plongee",
+      "camera": "ralenti",
+      "persos": [
+        {
+          "id": "maxime",
+          "tenue": "directeur",
+          "jeu": "sous un parapluie, tend une boucle d'oreille en diamant dans sa paume ouverte, regard calme et digne"
+        },
+        {
+          "id": "corinne",
+          "tenue": "gala",
+          "jeu": "trempée sur le trottoir, le maquillage coulé, regarde la boucle d'oreille, bouche bée"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Maxime tend la boucle d'oreille à Corinne sous la pluie",
+          "camera": "ralenti",
+          "son": "pluie"
+        },
+        {
+          "t": "3-6",
+          "action": "il tourne les talons et rentre dans le palace, Corinne reste seule",
+          "son": "porte qui claque"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.0",
+          "parle": "maxime",
+          "emotion": "calme, poli",
+          "fonction": "riposte",
+          "texte": "Madame. Vous avez perdu ça.",
+          "source": []
+        },
+        {
+          "t": "2.3-4.6",
+          "parle": "maxime",
+          "emotion": "digne, sans colère",
+          "fonction": "riposte",
+          "texte": "Un pauvre, ça rend tout, madame.",
+          "source": []
+        }
+      ],
+      "texte_ecran": "FIN"
+    }
+  ]
+}

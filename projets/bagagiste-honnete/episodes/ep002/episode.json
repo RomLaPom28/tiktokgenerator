@@ -1,0 +1,738 @@
+{
+  "numero": 2,
+  "titre": "Fausse vidéo",
+  "format": "piège",
+  "accroche_type": "objet révélateur",
+  "cliff_type": "objet découvert",
+  "centre": "corinne",
+  "adaptation": {
+    "source": "7631273993353301270",
+    "lien": "https://www.tiktok.com/@onlyfrubidi_off/video/7631273993353301270",
+    "vues": null,
+    "repliques": "r1-r15",
+    "coupees": [
+      "r8",
+      "r9",
+      "r11",
+      "r12",
+      "r13",
+      "r14",
+      "r15"
+    ],
+    "transposition": "Partie 2 : la preuve vidéo est montrée comme dans l'original, mais le patron fait semblant de ne pas y croire (Corinne crie à la fausse vidéo IA) ; la vengeance par empoisonnement est remplacée par un piège : il cache le badge-caméra devant le coffre.",
+    "ameliorations": [
+      "Le patron fait semblant de ne pas croire la vidéo : 2e injustice, suspense jusqu'au gala",
+      "Accusation « c'est de l'IA » (sujet d'actualité, déclencheur de commentaires)",
+      "Corinne insulte son mari dans son dos (téléphone, « vieux fossile ») : méchante encore plus détestable",
+      "Indices pour le revisionnage : badge rangé dans la poche, chevalière qui tourne, Martine qui l'a vu",
+      "Cliff : le badge caché dans le cadre du coffre filme Corinne, au lieu de l'empoisonnement"
+    ]
+  },
+  "moteur": {
+    "desir": "Maxime veut qu'on reconnaisse enfin qu'il a rendu l'argent",
+    "injustice": "sa preuve vidéo est traitée de fausse vidéo IA et il est condamné à servir au gala en tablier",
+    "antagoniste": "Corinne, qui ment en face et insulte son mari dans son dos",
+    "enjeu_chiffre": "5 000 € volés, le poste de directeur promis au neveu de Corinne, le coffre du palace",
+    "force_cachee": "Philippe a gardé le badge et l'a caché devant le coffre",
+    "payoff": "au gala (épisode 3), la vidéo du coffre la démasque devant 200 invités",
+    "callback": "Un pauvre, ça garde tout.",
+    "kicker": "Le badge de Maxime, caché dans le cadre du coffre, filme Corinne qui jure que personne ne verra rien."
+  },
+  "texte_accroche": "Il dit que la preuve est fausse",
+  "question_milieu": {
+    "plan": 6,
+    "texte": "Philippe croit vraiment à la fausse vidéo ? 🤔"
+  },
+  "vote_question": "Philippe joue la comédie ou il est aveugle ?",
+  "fils_avances": [
+    "badge_camera",
+    "coffre_vide"
+  ],
+  "revele": [],
+  "reprend": "Dans le hall, juste après le cliff : Maxime vient de tendre son badge à Philippe, qui le lève devant tout le monde.",
+  "resume": "Maxime montre la vidéo de son badge : on entend Corinne garder les 5 000 €. Mais Corinne crie à la fausse vidéo faite avec l'IA, et Philippe semble la croire : il garde le badge et condamne Maxime à servir au gala en tablier. Le soir, Corinne se moque de son mari au téléphone et prévoit de vider le coffre. Elle ne voit pas que le badge de Maxime est caché dans le cadre du coffre et la filme.",
+  "fin": "Corinne jure que le vieux lion ne verra jamais rien ; zoom sur le badge de Maxime caché dans le cadre du coffre, point rouge allumé.",
+  "recettes_utilisees": [
+    "Preuve rejetée : injustice au carré",
+    "Ironie dramatique : le spectateur voit les indices, pas Corinne",
+    "Méchante qui insulte dans le dos",
+    "Objet planté puis révélé en cliff",
+    "Témoin choqué après la réplique-choc"
+  ],
+  "titre_couverture": "Elle dit que la vidéo est fausse",
+  "legende": "Il avait la preuve… et sa femme a dit que c'était une fausse vidéo IA 😤 Le patron l'a crue ? Regarde bien sa poche.",
+  "hashtags": [
+    "#partie2",
+    "#histoire",
+    "#palace",
+    "#animaux",
+    "#ia",
+    "#karma"
+  ],
+  "commentaire_epingle": "Philippe a vraiment cru à la fausse vidéo ? 🙈 Oui, il est aveugle / 🦁 Non, il prépare un piège",
+  "hooks_alternatifs": [
+    "Ma femme dit que ta vidéo est fausse. Je la crois.",
+    "J'avais la preuve. Ils ont dit que c'était de l'IA.",
+    "Elle a volé 5 000 €… et elle accuse l'IA."
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "role": "accroche",
+      "duree": 6,
+      "lieu": "hall",
+      "lumiere": "matin",
+      "cadrage": "TGP",
+      "angle": "face",
+      "camera": "crash_zoom",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "tient le badge doré du bout des griffes devant son museau, regard glacial par-dessus ses lunettes"
+        },
+        {
+          "id": "maxime",
+          "jeu": "au bord du cadre, menton relevé, la main tendue vers le badge"
+        },
+        {
+          "id": "martine",
+          "jeu": "derrière le comptoir de réception, attrape un câble d'un geste vif"
+        }
+      ],
+      "detail_image": "le point rouge du badge brille entre les griffes de Philippe",
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Philippe lève le badge vers nous, glacial",
+          "camera": "crash_zoom",
+          "son": "whoosh"
+        },
+        {
+          "t": "2-4",
+          "action": "Maxime pointe l'écran de la réception, déterminé"
+        },
+        {
+          "t": "4-6",
+          "action": "Martine bondit derrière le comptoir et attrape un câble",
+          "son": "clés qui tintent"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.4",
+          "parle": "philippe",
+          "emotion": "glacial",
+          "fonction": "attaque",
+          "texte": "Ma femme jure que tu n'es jamais monté.",
+          "source": [
+            "r1"
+          ]
+        },
+        {
+          "t": "2.5-4.5",
+          "parle": "maxime",
+          "emotion": "la voix qui se raffermit",
+          "fonction": "riposte",
+          "texte": "Alors regardez ce que mon badge a filmé.",
+          "source": [
+            "r5"
+          ]
+        },
+        {
+          "t": "4.7-5.6",
+          "parle": "martine",
+          "emotion": "pressée, aiguë",
+          "fonction": "reaction",
+          "texte": "Branchez-le !",
+          "source": []
+        }
+      ],
+      "texte_ecran": "LA PREUVE"
+    },
+    {
+      "n": 2,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "hall",
+      "lumiere": "matin",
+      "cadrage": "PA",
+      "angle": "dos",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "de dos face au grand écran de la réception, mains croisées dans le dos"
+        },
+        {
+          "id": "maxime",
+          "jeu": "à côté de lui, désigne l'écran du doigt"
+        },
+        {
+          "id": "martine",
+          "jeu": "derrière le comptoir, aile plaquée sur le bec"
+        }
+      ],
+      "detail_image": "sur le grand écran de la réception, image de badge un peu floue : Corinne devant son coffre ouvert, des billets en éventail dans les plumes, un petit point rouge clignote dans le coin de l'écran",
+      "fin": {
+        "cadrage": "GP",
+        "angle": "face",
+        "persos": [
+          {
+            "id": "maxime",
+            "jeu": "se tourne vers Philippe, plein d'espoir, les yeux brillants"
+          },
+          {
+            "id": "martine",
+            "jeu": "au second plan, bec grand ouvert"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "l'écran de la réception s'allume sur la vidéo du badge",
+          "son": "grésillement d'écran"
+        },
+        {
+          "t": "3-5",
+          "action": "on voit Corinne sur l'écran glisser les billets dans le coffre",
+          "camera": "travelling_avant"
+        },
+        {
+          "t": "5-7",
+          "action": "Martine plaque une aile sur son bec",
+          "son": "hoquet de surprise"
+        },
+        {
+          "t": "7-10",
+          "action": "Maxime se tourne vers Philippe, triomphant"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.4",
+          "parle": "corinne",
+          "emotion": "voix enregistrée, gourmande",
+          "fonction": "aveu",
+          "texte": "Cinq mille euros... pour mes boucles d'oreilles.",
+          "source": [
+            "r6"
+          ],
+          "hors_champ": true
+        },
+        {
+          "t": "2.6-4.8",
+          "parle": "corinne",
+          "emotion": "voix enregistrée, glaciale",
+          "fonction": "aveu",
+          "texte": "Et ce garçon n'a jamais frappé à ma porte.",
+          "source": [
+            "r7"
+          ],
+          "hors_champ": true
+        },
+        {
+          "t": "5.0-5.6",
+          "parle": "martine",
+          "emotion": "choquée",
+          "fonction": "reaction",
+          "texte": "QUOI ?!",
+          "source": []
+        },
+        {
+          "t": "5.9-8.3",
+          "parle": "maxime",
+          "emotion": "soulagé, accusateur",
+          "fonction": "attaque",
+          "texte": "Vous voyez ? C'est elle, la voleuse.",
+          "source": [
+            "r4"
+          ]
+        }
+      ],
+      "texte_decor": "5 000 €"
+    },
+    {
+      "n": 3,
+      "role": "retournement",
+      "duree": 6,
+      "lieu": "hall",
+      "lumiere": "matin",
+      "cadrage": "GP",
+      "angle": "contre_plongee",
+      "camera": "whip_pan",
+      "persos": [
+        {
+          "id": "corinne",
+          "tenue": "matin",
+          "jeu": "descend l'escalier d'un pas furieux, aile tendue vers Maxime, bec ouvert en grand"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Corinne déboule dans l'escalier",
+          "camera": "whip_pan",
+          "son": "talons qui claquent"
+        },
+        {
+          "t": "2-4",
+          "action": "elle pointe Maxime d'une aile tremblante de rage"
+        },
+        {
+          "t": "4-6",
+          "action": "elle se plante devant Philippe, une seule patte au sol",
+          "son": "murmures du hall"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-1.9",
+          "parle": "corinne",
+          "emotion": "outrée, théâtrale",
+          "fonction": "riposte",
+          "texte": "C'est de l'IA, mon chat !",
+          "source": []
+        },
+        {
+          "t": "2.2-4.6",
+          "parle": "corinne",
+          "emotion": "furieuse",
+          "fonction": "attaque",
+          "texte": "Il a fabriqué ma voix sur son téléphone !",
+          "source": []
+        }
+      ],
+      "texte_ecran": "FAUSSE VIDÉO ?"
+    },
+    {
+      "n": 4,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "hall",
+      "lumiere": "matin",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "regarde longuement Corinne puis Maxime, impassible, fait tourner sa chevalière"
+        },
+        {
+          "id": "corinne",
+          "tenue": "matin",
+          "jeu": "pendue à son bras, battements de cils"
+        },
+        {
+          "id": "maxime",
+          "jeu": "en face, calot serré contre la poitrine, suppliant"
+        }
+      ],
+      "fin": {
+        "cadrage": "INSERT",
+        "persos": [
+          {
+            "id": "philippe",
+            "jeu": "sa main glisse le badge doré dans la poche intérieure de son veston"
+          }
+        ],
+        "detail_image": "gros plan sur la patte de Philippe qui glisse le badge, point rouge allumé, dans sa poche intérieure, la chevalière en or bien visible"
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Philippe dévisage Corinne puis Maxime, silence lourd",
+          "son": "le piano s'arrête"
+        },
+        {
+          "t": "3-6",
+          "action": "Maxime fait un pas vers lui, suppliant",
+          "camera": "travelling_avant"
+        },
+        {
+          "t": "6-8",
+          "action": "Corinne sourit, victorieuse, et caresse le bras de Philippe"
+        },
+        {
+          "t": "8-10",
+          "action": "Philippe range le badge dans sa poche intérieure en faisant tourner sa chevalière",
+          "son": "petit ding"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.2",
+          "parle": "philippe",
+          "emotion": "froid, lent",
+          "fonction": "attaque",
+          "texte": "Aujourd'hui, une vidéo, ça se truque.",
+          "source": []
+        },
+        {
+          "t": "2.5-4.2",
+          "parle": "maxime",
+          "emotion": "désespéré",
+          "fonction": "riposte",
+          "texte": "Monsieur, c'est sa vraie voix !",
+          "source": [
+            "r3"
+          ]
+        },
+        {
+          "t": "4.5-6.6",
+          "parle": "corinne",
+          "emotion": "mielleuse et venimeuse",
+          "fonction": "attaque",
+          "texte": "Je te l'avais dit : un petit tricheur.",
+          "source": [
+            "r2"
+          ]
+        },
+        {
+          "t": "6.9-8.9",
+          "parle": "philippe",
+          "emotion": "neutre, impossible à lire",
+          "fonction": "menace",
+          "texte": "Je garde le badge. Comme preuve.",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "climax",
+      "duree": 6,
+      "lieu": "hall",
+      "lumiere": "matin",
+      "cadrage": "PE",
+      "angle": "plongee",
+      "camera": "secousse",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "pointe un doigt vers Maxime au milieu du hall, devant les clients"
+        },
+        {
+          "id": "corinne",
+          "tenue": "matin",
+          "jeu": "ricane derrière son éventail de plumes"
+        },
+        {
+          "id": "maxime",
+          "jeu": "seul au centre du marbre, tête basse, épaules tombantes"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Philippe désigne Maxime devant tout le hall",
+          "camera": "secousse",
+          "son": "BAM"
+        },
+        {
+          "t": "2-4",
+          "action": "Corinne éclate de rire, les clients se moquent"
+        },
+        {
+          "t": "4-6",
+          "action": "Maxime baisse la tête, une larme coule",
+          "son": "rires moqueurs"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.4",
+          "parle": "philippe",
+          "emotion": "sec",
+          "fonction": "attaque",
+          "texte": "Samedi, tu serviras au gala. Pour rembourser.",
+          "source": []
+        },
+        {
+          "t": "2.7-4.4",
+          "parle": "corinne",
+          "emotion": "moqueuse",
+          "fonction": "attaque",
+          "texte": "En tablier, le porte-valises !",
+          "source": []
+        },
+        {
+          "t": "4.6-5.6",
+          "parle": "maxime",
+          "emotion": "brisé, tout bas",
+          "fonction": "reaction",
+          "texte": "Oui... monsieur.",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "suite",
+      "lumiere": "nuit_lampe",
+      "cadrage": "GP",
+      "angle": "contre_plongee",
+      "camera": "orbite",
+      "persos": [
+        {
+          "id": "corinne",
+          "jeu": "vautrée sur un pouf doré, téléphone collé à l'oreille, essaie un nouveau collier devant le miroir, rire de vipère"
+        }
+      ],
+      "fin": {
+        "cadrage": "PR",
+        "persos": [
+          {
+            "id": "corinne",
+            "jeu": "envoie un bisou moqueur vers la photo de mariage de Philippe posée sur la coiffeuse"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Corinne décroche en riant, un collier à la main",
+          "son": "bijoux qui tintent"
+        },
+        {
+          "t": "3-5",
+          "action": "elle imite Philippe en se grattant la crinière d'un air idiot",
+          "camera": "orbite"
+        },
+        {
+          "t": "5-8",
+          "action": "elle tapote la porte du coffre derrière le portrait"
+        },
+        {
+          "t": "8-10",
+          "action": "elle envoie un bisou moqueur à la photo de Philippe"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-3.0",
+          "parle": "corinne",
+          "emotion": "hilare",
+          "fonction": "aveu",
+          "texte": "Allô ma chérie ? Le vieux lion a tout gobé !",
+          "source": []
+        },
+        {
+          "t": "3.2-5.6",
+          "parle": "corinne",
+          "emotion": "moqueuse",
+          "fonction": "attaque",
+          "texte": "Un pauvre, ça garde tout, et lui, il croit tout.",
+          "source": []
+        },
+        {
+          "t": "5.8-8.6",
+          "parle": "corinne",
+          "emotion": "avide, tout bas",
+          "fonction": "menace",
+          "texte": "Samedi, il nomme mon neveu directeur. Et on vide le coffre.",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "vestiaire",
+      "lumiere": "neon",
+      "cadrage": "PR",
+      "angle": "profil",
+      "camera": "travelling_lateral",
+      "persos": [
+        {
+          "id": "maxime",
+          "jeu": "assis sur le banc du vestiaire, plie un tablier blanc de serveur, abattu"
+        },
+        {
+          "id": "martine",
+          "jeu": "s'assoit à côté de lui, regarde par-dessus ses lunettes, l'air entendu"
+        }
+      ],
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {
+            "id": "maxime",
+            "jeu": "relève la tête, une lueur d'espoir dans les yeux"
+          },
+          {
+            "id": "martine",
+            "jeu": "lui fait un clin d'œil"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Maxime plie le tablier de serveur, les yeux rouges",
+          "son": "casiers qui claquent au loin"
+        },
+        {
+          "t": "3-5",
+          "action": "Martine s'assoit à côté de lui et pose une aile sur son épaule"
+        },
+        {
+          "t": "5-8",
+          "action": "elle se penche et chuchote, l'air de comploter",
+          "camera": "travelling_lateral"
+        },
+        {
+          "t": "8-10",
+          "action": "Maxime relève la tête, Martine fait un clin d'œil",
+          "son": "petit ding"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.5",
+          "parle": "martine",
+          "emotion": "indignée",
+          "fonction": "reaction",
+          "texte": "Elle t'a traité de tricheur devant tout le monde.",
+          "source": []
+        },
+        {
+          "t": "2.8-4.7",
+          "parle": "maxime",
+          "emotion": "abattu",
+          "fonction": "aveu",
+          "texte": "Il ne m'a même pas regardé, Martine.",
+          "source": []
+        },
+        {
+          "t": "4.9-8.1",
+          "parle": "martine",
+          "emotion": "à voix basse, complice",
+          "fonction": "revelation",
+          "texte": "Si. Il a mis ton badge dans sa poche. Pas à la poubelle.",
+          "source": []
+        },
+        {
+          "t": "8.3-9.7",
+          "parle": "maxime",
+          "emotion": "intrigué",
+          "fonction": "reaction",
+          "texte": "Ça veut dire quoi ?",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "bureau",
+      "lumiere": "nuit_lampe",
+      "cadrage": "AMORCE",
+      "angle": "dos",
+      "camera": "fixe",
+      "persos": [
+        {
+          "id": "corinne",
+          "jeu": "au premier plan, flou, embrasse la joue de Philippe"
+        },
+        {
+          "id": "philippe",
+          "jeu": "assis à son bureau, sourire indéchiffrable, fait tourner sa chevalière"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Corinne embrasse Philippe sur la joue, tout sourire"
+        },
+        {
+          "t": "3-6",
+          "action": "elle se retourne vers nous et grimace de dégoût en s'éloignant",
+          "son": "talons qui s'éloignent"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.0",
+          "parle": "corinne",
+          "emotion": "mielleuse",
+          "fonction": "mensonge",
+          "texte": "Tu as bien fait, mon chat.",
+          "source": []
+        },
+        {
+          "t": "2.3-4.0",
+          "parle": "philippe",
+          "emotion": "doux, mystérieux",
+          "fonction": "promesse",
+          "texte": "Samedi, j'ai une surprise pour toi.",
+          "source": [
+            "r10"
+          ]
+        },
+        {
+          "t": "4.3-5.6",
+          "parle": "corinne",
+          "emotion": "à voix basse, dégoûtée",
+          "fonction": "attaque",
+          "texte": "Vieux fossile.",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "cliff",
+      "duree": 6,
+      "lieu": "suite",
+      "lumiere": "nuit_lune",
+      "cadrage": "INSERT",
+      "angle": "face",
+      "camera": "zoom_dramatique",
+      "persos": [
+        {
+          "id": "corinne",
+          "jeu": "au fond, floue, devant le miroir, attache son collier de diamants en souriant"
+        }
+      ],
+      "detail_image": "au premier plan, coincé dans le cadre doré du portrait qui cache le coffre, le badge doré « MAXIME » avec son point rouge allumé qui filme la pièce",
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Corinne attache son collier au fond de la pièce, ravie",
+          "son": "musique douce"
+        },
+        {
+          "t": "3-6",
+          "action": "zoom brutal sur le badge caché dans le cadre du portrait, point rouge qui clignote, coupure au noir",
+          "camera": "zoom_dramatique",
+          "son": "bip + coup sourd"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.4",
+          "parle": "corinne",
+          "emotion": "triomphante",
+          "fonction": "attaque",
+          "texte": "Ce vieux lion ne verra jamais rien.",
+          "source": []
+        },
+        {
+          "t": "2.7-4.1",
+          "parle": "corinne",
+          "emotion": "chantante",
+          "fonction": "mensonge",
+          "texte": "Ni lui, ni personne.",
+          "source": []
+        }
+      ],
+      "texte_ecran": "LE BADGE ?!"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "couple",
+    "ton": "drame",
+    "format": "unique",
+    "serie": null
+  },
+  "mecaniques": [
+    {
+      "id": "question_au_spectateur",
+      "variante": "appel_suite",
+      "t": "légende",
+      "preuve": "légende : « Demande en mariage refusée pour Banane, pour une histoire de bagues ?? Attendez de voir la »"
+    }
+  ]
+}

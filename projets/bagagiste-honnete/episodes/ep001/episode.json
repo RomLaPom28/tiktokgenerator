@@ -1,0 +1,848 @@
+{
+  "numero": 1,
+  "titre": "L'enveloppe piégée",
+  "format": "test / mise à l'épreuve",
+  "accroche_type": "argent",
+  "cliff_type": "révélation coupée",
+  "centre": "maxime",
+  "adaptation": {
+    "source": "7630903132347813142",
+    "lien": "https://www.tiktok.com/@onlyfrubidi_off/video/7630903132347813142",
+    "vues": null,
+    "repliques": "r1-r19",
+    "coupees": [],
+    "transposition": "Partie 1 de la trilogie : mine → palace, paye à la mine → enveloppe piégée au vestiaire, vidéo du téléphone → badge-caméra du personnel.",
+    "ameliorations": [
+      "Hook « une enveloppe est piégée » à 0,3 s + 5 000 € à l'écran",
+      "Badge-caméra planté au plan 5 (point rouge) pour que la preuve soit juste",
+      "Humiliation publique dans le hall avec une témoin (Martine) au lieu du bureau",
+      "Phrase-signature de Corinne « Un pauvre, ça garde tout » (callback du final)",
+      "Cliff net « Mon badge filme tout » au lieu de « Regardez ça »"
+    ]
+  },
+  "moteur": {
+    "desir": "Maxime veut nourrir sa mère sans jamais voler",
+    "injustice": "il rend 5 000 € honnêtement et se fait traiter de voleur devant tout le palace",
+    "antagoniste": "Corinne, la femme du patron, qui garde l'argent et ment",
+    "enjeu_chiffre": "5 000 € et le poste de directeur du palace",
+    "force_cachee": "son badge du personnel a tout filmé",
+    "payoff": "la vidéo du badge rejoue la phrase de Corinne devant Philippe (épisode 2)",
+    "callback": "Un pauvre, ça garde tout.",
+    "kicker": "« Mon badge, monsieur ? Il filme tout. »"
+  },
+  "texte_accroche": "Une enveloppe piégée à 5 000 €",
+  "question_milieu": {
+    "plan": 6,
+    "texte": "Tu lui aurais rendu l'argent, toi ? 💰"
+  },
+  "vote_question": "Maxime aurait dû garder l'argent ?",
+  "fils_avances": [
+    "test_enveloppe",
+    "badge_camera"
+  ],
+  "revele": [
+    "badge_camera"
+  ],
+  "reprend": "",
+  "resume": "Philippe, propriétaire du palace, glisse 5 000 € de trop dans la paye de Maxime pour tester son honnêteté : s'il les rend, il deviendra directeur. Maxime, fauché, les rapporte, mais c'est Corinne qui les prend, les garde pour ses bijoux et jure que personne n'est venu. Philippe chasse Maxime devant tout le hall… jusqu'à ce que Maxime lève son badge : il filme tout.",
+  "fin": "Dans le hall, Maxime décroche son badge et le tend à Philippe : « Il filme tout. Même chez votre femme. » Corinne pâlit.",
+  "recettes_utilisees": [
+    "Test d'honnêteté annoncé tôt",
+    "Ironie dramatique : le spectateur voit le vol, pas le patron",
+    "Injustice publique avec témoin choqué",
+    "Gros chiffre lisible à l'écran",
+    "Preuve plantée puis révélée en cliff"
+  ],
+  "titre_couverture": "Il rend 5 000 €, elle le vole",
+  "legende": "Il a rendu les 5 000 € à la femme du patron… et c'est lui qu'on traite de voleur 😤 Il ne savait pas que son badge filmait tout.",
+  "hashtags": [
+    "#partie1",
+    "#histoire",
+    "#palace",
+    "#animaux",
+    "#ia",
+    "#karma"
+  ],
+  "commentaire_epingle": "Maxime aurait dû garder l'argent ? 💰 Oui, vu comment on le traite / 🙌 Non, l'honnêteté paie toujours",
+  "hooks_alternatifs": [
+    "Mon patron m'a donné 5 000 € de trop. C'était un piège.",
+    "J'ai rendu 5 000 €. On m'a traité de voleur.",
+    "Sa femme a volé l'argent que j'ai rendu. Mon badge a tout vu."
+  ],
+  "plans": [
+    {
+      "n": 1,
+      "role": "accroche",
+      "duree": 6,
+      "lieu": "vestiaire",
+      "lumiere": "neon",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "crash_zoom",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "brandit une pile d'enveloppes kraft, sourire en coin, un sourcil levé derrière ses lunettes dorées"
+        },
+        {
+          "id": "maxime",
+          "jeu": "au premier rang de la file, calot serré contre la poitrine, yeux pleins d'espoir"
+        }
+      ],
+      "detail_image": "l'enveloppe du dessus est gonflée, une liasse de billets dépasse",
+      "texte_decor": "PAIE NOVEMBRE",
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Philippe lève la pile d'enveloppes vers nous",
+          "camera": "crash_zoom",
+          "son": "whoosh"
+        },
+        {
+          "t": "2-4",
+          "action": "il tend l'enveloppe gonflée à Maxime en le fixant"
+        },
+        {
+          "t": "4-6",
+          "action": "Maxime la prend à deux mains, intimidé, les employés derrière se penchent",
+          "son": "froissement de papier"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.5",
+          "parle": "philippe",
+          "emotion": "amusé, mystérieux",
+          "fonction": "revelation",
+          "texte": "C'est la paye ! Et une enveloppe est piégée.",
+          "source": [
+            "r1"
+          ]
+        },
+        {
+          "t": "2.7-4.1",
+          "parle": "philippe",
+          "emotion": "autoritaire",
+          "fonction": "promesse",
+          "texte": "Chacun la sienne. Au suivant.",
+          "source": [
+            "r1"
+          ]
+        }
+      ],
+      "texte_ecran": "1 ENVELOPPE PIÉGÉE"
+    },
+    {
+      "n": 2,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "studio",
+      "lumiere": "nuit_lune",
+      "cadrage": "GP",
+      "angle": "plongee",
+      "camera": "travelling_avant",
+      "persos": [
+        {
+          "id": "maxime",
+          "tenue": "maison",
+          "jeu": "assis sur son matelas, l'enveloppe ouverte sur les genoux déborde de billets, bouche ouverte, oreilles dressées"
+        }
+      ],
+      "detail_image": "à côté de lui, le frigo ouvert presque vide et la bassine sous la fuite",
+      "fin": {
+        "cadrage": "PR",
+        "persos": [
+          {
+            "id": "maxime",
+            "jeu": "referme l'enveloppe d'un geste décidé, menton relevé, regard vers la photo de sa mère"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Maxime compte les billets, les yeux de plus en plus ronds",
+          "son": "billets qui se froissent"
+        },
+        {
+          "t": "3-5",
+          "action": "une goutte tombe dans la bassine, il regarde le frigo vide"
+        },
+        {
+          "t": "5-8",
+          "action": "il serre l'enveloppe contre lui, tenté, tapote ses incisives",
+          "camera": "zoom lent"
+        },
+        {
+          "t": "8-10",
+          "action": "il la referme d'un coup, décidé",
+          "son": "petit ding"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.3",
+          "parle": "maxime",
+          "emotion": "stupéfait, à voix basse",
+          "fonction": "aveu",
+          "texte": "Cinq mille de trop ?! Il s'est trompé.",
+          "source": [
+            "r2"
+          ]
+        },
+        {
+          "t": "2.7-4.4",
+          "parle": "maxime",
+          "emotion": "inquiet",
+          "fonction": "aveu",
+          "texte": "Je dois les rendre demain matin.",
+          "source": [
+            "r3"
+          ]
+        },
+        {
+          "t": "4.8-7.0",
+          "parle": "maxime",
+          "emotion": "la voix qui tremble",
+          "fonction": "aveu",
+          "texte": "Mais le frigo est vide... et le toit fuit.",
+          "source": [
+            "r3"
+          ]
+        },
+        {
+          "t": "7.5-9.1",
+          "parle": "maxime",
+          "emotion": "décidé, poings serrés",
+          "fonction": "promesse",
+          "texte": "Non. C'est pas à moi.",
+          "source": []
+        }
+      ],
+      "texte_decor": "5 000 €"
+    },
+    {
+      "n": 3,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "bureau",
+      "lumiere": "nuit_lampe",
+      "cadrage": "PE",
+      "angle": "contre_plongee",
+      "camera": "panoramique",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "debout devant la cheminée, fait tourner sa chevalière, sourire de stratège"
+        },
+        {
+          "id": "corinne",
+          "jeu": "lovée dans un fauteuil chesterfield, tapote son collier de diamants, ennuyée"
+        }
+      ],
+      "fin": {
+        "cadrage": "PR",
+        "persos": [
+          {
+            "id": "corinne",
+            "jeu": "se redresse d'un coup, le cou tendu, les yeux plissés de jalousie"
+          },
+          {
+            "id": "philippe",
+            "jeu": "au second plan, satisfait, remonte ses lunettes"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Philippe se retourne vers Corinne, fier de son idée",
+          "son": "feu qui crépite"
+        },
+        {
+          "t": "3-5",
+          "action": "Corinne manque de lâcher son verre",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "5-8",
+          "action": "Philippe s'approche et lève un doigt, solennel"
+        },
+        {
+          "t": "8-10",
+          "action": "Corinne se redresse, le cou tendu, jalouse",
+          "son": "tintement de cristal"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.8",
+          "parle": "philippe",
+          "emotion": "fier, confidentiel",
+          "fonction": "revelation",
+          "texte": "Chérie, j'ai glissé cinq mille de trop à un bagagiste.",
+          "source": [
+            "r4"
+          ]
+        },
+        {
+          "t": "3.0-4.2",
+          "parle": "corinne",
+          "emotion": "scandalisée",
+          "fonction": "reaction",
+          "texte": "Tu perds la tête ?",
+          "source": []
+        },
+        {
+          "t": "4.4-5.1",
+          "parle": "philippe",
+          "emotion": "calme",
+          "fonction": "revelation",
+          "texte": "Exprès.",
+          "source": [
+            "r4"
+          ]
+        },
+        {
+          "t": "5.4-8.6",
+          "parle": "philippe",
+          "emotion": "solennel",
+          "fonction": "promesse",
+          "texte": "S'il me les rapporte, demain il dirige mon palace.",
+          "source": [
+            "r5"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "bureau",
+      "lumiere": "nuit_lampe",
+      "cadrage": "TGP",
+      "angle": "profil",
+      "camera": "crash_zoom",
+      "persos": [
+        {
+          "id": "corinne",
+          "jeu": "rire méprisant, bec relevé, une plume sur la poitrine, regard en coin vers Philippe"
+        },
+        {
+          "id": "philippe",
+          "jeu": "flou au second plan, sourcil levé"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Corinne éclate d'un rire méprisant en tapotant son collier",
+          "camera": "crash_zoom",
+          "son": "rire aigu"
+        },
+        {
+          "t": "3-6",
+          "action": "Philippe la regarde par-dessus ses lunettes, sûr de lui"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.6",
+          "parle": "corinne",
+          "emotion": "méprisante, chantante",
+          "fonction": "attaque",
+          "texte": "Tu rêves, mon chat. Un pauvre, ça garde tout.",
+          "source": [
+            "r6"
+          ]
+        },
+        {
+          "t": "2.9-4.3",
+          "parle": "philippe",
+          "emotion": "calme, piqué",
+          "fonction": "riposte",
+          "texte": "On verra demain matin.",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "developpement",
+      "duree": 10,
+      "lieu": "couloir",
+      "lumiere": "nuit_lampe",
+      "cadrage": "PA",
+      "angle": "profil",
+      "camera": "travelling_lateral",
+      "persos": [
+        {
+          "id": "maxime",
+          "jeu": "devant la double porte dorée, tend l'enveloppe à deux mains, calot sous le bras, tête baissée"
+        },
+        {
+          "id": "corinne",
+          "jeu": "dans l'embrasure, sourire mielleux, une patte levée"
+        }
+      ],
+      "fin": {
+        "cadrage": "INSERT",
+        "persos": [
+          {
+            "id": "corinne",
+            "jeu": "ses plumes arrachent l'enveloppe des mains de Maxime"
+          },
+          {
+            "id": "maxime",
+            "jeu": "on voit sa poitrine et son badge doré au point rouge allumé"
+          }
+        ],
+        "detail_image": "gros plan sur le badge doré « MAXIME » et sa mini-caméra au point rouge allumé"
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Maxime frappe et tend l'enveloppe, intimidé",
+          "son": "toc toc"
+        },
+        {
+          "t": "3-6",
+          "action": "Corinne ouvre, son regard tombe sur l'enveloppe, sourire mielleux",
+          "camera": "travelling_lateral"
+        },
+        {
+          "t": "6-8",
+          "action": "elle arrache l'enveloppe d'un geste vif"
+        },
+        {
+          "t": "8-10",
+          "action": "la caméra plonge sur le point rouge du badge de Maxime",
+          "son": "bip discret"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-2.9",
+          "parle": "maxime",
+          "emotion": "poli, nerveux",
+          "fonction": "aveu",
+          "texte": "Madame, il y a cinq mille de trop dans ma paye.",
+          "source": [
+            "r7"
+          ]
+        },
+        {
+          "t": "3.0-4.4",
+          "parle": "maxime",
+          "emotion": "sincère",
+          "fonction": "promesse",
+          "texte": "Je viens les rendre.",
+          "source": [
+            "r7"
+          ]
+        },
+        {
+          "t": "4.7-6.0",
+          "parle": "corinne",
+          "emotion": "mielleuse",
+          "fonction": "mensonge",
+          "texte": "Donne. Mon mari est occupé.",
+          "source": [
+            "r8"
+          ]
+        },
+        {
+          "t": "6.3-8.6",
+          "parle": "corinne",
+          "emotion": "faussement douce",
+          "fonction": "mensonge",
+          "texte": "Je lui dirai que tu es un garçon honnête.",
+          "source": [
+            "r9"
+          ]
+        },
+        {
+          "t": "8.8-9.7",
+          "parle": "maxime",
+          "emotion": "soulagé",
+          "fonction": "reaction",
+          "texte": "Merci, madame.",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "suite",
+      "lumiere": "nuit_lampe",
+      "cadrage": "GP",
+      "angle": "contre_plongee",
+      "camera": "orbite",
+      "persos": [
+        {
+          "id": "corinne",
+          "jeu": "devant le coffre ouvert derrière son portrait, déploie les billets en éventail, yeux brillants de cupidité"
+        }
+      ],
+      "fin": {
+        "cadrage": "PR",
+        "persos": [
+          {
+            "id": "corinne",
+            "jeu": "referme le coffre avec un sourire de vipère, debout sur une seule patte"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Corinne fait glisser les billets entre ses plumes",
+          "son": "billets qui défilent"
+        },
+        {
+          "t": "3-5",
+          "action": "elle essaie des boucles d'oreilles en diamant devant le miroir",
+          "camera": "orbite"
+        },
+        {
+          "t": "5-8",
+          "action": "elle jette l'enveloppe vide dans le coffre"
+        },
+        {
+          "t": "8-10",
+          "action": "le portrait pivote et cache le coffre",
+          "son": "clac métallique"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.6",
+          "parle": "corinne",
+          "emotion": "gourmande",
+          "fonction": "aveu",
+          "texte": "Cinq mille euros... pour mes boucles d'oreilles.",
+          "source": [
+            "r10"
+          ]
+        },
+        {
+          "t": "3.0-5.2",
+          "parle": "corinne",
+          "emotion": "méprisante",
+          "fonction": "attaque",
+          "texte": "Un bagagiste directeur ? Jamais de la vie.",
+          "source": []
+        },
+        {
+          "t": "5.6-8.4",
+          "parle": "corinne",
+          "emotion": "glaciale",
+          "fonction": "menace",
+          "texte": "Et ce garçon n'a jamais frappé à ma porte.",
+          "source": [
+            "r11"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "developpement",
+      "duree": 6,
+      "lieu": "bureau",
+      "lumiere": "nuit_lampe",
+      "cadrage": "PR",
+      "angle": "face",
+      "camera": "whip_pan",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "regarde l'horloge, les lunettes à la main, impatient"
+        },
+        {
+          "id": "corinne",
+          "jeu": "entre en souriant, sur une seule patte, tapote son collier"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Philippe se retourne vers Corinne, plein d'espoir",
+          "camera": "whip_pan"
+        },
+        {
+          "t": "3-6",
+          "action": "Corinne hausse les épaules, faussement désolée, le visage de Philippe se ferme"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.0",
+          "parle": "philippe",
+          "emotion": "plein d'espoir",
+          "fonction": "reaction",
+          "texte": "Alors ? Mon bagagiste est monté ?",
+          "source": [
+            "r12"
+          ]
+        },
+        {
+          "t": "2.4-4.6",
+          "parle": "corinne",
+          "emotion": "faussement désolée",
+          "fonction": "mensonge",
+          "texte": "Personne, mon chat. Je t'avais prévenu.",
+          "source": [
+            "r13"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "retournement",
+      "duree": 10,
+      "lieu": "hall",
+      "lumiere": "matin",
+      "cadrage": "PE",
+      "angle": "plongee",
+      "camera": "choc",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "au milieu du hall, main tendue, regard glacial"
+        },
+        {
+          "id": "maxime",
+          "jeu": "en uniforme, une valise à la main, pétrifié, calot serré contre la poitrine"
+        },
+        {
+          "id": "martine",
+          "jeu": "derrière le comptoir, aile plaquée sur le bec"
+        },
+        {
+          "id": "corinne",
+          "tenue": "matin",
+          "jeu": "en haut de l'escalier, lunettes de soleil sur le front, sourire satisfait"
+        }
+      ],
+      "fin": {
+        "cadrage": "GP",
+        "persos": [
+          {
+            "id": "maxime",
+            "jeu": "les larmes aux yeux, secoue la tête, désespéré"
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Philippe traverse le hall et tend la main vers Maxime devant tout le personnel",
+          "camera": "choc",
+          "son": "le piano s'arrête net"
+        },
+        {
+          "t": "3-5",
+          "action": "les clients se retournent, Martine plaque une aile sur son bec"
+        },
+        {
+          "t": "5-8",
+          "action": "Maxime lâche sa valise et supplie"
+        },
+        {
+          "t": "8-10",
+          "action": "Corinne, en haut de l'escalier, ricane derrière ses lunettes",
+          "son": "murmures choqués"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.6",
+          "parle": "philippe",
+          "emotion": "glacial",
+          "fonction": "attaque",
+          "texte": "Toi. Rends mes cinq mille et ton badge.",
+          "source": [
+            "r14"
+          ]
+        },
+        {
+          "t": "2.9-4.5",
+          "parle": "philippe",
+          "emotion": "sec",
+          "fonction": "attaque",
+          "texte": "Pas de voleur dans mon palace.",
+          "source": [
+            "r15"
+          ]
+        },
+        {
+          "t": "4.7-5.4",
+          "parle": "martine",
+          "emotion": "choquée, aiguë",
+          "fonction": "reaction",
+          "texte": "QUOI ?!",
+          "source": []
+        },
+        {
+          "t": "5.7-8.4",
+          "parle": "maxime",
+          "emotion": "paniqué, la voix qui monte",
+          "fonction": "riposte",
+          "texte": "J'ai rien volé ! Monsieur, écoutez-moi deux secondes !",
+          "source": [
+            "r16"
+          ]
+        },
+        {
+          "t": "8.6-9.6",
+          "parle": "corinne",
+          "emotion": "moqueuse",
+          "fonction": "attaque",
+          "texte": "Menteur, en plus.",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "climax",
+      "duree": 6,
+      "lieu": "hall",
+      "lumiere": "matin",
+      "cadrage": "GP",
+      "angle": "face",
+      "camera": "secousse",
+      "persos": [
+        {
+          "id": "philippe",
+          "jeu": "frappe une seule fois sur le comptoir, crinière hérissée"
+        },
+        {
+          "id": "maxime",
+          "jeu": "désigne Corinne du doigt, au bord des larmes"
+        },
+        {
+          "id": "martine",
+          "jeu": "derrière le comptoir, se tourne lentement vers l'escalier, lunettes qui glissent"
+        }
+      ],
+      "timeline": [
+        {
+          "t": "0-2",
+          "action": "Philippe frappe le comptoir",
+          "camera": "secousse",
+          "son": "BAM"
+        },
+        {
+          "t": "2-4",
+          "action": "Maxime pointe Corinne en haut de l'escalier"
+        },
+        {
+          "t": "4-6",
+          "action": "Martine se tourne lentement vers Corinne",
+          "son": "clés qui tintent"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.2-1.9",
+          "parle": "philippe",
+          "emotion": "froid, définitif",
+          "fonction": "attaque",
+          "texte": "Plus un mot. Porte de service !",
+          "source": [
+            "r17"
+          ]
+        },
+        {
+          "t": "2.2-4.2",
+          "parle": "maxime",
+          "emotion": "désespéré",
+          "fonction": "riposte",
+          "texte": "C'est votre femme qui a l'enveloppe !",
+          "source": [
+            "r18"
+          ]
+        },
+        {
+          "t": "4.5-5.6",
+          "parle": "martine",
+          "emotion": "stupéfaite",
+          "fonction": "reaction",
+          "texte": "Madame Corinne ?!",
+          "source": []
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "role": "cliff",
+      "duree": 6,
+      "lieu": "hall",
+      "lumiere": "matin",
+      "cadrage": "TGP",
+      "angle": "contre_plongee",
+      "camera": "zoom_dramatique",
+      "persos": [
+        {
+          "id": "maxime",
+          "jeu": "décroche son badge doré et le tend vers Philippe, le point rouge allumé, regard soudain assuré"
+        },
+        {
+          "id": "corinne",
+          "tenue": "matin",
+          "jeu": "en arrière-plan, son sourire se fige, les lunettes glissent"
+        }
+      ],
+      "detail_image": "le point rouge du badge brille au centre de l'image",
+      "timeline": [
+        {
+          "t": "0-3",
+          "action": "Maxime décroche son badge et le lève devant Philippe",
+          "camera": "zoom_dramatique"
+        },
+        {
+          "t": "3-6",
+          "action": "Corinne pâlit, ses lunettes de soleil tombent, coupure au noir",
+          "son": "bip + coup sourd"
+        }
+      ],
+      "dialogues": [
+        {
+          "t": "0.3-2.4",
+          "parle": "maxime",
+          "emotion": "la voix qui se raffermit",
+          "fonction": "revelation",
+          "texte": "Mon badge, monsieur ? Il filme tout.",
+          "source": [
+            "r19"
+          ]
+        },
+        {
+          "t": "2.7-3.5",
+          "parle": "corinne",
+          "emotion": "étranglée",
+          "fonction": "reaction",
+          "texte": "Quoi ?",
+          "source": []
+        },
+        {
+          "t": "3.8-5.4",
+          "parle": "maxime",
+          "emotion": "calme, regard vers Corinne",
+          "fonction": "revelation",
+          "texte": "Même chez votre femme.",
+          "source": [
+            "r19"
+          ]
+        }
+      ],
+      "texte_ecran": "IL FILME TOUT"
+    }
+  ]
+}

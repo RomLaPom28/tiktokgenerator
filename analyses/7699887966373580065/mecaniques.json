@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "famille",
+    "ton": "horreur",
+    "format": "unique",
+    "serie": null
+  },
+  "mecaniques": [
+    {
+      "id": "proche_en_danger",
+      "variante": "enfant_seul",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "coupure_avant_payoff",
+      "variante": "arrivee_annoncee",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "question_legende",
+      "t": "légende",
+      "preuve": "légende : « Elle se retrouve seule, chez elle, face à un inconnu. Sa mère et la police sont en route.  »"
+    }
+  ]
+}

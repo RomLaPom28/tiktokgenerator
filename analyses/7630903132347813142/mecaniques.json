@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "verifie": true,
+  "source": "dissection.md (lecture complète)",
+  "contexte": {
+    "domaine": "travail",
+    "ton": "drame",
+    "format": "partie_1",
+    "serie": "onlyfrubidi-ouvrier"
+  },
+  "mecaniques": [
+    {
+      "id": "epreuve_verdict",
+      "variante": "test_honnetete",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "ironie_dramatique",
+      "variante": "complot_montre",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "humiliation_injuste",
+      "variante": "accusation_a_tort",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "coupure_avant_payoff",
+      "variante": "vous_voulez_voir",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}

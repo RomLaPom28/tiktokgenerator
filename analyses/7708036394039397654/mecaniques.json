@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "lycee",
+    "ton": "drame",
+    "format": "suite",
+    "serie": "fdg-kais"
+  },
+  "mecaniques": [
+    {
+      "id": "style_muet",
+      "variante": null,
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "suite_partie_n",
+      "variante": null,
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "renversement_statut",
+      "variante": "force_cachee",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "coupure_avant_payoff",
+      "variante": "arrivee_annoncee",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "question_legende",
+      "t": "légende",
+      "preuve": "légende : « Kaïs contre Ilyes… qui gagne ? 👀 Partie 3 ? #fruitstory #histoireia #boxe #lycee #partie2 »"
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "appel_suite",
+      "t": "légende",
+      "preuve": "légende : « Kaïs contre Ilyes… qui gagne ? 👀 Partie 3 ? #fruitstory #histoireia #boxe #lycee #partie2 »"
+    }
+  ]
+}

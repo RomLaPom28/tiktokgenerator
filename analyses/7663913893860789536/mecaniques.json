@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "couple",
+    "ton": "noir",
+    "format": "suite",
+    "serie": "histoiresfruite-motel"
+  },
+  "mecaniques": [
+    {
+      "id": "suite_partie_n",
+      "variante": null,
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "appel_suite",
+      "t": "légende + fin",
+      "preuve": "légende : « Infidélité au motel 💔 Republie cette vidéo et abonne toi si tu as apprécié cette histoire  »"
+    },
+    {
+      "id": "question_au_spectateur",
+      "variante": "appel_repost",
+      "t": "légende",
+      "preuve": "légende : « Infidélité au motel 💔 Republie cette vidéo et abonne toi si tu as apprécié cette histoire  »"
+    }
+  ]
+}

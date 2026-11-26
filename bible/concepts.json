@@ -1,5 +1,5 @@
 {
-  "_lisez_moi": "Bibliothèque de concepts PROUVÉS (formats qui ont déjà fait des millions de vues). Une nouvelle série ou une vidéo unique part TOUJOURS d'un de ces concepts : on garde la mécanique, on change l'univers. Complété par /analyser (collection tendances). Modifiable depuis la page. Principe : on reprend des histoires HUMAINES ; les animaux sont le casting et vivent comme des humains.",
+  "_lisez_moi": "Bibliothèque de concepts PROUVÉS (formats qui ont déjà fait des millions de vues). Une nouvelle série ou une vidéo unique part TOUJOURS d'un de ces concepts : on garde la mécanique, on change l'univers. Complété par /analyser (collection tendances). Modifiable depuis la page. Principe : on reprend des histoires HUMAINES ; les animaux sont le casting et vivent comme des humains. Champs `mecaniques_ids` (ids de bible/mecaniques.json, preuves détaillées là-bas) et `confiance` (24/11/2026 ; `mecanique` reste le texte lu par la page téléphone) : « externe » = preuve venue de la presse ou du web, pas de nos analyses.",
   "archetypes": {
     "foot": [
       "le crack arrogant",
@@ -23,7 +23,18 @@
       "le témoin commère",
       "la belle-mère toxique",
       "l'escroc qui revient",
-      "le bon copain drôle"
+      "le bon copain drôle",
+      "le fiancé charmeur hypocrite",
+      "la belle-mère qui offre de l'argent pour qu'on disparaisse",
+      "la meilleure amie usurpatrice",
+      "le frère jaloux tricheur",
+      "le parent qui a un chouchou",
+      "le patron qui juge sur l'apparence",
+      "le caïd du lycée qui rackette",
+      "le milliardaire déguisé",
+      "le parrain du quartier",
+      "la mamie milliardaire qui manipule ses héritiers",
+      "l'ex qui humilie au mariage"
     ]
   },
   "concepts": [
@@ -37,7 +48,9 @@
       "nom": "Parodie d'émission télé avec un casting non humain",
       "preuve": "Fruit Love Island (Ai Cinema, mars 2026) : environ 10 M de vues par épisode, plus de 3 M d'abonnés en une saison ; copié en légumes, nuggets, objets.",
       "risques": "Ne pas copier le nom ni le logo d'une vraie émission : nom inventé, décor inventé.",
-      "structure": "Accroche = l'élimination ou la trahison du jour. Confessionnal face caméra entre deux scènes. Fin = annonce coupée (« et la personne qui quitte… »)."
+      "structure": "Accroche = l'élimination ou la trahison du jour. Confessionnal face caméra entre deux scènes. Fin = annonce coupée (« et la personne qui quitte… »).",
+      "confiance": "externe : preuve venue de la presse ou du web, format non observé dans nos analyses",
+      "mecaniques_ids": []
     },
     {
       "exemples": [
@@ -49,7 +62,12 @@
       "nom": "Soap de quartier / famille (tromperie, héritage, trahison)",
       "preuve": "Fruit dramas et animal dramas IA 2026 : les clips les plus vus sont les tromperies et les triangles amoureux ; base de La Ferme.",
       "risques": "Insultes dégradantes et sous-entendus sexuels = cause n°1 des retraits.",
-      "structure": "Aveu ou menace en 1re réplique, retournement à 25 s et 50 s, coupure au moment de la révélation."
+      "structure": "Aveu ou menace en 1re réplique, retournement à 25 s et 50 s, coupure au moment de la révélation.",
+      "confiance": "mixte : format prouvé par la presse ou le web ; mécaniques liées mesurées dans bible/mecaniques.json",
+      "mecaniques_ids": [
+        "ironie_dramatique",
+        "coupure_avant_payoff"
+      ]
     },
     {
       "exemples": [
@@ -61,7 +79,9 @@
       "nom": "Huis clos de vestiaire / bureau (engueulade de groupe)",
       "preuve": "Format « mi-temps dans le vestiaire » et « réunion qui dégénère » : très commenté parce que chacun choisit un camp.",
       "risques": "Pas de violence montrée : la bouteille vole, on coupe.",
-      "structure": "Le coach entre et explose → chaque joueur se défend → quelqu'un balance un secret → la porte s'ouvre sur celui qu'on n'attendait pas."
+      "structure": "Le coach entre et explose → chaque joueur se défend → quelqu'un balance un secret → la porte s'ouvre sur celui qu'on n'attendait pas.",
+      "confiance": "externe : preuve venue de la presse ou du web, format non observé dans nos analyses",
+      "mecaniques_ids": []
     },
     {
       "exemples": [
@@ -73,7 +93,13 @@
       "nom": "Outsider et revanche (le moqué qui devient le meilleur)",
       "preuve": "Mini-séries IA de type ReelShort / GoodShort : le joueur rejeté, le fils qui venge son père, des centaines de millions de vues cumulées. Analyse 22/11/2026 : « humilié → transformation » Kiwi/Fraise 22,9 M (suites 8,2 / 2,7 / 5,7 M) ; « sous-estimé à force cachée » (chaussures de 100 kg 5,0 M, nouveau qui bloque le caïd d'un doigt 2,9 M) : 0,21 % de commentaires en moyenne, le double du lot.",
       "risques": "Rester crédible et éviter le harcèlement réaliste : le méchant est ridicule plus que cruel.",
-      "structure": "Humiliation publique en accroche, révélation d'un talent ou d'un secret au milieu, fin = le méchant découvre qui il est. Variante prouvée : le héros a une raison de ne pas riposter (promesse, handicap imposé jusqu'à une date) ; fin coupée sur « je vais te montrer »."
+      "structure": "Humiliation publique en accroche, révélation d'un talent ou d'un secret au milieu, fin = le méchant découvre qui il est. Variante prouvée : le héros a une raison de ne pas riposter (promesse, handicap imposé jusqu'à une date) ; fin coupée sur « je vais te montrer ».",
+      "confiance": "analyses : niveau et performance dans bible/mecaniques.json (mécaniques liées)",
+      "mecaniques_ids": [
+        "humiliation_injuste",
+        "renversement_statut",
+        "retenue_volontaire"
+      ]
     },
     {
       "exemples": [
@@ -85,7 +111,9 @@
       "nom": "Affrontement épique façon animé (shonen)",
       "preuve": "Vidéos IA « anime » de la Coupe du monde 2026 : l'une des plus grosses tendances virales de l'été ; séries « Gods of Football Partie N ».",
       "risques": "Jamais de vrais joueurs (droit à l'image, désinformation) : archétypes inventés uniquement.",
-      "structure": "Face-à-face + menace, montée de puissance, coup spécial, résultat coupé."
+      "structure": "Face-à-face + menace, montée de puissance, coup spécial, résultat coupé.",
+      "confiance": "externe : preuve venue de la presse ou du web, format non observé dans nos analyses",
+      "mecaniques_ids": []
     },
     {
       "exemples": [
@@ -97,7 +125,9 @@
       "nom": "POV / témoin qui filme",
       "preuve": "Format POV omniprésent sur TikTok ; la commère qui filme tout.",
       "risques": "Pas d'imitation de vraie vidéo d'actualité : bien montrer que c'est une fiction animée.",
-      "structure": "« Je filme parce que personne va me croire », scène vue à travers l'écran, le témoin se fait repérer."
+      "structure": "« Je filme parce que personne va me croire », scène vue à travers l'écran, le témoin se fait repérer.",
+      "confiance": "externe : preuve venue de la presse ou du web, format non observé dans nos analyses",
+      "mecaniques_ids": []
     },
     {
       "exemples": [
@@ -109,7 +139,9 @@
       "nom": "Et si… ? (explication absurde et visuelle)",
       "preuve": "Courts « what if » en 3D (style Zack D. Films) : des dizaines de millions de vues par vidéo, très partagés.",
       "risques": "Pas de cascades dangereuses imitables présentées comme réelles.",
-      "structure": "Question en 1re seconde, 3 à 5 étapes qui escaladent, chute + question ouverte."
+      "structure": "Question en 1re seconde, 3 à 5 étapes qui escaladent, chute + question ouverte.",
+      "confiance": "externe : preuve venue de la presse ou du web, format non observé dans nos analyses",
+      "mecaniques_ids": []
     },
     {
       "exemples": [
@@ -121,7 +153,11 @@
       "nom": "Procès / tribunal / conseil de discipline",
       "preuve": "Formats « tribunal » et « juge » : les commentaires votent coupable ou innocent.",
       "risques": "Ne jamais accuser une vraie personne ni un vrai club.",
-      "structure": "Accusation choc, témoins qui se contredisent, preuve surprise, verdict coupé."
+      "structure": "Accusation choc, témoins qui se contredisent, preuve surprise, verdict coupé.",
+      "confiance": "mixte : format prouvé par la presse ou le web ; mécaniques liées mesurées dans bible/mecaniques.json",
+      "mecaniques_ids": [
+        "epreuve_verdict"
+      ]
     },
     {
       "exemples": [
@@ -133,7 +169,12 @@
       "nom": "Argent et contrat (mercato, héritage, ticket gagnant)",
       "preuve": "Les histoires d'argent soudain (loto, héritage, contrat géant) sont parmi les accroches les plus efficaces des dramas IA.",
       "risques": "Pas de promotion de paris sportifs ni de sites de jeux.",
-      "structure": "Le chiffre, la tentation, la trahison, la signature interrompue."
+      "structure": "Le chiffre, la tentation, la trahison, la signature interrompue.",
+      "confiance": "mixte : format prouvé par la presse ou le web ; mécaniques liées mesurées dans bible/mecaniques.json",
+      "mecaniques_ids": [
+        "chiffre_ecran",
+        "regle_du_monde"
+      ]
     },
     {
       "exemples": [
@@ -145,7 +186,9 @@
       "nom": "Vidéo unique avec chute (sketch qui boucle)",
       "preuve": "Sketchs IA courts à chute : forts taux de revisionnage car la fin renvoie au début.",
       "risques": "Aucun.",
-      "structure": "Situation en 1 s, 3 escalades, chute + dernière image qui rejoue la 1re."
+      "structure": "Situation en 1 s, 3 escalades, chute + dernière image qui rejoue la 1re.",
+      "confiance": "externe : preuve venue de la presse ou du web, format non observé dans nos analyses",
+      "mecaniques_ids": []
     },
     {
       "exemples": [
@@ -155,9 +198,13 @@
       "id": "secret_au_miroir",
       "mecanique": "Le héros dit son secret humain face caméra ou au miroir dès 0 s (fortune cachée, faux physique, double vie, faux nom) : le spectateur en sait plus que tous les autres personnages. Les animaux jouent des humains : le secret ne dépend jamais de leur biologie.",
       "nom": "Le secret avoué au spectateur en 1re seconde",
-      "preuve": "Analyse 22/11/2026 : 13 vidéos sur 13 au-dessus de 1 M (médiane 2,5 M). « Ils ne sauront jamais que je suis en réalité une framboise » : 13,7 M, meilleure vidéo du lot ; sa compilation « Le film » 7 M.",
+      "preuve": "Analyse 22-24/11/2026 : aveu au spectateur à 0 s chez 4 comptes (record : bébé framboise, 13,7 M ; mannequin qui se fait passer pour une femme de 150 kg, 3,2 M). Toutes ces vidéos sont dans le top de leur compte, mais dans un même compte l'aveu parlé ne fait pas plus de vues que les autres vidéos (×1,07) : récurrent dans le genre, effet sur les vues non démontré.",
       "risques": "Le secret doit se comprendre sans contexte ; pas de sous-entendu sexuel explicite (tromperie suggérée, pas montrée).",
-      "structure": "0 s aveu (« ils croient que…, en vrai… ») → 5-15 s le secret est menacé → humiliations/soupçons → retournement : quelqu'un d'autre ment aussi → fin « j'ai tout entendu »."
+      "structure": "0 s aveu (« ils croient que…, en vrai… ») → 5-15 s le secret est menacé → humiliations/soupçons → retournement : quelqu'un d'autre ment aussi → fin « j'ai tout entendu ».",
+      "confiance": "analyses : niveau et performance dans bible/mecaniques.json (mécaniques liées)",
+      "mecaniques_ids": [
+        "ironie_dramatique"
+      ]
     },
     {
       "exemples": [
@@ -167,9 +214,16 @@
       "id": "test_amour",
       "mecanique": "Le héros se déguise pour savoir qui l'aime vraiment ; la belle-famille ou le patron humilie, le partenaire défend (ou trahit : double retournement). Le public attend la révélation.",
       "nom": "Test d'amour déguisé (faux pauvre, faux moche, faux gros)",
-      "preuve": "Analyse 22/11/2026 : 12 vidéos, 9 au-dessus de 1 M (médiane 1,6 M, 0,11 % de commentaires) chez 5 comptes différents : masque horrible 2,6 M, milliardaire déguisé 2,0 M, mannequin qui se fait passer pour 150 kg 3,2 M, faux crâne chauve 1,9 M.",
+      "preuve": "Analyse 22-24/11/2026 : 8 vidéos chez 5 comptes (masque horrible 2,6 M, milliardaire déguisé 2,0 M, faux crâne 1,9 M). Dans un même compte, les tests d'amour font MOINS de vues que les autres vidéos (×0,74) : moteur fréquent, à combiner avec une identité révélée plutôt que seul.",
       "risques": "Moqueries sur le physique : rester sur l'absurde (« boule de billard ») sans insultes dégradantes, cf. conformite.json.",
-      "structure": "Aveu du test à 0 s → humiliations en public (témoins) → le partenaire choisit → coupure sur « Vous voulez voir mon vrai visage ? » → partie 2 commence par la révélation et la honte des méchants."
+      "structure": "Aveu du test à 0 s → humiliations en public (témoins) → le partenaire choisit → coupure sur « Vous voulez voir mon vrai visage ? » → partie 2 commence par la révélation et la honte des méchants.",
+      "confiance": "analyses : niveau et performance dans bible/mecaniques.json (mécaniques liées)",
+      "mecaniques_ids": [
+        "epreuve_verdict",
+        "ironie_dramatique",
+        "humiliation_injuste",
+        "coupure_avant_payoff"
+      ]
     },
     {
       "exemples": [
@@ -179,9 +233,14 @@
       "id": "concours_absurde",
       "mecanique": "Un défaut ridicule (dormir partout, rester accroché, avoir soif) devient un talent dans un concours à 1 M€. Rival bodybuilder arrogant, présentateur, banderole avec le chiffre.",
       "nom": "Concours absurde à gros prix (le défaut devient un don)",
-      "preuve": "Analyse 22/11/2026 : 6 vidéos, médiane 1,6 M : championnat du monde d'accroche 1 M€ 3,1 M puis 2,8 M ; défi du sommeil 1 M€ 1,2 M ; apnée 2 M€ 1 M.",
+      "preuve": "Analyse 22-24/11/2026 : 8 vidéos chez 6 comptes (championnat d'accroche 1 M€ 3,1 M puis 2,8 M ; défi du sommeil 1,2 M ; apnée 1 M). Dans leurs comptes, les concours ne font pas mieux que les autres vidéos : à réserver aux héros sous-estimés.",
       "risques": "S'épuise vite : 2-3 épisodes maximum par concours.",
-      "structure": "0 s le défaut en image (situation dangereuse ou drôle) → découverte du concours → rival qui se moque → victoire sans effort → fin : « tu dois encore affronter le champion invaincu »."
+      "structure": "0 s le défaut en image (situation dangereuse ou drôle) → découverte du concours → rival qui se moque → victoire sans effort → fin : « tu dois encore affronter le champion invaincu ».",
+      "confiance": "analyses : niveau et performance dans bible/mecaniques.json (mécaniques liées)",
+      "mecaniques_ids": [
+        "epreuve_verdict",
+        "chiffre_ecran"
+      ]
     }
   ],
   "regles_generiques": [
@@ -190,7 +249,8 @@
     "Le concept tient en une phrase et se comprend sans avoir vu les épisodes précédents.",
     "Un personnage visuellement très distinct par rôle (couleur dominante, accessoire signature), sinon le spectateur les confond en 1 s.",
     "PRÉNOMS : prénoms français COURANTS qu'on entend partout en France, adaptés à l'ÂGE du personnage. Par défaut, prénoms français classiques et populaires : 15-35 ans → Lucas, Hugo, Théo, Léo, Jules, Nathan, Tom, Maxime, Louis, Arthur, Enzo, Mathis, Kevin, Dylan, Quentin ; Chloé, Manon, Léa, Emma, Camille, Jade, Louise, Clara, Lola, Inès, Sarah, Océane, Laura, Marine, Julie. 40-60 ans → Sandrine, Nathalie, Valérie, Isabelle, Céline, Christophe, Stéphane, Thierry, Laurent, Frédéric, Olivier. 60 ans et plus → Gérard, Bernard, Michel, Monique, Josiane, Martine. Varier les origines comme dans la vraie vie : AU MAXIMUM un prénom d'origine maghrébine ou étrangère par casting, et seulement si l'histoire s'y prête (jamais tout le casting). Jamais de jeu de mots sur l'animal (Taurito, Poulina). Jamais le nom d'une vraie célébrité. Deux personnages d'un même casting ne commencent jamais par la même lettre.",
-    "HISTOIRES HUMAINES : on reprend des drames humains (test d'amour, faux pauvre, belle-famille, revanche, caïd humilié) ; les animaux sont seulement le casting et vivent comme des humains. Leur espèce sert au look et au caractère, jamais au ressort d'intrigue."
+    "HISTOIRES HUMAINES : on reprend des drames humains (test d'amour, faux pauvre, belle-famille, revanche, caïd humilié) ; les animaux sont le casting et vivent comme des humains. Leur espèce sert au look et au caractère ; elle peut servir de ressort d'intrigue seulement si le drame reste humain et que ça crée une image choc (voir recettes.md, règle 5).",
+    "DOMAINES : le foot n'est qu'un univers parmi d'autres. Par défaut, viser les domaines universels de bible/histoires.json (couple, mariage, belle-famille, parents/enfants, héritage, lycée, travail, quartier, argent, survie)."
   ],
   "situations": {
     "foot": [
@@ -208,6 +268,22 @@
       "banc de touche",
       "infirmerie",
       "remise de trophée"
+    ],
+    "general": [
+      "matin du mariage",
+      "dîner chez la belle-famille",
+      "lecture du testament",
+      "soirée de gala de l'entreprise",
+      "cantine du lycée",
+      "test de paternité",
+      "premier rendez-vous au resto",
+      "fête d'anniversaire",
+      "repas de famille du dimanche",
+      "entretien d'embauche",
+      "maternité",
+      "enterrement",
+      "croisière en famille",
+      "porte d'entrée, enfant seul"
     ]
   }
 }

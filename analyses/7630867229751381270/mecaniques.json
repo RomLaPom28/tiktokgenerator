@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "verifie": false,
+  "source": "fiche v1 : étiquettes + accroche/structure relues le 24/11/2026, sans revoir la vidéo",
+  "contexte": {
+    "domaine": "famille",
+    "ton": "noir",
+    "format": "unique",
+    "serie": null
+  },
+  "mecaniques": [
+    {
+      "id": "ironie_dramatique",
+      "variante": "aveu_0s",
+      "t": null,
+      "preuve": ""
+    },
+    {
+      "id": "proche_en_danger",
+      "variante": "frere_menace",
+      "t": null,
+      "preuve": ""
+    }
+  ]
+}
